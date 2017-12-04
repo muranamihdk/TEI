@@ -371,8 +371,25 @@ used to define a polygon of any shape using this coordinate system:-->
                </surface>
             </facsimile></egXML>
       </p>
+      
+      <p>Paths (unclosed shapes, or linestrings) across the <gi>surface</gi> can be encoded using 
+         the <att>path</att> attribute on <gi>zone</gi>. For example, to capture the two crossing
+         lines from the above page:
+         <figure xml:id="facs-fig3">
+            <graphic url="Images/facs-fig3.jpg"/>
+            <head>Lower part of detail from p 49r from Bovelles <title>Géometrie Pratique</title></head>
+         </figure>
+         the following encoding could be used:
+         <egXML xmlns="http://www.tei-c.org/ns/Examples"><facsimile>
+            <surface ulx="0" uly="0" lrx="200" lry="300">
+               <graphic url="Bovelles-49r.png"/>
+               <zone xml:id="diagonal_01" path="46.6,215.3 82,280.1"/>
+               <zone xml:id="diagonal_02" path="45.9,264 82.3,231.4"/>
+            </surface>
+         </facsimile></egXML>
+      </p>
 
-      <p>In this example a single <gi>graphic</gi> element has been associated directly with the
+      <p>In the preceding examples a single <gi>graphic</gi> element has been associated directly with the
          surface of the page rather than nesting it within a zone. However, it is also possible to
          include multiple <gi>zone</gi> elements which contain a <gi>graphic</gi> element, if for
          example a detailed image is available. Since all <gi>zone</gi> elements use the same
