@@ -25,6 +25,10 @@
          <graphic url="../Images/issue_1453_bread_street.png"/>
          <zone xml:id="breadStreetPath" path="194,44 193,83 203,116 249,193 278,233 284,245"/>
          <zone xml:id="myHouse" points="331,28 315,47 316,68 352,66 354,44 331,28"/>
+<!-- This should be invalid on two counts: both @points and 
+     @path together (not allowed by Schematron), and @path 
+     repeats its initial coord at the end, making a polygon.-->
+         <zone xml:id="myHouseWrong" points="331,28 315,47 316,68 352,66 354,44 331,28" path="331,28 315,47 316,68 352,66 354,44 331,28"/>
       </surface>
    </facsimile>
   <text>

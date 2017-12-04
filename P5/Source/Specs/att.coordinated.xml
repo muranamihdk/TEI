@@ -4,7 +4,7 @@ Dual-licensed under CC-by and BSD2 licences
 See the file COPYING.txt for details
 $Date$
 $Id$
---><?xml-model href="http://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?><classSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" module="transcr" type="atts" ident="att.coordinated">
+--><?xml-model href="http://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?><classSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" module="transcr" type="atts" ident="att.coordinated">
   <desc versionDate="2016-02-16" xml:lang="en">provides attributes which can be used to position their parent 
     element within a two dimensional coordinate system.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">이차원 좌표 체계 내에서 위치될 수 있는 요소</desc>
@@ -87,6 +87,27 @@ rectangular space.</desc>
         of numbers, each of which gives the x,y coordinates 
         of a point on the path.</desc>
       <datatype minOccurs="2" maxOccurs="unbounded"><dataRef key="teidata.point"/></datatype>
+      <constraintSpec ident="pathmustnotbeclosed" scheme="schematron">
+        <constraint>
+          <sch:rule context="tei:*[@path]">
+            <sch:assert test="tokenize(@path, '\s+')[1] ne tokenize(@path, '\s+')[last()]">
+              The first and last elements of your path are the same. 
+              If you want to specify a closed polygon, use @points 
+              rather than @path.
+            </sch:assert>
+          </sch:rule>
+        </constraint>
+      </constraintSpec>
+      <constraintSpec ident="ifpaththennotpoints" scheme="schematron">
+        <constraint>
+          <sch:rule context="tei:*[@path]">
+            <sch:assert test="not(@points)">
+              @path can only be used if @points is not used.
+              The item must be either a polygon or a path.
+            </sch:assert>
+          </sch:rule>
+        </constraint>
+      </constraintSpec>
     </attDef>
   </attList>
   
