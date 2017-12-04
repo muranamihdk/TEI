@@ -78,5 +78,16 @@ rectangular space.</desc>
         of a point on a line enclosing the area.</desc>
       <datatype minOccurs="3" maxOccurs="unbounded"><dataRef key="teidata.point"/></datatype>
     </attDef>
+    <!-- Added by MDH per ticket #1453. -->
+    <attDef ident="path">
+      <desc versionDate="2017-12-03" xml:lang="en">identifies a path occurring within the 
+        two dimensional area within the bounding box
+        of the parent <gi>surface</gi>, <gi>zone</gi> or 
+        <gi>line</gi> element, described by a series of pairs 
+        of numbers, each of which gives the x,y coordinates 
+        of a point on the path.</desc>
+      <datatype minOccurs="2" maxOccurs="unbounded"><dataRef key="teidata.point"/></datatype>
+    </attDef>
   </attList>
+  
 </classSpec>
