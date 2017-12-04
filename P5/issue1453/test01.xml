@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Exemplars/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Exemplars/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Test document for TEI issue 1453</title>
+            <respStmt>
+               <resp>Author</resp>
+               <name>Martin Holmes</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Free for any purpose</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Created as a test file for the implementation of <ref target="https://github.com/TEIC/TEI/issues/1453">FR #1453</ref></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="../Images/issue_1453_bread_street.png"/>
+         <zone xml:id="breadStreetPath" path="194,44 193,83 203,116 249,193 278,233 284,245"/>
+         <zone xml:id="myHouse" points="331,28 315,47 316,68 352,66 354,44 331,28"/>
+      </surface>
+   </facsimile>
+  <text>
+      <body>
+         <div xml:id="breadStreetInfo" corresp="#breadStreetPath">
+         <head>
+            Bread Street
+         </head>
+         </div>
+      </body>
+  </text>
+</TEI>
