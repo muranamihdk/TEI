@@ -116,7 +116,7 @@ Physical Bibliography workgroup.</p-->
             <specDesc key="sourceDoc"/>
             <specDesc key="surface"/>
             <specDesc key="surfaceGrp"/>
-            <specDesc key="zone" atts="points"/>
+            <specDesc key="zone" atts="points path"/>
          </specList>
       </p>
 
@@ -223,15 +223,19 @@ used to define a polygon of any shape using this coordinate system:-->
          coordinate system used and the actual dimensions of the physical object represented. </p>
 
       <p>A <gi>surface</gi> element can contain one or more <gi>zone</gi> elements, each of which
-         represents a region or <term>bounding box</term> defined in terms of the same coordinate
-         space as that of its parent <gi>surface</gi> element. A zone may be rectangular or
-         non-rectangular: a rectangular zone is defined by a sequence of four coordinates in the
-         same way as a surface; a non-rectangular zone is defined using the attribute
-            <att>points</att>, which provides a sequence of coordinates, each of which specifies a
-         point on the perimeter of the zone.<note place="foot">The <att>points</att> attribute
+         represents a region, <term>bounding box</term> or path defined in terms of the same coordinate
+         space as that of its parent <gi>surface</gi> element. A zone may be a rectangular or
+         non-rectangular polygon, or an unclosed path. A rectangular zone is defined by a sequence 
+         of four coordinates in the same way as a surface; a non-rectangular polygonal zone is 
+         defined using the attribute <att>points</att>, which provides a sequence of coordinates, 
+         each of which specifies a point on the perimeter of the zone. A path, which can be used 
+         to trace a line rather than a shape on the surface, is defined using the similar 
+         <att>path</att> attribute.<note place="foot">The <att>points</att> attribute
             supplies a <soCalled>points specification</soCalled> in the same form as that required
             by the <gi>polyline</gi> or <gi>polygon</gi> elements in the SVG standard. See <ptr
-               target="http://www.w3.org/TR/SVG/shapes.html#PointsBNF"/>
+            target="http://www.w3.org/TR/SVG/shapes.html#PointsBNF"/>. Similarly, the <att>path</att>
+            attribute provides a list of points justas specified for the SVG <gi>Polyline</gi> element
+            (see <ptr target="https://www.w3.org/TR/SVG/shapes.html#PolylineElement"/>).
          </note></p>
       <p>A zone may be used to define any region of interest, such as a detail or illustration, or
          some part of the surface which is to be aligned with a particular text element, or
