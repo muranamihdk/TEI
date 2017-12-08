@@ -98,6 +98,10 @@ rectangular space.</desc>
           </sch:rule>
         </constraint>
       </constraintSpec>
+<!--   The tagdocs should provide a method for making two attributes 
+       mutually exclusive using nested attLists and attList/@org, but 
+       the Stylesheets don't yet support it. If/when they do, this 
+       rule can be removed. -->
       <constraintSpec ident="ifpaththennotpoints" scheme="schematron">
         <constraint>
           <sch:rule context="tei:*[@path]">
