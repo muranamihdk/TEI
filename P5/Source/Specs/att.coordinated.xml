@@ -90,11 +90,20 @@ rectangular space.</desc>
       <constraintSpec ident="pathmustnotbeclosed" scheme="schematron">
         <constraint>
           <sch:rule context="tei:*[@path]">
-            <sch:assert test="tokenize(@path, '\s+')[1] ne tokenize(@path, '\s+')[last()]">
-              The first and last elements of your path are the same. 
-              If you want to specify a closed polygon, use @points 
-              rather than @path.
-            </sch:assert>
+            <!--
+        Note: this is being fired an *all* @path attrs, not just those
+        inherited from att.coordinated. (At the moment, there are no
+        others, so it doesn't matter.)
+      -->
+            <sch:let name="firstPair" value="tokenize( normalize-space( @path ), '&#x20;')[1]"/>
+            <sch:let name="lastPair"  value="tokenize( normalize-space( @path ), '&#x20;')[last()]"/>
+            <sch:let name="firstLat"  value="xs:float( substring-before( $firstPair, ',') )"/>
+            <sch:let name="firstLong" value="xs:float( substring-after( $firstPair, ',') )"/>
+            <sch:let name="lastLat"   value="xs:float( substring-before( $lastPair, ',') )"/>
+            <sch:let name="lastLong"  value="xs:float( substring-after( $lastPair, ',') )"/>
+            <sch:report test="$firstLat eq $lastLat  and  $firstLong eq $lastLong">The first and
+              last elements of your path are the same. If you want to specify a closed polygon, use
+              @points rather than @path. </sch:report>
           </sch:rule>
         </constraint>
       </constraintSpec>
