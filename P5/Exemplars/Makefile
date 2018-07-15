@@ -4,6 +4,7 @@ TRANG=java -jar ../Utilities/lib/trang.jar
 JING=java -jar ../Utilities/lib/jing.jar
 BIN=${PREFIX}/bin
 NORMALODDS= \
+	tei_all.dtd \
 	tei_bare.dtd \
 	tei_corpus.dtd \
 	tei_drama.dtd \
@@ -11,7 +12,6 @@ NORMALODDS= \
 	tei_ms.dtd \
 	tei_speech.dtd \
 	tei_enrich.dtd \
-	tei_all.dtd \
 	tei_tite.dtd \
 	tei_lite.dtd \
 	tei_simplePrint.dtd

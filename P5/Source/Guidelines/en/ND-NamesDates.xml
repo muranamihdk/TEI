@@ -922,7 +922,7 @@ structure itself may be represented using feature structures (<ptr target="#FS"/
 </p>
 </div>
 
-  <div type="div3" xml:id="NDOBJ"><head>Object Names</head>
+  <div type="div3" xml:id="NDOBJN"><head>Object Names</head>
     <p><!-- Some prose about objectNames here --></p>
 
     
@@ -2408,7 +2408,7 @@ occupation and residence.</p>
 </div>
 </div>
 
-<div>
+<div xml:id="NDOBJ">
   <head>Objects</head>
   <p><!-- Some prose here about objects --></p>
   <p>

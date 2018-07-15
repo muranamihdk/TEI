@@ -19,19 +19,19 @@ $Id$
   <content>
     <macroRef key="macro.phraseSeq"/>
   </content>
-  <!--  
+  
   <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
-      <placeName>
-        <settlement>Rochester</settlement>
-        <region>New York</region>
-      </placeName>
+      <p> 
+        The <objectName ref="#MinsterLovellJewel">Minster Lovell Jewel</objectName> is probably the most similar to the
+        <objectName ref="#AlfredJewel">Alfred Jewel</objectName> and was found in <placeName ref="#MinsterLovell">Minster
+          Lovell</placeName> in <placeName ref="#Oxfordshire">Oxfordshire</placeName> and is kept at the <orgName
+            ref="#AshmoleanMuseum">Ashmolean Museum</orgName>. 
+      </p>
     </egXML>
   </exemplum>
-  -->
-  <!--
   <listRef>
-    <ptr target="#NDPLAC"/>
+    <ptr target="#NDOBJN"/>
   </listRef>
-  -->
+  
 </elementSpec>
