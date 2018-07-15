@@ -23,7 +23,7 @@
     <sequence>
       <classRef key="model.headLike" minOccurs="0" maxOccurs="unbounded"/>
       <alternate minOccurs="1" maxOccurs="unbounded">
-        <elementRef key="object"/>
+        <classRef key="model.objectLike"/>
         <elementRef key="listObject"/>
       </alternate>
       <alternate minOccurs="0" maxOccurs="unbounded">
