@@ -922,6 +922,11 @@ structure itself may be represented using feature structures (<ptr target="#FS"/
 </p>
 </div>
 
+  <div type="div3" xml:id="NDOBJ"><head>Object Names</head>
+    <p><!-- Some prose about objectNames here --></p>
+
+    
+  </div>
 </div>
 </div>
 
@@ -2402,7 +2407,23 @@ occupation and residence.</p>
 </specGrp>
 </div>
 </div>
-<div xml:id="NDNYM"><head>Names and Nyms</head>
+
+<div>
+  <head>Objects</head>
+  <p><!-- Some prose here about objects --></p>
+  <p>
+    <specGrp xml:id="DNDOBJ" n="Names for objects">
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/objectName.xml"/>
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/object.xml"/>
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/listObject.xml"/>
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.objectLike.xml"/>
+    </specGrp>
+  </p>
+  
+</div>
+
+
+  <div xml:id="NDNYM"><head>Names and Nyms</head>
 <p>So far we have discussed ways in which a name or referring string
 encountered in running text may be resolved by considering the object
 that the name refers to: in the case of a personal name, the name
@@ -2782,18 +2803,6 @@ express the same normalized value in any of the following additional ways:
 
  </p>
 
-<specGrp>
-<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.orgStateLike.xml"/>    
-<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.personal.xml"/>    
-<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.placeLike.xml"/>    
-<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.datable.iso.xml"/> 
-<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/data.temporal.iso.xml"/>
-<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/data.duration.iso.xml"/>
-    <specGrpRef target="#DNDPER"/>
-    <specGrpRef target="#DNDPLAC"/>
-    <specGrpRef target="#DCCAHPA"/>
-    <specGrpRef target="#DNDNYM"/>
-</specGrp>
 
 </div>
   
@@ -2867,6 +2876,21 @@ the dating element which bears it. However, just as we use, for instance, <att>w
       </egXML>
     
     </p>
+
+    <specGrp>
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.orgStateLike.xml"/>    
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.personal.xml"/>    
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.placeLike.xml"/>    
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.datable.iso.xml"/> 
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/data.temporal.iso.xml"/>
+      <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/data.duration.iso.xml"/>
+      <specGrpRef target="#DNDPER"/>
+      <specGrpRef target="#DNDPLAC"/>
+      <specGrpRef target="#DCCAHPA"/>
+      <specGrpRef target="#DNDNYM"/>
+      <specGrpRef target="#DNDOBJ"/>
+    </specGrp>
+    
   </div>
 </div>
 </div>
