@@ -1,0 +1,1922 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:13
+msgid "Graphs, Networks, and Trees"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:19
+msgid "Graphs"
+msgstr ""
+
+#. (itstool) path: item/term
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:20
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:50
+msgid "nodes"
+msgstr ""
+
+#. (itstool) path: item/term
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:21
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:50
+msgid "vertices"
+msgstr ""
+
+#. (itstool) path: item/term
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:22
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:51
+msgid "arcs"
+msgstr ""
+
+#. (itstool) path: item/term
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:23
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:52
+msgid "edges"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:24
+msgid "networks"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:24
+msgid "trees"
+msgstr ""
+
+#. (itstool) path: item/note
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:28
+msgid "The treatment here is largely based on the characterizations of graph types in <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:19
+msgid "<_:term-1/>, in the strictly mathematical sense, consist of points, often called <_:term-2/> or <_:term-3/>, and connections among them, called <_:term-4/>, or under certain conditions, <_:term-5/>. Among the various types of graphs are <_:term-6/> and <_:term-7/>. Graphs generally and networks in particular are dealt with directly below. Trees are dealt with separately in sections <_:ptr-8/> and <_:ptr-9/>.<_:note-10/>"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:30
+msgid "Charts"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:30
+msgid "<_:term-1/>, which typically plot data in two or more dimensions, including plots with orthogonal or radial axes, bar charts, pie charts, and the like. These can be described using the elements defined in the module for figures and graphics; see chapter <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:14
+msgid "Graphical representations are widely used for displaying relations among informational units because they help readers to visualize those relations and hence to understand them better. Two general types of graphical representations may be distinguished. <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:37
+msgid "Among the types of qualitative relations often represented by graphs are organizational hierarchies, flow charts, genealogies, semantic networks, transition networks, grammatical relations, tournament schedules, seating plans, and directions to people's houses. In developing recommendations for the encoding of graphs of various types, we have relied on their formal mathematical definitions and on the most common conventions for representing them visually. However, it must be emphasized that these recommendations do not provide for the full range of possible graphical representations, and deal only partially with questions of design, layout, and placement."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:47
+msgid "Graphs and Digraphs"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:49
+msgid "undirected"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:49
+msgid "directed"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:53
+msgid "incident"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:54
+msgid "adjacent"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:55
+msgid "ordered pairs"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:57
+msgid "edge"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:58
+msgid "adjacent from"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:59
+msgid "adjacent to"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:60
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:116
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:119
+msgid "graph"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:61
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:63
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:118
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:125
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:136
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:164
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:337
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:452
+msgid "node"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:61
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:91
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:130
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:167
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:187
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:198
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:248
+msgid "arc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:48
+msgid "Broadly speaking, graphs can be divided into two types: <_:term-1/> and <_:term-2/>. An undirected graph is a set of <_:term-3/> (or <_:term-4/>) together with a set of pairs of those vertices, called <_:term-5/> or <_:term-6/>. Each node in an arc of an undirected graph is said to be <_:term-7/> with that arc, and the two vertices (nodes) which make up an arc are said to be <_:term-8/>. An directed graph is like an undirected graph except that the arcs are <_:term-9/> of nodes. In the case of directed graphs, the term <_:term-10/> is not used; moreover, each arc in a directed graph is said to be <_:term-11/> the node from which the arc emanates, and <_:term-12/> the node to which the arc is directed. We use the element <_:gi-13/> to encode graphs as a whole, <_:gi-14/> to encode nodes or vertices, and <_:gi-15/> to encode arcs or edges; arcs can also be encoded by attributes on the <_:gi-16/> element. These elements have the following descriptions and attributes: <_:specList-17/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:70
+msgid "path"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:72
+msgid "cyclic path"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:72
+msgid "cycle"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:74
+msgid "cyclic"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:75
+msgid "acyclic"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:76
+msgid "connected"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:78
+msgid "disconnected"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:69
+msgid "Before proceeding, some additional terminology may be helpful. We define a <_:term-1/> in a graph as a sequence of nodes n1, ..., nk such that there is an arc from each ni to ni+1 in the sequence. A <_:term-2/>, or <_:term-3/> is a path leading from a particular node back to itself. A graph that contains at least one cycle is said to be <_:term-4/>; otherwise it is <_:term-5/>. We say, finally, that a graph is <_:term-6/> if there is a path from some node to every other node in the graph; any graph that is not connected is said to be <_:term-7/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:79
+msgid "Here is an example of an undirected, cyclic disconnected graph, in which the nodes are annotated with three-letter codes for airports, and the arcs connecting the nodes are represented by horizontal and vertical lines, with 90 degree bends used simply to avoid having to draw diagonal lines."
+msgstr ""
+
+#. (itstool) path: graph/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:94
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:145
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:170
+msgid "Airline Connections in Southwestern USA"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:96
+msgid "LAX"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:99
+msgid "LVG"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:102
+msgid "PHX"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:105
+msgid "TUS"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:108
+msgid "CIB"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:91
+msgid "Next is a markup of the graph, using <_:gi-1/> elements to encode the arcs. <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:116
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:117
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:192
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:248
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:986
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1417
+msgid "label"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:119
+msgid "order"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:119
+msgid "size"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:125
+msgid "degree"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:129
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:132
+msgid "from"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:130
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:133
+msgid "to"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:115
+msgid "The first child element of <_:gi-1/> may be a <_:gi-2/> to record a label for the graph; similarly, the <_:gi-3/> child of each <_:gi-4/> element records the labels of that node. The <_:att-5/> and <_:att-6/> attributes on the <_:gi-7/> element record the number of nodes and number of arcs in the graph respectively; these values are optional (since they can be computed from the rest of the graph), but if they are supplied, they must be consistent with the rest of the encoding. They can thus be used to help check that the graph has been encoded and transmitted correctly. The <_:att-8/> attribute on the <_:gi-9/> elements record the number of arcs that are incident with that node. It is optional (because redundant), but can be used to help in validity checking: if a value is given, it must be consistent with the rest of the information in the graph. Finally, the <_:att-10/> and <_:att-11/> attributes on the <_:gi-12/> elements provide pointers to the nodes connected by those arcs. Since the graph is undirected, no directionality is implied by the use of the <_:att-13/> and <_:att-14/> attributes; the values of these attributes could be interchanged in each arc without changing the graph."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:135
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:138
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:143
+msgid "adj"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:135
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:139
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:228
+msgid "adjFrom"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:135
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:140
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:227
+msgid "adjTo"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:147
+msgid "LAX2"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:150
+msgid "LVG2"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:153
+msgid "PHX2"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:156
+msgid "TUS2"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:159
+msgid "CIB2"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:135
+msgid "The <_:att-1/>, <_:att-2/>, and <_:att-3/> attributes of the <_:gi-4/> element provide an alternative method of representing unlabeled arcs, their values being pointers to the nodes which are adjacent to or from that node. The <_:att-5/> attribute is to be used for undirected graphs, and the <_:att-6/> and <_:att-7/> attributes for directed graphs. It is a semantic error for the directed adjacency attributes to be used in an undirected graph, and vice versa. Here is a markup of the preceding graph, using the <_:att-8/> attribute to represent the arcs. <_:egXML-9/>"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:172
+msgid "LAX3"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:175
+msgid "LVG3"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:178
+msgid "PHX3"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:181
+msgid "TUS3"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:184
+msgid "CIB3"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:162
+msgid "Note that each arc is represented twice in this encoding of the graph. For example, the existence of the arc from LAX to LVG can be inferred from each of the first two <_:gi-1/> elements in the graph. This redundancy, however, is not required: it suffices to describe an arc in any one of the three places it can be described (either adjacent node, or in a separate <_:gi-2/> element). Here is a less redundant representation of the same graph. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:192
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1419
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1440
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:192
+msgid "rend"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:187
+msgid "Although in many cases the <_:gi-1/> element is redundant (since arcs can be described using the adjacency attributes of their adjacent nodes), it has nevertheless been included in this module, in order to allow the convenient specification of identifiers, display or rendition information, and labels for each arc (using the attributes <_:att-2/>, <_:att-3/>, and a child <_:gi-4/> element)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:193
+msgid "Next, let us modify the preceding graph by adding directionality to the arcs. Specifically, we now think of the arcs as specifying selected routes from one airport to another, as indicated by the direction of the arrowheads in the following diagram."
+msgstr ""
+
+#. (itstool) path: graph/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:201
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:230
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:251
+msgid "Selected Airline Routes in Southwestern USA"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:203
+msgid "LAX4"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:206
+msgid "LVG4"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:209
+msgid "PHX4"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:212
+msgid "TUS4"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:215
+msgid "CIB4"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:223
+msgid "inDegree"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:223
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:760
+msgid "outDegree"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:198
+msgid "Here is an encoding of this graph, using the <_:gi-1/> element to designate the arcs. <_:egXML-2/> The attributes <_:att-3/> and <_:att-4/> indicate the number of nodes which are adjacent to and from the node concerned respectively."
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:232
+msgid "LAX5"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:235
+msgid "LVG5"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:238
+msgid "PHX5"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:241
+msgid "TUS5"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:244
+msgid "CIB5"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:227
+msgid "Here is another encoding of the graph, using the <_:att-1/> and <_:att-2/> attributes on nodes to designate the arcs. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:253
+msgid "LAX6"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:256
+msgid "LVG6"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:259
+msgid "PHX6"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:262
+msgid "TUS6"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:265
+msgid "CIB6"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:268
+msgid "SW117"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:271
+msgid "SW711"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:274
+msgid "AA218"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:277
+msgid "AW229"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:280
+msgid "AW225"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:247
+msgid "If we wish to label the arcs, say with flight numbers, then <_:gi-1/> elements must be used to hold the <_:gi-2/> elements, as in the following example. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:334
+msgid "Transition Networks"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:337
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1197
+msgid "type"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:338
+msgid "initial"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:338
+msgid "final"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:339
+msgid "states"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:335
+msgid "For encoding transition networks and other kinds of directed graphs in which distinctions among types of nodes must be made, the <_:att-1/> attribute is provided for <_:gi-2/> elements. In the following example, the <_:term-3/> and <_:term-4/> nodes (or <_:term-5/>) of the network are distinguished. It can be understood as accepting the set of strings obtained by traversing it from its initial node to its final node, and concatenating the labels."
+msgstr ""
+
+#. (itstool) path: graph/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:346
+msgid "(8)"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:353
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:401
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:405
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:409
+msgid "THE"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:356
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:417
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:421
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:425
+msgid "OLD"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:359
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:413
+msgid "MAN"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:362
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:429
+msgid "MEN"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:365
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:433
+msgid "COMES"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:368
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:437
+msgid "COME"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:371
+msgid "A finite state transducer has two labels on each arc, and can be thought of as representing a mapping from one sequence of labels to the other. The following example represents a transducer for translating the English strings accepted by the network in the preceding example into French. The nodes have been annotated with numbers, for convenience."
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:380
+msgid "0"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:383
+msgid "1"
+msgstr ""
+
+#. (itstool) path: node/label
+#. (itstool) path: leaf/label
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:386
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:740
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:746
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:755
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:761
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:794
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:800
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:809
+msgid "2"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:389
+msgid "3"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:392
+msgid "4"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:395
+msgid "5"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:398
+msgid "6"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:402
+msgid "L'"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:406
+msgid "LE"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:410
+msgid "LES"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:414
+msgid "HOMME"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:418
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:422
+msgid "VIEIL"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:426
+msgid "VIEUX"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:430
+msgid "HOMMES"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:434
+msgid "VIENT"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:438
+msgid "VIENNENT"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:441
+msgid "Family Trees"
+msgstr ""
+
+#. (itstool) path: note/ref
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:446
+msgid "Pereira and Shieber (1987)"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:443
+msgid "The family tree is that of the mathematician and philosopher Bertrand Russell, whose third wife was commonly known as Peter. The information presented here is taken from <_:ref-1/>."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:452
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:591
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:986
+msgid "value"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:442
+msgid "The next example provides an encoding a portion of a family tree<_:note-1/> in which nodes are used to represent individuals and parents of individuals, and arcs are used to represent common parentage and descent links. Let us suppose, further, that information about individuals is contained in feature structures, which are contained in feature-structure libraries elsewhere (see <_:ptr-2/>). We can use the <_:att-3/> attribute on <_:gi-4/> elements to point to those feature structures. In this particular representation of the graph, nodes representing females are framed by ovals, nodes representing males are framed by boxes, and nodes representing parents are framed by diamonds."
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:461
+msgid "Katherine"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:464
+msgid "Amberley"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:467
+msgid "K+A"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:470
+msgid "Bertrand"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:473
+msgid "Peter"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:476
+msgid "Dora"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:479
+msgid "P+B"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:482
+msgid "D+B"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:485
+msgid "Frank"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:488
+msgid "Rachel"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:491
+msgid "Conrad"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:494
+msgid "Kate"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:497
+msgid "John"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:500
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:515
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:524
+msgid "Mo"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:503
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:518
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:527
+msgid "Fa"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:506
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:509
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:521
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:533
+msgid "So"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:512
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:530
+msgid "Da"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:539
+msgid "Historical Interpretation"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:543
+msgid "sasine"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:546
+msgid "[...]"
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:548
+msgid "Item instrument of Sasine given the said Hector Mcneil confirmed and dated 28 May 1632 [...] at Edinburgh upon the 15 June 1632"
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:551
+msgid "Item ane charter granted by Archibald late earl of Argyle and Donald McNeill of Gallachalzie wh makes mention that ... the said late Earl yields and grants to the said Donald MacNeill ..."
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:556
+msgid "All and hail the two merk land of old extent of Gallachalzie with the pertinents by and in the lordship of Knapdale within the sherrifdome of Argyll"
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:560
+msgid "[description of other lands granted follows ...]"
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:561
+msgid "This Charter is dated at Inverary the 15th May 1669"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:540
+msgid "For our final example, we represent graphically the relationships among various geographic areas mentioned in a seventeenth-century Scottish document. The document itself is a <_:soCalled-1/>, which records a grant of land from the earl of Argyll to one Donald McNeill, and reads in part as follows (abbreviations have been expanded silently, and <_:q-2/> marks illegible passages): <_:q-3/>"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:563
+msgid "the two merk land of old extent of Gallachalzie with the pertinents by and in the lordship of Knapdale within the sherrifdom of Argyll"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:562
+msgid "In this example, we are concerned with the land and pertinents (i.e. accompanying sources of revenue) described as <_:q-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:568
+msgid "the Earl of Argyll's land (i.e. the lands granted by this clause of the sasine)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:570
+msgid "two mark of land in Gallachalzie"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:571
+msgid "the pertinents for this land"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:572
+msgid "the Lordship of Knapdale"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:573
+msgid "the sherrifdom of Argyll"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:578
+msgid "containment (INCLUDE)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:579
+msgid "location within (IN)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:580
+msgid "contiguity (BY)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:581
+msgid "constituency (PART OF)"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:582
+msgid "include"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:583
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:622
+msgid "in"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:566
+msgid "The passage concerns the following pieces of land: <_:list-1/> We will represent these geographic entities as nodes in a graph. Arcs in the graph will represent the following relationships among them: <_:list-2/> Note that these relationships are logically related: <_:q-3/> and <_:q-4/>, for example, are inverses of each other: the Earl of Argyll's land includes the parcel in Gallachalzie, and the parcel is therefore in the Earl of Argyll's land. Given an explicit set of inference rules, an appropriate application could use the graph we are constructing to infer the logical consequences of the relationships we identify."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:593
+msgid "within the sheriffdome of Argyll"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:599
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:610
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1038
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1046
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1054
+msgid "exclude"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:600
+msgid "That is, the three syntactic interpretations of the clause are mutually exclusive. The notion that the pertinents are in Argyll is clearly not inconsistent with the notion that both the land in Gallachalzie and the pertinents are in Argyll. The graph given here describes the possible interpretations of the clause itself, not the sets of inferences derivable from each syntactic interpretation, for which it would be convenient to use the facilities described in chapter <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:589
+msgid "Let us assume that feature-structure analyses are available which describe Gallachalzie, Knapdale, and Argyll. We will link to those feature structures using the <_:att-1/> attribute on the nodes representing those places. However, there may be some uncertainty as to which noun phrase is modified by the phrase <_:q-2/>: perhaps the entire lands (land and pertinents) are in Argyll, perhaps just the pertinents are, or perhaps only Knapdale is (together with the portion of the pertinents which is in Knapdale). We will represent all three of these interpretations in the graph; they are, however, mutually exclusive, which we represent using the <_:att-3/> attribute defined in chapter <_:ptr-4/>.<_:note-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:608
+msgid "We represent the graph and its encoding as follows, where the dotted lines in the graph indicate the mutually exclusive arcs; in the encoding, we use the <_:att-1/> attribute to indicate those arcs."
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:616
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:618
+msgid "includes"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:616
+msgid "the Earl of Argyll's land <_:mentioned-1/> (the parcel of land in) Gallachalzie"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:618
+msgid "the Earl of Argyll's land <_:mentioned-1/> the pertinents of that parcel"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:619
+msgid "by"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:619
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:620
+msgid "the pertinents are (in part) <_:mentioned-1/> the Lordship of Knapdale"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:620
+msgid "part of"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:621
+msgid "the Earl of Argyll's land, or the pertinents, or the Lordship of Knapdale, is <_:mentioned-1/> the Sherrifdom of Argyll"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:626
+msgid "Earl of Argyll's land"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:629
+msgid "Gallachalzie"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:632
+msgid "Pertinents"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:635
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:638
+msgid "Pertinents part"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:641
+msgid "Lordship of Knapdale"
+msgstr ""
+
+#. (itstool) path: node/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:644
+msgid "Sherrifdome of Argyll"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:647
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:653
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:656
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:659
+msgid "INCLUDE"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:650
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:662
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:671
+msgid "IN"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:665
+msgid "BY"
+msgstr ""
+
+#. (itstool) path: arc/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:668
+msgid "PART OF"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:614
+msgid "The graph formalizes the following relationships: <_:list-1/> We encode the graph thus: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:674
+msgid "Trees"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:675
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:683
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:769
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:959
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:971
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:984
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1196
+msgid "tree"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:680
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:683
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:768
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:961
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:983
+msgid "root"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:685
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:960
+msgid "children"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:686
+msgid "parent"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:687
+msgid "internal nodes"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:687
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:767
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:768
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:961
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:983
+msgid "iNode"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:688
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:961
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:983
+msgid "leaf"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:690
+msgid "ordered"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:691
+msgid "ordered tree"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:693
+msgid "partially ordered tree"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:675
+msgid "A <_:term-1/> is a connected acyclic graph. That is, it is possible in a tree graph to follow a path from any vertex to any other vertex, but there are no paths that lead from any vertex to itself. A rooted tree is a directed graph based on a tree; that is, the arcs in the graph correspond to the arcs of a tree such that there is exactly one node, called the <_:term-2/>, for which there is a path from that node to all other nodes in the graph. For our purposes, we may ignore all trees except for rooted trees, and hence we shall use the <_:gi-3/> element for rooted trees, and the <_:gi-4/> element for its root. The nodes adjacent to a given node are called its <_:term-5/>, and the node adjacent from a given node is called its <_:term-6/>. Nodes with both a parent and children are called <_:term-7/>, for which we use the <_:gi-8/> element. A node with no children is tagged as a <_:gi-9/>. If the children of a node are ordered from left to right, then we say that that node is <_:term-10/>. If all the nodes of a tree are ordered, then we say that the tree is an <_:term-11/>. If some of the nodes of a tree are ordered and others are not, then the tree is a <_:term-12/>. The ordering of nodes and trees may be specified by an attribute; we take the default ordering for trees to be ordered, that roots inherit their ordering from the trees in which they occur, and internal nodes inherit their ordering from their parents. Finally, we permit a node to be specified as following other nodes, which (when its parent is ordered) it would be assumed to precede, giving rise to crossing arcs. The elements used for the encoding of trees have the following descriptions and attributes. <_:specList-13/>"
+msgstr ""
+
+#. (itstool) path: p/code
+#. (itstool) path: iNode/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:708
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:722
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:734
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:764
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:776
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:788
+msgid "+"
+msgstr ""
+
+#. (itstool) path: p/code
+#. (itstool) path: iNode/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:709
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:725
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:728
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:731
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:779
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:782
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:785
+msgid "**"
+msgstr ""
+
+#. (itstool) path: p/code
+#. (itstool) path: root/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:709
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:719
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:773
+msgid "/"
+msgstr ""
+
+#. (itstool) path: p/code
+#. (itstool) path: item/code
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:711
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:814
+msgid "((a**2)+(b**2))/((a+b)**2)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:707
+msgid "Here is an example of a tree. It represents the order in which the operators of addition (symbolized by <_:code-1/>), exponentiation (symbolized by <_:code-2/>) and division (symbolized by <_:code-3/>) are applied in evaluating the arithmetic formula <_:code-4/>. In drawing the graph, the root is placed on the far right, and directionality is presumed to be to the left."
+msgstr ""
+
+#. (itstool) path: leaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:737
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:749
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:791
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:803
+msgid "a"
+msgstr ""
+
+#. (itstool) path: leaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:743
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:752
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:797
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:806
+msgid "b"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:758
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:759
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:761
+msgid "arity"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:762
+msgid "binary"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:758
+msgid "In this encoding, the <_:att-1/> attribute represents the <_:term-2/> of the tree, which is the greatest value of the <_:att-3/> attribute for any of the nodes in the tree. If, as in this case, <_:att-4/> is <_:val-5/>, we say that the tree is a <_:term-6/> tree."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:767
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:768
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:769
+msgid "ord"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:767
+msgid "false"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:768
+msgid "true"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:769
+msgid "partial"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:763
+msgid "Since the left-to-right (or top-to-bottom!) order of the children of the two <_:code-1/> nodes does not affect the arithmetic result in this case, we could represent in this tree all of the arithmetically equivalent formulas involving its leaves, by specifying the attribute <_:att-2/> as <_:val-3/> on those two <_:gi-4/> elements, the attribute <_:att-5/> as <_:val-6/> on the <_:gi-7/> and other <_:gi-8/> elements, and the attribute <_:att-9/> as <_:val-10/> on the <_:gi-11/> element, as follows. <_:egXML-12/>"
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:815
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:817
+msgid "((b**2)+(a**2))/((a+b)**2)"
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:816
+msgid "((a**2)+(b**2))/((b+a)**2)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:812
+msgid "This encoding represents all of the following: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:820
+msgid "Linguistic phrase structure is very commonly represented by trees. Here is an example of phrase structure represented by an ordered tree with its root at the top, and a possible encoding."
+msgstr ""
+
+#. (itstool) path: root/label
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:827
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:992
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1021
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1081
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1106
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1148
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1185
+msgid "PP"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:830
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:994
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1023
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1083
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1150
+msgid "P"
+msgstr ""
+
+#. (itstool) path: leaf/label
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:833
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:996
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1025
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1085
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1151
+msgid "with"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#. (itstool) path: eTree/label
+#. (itstool) path: p/code
+#. (itstool) path: triangle/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:836
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1000
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1016
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1029
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1067
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1089
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1133
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1154
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1175
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1218
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1228
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1241
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1247
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1255
+msgid "NP"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:839
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1002
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1069
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1091
+msgid "Art"
+msgstr ""
+
+#. (itstool) path: leaf/label
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:842
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1004
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1071
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1093
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1136
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1157
+msgid "the"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:845
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1008
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1075
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1097
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1143
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1162
+msgid "N"
+msgstr ""
+
+#. (itstool) path: leaf/label
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:848
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1010
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1099
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1163
+msgid "periscope"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:854
+msgid "xxx"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:852
+msgid "Finally, here is an example of an ordered tree, in which a particular node which ordinarily would precede another is specified as following it. In the drawing, the <_:code-1/> symbol indicates that the arc from VB to PT crosses the arc from VP to PN."
+msgstr ""
+
+#. (itstool) path: leaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:860
+msgid "look"
+msgstr ""
+
+#. (itstool) path: leaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:863
+msgid "them"
+msgstr ""
+
+#. (itstool) path: leaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:866
+msgid "up"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:869
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:878
+msgid "VB"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:872
+msgid "PN"
+msgstr ""
+
+#. (itstool) path: iNode/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:875
+msgid "PT"
+msgstr ""
+
+#. (itstool) path: root/label
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:881
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1059
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1125
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1222
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1250
+msgid "VP"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:951
+msgid "Another Tree Notation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:958
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:962
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:964
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:966
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:967
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:969
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:969
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:971
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:984
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:987
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1016
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1040
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1041
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1042
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1043
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1110
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1196
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1414
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1416
+msgid "eTree"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:958
+msgid "embedding tree"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:965
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:985
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:987
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1417
+msgid "eLeaf"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:967
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:972
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:984
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1015
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1196
+msgid "triangle"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:970
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:973
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1195
+msgid "forest"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:972
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1272
+msgid "listForest"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:952
+msgid "In this section, we present an alternative to the method of representing the structure of ordered rooted trees given in section <_:ptr-1/>, which is based on the observation that any node of such a tree can be thought of as the root of the subtree that it dominates. Thus subtrees can be thought of as the same type as the trees they are embedded in, hence the designation <_:gi-2/>, for <_:term-3/>. Whereas in a <_:gi-4/> the relationship among the parts is indicated by the <_:att-5/> attribute, and by the names of the elements <_:gi-6/>, <_:gi-7/>, and <_:gi-8/>, the relationship among the parts of an <_:gi-9/> is indicated simply by the arrangement of their content. However, we have chosen to enable encoders to distinguish the terminal elements of an <_:gi-10/> by means of the empty <_:gi-11/> element, though its use is not required; the <_:gi-12/> element can also be used to identify the terminal nodes of <_:gi-13/> elements. We also provide a <_:gi-14/> element, which can be thought of as an underspecified <_:gi-15/>, i.e. an <_:gi-16/> in which certain information has been left out. In addition, we provide a <_:gi-17/> element, which consists of one or more <_:gi-18/>, <_:gi-19/>, or <_:gi-20/> elements, and a <_:gi-21/> element, which consists of one or more <_:gi-22/> elements. The elements used for the encoding of embedding trees and the units containing them have the following descriptions and attributes. <_:specList-23/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:983
+msgid "Like the <_:gi-1/>, <_:gi-2/>, and <_:gi-3/> of a <_:gi-4/>, the <_:gi-5/>, <_:gi-6/> and <_:gi-7/> elements may also have <_:att-8/> attributes and <_:gi-9/> children."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:987
+msgid "To illustrate the use of the <_:gi-1/> and <_:gi-2/> elements, here is an encoding of the second example in section <_:ptr-3/>, repeated here for convenience."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1015
+msgid "Next, we provide an encoding, using the <_:gi-1/> element, in which the internal structure of the <_:gi-2/> labeled <_:code-3/> is omitted."
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1031
+msgid "the periscope"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1038
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1044
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1054
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1264
+msgid "copyOf"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1047
+msgid "see the vessel with the periscope"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1049
+msgid "with the periscope"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1050
+msgid "the vessel"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1051
+msgid "see the vessel"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1036
+msgid "Ambiguity involving alternative tree structures associated with the same terminal sequence can be encoded relatively conveniently using a combination of the <_:att-1/> and <_:att-2/> attributes described in sections <_:ptr-3/> and <_:ptr-4/>. In the simplest case, an <_:gi-5/> may be part of the content of exactly one of two different <_:gi-6/> elements. To mark it up, the embedded <_:gi-7/> may be fully specified within one of the embedding <_:gi-8/> elements to which it may belong, and a virtual copy, specified by the <_:att-9/> attribute, may appear on the other. In addition, each of the embedded elements in question is specified as excluding the other, using the <_:att-10/> attribute. To illustrate, consider the English phrase <_:mentioned-11/>, which may be considered to be structurally ambiguous, depending on whether the phrase <_:mentioned-12/> is a modifier of the phrase <_:mentioned-13/> or a modifier of the phrase <_:mentioned-14/>. This ambiguity is indicated in the sketch of the ambiguous tree by means of the dotted-line arcs. The markup using the <_:att-15/> and <_:att-16/> attributes follows the sketch."
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1061
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1129
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1172
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1224
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1252
+msgid "V"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1063
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1130
+msgid "see"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1077
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1144
+msgid "vessel"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1110
+msgid "select"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1111
+msgid "#GD-PPA"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1111
+msgid "#GD-PPB"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1109
+msgid "To indicate that one of the alternatives is selected, one may specify the <_:att-1/> attribute on the highest <_:gi-2/> as either <_:val-3/> or <_:val-4/>; see section <_:ptr-5/>."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1114
+msgid "see the man with the periscope"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1116
+msgid "X-bar"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1113
+msgid "Depending on the grammar one uses to associate structures with examples like <_:mentioned-1/>, the representations may be more complicated than this. For example, adopting a version of the <_:term-2/> theory of phrase structure originated by Jackendoff,<_:note-3/> the attachment of a modifier may require the creation of an intermediate node which is not required when the attachment is not made, as shown in the following diagram. A possible encoding of this ambiguous structure immediately follows the diagram."
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1127
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1168
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1170
+msgid "V'"
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1135
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1156
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1177
+msgid "Spec"
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1139
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1141
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1160
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1180
+msgid "N'"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1193
+msgid "derivation"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1199
+msgid "wh-movement"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1200
+msgid "what you do"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1200
+msgid "this is what you do"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1201
+msgid "you do what"
+msgstr ""
+
+#. (itstool) path: note/code
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1203
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1213
+msgid "e"
+msgstr ""
+
+#. (itstool) path: note/code
+#. (itstool) path: eLeaf/label
+#. (itstool) path: p/val
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1203
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1257
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1367
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1373
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1429
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1452
+msgid "t"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1204
+msgid "empty category"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1205
+msgid "trace"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1202
+msgid "The symbols <_:code-1/> and <_:code-2/> denote special theoretical constructs (<_:term-3/> and <_:term-4/> respectively), which need not concern us here."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1193
+msgid "A <_:term-1/> in a generative grammar is often thought of as a set of trees. To encode such a derivation, one may use the <_:gi-2/> element, in which the trees may be marked up using the <_:gi-3/>, the <_:gi-4/>, or the <_:gi-5/> element. The <_:att-6/> attribute may be used to specify what kind of derivation it is. Here is an example of a two-tree forest, involving application of the <_:soCalled-7/> transformation in the derivation of <_:mentioned-8/> (as in <_:mentioned-9/>) from the underlying <_:mentioned-10/>.<_:note-11/>"
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1210
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1237
+msgid "S'"
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1212
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1239
+msgid "COMP"
+msgstr ""
+
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1216
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1245
+msgid "S"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1219
+msgid "you"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1225
+msgid "do"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1230
+msgid "what"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1267
+msgid "corresp"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1264
+msgid "In this markup, we have used <_:att-1/> attributes to provide virtual copies of elements in the tree representing the second stage of the derivation that also occur in the first stage, and the <_:att-2/> attribute (see section <_:ptr-3/>) to link those elements in the second stage with corresponding elements in the first stage that are not copies of them."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1270
+msgid "If a group of forests (e.g. a full grammatical derivation including syntactic, semantic, and phonological subderivations) is to be articulated, the grouping element <_:gi-1/> may be used."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1350
+msgid "Representing Textual Transmission"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1352
+msgid "stemma codicum"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1353
+msgid "stemma"
+msgstr ""
+
+#. (itstool) path: figure/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1356
+msgid "Example stemma"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1352
+msgid "A <_:term-1/> (sometimes called just <_:term-2/>) is a tree-like graphic structure that has become traditional in manuscript studies for representing textual transmission. Consider the following hypothetical stemma: <_:figure-3/>"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1364
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1372
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1426
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1449
+msgid "L"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1370
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1380
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1382
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1383
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1443
+msgid "α"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1374
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1424
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1447
+msgid "δ"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1360
+msgid "The nodes in this stemma represent manuscripts; each has a label (a letter) which identifies it and also distinguishes whether the manuscript is extant, lost, or hypothetical. Extant manuscripts are identified by uppercase Latin letters or words beginning with uppercase Latin letters, e.g., <_:val-1/>, shown as aqua in this example; manuscripts no longer existing, but providing readings which are attested e.g. by note or copy made before their disappearance, are identified by lowercase Latin letters, e.g., <_:val-2/>, shown as magenta in this example; hypothetical stages in the textual transmission, which do not necessarily correspond to real manuscripts, are given lowercase Greek letters, e.g., <_:val-3/> and shown as gold in this example. The stemma shown above thus suggests that (on the basis of similarities in the readings of the extant and lost manuscripts) <_:val-4/> and <_:val-5/> share textual material that is not shared with other manuscripts (represented in this case by <_:val-6/>) even though no physical manuscript attesting this stage in the textual transmission has ever been identified."
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1381
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1445
+msgid "β"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1381
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1402
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1467
+msgid "γ"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1378
+msgid "Manuscripts are copied from other manuscripts. The preceding stemma represents the hypothesis that all manuscripts go back to a common ancestor (<_:val-1/>), that the tradition split after that stage into two (<_:val-2/> and <_:val-3/>), etc. Descent by copying is indicated with a solid line. According to this model, <_:val-4/> is the earliest common hypothetical stage that can be reconstructed, and all nodes below <_:val-5/> have a single parent, that is, were copied from a single other stage in the tradition."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1400
+msgid "contamination"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1401
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1461
+msgid "A"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: eTree/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1402
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1456
+msgid "ε"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1387
+msgid "This familiar tree model is complicated because manuscripts sometimes show the influence of more than one ancestor. They may have been produced by a scribe who checked the text in one manuscript of the same work whilst copying from another, or perhaps made changes from his memory of a slightly different version of the text that he had read elsewhere. Alternatively, perhaps scribe A copied a manuscript from one source, scribe B made changes in it in the margins or between the lines (either by consulting another source directly or from memory), and another scribe then copied that manuscript, incorporating the changes into the body. Whatever the specific scenario, it is not uncommon for a manuscript to be based primarily on one source, but to incorporate features of another branch of the tradition. This mixed result is called <_:term-1/>, and it is reflected in a stemma by a dotted line. Thus, the example above asserts that <_:val-2/> is copied within the <_:val-3/> tradition, but is also contaminated from the <_:val-4/> tradition."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1408
+msgid "closed tradition"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1409
+msgid "open tradition"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1405
+msgid "The utility of a stemma as a visualization tool is inversely proportional to the degree of contamination in the manuscript tradition. A tradition completely without contamination (called a <_:term-1/>) yields a classic tree, easily represented graphically by a stemma. An <_:term-2/>, with substantial contamination, yields a spaghetti-like stemma characterized by crossing dotted lines, which is both difficult to read and not very informative."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1419
+msgid "n"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1437
+msgid "ptr"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1438
+msgid "target"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1458
+msgid "R"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1469
+msgid "I"
+msgstr ""
+
+#. (itstool) path: eLeaf/label
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1472
+msgid "X"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1414
+msgid "The <_:gi-1/> element introduced in this chapter can be used to represent a closed tradition in a straightforward manner. Each non-terminal node is represented by a typed <_:gi-2/> element and each terminal node by an <_:gi-3/>. A <_:gi-4/> element provides a way of identifying each node, complementary to the global attributes <_:att-5/> and <_:att-6/> attributes. For example, the closed part of the tradition headed by the label δ may be encoded as follows: <_:egXML-7/> To complete this representation, we need to show that the node labelled A is not derived solely from its parent node (labelled ε) but also demonstrates contamination from the node labelled γ. The easiest way to accomplish this is to include an appropriately-typed <_:gi-8/> element within the node in question, the <_:att-9/> of which points to the node labelled γ. This requires that this latter node be supplied with a value for its <_:att-10/> attribute. The complete representation is thus: <_:egXML-11/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1478
+msgid "In any substantial codicological project, it is likely that significantly more data will be required about the individual witnesses than indicated in the simple structures above. These Guidelines provide a rich variety of additional elements for representing such information: see in particular chapters <_:ptr-1/>, <_:ptr-2/>, and <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1487
+msgid "Module for Graphs, Networks, and Trees"
+msgstr ""
+
+#. (itstool) path: moduleSpec/altIdent
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1491
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1492
+msgid "Graphs, networks, and trees"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1493
+msgid "Graphes, réseaux et arbres"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1494
+msgid "圖形、網絡與樹狀結構"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1495
+msgid "Grafici, reti e alberi"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1496
+msgid "Grafos, redes, e árvores"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1497
+msgid "グラフモジュール"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/GD-GraphsNetworksTrees.xml:1488
+msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>. <_:specGrpRef-3/> <_:specGrpRef-4/> <_:specGrpRef-5/>"
+msgstr ""
+

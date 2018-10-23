@@ -1,0 +1,2310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:12
+msgid "A Gentle Introduction to XML"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:14
+msgid "The encoding scheme defined by these Guidelines is formulated as an application of the Extensible Markup Language (XML) (<_:ptr-1/>). XML is widely used for the definition of device-independent, system-independent methods of storing and processing texts in electronic form. It is now also the interchange and communication format used by many applications on the World Wide Web. In the present chapter we informally introduce some of its basic concepts and attempt to explain to the reader encountering them for the first time how and why they are used in the TEI scheme. More detailed technical accounts of TEI practice in this respect are provided in chapters <_:ptr-2/>, <_:ptr-3/>, and <_:ptr-4/> of these Guidelines."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:25
+msgid "metalanguage"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:27
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:28
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:36
+msgid "markup"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:25
+msgid "Strictly speaking, XML is a <_:term-1/>, that is, a language used to describe other languages, in this case, <_:term-2/> languages. Historically, the word <_:term-3/> has been used to describe annotation or other marks within a text intended to instruct a compositor or typist how a particular passage should be printed or laid out. Examples include wavy underlining to indicate boldface, special symbols for passages to be omitted or printed in a particular font, and so forth. As the formatting and printing of texts was automated, the term was extended to cover all sorts of special codes inserted into electronic texts to govern formatting, printing, or other processing."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:37
+msgid "encoding"
+msgstr ""
+
+#. (itstool) path: p/foreign
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:46
+msgid "scriptio continua"
+msgstr ""
+
+#. (itstool) path: note/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:47
+msgid "continuous writing"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:46
+msgid "In the <_:q-1/> characteristic of manuscripts from the early classical period, words are written continuously with no intervening spaces or punctuation."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:36
+msgid "Generalizing from that sense, we define <_:term-1/>, or (synonymously) <_:term-2/>, as any means of making explicit an interpretation of a text. Of course, all printed texts are implicitly encoded (or marked up) in this sense: punctuation marks, capitalization, disposition of letters around the page, even the spaces between words all might be regarded as a kind of markup, the purpose of which is to help the human reader determine where one word ends and another begins, or how to identify gross structural features such as headings or simple syntactic units such as dependent clauses or sentences. Encoding a text for computer processing is, in principle, like transcribing a manuscript from <_:foreign-3/><_:note-4/>; it is a process of making explicit what is conjectural or implicit, a process of directing the user as to how the content of the text should be (or has been) interpreted."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:53
+msgid "markup language"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:53
+msgid "By <_:term-1/> we mean a set of markup conventions used together for encoding texts. A markup language must specify how markup is to be distinguished from text, what markup is allowed, what markup is required, and what the markup means. XML provides the means for doing the first three; documentation such as these Guidelines is required for the last."
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:64
+msgid "New textbooks and websites about XML appear at regular intervals and to select any one of them would be invidious. some recommended online courses include <_:ptr-1/> and <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:60
+msgid "The present chapter attempts to give an informal introduction to those parts of XML of which a proper understanding is necessary to make best use of these Guidelines. The interested reader should also consult one or more of the many excellent introductory textbooks and web sites now available on the subject.<_:note-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:71
+msgid "What's Special about XML?"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:75
+msgid "it places emphasis on descriptive rather than procedural markup;"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:78
+msgid "validity"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:78
+msgid "document type definition"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:77
+msgid "it distinguishes the concepts of syntactic correctness and of <_:term-1/> with respect to a <_:term-2/>;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:79
+msgid "it is independent of any one hardware or software system."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:73
+msgid "XML has three highly distinctive advantages: <_:list-1/> These three aspects are discussed briefly below, and then in more depth in the remainder of this chapter."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:88
+msgid "extensible"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:88
+msgid "XML is <_:hi-1/>: it does not consist of a fixed set of tags;"
+msgstr ""
+
+#. (itstool) path: item/hi
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:90
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:363
+msgid "well-formed"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:90
+msgid "XML documents must be <_:hi-1/> according to a defined syntax;"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:92
+msgid "validated"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:92
+msgid "an XML document can be formally <_:hi-1/> against a schema of some kind;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:94
+msgid "XML is more interested in the meaning of data than in its presentation."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:83
+msgid "XML is frequently compared with HTML, the language in which web pages have generally been written, which shares some of the above characteristics. Compared with HTML, however, XML has some other important features: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:97
+msgid "Descriptive Markup"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:101
+msgid "para"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:101
+msgid "\\end{list}"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:102
+msgid "the following item is a paragraph"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:103
+msgid "this is the end of the most recently begun list"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:106
+msgid "call procedure PARA with parameters 42, b, and x here"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:106
+msgid "move the left margin 2 quads left, move the right margin 2 quads right, skip down one line, and go to the new left margin,"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:99
+msgid "In a descriptive markup system, the markup codes used do little more than categorize parts of a document. Markup codes such as <_:tag-1/> or <_:code-2/> simply identify a portion of a document and assert of it that <_:q-3/>, or <_:q-4/>, etc. By contrast, a procedural markup system defines what processing is to be carried out at particular points in a document: <_:q-5/> or <_:q-6/> etc. In XML, the instructions needed to process a document for some particular purpose (for example, to format it) are sharply distinguished from the markup used to describe it."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:115
+msgid "stylesheet"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:117
+msgid "We do not here discuss in any detail the ways that a stylesheet can be used or defined, nor do we discuss the popular W3C Stylesheet Languages XSLT and CSS. See further <_:ptr-1/>, <_:ptr-2/>, and <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:113
+msgid "Usually, the markup or other information needed to process a document will be maintained separately from the document itself, typically in a distinct document called a <_:term-1/>, though it may do much more than simply define the rendition or visual appearance of a document.<_:note-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:123
+msgid "When descriptive markup is used, the same document can readily be processed in many different ways, using only those parts of it which are considered relevant. For example, a content analysis program might disregard entirely the footnotes embedded in an annotated text, while a formatting program might extract and collect them all together for printing at the end of each chapter. Different kinds of processing can be carried out with the same part of a file. For example, one program might extract names of persons and places from a document to create an index or database, while another, operating on the same text, but using a different stylesheet, might print names of persons and places in a distinctive typeface."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:137
+msgid "Types of Document"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:139
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:324
+msgid "document type"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:143
+msgid "report"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:144
+msgid "title"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:145
+msgid "author"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:146
+msgid "abstract"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:147
+msgid "paragraphs"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:139
+msgid "A second key aspect of XML is its notion of a <_:term-1/>: documents are regarded as having types, just as other objects processed by computers do. The type of a document is formally defined by its constituent parts and their structure. The definition of a <_:soCalled-2/>, for example, might be that it consisted of a <_:soCalled-3/> and possibly an <_:soCalled-4/>, followed by an <_:soCalled-5/> and a sequence of one or more <_:soCalled-6/>. Anything lacking a title, according to this formal definition, would not formally be a report, and neither would a sequence of paragraphs followed by an abstract, whatever other report-like characteristics these might have for the human reader."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:153
+msgid "parser"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:162
+msgid "intelligent"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:152
+msgid "If documents are of known types, a special-purpose program (called a <_:term-1/>), once provided with an unambiguous definition of a document type, can check that any document claiming to be of that type does in fact conform to the specification. A parser can check that all elements specified for a particular document type are present and no others, that they are combined in appropriate ways, correctly ordered, and so forth. More significantly, different documents of the same type can be processed in a uniform way. Programs can be written which take advantage of the knowledge encapsulated in the document type information, and which can thus behave in a more <_:soCalled-2/> fashion."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:165
+msgid "Data Independence"
+msgstr ""
+
+#. (itstool) path: note/title
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:176
+msgid "Extensible Markup Language (XML) 1.0"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:176
+msgid "See <_:title-1/>, available from <_:ptr-2/>, Section 2.2 Characters."
+msgstr ""
+
+#. (itstool) path: note/title
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:179
+msgid "Information Technology — Universal Multiple-Octet Coded Character Set"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:179
+msgid "ISO/IEC 10646-1993 <_:title-1/> (UCS)"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:183
+msgid "See <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:167
+msgid "A basic design goal of XML is to ensure that documents encoded according to its provisions can move from one hardware and software environment to another without loss of information. The two features discussed so far both address this requirement at an abstract level; the third feature addresses it at the level of the strings of data characters that make up a document. All XML documents, whatever languages or writing systems they employ, use the same underlying character encoding (that is, the same method of representing as binary data those graphic forms making up a particular writing system).<_:note-1/> This encoding is defined by an international standard,<_:note-2/> which is implemented by a universal character set maintained by an industry group called the Unicode Consortium, and known as Unicode.<_:note-3/> Unicode provides a standardized way of representing any of the many thousands of discrete symbols making up the world's writing systems, past and present."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:202
+msgid "character references"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:199
+msgid "Most modern computing systems now support Unicode directly; for those which do not, XML provides a mechanism for the indirect representation of single characters by means of their character number, known as <_:term-1/>; see further <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:206
+msgid "Textual Structures"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:207
+msgid "A text is not an undifferentiated sequence of words, much less of bytes. For different purposes, it may be divided into many different units, of different types or sizes. A prose text such as this one might be divided into sections, chapters, paragraphs, and sentences. A verse text might be divided into cantos, stanzas, and lines. Once printed, sequences of prose and verse might be divided into volumes, gatherings, and pages."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:216
+msgid "the third sentence of the second paragraph in chapter ten"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:217
+msgid "canto 10, line 1234"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:218
+msgid "page 412"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:220
+msgid "is the average sentence length of section 2 different from that of section 5?"
+msgstr ""
+
+#. (itstool) path: q/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:222
+msgid "nature"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:221
+msgid "how many paragraphs separate each occurrence of the word <_:mentioned-1/>? how many pages?"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:227
+msgid "the 93rd speech by Horatio in Act 2"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:215
+msgid "Structural units of this kind are most often used to identify specific locations or refer to points within a text (<_:q-1/>; <_:q-2/>; <_:q-3/>, etc.) but they may also be used to subdivide a text into meaningful fragments for analytic purposes (<_:q-4/> <_:q-5/>). Other structural units are more clearly analytic, in that they characterize a section of a text. A dramatic text might regard each speech by a different character as a unit of one kind, and stage directions or pieces of action as units of another kind. Such an analysis is less useful for locating parts of the text (<_:q-6/>) than for facilitating comparisons between the words used by one character and those of another, or those used by the same character at different points of the play."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:232
+msgid "In a prose text one might similarly wish to regard as units of different types passages in direct or indirect speech, passages employing different stylistic registers (narrative, polemic, commentary, argument, etc.), passages of different authorship and so forth. And for certain types of analysis (most notably textual criticism) the physical appearance of one particular printed or manuscript source may be of importance: paradoxically, one may wish to use descriptive markup to describe presentational features such as typeface, line breaks, use of whitespace and so forth."
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:246
+msgid "Tristram Shandy"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:242
+msgid "These textual structures overlap with one another in complex and unpredictable ways. Particularly when dealing with texts as instantiated by paper technology, the reader needs to be aware of both the physical organization of the book and the logical structure of the work it contains. Many great works (Sterne's <_:title-1/> for example) cannot be fully appreciated without an awareness of the interplay between narrative units (such as chapters or paragraphs) and presentational ones (such as page divisions). For many types of research, the interplay among different levels of analysis is crucial: the extent to which syntactic structure and narrative structure mesh, or fail to mesh, for example, or the extent to which phonological structures reflect morphology."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:255
+msgid "XML Structures"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:257
+msgid "This section describes the simple and consistent mechanism for the markup or identification of textual structure provided by XML. It also describes the methods XML provides for the expression of rules defining how units of textual structure can meaningfully be combined in a text."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:263
+msgid "Elements"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:266
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:542
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:554
+msgid "element"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:270
+msgid "blort"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:271
+msgid "farble"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:273
+msgid "blortette"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:274
+msgid "semantics"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:281
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:541
+msgid "generic identifier"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:265
+msgid "The technical term used in XML for a textual unit, viewed as a structural component, is <_:term-1/>. Different types of elements are given different names, but XML provides no way of expressing the meaning of a particular type of element, other than its relationship to other element types. That is, all one can say about an element called (say) <_:gi-2/> is that instances of it may (or may not) occur within elements of type <_:gi-3/>, and that it may (or may not) be decomposed into elements of type <_:gi-4/>. It should be stressed that XML is entirely unconcerned with the <_:emph-5/> of textual elements, because these are considered to be application dependent. It is up to the creators of XML vocabularies (such as these Guidelines) to choose intelligible element names and to define their intended use in text markup. That is the chief purpose of documents such as the TEI Guidelines. From the need to choose element names indicative of function comes the technical term for the name of an element type, which is <_:term-6/>, or GI."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:282
+msgid "document instance"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:285
+msgid "start-tag"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:286
+msgid "end-tag"
+msgstr ""
+
+#. (itstool) path: egXML/quote
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:292
+msgid "This is the silliest stuff that ere I heard of!"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:291
+msgid "... Rosalind's remarks <_:quote-1/> clearly indicate ..."
+msgstr ""
+
+#. (itstool) path: p/tag
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:295
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:297
+msgid "quote"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:301
+msgid "/quote"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:301
+msgid "Because the opening angle bracket has this special function in an XML document, special steps must be taken to use that character for other purposes (for example, as the mathematical less-than operator); see further section <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:306
+msgid "This is the silliest stuff that ere I heard of"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:308
+msgid "content"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:311
+msgid "quote/"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:282
+msgid "Within a marked-up text (a <_:term-1/>), each element must be explicitly marked or tagged in some way. This is done by inserting a tag at the beginning of the element (a <_:term-2/>) and another at its end (an <_:term-3/>). The start- and end-tag pair are used to bracket off element occurrences within the running text, in rather the same way as different types of parentheses or quotation marks are used in conventional punctuation. For example, a quotation element in a text might be tagged as follows: <_:egXML-4/> As this example shows, a start-tag takes the form <_:tag-5/>, where the opening angle bracket indicates the start of the start-tag, <_:q-6/> is the generic identifier of the element that is being delimited, and the closing angle bracket indicates the end of the start-tag. An end-tag takes an identical form, except that the opening angle bracket is followed by a solidus (slash) character, so that the corresponding end-tag is <_:tag-7/>.<_:note-8/> The material between the start-tag and the end-tag (the string of words <_:q-9/> in the example above) is known as the <_:term-10/> of the element. Sometimes there may be nothing between the start and the end-tag; in this case the two may optionally be merged together into a single composite tag with the solidus at the end, like this: <_:tag-11/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:313
+msgid "Content Models: an Example"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:315
+msgid "empty"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:318
+msgid "embedded"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:315
+msgid "An element may be <_:term-1/>, that is, it may have no content at all, or it may contain just a sequence of characters with no other elements. Often, however, elements of one type will be <_:term-2/> (contained entirely) within elements of a different type."
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: item/gi
+#. (itstool) path: p/code
+#. (itstool) path: p/gi
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:325
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:367
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:538
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:548
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:579
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:580
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1373
+msgid "anthology"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/mentioned
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:326
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:556
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:581
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:602
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:603
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:616
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:648
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:828
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:829
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:834
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:894
+msgid "poem"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/mentioned
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:327
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:557
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:582
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:583
+msgid "heading"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/tag
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:328
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:430
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:581
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:588
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:598
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:604
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1477
+msgid "stanza"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/gi
+#. (itstool) path: p/q
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:329
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:404
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:405
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:407
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:415
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:581
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:583
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:645
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:665
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1212
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1213
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1477
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1477
+msgid "line"
+msgstr ""
+
+#. (itstool) path: poem/heading
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:334
+msgid "The SICK ROSE"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:336
+msgid "O Rose thou art sick."
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:337
+msgid "The invisible worm,"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:338
+msgid "That flies in the night"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:339
+msgid "In the howling storm:"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:342
+msgid "Has found out thy bed"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:343
+msgid "Of crimson joy:"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:344
+msgid "And his dark secret love"
+msgstr ""
+
+#. (itstool) path: stanza/line
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:345
+msgid "Does thy life destroy."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:321
+msgid "To illustrate this, we will consider a very simple structural model. Let us assume that we wish to identify within an anthology only poems, their headings, and the stanzas and lines of which they are composed. In XML terms, our <_:term-1/> is the <_:term-2/>, and it consists of a series of <_:term-3/>s. Each poem has embedded within it one element, a <_:term-4/>, and several occurrences of another, a <_:term-5/>, each stanza having embedded within it a number of <_:term-6/> elements. Fully marked up, a text conforming to this model might appear as follows: <_:egXML-7/>"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:350
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:352
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:565
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:566
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:772
+msgid "not"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:353
+msgid "The element names here have been chosen for clarity of exposition; there is, however, a TEI element corresponding to each."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:360
+msgid "&lt;!-- more poems go here --&gt;"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:361
+msgid "comment"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:350
+msgid "It should be stressed that this example does <_:emph-1/> use the names proposed for corresponding elements elsewhere in these Guidelines: the above is thus <_:emph-2/> a valid TEI document.<_:note-3/> It will, however, serve as an introduction to the basic notions of XML. Whitespace and line breaks have been added to the example for the sake of visual clarity only; they have no particular significance in the XML encoding itself. Also, the line <_:eg-4/> is an XML <_:term-5/> and is not treated as part of the text."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:366
+msgid "root element"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:365
+msgid "there is a single element enclosing the whole document: this is known as the <_:term-1/> (<_:gi-2/> in our case);"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:368
+msgid "each element is completely contained by the root element, or by an element that is so contained; elements do not partially overlap one another;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:371
+msgid "a tag explicitly marks the start and end of each element."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:362
+msgid "As it stands, the above example is what is known as a <_:term-1/> XML document because it obeys the following simple rules: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:382
+msgid "Note that this simple example has not addressed the problem of marking elements such as sentences explicitly; the implications of this are discussed in section <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:374
+msgid "A well-formed XML document can be processed in a number of useful ways. A simple indexing program could extract only the relevant text elements in order to make a list of headings, first lines, or words used in the poem text; a simple formatting program could insert blank lines between stanzas, perhaps indenting the first line of each, or inserting a stanza number. Different parts of each poem could be typeset in different ways. A more ambitious analytic program could relate the use of punctuation marks to stanzaic and metrical divisions.<_:note-1/> Scholars wishing to see the implications of changing the stanza or line divisions chosen by the editor of this poem can do so simply by altering the position of the tags. And of course, the text as presented above can be transported from one computer to another and processed by any program (or person) capable of making sense of the tags embedded within it with no need for the sort of transformations and translations needed for files which have been saved in one or other of the proprietary formats preferred by most word-processing programs."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:400
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1058
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1179
+msgid "namespace"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:402
+msgid "qualified name"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:409
+msgid "namespace prefix"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:410
+#, no-wrap
+msgid ""
+" &lt;my:line&gt;This is one of my lines&lt;/my:line&gt; \n"
+"&lt;!-- ... --&gt; \n"
+"&lt;yr:line&gt;This is one of your lines&lt;/yr:line&gt;"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:417
+msgid "markup vocabularies"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:420
+msgid "xml"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:394
+msgid "As we noted above, one of the attractions of XML is that it enables us to make up our own names for the elements rather than requiring us always to use names predefined by other agencies. Clearly, however, if we wish to exchange our poems with others, or to include poems others have marked up in our anthology, we will need to know a bit more about the names used for the tags. The means that XML provides for this is called a <_:term-1/>. In our simple example, the tags just contain a simple name. As we shall see, it is also possible to use tags that include a <_:term-2/>, that is, a name with an optional prefix identifying the set of names to which it belongs. For example, we have defined an element <_:gi-3/> for the purpose of marking lines of verse. Another person might, however, define an element called <_:gi-4/> for the purpose of marking typographic lines, or drawn lines. Because of these different meanings, if we wish to share data it will be necessary to distinguish the two <_:q-5/> components in our marked-up texts. This is achieved by including a <_:term-6/> within the markup, for example like this: <_:eg-7/> This feature is particularly important if we have different definitions of what a <_:soCalled-8/> is, of course, but there are many occasions when it is useful to distinguish groups of tags belonging to different <_:soCalled-9/>; we discuss this further below (<_:ptr-10/>). One particularly useful namespace prefix is predefined for XML: it is <_:code-11/> and we will see examples of its use below."
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:431
+msgid "canto"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:431
+msgid "Stanza"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:432
+msgid "valid"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:437
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:441
+msgid "schema"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:438
+msgid "Document Type Declaration"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:438
+msgid "Document Type Definition"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:437
+msgid "The older terms <_:term-1/> and <_:term-2/>, both abbreviated as DTD, may also be encountered. Throughout these Guidelines we use the term <_:term-3/> for any kind of formal document grammar."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:422
+msgid "Namespaces allow us to represent the fact that a name belongs to a group of names, but don't allow us to do much more by way of checking the integrity or accuracy of our tagging. Simple well-formedness alone is not enough for the full range of what might be useful in marking up a document. It might well be useful if, in the process of preparing our digital anthology, a computer system could check some basic rules about how stanzas, lines, and headings can sensibly co-occur in a document. It would be even more useful if the system could check that stanzas are always tagged <_:tag-1/> and not occasionally <_:tag-2/> or <_:tag-3/>. An XML document in which such rules have been checked is technically known as a <_:term-4/> document, and the ability to perform such validation is one of the key advantages of using XML. To carry this out, some way of formally stating the criteria for successful validation is necessary: in XML this formal statement is provided by an additional document known as a <_:term-5/>.<_:note-6/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:445
+msgid "Validating a Document's Structure"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:447
+msgid "The design of a schema may be as lax or as restrictive as the occasion warrants. A balance must be struck between the convenience of following simple rules and the complexity of handling real texts. This is particularly the case when the rules being defined relate to texts that already exist: the designer may have only the haziest of notions as to an ancient text's original purpose or meaning and hence find it very difficult to specify consistent rules about its structure. On the other hand, where a new text is being prepared to an exact specification, for entry into a textual database of some kind for example, the more precisely stated the rules, the better they can be enforced. Even in the case where an existing text is being marked up, it may be beneficial to define a restrictive set of rules relating to one particular view or hypothesis about the text—if only as a means of testing the usefulness of that view or hypothesis. A schema designed for use by a small project or team is likely to take a different position on such issues than one intended for use by a large and possibly fragmented community. It is important to remember that every schema results from an interpretation of a text. There is no single schema encompassing the absolute truth about any text, although it may be convenient to privilege some schemas above others for particular types of analysis."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:470
+msgid "XML is widely used in environments where uniformity of document structure is a major desideratum. In the production of technical documentation, for example, it is of major importance that sections and subsections should be properly nested, that cross-references should be properly resolved and so forth. In such situations, documents are seen as raw material to match against predefined sets of rules. As discussed above, however, the use of simple rules can also greatly simplify the task of tagging accurately elements of less rigidly constrained texts. By making these rules explicit, the scholar reduces his or her own burdens in marking up and verifying the electronic text, while also being forced to make explicit an interpretation of the structure and significant particularities of the text being encoded."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:485
+msgid "An Example Schema"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:492
+msgid "ISO/IEC FDIS 19757-2 Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:495
+msgid "compact syntax"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:499
+msgid "See further <_:ptr-1/> and <_:ptr-2/>. In practice, the only part of a TEI element specification not expressed using TEI-defined syntax is the content model for an element, which is expressed using the RELAX NG schema language for reasons of processing convenience. RELAX NG uses its own XML vocabulary to define content models, which is adopted by the TEI for the same purpose."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:486
+msgid "A schema can be expressed in a number of different ways; frequently-encountered methods include the Document Type Definition (DTD) language which XML inherited from SGML; the XML Schema language (<_:ptr-1/>) defined by the W3C; and the RELAX NG language (<_:ptr-2/>) originally developed within the OASIS Technical Committee and now an ISO standard<_:note-3/>. In this chapter, and throughout these Guidelines, we give examples using the <_:soCalled-4/> of RELAX NG, but the specifications within these Guidelines are expressed in a way that is largely independent of the specific language in which a schema generated from them is expressed.<_:note-5/> Although we will use the RELAX NG compact syntax for illustration in what follows, the reader should bear in mind that analogous concepts are expressed differently in other schema languages."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:508
+#, no-wrap
+msgid ""
+"\n"
+"anthology_p = element anthology { poem_p+ }\n"
+"poem_p = element poem { heading_p?, stanza_p+ }\n"
+"stanza_p = element stanza {line_p+}\n"
+"heading_p = element heading { text }\n"
+"line_p = element line { text }\n"
+"start = anthology_p\n"
+""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:507
+msgid "The following schema might be used to validate our example poem: <_:eg-1/>"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:519
+msgid "For a good tutorial introduction to RELAX NG, see <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:518
+msgid "Note that this is not the only way in which a RELAX NG schema might be written;<_:note-1/> we have adopted this idiom, however, because it matches that used throughout the rest of these Guidelines."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:524
+msgid "patterns"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:532
+msgid "element patterns"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:533
+msgid "attribute patterns"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:536
+msgid "anthology_p = element anthology {poem_p+}"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:536
+msgid "anthology_p"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:542
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:569
+msgid "content model"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:523
+msgid "A RELAX NG schema expresses rules about the possible structure of a document in terms of <_:term-1/>; that is, it defines a number of named patterns, each of which acts as a kind of template against which an input document can be matched. The meaning of a pattern is expressed in a schema by reference to other patterns, or to a small number of built-in fundamental concepts, as we shall see. In the example above, the word to the left of the equals sign is the pattern's name, and the material following it declares a meaning for the pattern. Patterns may also be of particular types; the ones that interest us here are called <_:term-2/> and <_:term-3/>. In this example we see definitions for five element patterns. Note that we have used similar names for the pattern and the element which the pattern describes: so, for example, the line <_:code-4/> defines an element pattern called <_:code-5/>, the value of which defines an element called <_:code-6/>. These naming conventions are arbitrary; we could use the same name for the pattern as for the element, since the two are syntactically quite distinct. The name, or <_:term-7/>, of the element follows the word <_:q-8/>, and the <_:term-9/> for the element is given within the curly braces following that. Each of these parts is discussed further below."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:551
+msgid "entry point"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:546
+msgid "The last line of the schema above tells a RELAX NG validator which element (or elements) in a document can be used as the root element: in our case only <_:gi-1/>. This enables the validator to detect whether a particular document is well-formed but incomplete; it also simplifies the processing task by providing an <_:q-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:553
+msgid "Generic Identifier"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:561
+msgid "namespaces"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:562
+msgid "combining characters"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:562
+msgid "extenders"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:559
+msgid "In XML, a single colon may also appear in a GI, where it has a special significance related to the use of <_:term-1/>, as further discussed in section <_:ptr-2/>. The characters defined by Unicode as <_:term-3/> and as <_:term-4/> are also permitted, as are logograms such as Chinese characters."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:564
+msgid "foo"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:565
+msgid "Foo"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:566
+msgid "TEI"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:566
+msgid "tei"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:554
+msgid "Following the word <_:q-1/> each pattern declaration gives the generic identifier (often abbreviated to GI) of the element being defined, for example <_:mentioned-2/>, <_:mentioned-3/>, etc. A GI may contain letters, digits, hyphens, underscore characters, or full stops, but must begin with a letter.<_:note-4/> Uppercase and lowercase letters are quite distinct: an element with the GI <_:gi-5/> is <_:emph-6/> the same as an element with the GI <_:gi-7/>; the root element of a TEI-conformant document is <_:gi-8/>, <_:emph-9/> <_:gi-10/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:567
+msgid "Content Model"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:575
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:582
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:584
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:620
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:658
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:671
+msgid "text"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:568
+msgid "The second part of each declaration, enclosed in curly braces, is called the <_:term-1/> of the element being defined, because it specifies what may legitimately be contained within it. In RELAX NG, the content model is defined in terms of other patterns, either by embedding them, or (as in our examples above) by naming or referring to them. The RELAX NG compact syntax also uses a small number of reserved words to identify other possible contents for an element, of which by far the most commonly encountered is <_:code-2/>, as in this example: it means that the element being defined may contain any valid character data, but no elements. If an XML document is thought of as a structure like a family tree, with a single ancestor at the top (in our case, this would be <_:tag-3/>), then almost always, following the branches of the tree downwards (for example, from <_:gi-4/> to <_:gi-5/> to <_:gi-6/> to <_:gi-7/> and <_:gi-8/>) will lead eventually to <_:code-9/>. In our example, <_:gi-10/> and <_:gi-11/> are so defined, since their content models say <_:code-12/> only and name no embedded elements."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:586
+msgid "Occurrence Indicators"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:590
+msgid "occurrence indicator"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:591
+msgid "line_p"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:598
+msgid "{line_p*}"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:600
+msgid "{line_p?}"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:588
+msgid "The declaration for <_:gi-1/> in the example above states that a stanza consists of one or more lines. It uses an <_:term-2/> (the plus sign) to indicate how many times something matching the pattern <_:code-3/> may be repeated. There are three occurrence indicators: the plus sign, the question mark, and the asterisk or star. The plus sign means that the pattern can match one or more times; the question mark means that it may match at most once but is not mandatory; the star means that the pattern concerned is not mandatory, but may match more than once. Thus, if the content model for <_:gi-4/> were <_:code-5/>, stanzas with no lines would be possible as well as those with more than one line. If it were <_:code-6/>, again empty stanzas would be countenanced, but no stanza could have more than a single line. The declaration for <_:gi-7/> in the example above thus states that a <_:gi-8/> cannot have more than one heading, but may have none, and that it must have at least one <_:gi-9/> and may have several."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:607
+msgid "Connectors"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:608
+msgid "{heading_p?, stanza_p+}"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:610
+msgid "heading_p"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:610
+msgid "stanza_p"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:611
+msgid "connector"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:608
+msgid "The content model <_:code-1/> contains more than one component, and thus needs additionally to specify the order in which these patterns (<_:gi-2/> and <_:gi-3/>) may appear. This ordering is determined by the <_:term-4/> (the comma) used between its components. The comma connector indicates that the patterns concerned must appear in the sequence given. Another commonly encountered connector is the vertical bar, representing alternation. If the comma in this example were replaced by a vertical bar, then a <_:gi-5/> would consist of either a heading or just stanzas—but not both!"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:618
+msgid "Groups"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:627
+msgid "stanzaic"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:627
+msgid "couplets"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:627
+msgid "blank"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:628
+msgid "stichic"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:630
+msgid "It will not have escaped the astute reader that the fact that verse paragraphs need not start on a line boundary seriously complicates the issue; see further section <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:633
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:640
+msgid "firstLine"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:634
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:640
+msgid "secondLine"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:634
+msgid "couplet_p = element couplet {firstLine_p, secondLine_p}"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:619
+msgid "In our example so far, the components of each content model have been either single patterns or <_:code-1/>. It is quite permissible, however, to define content models in which the components are lists of patterns, combined by connectors. Such lists may also be modified by occurrence indicators and themselves combined by connectors. To demonstrate these facilities, let us expand our example to include non-stanzaic types of verse. For the sake of demonstration, we will categorize poems as one of the following: <_:term-2/>, <_:term-3/>, or <_:term-4/> (or <_:term-5/>). A blank-verse poem consists simply of lines (we ignore the possibility of verse paragraphs for the moment),<_:note-6/> so no additional elements need be defined for it. A couplet is defined as a <_:gi-7/> followed by a <_:gi-8/>. <_:eg-9/>"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:641
+msgid "This is however a rather artificial example; XPath, for example, provides ways of distinguishing elements in an XML structure by their position without the need to give them distinct names."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:646
+msgid "firstLine_p = element firstLine {text} secondLine_p = element secondLine {text}"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:649
+#, no-wrap
+msgid ""
+" poem_p = element poem\n"
+"{ heading_p?, (stanza_p+ | couplet_p+ | line_p+) }"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:653
+#, no-wrap
+msgid ""
+"poem_p = element poem\n"
+"{heading_p?, (stanza_p | couplet_p | line_p)+ }"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:639
+msgid "The patterns firstLine_p and secondLine_p define elements <_:gi-1/> and <_:gi-2/> (which are distinguished to enable studies of rhyme scheme, for example<_:note-3/> ); these will have exactly the same content model as the existing <_:gi-4/> element. We will therefore add the following two lines to our example schema: <_:eg-5/> Next, we can change the declaration for the <_:gi-6/> element to include all three possibilities: <_:eg-7/> That is, a poem consists of an optional heading, followed by one or several stanzas, or one or several couplets, or one or several lines. Note the difference between this declaration and the following: <_:eg-8/> The second version, by applying the occurrence indicator to the group rather than to each element within it, would allow a single poem to contain a mixture of stanzas, couplets, and lines."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:659
+msgid "mixed content"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:664
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1192
+msgid "name"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:665
+#, no-wrap
+msgid ""
+"line_p = element\n"
+"line { (text | name_p )* }"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:658
+msgid "A group of this kind can contain <_:code-1/> as well as named elements: this combination, known as <_:term-2/>, allows for elements in which the sub-components appear with intervening stretches of character data. For example, if we wished to mark place names wherever they appear inside our verse lines, then, assuming we have also added a pattern for the <_:gi-3/> element, we could change the definition for <_:gi-4/> to <_:eg-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:669
+msgid "Some XML schema languages place no constraints on the way that mixed content models may be defined, but in the XML DTD language, when <_:code-1/> appears with other elements in a content model, it must always appear as the first option in an alternation; it may appear once only, and in the outermost model group; and if the group containing it is repeated, the star operator must be used. Although these constraints do not apply to (for example) schemas expressed in the RELAX NG language, all TEI content models currently obey them."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:685
+#, no-wrap
+msgid ""
+"refrain_p = element refrain {line_p+}\n"
+"poem_p = element poem   {heading_p?, ( line_p+ | (refrain_p?, (stanza_p,\n"
+"refrain_p?)+ )) }"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:693
+msgid "refrain - stanza - stanza - refrain"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:695
+msgid "stanza - refrain - stanza - refrain"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:696
+msgid "refrain - refrain - stanza - stanza"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:697
+msgid "stanza - refrain - refrain - stanza."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:678
+msgid "Quite complex models can easily be built up in this way, to match the structural complexity of many types of text. As a further example, consider the case of stanzaic verse in which a refrain or chorus appears. Like a stanza, a refrain consists of repetitions of the line element. A refrain can appear at the start of a poem only, or as an optional addition following each stanza. This could be expressed by a pattern such as the following: <_:eg-1/> That is, a poem consists of an optional heading, followed by either a sequence of lines or an unnamed group, which starts with an optional refrain and is followed by one or more occurrences of another group, each member of which is composed of a stanza followed by an optional refrain. A sequence such as <_:mentioned-2/> follows this pattern, as does the sequence <_:mentioned-3/>. The sequence <_:mentioned-4/> does not, however, and neither does the sequence <_:mentioned-5/> Among other conditions made explicit by this content model are the requirements that at least one stanza must appear in a poem, if it is not composed simply of lines, and that if there is both a heading and a stanza they must appear in that order."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:705
+#, no-wrap
+msgid ""
+"poem_p =\n"
+"element poem {heading_p?, (line_p | refrain_p | stanza_p)+ }"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:703
+msgid "Note that the apparent complexity of this model derives from the constraints expressed informally above. A simpler model, such as <_:eg-1/> would not enforce any of them, and would therefore permit such anomalies as a poem consisting only of refrains, or an arbitrary mixture of lines and refrains."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:719
+msgid "Complicating the Issue"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:720
+msgid "In the simple cases described so far, we have assumed that one can identify the immediate constituents of every element in a textual structure. A poem consists of stanzas, and an anthology consists of poems. Stanzas do not float around unattached to poems or combined into some other unrelated element; a poem cannot contain an anthology. All the elements of a given document type may be arranged into a hierarchic structure like a family tree, with a single ancestor at one end and many children (mostly the elements containing simple text) at the other. For example, we could represent an anthology containing two poems, the first of which contains two four-line stanzas and the second a single stanza, by a tree structure like the following figure:"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:736
+msgid "XPath"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:736
+msgid "The official specification is at <_:ptr-1/>; many introductory tutorials are available in the XML references cited above and elsewhere on the Web: good beginners' tutorials include <_:ptr-2/> and <_:ptr-3/>, the latter being available in several languages."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:742
+msgid "/anthology/poem[1]/stanza[2]/line[4]"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:749
+msgid "/anthology/poem"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:750
+msgid "/anthology/poem/heading"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:733
+msgid "This graphic representation of the structure of an XML document is close to the abstract model implicit in most XML processing systems. Most such systems now use a standardized way of accessing parts of an XML document called <_:term-1/>.<_:note-2/> XPath gives us a non-graphical way of referring to any part of an XML document: for example, we might refer to the last line of Blake's poem as <_:code-3/>. The square brackets here indicate a numerical selection: we are talking about the fourth line in the second stanza of the first poem in the anthology. If we left out all the square-bracketted selections, the corresponding XPath expression would refer to all lines contained by stanzas contained by poems contained by anthologies. An XPath expression can refer to any collection of elements: for example, the expression <_:code-4/> refers to all poems in an anthology and the expression <_:code-5/> refers to all their headings."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:756
+msgid "/anthology/poem//line[1]"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:751
+msgid "The solidus within an XPath expression behaves in much the same way as the solidus or backslash in a filename specification: it indicates that the item to the left directly contains the item to the right of it. In XPath it is also possible to indicate that any number of other items may intervene by repeating the solidus. For example, the XPath expression <_:code-1/> will refer to the first line of each poem in the anthology, irrespective of whether it is in a stanza."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:766
+msgid "ordered hierarchy of content objects"
+msgstr ""
+
+#. (itstool) path: p/foreign
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:767
+msgid "et al."
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:767
+msgid "See <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:760
+msgid "Clearly, there are many such trees that might be drawn to describe the structure of this or other anthologies. Some of them might be representable as further subdivisions of this tree: for example, we might subdivide the lines into individual words, since in our simple example no word crosses a line boundary. Surprisingly perhaps, this grossly simplified view of what text is (memorably termed an <_:term-1/> (OHCO) view of text by Renear <_:foreign-2/><_:note-3/>) turns out to be very effective for a large number of purposes. It is not, however, adequate for the full complexity of real textual structures, for which more complex mechanisms need to be employed. There are many other trees that might be drawn which do <_:emph-4/> fit within the anthology model which we have presented so far. We might, for example, be interested in syntactic structures or other linguistic constructs, which rarely respect the formal boundaries of verse. Or, to take a simpler example, we might want to represent the pagination of different editions of the same text."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:791
+msgid "attributes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:779
+msgid "In the OHCO model of text, representation of cases where different elements overlap so that several different trees may be identified in the same document is generally problematic. All the elements marked up in a document, no matter what namespace they belong to, must fit within a single hierarchy. To represent overlapping structures, therefore, a single hierarchy must be chosen, and the points at which other hierarchies intersect with it marked. For example, we might choose the verse structure as our primary hierarchy, and then mark the pagination by means of empty elements inserted at the boundary points between one page and the next. Or we could represent alternative hierarchies by means of the pointing and linking mechanisms described in chapter <_:ptr-1/> of these Guidelines. These mechanisms all depend on the use of <_:term-2/>, which may be used both to identify particular elements within a document and to point to, link, or align them into arbitrary structures."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:797
+msgid "Attributes"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:798
+msgid "attribute"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:802
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:829
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:831
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:834
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:857
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:882
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:884
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:894
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1036
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1481
+msgid "status"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:804
+msgid "identifier"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:798
+msgid "In the XML context, the word <_:mentioned-1/>, like some other words, has a specific technical sense. It is used to describe information that is in some sense descriptive of a specific element occurrence but not regarded as part of its content. For example, you might wish to add a <_:att-2/> attribute to occurrences of some elements in a document to indicate their degree of reliability, or to add an <_:att-3/> attribute so that you could refer to particular element occurrences from elsewhere within a document. Attributes are useful in precisely such circumstances."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:809
+msgid "n"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:812
+msgid "attribute-value pairs"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:807
+msgid "Although different elements may have attributes with the same name (for example, in the TEI scheme, every element is defined as having an attribute named <_:att-1/>), they are always regarded as different, and may have different values assigned to them. If an element has been defined as having attributes, the attribute values are supplied in the document instance as <_:term-2/> inside the start-tag for the element occurrence. An end-tag cannot contain an attribute-value specification, since it would be redundant."
+msgstr ""
+
+#. (itstool) path: note/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:822
+msgid "&amp;apos;"
+msgstr ""
+
+#. (itstool) path: note/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:822
+msgid "&amp;quot;"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:820
+msgid "In the unlikely event that both kinds of quotation marks are needed within the quoted string, either or both can also be presented in escaped form, using the predefined character entities <_:code-1/> or <_:code-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:816
+msgid "The order in which attribute-value pairs are supplied inside a tag has no significance; they must, however, be separated by at least one whitespace (blank, newline, or tab) character. The value part must always be given inside matching quotation marks, either single or double<_:note-1/>."
+msgstr ""
+
+#. (itstool) path: egXML/poem
+#. (itstool) id: SG-GentleIntroduction.xml#Poem1
+#. (itstool) id: SG-GentleIntroduction.xml#Rose
+#. (itstool) id: SG-GentleIntroduction.xml#P40
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:825
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:963
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:965
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:967
+msgid "..."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:828
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:830
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:838
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:947
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:956
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:957
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:991
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:831
+msgid "P1"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:832
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:835
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:895
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1036
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1481
+msgid "draft"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:836
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:895
+msgid "revised"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:823
+msgid "For example: <_:egXML-1/> Here attribute values are being specified for two attributes previously declared for the <_:gi-2/> element: <_:att-3/> and <_:att-4/>. For the instance of a <_:gi-5/> in this example, represented here by an ellipsis, the <_:att-6/> attribute has the value <_:val-7/> and the <_:att-8/> attribute has the value <_:val-9/>. An XML processor can use the values of the attributes in any way it chooses; for example, a <_:gi-10/> in which the <_:att-11/> attribute has the value <_:val-12/> might be formatted differently from one in which the same attribute has the value <_:val-13/>; another processor might use the same attribute to determine whether or not poem elements are to be processed at all. The <_:att-14/> attribute is a slightly special case in that, by convention, it is always used to supply a unique value to identify a particular element occurrence, which may be used for cross-reference purposes, as discussed further below (<_:ptr-15/>)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:843
+msgid "Declaring Attributes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:845
+msgid "Attributes are declared in a schema in the same way as elements. As well as specifying an attribute's name and the element to which it is to be attached, it is possible to specify (within limits) what kind of value is acceptable for an attribute."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:853
+msgid "att.status = attribute status {\"draft\" | \"revised\" | \"published\"}"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:855
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:881
+msgid "att.status"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:850
+msgid "In the compact syntax of RELAX NG, an attribute is defined by means of an attribute pattern, like the following: <_:eg-1/> This defines a new pattern, called <_:code-2/>, whose value is an attribute pattern defining an attribute named <_:att-3/>. Attribute names are subject to the same restrictions as other names in XML; they need not be unique across the whole schema, however, but only within the list of attributes for a given element."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:862
+msgid "A pattern defining the possible values for this attribute is given within the curly braces, in just the same way as a content model is given for an element pattern. In this case, the attribute's value must be one of the strings presented explicitly above."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:870
+msgid "poem_p"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:872
+#, no-wrap
+msgid ""
+"poem_p = element poem {att.status?, heading_p?, stanza_p+}\n"
+""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:867
+msgid "The attribute pattern definition must be included or referenced within the definition for every element to which the attribute is attached. We therefore modify the definition for the <_:code-1/> pattern given above as follows: <_:eg-2/> In RELAX NG, an element pattern simply includes any attribute patterns applicable to it along with its other constituents, as shown above. Attribute patterns can also be grouped and alternated in the same way as element patterns, though this particular feature is not widely used in the TEI scheme, since it is not available to the same extent in all schema languages. Because a question mark follows the reference to the <_:code-3/> pattern in our example, a document in which the <_:att-4/> attribute is not specified will still be valid; without this occurrence indicator the <_:att-5/> attribute would be required."
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:892
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:910
+msgid "datatype"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:896
+msgid "published"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:897
+#, no-wrap
+msgid ""
+"att.status =\n"
+"attribute status {text}"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:899
+msgid "status=\"awful\""
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:900
+msgid "status=\"awe-ful\""
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:900
+msgid "status=\"12345678\""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:888
+msgid "Instead of supplying a list of explicit values, an attribute pattern can specify that the attribute must have a value of a particular type, for example a text string, a numeric value, a normalized date, etc. This is accomplished by supplying a pattern that refers to a <_:term-1/>. In the example above, because a list of acceptable values is predefined, a parser can check that no <_:gi-2/> is defined for which the <_:att-3/> attribute does not have one of <_:val-4/>, <_:val-5/>, or <_:val-6/> as its value. By contrast, with a definition such as <_:eg-7/> a parser would accept almost any unbroken string of characters (<_:code-8/>, <_:code-9/>, or <_:code-10/>) as valid for this attribute. Sometimes, of course, the set of possible values cannot be predefined. Where it can, as in this case, it is generally better to do so."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:908
+msgid "library"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:915
+msgid "Datatype Library"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:921
+msgid "boolean"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:922
+msgid "values must be either true or false"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:923
+msgid "numeric"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:924
+msgid "values must represent a numeric quantity of some kind"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:926
+msgid "date"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:927
+msgid "values must represent a possible date and time in some calendar"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:905
+msgid "Schema languages vary widely in the extent to which they support validation of attribute values. Some languages predefine a small set of possibilities. Others allow the schema designer to use values from a predefined <_:soCalled-1/> of possible datatypes, or to add their own definitions, possibly of great complexity. A <_:soCalled-2/> might be something fairly general (any positive integer), something very specific or idiosyncratic (any four-character string ending with \"T\"), or somewhere between the two. In the RELAX NG schemas used by the TEI, general patterns have been defined for about half a dozen datatypes (using the W3C Schema <_:ref-3/>, and discussed further in <_:ptr-4/>). In addition to the two possibilities already mentioned—plain text or an explicit list of possible strings—other datatypes likely to be encountered include the following: <_:list-5/>"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:930
+msgid "ID"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:931
+msgid "URI"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:929
+msgid "Two further datatypes of particular usefulness in managing XML documents are commonly known as <_:code-1/>—for identifier—and <_:code-2/>—for Universal Resource Indicator, or pointer for short. These are discussed in the next section."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:934
+msgid "Identifiers and Indicators"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:937
+msgid "see note 6"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:937
+msgid "as discussed in chapter 5"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:935
+msgid "It is often necessary to refer to an occurrence of one textual element from within another, an obvious example being phrases such as <_:q-1/> or <_:q-2/>. When a text is being produced the actual numbers associated with the notes or chapters may not be certain. If we are using descriptive markup, such things as page or chapter numbers, being entirely matters of presentation, will not in any case be present in the marked-up text: they will be assigned by whatever processor is operating on the text (and may indeed differ in different applications). XML therefore predefines an attribute that may be used to provide any element occurrence with a special identifier, a kind of label, which may be used to refer to it from anywhere else: since it is defined in the XML namespace, the name of this attribute is <_:att-3/> and it is used throughout the TEI schema. Because it is intended to act as an identifier, its values must be unique within a given document. The cross-reference itself will be supplied by an element bearing an attribute of a specific kind, which must also be declared in the schema."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:953
+msgid "Suppose, for example, we wish to include a reference within the notes on one poem that refers to another poem. We will first need to provide some way of attaching a label to each poem: this is easily done using the <_:att-1/> attribute. Note that not every poem need carry an <_:att-2/> attribute and the parser may safely ignore the lack of one in those that do not. Only poems to which we intend to refer need use this attribute; for each such poem we should now include in its start-tag some unique identifier, for example: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:975
+msgid "poemRef_p = element poemRef {attribute target {anyURI}, empty}"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:970
+msgid "Next we need to define a new element for the cross-reference itself. This will not have any content—it is only a pointer—but it has an attribute, the value of which will be the identifier of the element pointed at. This is achieved by the following definition: <_:eg-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:978
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:988
+msgid "poemRef"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:979
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1024
+msgid "target"
+msgstr ""
+
+#. (itstool) path: p/code
+#. (itstool) path: note/q
+#. (itstool) path: note/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:980
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:980
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:983
+msgid "anyURI"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:981
+msgid "Uniform Resource Identifier"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:984
+msgid "datatypes"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:980
+msgid "The word <_:q-1/> is a predefined name, used in schema languages to mean that any <_:term-2/> (URI) may be supplied here. The accepted syntax for URIs is an Internet Standard, defined in <_:ptr-3/>. <_:code-4/> is one of the <_:term-5/> defined by the W3C Schema datatype library."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:978
+msgid "The <_:gi-1/> element has no content, but a single attribute called <_:att-2/>. The value of this attribute must be a pointer or web reference of type <_:code-3/>;<_:note-4/> furthermore, because there is no indication of optionality on the attribute pattern, it must be supplied on each occurrence—a <_:gi-5/> with no referent is an impossibility."
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: line/nom
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:992
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1270
+msgid "Rose"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:993
+msgid "Blake's poem on the sick rose <_:poemRef-1/> ..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:990
+msgid "With these declarations in force, we can now encode a reference to the poem whose <_:att-1/> attribute specifies that its identifier is <_:val-2/> as follows: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1005
+msgid "A processor may take any number of actions when it encounters a link encoded in this way: a formatter might construct an exact page and line reference for the location of the poem in the current document and insert it, or just quote the poem's title or first lines. A hypertext style processor might use this element as a signal to activate a link to the poem being referred to, for example by displaying it in a new window. Note, however, that the purpose of the XML markup is simply to indicate that a cross-reference exists: it does not necessarily determine what the processor is to do with it."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1023
+msgid "graphic"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1025
+#, no-wrap
+msgid ""
+"graphic_p = element graphic {att.url, empty} att.url =\n"
+"attribute url {anyURI}"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1015
+msgid "The target of a URI can be located anywhere: it may not necessarily be part of the same document, nor even located on the same computer system. Equally, it can be a resource of any kind, not necessarily an XML document or document fragment. It is thus a very convenient way of including references to non-XML data such as image files within a document. If, for example, we wished to include an illustration containing a reproduction of Blake's original in our anthology, the most appropriate method would probably be to define a new element called (for the sake of argument) <_:gi-1/> with a <_:att-2/> attribute of datatype URI: <_:eg-3/> With these additions to the schema, we can now represent the location of the illustration within our text like this: <_:egXML-4/> By providing a location from which a reproduction of the required image can be downloaded, this encoding makes it possible for appropriate software able to display the image as well as record its existence."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1037
+msgid "/anthology/poem[@status='draft']"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1039
+msgid "/anthology/poem[@status='draft']/heading"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1033
+msgid "Attributes form part of the structure of an XML document in the same way as elements, and can therefore be accessed using XPath. For example, to refer to all the poems in our anthology whose <_:att-1/> attribute has the value <_:val-2/>, we might use an XPath such as <_:code-3/>. To find the headings of all such poems, we would use the XPath <_:code-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1043
+msgid "Other Components of an XML Document"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1049
+msgid "entity references"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1050
+msgid "boilerplate"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1056
+msgid "processing instructions"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1045
+msgid "In addition to the elements and attributes so far discussed, an XML document can contain a few other formally distinct things. An XML document may contain references to predefined strings of data that a validator must resolve before attempting to validate the document's structure; these are called <_:term-1/>. They may be useful as a means of providing <_:soCalled-2/> text or representing character data which cannot easily be keyboarded. An XML document may also contain arbitrary signals or flags for use when the document is processed in a particular way by some class of processor (a common example in document production is the need to force a formatter to start a new page at some specific point in a document); such flags are called <_:term-3/>. And, as noted earlier, an XML document may also contain instances of elements taken from some other <_:term-4/>. We discuss each of these three cases in the rest of this section."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1061
+msgid "Character References"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1063
+msgid "As mentioned above, all XML documents use the same internal character encoding. Since not all computer systems currently support this encoding directly, a special syntax is defined that can be used to represent individual characters from the Unicode character set in a portable way by providing their numeric value, in decimal or hexadecimal notation."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1070
+msgid "é"
+msgstr ""
+
+#. (itstool) path: p/num
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1072
+msgid "00E9"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1075
+msgid "&amp;#x00E9;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1075
+msgid "x"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1077
+msgid "&amp;#0233;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1070
+msgid "For example, the character <_:mentioned-1/> is represented within an XML document as the Unicode character with hexadecimal value <_:num-2/>. If such a document is being prepared on (or exported to) a system using a different character set in which this character is not available, it may instead be represented by the character reference <_:code-3/> (the <_:code-4/> indicating that what follows is a hexadecimal value) or <_:code-5/> (its decimal equivalent). References of this type do not need to be predefined, since the underlying character encoding for XML is always the same."
+msgstr ""
+
+#. (itstool) path: p/code
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1082
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1105
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1347
+msgid "eacute"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1084
+msgid "entity declaration"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1088
+msgid "T&amp;C"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1088
+msgid "T&amp;amp;C"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1081
+msgid "To aid legibility, however, it is also possible to use a mnemonic name (such as <_:code-1/>) for such character references, provided that each such name is mapped to the required Unicode value by means of a construct known as an <_:term-2/>. A reference to a named character entity always takes the form of an ampersand, followed by the name, followed by a semicolon. For example an XML document containing the string <_:q-3/> might be encoded as <_:code-4/>."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1093
+msgid "amp"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1094
+msgid "lt"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1096
+msgid "quot"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1097
+msgid "apos"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1099
+msgid "gt"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1090
+msgid "There is a small set of such character entity references that do not have to be declared because they form part of the definition of XML. These include the names used for characters such as the ampersand (<_:code-1/>) and the open angle bracket or less-than sign (<_:code-2/>), which could not easily otherwise be included in an XML document without ambiguity. Other predeclared entity names are those for quotation marks (<_:code-3/> and <_:code-4/> for double and single respectively), and for completeness the closing angle bracket or greater-than sign (<_:code-5/>)."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1106
+msgid "&lt;!ENTITY eacute \"é\"&gt;"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1107
+msgid "&lt;!ENTITY eacute \"&amp;#xe9;\"&gt;"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1109
+msgid "&lt;!ENTITY eacute \"&amp;#233;\"&gt;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1101
+msgid "For all other named character entities, a set of entity declarations must be provided to an XML processor before the document referring to them can be validated. The declaration itself uses a non-XML syntax inherited from SGML; for example, to define an entity named <_:ident-1/> with the replacement value é, the declaration could have any of the following forms: <_:eg-2/> or, using hexadecimal notation: <_:eg-3/> or, using decimal notation: <_:eg-4/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1112
+msgid "string substitution"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1115
+msgid "&lt;!ENTITY TEI \"Text Encoding Initiative\"&gt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1116
+msgid "&amp;TEI;"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1118
+msgid "Text Encoding Initiative"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1112
+msgid "Entities of this kind are useful also for <_:term-1/> purposes, where the same text needs to be repeated uniformly throughout a text. For example, if a declaration such as <_:eg-2/> is included with a document, then references such as <_:code-3/> may be used within it, each of which will be expanded in the same way and replaced by the string <_:q-4/> before the text is validated."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1123
+msgid "Processing Instructions"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1125
+msgid "Although one of the aims of using XML is to remove any information specific to the processing of a document from the document itself, it is occasionally very convenient to be able to include such information—if only so that it can be clearly distinguished from the structure of the document. As suggested above, one common example is the need, when processing an XML document for printed output, to include a suggestion that the formatting processor might use to determine where to begin a new page of output. Page-breaking decisions are usually best made by the formatting engine alone, but there will always be occasions when it may be necessary to override these. An XML processing instruction inserted into the document is one very simple and effective way of doing this without interfering with other aspects of the markup."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1139
+msgid "&lt;?tex \\newpage ?&gt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1140
+msgid "&lt;?"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1141
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1148
+msgid "?&gt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1142
+msgid "tex"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1138
+msgid "Here is an example XML processing instruction: <_:eg-1/> It begins with <_:code-2/> and ends with <_:code-3/>. In between are two space-separated strings: by convention, the first is the name of some processor (<_:code-4/> in the above example) and the second is some data intended for the use of that processor (in this case, the instruction to start a new page). The only constraint placed by XML on the strings is that the first one must be a valid XML name; the other can be any arbitrary sequence of characters, not including the closing character-sequence <_:code-5/>."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1152
+msgid "XML declaration"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1153
+msgid "&lt;?xml version=\"1.0\" encoding=\"iso-8859-1\"?&gt;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1151
+msgid "A construct which looks like a processing instruction (but is not) is the <_:term-1/> which can be supplied at the beginning of an XML document, for example: <_:eg-2/> The XML declaration specifies the version number of the XML Recommendation applicable to the document it introduces (in this case, version 1.0), and optionally also the character encoding used to represent the Unicode characters within it. By default an XML document uses the character encoding UTF-8 or UTF-16; in this case, the 16-bit characters of Unicode have been mapped to the 8-bit character set known as ISO 8859-1; any characters present in the document but not available in the target character set will therefore need to be represented as character references (<_:ptr-3/>). The XML declaration is purely documentary, but if it is wrong many XML-aware processors will be unable to process the associated text."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1168
+msgid "Namespaces"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1177
+msgid "table"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1170
+msgid "A valid XML document necessarily specifies the schema in which its constituent elements are defined. However, a well-formed XML document is not required to specify its schema (indeed, it may not even have a schema). It would still be useful to indicate that the element names used in it have some defined provenance. Furthermore, it might be desirable to include in a document elements that are defined (possibly differently) in different schemas. A cabinet-maker's schema might well define an element called <_:gi-1/> with very different characteristics from those of a documentalist's."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1187
+msgid "belongs to"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1188
+msgid "defined by"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1191
+msgid "prefix"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1179
+msgid "The concept of <_:term-1/> was introduced into the XML language as a means of addressing these and related problems. If the markup of an XML document is thought of as an expression in some language, then a namespace may be thought of as analogous to the lexicon of that language. Just as a document can contain words taken from different languages, so a well-formed XML document can include elements taken from different namespaces. A namespace resembles a schema in that we may say that a given set of elements <_:soCalled-2/> a given namespace, or are <_:soCalled-3/> a given schema. However, a schema is a set of element definitions, whereas a namespace is really only a property of a collection of elements: the only tangible form it takes in an XML document is its distinctive <_:term-4/> and the identifying <_:term-5/> associated with it."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1194
+msgid "Suppose for example that we wish to extend our anthology to include a complex diagram. We might start by considering whether or not to extend our simple schema to include XML markup for such features as arcs, polygons, and other graphical elements. XML can be used to represent any kind of structure, not simply text, and there are clear advantages to having our text and our diagrams all expressed in the same way."
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1204
+msgid "The W3C Recommendation is defined at <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1201
+msgid "Fortunately we do not need to invent a schema for the representation of graphical components such as diagrams; it already exists in the shape of the Scalable Vector Graphics (SVG) language defined by the W3C.<_:note-1/> SVG is a widely used and rich XML vocabulary for representing all kinds of two-dimensional graphics; it is also well supported by existing software. Using an SVG-aware drawing package, we can easily draw our diagram and save it in XML format for inclusion within our anthology. When we do so, we need to indicate that this part of the document contains elements taken from the SVG namespace, if only to ensure that processing software does not confuse our <_:gi-2/> element with the SVG <_:gi-3/>, which means something quite different."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1216
+msgid "null"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1218
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1241
+msgid "xmlns"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1215
+msgid "An XML document need not specify any namespace: it is then said to use the <_:soCalled-1/> namespace. Alternatively, the root element of a document may supply a default namespace, understood to apply to all elements which have no namespace prefix. This is the function of the <_:att-2/> attribute which provides a unique name for the default namespace, in the form of a URI: <_:egXML-3/> In exactly the same way, on the root element for each part of our document which uses the SVG language, we might introduce the SVG namespace name: <_:egXML-4/> Although a namespace name usually uses the URI (Uniform Resource Identifier) syntax, it is not treated as an online address and an XML processor regards it just as a string, providing a longer name for the namespace."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1241
+msgid "The <_:att-1/> attribute can also be used to associate a short prefix name with the namespace it defines. This is very useful if we want to mingle elements from different namespaces within the same document, since the prefix can be attached to any element, overriding the implicit namespace for itself (but not its children): <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1260
+msgid "aux"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1260
+msgid "adj"
+msgstr ""
+
+#. (itstool) path: line/itj
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1269
+msgid "O"
+msgstr ""
+
+#. (itstool) path: line/pron
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1271
+msgid "thou"
+msgstr ""
+
+#. (itstool) path: line/aux
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1272
+msgid "art"
+msgstr ""
+
+#. (itstool) path: line/adj
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1273
+msgid "sick"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1256
+msgid "There is no limit on the number of namespaces that a document can use. Provided that each is uniquely identified, an XML processor can identify those that are relevant, and validate them appropriately. To extend our example further, we might decide to add a linguistic analysis to each of the poems, using a set of elements such as <_:gi-1/>, <_:gi-2/>, etc., derived from some pre-existing XML vocabulary for linguistic analysis. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1279
+msgid "Marked Sections"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1285
+msgid "&amp;amp;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1285
+msgid "&amp;lt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1286
+msgid "&amp;gt;"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1294
+msgid "marked section"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1280
+msgid "We mentioned above that the syntax of XML requires the encoder to take special action if characters with a syntactic meaning in XML (such as the left angle bracket or ampersand) are to be used in a document to stand for themselves, rather than to signal the start of a tag or an entity reference respectively. The predefined entities <_:code-1/>, <_:code-2/>, and <_:code-3/> provide one method of dealing with this problem, if the number of occurrences of such things is small. Other methods may be considered when the number is large, as in an XML document like the present Guidelines, which contains hundreds of examples of XML markup. One is to label the XML examples as belonging to a different namespace from that of the document itself, which is the approach taken in the present Guidelines. Another and simpler approach is provided by one of the features inherited by XML from its parent SGML: the <_:soCalled-4/>."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1296
+msgid "&lt;![CDATA["
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1297
+msgid "]]&gt;"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1303
+#, no-wrap
+msgid ""
+"\n"
+"Here is an example of the use of the &lt;gi&gt;line&lt;/gi&gt; element:\n"
+"&lt;![CDATA[&lt;line&gt;[...]&lt;/line&gt;]]&gt;\n"
+""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1295
+msgid "A marked section is a block of text within an XML document introduced by the characters <_:code-1/> and terminated by the characters <_:code-2/>. Between these rather strange brackets, markup recognition is turned off, and any tags or entity references encountered are therefore treated as if they were plain text. For example, when we come to write the users' manual for our anthology, we may find ourselves often producing text like the following: <_:eg-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1313
+msgid "Putting It All Together"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1322
+msgid "how does a processor determine the schema (or schemas) that should be used to validate a given XML document instance?"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1324
+msgid "if a document contains entity references that must be processed before the document can be validated, where are those entities defined?"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1326
+msgid "an XML document instance may be stored in a number of different operating system files; how should they be assembled together?"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1328
+msgid "how does a processor determine which stylesheets it should use when processing an XML document, or how to interpret any processing instructions it contains?"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1331
+msgid "how does a processor enforce more exact validation than simple datatypes permit (for example of element content)?"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1315
+msgid "In this chapter we have discussed most of the components of an XML document and its associated schema. We have described informally how an XML document is represented, and also introduced one way of representing the rules a RELAX NG validator might use to validate it. In a working system, the following issues will also need to be addressed: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1336
+msgid "Different schema languages and different XML processing systems take very different positions on all of these topics, since none of them is explicitly addressed in the XML specification itself. Consequently, the best answer is likely to be specific to a particular software environment and schema language. Since this chapter is concerned with XML considered independently of its processing environment, we only address them in summary detail here."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1344
+msgid "Associating Entity Definitions with a Document Instance"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1346
+msgid "In <_:ptr-1/> we introduced the syntax used for the definition of named character entities such as <_:code-2/>, which XML inherited from SGML. Different schema languages vary in the ways they make a collection of such definitions available to an XML processor, but fortunately there is one method that all current schema languages support."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1353
+msgid "DOCTYPE"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1352
+msgid "As well as, and following, the XML declaration (<_:ptr-1/>), an XML document instance may be prefixed with a special <_:code-2/> statement. This declarative statement has been inherited by XML from SGML; in its full form it provides a large number of facilities, but we are here concerned only with the small subset of those facilities recognized by all schema languages."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1359
+#, no-wrap
+msgid ""
+"&lt;!DOCTYPE anthology [\n"
+"&lt;!ENTITY mdash \"&amp;#2014;\"&gt;\n"
+"&lt;!ENTITY legalese \"This document is available under a Creative Commons\n"
+"Share and Enjoy Licence\"&gt;\n"
+"]&gt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1369
+msgid "&amp;legalese;"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1371
+msgid "And, indeed, for those responsible for deciding the licensing conditions if they change their minds later."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1357
+msgid "Here is an example DOCTYPE statement which we might consider prefixing to the final version of our anthology: <_:eg-1/> Any XML processor encountering this statement will use it to add the two named entities it defines to those already predefined for XML. Before the document instance itself is validated, any references to these entities will be expanded to the character string given. Thus, wherever in the document instance the string <_:code-2/> appears, it will be replaced by the formulation above. This makes life a little easier for those keyboarding our anthology.<_:note-3/> The word <_:code-4/> following the string DOCTYPE in this example is, of course, the name of the root element of the document to which this declaration is prefixed; however, only an XML DTD processor will take note of this fact."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1378
+msgid "Associating a Document Instance with Its Schema"
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1383
+msgid "Associating Schemas with XML documents"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1387
+msgid "&lt;?xml-model href=\"http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng\"?&gt;"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1389
+msgid "href"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1389
+msgid "pseudo-attribute"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1392
+#, no-wrap
+msgid ""
+"&lt;?xml-model href=\"burgess.rng\" \n"
+"                       title=\"Anthony Burgess Project Schema\" \n"
+"                       schematypens=\"http://relaxng.org/ns/structure/1.0\" \n"
+"                       type=\"application/xml\"\n"
+"                     ?&gt;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1380
+msgid "In the past, different schema languages adopted entirely different attitudes to this question, leading to a variety of different methods of associating schemas with document instances. However, a W3C Working Group Note, <_:title-1/>, (<_:ptr-2/>) now provides a standardized method of doing this through the use of a processing instruction: <_:eg-3/> The <_:att-4/> <_:term-5/> points to the location of the schema. This is the only mandatory pseudo-attribute, but others can be added to give more information about the schema: <_:eg-6/> See the XML Model WG Note for more information on the pseudo-attributes available and how to use them."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1405
+#, no-wrap
+msgid ""
+"&lt;?xml-model href=\"tei_tite.xsd\" type=\"application/xml\" ?&gt;\n"
+"&lt;?xml-model href=\"checkNames.sch\" type=\"application/xml\" schematypens=\"http://purl.oclc.org/dsdl/schematron\" ?&gt;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1401
+msgid "A document instance may be valid according to many different schemas, each appropriate to a different processing task. All of these may be expressed in the same way: <_:eg-1/> This example includes a standard schema in XML Schema format, along with a Schematron schema which might be used for checking the format and linking of names."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1411
+msgid "Any modern XML processing software tool will provide convenient methods of validating documents which are appropriate to the particular schema language chosen. In the interests of maximizing portability of document instances, they should contain as little processing-specific information as possible."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1418
+msgid "Assembling Multiple Resources into a Single Document"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1423
+msgid "system entity"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1419
+msgid "As we have already indicated, a single XML document may be made up of several different operating system files that need to be pulled together by a processor before the whole document can be validated. The XML DTD language defines a special kind of entity (a <_:term-1/>) that can be used to embed references to whole files into a document for this purpose, in much the same way as the character or string entities discussed in <_:ptr-2/>. Neither RELAX NG nor W3C Schema directly supports this mechanism, however, and we do not discuss it further here."
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1431
+msgid "XML Inclusions"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1432
+msgid "<_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1428
+msgid "An alternative way of achieving the same effect is to use a special kind of pointer element to refer to the resources that need to be assembled, in exactly the same way as we proposed for the illustration in our anthology. The W3C Recommendation <_:title-1/> (XInclude)<_:note-2/> defines a generic mechanism for this purpose, which is supported by an increasing number of XML processors."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1436
+msgid "Stylesheet Association and Processing"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1437
+msgid "As mentioned above, the processing of an XML document will usually involve the use of one or more stylesheets, often but not exclusively to provide specific details of how the document should be displayed or rendered. In general, there is no reason to associate a document instance with any specific stylesheet and the schema languages we have discussed so far do not therefore make any special provision for such association. The association is made when the stylesheet processor is invoked, and is thus entirely application-specific."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1450
+msgid "MIME type"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1445
+msgid "However, since one very common application for XML documents is to serve them as browsable documents over the Web, the W3C has defined a procedure and a syntax for associating a document instance with its stylesheet (see <_:ptr-1/>). This Recommendation allows a document to supply a link to a default stylesheet and also to categorize the stylesheet according to its <_:term-2/>, for example to indicate whether the stylesheet is written in CSS or XSLT, using a specialized form of processing instruction."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1455
+msgid "anthology.css"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1458
+msgid "&lt;?xml-stylesheet href=\"anthology.css\" type=\"text/css\"?&gt;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1453
+msgid "Assuming therefore that we have made a CSS-conformant stylesheet for our anthology and stored it in a file called <_:code-1/> which is available from the same location as the anthology itself, we could make it available over the Web simply by adding a processing instruction like the following to the anthology: <_:eg-2/>"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1463
+msgid "&lt;?xml-stylesheet href=\"anthology_m.css\" type=\"text/css\" media=\"mobile\"?&gt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1465
+msgid "anthology_m.css"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1460
+msgid "Multiple stylesheets can be defined for the same document, and options are available to specify how a web browser should select amongst them. For example, if the document also contained a directive: <_:eg-1/>a different stylesheet called <_:code-2/> could be used when rendering the document on a handheld device such as a mobile phone."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1467
+msgid "Most modern web browsers support CSS (although the extent of their implementation varies), and some of them support XSLT."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1471
+msgid "Content Validation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1482
+msgid "editorialQuery"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1473
+msgid "As we noted above, most schema languages provide some degree of datatype validation for attribute values (<_:ptr-1/>). They vary greatly in the validation facilities they offer for the content of elements, other than the syntactic constraints already discussed. Thus, while we may very easily check that our <_:gi-2/> elements contain only <_:gi-3/> elements, we cannot easily check that <_:gi-4/> elements contain between five and 500 correctly-spelled English words, should we wish to constrain our poetry in such a way. Also, because attributes and elements are treated differently, it is difficult or impossible to express co-occurrence constraints: for example, if the <_:att-5/> of a poem is <_:val-6/> we might wish to permit elements such as <_:gi-7/> within its content, but not otherwise."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1485
+msgid "The XML DTD language offers very little beyond syntactic checking of element content. By contrast, a major impetus behind the design and development of the W3C schema language was the addition of a much more general and powerful constraint language to the existing structural constraints of XML DTDs. In RELAX NG the opposite approach was taken, in that all datatype validation, whether of attributes or element content, is regarded as external to the schema language. For attributes, as we have seen, RELAX NG makes use of the W3C Schema Datatype Library (but permits use of others). Because RELAX NG treats both elements and attributes as special cases of patterns, the same datatype validation facilities are available for element content as for attribute values; it is unlike other schema languages in this respect. In addition, for content validation, a different component of DSDL known as Schematron can be used. Schematron is a pattern matching (rather than a grammar-based) language, which allows us to test the components of a document against templates that express constraints such as those mentioned above."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/SG-GentleIntroduction.xml:1503
+msgid "Like other XML processors, Schematron uses XPath to identify parts of an XML document; in addition, it provides elements that describe assertions to be tested and conditions which must be validated, as well as elements to report the results of the test."
+msgstr ""
+

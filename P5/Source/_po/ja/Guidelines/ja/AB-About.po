@@ -1,0 +1,1328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:14
+msgid "About These Guidelines"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:16
+msgid "These Guidelines have been developed and are maintained by the Text Encoding Initiative Consortium (TEI); see <_:ptr-1/>. They are addressed to anyone who works with any kind of textual resource in digital form."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:24
+msgid "tags"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:34
+msgid "markup"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:35
+msgid "encoding"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:36
+msgid "tagging"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:37
+msgid "encoding scheme"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:37
+msgid "markup language"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:39
+msgid "markup vocabulary"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:21
+msgid "They make recommendations about suitable ways of representing those features of textual resources which need to be identified explicitly in order to facilitate processing by computer programs. In particular, they specify a set of markers (or <_:term-1/>) which may be inserted in the electronic representation of the text, in order to mark the text structure and other features of interest. Many, or most, computer programs depend on the presence of such explicit markers for their functionality, since without them a digitized text appears to be nothing but a sequence of undifferentiated bits. The success of the World Wide Web, for example, is partly a consequence of its use of such markup to indicate such features as headings and lists on individual pages, and to indicate links between pages. The process of inserting such explicit markers for implicit textual features is often called <_:soCalled-2/>, or equivalently within this work <_:soCalled-3/>; the term <_:soCalled-4/> is also used informally. We use the term <_:term-5/> or <_:term-6/> to denote the complete set of rules associated with the use of markup in a given context; we use the term <_:term-7/> for the specific set of markers or named distinctions employed by a given encoding scheme. Thus, this work both describes the TEI encoding scheme, and documents the TEI markup vocabulary."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:44
+msgid "The TEI encoding scheme is of particular usefulness in facilitating the loss-free interchange of data amongst individuals and research groups using different programs, computer systems, or application software. Since they contain an inventory of the features most often deployed for computer-based text processing, these Guidelines are also useful as a starting point for those designing new systems and creating new materials, even where interchange of information is not a primary objective."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:55
+msgid "running text"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:64
+msgid "born digital"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:53
+msgid "These Guidelines apply to texts in any natural language, of any date, in any literary genre or text type, without restriction on form or content. They treat both continuous materials (<_:soCalled-1/>) and discontinuous materials such as dictionaries and linguistic corpora. Though principally directed to the needs of the scholarly research community, these Guidelines are not restricted to esoteric academic applications. They are also useful for librarians maintaining and documenting electronic materials, and for publishers and others creating or distributing electronic texts. Although they focus on problems of representing in electronic form texts which already exist in traditional media, these Guidelines are also applicable to textual material which is <_:soCalled-2/>. We believe them to be adequate to the widest variety of currently existing practices in using digital textual data, but by no means limited to them."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:69
+msgid "The rules and recommendations made in these Guidelines are expressed in terms of what is currently the most widely-used markup language for digital resources of all kinds: the Extensible Markup Language (XML), as defined by the World Wide Web Consortium's XML Recommendation. However, the TEI encoding scheme itself does not depend on this language; it was originally formulated in terms of SGML (the ISO Standard Generalized Markup Language), a predecessor of XML, and may in future years be re-expressed in other ways as the field of markup develops and matures. For more information on markup languages see chapter <_:ptr-1/>; for more information on the associated character encoding issues see chapter <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:84
+msgid "This document provides the authoritative and complete statement of the requirements and usage of the TEI encoding scheme. As such, although it includes numerous small examples, it must be stressed that this work is intended to be a reference manual rather than a tutorial guide."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:90
+msgid "The remainder of this chapter comprises three sections. The first gives an overview of the structure and notational conventions used throughout these Guidelines. The second enumerates the design principles underlying the TEI scheme and the application environments in which it may be found useful. Finally, the third section gives a brief account of the origins and development of the Text Encoding Initiative itself."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:97
+msgid "Structure and Notational Conventions of this Document"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:100
+msgid "The remaining two sections of the front matter to these Guidelines provide background tutorial material for those unfamiliar with basic markup technologies. Following the present introductory section, we present a detailed introduction to XML itself, intended to cover in a relatively painless manner as much as the novice user of the TEI scheme needs to know about markup languages in general and XML in particular. This is followed by a discussion of the general principles underlying current practice in the representation of different languages and writing systems in digital form. This chapter is largely intended for the user unfamiliar with the Unicode encoding systems, though the expert may also find its historical overview of interest."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:113
+msgid "The body of this edition of these Guidelines proper contains 23 chapters arranged in increasing order of specialist interest. The first five chapters discuss in depth matters likely to be of importance to anyone intending to apply the TEI scheme to virtually any kind of text. The next seven focus on particular kinds of text: verse, drama, spoken text, dictionaries, and manuscript materials. The next nine chapters deal with a wide range of topics, one or more of which are likely to be of interest in specialist applications of various kinds. The last two chapters deal with the XML encoding used to represent the TEI scheme itself, and provide technical information about its implementation. The last chapter also defines the notion of TEI conformance and its implications for interchange of materials produced according to these Guidelines."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:127
+msgid "As noted above, this is a reference work, and is not intended to be read through from beginning to end. However, the reader wishing to understand the full potential of the TEI scheme will need a thorough grasp of the material covered by the first four chapters and the last two. Beyond that, the reader is recommended to select according to their specific interests: one of the strengths of the TEI architecture is its modular nature."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:135
+msgid "As far as possible, extensive cross referencing is provided wherever related topics are dealt with; these are particularly effective in the online version of these Guidelines. In addition, a series of technical appendixes provide detailed formal definitions for every element, every class, and every macro discussed in the body of the work; these are also cross linked as appropriate. Finally, a detailed bibliography is provided, which identifies the source of many examples cited in the text as well as documenting works referred to, and listing other relevant publications."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:146
+msgid "As an aid to the reader, most chapters of these Guidelines follow the same basic organization. The chapter begins with an overview of the subjects treated within it, linked to the following subsections. Within each section where new elements are described, a summary table is first given, which provides their names and a brief description of their intended usage. This is then followed where appropriate by further discussion of each element, including wherever possible usage examples taken somewhat eclectically from a variety of real sources. These examples are not intended to be exhaustive, but rather to suggest typical ways in which the elements concerned may usefully be applied. Where appropriate, a link to a statement of the source for most examples is provided in the online version. Within the examples, use of whitespace such as newlines or indentation is simply intended to aid legibility, and is not prescriptive or normative."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AB-About.xml:164
+#: Source/Guidelines/en/AB-About.xml:164
+msgid "name"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:165
+msgid "generic identifier"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:166
+msgid "pb"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:166
+msgid "anchor"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AB-About.xml:168
+#: Source/Guidelines/en/AB-About.xml:168
+msgid "attname"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AB-About.xml:170
+msgid "model.divLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:171
+#: Source/Guidelines/en/AB-About.xml:322
+msgid "att.global"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:161
+msgid "Wherever TEI elements or classes are mentioned in the text, they are linked in the online version to the relevant reference specification for the element or class concerned. Element names are always given in the form <_:gi-1/>, where <_:q-2/> is the <_:term-3/> of the element; empty elements such as <_:gi-4/> or <_:gi-5/> include a closing slash to distinguish them wherever they are discussed. References to attributes take the form <_:att-6/>, where <_:q-7/> is the name of the attribute. References to classes are also presented as links, for example <_:ident-8/> for a model class, and <_:ident-9/> for an attribute class."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:175
+msgid "The use of modal verbs"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/AB-About.xml:177
+msgid "https://tools.ietf.org/html/bcp14"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:180
+msgid "MUST"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:181
+msgid "This word, or the terms \"REQUIRED\" or \"SHALL\", mean that this is an absolute requirement of the TEI Guidelines for production of a TEI conformant file."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:183
+msgid "MUST NOT"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:184
+msgid "This phrase, or the phrase \"SHALL NOT\", mean that this is an absolute prohibition of the TEI Guidelines for produciton of a TEI conformant file."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:186
+msgid "SHOULD"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:187
+msgid "This word, or the adjective \"RECOMMENDED\", mean that there may exist valid reasons in particular circumstances to ignore a particular recommendation, but the full implications must be understood and carefully weighed before choosing a different course."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:190
+msgid "SHOULD NOT"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:191
+msgid "This phrase, or the phrase \"NOT RECOMMENDED\" mean that there may exist valid reasons in particular circumstances when the particular behavior is acceptable or even useful, but the full implications should be understood and the case carefully weighed before implementing any behavior so described."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:194
+msgid "MAY"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:195
+msgid "This word, or the adjective \"OPTIONAL\", mean that a recommendation is truly optional. One user may choose to follow the recommendation because a particular project requires it or feels that it enhances their work while another project may choose to not follow this recommendation."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:176
+msgid "In general the TEI guidelines try to be careful when using modal verbs and phrases such as 'must', 'must not, 'should', 'should not' and 'may'. In terms of the meanings, these generally follow <_:ref-1/> in the different meanings of these words. In particular: <_:list-2/> However, the prose of the TEI Guidelines continually undergoes revision and all uses may not reflect this. Please report any errors or unclear use of these words."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:205
+msgid "TEI Naming Conventions"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:206
+msgid "These Guidelines use a more or less consistent set of conventions in the naming of XML elements and classes. This section summarizes those conventions."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:210
+msgid "Element and Attribute Names"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AB-About.xml:211
+msgid "blort"
+msgstr ""
+
+#. (itstool) path: note/code
+#: Source/Guidelines/en/AB-About.xml:214
+msgid "tei"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AB-About.xml:212
+msgid "During generation of TEI RELAX NG schema fragments, the patterns corresponding with these TEI names are given a prefix <_:code-1/> to allow them to co-exist with names from other XML namespace. This prefix is not visible to the end user, and is not used in TEI documentation. When generating multi-namespace schemas, however, the user needs to be aware of them."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:211
+msgid "An unadorned name such as <_:q-1/> is the name of a TEI element or attribute. <_:note-2/>."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/AB-About.xml:222
+msgid "tokens"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:221
+msgid "Elements are given generic identifiers as far as possible consisting of one or more <_:term-1/>, by which we mean whole words or recognisable abbreviations of them, taken from the English language."
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:228
+msgid "biblStruct"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:228
+msgid "listPerson"
+msgstr ""
+
+#. (itstool) path: item/soCalled
+#: Source/Guidelines/en/AB-About.xml:229
+msgid "camelCasing"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:225
+msgid "Where an element name contains more than one token, the first letter of the second token, and of any subsequent ones, is capitalized, as in for example <_:gi-1/>, <_:gi-2/>. This <_:soCalled-3/> is used also for attribute names and symbolic values."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:231
+msgid "Module names also use whole words, for the most part, but are always all lower case."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:234
+#: Source/Guidelines/en/AB-About.xml:306
+msgid "gloss"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:233
+msgid "The specification for an element or attribute whose name contains abbreviations generally also includes a <_:gi-1/> element providing the expanded sense of the name."
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:238
+msgid "altIdent"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:236
+msgid "An element specification may also contain approved translations for element or attribute names in one or more other languages using the <_:gi-1/> element; this is not however generally done in TEI P5."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:219
+msgid "The following conventions apply to the choice of names: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:247
+msgid "att"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:248
+msgid "attribute"
+msgstr ""
+
+#. (itstool) path: list/label
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:249
+#: Source/Guidelines/en/AB-About.xml:270
+msgid "bibl"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:250
+msgid "bibliographic description or reference in a bibliography"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:251
+msgid "cat"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:252
+msgid "category, especially as used in text classification"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:253
+msgid "char"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:254
+msgid "character, typically a Unicode character"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:255
+msgid "doc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:256
+msgid "document: this usually refers to the original source document which is being encoded,"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:258
+msgid "decl"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:259
+msgid "declaration: has a specific sense in the TEI Header, as discussed in <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:261
+msgid "desc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:262
+msgid "description: has a specific sense in the TEI header, as discussed in <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:264
+msgid "grp"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:267
+msgid "linkGrp"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:268
+msgid "link"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/AB-About.xml:269
+msgid "listBibl"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:265
+msgid "group. In TEI usage, a group is distinguished from a list in that the former associates several objects which act as a single entity, while the latter does not. For example, a <_:gi-1/> combines several <_:gi-2/> elements which have certain properties in common, whereas a <_:gi-3/> simply lists a number of otherwise unrelated <_:gi-4/> elements."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:271
+msgid "interp"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:272
+msgid "interpretation or analysis"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:273
+msgid "lang"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:273
+msgid "(natural) language"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:274
+msgid "ms"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:274
+msgid "manuscript"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:275
+msgid "org"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:276
+msgid "organization, that is, a named group of people or legal entity"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:277
+msgid "rdg"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:278
+msgid "reading or version found in a specific witness"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:279
+msgid "ref"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:279
+msgid "reference or link"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:280
+msgid "spec"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:281
+msgid "technical specification or definition"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:282
+msgid "stmt"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:283
+msgid "statement: used in a specific sense in the TEI header, as discussed in <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:285
+msgid "struct"
+msgstr ""
+
+#. (itstool) path: item/soCalled
+#: Source/Guidelines/en/AB-About.xml:287
+msgid "mixed content"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:286
+msgid "structured: that is, containing a specific set of named elements rather than <_:soCalled-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:288
+msgid "val"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:289
+msgid "value, for example of a variable or an attribute"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/AB-About.xml:290
+msgid "wit"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:291
+msgid "witness: that is, a specific document which attests specific readings in a textual tradition or apparatus"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:243
+msgid "Whole words are generally preferred for clarity. The following abbreviations are however commonly used within generic identifiers: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:296
+msgid "add"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:296
+msgid "addSpan"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:297
+msgid "addName"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:295
+msgid "Some abbreviations are used inconsistently: for example, <_:gi-1/> is an addition, and <_:gi-2/> is a spanning addition, but <_:gi-3/> is an additional name, not the name of an addition. Such inconsistencies are relatively few in number, and it is hoped to remove them in subsequent revisions of these Guidelines."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:302
+msgid "p"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:302
+msgid "s"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:303
+msgid "hi"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:303
+msgid "ptr"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:304
+#: Source/Guidelines/en/AB-About.xml:362
+#: Source/Guidelines/en/AB-About.xml:364
+msgid "div"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:300
+msgid "Some elements have very short abbreviated names: these are for the most part elements which are likely to be used very frequently in a marked up text, for example <_:gi-1/> (paragraph), <_:gi-2/> (segment) <_:gi-3/> (highlighted phrase), <_:gi-4/> (pointer), <_:gi-5/> (division) etc. We do not specifically list such elements here: as noted above, an expansion of each such abbreviated name is provided within the documentation using the <_:gi-6/> element ."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:311
+msgid "Class, Macro, and Datatype Names"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:317
+msgid "Component"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:318
+msgid "Name"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:319
+msgid "Example"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:321
+msgid "Attribute Classes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:322
+msgid "att.*"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:323
+msgid "Model Classes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:324
+msgid "model.*"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:324
+msgid "model.biblPart"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:325
+msgid "Macros"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:325
+msgid "macro.*"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:325
+msgid "macro.paraContent"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:326
+msgid "Datatypes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:326
+msgid "data.*"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/AB-About.xml:326
+msgid "data.pointer"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:313
+msgid "All named objects other than elements and attributes have one of the following prefixes, which indicate whether the object is a module, an attribute class, a model class, a datatype, or a macro: <_:table-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:329
+msgid "The concepts of model class, attribute class, etc. are defined in <_:ptr-1/>. Here we simply note some conventions about their naming."
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:334
+msgid "att.xxx"
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:335
+msgid "xxx"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:334
+msgid "Attribute class names take the form <_:code-1/>, where <_:code-2/> is typically an adjective, or a series of adjectives separated by dots, describing a property common to the attributes which make up the class."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:338
+msgid "Attributes with the same name are considered to have the same semantics, whether the attribute is inherited from a class, or locally defined."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:333
+msgid "The following rules apply to attribute class names: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:345
+msgid "model."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/AB-About.xml:346
+msgid "root name"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:345
+msgid "Model classes have names beginning <_:code-1/> followed by a <_:term-2/>, and zero or more suffixes as described below."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:348
+msgid "A root name may be the name of an element, generally the prototypical parent or sibling for elements which are members of the class."
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:351
+msgid "Part"
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:353
+msgid "Like"
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:354
+msgid "rootname"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:351
+msgid "The first suffix should be <_:code-1/>, if the class members are all children of the element named rootname; or <_:code-2/>, if the class members are all siblings of the element named <_:code-3/>."
+msgstr ""
+
+#. (itstool) path: item/code
+#: Source/Guidelines/en/AB-About.xml:355
+msgid "global"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:355
+msgid "The rootname <_:code-1/> is used to indicate that class members are permitted anywhere in a TEI document."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:357
+msgid "Additional suffixes may be added, prefixed by a dot, to distinguish subclasses, semantic or structural."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:344
+msgid "The following rules apply to model class names: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AB-About.xml:362
+msgid "model.divPart"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AB-About.xml:365
+msgid "model.divPart.spoken"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:361
+msgid "For example, the class of elements which can form part of a <_:gi-1/> is called <_:ident-2/>. This class includes as a subclass the elements which can form part of a <_:gi-3/> in a spoken text, which is named <_:ident-4/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:372
+msgid "Design Principles"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:380
+msgid "provide a standard format for data interchange"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:381
+msgid "provide guidance for the encoding of texts in this format"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:382
+msgid "support the encoding of all kinds of features of all kinds of texts studied by researchers"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:384
+msgid "be application independent"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:387
+msgid "the choice of XML and Unicode"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:388
+msgid "the provision of a large predefined tag set"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:389
+msgid "encodings for different views of text"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:390
+msgid "alternative encodings for the same textual features"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:391
+msgid "mechanisms for user-defined modification of the scheme"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:374
+msgid "Because of its roots in the humanities research community, the TEI scheme is driven by its original goal of serving the needs of research, and is therefore committed to providing a maximum of comprehensibility, flexibility, and extensibility. More specific design goals of the TEI have been that these Guidelines should: <_:list-1/> This has led to a number of important design decisions, such as: <_:list-2/> We discuss some of these goals in more detail below."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:394
+msgid "The goal of creating a common interchange format which is application independent requires the definition of a specific markup syntax as well as the definition of a large set of elements or concepts. The syntax of the recommendations made in this document conforms to the World Wide Web Consortium's XML Recommendation (<_:ptr-1/>) but their definition is as far as possible independent of any particular schema language."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AB-About.xml:410
+msgid "if you want to encode this feature, do it this way"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:401
+msgid "The goal of providing guidance for text encoding suggests that recommendations be made as to what textual features should be recorded in various situations. However, when selecting certain features for encoding in preference to others, these Guidelines have tended to prefer generic solutions to specific ones, and to avoid areas where no consensus exists, while attempting to accommodate as many diverse views as feasible. Consequently, the TEI Guidelines make (with relatively rare exceptions) no suggestions or restrictions as to the relative importance of textual features. The philosophy of these Guidelines is <_:q-1/>—but very few features are mandatory. In the same spirit, while these Guidelines very rarely require you to encode any particular feature, they do require you to be honest about which features you have encoded, that is, to respect the meanings and usage rules they recommend for specific elements and attributes proposed."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:416
+msgid "The requirement to support all kinds of materials likely to be of interest in research has largely conditioned the development of the TEI into a very flexible and modular system. The development of other XML vocabularies or standards is typically motivated by the desire to create a single fully specified encoding scheme for use in a well-defined application domain. By contrast, the TEI is intended for use in a large number of rather ill-defined and often overlapping domains. It achieves its generality by means of the modular architecture described in <_:ptr-1/> which enables each user to create a schema appropriate to their needs without compromising the interoperability of their data."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:431
+msgid "transcription"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:431
+msgid "original"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:432
+msgid "copy text"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AB-About.xml:433
+msgid "sourceDesc"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/AB-About.xml:433
+msgid "the rendition indicators"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:427
+msgid "The Guidelines have been written largely with a focus on text capture (i.e. the representation in electronic form of an already existing copy text in another medium) rather than text creation (where no such copy text exists). Hence the frequent use of terms like <_:soCalled-1/>, <_:soCalled-2/>, <_:soCalled-3/>, etc. However, these Guidelines are equally applicable to text creation, although certain elements, such as <_:gi-4/>, and certain attributes, such as <_:ref-5/>, will not be relevant in this case."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:434
+msgid "Concerning text capture the TEI Guidelines do not specify a particular approach to the problem of fidelity to the source text and recoverability of the original; such a choice is the responsibility of the text encoder. The current version of these Guidelines, however, provides a more fully elaborated set of tags for markup of rhetorical, linguistic, and simple typographic characteristics of the text than for detailed markup of page layout or for fine distinctions among type fonts or manuscript hands. It should be noted also that, with the present version of these Guidelines, it is no longer necessarily the case that an unmediated version of the source text can be recovered from an encoded text simply by removing the markup."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:447
+msgid "objective"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:447
+msgid "subjective"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:448
+msgid "representation"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:449
+msgid "interpretation"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:456
+msgid "descriptive"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AB-About.xml:456
+msgid "interpretive"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:446
+msgid "In these Guidelines, no hard and fast distinction is drawn between <_:soCalled-1/> and <_:soCalled-2/> information or between <_:soCalled-3/> and <_:soCalled-4/>. These distinctions, though widely made and often useful in narrow, well-defined contexts, are perhaps best interpreted as distinctions between issues on which there is a scholarly consensus and issues where no such consensus exists. Such consensus has been, and no doubt will be, subject to change. The TEI Guidelines do not make suggestions or restrictions as to which of these features should be encoded. The use of the terms <_:term-5/> and <_:term-6/> about different types of encoding in these Guidelines is not intended to support any particular view on these theoretical issues. Historically, it reflects a purely practical division of responsibility amongst the original working committees (see further <_:ptr-7/>)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:461
+msgid "In general, the accuracy and the reliability of the encoding and the appropriateness of the interpretation is for the individual user of the text to determine. The Guidelines provide a means of documenting the encoding in such a way that a user of the text can know the reasoning behind that encoding, and the general interpretive decisions on which it is based. The TEI header should be used to document and justify many such aspects of the encoding, but the choice of TEI elements for a particular feature is in itself a statement about the interpretation reached by the encoder."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:471
+msgid "In many situations more than one view of a text is needed since no absolute recommendation to embody one specific view of text can apply to all texts and all approaches to them. Within limits, the syntax of XML ensures that some encodings can be ignored for some purposes. To enable encoding multiple views, these Guidelines not only treat a variety of textual features, but sometimes provide several alternative encodings for what appear to be identical textual phenomena. These Guidelines offer the possibility of encoding many different views of the text, simultaneously if necessary. Where different views of the formal structure of a text are required, as opposed to different annotations on a single structural view, however, the formal syntax of XML (which requires a single hierarchical view of text structure) poses some problems; recommendations concerning ways of overcoming or circumventing that restriction are discussed in chapter <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:487
+msgid "In brief, the TEI Guidelines define a general-purpose encoding scheme which makes it possible to encode different views of text, possibly intended for different applications, serving the majority of scholarly purposes of text studies in the humanities. Because no predefined encoding scheme can possibly serve all research purposes, the TEI scheme is designed to facilitate both selection from a wide range of predefined markup choices, and the addition of new (non-TEI) markup options. By providing a formally verifiable means of extending the TEI recommendations, the TEI makes it simple for such user-identified modifications to be incorporated into future releases of these Guidelines as they evolve. The underlying mechanisms which support these aspects of the scheme are introduced in chapter <_:ptr-1/>, and detailed discussions of their use provided in chapter <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:501
+msgid "Intended Use"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:504
+msgid "guidance for individual or local practice in text creation and data capture;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:506
+msgid "support of data interchange;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:507
+msgid "support of application-independent local processing."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:502
+msgid "We envisage three primary functions for these Guidelines: <_:list-1/> These three functions are so thoroughly interwoven in practice that it is hardly possible to address any one without addressing the others. However, the distinction provides a useful framework for discussing the possible role of these Guidelines in work with electronic texts."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:512
+msgid "Use in Text Capture and Text Creation"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:513
+msgid "The description of textual features found in the chapters which follow should provide a useful checklist from which scholars planning to create electronic texts should select the subset of features suitable for their project."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:518
+msgid "capture"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:517
+msgid "Problems specific to text creation or text <_:soCalled-1/> have not been considered explicitly in this document. These Guidelines are not concerned with the process by which a digital text comes into being: it can be typed by hand, scanned from a printed book or typescript, read from a typesetter's tape, or acquired from another researcher who may have used another markup scheme (or no explicit markup at all)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:524
+msgid "We include here only some general points which are often raised about markup and the process of data capture."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:526
+msgid "XML can appear distressingly verbose, particularly when (as in these Guidelines) the names of tags and attributes are chosen for clarity and not for brevity. Editor macros and keyboard shortcuts can allow a typist to enter frequently used tags with single keystrokes. It is often possible to transform word-processed or scanned text automatically. Markup-aware software can help with maintaining the hierarchical structure of the document, and display the document with visual formatting rather than raw tags."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:534
+msgid "The techniques described in chapter <_:ptr-1/> may be used to develop simpler data capture TEI-conformant schemas, for example with limited numbers of elements, or with shorter names for the tags being used most often. Documents created with such schemas may then be automatically converted to a more elaborated TEI form."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:541
+msgid "Use for Interchange"
+msgstr ""
+
+#. (itstool) path: p/formula
+#: Source/Guidelines/en/AB-About.xml:545
+msgid "n"
+msgstr ""
+
+#. (itstool) path: p/formula
+#: Source/Guidelines/en/AB-About.xml:547
+msgid "n×(n-1)"
+msgstr ""
+
+#. (itstool) path: p/formula
+#: Source/Guidelines/en/AB-About.xml:548
+msgid "2×n"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:543
+msgid "The TEI format may simply be used as an interchange format, permitting projects to share resources even when their local encoding schemes differ. If there are <_:formula-1/> different encoding formats, to provide mappings between each possible pair of formats requires <_:formula-2/> translations; with an interchange format, only <_:formula-3/> such mappings are needed. However, for such translations to be carried out without loss of information, the interchange format chosen must be as expressive (in a formal sense) as any of the target formats; this is a further reason for the TEI's provision of both highly abstract or generic encodings and highly specific ones."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:556
+msgid "identifying the sets of textual features distinguished by the two schemes;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:558
+msgid "determining where the two sets of features correspond;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:559
+msgid "creating a suitable set of mappings."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:554
+msgid "To translate between any pair of encoding schemes implies: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:563
+msgid "Make a list of all the textual features distinguished in X."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:568
+msgid "the feature exists in both X and the TEI scheme;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:569
+msgid "X has a feature which is absent from the TEI scheme;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:570
+msgid "X has a feature which corresponds with more than one feature in the TEI scheme."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:565
+msgid "Identify the corresponding feature in the TEI scheme. There are three possibilities for each feature: <_:list-1/> The first case is a trivial renaming. The second will require an extension to the TEI scheme, as described in chapter <_:ptr-2/>. The third is more problematic, but not impossible, provided that a consistent choice can be made (and documented) amongst the alternatives."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:560
+msgid "For example, to translate from encoding scheme X into the TEI scheme: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:577
+msgid "The ease with which this translation can be defined will of course depend on the clarity with which scheme X represents the features it encodes."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:580
+msgid "Translating from the TEI into scheme X follows the same pattern, except that if a TEI feature has no equivalent in X, and X cannot be extended, information must be lost in translation."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/AB-About.xml:588
+msgid "abstract model"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/AB-About.xml:592
+msgid "tag abuse"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:588
+msgid "The TEI <_:term-1/> (that is, the set of categorical distinctions which it defines in the prose of the Guidelines) must be respected. The correspondence between a tag X and the semantic function assigned to it by these Guidelines may not be changed; such changes are known as <_:term-2/> and strongly discouraged."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:593
+msgid "A TEI document must be expressed as a valid XML-conformant document which uses the TEI namespace appropriately. If, for example, the document encodes features not provided by these Guidelines, such extensions should not be associated with the TEI namespace."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:597
+msgid "It must be possible to validate a TEI document against a schema derived from these Guidelines, possibly with extensions provided in the recommended manner."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:583
+msgid "The rules defining conformance to these Guidelines are given in some detail in chapter <_:ptr-1/>. The basic principles informing those rules may be summarized as follows: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:605
+msgid "Use for Local Processing"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:608
+msgid "edit texts (e.g. word processors, syntax-directed editors)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:610
+msgid "edit, display, and link texts in hypertext systems"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:611
+msgid "format and print texts using desktop publishing systems, or batch-oriented formatting programs"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:613
+msgid "load texts into free-text retrieval databases or conventional databases"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:615
+msgid "unload texts from databases as search results or for export to other software"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:617
+msgid "search texts for words or phrases"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:618
+msgid "perform content analysis on texts"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:619
+msgid "collate texts for critical editions"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:620
+msgid "scan texts for automatic indexing or similar purposes"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:621
+msgid "parse texts linguistically"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:622
+msgid "analyze texts stylistically"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:623
+msgid "scan verse texts metrically"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/AB-About.xml:624
+msgid "link text and images"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:606
+msgid "Machine-readable text can be manipulated in many ways; some users: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:625
+msgid "These applications cover a wide range of likely uses but are by no means exhaustive. The aim has been to make the TEI Guidelines useful for encoding the same texts for different purposes. We have avoided anything which would restrict the use of the text for other applications. We have also tried not to omit anything essential to any single application."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:631
+msgid "Because the TEI format is expressed using XML, almost any modern text processing system is able to process it, and new TEI-aware software systems are able to build on a solid base of existing software libraries."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:636
+msgid "Historical Background"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:649
+msgid "Poughkeepsie Principles"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:638
+msgid "The Text Encoding Initiative grew out of a planning conference sponsored by the Association for Computers and the Humanities (ACH) and funded by the U.S. National Endowment for the Humanities (NEH), which was held at Vassar College in November 1987. At this conference some thirty representatives of text archives, scholarly societies, and research projects met to discuss the feasibility of a standard encoding scheme and to make recommendations for its scope, structure, content, and drafting. During the conference, the Association for Computational Linguistics and the Association for Literary and Linguistic Computing agreed to join ACH as sponsors of a project to develop these Guidelines. The outcome of the conference was a set of principles (the <_:soCalled-1/>, <_:ptr-2/>), which determined the further course of the project."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AB-About.xml:716
+msgid "significant particularities"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:705
+msgid "The Text Encoding Initiative project began in June 1988 with funding from the NEH, soon followed by further funding from the Commission of the European Communities, the Andrew W. Mellon Foundation, and the Social Science and Humanities Research Council of Canada. Four working committees, composed of distinguished scholars and researchers from both Europe and North America, were named to deal with problems of text documentation, text representation, text analysis and interpretation, and metalanguage and syntax issues. Each committee was charged with the task of identifying <_:soCalled-1/> in a range of texts, and two editors appointed to harmonize the resulting recommendations."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AB-About.xml:718
+msgid "P"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AB-About.xml:719
+msgid "Proposal"
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/AB-About.xml:720
+msgid "Guidelines for the Encoding and Interchange of Machine-Readable Texts"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:718
+msgid "A first draft version (P1, with the <_:q-1/> here and subsequently standing for <_:q-2/>) of the Guidelines was distributed in July 1990 under the title <_:title-3/>. Extensive public comment and further work on areas not covered in this version resulted in the drafting of a revised version, TEI P2, distribution of which began in April 1992. This version included substantial amounts of new material, resulting from work carried out by several specialist working groups, set up in 1990 and 1991 to propose extensions and revisions to the text of P1. The overall organization, both of the draft itself and of the scheme it describes, was entirely revised and reorganized in response to public comment on the first draft."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AB-About.xml:738
+msgid "draft"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:733
+msgid "In June 1993 an Advisory Board met to review the current state of the TEI Guidelines, and recommended the formal publication of the work done to that time. That version of the TEI Guidelines, TEI P3, consolidated the work published as parts of TEI P2, along with some additional new material and was finally published in May of 1994 without the label <_:mentioned-1/>, thus marking the conclusion of the initial development work."
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AB-About.xml:742
+msgid "XML was originally developed as a way of publishing on the World Wide Web richly encoded documents such as those for which the TEI was designed. Several TEI participants contributed heavily to the development of XML, most notably XML's senior co-editor C. M. Sperberg-McQueen, who served as the North American editor for the TEI Guidelines from their inception until 1999."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:741
+msgid "In February of 1998 the World Wide Web Consortium issued a final Recommendation for the Extensible Markup Language, XML.<_:note-1/> Following the rapid take-up of this new standard metalanguage, it became evident that the TEI Guidelines (which had been published originally as an SGML application) needed to be re-expressed in this new formalism if they were to survive. The TEI editors, with abundant assistance from others who had developed and used TEI, developed an update plan, and made tentative decisions on relevant syntactic issues."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:756
+msgid "In January of 1999, the University of Virginia and the University of Bergen formally proposed the creation of an international membership organization, to be known as the TEI Consortium, which would maintain, develop, and promote the TEI. Shortly thereafter, two further institutions with longstanding ties to the TEI (Brown University and Oxford University) joined them in formulating an Agreement to Establish a Consortium for the Maintenance of the Text Encoding Initiative (<_:ptr-1/>), on which basis the TEI Consortium was eventually established and incorporated as a not-for-profit legal entity at the end of the year 2000. The first members of the new TEI Board took office during January of 2001."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:768
+msgid "The TEI Consortium was established in order to maintain a permanent home for the TEI as a democratically constituted, academically and economically independent, self-sustaining, non-profit organization. In addition, the TEI Consortium was intended to foster a broad-based user community with sustained involvement in the future development and widespread use of the TEI Guidelines (<_:ptr-1/>)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:775
+msgid "To oversee and manage the revision process in collaboration with the TEI Editors, the TEI Board formed a Technical Council, with a membership elected from the TEI user community. The Council met for the first time in January 2002 at King's College London. Its first task was to oversee production of an XML version of the TEI Guidelines, updating P3 to enable users to work with the emerging XML toolset. This, the P4 version of the Guidelines, was published in June 2002. It was essentially an XML version of P3, making no substantive changes to the constraints expressed in the schemas apart from those necessitated by the shift to XML, and changing only corrigible errors identified in the prose of the P3 Guidelines. However, given that P3 had by this time been in steady use since 1994, it was clear that a substantial revision of its content was necessary, and work began immediately on the P5 version of the Guidelines. This was planned as a thorough overhaul, involving a public call for features and new development in a number of important areas not previously addressed including character encoding, graphics, manuscript description, biographical and geographical data, and the encoding language in which the TEI Guidelines themselves are written."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:795
+msgid "The members of the TEI Council and its associated workgroups are listed in <_:ptr-1/>. In preparing this edition, they have been attentive to the requirements and practice of the widest possible range of TEI users, who are now to be found in many different research communities across the world, and have been largely instrumental in transforming the TEI from a grant-supported international research project into a self-sustaining community-based effort. One effect of the incorporation of the TEI has been the legal requirement to hold an annual meeting of the Consortium members; these meetings have emerged as an invaluable opportunity to sustain and reinforce that sense of community."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:806
+msgid "The present work is therefore the result of a sustained period of consultation, drafting, and revision, with input from many different experts. Whatever merits it may have are to be attributed to them; the Editors accept responsibility only for the errors remaining."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AB-About.xml:815
+msgid "Future Developments and Version Numbers"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:817
+msgid "The encoding recommended by this document may be used without fear that future versions of the TEI scheme will be inconsistent with it in fundamental ways. The TEI will be sensitive, in revising these Guidelines, to the possible problems which revision might pose for those who are already using this version of these Guidelines."
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/AB-About.xml:824
+msgid "the pattern specified by the Unicode Consortium"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:823
+msgid "With TEI P5, a version numbering system is introduced following <_:ref-1/>: the first digit identifies a major version number, the second digit a minor version number, and the third digit a sub-minor version number. The TEI undertakes that no change will be made to the formal expression of these Guidelines (that is, a TEI schema, as defined in <_:ptr-2/>) such that documents conformant to a given major numbered release cease to be compatible with a subsequent release of the same major number. Moreover, as far as possible, new minor releases will be made only for the purpose of adding new compatible features, or of correcting errors in existing features."
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/AB-About.xml:839
+msgid "Previous Releases of P5"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AB-About.xml:837
+msgid "The Guidelines are currently maintained as an open source project on the Github site <_:ptr-1/>, from which released and development versions may be freely downloaded. See <_:ref-2/> for information on how to find specific versions of TEI releases (Guidelines, schemas etc.). Notice of errors detected and enhancements requested may be submitted at <_:ptr-3/>."
+msgstr ""
+

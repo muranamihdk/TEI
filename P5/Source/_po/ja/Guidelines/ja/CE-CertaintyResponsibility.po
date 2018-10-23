@@ -1,0 +1,1039 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:10
+msgid "Certainty, Precision, and Responsibility"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:17
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:37
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:42
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:98
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:437
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:441
+msgid "note"
+msgstr ""
+
+#. (itstool) path: item/val
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:18
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:20
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:45
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:62
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:67
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:76
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:115
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:118
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:131
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:139
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:146
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:159
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:179
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:196
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:199
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:212
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:221
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:256
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:281
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:303
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:339
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:360
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:366
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:434
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:442
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:444
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:471
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:508
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:568
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:570
+msgid "certainty"
+msgstr ""
+
+#. (itstool) path: item/att
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:18
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:38
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:271
+msgid "type"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:17
+msgid "the <_:gi-1/> element defined in section <_:ptr-2/> may be used with a value of <_:val-3/> for its <_:att-4/> attribute."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:20
+msgid "the <_:gi-1/> element defined in this chapter may be used to record the nature and degree of the uncertainty in a more structured way."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:23
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:45
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:79
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:467
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:473
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:506
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:543
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:568
+msgid "precision"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:23
+msgid "the <_:gi-1/> element defined in this chapter may be used to record the accuracy with which some numerical value (such as a date or quantity) is provided by some other element or attribute."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:26
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:43
+msgid "alt"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:26
+msgid "the <_:gi-1/> element defined in the module for linking and segmentation may be used to provide alternative encodings for parts of a text, as described in section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:33
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:42
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:554
+msgid "respStmt"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:34
+msgid "author"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:34
+msgid "sponsor"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:34
+msgid "funder"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:34
+msgid "principal"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:35
+msgid "titleStmt"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:35
+msgid "editionStmt"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:36
+msgid "revisionDesc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:32
+msgid "the TEI header records who is responsible for an electronic text by means of the <_:gi-1/> element and other more specific elements (<_:gi-2/>, <_:gi-3/>, <_:gi-4/>, <_:gi-5/>, etc.) used within the <_:gi-6/>, <_:gi-7/>, and <_:gi-8/> elements."
+msgstr ""
+
+#. (itstool) path: item/val
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:37
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:408
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:416
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:423
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:430
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:570
+msgid "resp"
+msgstr ""
+
+#. (itstool) path: item/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:38
+msgid "responsibility"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:37
+msgid "the <_:gi-1/> element may be used with a value of <_:val-2/> or <_:val-3/> in its <_:att-4/> attribute."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:39
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:46
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:562
+msgid "respons"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:39
+msgid "the <_:gi-1/> element defined in this chapter may be used to record fine-grained structured information about responsibility for individual tags in the text."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:11
+msgid "Encoders of text often find it useful to indicate that some aspects of the encoded text are problematic or uncertain, and to indicate who is responsible for various aspects of the markup of the electronic text. These Guidelines provide several methods of recording uncertainty about the text or its markup: <_:list-1/> There are three methods of indicating responsibility for different aspects of the electronic text: <_:list-2/> No special steps are needed to use the <_:gi-3/> and <_:gi-4/> elements, since they are defined in the core module and header respectively. The <_:gi-5/> element is only available when the module for linking has been selected, as described in chapter <_:ptr-6/>. To use the <_:gi-7/>, <_:gi-8/> or <_:gi-9/> elements, the module for certainty and responsibility should be selected."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:51
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:477
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:567
+msgid "att.scoping"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:50
+msgid "These three elements are all members of an attribute class called <_:ident-1/> from which they inherit the following attributes: <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:58
+msgid "These attributes enable statements about certainty, precision, or responsibility to be made with respect to the whole of a document, or any part or parts of it which can be identified using standard XML location methods. Several examples are given in the discussion of the <_:gi-1/> element below; the same mechanisms are available for all three elements discussed in this chapter."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:65
+msgid "Levels of Certainty"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:69
+msgid "a given tag may or may not correctly apply (e.g. a given word may be a personal name, or perhaps not)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:71
+msgid "the precise point at which an element begins or ends is uncertain"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:73
+msgid "the value given for an attribute is uncertain"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:74
+msgid "the content given for an element is unreliable for any reason."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:66
+msgid "Many types of uncertainty may be distinguished. The <_:gi-1/> element is designed to encode the following sorts: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:75
+msgid "not"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:78
+msgid "the numerical precision associated with a number or date (for this use the <_:gi-1/> element discussed in <_:ptr-2/>)"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:83
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:337
+msgid "unclear"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:81
+msgid "the content of the document being transcribed is identifiable, but may be read or understood in different ways (for this use the transcriptional elements such as <_:gi-1/>, discussed in chapter <_:ptr-2/>)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:85
+msgid "a transcriber, editor, or author wishes to indicate a level of confidence in a factual assertion made in the text (for this use the interpretative mechanisms discussed in <_:ptr-1/> and <_:ptr-2/>)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:75
+msgid "The following types of uncertainty are <_:emph-1/> indicated with the <_:gi-2/> element: <_:list-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:91
+msgid "Using Notes to Record Uncertainty"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: egXML/placeName
+#. (itstool) path: note/mentioned
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-p1a
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-p1b
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-pl1
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-PL1
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-PL2
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:95
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:99
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:99
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:100
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:104
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:105
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:106
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:119
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:120
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:127
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:137
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:144
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:180
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:181
+msgid "Essex"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:97
+msgid "Elizabeth went to Essex. She had always liked Essex."
+msgstr ""
+
+#. (itstool) path: egXML/persName
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:99
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:104
+msgid "Elizabeth"
+msgstr ""
+
+#. (itstool) path: egXML/note
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:99
+msgid "It is not clear here whether <_:mentioned-1/> refers to the place or to the nobleman. -MSM"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:99
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:104
+msgid "<_:persName-1/> went to <_:placeName-2/>. She had always liked <_:placeName-3/>.<_:note-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:92
+msgid "The simplest way of recording uncertainty about markup is to attach a note to the element or location about which one is unsure. In the following (invented) paragraph, for example, an encoder might be uncertain whether to mark <_:q-1/> as a place name or a personal name, since both might be plausible in the given context: <_:q-2/> Using <_:gi-3/>, the uncertainty here may be recorded quite simply: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: note/name
+#. (itstool) id: CE-CertaintyResponsibility.xml#MSM
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:108
+msgid "Michael"
+msgstr ""
+
+#. (itstool) path: egXML/note
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:105
+msgid "It is not clear here whether <_:mentioned-1/> refers to the place or to the nobleman. If the latter, it should be tagged as a personal name. -<_:name-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:102
+msgid "Using the normal mechanisms, the note may be associated unambiguously with specific elements of the text, thus: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:109
+msgid "The advantage of this technique is its relative simplicity. Its disadvantage is that the nature and degree of uncertainty are not conveyed in any systematic way and thus are not susceptible to any sort of automatic processing."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:113
+msgid "Structured Indications of Uncertainty"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:114
+msgid "To record uncertainty in a more structured way, susceptible of at least simple automatic processing, the <_:gi-1/> element may be used: <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:121
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:133
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:164
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:255
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:347
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:361
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:364
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:369
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:382
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:475
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:566
+msgid "target"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:122
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:310
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:371
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:569
+msgid "locus"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:124
+msgid "name"
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:129
+msgid "possibly not a placename"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:126
+msgid "Elizabeth went to <_:placeName-1/>. <_:certainty-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:118
+msgid "Returning to the example, the <_:gi-1/> element may be used to record doubts about the proper encoding of <_:q-2/> in several ways of varying precision. To record merely that we are not certain that <_:q-3/> is in fact a place name, as it is tagged, we use the <_:att-4/> attribute to identify the element in question, and the <_:att-5/> attribute to indicate which aspect of the markup we are uncertain about (in this case, whether we have used the correct <_:q-6/> for the element used to mark it): <_:egXML-7/> There are no particular constraints as to where the <_:gi-8/> element is placed in a document; it may be placed adjacent to the target element, or elsewhere in the same or another document. Its position is however significant when the <_:att-9/> attribute is not specified as further discussed below."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:138
+msgid "degree"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:149
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:248
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:258
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:267
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:270
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:282
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:408
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:576
+msgid "persName"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:150
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:221
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:324
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:333
+msgid "assertedValue"
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:154
+msgid "probably a placename, but possibly not"
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:156
+msgid "may refer to the Earl of Essex"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:136
+msgid "We may wish to record the probability, assessed in some subjective way, that <_:q-1/> really is a place name here. The <_:att-2/> attribute is used to indicate the degree of confidence associated with the <_:gi-3/> element, expressed as a number between 0 and 1: <_:egXML-4/> This expresses the point of view that there is a 60 percent chance of <_:q-5/> being a place name here, and hence a 40 percent chance of its being a personal name. We can use two <_:gi-6/> elements to indicate the two probabilities independently. Both elements indicate the same location in the text, but the second provides an alternative choice of name identifier (in this case <_:gi-7/>), which is given as the value of the <_:att-8/> attribute: <_:egXML-9/>"
+msgstr ""
+
+#. (itstool) path: egXML/placeName
+#. (itstool) path: egXML/persName
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:162
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:404
+msgid "Essex <_:certainty-1/>"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:161
+msgid "Elizabeth went to <_:placeName-1/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:166
+msgid "placeName"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:166
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:242
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:245
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:258
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:291
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:362
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:365
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:369
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:382
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:476
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:566
+msgid "match"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:158
+msgid "In the simplest case, it is also possible to place the <_:gi-1/> element within the element concerned: <_:egXML-2/> When no <_:att-3/> is specified, by default the proposed certainty applies to its parent element, in this case the <_:gi-4/> element. The <_:att-5/> attribute discussed below may be used to further vary this behaviour."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:169
+msgid "Contingent Conditions"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:172
+msgid "Elizabeth went to Essex; she had always liked Essex,"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:178
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:196
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:201
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:289
+msgid "given"
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:186
+msgid "probably a placename, but possibly not\""
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:188
+msgid "may refer to the Earl of Essex\""
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:193
+msgid "if CE-PL1 is a placename, CE-PL2 certainly is\""
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:195
+msgid "if CE-PL1 is a personal name, then so is CE-PL2"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:180
+msgid "Elizabeth went to <_:placeName-1/>. She had always liked <_:placeName-2/>. <_:certainty-3/> <_:certainty-4/> <_:certainty-5/> <_:certainty-6/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:171
+msgid "Finally, we may wish to make our probability estimates contingent on some condition. In the passage <_:q-1/> for example, we may feel there is a 60 percent chance that the county is meant, and a 40 percent chance that the earl is meant. But the two occurrences of the word are not independent: there is (we may feel) no chance at all that the first occurrence refers to the county and the second to the earl. We can express this by using the <_:att-2/> attribute to list the identifiers of <_:gi-3/> elements. <_:egXML-4/> When <_:att-5/> conditions are listed, the <_:gi-6/> element is interpreted as claiming a given degree of confidence in a particular markup given the assertional content of the <_:gi-7/> elements indicated. That is, a conjectural assertion is being made solely on the assumption that the interpretation indicated by the element named by the <_:att-8/> attribute is actually correct."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:205
+msgid "Ernest went to old Saybrook"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: egXML/persName
+#. (itstool) path: egXML/placeName
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-p2
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-p5
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:205
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:209
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:210
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:213
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:229
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:230
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:233
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:579
+msgid "Saybrook"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:208
+msgid "Old Saybrook"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:213
+msgid "Ernest went to <_:anchor-1/> old <_:persName-2/>. <_:certainty-3/> <_:certainty-4/> <_:certainty-5/> <_:certainty-6/> <_:certainty-7/> <_:certainty-8/>"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:222
+msgid "cert3"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:222
+msgid "cert4"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:223
+msgid "anchor"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:204
+msgid "Conditional confidence may be less than 100 percent: given the sentence <_:q-1/>, we may interpret <_:q-2/> as a personal name or a place name, assigning a 60 percent probability to the former. If it is a place name, there may be a 50 percent chance that the place name actually in question is <_:q-3/> rather than <_:q-4/>, while if it is correctly tagged as a personal name, it is much more likely (say, 90 percent certain) that the name is <_:q-5/>. Hence there is uncertainty about the correct location for the markup as well as about which markup to use. This state of affairs can be expressed using the <_:gi-6/> element thus: <_:egXML-7/> Note the use of the <_:att-8/> on <_:gi-9/> elements <_:val-10/> and <_:val-11/> to reference the <_:gi-12/> element placed at the alternative starting point for the element."
+msgstr ""
+
+#. (itstool) path: egXML/placeName
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:231
+msgid "old Saybrook"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:229
+msgid "Ernest went to old <_:persName-1/>. (0.6 * 0.9, or 0.54) Ernest went to old <_:placeName-2/>. (0.4 * 0.5, or 0.20) Ernest went to <_:placeName-3/>. (0.4 * 0.5, or 0.20)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:226
+msgid "Multiplying the numeric values out, this markup may be interpreted as assigning specific probabilities to three different ways of marking up the sentence: <_:egXML-1/> The probabilities do not add up to 1.00 because the markup indicates that if <_:q-2/> is (part of) a personal name, there is a 10 percent likelihood that the element should start somewhere other than the place indicated, without however giving an alternative location; there is thus a 6 percent chance (0.1 × 0.6) that none of the alternatives given is correct."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:239
+msgid "Pervasive Conditions"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:262
+msgid "[...]"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:267
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:270
+msgid "div"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:271
+msgid "checked"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:278
+msgid "Specificity of pattern matching is defined further in the XSLT2 reference cited above (see <_:ptr-1/>)"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:283
+msgid "div type=\"checked\""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:240
+msgid "We may also wish to indicate confidence in some aspect of the tagging throughout a document, rather than (as discussed so far) in one particular instance. The <_:att-1/> attribute may be used to supply a pattern identifying the portion of a document concerning which certainty is being expressed. The value of the <_:att-2/> attribute is an XPath expression using the syntax defined in <_:ptr-3/>. In the following example, we wish to indicate a low degree of confidence that the <_:gi-4/> elements used throughout the whole document have been correctly applied: <_:egXML-5/> No <_:att-6/> has been supplied here, and so by default the <_:gi-7/> expressed would therefore apply to the parent element. However, in this case the XPath supplied as the value for <_:att-8/> returns a set of all the <_:gi-9/> elements in the document, independent of the current context. By contrast, in the following example <_:egXML-10/> only the <_:gi-11/> elements within the second <_:gi-12/> element are in question. Similarly, we may indicate that we have more confidence in the <_:gi-13/> tagging within those <_:gi-14/> elements which have a <_:att-15/> value of <_:code-16/>: <_:egXML-17/> If an element in a document is matched by more than one match expression, then the most specific pattern applies. <_:note-18/> As a simple case, if both the preceding <_:gi-19/> elements were present in the same document, a <_:gi-20/> occurring within a <_:tag-21/> element would potentially match both pattern expressions. However because the second pattern is more specific than the former, in fact this is the only one that would apply. If multiple patterns match and have the same priority, then the first one (in document order) is applied. Only those statements of certainty which have matched in this sense are available for conditional application using the <_:att-22/> attribute mentioned above."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:302
+msgid "my"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:291
+msgid "When the <_:att-1/> attribute is processed, the namespace bindings in force are those in effect at that point in the document. For example, <_:egXML-2/> might be used to indicate a high degree of certainty about the content of any elements taken the namespace associated with the prefix <_:code-3/>. This namespace prefix must be associated with an appropriate namespace definition, either on the <_:gi-4/> element itself, or on one of its ancestor elements."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:307
+msgid "Content Uncertainty"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:311
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:372
+msgid "value"
+msgstr ""
+
+#. (itstool) path: egXML/emph
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-p3
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-P3
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:313
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:329
+msgid "bun"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:313
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:329
+msgid "I have a <_:emph-1/>. <_:certainty-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:309
+msgid "Doubts about whether the content of an element is correct may also be expressed by assigning to <_:att-1/> the value <_:mentioned-2/>. For example, if the source is hard to read and so the transcription is uncertain: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: choice/expan
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-e1
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:317
+msgid "Standard Generalized Markup Language"
+msgstr ""
+
+#. (itstool) path: choice/expan
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-e40
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:319
+msgid "Some Grandiose Methodology for Losers"
+msgstr ""
+
+#. (itstool) path: choice/abbr
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:320
+msgid "SGML"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:316
+msgid "You will want to use <_:choice-1/> ... <_:certainty-2/> <_:certainty-3/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:315
+msgid "Degrees of confidence in the proper expansion of abbreviations may also be expressed, as in the following example:<_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: certainty/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:331
+msgid "a gun makes more sense in a holdup"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:337
+msgid "app"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:337
+msgid "rdg"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:324
+msgid "The <_:att-1/> attribute should be used to provide an alternative value for whatever aspect of the markup is in doubt: an alternative name, or the identifier of an alternative starting or ending point, as already shown, an alternative attribute value, or alternative element content, as in this example: <_:egXML-2/> Since attribute values have no internal substructure, the <_:att-3/> attribute is not generally useful for specifying alternative transcriptions; it cannot for example be used if the alternative reading contains markup of any kind. More robust methods of handling uncertainties of transcription are the <_:gi-4/> element and the <_:gi-5/> and <_:gi-6/> elements described in chapter <_:ptr-7/>. The <_:gi-8/> element allows for indications of uncertainty to be structured with at least as much detail and clarity as appears to be currently required in most ongoing text projects."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:345
+msgid "Target or Match?"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:348
+msgid "data.pointer"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:353
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:355
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:399
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:354
+msgid "#A"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:355
+msgid "A"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:357
+msgid "//*[@xml:id='A']"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:347
+msgid "As noted in <_:ptr-1/>, the <_:att-2/> attribute may take any general <_:val-3/> as values and may thus also contain an XPath expression of arbitrary complexity. Because full support for XPath is not provided by current processors, it is not generally recommended TEI practice. There are however some simple cases in which XPath syntax is to be preferred, notably those in which the <_:att-4/> attribute is used to identify a single element occurrence. The usage <_:val-5/> (to indicate the element whose <_:att-6/> attribute has the value <_:val-7/>) is syntactically much simpler than the equivalent xpath2 expression <_:val-8/> and is hence preferred throughout these guidelines."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:360
+msgid "For similar reasons, the <_:gi-1/> element may specify both a <_:att-2/> value (expressed as an URI) and a <_:att-3/> value (expressed as an XPath). The former defines the context within which the latter is to be evaluated. As previously noted, if no value is supplied for <_:att-4/>, the context within which the value of <_:att-5/> should be evaluated is the parent element of the <_:gi-6/> element itself."
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: CE-CertaintyResponsibility.xml#CE-u1
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:374
+msgid "Have you heard the election results?"
+msgstr ""
+
+#. (itstool) path: egXML/u
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:377
+msgid "Have you heard the election results?<_:certainty-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:368
+msgid "A typical case where it may be convenient to specify both <_:att-1/> and <_:att-2/> is that where we wish to indicate that the value of an attribute on some specific element is uncertain. In this case, the <_:att-3/> attribute takes the value <_:val-4/>. For example, supposing there is only a 50 percent chance that the question was spoken by participant A: <_:egXML-5/> or, equivalently and without the need to define a target, <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:391
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:398
+msgid "p"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:382
+msgid "The <_:att-1/> and <_:att-2/> attributes together provide a powerful mechanism which can be used to indicate precision for a large number of assertions throughout an encoded document in an economical way. Some further examples follow: <_:egXML-3/> This encoding indicates that there is only a 0.2 certainty that the boundaries of all <_:gi-4/> elements in the document have been correctly identified."
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:399
+msgid "a101"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:393
+msgid "<_:egXML-1/> This encoding indicates that there is only a 0.2 certainty that the boundaries of the <_:gi-2/> elements contained by the element with <_:att-3/> value <_:val-4/> have been correctly identified."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:401
+msgid "<_:egXML-1/> This encoding indicates that there is only a 0.2 certainty that the value for the <_:att-2/> attribute on the given <_:gi-3/> element is correct."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:411
+msgid "<_:egXML-1/> This encoding indicates that there is only a 0.2 certainty that any value for the <_:att-2/> attribute is correct, wherever it appears in the document."
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:424
+msgid "#dd001"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:419
+msgid "<_:egXML-1/> This encoding indicates that there is only a 0.2 certainty that the value for the <_:att-2/> attribute of the element indicated by the pointer <_:val-3/> is correct"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:431
+msgid "#LB"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:426
+msgid "<_:egXML-1/> This encoding indicates that there is only a 0.2 certainty that the content of any element the <_:att-2/> attribute of which has the value <_:val-3/> is correct, wherever it appears in the document."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:434
+msgid "The <_:gi-1/> element and the other TEI mechanisms for indicating uncertainty provide a range of methods of graduated complexity. Simple expressions of uncertainty may be made by using the <_:gi-2/> element. This is simple and convenient, and can accommodate either a discursive and unstructured indication of uncertainty, or a complex and structured but probably project-specific expression of uncertainty. In general, however, unless special steps are taken, the <_:gi-3/> element does not provide as much expressive power as the <_:gi-4/> element, and in cases where highly structured certainty information are needed, it is recommended that the <_:gi-5/> element be preferred."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:465
+msgid "Indications of Precision"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:466
+msgid "As noted above, certainty about the accuracy of an encoding or its content is not the same thing as the <_:term-1/> with which a value is specified. In the case of a date or a quantity, for example, we might be certain that the value given is imprecise, or uncertain about whether or not the value given is correct. The latter possibility would be represented by the <_:gi-2/> element discussed in the previous section; the former by the <_:gi-3/> element discussed in this section."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:474
+msgid "The elements concerning which statements of precision are to be made are identified using the same <_:att-1/> and <_:att-2/> attributes inherited from the <_:ident-3/> class discussed in the previous section and in the same way. Other aspects are provided by other attributes as further discussed below. <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:487
+msgid "notBefore"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:488
+msgid "notAfter"
+msgstr ""
+
+#. (itstool) path: egXML/date
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:490
+msgid "Early in the 1930s"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:489
+msgid "<_:date-1/>..."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:493
+msgid "atLeast"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:493
+msgid "atMost"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:484
+msgid "In <_:ptr-1/> several ways of indicating ranges of values were introduced. For example, if we know that a date falls between 1930 and 1935, without being certain exactly where, this fact may be encoded using attributes <_:att-2/> and <_:att-3/>, as in the following example: <_:egXML-4/> Equally, if we know that every page of a manuscript has a width of at least 10 cm but no more than 30, we can use the attributes <_:att-5/> and <_:att-6/>, as in the following examples: <_:egXML-7/>"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:500
+msgid "about fifty years after the death of Augustus"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:498
+msgid "Suppose however that the precision with which the value of such an attribute can be specified is variable. For example, suppose an event is dated <_:q-1/>. In this case, the precision of one end of the range (the death of Augustus) is higher than the other, assuming we know when Augustus died. We can say that the latest possible date is probably 50 years after that, but with less confidence than we can attach to the earliest possible date."
+msgstr ""
+
+#. (itstool) path: egXML/date
+#. (itstool) id: CE-CertaintyResponsibility.xml#d001
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:511
+msgid "About 50 years after the death of Augustus"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:506
+msgid "The <_:gi-1/> element allows us to indicate the two attributes concerned and attach different levels of precision to them, using a similar mechanism as that provided for the <_:gi-2/> element: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: egXML/residence
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:524
+msgid "From the 1st of March to some time in April of 1857. <_:precision-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:516
+msgid "In much the same way, we may wish to indicate different levels of precision about the dating of either end of a historical period. For example, the elements defined for encoding personal data all bear a similar set of attributes to indicate normalized values for earliest or latest dates, etc. (see section <_:ptr-1/>); the precision of these attribute values may be indicated in exactly the same way. For example, <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:531
+msgid "about"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:529
+msgid "It may also be useful to indicate that the precisions given for minimum and maximum quanta differ. For example, to indicate that all pages measure at least 10 cm wide, and at most <_:emph-1/> 30: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:538
+msgid "stdDeviation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:539
+msgid "dim"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:537
+msgid "The <_:att-1/> attribute may be used to indicate the standard deviation for a range of values. The generic <_:gi-2/> element introduced in <_:ptr-3/> might be used to record the average number of characters per line in a typescript. If in addition we wish to record the standard deviation for the values summarized by that average, this would require an additional <_:gi-4/> element, as in the following example: <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:552
+msgid "Attribution of Responsibility"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:553
+msgid "In general, attribution of responsibility for the transcription and markup of an electronic text is made by <_:gi-1/> elements within the header: specifically, within the title statement, the edition statement(s), and the revision history."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:557
+msgid "In some cases, however, more detailed element-by-element information may be desired. For example, an encoder may wish to distinguish between the individuals responsible for transcribing the content and those responsible for determining that a given word or phrase constitutes a proper noun. Where such fine-grained attribution of responsibility is required, the <_:gi-1/> element can be used. <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:570
+msgid "cert"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:571
+msgid "att.global.responsibility"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:564
+msgid "This element allows one or more aspects of the markup to be attributed to a given individual. This element inherits the <_:att-1/> and <_:att-2/> attributes from the <_:ident-3/> class, in the same way as the <_:gi-4/> and <_:gi-5/> elements. Its <_:att-6/> attribute functions in the same way as that on the <_:gi-7/> element (see <_:ptr-8/>). It inherits the <_:att-9/> and <_:att-10/> attributes from the <_:ident-11/> class."
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:578
+msgid "Ernest went to old <_:persName-1/>. <_:respons-2/> <_:respons-3/> <_:list-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:573
+msgid "For example, the following encoding indicates that RC is responsible for transcribing an illegible word, and that PMWR is responsible for identifying that word as a proper noun, i.e. deciding to mark it with the <_:gi-1/> element at the location indicated: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:588
+msgid "rend"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:587
+msgid "Similarly, in the following example, we indicate that RC is responsible for proposing the value of the <_:att-1/> attribute: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:597
+msgid "The Certainty Module"
+msgstr ""
+
+#. (itstool) path: moduleSpec/altIdent
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:602
+msgid "Certainty and Uncertainty"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:603
+msgid "Certainty and uncertainty"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:604
+msgid "Degré de certitude et responsabilité"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:605
+msgid "確定程度與不確定程度"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:606
+msgid "Certezza e incertezza"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:607
+msgid "Certeza e incerteza"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:608
+msgid "確信度モジュール"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CE-CertaintyResponsibility.xml:598
+msgid "The module described in this chapter makes available the following additional elements: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>."
+msgstr ""
+

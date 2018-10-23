@@ -1,0 +1,676 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:12
+msgid "Preface and Acknowledgments"
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:15
+msgid "Guidelines for Electronic Text Encoding and Interchange"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:14
+msgid "This publication constitutes the fifth distinct version of the <_:title-1/>, and the first complete revision since the appearance of P3 in 1994. It includes substantial amounts of new material and a major revision of the underlying technical infrastructure. With this version, these Guidelines enter a new stage in their development as a community-maintained open source project. This edition is the first version to have benefitted from the close overview and oversight of an elected TEI Technical Council. The editors are therefore particularly pleased to acknowledge with gratitude the hard work and dedication put into this project by the Council over the last five years."
+msgstr ""
+
+#. (itstool) path: list/head
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:36
+msgid "Board Chair"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:37
+msgid "2004–2005: Julia Flanders (Brown University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:38
+msgid "2006: Matthew Zimmerman (New York University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:39
+msgid "2007–2011: Daniel O'Donnell (University of Lethbridge)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:40
+msgid "2011: Martin Mueller (Northwestern University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:41
+msgid "2011–2012: John Unsworth (University of Illinois at Urbana-Champaign / Brandeis University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:42
+msgid "2012–2015: Elena Pierazzo (King's College London / Université Stendhal-Grenoble 3)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:43
+msgid "2016–2017: Michelle Dalmau (Indiana University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:44
+msgid "2018: Kathryn Tomasek (Wheaton College)"
+msgstr ""
+
+#. (itstool) path: list/head
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:48
+msgid "Technical Council Chair"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:49
+msgid "2002–2003: John Unsworth (University of Virginia)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:50
+msgid "2003–2007: Christian Wittern (Kyoto University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:51
+msgid "2008–2011: Laurent Romary (Max Planck Digital Library / Inria &amp; Humboldt-Universität zu Berlin)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:52
+msgid "2012–2014: James Cummings (University of Oxford)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:53
+msgid "2015–2017: Hugh Cayless (Duke University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:54
+msgid "2018: Martina Scholger (University of Graz)"
+msgstr ""
+
+#. (itstool) path: list/head
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:58
+msgid "Members of the Technical Council Appointed by the TEI Board"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:59
+msgid "2001–2009: Sebastian Rahtz (University of Oxford)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:60
+msgid "2010–2014: Lou Burnard (University of Oxford / TGE Adonis / Independent Consultant)"
+msgstr ""
+
+#. (itstool) path: list/head
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:64
+msgid "Appointed Editors"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:65
+msgid "2001–2007: Syd Bauman (Brown Univesity)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:66
+msgid "2001–2007: Lou Burnard (University of Oxford)"
+msgstr ""
+
+#. (itstool) path: list/head
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:70
+msgid "Elected Members of the Technical Council"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:71
+msgid "2011–2012: Piotr Bański (University of Warsaw)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:72
+msgid "2010–2013: Brett Barney (University of Nebraska)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:73
+msgid "2013–2018: Syd Bauman (Brown University / Northeastern University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:74
+msgid "2016–2019: Elisa Beshero-Bondar (University of Pittsburgh at Greensburg)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:75
+msgid "2003–2006, 2017–2018: Alejandro Bia (University of Alicante)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:76
+msgid "2004–2007: David Birnbaum (University of Pittsburgh)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:77
+msgid "2008–2013: Gabriel Bodard (King's College London)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:78
+msgid "2008–2009: Peter Boot (Huygens Institute for Netherlands History)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:79
+msgid "2007–2008: Tone Merete Bruvik (University of Bergen)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:80
+msgid "2015–2016: Lou Burnard (Independent Consultant)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:81
+msgid "2013–2018: Hugh Cayless (New York University / Duke University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:82
+msgid "2014–2015: Fabio Ciotti (University of Rome \"Tor Vergata\")"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:83
+msgid "2007–2009: Arianna Ciula (King's College London / European Science Foundation)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:84
+msgid "2005–2019: James Cummings (University of Oxford / Newcastle University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:85
+msgid "2002–2007, 2010: Matthew Driscoll (University of Copenhagen)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:86
+msgid "2002–2004: David Durand (Ingenta plc)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:87
+msgid "2002–2004: Tomas Erjavec (Jozef Stefan Institute, Ljubljana)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:88
+msgid "2014–2015: Stefanie Gehrke (Biblissima)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:89
+msgid "2010–2013: Kevin Hawkins (University of Michigan)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:90
+msgid "2010–2015: Martin Holmes (University of Victoria)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:91
+msgid "2002: Fotis Jannidis (University of Munich)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:92
+msgid "2006: Amit Kumar (University of Illinois at Urbana-Champaign)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:93
+msgid "2015–2016: Stefan Majewski (Austrian National Library)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:94
+msgid "2002: Martin Mueller (Northwestern University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:95
+msgid "2013–2014, 2016–2019: Elli Mylonas (Brown University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:96
+msgid "2010–2011: Julianne Nyhan (University of Trier / University College London)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:97
+msgid "2008–2011: Elena Pierazzo (King's College London)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:98
+msgid "2006–2007, 2009–2010: Dot Porter (University of Kentucky / Digital Humanities Observatory / Indiana University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:99
+msgid "2002–2003: Merillee Proffitt (Research Libraries Group)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:100
+msgid "2002: Peter Robinson (De Montfort University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:101
+msgid "2009–2014: Sebastian Rahtz (University of Oxford)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:102
+msgid "2002: Geoffrey Rockwell (Macmaster University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:103
+msgid "2002–2007: Laurent Romary (Inria / CNRS / Max Planck Digital Library)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:104
+msgid "2008–2009, 2012–2015: Paul Schaffner (University of Michigan)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:105
+msgid "2016–2019: Martina Scholger (University of Graz)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:106
+msgid "2003–2007: Susan Schreibman (University of Maryland)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:107
+msgid "2008–2009: David Sewell (University of Virginia)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:108
+msgid "2004–2005: Natasha Smith (University of North Carolina at Chapel Hill)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:109
+msgid "2014–2019: Peter Stadler (Carl-Maria-von-Weber-Gesamtausgabe / University of Paderborn)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:110
+msgid "2017–2018: Sarah Stanley (Florida State University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:111
+msgid "2008–2009: Manfred Thaller (University of Cologne)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:112
+msgid "2006–2007: Conal Tuohy (Victoria University of Wellington)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:113
+msgid "2016–2019: Magdalena Turska (eXist Solutions / University of Oxford)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:114
+msgid "2004–2005: Edward Vanhoutte (Royal Academy of Dutch Language and Literature)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:115
+msgid "2015–2018: Raffaele Viglianti (University of Maryland)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:116
+msgid "2005–2008: John Walsh (Indiana University)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:117
+msgid "2012–2013: Rebecca Welzenbach (University of Michigan)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:118
+msgid "2002–2005: Perry Willett (Indiana University / University of Michigan)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:119
+msgid "2011–2012: Stuart Yeates (New Zealand Electronic Text Centre)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:27
+msgid "The Chair of the TEI Board sits on the Technical Council, and the Board appoints the Chair of the Technical Council and one other member of the Council. Other Council members are all elected by the Consortium membership, and serve periods of up to two years at a time. The names and affiliations of all Council members who served during the production of this edition of the Guidelines are listed below. <_:list-1/> <_:list-2/> <_:list-3/> <_:list-4/> <_:list-5/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:128
+msgid "King's College, London (2002)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:129
+msgid "Oxford University Computing Services (2003)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:130
+msgid "Royal Academy of Dutch Language and Literature, Ghent (2004)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:131
+msgid "AFNOR: Association française de normalisation, Paris (2005)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:132
+msgid "Institute for Research in Humanities, Kyoto University (2006)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:133
+msgid "Berlin-Brandenburgische Akademie der Wissenschaften, Berlin (2007)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:134
+msgid "National University of Ireland, Galway (2008)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:135
+msgid "Ecole Normale Supérieure, Lyon (2009)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:136
+msgid "Royal Irish Academy, Dublin (2010)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:137
+msgid "Big Ten Center, Chicago (2011)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:138
+msgid "Inria, Paris (2011)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:139
+msgid "University of Michigan, Ann Arbor (2012)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:140
+msgid "University of Oxford (2012)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:141
+msgid "Brown University (2013)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:142
+msgid "University of Oxford (2013)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:143
+msgid "University of Oxford (2014)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:144
+msgid "Duke University (2014)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:145
+msgid "University of Michigan, Ann Arbor (2015)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:146
+msgid "Lyon (2015)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:147
+msgid "Brown University (2016)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:148
+msgid "Austrian Academy of Sciences (2016)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:149
+msgid "Prague (2017)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:150
+msgid "Victoria (2017)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:151
+msgid "CCEH, Cologne University (2018)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:123
+msgid "The bulk of the Council's work has been carried out by email and by regular telephone conference. In addition, the Council has held many two-day face-to-face meetings. During production of P5, these meetings were generously hosted by the following institutions: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:159
+msgid "Character Set Workgroup"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:161
+msgid "Active between July 2001 and January 2005, this group revised and developed the recommendations now forming chapters <_:ptr-1/> and <_:ptr-2/>. It was chaired by Christian Wittern, and its membership included: Deborah Anderson (Berkeley); Michael Beddow (independent scholar); David Birnbaum (University of Pittsburgh); Martin Duerst (W3C/Keio University); Patrick Durusau (Society of Biblical Literature); Tomohiko Morioka (Kyoto University); and Espen Ore (National Library of Norway)."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:172
+msgid "Meta Taskforce"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:174
+msgid "Active between February 2003 and February 2005, this group developed the material now forming <_:ptr-1/>. It was chaired by Sebastian Rahtz, and its membership included: Alejandro Bia; David G. Durand; Laurent Romary; Norman Walsh (Sun Microsystems); and Christian Wittern."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:184
+msgid "Workgroup on Stand-Off Markup, XLink and XPointer"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:186
+msgid "Active between February 2002 and January 2006, this group reviewed and expanded the material now largely forming part of <_:ptr-1/>. It was chaired by David G. Durand, and its membership included: Jean Carletta (Edinburgh University); Chris Caton (University of Oxford); Jessica P. Hekman (Ingenta plc); Nancy M. Ide (Vassar College); and Fabio Vitali (University of Bologna)."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:197
+msgid "Manuscript Description Task Force"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:199
+msgid "Active between February 2003 and December 2005, this group reviewed and finalised the material now forming <_:ptr-1/>. It was chaired by Matthew Driscoll and comprised David Birnbaum and Merrilee Proffitt, in addition to the TEI Editors."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:204
+msgid "Names and Places Activity"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:206
+msgid "Active between January 2006 and May 2007, this group formulated the new material now forming part of <_:ptr-1/>. It was chaired by Matthew Driscoll. and its membership included Gabriel Bodard (King's College London); Arianna Ciula; James Cummings; Tom Elliott (University of North Carolina at Chapel Hill); Øyvind Eide (University of Oslo); Leif Isaksen (Oxford Archaeology plc); Richard Light (private consultant); Tadeusz Piotrowski (Opole University); Sebastian Rahtz; and Tatiana Timcenko (Vilnius University)."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:223
+msgid "Joint TEI/ISO Activity on Feature Structures"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:225
+msgid "Active between January 2003 and August 2007, this group reviewed the material now presented in <_:ptr-1/> and revised it for inclusion in ISO Standard 24610. It was chaired by Kiyong Lee (Korea University), and its active membership included the following: Harry Bunt (Tilburg); Lionel Clément (INRIA); Eric de la Clergerie (INRIA); Thierry Declerck (Saarbrücken); Patrick Drouin (University of Montréal); Lee Gillam (Surrey University); and Kōiti Hasida (ICOT)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:154
+msgid "During the production of TEI P5, the Council chartered a number of smaller workgroups and similar activities, each of which made significant contribution to the intellectual content of the work. Active members of these are listed below: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/foreign
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:242
+msgid "ex officio"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:240
+msgid "From 2000 to 2008 the TEI had two appointed Editors, Lou Burnard (University of Oxford) and Syd Bauman (Brown University), who served <_:foreign-1/> on the Council and, as far as possible, on all Council workgroups."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:246
+msgid "The council also oversees an Internationalization and Localization project, led by Sebastian Rahtz and with funding from the ALLC. This activity, ongoing since October 2005, is engaged in translating key parts of the P5 source into a variety of languages."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:254
+msgid "Chinese"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:254
+msgid "Marcus Bingenheimer (Chung-hwa Institute of Buddhist Studies, Taipei / Temple University) and Weining Hwang (Würzburg University)"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:256
+msgid "French"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:256
+msgid "Pierre-Yves Duchemin (ENSSIB); Jean-Luc Benoit (ATILF); Anila Angjeli (BnF); Joëlle Bellec Martini (BnF); Marie-France Claerebout (Aldine); Magali Le Coënt (BIUSJ); Florence Clavaud (EnC); Cécile Pierre (BIUSJ)."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:261
+msgid "German"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:261
+msgid "Werner Wegstein (Würzburg University), Franz Fischer (Cologne University), Martina Scholger (University of Graz) and Peter Stadler (Paderborn University)"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:262
+msgid "Italian"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:262
+msgid "Marco Venuti (University of Venice) and Letizia Cirillo (University of Bologna)"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:264
+msgid "Japanese"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:264
+msgid "Ohya Kazushi (Tsurumi University)"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:265
+msgid "Korean"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:265
+msgid "Beom-mo Kang and Jungha Hong (Korea University)"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:266
+msgid "Spanish"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:266
+msgid "Carmen Arronis Llopis (University of Alicante) and Alejandro Bia (Miguel Hernández University)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:251
+msgid "Production of the translations currently included in P5 has been coordinated by the following: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:271
+msgid "Any one who works closely with the TEI Guidelines, whether as translator, editor, or reader is constantly reminded of the ambitious scope and exceptionally high editorial standards set by the original project, now approaching twenty years ago. It is appropriate therefore to retain a sense of the history of this document, as it has evolved since its first appearance in 1990, and to acknowledge with gratitude the contributions made to that evolution by very many individuals and institutions around the world. The original prefatory notes to each major edition of the Guidelines recording these names are therefore preserved in an appendix to the current edition (see <_:ptr-1/>)."
+msgstr ""
+

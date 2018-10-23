@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/Dedication.xml:11
+msgid "Dedication"
+msgstr ""
+
+#. (itstool) path: list/head
+#: Source/Guidelines/en/Dedication.xml:14
+msgid "In memoriam"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/Dedication.xml:15
+msgid "Donald E. Walker <_:lb-1/>22 November 1928 – 26 November 1993"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/Dedication.xml:19
+msgid "Antonio Zampolli <_:lb-1/>1937 – 22 August 2003"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/Dedication.xml:23
+msgid "Sebastian Rahtz <_:lb-1/>13 February 1955 – 15 March 2016"
+msgstr ""
+

@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/REF-ELEMENTS.xml:14
+msgid "Elements"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/REF-ELEMENTS.xml:16
+msgid "About the Elements Appendix"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/REF-ELEMENTS.xml:17
+msgid "This appendix gives you links to reference pages for all elements in the TEI Guidelines. There are TEI elements in revision of TEI P5 of the TEI Guidelines."
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/REF-ELEMENTS.xml:21
+msgid "http://www.tei-c.org/ns/1.0"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/REF-ELEMENTS.xml:20
+msgid "The elements listed here are in the TEI Namespace: <_:ref-1/> unless otherwise noted on that element's reference page."
+msgstr ""
+

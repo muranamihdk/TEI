@@ -1,0 +1,1180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:10
+msgid "Language Corpora"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:12
+msgid "language corpus"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:12
+msgid "The term <_:term-1/> is used to mean a number of rather different things. It may refer simply to any collection of linguistic data (for example, written, spoken, signed, or multimodal), although many practitioners prefer to reserve it for collections which have been organized or collected with a particular end in view, generally to characterize a particular state or variety of one or more languages. Because opinions as to the best method of achieving this goal differ, various subcategories of corpora have also been identified. For our purposes however, the distinguishing characteristic of a corpus is that its components have been selected or structured according to some conscious set of design criteria."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:28
+msgid "core"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:30
+msgid "closed"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:30
+msgid "open"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:31
+msgid "monitor"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:24
+msgid "These design criteria may be very simple and undemanding, or very sophisticated. A corpus may be intended to represent (in the statistical sense) a particular linguistic variety or sublanguage, or it may be intended to represent all aspects of some assumed <_:soCalled-1/> language. A corpus may be made up of whole texts or of fragments or text samples. It may be a <_:soCalled-2/> corpus, or an <_:soCalled-3/> or <_:soCalled-4/> corpus, the composition of which may change over time. However, since an open corpus is of necessity finite at any particular point in time, the only likely effect of its expansibility from the encoding point of view may be some increased difficulty in maintaining consistent encoding practices (see further section <_:ptr-5/>). For simplicity, therefore, our discussion largely concerns ways of encoding closed corpora, regarded as single but composite texts."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:41
+msgid "composite texts"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:41
+msgid "unitary texts"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:40
+msgid "Language corpora are regarded by these Guidelines as <_:term-1/> rather than <_:term-2/> (on this distinction, see chapter <_:ptr-3/>). This is because although each discrete sample of language in a corpus clearly has a claim to be considered as a text in its own right, it is also regarded as a subdivision of some larger object, if only for convenience of analysis. Corpora share a number of characteristics with other types of composite texts, including anthologies and collections. Most notably, different components of composite texts may exhibit different structural properties (for example, some may be composed of verse, and others of prose), thus potentially requiring elements from different TEI modules."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:53
+msgid "Aside from these high-level structural differences, and possibly differences of scale, the encoding of language corpora and the encoding of individual texts present identical sets of problems. Any of the encoding techniques and elements presented in other chapters of these Guidelines may therefore prove relevant to some aspect of corpus encoding and may be used in corpora. Therefore, we do not repeat here the discussion of such fundamental matters as the representation of multiple character sets (see chapter <_:ptr-1/>); nor do we attempt to summarize the variety of elements provided for encoding basic structural features such as quoted or highlighted phrases, cross-references, lists, notes, editorial changes and reference systems (see chapter <_:ptr-2/>). In addition to these general purpose elements, these Guidelines offer a range of more specialized sets of tags which may be of use in certain specialized corpora, for example those consisting primarily of verse (chapter <_:ptr-3/>), drama (chapter <_:ptr-4/>), transcriptions of spoken text (chapter <_:ptr-5/>), etc. Chapter <_:ptr-6/> should be reviewed for details of how these and other components of these Guidelines should be tailored to create a TEI customization appropriate to a given application. In sum, it should not be assumed that only the matters specifically addressed in this chapter are of importance for corpus creators."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:76
+msgid "This chapter does however include some other material relevant to corpora and corpus-building, for which no other location appeared suitable. It begins with a review of the distinction between unitary and composite texts, and of the different methods provided by these Guidelines for representing composite texts of different kinds (section <_:ptr-1/>). Section <_:ptr-2/> describes a set of additional header elements provided for the documentation of contextual information, of importance largely though not exclusively to language corpora. This is the additional module for language corpora proper. Section <_:ptr-3/> discusses a mechanism by which individual parts of the TEI header may be associated with different parts of a TEI-conformant text. Section <_:ptr-4/> reviews various methods of providing linguistic annotation in corpora, with some specific examples of relevance to current practice in corpus linguistics. Finally, section <_:ptr-5/> provides some general recommendations about the use of these Guidelines in the building of large corpora."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:94
+msgid "Varieties of Composite Text"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:100
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:133
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:135
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:152
+msgid "teiHeader"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:100
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:127
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:132
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:165
+msgid "teiCorpus"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:100
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:131
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:133
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:168
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:211
+msgid "TEI"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:100
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:104
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:134
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:213
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:947
+msgid "text"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:101
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:172
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:202
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:204
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:947
+msgid "group"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:96
+msgid "Both unitary and composite texts may be encoded using these Guidelines; composite texts, including corpora, will typically make use of the following tags for their top-level organization. <_:specList-1/> Full descriptions of these may be found in chapter <_:ptr-2/> (for <_:gi-3/>), and chapter <_:ptr-4/> (for <_:gi-5/> <_:gi-6/>, <_:gi-7/> and <_:gi-8/>); this section discusses their application to composite texts in particular."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:107
+msgid "composite text"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:111
+msgid "language corpora"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:112
+msgid "collections or anthologies"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:113
+msgid "poem cycles and epistolary works (novels or essays written in the form of collections or series of letters)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:115
+msgid "otherwise unitary texts, within which one or more subordinate texts are embedded"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:104
+msgid "In these Guidelines, the word <_:term-1/> refers to any stretch of discourse, whether complete or incomplete, unitary or composite, which the encoder chooses (perhaps merely for purposes of analytic convenience) to regard as a unit. The term <_:term-2/> refers to texts within which other texts appear; the following common cases may be distinguished: <_:list-3/> The elements listed above may be combined to encode each of these varieties of composite text in different ways."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:120
+msgid "In corpora, the component samples are clearly distinct texts, but the systematic collection, standardized preparation, and common markup of the corpus often make it useful to treat the entire corpus as a unit, too. Some corpora may become so well established as to be regarded as texts in their own right; the Brown and LOB corpora are now close to achieving this status."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:127
+msgid "The <_:gi-1/> element is intended for the encoding of language corpora, though it may also be useful in encoding newspapers, electronic anthologies, and other disparate collections of material. The individual samples in the corpus are encoded as separate <_:gi-2/> elements, and the entire corpus is enclosed in a <_:gi-3/> element. Each sample has the usual structure for a <_:gi-4/> document, comprising a <_:gi-5/> followed by a <_:gi-6/> element. The corpus, too, has a corpus-level <_:gi-7/> element, in which the corpus as a whole, and encoding practices common to multiple samples may be described. The overall structure of a TEI-conformant corpus is thus: <_:egXML-8/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:150
+msgid "Header information which relates to the whole corpus rather than to individual components of it should be factored out and included in the <_:gi-1/> element prefixed to the whole. This two-level structure allows for contextual information to be specified at the corpus level, at the individual text level, or at both. Discussion of the kinds of information which may thus be specified is provided below, in section <_:ptr-2/>, as well as in chapter <_:ptr-3/>. Information of this type should in general be specified only once: a variety of methods are provided for associating it with individual components of a corpus, as further described in section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:161
+msgid "In some cases, the design of a corpus is reflected in its internal structure. For example, a corpus of newspaper extracts might be arranged to combine all stories of one type (reportage, editorial, reviews, etc.) into some higher-level grouping, possibly with sub-groups for date, region, etc. The <_:gi-1/> element provides no direct support for reflecting such internal corpus structure in the markup: it treats the corpus as an undifferentiated series of components, each tagged <_:gi-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:170
+msgid "If it is essential to reflect a single permanent organization of a corpus into sub- and sub-sub-corpora, then the corpus or the high-level subcorpora may be encoded as composite texts, using the <_:gi-1/> element described below and in section <_:ptr-2/>. The mechanisms for corpus characterization described in this chapter, however, are designed to reduce the need to do this. Useful groupings of components may easily be expressed using the text classification and identification elements described in section <_:ptr-3/>, and those for associating declarations with corpus components described in section <_:ptr-4/>. These methods also allow several different methods of text grouping to co-exist, each to be used as needed at different times. This helps minimize the danger of cross-classification and misclassification of samples, and helps improve the flexibility with which parts of a corpus may be characterized for different applications."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:186
+msgid "Anthologies and collections are often treated as texts in their own right, if only for historical reasons. In conventional publishing, at least, anthologies are published as units, with single editorial responsibility and common front and back matter which may need to be included in their electronic encodings. The texts collected in the anthology, of course, may also need to be identifiable as distinct individual objects for study."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:194
+msgid "Poem cycles, epistolary novels, and epistolary essays differ from anthologies in that they are often written as single works, by single authors, for single occasions; nevertheless, it can be useful to treat their constituent parts as individual texts, as well as the cycle itself. Structurally, therefore, they may be treated in the same way as anthologies: in both cases, the body of the text is composed largely of other texts."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:202
+msgid "The <_:gi-1/> element is provided to simplify the encoding of collections, anthologies, and cyclic works; as noted above, the <_:gi-2/> element can also be used to record the potentially complex internal structure of language corpora. For a full description, see chapter <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:212
+msgid "body"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:208
+msgid "Some composite texts, finally, are neither corpora, nor anthologies, nor cyclic works: they are otherwise unitary texts within which other texts are embedded. In general, they may be treated in the same way as unitary texts, using the normal <_:gi-1/> and <_:gi-2/> elements. The embedded text itself may be encoded using the <_:gi-3/> element. For further discussion, see chapter <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:217
+msgid "All composite texts share the characteristic that their different component texts may be of structurally similar or dissimilar types. If all component texts may all be encoded using the same module, then no problem arises. If however they require different modules, then these must be included in the TEI customization. This process is described in more detail in section <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:224
+msgid "Contextual Information"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:225
+msgid "Contextual information is of particular importance for collections or corpora composed of samples from a variety of different kinds of text. Examples of such contextual information include: the age, sex, and geographical origins of participants in a language interaction, or their socio-economic status; the cost and publication data of a newspaper; the topic, register or factuality of an extract from a textbook. Such information may be of the first importance, whether as an organizing principle in creating a corpus (for example, to ensure that the range of values in such a parameter is evenly represented throughout the corpus, or represented proportionately to the population being sampled), or as a selection criterion in analysing the corpus (for example, to investigate the language usage of some particular vector of social characteristics)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:238
+msgid "Such contextual information is potentially of equal importance for unitary texts, and these Guidelines accordingly make no particular distinction between the kinds of information which should be gathered for unitary and for composite texts. In either case, the information should be recorded in the appropriate section of a TEI header, as described in chapter <_:ptr-1/>. In the case of language corpora, such information may be gathered together in the overall corpus header, or split across all the component texts of a corpus, in their individual headers, or divided between the two. The association between an individual corpus text and the contextual information applicable to it may be made in a number of ways, as further discussed in section <_:ptr-2/> below."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:249
+msgid "Chapter <_:ptr-1/>, which should be read in conjunction with the present section, describes in full the range of elements available for the encoding of information relating to the electronic file itself, for example its bibliographic description and those of the source or sources from which it was derived (see section <_:ptr-2/>); information about the encoding practices followed with the corpus, for example its design principles, editorial practices, reference system, etc. (see section <_:ptr-3/>); more detailed descriptive information about the creation and content of the corpus, such as the languages used within it and any descriptive classification system used (see section <_:ptr-4/>); and version information documenting any changes made in the electronic text (see section <_:ptr-5/>)."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:270
+msgid "for language corpora"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:261
+msgid "In addition to the elements defined by chapter <_:ptr-1/>, several other elements can be used in the TEI header if the additional module defined by this chapter is invoked. These additional tags make it possible to characterize the social or other situation within which a language interaction takes place or is experienced, the physical setting of a language interaction, and the participants in it. Though this information may be relevant to, and provided for, unitary texts as well as for collections or corpora, it is more often recorded for the components of systematically developed corpora than for isolated texts, and thus this module is referred to as being <_:q-2/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:275
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:574
+msgid "profileDesc"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:277
+msgid "model.profileDescPart"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:273
+msgid "When the module defined in this chapter is included in a schema, a number of additional elements become available within the <_:gi-1/> element of the TEI header (discussed in section <_:ptr-2/>). <_:specList-3/> These elements, members of the <_:ident-4/>, are discussed in the remainder of the chapter. <_:specGrp-5/> <_:specGrpRef-6/> <_:specGrpRef-7/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:326
+msgid "The Text Description"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:327
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:401
+msgid "textDesc"
+msgstr ""
+
+#. (itstool) path: p/foreign
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:329
+msgid "a priori"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:334
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:361
+msgid "situational parameters"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:327
+msgid "The <_:gi-1/> element provides a full description of the situation within which a text was produced or experienced, and thus characterizes it in a way relatively independent of any <_:foreign-2/> theory of text-types. It is provided as an alternative or a supplement to the common use of descriptive taxonomies used to categorize texts, which is fully described in section <_:ptr-3/>, and section <_:ptr-4/>. The description is organized as a set of values and optional prose descriptions for the following eight <_:term-5/>, each represented by one of the following eight elements: <_:specList-6/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:337
+msgid "model.textDescPart"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:337
+msgid "These elements constitute a model class called <_:ident-1/>; new parameters may be defined by defining new elements and adding them to that class, as further described in <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:343
+msgid "purpose"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:350
+msgid "not applicable"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:341
+msgid "By default, a text description will contain each of the above elements, supplied in the order specified. Except for the <_:gi-1/> element, which may be repeated to indicate multiple purposes, no element should appear more than once within a single text description. Each element may be empty, or may contain a brief qualification or more detailed description of the value expressed by its attributes. It should be noted that some texts, in particular literary ones, may resist unambiguous classification in some of these dimensions; in such cases, the situational parameter in question should be given the content <_:q-2/> or an equivalent phrase."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:359
+msgid "text-types"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:368
+msgid "Schemes similar to that proposed here were developed in the 1960s and 1970s by researchers such as Hymes, Halliday, and Crystal and Davy, but have rarely been implemented; one notable exception being the pioneering work on the Helsinki Diachronic Corpus of English, on which see <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:374
+msgid "it enables a relatively continuous characterization of texts (in contrast to discrete categories based on type or topic)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:376
+msgid "it enables meaningful comparisons across corpora"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:377
+msgid "it allows analysts to build and compare their own text-types based on the particular parameters of interest to them"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:379
+msgid "it is equally applicable to spoken, written, or signed texts"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:353
+msgid "Texts may be described along many dimensions, according to many different taxonomies. No generally accepted consensus as to how such taxonomies should be defined has yet emerged, despite the best efforts of many corpus linguists, text linguists, sociolinguists, rhetoricians, and literary theorists over the years. Rather than attempting the task of proposing a single taxonomy of <_:term-1/> (or the equally impossible one of enumerating all those which have been proposed previously), the closed set of <_:term-2/> described above can be used in combination to supply useful distinguishing descriptive features of individual texts, without insisting on a system of discrete high-level text-types. Such text-types may however be used in combination with the parameters proposed here, with the advantage that the internal structure of each such text-type can be specified in terms of the parameters proposed. This approach has the following analytical advantages:<_:note-3/> <_:list-4/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:389
+msgid "feature structures"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:389
+msgid "feature system declaration,"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:380
+msgid "Two alternative approaches to the use of these parameters are supported by these Guidelines. One is to use pre-existing taxonomies such as those used in subject classification or other types of text categorization. Such taxonomies may also be appropriate for the description of the topics addressed by particular texts. Elements for this purpose are described in section <_:ptr-1/>, and elements for defining or declaring such classification schemes in section <_:ptr-2/>. A second approach is to develop an application-specific set of <_:term-3/> and an associated <_:term-4/> as described in chapters <_:ptr-5/> and <_:ptr-6/>."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:396
+msgid "text-type"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:399
+msgid "taxonomy"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:400
+msgid "catDesc"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:401
+msgid "category"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:393
+msgid "Where the organizing principles of a corpus or collection so permit, it may be convenient to regard a particular set of values for the situational parameters listed in this section as forming a <_:term-1/> in its own right; this may also be useful where the same set of values applies to several texts within a corpus. In such a case, the set of text-types so defined should be regarded as a <_:term-2/>. The mechanisms described in section <_:ptr-3/> may be used to define hierarchic taxonomies of such text-types, provided that the <_:gi-4/> component of the <_:gi-5/> element contains a <_:gi-6/> element rather than a prose description. Particular texts may then be associated with such definitions using the mechanisms described in sections <_:ptr-7/>."
+msgstr ""
+
+#. (itstool) path: textDesc/channel
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:409
+msgid "informal face-to-face conversation"
+msgstr ""
+
+#. (itstool) path: textDesc/constitution
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:410
+msgid "each text represents a continuously recorded interaction among the specified participants"
+msgstr ""
+
+#. (itstool) path: textDesc/domain
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:414
+msgid "plans for coming week, local affairs"
+msgstr ""
+
+#. (itstool) path: textDesc/factuality
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:415
+msgid "mostly factual, some jokes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:406
+msgid "Using these situational parameters, an informal domestic conversation might be characterized as follows: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: textDesc/channel
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:425
+msgid "print; part issues"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:422
+msgid "The following example demonstrates how the same situational parameters might be used to characterize a novel: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:572
+msgid "The Participant Description"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:574
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:593
+msgid "particDesc"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:578
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:598
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:609
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:685
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:721
+msgid "namesdates"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: note/att
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:583
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:630
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:661
+msgid "who"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:574
+msgid "The <_:gi-1/> element in the <_:gi-2/> element provides additional information about the participants in a spoken text or, where this is judged appropriate, the persons named or depicted in a written text. When the detailed elements provided by the <_:ident-3/> module described in <_:ptr-4/> are included in a schema, this element can contain detailed demographic or descriptive information about individual speakers or groups of speakers, such as their names or other personal characteristics. Individually identified persons may also identified by a code which can then be used elsewhere within the encoded text, for example as the value of a <_:att-5/> attribute."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:586
+msgid "speaker"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:587
+msgid "participant"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:589
+msgid "voices"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:586
+msgid "It should be noted that although the terms <_:term-1/> or <_:term-2/> are used throughout this section, it is intended that the same mechanisms may be used to characterize fictional personæ or <_:soCalled-3/> within a written text, except where otherwise stated. For the purposes of analysis of language usage, the information specified here should be equally applicable to written, spoken, or signed texts."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:596
+msgid "list"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:596
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:723
+msgid "name"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:597
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:642
+msgid "listPerson"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:593
+msgid "The element <_:gi-1/> contains a description of the participants in an interaction, which may be supplied as straightforward prose, possibly containing a list of names, encoded using the usual <_:gi-2/> and <_:gi-3/> elements, or alternatively using the more specific and detailed <_:gi-4/> element provided by the <_:ident-5/> module described in <_:ptr-6/>."
+msgstr ""
+
+#. (itstool) path: particDesc/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:604
+msgid "Female informant, well-educated, born in Shropshire UK, 12 Jan 1950, of unknown occupation. Speaks French fluently. Socio-Economic status B2 in the PEP classification scheme."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:601
+msgid "For example, a participant in a recorded conversation might be described informally as follows: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: birth/date
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:614
+msgid "12 Jan 1950"
+msgstr ""
+
+#. (itstool) path: birth/name
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:615
+msgid "Shropshire, UK"
+msgstr ""
+
+#. (itstool) path: langKnowledge/langKnown
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:618
+msgid "English"
+msgstr ""
+
+#. (itstool) path: langKnowledge/langKnown
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:619
+msgid "French"
+msgstr ""
+
+#. (itstool) path: person/residence
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:621
+msgid "Long term resident of Hull"
+msgstr ""
+
+#. (itstool) path: person/education
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:622
+msgid "University postgraduate"
+msgstr ""
+
+#. (itstool) path: person/occupation
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:623
+msgid "Unknown"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:609
+msgid "Alternatively, when the <_:ident-1/> module is included in a schema, information about the same participant described above might be provided in a more structured way as follows: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: note/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:630
+msgid "sp"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:628
+msgid "It is particularly useful to define participants in a dramatic text in this way, since it enables the <_:att-1/> attribute to be used to link <_:gi-2/> elements to definitions for their speakers; see further section <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: item/name
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:635
+msgid "Emma Woodhouse"
+msgstr ""
+
+#. (itstool) path: item/name
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:636
+msgid "Mr Darcy"
+msgstr ""
+
+#. (itstool) path: particDesc/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:633
+msgid "The chief speaking characters in this novel are <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:626
+msgid "An identified character in a drama or a novel may also be regarded as a participant in this sense, and encoded using the same techniques:<_:note-1/> <_:egXML-2/> Here, the characters are simply listed without the detailed structure which use of the <_:gi-3/> element permits."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:647
+msgid "The Setting Description"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:648
+msgid "settingDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:648
+msgid "The <_:gi-1/> element is used to describe the setting or settings in which language interaction takes place. It may contain a prose description, analogous to a stage description at the start of a play, stating in broad terms the locale, or a more detailed description of a series of such settings."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:653
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:671
+msgid "setting"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:662
+msgid "att.ascribed"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:653
+msgid "Each distinct setting is described by means of a <_:gi-1/> element. <_:specList-2/> Individual settings may be associated with particular participants by means of the optional <_:att-3/> attribute which this element inherits as a member of the <_:ident-4/> if, for example, participants are in different places. This attribute identifies one or more individual participants or participant groups, as discussed earlier in section <_:ptr-5/>. If this attribute is not specified, the setting details provided are assumed to apply to all participants represented in the language interaction. Note however that it is not possible to encode different settings for the same participant: a participant is deemed to be a person within a specific setting."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:672
+msgid "model.nameLike.agent"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:672
+msgid "model.dateLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:673
+msgid "model.settingPart"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:683
+msgid "orgName"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:684
+msgid "persName"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:671
+msgid "The <_:gi-1/> element may contain either a prose description or a selection of elements from the classes <_:ident-2/>, <_:ident-3/>, or <_:ident-4/>. By default, when the module defined by this chapter is included in a schema, these classes thus provide the following elements: <_:specList-5/> Additional more specific naming elements such as <_:gi-6/> or <_:gi-7/> may also be available if the <_:ident-8/> module is also included in the schema."
+msgstr ""
+
+#. (itstool) path: settingDesc/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:691
+msgid "The time is early spring, 1989. P1 and P2 are playing on the rug of a suburban home in Bedford. P3 is doing the washing up at the sink. P4 (a radio announcer) is in a broadcasting studio in London."
+msgstr ""
+
+#. (itstool) path: setting/name
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:700
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:707
+msgid "Bedford"
+msgstr ""
+
+#. (itstool) path: setting/name
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:701
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:708
+msgid "UK: South East"
+msgstr ""
+
+#. (itstool) path: setting/date
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:702
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:709
+msgid "early spring, 1989"
+msgstr ""
+
+#. (itstool) path: setting/locale
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:703
+msgid "rug of a suburban home"
+msgstr ""
+
+#. (itstool) path: setting/activity
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:704
+msgid "playing"
+msgstr ""
+
+#. (itstool) path: setting/locale
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:710
+msgid "at the sink"
+msgstr ""
+
+#. (itstool) path: setting/activity
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:711
+msgid "washing-up"
+msgstr ""
+
+#. (itstool) path: setting/name
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:714
+msgid "London, UK"
+msgstr ""
+
+#. (itstool) path: setting/time
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:715
+msgid "unknown"
+msgstr ""
+
+#. (itstool) path: setting/locale
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:716
+msgid "broadcasting studio"
+msgstr ""
+
+#. (itstool) path: setting/activity
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:717
+msgid "radio performance"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:687
+msgid "The following example demonstrates the kind of background information often required to support transcriptions of language interactions, first encoded as a simple prose narrative: <_:egXML-1/> The same information might be represented more formally in the following way: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:720
+msgid "Again, a more detailed encoding for places is feasible if the <_:ident-1/> module is included in the schema. The above examples assume that only the general purpose <_:gi-2/> element supplied in the core module is available. <_:specGrp-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:767
+msgid "Associating Contextual Information with a Text"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:769
+msgid "This section discusses the association of the contextual information held in the header with the individual elements making up a TEI text or corpus. Contextual information is held in elements of various kinds within the TEI header, as discussed elsewhere in this section and in chapter <_:ptr-1/>. Here we consider what happens when different parts of a document need to be associated with different contextual information of the same type, for example when one part of a document uses a different encoding practice from another, or where one part relates to a different setting from another. In such situations, there will be more than one instance of a header element of the relevant type."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:782
+msgid "A given element may appear in the corpus header only, in the header of one or more texts only, or in both places"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:784
+msgid "There may be multiple occurrences of certain elements in either corpus or text header."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:780
+msgid "The TEI scheme allow for the following possibilities: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:787
+msgid "To simplify the exposition, we deal with these two possibilities separately in what follows; however, they may be combined as desired."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:791
+msgid "Combining Corpus and Text Headers"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:792
+msgid "A TEI-conformant document may have more than one header only in the case of a TEI corpus, which must have a header in its own right, as well as the obligatory header for each text. Every element specified in a corpus-header is understood as if it appeared within every text header in the corpus. An element specified in a text header but not in the corpus header supplements the specification for that text alone. If any element is specified in both corpus and text headers, the corpus header element is over-ridden for that text alone."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:801
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:802
+msgid "titleStmt"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:803
+msgid "fileDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:801
+msgid "The <_:gi-1/> for a corpus text is understood to be prefixed by the <_:gi-2/> given in the corpus header. All other optional elements of the <_:gi-3/> should be omitted from an individual corpus text header unless they differ from those specified in the corpus header. All other header elements behave identically, in the manner documented below. This facility makes it possible to state once for all in the corpus header each piece of contextual information which is common to the whole of the corpus, while still allowing for individual texts to vary from this common denominator."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:812
+msgid "For example, the following schematic shows the structure of a corpus comprising three texts, the first and last of which share the same encoding description. The second one has its own encoding description. <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:860
+msgid "Declarable Elements"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:863
+msgid "declarable elements"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:865
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:945
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:954
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:990
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1077
+msgid "decls"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:862
+msgid "Certain of the elements which can appear within a TEI header are known as <_:term-1/>. These elements have in common the fact that they may be linked explicitly with a particular part of a text or corpus by means of a <_:att-2/> attribute on that element. This linkage is used to over-ride the default association between declarations in the header and a corpus or corpus text. The only header elements which may be associated in this way are those which would not otherwise be meaningfully repeatable."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:870
+msgid "att.declarable"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:871
+msgid "att.declaring"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:870
+msgid "Declarable elements are all members of the class <_:ident-1/>; the corresponding declaring elements are all members of the class <_:ident-2/>. <_:specList-3/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:911
+msgid "every declarable element must bear a unique identifier"
+msgstr ""
+
+#. (itstool) path: item/att
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:914
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1020
+msgid "default"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:912
+msgid "for each different type of declarable element which occurs more than once within the same parent element, exactly one element must be specified as the default, by means of the <_:att-1/> attribute"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:877
+msgid "An alphabetically ordered list of declarable elements follows: <_:specList-1/> All of the above elements may be multiply defined within a single header, that is, there may be more than one instance of any declarable element type at a given level. When this occurs, the following rules apply: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:918
+msgid "correction"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:919
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:920
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:933
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:942
+msgid "CorPol1"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:919
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:943
+msgid "CorPol2"
+msgstr ""
+
+#. (itstool) path: correction/p
+#. (itstool) path: normalization/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:923
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:926
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:929
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:930
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:970
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:972
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:974
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:975
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:979
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:980
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:981
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:982
+msgid "..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:917
+msgid "In the following example, an editorial declaration contains two possible <_:gi-1/> policies, one identified as <_:val-2/> and the other as <_:val-3/>. Since there are two, one of them (in this case <_:val-4/>) should be specified as the default: <_:egXML-5/> For texts associated with the header in which this declaration appears, correction method <_:val-6/> will be assumed, unless they explicitly state otherwise. Here is the structure for a text which does state otherwise: <_:egXML-7/> In this case, the contents of the divisions D1 and D3 will both use correction policy <_:val-8/>, and those of division D2 will use correction policy <_:val-9/>."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:946
+msgid "declaring"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:947
+msgid "div"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:945
+msgid "The <_:att-1/> attribute is defined for any element which is a member of the class <_:term-2/>. This includes the major structural elements <_:gi-3/>, <_:gi-4/>, and <_:gi-5/>, as well as smaller structural units, down to the level of paragraphs in prose, individual utterances in spoken texts, and entries in dictionaries. However, TEI recommended practice is to limit the number of multiple declarable elements used by a document as far as possible, for simplicity and ease of processing."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:957
+msgid "An identifier specifying an element which contains multiple instances of one or more other elements should be interpreted as if it explicitly identified the elements identified as the default in each such set of repeated elements"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:961
+msgid "Each element specified, explicitly or implicitly, by the list of identifiers must be of a different kind."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:954
+msgid "The identifier or identifiers specified by the <_:att-1/> attribute are subject to two further restrictions: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:964
+msgid "To demonstrate how these rules operate, we now expand our earlier example slightly: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:987
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:988
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:988
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:990
+msgid "ED1"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: q/val
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:987
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:991
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1001
+msgid "ED2"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:986
+msgid "This encoding description now has two editorial declarations, identified as <_:val-1/> (the default) and <_:val-2/>. For texts not specifying otherwise, <_:val-3/> will apply. If <_:val-4/> applies, correction method C1A and normalization method N1 apply, since these are the specified defaults within <_:val-5/>. In the same way, for a text specifying <_:att-6/> as <_:q-7/>, correction C2A, and normalization N2B will apply."
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:996
+msgid "text decls='C2B N2A'"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:997
+msgid "mix and match"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:998
+msgid "text decls='ED1 ED2'"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1000
+msgid "text decls='ED2 C1A'"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1002
+msgid "C2A N2B"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:995
+msgid "A finer grained approach is also possible. A text might specify <_:tag-1/>, to <_:soCalled-2/> declarations as required. A tag such as <_:tag-3/> would (obviously) be illegal, since it includes two elements of the same type; a tag such as <_:tag-4/> is also illegal, since in this context <_:val-5/> is synonymous with the defaults for that editorial declaration, namely <_:val-6/>, resulting in a list that identifies two correction elements (C1A and C2A)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1005
+msgid "Summary"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1009
+msgid "If there is a single occurrence of a given declarable element in a corpus header, then it applies by default to all elements within the corpus."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1012
+msgid "If there is a single occurrence of a given declarable element in the text header, then it applies by default to all elements of that text irrespective of the contents of the corpus header."
+msgstr ""
+
+#. (itstool) path: item/att
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1019
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1018
+msgid "each must have a unique value specified as the value of its <_:att-1/> attribute;"
+msgstr ""
+
+#. (itstool) path: item/val
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1021
+msgid "YES"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1020
+msgid "one only must bear a <_:att-1/> attribute with the value <_:val-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1015
+msgid "Where there are multiple occurrences of declarable elements within either corpus or text header, <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1022
+msgid "It is a semantic error for an element to be associated with more than one occurrence of any declarable element."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1024
+msgid "Selecting an element which contains multiple occurrences of a given declarable element is semantically equivalent to selecting only those contained elements which are specified as defaults."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1027
+msgid "An association made by one element applies by default to all of its descendants."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1006
+msgid "The rules determining which of the declarable elements are applicable at any point may be summarized as follows: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1031
+msgid "Linguistic Annotation of Corpora"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1035
+msgid "tagging"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1041
+msgid "See in particular chapters <_:ptr-1/>, <_:ptr-2/>, and <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1032
+msgid "Language corpora often include analytic encodings or annotations, designed to support a variety of different views of language. The present Guidelines do not advocate any particular approach to linguistic annotation (or <_:soCalled-1/>); instead a number of general analytic facilities are provided which support the representation of most forms of annotation in a standard and self-documenting manner. Analytic annotation is of importance in many fields, not only in corpus linguistics, and is therefore discussed in general terms elsewhere in the Guidelines.<_:note-2/> The present section presents informally some particular applications of these general mechanisms to the specific practice of corpus linguistics."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1045
+msgid "Levels of Analysis"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1046
+msgid "linguistic annotation"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1046
+msgid "By <_:term-1/> we mean here any annotation determined by an analysis of linguistic features of the text, excluding as borderline cases both the formal structural properties of the text (e.g. its division into chapters or paragraphs) and descriptive information about its context (the circumstances of its production, its genre, or medium). The structural properties of any TEI-conformant text should be represented using the structural elements discussed elsewhere in these Guidelines, for example in chapters <_:ptr-2/> and <_:ptr-3/>. The contextual properties of a TEI text are fully documented in the TEI header, which is discussed in chapter <_:ptr-4/>, and in section <_:ptr-5/> of the present chapter."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1059
+msgid "Other forms of linguistic annotation may be applied at a number of levels in a text. A code (such as a word-class or part-of-speech code) may be associated with each word or token, or with groups of such tokens, which may be continuous, discontinuous, or nested. A code may also be associated with relationships (such as cohesion) perceived as existing between distinct parts of a text. The codes themselves may stand for discrete non-decomposable categories, or they may represent highly articulated bundles of textual features. Their function may be to place the annotated part of the text somewhere within a narrowly linguistic or discoursal domain of analysis, or within a more general semantic field, or any combination drawn from these and other domains."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1075
+msgid "interpretation"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1071
+msgid "The manner by which such annotations are generated and attached to the text may be entirely automatic, entirely manual, or a mixture. The ease and accuracy with which analysis may be automated may vary with the level at which the annotation is attached. The method employed should be documented in the <_:gi-1/> element within the encoding description of the TEI header, as described in section <_:ptr-2/>. Where different parts of a corpus have used different annotation methods, the <_:att-3/> attribute should be used to indicate the fact, as further discussed in section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1080
+msgid "An extended example of one form of linguistic analysis commonly practised in corpus linguistics is given in section <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1084
+msgid "Recommendations for the Encoding of Large Corpora"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1085
+msgid "These Guidelines include proposals for the identification and encoding of a far greater variety of textual features and characteristics than is likely to be either feasible or desirable in any one language corpus, however large and ambitious. The reasoning behind this catholic approach is further discussed in chapter <_:ptr-1/>. For most large-scale corpus projects, it will therefore be necessary to determine a subset of TEI recommended elements appropriate to the anticipated needs of the project, as further discussed in chapter <_:ptr-2/>; these mechanisms include the ability to exclude selected element types, add new element types, and change the names of existing elements. A discussion of the implications of such changes for TEI conformance is provided in chapter <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1102
+msgid "required"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1103
+msgid "texts included within the corpus will always encode textual features in this category, should they exist in the text"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1105
+msgid "recommended"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1106
+msgid "textual features in this category will be encoded wherever economically and practically feasible; where present but not encoded, a note in the header should be made."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1108
+msgid "optional"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1109
+msgid "textual features in this category may or may not be encoded; no conclusion about the absence of such features can be inferred from the absence of the corresponding element in a given text."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1113
+msgid "proscribed"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1115
+msgid "gap"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1114
+msgid "textual features in this category are deliberately not encoded; they may be transcribed as unmarked up text, or represented as <_:gi-1/> elements, or silently omitted, as appropriate."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1098
+msgid "Because of the high cost of identifying and encoding many textual features, and the difficulty in ensuring consistent practice across very large corpora, encoders may find it convenient to divide the set of elements to be encoded into the following four categories: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1120
+msgid "Module for Language Corpora"
+msgstr ""
+
+#. (itstool) path: moduleSpec/altIdent
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1124
+msgid "Metadata for Language Corpora"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1125
+msgid "Corpus texts"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1126
+msgid "Corpus linguistiques"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1127
+msgid "文集文本"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1128
+msgid "Corpus di testi"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1129
+msgid "Textos do corpora"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1130
+msgid "コーパスモジュール"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/CC-LanguageCorpora.xml:1121
+msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>."
+msgstr ""
+

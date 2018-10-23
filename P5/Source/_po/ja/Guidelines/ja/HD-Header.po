@@ -1,0 +1,4617 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/HD-Header.xml:11
+#: Source/Guidelines/en/HD-Header.xml:2857
+msgid "The TEI Header"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:12
+msgid "This chapter addresses the problems of describing an encoded work so that the text itself, its source, its encoding, and its revisions are all thoroughly documented. Such documentation is equally necessary for scholars using the texts, for software processing them, and for cataloguers in libraries and archives. Together these descriptions and declarations provide an electronic analogue to the title page attached to a printed work. They also constitute an equivalent for the content of the code books or introductory manuals customarily accompanying electronic data sets."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:23
+msgid "TEI header"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:23
+#: Source/Guidelines/en/HD-Header.xml:92
+#: Source/Guidelines/en/HD-Header.xml:97
+#: Source/Guidelines/en/HD-Header.xml:103
+#: Source/Guidelines/en/HD-Header.xml:276
+#: Source/Guidelines/en/HD-Header.xml:1400
+#: Source/Guidelines/en/HD-Header.xml:1791
+#: Source/Guidelines/en/HD-Header.xml:2273
+#: Source/Guidelines/en/HD-Header.xml:2426
+#: Source/Guidelines/en/HD-Header.xml:2428
+msgid "teiHeader"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:26
+msgid "file description"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:26
+#: Source/Guidelines/en/HD-Header.xml:113
+#: Source/Guidelines/en/HD-Header.xml:115
+#: Source/Guidelines/en/HD-Header.xml:275
+#: Source/Guidelines/en/HD-Header.xml:288
+#: Source/Guidelines/en/HD-Header.xml:293
+#: Source/Guidelines/en/HD-Header.xml:297
+#: Source/Guidelines/en/HD-Header.xml:331
+#: Source/Guidelines/en/HD-Header.xml:448
+#: Source/Guidelines/en/HD-Header.xml:535
+#: Source/Guidelines/en/HD-Header.xml:603
+#: Source/Guidelines/en/HD-Header.xml:681
+#: Source/Guidelines/en/HD-Header.xml:720
+#: Source/Guidelines/en/HD-Header.xml:818
+#: Source/Guidelines/en/HD-Header.xml:936
+#: Source/Guidelines/en/HD-Header.xml:965
+#: Source/Guidelines/en/HD-Header.xml:2439
+#: Source/Guidelines/en/HD-Header.xml:2624
+msgid "fileDesc"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:31
+msgid "computer file"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:26
+msgid "a <_:term-1/>, tagged <_:gi-2/>, containing a full bibliographical description of the computer file itself, from which a user of the text could derive a proper bibliographic citation, or which a librarian or archivist could use in creating a catalogue entry recording its presence within a library or archive. The term <_:term-3/> here is to be understood as referring to the whole entity or document described by the header, even when this is stored in several distinct operating system files. The file description also includes information about the source or sources from which the electronic document was derived. The TEI elements used to encode the file description are described in section <_:ptr-4/> below."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:38
+msgid "encoding description"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: list/label
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:38
+#: Source/Guidelines/en/HD-Header.xml:944
+#: Source/Guidelines/en/HD-Header.xml:952
+#: Source/Guidelines/en/HD-Header.xml:971
+#: Source/Guidelines/en/HD-Header.xml:1291
+#: Source/Guidelines/en/HD-Header.xml:1788
+msgid "encodingDesc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:38
+msgid "an <_:term-1/>, tagged <_:gi-2/>, which describes the relationship between an electronic text and its source or sources. It allows for detailed description of whether (or how) the text was normalized during transcription, how the encoder resolved ambiguities in the source, what levels of encoding or analysis were applied, and similar matters. The TEI elements used to encode the encoding description are described in section <_:ptr-3/> below."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:45
+msgid "text profile"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:45
+#: Source/Guidelines/en/HD-Header.xml:663
+#: Source/Guidelines/en/HD-Header.xml:735
+#: Source/Guidelines/en/HD-Header.xml:737
+#: Source/Guidelines/en/HD-Header.xml:742
+#: Source/Guidelines/en/HD-Header.xml:940
+#: Source/Guidelines/en/HD-Header.xml:941
+#: Source/Guidelines/en/HD-Header.xml:1893
+#: Source/Guidelines/en/HD-Header.xml:1910
+#: Source/Guidelines/en/HD-Header.xml:1925
+#: Source/Guidelines/en/HD-Header.xml:1934
+#: Source/Guidelines/en/HD-Header.xml:1982
+#: Source/Guidelines/en/HD-Header.xml:2244
+#: Source/Guidelines/en/HD-Header.xml:2280
+msgid "profileDesc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:45
+msgid "a <_:term-1/>, tagged <_:gi-2/>, containing classificatory and contextual information about the text, such as its subject matter, the situation in which it was produced, the individuals described by or participating in producing it, and so forth. Such a text profile is of particular use in highly structured composite texts such as corpora or language collections, where it is often highly desirable to enforce a controlled descriptive vocabulary or to perform retrievals from a body of text in terms of text type or origin. The text profile may however be of use in any form of automatic text processing. The TEI elements used to encode the profile description are described in section <_:ptr-3/> below."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: list/label
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:56
+#: Source/Guidelines/en/HD-Header.xml:210
+#: Source/Guidelines/en/HD-Header.xml:220
+#: Source/Guidelines/en/HD-Header.xml:953
+#: Source/Guidelines/en/HD-Header.xml:2438
+#: Source/Guidelines/en/HD-Header.xml:2444
+msgid "xenoData"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:56
+msgid "a container element, tagged <_:gi-1/>, which allows easy inclusion of metadata from non-TEI schemes (i.e., other than elements in the TEI namespace). For example, the MARC record for the encoded document might be included using MARCXML or MODS. A simple set of metadata for harvesting might be included encoded in Dublin Core."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:62
+msgid "revision history"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: list/label
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:62
+#: Source/Guidelines/en/HD-Header.xml:958
+#: Source/Guidelines/en/HD-Header.xml:961
+#: Source/Guidelines/en/HD-Header.xml:2439
+#: Source/Guidelines/en/HD-Header.xml:2484
+msgid "revisionDesc"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:65
+msgid "version control"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:62
+msgid "a <_:term-1/>, tagged <_:gi-2/>, which allows the encoder to provide a history of changes made during the development of the electronic text. The revision history is important for <_:term-3/> and for resolving questions about the history of a file. The TEI elements used to encode the revision description are described in section <_:ptr-4/> below."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:21
+msgid "Every TEI-conformant text must carry such a set of descriptions, prefixed to it and encoded as described in this chapter. The set is known as the <_:term-1/>, tagged <_:gi-2/>, and has five major parts: <_:list-3/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:73
+msgid "core"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:69
+msgid "A TEI header can be a very large and complex object, or it may be a very simple one. Some application areas (for example, the construction of language corpora and the transcription of spoken texts) may require more specialized and detailed information than others. The present proposals therefore define both a <_:term-1/> set of elements (all of which may be used without formality in any TEI header) and some additional elements which become available within the header as the result of including additional specialized modules within the schema. When the module for language corpora (described in chapter <_:ptr-2/>) is in use, for example, several additional elements are available, as further detailed in that chapter."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:81
+msgid "The next section of the present chapter briefly introduces the overall structure of the header and the kinds of data it may contain. This is followed by a detailed description of all the constituent elements which may be used in the core header. Section <_:ptr-1/>, at the end of the present chapter, discusses the recommended content of a minimal TEI header and its relation to standard library cataloguing practices."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:89
+msgid "Organization of the TEI Header"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:91
+msgid "The TEI Header and Its Components"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:93
+msgid "front matter"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:97
+#: Source/Guidelines/en/HD-Header.xml:1258
+#: Source/Guidelines/en/HD-Header.xml:1399
+#: Source/Guidelines/en/HD-Header.xml:1414
+#: Source/Guidelines/en/HD-Header.xml:1431
+#: Source/Guidelines/en/HD-Header.xml:1531
+msgid "text"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:98
+msgid "facsimile"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:92
+msgid "The <_:gi-1/> element should be clearly distinguished from the <_:term-2/> of the text itself (for which see section <_:ptr-3/>). A composite text, such as a corpus or collection, may contain several headers, as further discussed below. In the general case, however, a TEI-conformant text will contain a single <_:gi-4/> element, followed by a single <_:gi-5/> or <_:gi-6/> element, or both."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:100
+msgid "The header element has the following description: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:103
+msgid "As discussed above, the <_:gi-1/> element has five principal components: <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:113
+msgid "Of these, only the <_:gi-1/> element is required in all TEI headers; the others are optional. That is, only one of the five components of the TEI header (the <_:gi-2/>) is mandatory, and it also has some mandatory components, as further discussed in <_:ptr-3/> below. The smallest possible valid TEI Header thus looks like this: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:134
+#: Source/Guidelines/en/HD-Header.xml:2000
+#: Source/Guidelines/en/HD-Header.xml:2165
+msgid "xml:lang"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:131
+msgid "The content of the elements making up a TEI header may be given in any language, not necessarily that of the text to which the header applies, and not necessarily English. As elsewhere, the <_:att-1/> attribute should be used at an appropriate level to specify the language. For example, in the following schematic example, an English text has been given a French header: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:148
+msgid "In the case of language corpora or collections, it may be desirable to record header information either at the level of the individual components in the corpus or collection, or at the level of the corpus or collection itself (more details concerning the tagging of composite texts are given in section <_:ptr-1/>, which should be read in conjunction with the current chapter). A corpus may thus take the form: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:190
+msgid "Types of Content in the TEI Header"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:195
+msgid "free prose"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/HD-Header.xml:200
+msgid "prose description"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#. (itstool) path: change/gi
+#: Source/Guidelines/en/HD-Header.xml:201
+#: Source/Guidelines/en/HD-Header.xml:981
+#: Source/Guidelines/en/HD-Header.xml:2526
+msgid "p"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/HD-Header.xml:202
+msgid "phrase"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:196
+msgid "Most elements contain simple running prose at some level. Many elements may contain either prose (possibly organized into paragraphs) or more specific elements, which themselves contain prose. In this chapter's descriptions of element content, the phrase <_:mentioned-1/> should be understood to imply a series of paragraphs, each marked as a <_:gi-2/> element. The word <_:mentioned-3/>, by contrast, should be understood to imply character data, interspersed as need be with phrase-level elements, but not organized into paragraphs. For more information on paragraphs, highlighted phrases, lists, etc., see section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:207
+msgid "grouping elements"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/HD-Header.xml:209
+#: Source/Guidelines/en/HD-Header.xml:213
+msgid "Stmt"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:209
+#: Source/Guidelines/en/HD-Header.xml:447
+msgid "editionStmt"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:210
+#: Source/Guidelines/en/HD-Header.xml:317
+#: Source/Guidelines/en/HD-Header.xml:330
+#: Source/Guidelines/en/HD-Header.xml:2540
+#: Source/Guidelines/en/HD-Header.xml:2624
+msgid "titleStmt"
+msgstr ""
+
+#. (itstool) path: item/soCalled
+#: Source/Guidelines/en/HD-Header.xml:214
+msgid "areas"
+msgstr ""
+
+#. (itstool) path: item/note
+#: Source/Guidelines/en/HD-Header.xml:215
+msgid "For more information on this highly influential family of standards, first proposed in 1969 by the International Federation of Library Associations, see <_:ptr-1/>. On the relation between the TEI proposals and other standards for bibliographic description, see further section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:208
+msgid "Elements whose names end with the suffix <_:mentioned-1/> (e.g. <_:gi-2/>, <_:gi-3/>) and the <_:gi-4/> element enclose a group of specialized elements recording some structured information. In the case of the bibliographic elements, the suffix <_:mentioned-5/> is used in names of elements corresponding to the <_:soCalled-6/> of the International Standard Bibliographic Description.<_:note-7/> In the case of the <_:gi-8/> element, the specialized elements are not TEI elements, but rather come from some other metadata scheme. In most cases grouping elements may contain prose descriptions as an alternative to the set of specialized elements, thus allowing the encoder to choose whether or not the information concerned should be presented in a structured form or in prose."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:227
+msgid "declarations"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/HD-Header.xml:229
+msgid "Decl"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#. (itstool) path: note/gi
+#: Source/Guidelines/en/HD-Header.xml:229
+#: Source/Guidelines/en/HD-Header.xml:1229
+#: Source/Guidelines/en/HD-Header.xml:1247
+#: Source/Guidelines/en/HD-Header.xml:1250
+#: Source/Guidelines/en/HD-Header.xml:1253
+#: Source/Guidelines/en/HD-Header.xml:1261
+#: Source/Guidelines/en/HD-Header.xml:1401
+#: Source/Guidelines/en/HD-Header.xml:1451
+msgid "tagsDecl"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:230
+#: Source/Guidelines/en/HD-Header.xml:1474
+#: Source/Guidelines/en/HD-Header.xml:1501
+#: Source/Guidelines/en/HD-Header.xml:1502
+#: Source/Guidelines/en/HD-Header.xml:1508
+msgid "refsDecl"
+msgstr ""
+
+#. (itstool) path: item/att
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:237
+#: Source/Guidelines/en/HD-Header.xml:905
+#: Source/Guidelines/en/HD-Header.xml:1064
+#: Source/Guidelines/en/HD-Header.xml:1222
+#: Source/Guidelines/en/HD-Header.xml:1469
+#: Source/Guidelines/en/HD-Header.xml:1626
+msgid "decls"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:228
+msgid "Elements whose names end with the suffix <_:mentioned-1/> (e.g. <_:gi-2/>, <_:gi-3/>) enclose information about specific encoding practices applied in the electronic text; often these practices are described in coded form. Typically, such information takes the form of a series of declarations, identifying a code with some more complex structure or description. A declaration which applies to more than one text or division of a text need not be repeated in the header of each such text or subdivision. Instead, the <_:att-4/> attribute of each text (or subdivision of the text) to which the declaration applies may be used to supply a cross-reference to it, as further described in section <_:ptr-5/>."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:240
+msgid "descriptions"
+msgstr ""
+
+#. (itstool) path: item/mentioned
+#: Source/Guidelines/en/HD-Header.xml:242
+msgid "Desc"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/HD-Header.xml:242
+msgid "settingDesc"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:243
+#: Source/Guidelines/en/HD-Header.xml:1012
+msgid "projectDesc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:241
+msgid "Elements whose names end with the suffix <_:mentioned-1/> (e.g. <_:gi-2/>, <_:gi-3/>) contain a prose description, possibly, but not necessarily, organized under some specific headings by suggested sub-elements."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:191
+msgid "The elements occurring within the TEI header may contain several types of content; the following list indicates how these types of content are described in the following sections: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:248
+msgid "Model Classes in the TEI Header"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:249
+msgid "The TEI header provides a very rich collection of metadata categories, but makes no claim to be exhaustive. It is certainly the case that individual projects may wish to record specialized metadata which either does not fit within one of the predefined categories identified by the TEI header or requires a more specialized element structure than is proposed here. To overcome this problem, the encoder may elect to define additional elements using the customization methods discussed in <_:ptr-1/>. The TEI class system makes such customizations simpler to effect and easier to use in interchange."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:259
+msgid "These classes are specific to parts of the header: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:274
+msgid "The File Description"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:275
+msgid "This section describes the <_:gi-1/> element, which is the first component of the <_:gi-2/> element."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:277
+msgid "The bibliographic description of a machine-readable or digital text resembles in structure that of a book, an article, or any other kind of textual object. The file description element of the TEI header has therefore been closely modelled on existing standards in library cataloguing; it should thus provide enough information to allow users to give standard bibliographic references to the electronic text, and to allow cataloguers to catalogue it. Bibliographic citations occurring elsewhere in the header, and also in the text itself, are derived from the same model (on bibliographic citations in general, see further section <_:ptr-1/>). See further section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:287
+msgid "The bibliographic description of an electronic text should be supplied by the mandatory <_:gi-1/> element: <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:293
+msgid "The <_:gi-1/> element contains three mandatory elements and four optional elements, each of which is described in more detail in sections <_:ptr-2/> to <_:ptr-3/> below. These elements are listed below in the order in which they must be given within the <_:gi-4/> element. <_:specList-5/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/HD-Header.xml:318
+#: Source/Guidelines/en/HD-Header.xml:602
+#: Source/Guidelines/en/HD-Header.xml:661
+#: Source/Guidelines/en/HD-Header.xml:753
+#: Source/Guidelines/en/HD-Header.xml:759
+#: Source/Guidelines/en/HD-Header.xml:2625
+#: Source/Guidelines/en/HD-Header.xml:2629
+msgid "publicationStmt"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/HD-Header.xml:318
+#: Source/Guidelines/en/HD-Header.xml:747
+#: Source/Guidelines/en/HD-Header.xml:817
+#: Source/Guidelines/en/HD-Header.xml:826
+#: Source/Guidelines/en/HD-Header.xml:893
+#: Source/Guidelines/en/HD-Header.xml:901
+#: Source/Guidelines/en/HD-Header.xml:905
+#: Source/Guidelines/en/HD-Header.xml:938
+#: Source/Guidelines/en/HD-Header.xml:2287
+#: Source/Guidelines/en/HD-Header.xml:2625
+msgid "sourceDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:300
+msgid "A complete file description containing all possible sub-elements might look like this: <_:egXML-1/> Of these elements, only the <_:gi-2/>, <_:gi-3/>, and <_:gi-4/> are required; the others may be omitted unless considered useful."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:329
+msgid "The Title Statement"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:334
+#: Source/Guidelines/en/HD-Header.xml:382
+msgid "statements of responsibility"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:330
+msgid "The <_:gi-1/> element is the first component of the <_:gi-2/> element, and is mandatory: <_:specList-3/> It contains the title given to the electronic work, together with one or more optional <_:term-4/> which identify the encoder, editor, author, compiler, or other parties responsible for it: <_:specList-5/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:339
+#: Source/Guidelines/en/HD-Header.xml:373
+msgid "title"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:347
+msgid ": an electronic transcription"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:348
+msgid "a digital edition"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:339
+msgid "The <_:gi-1/> element contains the chief name of the electronic work, including any alternative title or subtitles it may have. It may be repeated, if the work has more than one title (perhaps in different languages) and takes whatever form is considered appropriate by its creator. Where the electronic work is derived from an existing source text, it is strongly recommended that the title for the former should be derived from the latter, but clearly distinguishable from it, for example by the addition of a phrase such as <_:q-2/> or <_:q-3/>. This will distinguish the electronic work from the source text in citations and in catalogues which contain descriptions of both types of material."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:365
+msgid "filename"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:365
+msgid "data set name"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/HD-Header.xml:372
+#: Source/Guidelines/en/HD-Header.xml:1987
+#: Source/Guidelines/en/HD-Header.xml:2580
+msgid "not"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:364
+msgid "The electronic work will also have an external name (its <_:soCalled-1/> or <_:soCalled-2/>) or reference number on the computer system where it resides at any time. This name is likely to change frequently, as new copies of the file are made on the computer system. Its form is entirely dependent on the particular computer system in use and thus cannot always easily be transferred from one system to another. Moreover, a given work may be composed of many files. For these reasons, these Guidelines strongly recommend that such names should <_:emph-3/> be used as the <_:gi-4/> for any electronic work."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:375
+msgid "Helpful guidance on the formulation of useful descriptive titles in difficult cases may be found in chapter 25 of <_:ptr-1/>) or another national cataloguing code."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:379
+msgid "author"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:379
+msgid "editor"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:379
+msgid "sponsor"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:379
+msgid "funder"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:380
+msgid "principal"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:381
+#: Source/Guidelines/en/HD-Header.xml:399
+#: Source/Guidelines/en/HD-Header.xml:509
+#: Source/Guidelines/en/HD-Header.xml:514
+#: Source/Guidelines/en/HD-Header.xml:2539
+#: Source/Guidelines/en/HD-Header.xml:2559
+#: Source/Guidelines/en/HD-Header.xml:2629
+msgid "respStmt"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:379
+msgid "The elements <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and <_:gi-5/>, are specializations of the more general <_:gi-6/> element. These elements are used to provide the <_:term-7/> which identify the person(s) responsible for the intellectual or artistic content of an item and any corporate bodies from which it emanates."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:386
+msgid "Any number of such statements may occur within the title statement. At a minimum, identify the author of the text and (where appropriate) the creator of the file. If the bibliographic description is for a corpus, identify the creator of the corpus. Optionally include also names of others involved in the transcription or elaboration of the text, sponsors, and funding agencies. The name of the person responsible for physical data input need not normally be recorded, unless that person is also intellectually responsible for some aspect of the creation of the file."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: change/gi
+#: Source/Guidelines/en/HD-Header.xml:400
+#: Source/Guidelines/en/HD-Header.xml:2533
+msgid "name"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:402
+#: Source/Guidelines/en/HD-Header.xml:404
+msgid "resp"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:398
+msgid "Where the person whose responsibility is to be documented is not an author, sponsor, funding body, or principal researcher, the <_:gi-1/> element should be used. This has two subcomponents: a <_:gi-2/> element identifying a responsible individual or organization, and a <_:gi-3/> element indicating the nature of the responsibility. No specific recommendations are made at this time as to appropriate content for the <_:gi-4/>: it should make clear the nature of the responsibility concerned, as in the examples below."
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/HD-Header.xml:410
+msgid "Agencies compiling catalogues of machine-readable files are recommended to use available authority lists, such as the Library of Congress Name Authority List, for all common personal names."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:407
+msgid "Names given may be personal names or corporate names. Give all names in the form in which the persons or bodies wish to be publicly cited. This would usually be the fullest form of the name, including first names.<_:note-1/>"
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:417
+msgid "Capgrave's Life of St. John Norbert: a machine-readable transcription"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:419
+#: Source/Guidelines/en/HD-Header.xml:425
+#: Source/Guidelines/en/HD-Header.xml:2611
+#: Source/Guidelines/en/HD-Header.xml:2652
+msgid "compiled by"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/HD-Header.xml:419
+msgid "P.J. Lucas"
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:422
+msgid "Two stories by Edgar Allen Poe: electronic version"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: Source/Guidelines/en/HD-Header.xml:423
+msgid "Poe, Edgar Allen (1809-1849)"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#. (itstool) path: publicationStmt/authority
+#: Source/Guidelines/en/HD-Header.xml:425
+#: Source/Guidelines/en/HD-Header.xml:636
+msgid "James D. Benson"
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:429
+msgid "Yogadarśanam (arthāt yogasūtrapūṭhaḥ): a digital edition."
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:432
+msgid "The Yogasūtras of Patañjali: a digital edition."
+msgstr ""
+
+#. (itstool) path: titleStmt/funder
+#: Source/Guidelines/en/HD-Header.xml:434
+msgid "Wellcome Institute for the History of Medicine"
+msgstr ""
+
+#. (itstool) path: titleStmt/principal
+#: Source/Guidelines/en/HD-Header.xml:435
+msgid "Dominik Wujastyk"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/HD-Header.xml:436
+msgid "Wieslaw Mical"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:437
+msgid "data entry and proof correction"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/HD-Header.xml:439
+msgid "Jan Hajic"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:440
+msgid "conversion to TEI-conformant markup"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:415
+msgid "Examples: <_:egXML-1/> <_:egXML-2/> <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:446
+msgid "The Edition Statement"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:447
+msgid "The <_:gi-1/> element is the second component of the <_:gi-2/> element. It is optional but recommended. <_:specList-3/> It contains either phrases or more specialized elements identifying the edition and those responsible for it: <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:454
+#: Source/Guidelines/en/HD-Header.xml:464
+#: Source/Guidelines/en/HD-Header.xml:499
+#: Source/Guidelines/en/HD-Header.xml:500
+#: Source/Guidelines/en/HD-Header.xml:506
+msgid "edition"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:454
+msgid "For printed texts, the word <_:mentioned-1/> applies to the set of all the identical copies of an item produced from one master copy and issued by a particular publishing agency or a group of such agencies. A change in the identity of the distributing body or bodies does not normally constitute a change of edition, while a change in the master copy does."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:461
+msgid "master copy"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:467
+#: Source/Guidelines/en/HD-Header.xml:501
+#: Source/Guidelines/en/HD-Header.xml:1849
+msgid "version"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:467
+msgid "level"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:468
+msgid "release"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:469
+msgid "revision"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:469
+msgid "update"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:461
+msgid "For electronic texts, the notion of a <_:soCalled-1/> is not entirely appropriate, since they are far more easily copied and modified than printed ones; nonetheless the term <_:mentioned-2/> may be used for a particular state of a machine-readable text at which substantive changes are made and fixed. Synonymous terms used in these Guidelines are <_:mentioned-3/>, <_:mentioned-4/>, and <_:mentioned-5/>. The words <_:mentioned-6/> and <_:mentioned-7/>, by contrast, are used for minor changes to a file which do not amount to a new edition."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:472
+msgid "substantive"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:472
+msgid "No simple rule can specify how <_:soCalled-1/> changes have to be before they are regarded as producing a new edition, rather than a simple update. The general principle proposed here is that the production of a new edition entails a significant change in the intellectual content of the file, rather than its encoding or appearance. The addition of analytic coding to a text would thus constitute a new edition, while automatic conversion from one coded representation to another would not. Changes relating to the character code or physical storage details, corrections of misspellings, simple changes in the arrangement of the contents and changes in the output format do not normally constitute a new edition, whereas the addition of new information (e.g. a linguistic analysis expressed in part-of-speech tagging, sound or graphics, referential links to external data sets) almost always does."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:487
+msgid "Clearly, there will always be borderline cases and the matter is somewhat arbitrary. The simplest rule is: if you think that your file is a new edition, then call it such. An edition statement is optional for the first release of a computer file; it is mandatory for each later release, though this requirement cannot be enforced by the parser."
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/HD-Header.xml:494
+msgid "all"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:494
+msgid "Note that <_:emph-1/> changes in a file considered significant, whether or not they are regarded as constituting a new edition or simply a new revision, should be independently noted in the revision description section of the file header (see section <_:ptr-2/>)."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:502
+msgid "new edition"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:503
+msgid "revised edition"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:505
+#: Source/Guidelines/en/HD-Header.xml:661
+#: Source/Guidelines/en/HD-Header.xml:2245
+#: Source/Guidelines/en/HD-Header.xml:2331
+msgid "date"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:505
+#: Source/Guidelines/en/HD-Header.xml:1519
+#: Source/Guidelines/en/HD-Header.xml:1522
+#: Source/Guidelines/en/HD-Header.xml:1528
+#: Source/Guidelines/en/HD-Header.xml:1531
+#: Source/Guidelines/en/HD-Header.xml:1586
+#: Source/Guidelines/en/HD-Header.xml:1588
+#: Source/Guidelines/en/HD-Header.xml:1602
+#: Source/Guidelines/en/HD-Header.xml:2517
+msgid "n"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:499
+msgid "The <_:gi-1/> element should contain phrases describing the edition or version, including the word <_:mentioned-2/>, <_:mentioned-3/>, or equivalent, together with a number or date, or terms indicating difference from other editions such as <_:mentioned-4/>, <_:mentioned-5/> etc. Any dates that occur within the edition statement should be marked with the <_:gi-6/> element. The <_:att-7/> attribute of the <_:gi-8/> element may be used as elsewhere to supply any formal identification (such as a version number) for the edition."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:509
+msgid "One or more <_:gi-1/> elements may also be used to supply statements of responsibility for the edition in question. These may refer to individuals or corporate bodies and can indicate functions such as that of a reviser, or can name the person or body responsible for the provision of supplementary matter, of appendices, etc., in a new edition. For further detail on the <_:gi-2/> element, see section <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: editionStmt/edition
+#: Source/Guidelines/en/HD-Header.xml:518
+msgid "Second draft, substantially extended, revised, and corrected."
+msgstr ""
+
+#. (itstool) path: edition/date
+#: Source/Guidelines/en/HD-Header.xml:522
+msgid "June 1987"
+msgstr ""
+
+#. (itstool) path: editionStmt/edition
+#: Source/Guidelines/en/HD-Header.xml:522
+msgid "Student's edition, <_:date-1/>"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:524
+msgid "New annotations by"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/HD-Header.xml:525
+msgid "George Brown"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:516
+msgid "Some examples follow: <_:egXML-1/> <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:533
+msgid "Type and Extent of File"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:534
+#: Source/Guidelines/en/HD-Header.xml:560
+#: Source/Guidelines/en/HD-Header.xml:595
+msgid "extent"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:534
+msgid "The <_:gi-1/> element is the third component of the <_:gi-2/> element. It is optional. <_:specList-3/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:538
+msgid "For printed books, information about the carrier, such as the kind of medium used and its size, are of great importance in cataloguing procedures. The print-oriented rules for bibliographic description of an item's medium and extent need some re-interpretation when applied to electronic media. An electronic file exists as a distinct entity quite independently of its carrier and remains the same intellectual object whether it is stored on a magnetic tape, a CD-ROM, a set of floppy disks, or as a file on a mainframe computer. Since, moreover, these Guidelines are specifically aimed at facilitating transparent document storage and interchange, any purely machine-dependent information should be irrelevant as far as the file header is concerned."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:550
+msgid "file-type"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:552
+msgid "data"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:552
+msgid "programs"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:550
+msgid "This is particularly true of information about <_:term-1/> although library-oriented rules for cataloguing often distinguish two types of computer file: <_:q-2/> and <_:q-3/>. This distinction is quite difficult to draw in some cases, for example, hypermedia or texts with built in search and retrieval software."
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:564
+msgid "4000 16-bit bytes"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:564
+msgid "in bytes of a specified length (e.g. <_:q-1/>)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:567
+msgid "less than 1 Mb"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:568
+msgid "between 1 Mb and 5 Mb"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:569
+msgid "between 6 Mb and 10 Mb"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:570
+msgid "over 10 Mb"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:565
+msgid "as falling within a range of categories, for example: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:571
+msgid "in terms of any convenient logical units (for example, words or sentences, citations, paragraphs)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:573
+msgid "in terms of any convenient physical units (for example, blocks, disks, tapes)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:556
+msgid "Although it is equally system-dependent, some measure of the size of the computer file may be of use for cataloguing and other practical purposes. Because the measurement and expression of file size is fraught with difficulties, only very general recommendations are possible; the element <_:gi-1/> is provided for this purpose. It contains a phrase indicating the size or approximate size of the computer file in one of the following ways: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:576
+msgid "The use of standard abbreviations for units of quantity is recommended where applicable, here as elsewhere (see <_:ptr-1/>)."
+msgstr ""
+
+#. (itstool) path: egXML/extent
+#: Source/Guidelines/en/HD-Header.xml:579
+msgid "between 1 and 2 Mb"
+msgstr ""
+
+#. (itstool) path: egXML/extent
+#: Source/Guidelines/en/HD-Header.xml:581
+msgid "4.2 MiB"
+msgstr ""
+
+#. (itstool) path: egXML/extent
+#: Source/Guidelines/en/HD-Header.xml:582
+msgid "4532 bytes"
+msgstr ""
+
+#. (itstool) path: egXML/extent
+#: Source/Guidelines/en/HD-Header.xml:583
+msgid "3200 sentences"
+msgstr ""
+
+#. (itstool) path: egXML/extent
+#: Source/Guidelines/en/HD-Header.xml:584
+msgid "Five 90 mm High Density Diskettes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:578
+msgid "Examples: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:586
+#: Source/Guidelines/en/HD-Header.xml:594
+msgid "measure"
+msgstr ""
+
+#. (itstool) path: extent/measure
+#: Source/Guidelines/en/HD-Header.xml:590
+msgid "About four megabytes"
+msgstr ""
+
+#. (itstool) path: extent/measure
+#: Source/Guidelines/en/HD-Header.xml:591
+msgid "245 pages of source material"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:586
+msgid "The <_:gi-1/> element and its attributes may be used to supply machine-tractable or normalised versions of the size or sizes given, as in the following example: <_:egXML-2/> Note that when more than one <_:gi-3/> is supplied in a single <_:gi-4/>, the implication is that all the measurements apply to the whole resource."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:601
+msgid "Publication, Distribution, Licensing, etc."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:602
+msgid "The <_:gi-1/> element is the fourth component of the <_:gi-2/> element and is mandatory. Its function is to name the agency by which a resource is made available (for example, a publisher or distributor) and to supply any additional information about the way in which it is made available such as licensing conditions, identifying numbers, etc. <_:specList-3/> It may contain either a simple prose description organized as one or more paragraphs, or the more specialised elements described below."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:610
+#: Source/Guidelines/en/HD-Header.xml:640
+msgid "model.publicationStmtPart.agency"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:610
+msgid "publisher unknown"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:608
+msgid "A structured publication statement must begin with one of the following elements: <_:specList-1/> These elements form the <_:ident-2/> class; if the agency making the resource available is unknown, but other structured information about it is available, an explicit statement such as <_:soCalled-3/> should be used."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:613
+msgid "publisher"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:615
+msgid "distributor"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:619
+msgid "release authority"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:613
+msgid "The <_:term-1/> is the person or institution by whose authority a given edition of the file is made public. The <_:term-2/> is the person or institution from whom copies of the text may be obtained. Where a text is not considered formally published, but is nevertheless made available for circulation by some individual or organization, this person or institution is termed the <_:term-3/>."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:621
+#: Source/Guidelines/en/HD-Header.xml:632
+#: Source/Guidelines/en/HD-Header.xml:640
+msgid "model.publicationStmtPart.detail"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:621
+msgid "Whichever of these elements is chosen, it may be followed by one or more of the following elements, which together form the <_:ident-1/> class <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: publicationStmt/publisher
+#: Source/Guidelines/en/HD-Header.xml:626
+msgid "Oxford University Press"
+msgstr ""
+
+#. (itstool) path: publicationStmt/pubPlace
+#: Source/Guidelines/en/HD-Header.xml:627
+msgid "Oxford"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: Source/Guidelines/en/HD-Header.xml:627
+msgid "1989"
+msgstr ""
+
+#. (itstool) path: publicationStmt/idno
+#: Source/Guidelines/en/HD-Header.xml:628
+msgid "0-19-254705-4"
+msgstr ""
+
+#. (itstool) path: availability/p
+#: Source/Guidelines/en/HD-Header.xml:629
+msgid "Copyright 1989, Oxford University Press"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:624
+msgid "Here is a simple example: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: publicationStmt/pubPlace
+#: Source/Guidelines/en/HD-Header.xml:637
+msgid "London"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: Source/Guidelines/en/HD-Header.xml:637
+#: Source/Guidelines/en/HD-Header.xml:657
+msgid "1994"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:632
+msgid "The <_:ident-1/> elements all supply additional information relating to the the publisher, distributor, or release authority immediately preceding them. In the following example, Benson is identified as responsible for distribution of some resource at the date and place cited: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:639
+msgid "A resource may have (for example) both a publisher and a distributor, or more than one publisher each using different identifiers for the same resource, and so on. For this reason, the sequence of at least one <_:ident-1/> element followed by zero or more <_:ident-2/> elements may be repeated as often as necessary."
+msgstr ""
+
+#. (itstool) path: publicationStmt/publisher
+#: Source/Guidelines/en/HD-Header.xml:643
+msgid "Sigma Press"
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:645
+msgid "21 High Street,"
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:646
+msgid "Wilmslow,"
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:647
+msgid "Cheshire M24 3DF"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: Source/Guidelines/en/HD-Header.xml:649
+msgid "1991"
+msgstr ""
+
+#. (itstool) path: publicationStmt/distributor
+#: Source/Guidelines/en/HD-Header.xml:651
+#: Source/Guidelines/en/HD-Header.xml:2616
+msgid "Oxford Text Archive"
+msgstr ""
+
+#. (itstool) path: publicationStmt/idno
+#: Source/Guidelines/en/HD-Header.xml:652
+msgid "1256"
+msgstr ""
+
+#. (itstool) path: availability/p
+#: Source/Guidelines/en/HD-Header.xml:654
+msgid "Available with prior consent of depositor for purposes of academic research and teaching only."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:641
+msgid "The following example shows a resource published by one agency (Sigma Press) at one address and date, which is also distributed by another (Oxford Text Archive), with a specified identifier and a different date: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:662
+#: Source/Guidelines/en/HD-Header.xml:1961
+#: Source/Guidelines/en/HD-Header.xml:1969
+msgid "creation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:663
+#: Source/Guidelines/en/HD-Header.xml:719
+#: Source/Guidelines/en/HD-Header.xml:765
+#: Source/Guidelines/en/HD-Header.xml:791
+msgid "notesStmt"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:661
+msgid "The <_:gi-1/> element used within <_:gi-2/> always refers to the date of publication, first distribution, or initial release. If the text was created at some other date, this may be recorded using the <_:gi-3/> element within the <_:gi-4/> element. Other useful dates (such as dates of collection of data) may be given using a note in the <_:gi-5/> element."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:666
+msgid "availability"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:666
+#: Source/Guidelines/en/HD-Header.xml:672
+msgid "licence"
+msgstr ""
+
+#. (itstool) path: publicationStmt/publisher
+#: Source/Guidelines/en/HD-Header.xml:668
+msgid "University of Victoria Humanities Computing and Media Centre"
+msgstr ""
+
+#. (itstool) path: publicationStmt/pubPlace
+#: Source/Guidelines/en/HD-Header.xml:669
+msgid "Victoria, BC"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: Source/Guidelines/en/HD-Header.xml:669
+msgid "2011"
+msgstr ""
+
+#. (itstool) path: availability/licence
+#: Source/Guidelines/en/HD-Header.xml:669
+msgid "Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:672
+#: Source/Guidelines/en/HD-Header.xml:2118
+#: Source/Guidelines/en/HD-Header.xml:2121
+#: Source/Guidelines/en/HD-Header.xml:2126
+#: Source/Guidelines/en/HD-Header.xml:2139
+#: Source/Guidelines/en/HD-Header.xml:2140
+#: Source/Guidelines/en/HD-Header.xml:2141
+msgid "target"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:666
+msgid "The <_:gi-1/> element may be used, as above, to provide a simple prose statement of any restrictions concerning the distribution of the resource. Alternatively, a more formal statement of the licensing conditions applicable may be provided using the <_:gi-2/> element: <_:egXML-3/> Note here the use of the <_:att-4/> attribute to point to a location from which the licence document itself may be obtained. Alternatively, the licence document may simply be contained within the <_:gi-5/> element."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:679
+msgid "The Series Statement"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:680
+#: Source/Guidelines/en/HD-Header.xml:695
+msgid "seriesStmt"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:680
+msgid "The <_:gi-1/> element is the fifth component of the <_:gi-2/> element and is optional. <_:specList-3/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:684
+msgid "series"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:687
+msgid "A group of separate items related to one another by the fact that each item bears, in addition to its own title proper, a collective title applying to the group as a whole. The individual items may or may not be numbered."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:691
+msgid "Each of two or more volumes of essays, lectures, articles, or other items, similar in character and issued in sequence."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:693
+msgid "A separately numbered sequence of volumes within a series or serial."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:684
+msgid "In bibliographic parlance, a <_:term-1/> may be defined in one of the following ways: <_:list-2/> The <_:gi-3/> element may contain a prose description or one or more of the following more specific elements: <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/HD-Header.xml:699
+#: Source/Guidelines/en/HD-Header.xml:757
+#: Source/Guidelines/en/HD-Header.xml:783
+msgid "idno"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:702
+msgid "6.19.33"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:703
+msgid "VI/xix:33"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: note/att
+#: Source/Guidelines/en/HD-Header.xml:703
+#: Source/Guidelines/en/HD-Header.xml:2313
+#: Source/Guidelines/en/HD-Header.xml:2527
+msgid "type"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:704
+msgid "ISSN"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:699
+msgid "The <_:gi-1/> may be used to supply any identifying number associated with the item, including both standard numbers such as an ISSN and particular issue numbers. (Arabic numerals separated by punctuation are recommended for this purpose: <_:val-2/>, for example, rather than <_:val-3/>). Its <_:att-4/> attribute is used to categorize the number further, taking the value <_:val-5/> for an ISSN for example."
+msgstr ""
+
+#. (itstool) path: seriesStmt/title
+#: Source/Guidelines/en/HD-Header.xml:709
+msgid "Machine-Readable Texts for the Study of Indian Literature"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:711
+msgid "ed. by"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/HD-Header.xml:711
+msgid "Jan Gonda"
+msgstr ""
+
+#. (itstool) path: seriesStmt/biblScope
+#: Source/Guidelines/en/HD-Header.xml:712
+msgid "1.2"
+msgstr ""
+
+#. (itstool) path: seriesStmt/idno
+#: Source/Guidelines/en/HD-Header.xml:713
+msgid "0 345 6789"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:707
+msgid "Examples: <_:egXML-1/> <_:specGrp-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:718
+msgid "The Notes Statement"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:721
+#: Source/Guidelines/en/HD-Header.xml:789
+msgid "note"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:722
+msgid "general notes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:719
+msgid "The <_:gi-1/> element is the sixth component of the <_:gi-2/> element and is optional. If used, it contains one or more <_:gi-3/> elements, each containing a single piece of descriptive information of the kind treated as <_:soCalled-4/> in traditional bibliographic descriptions. <_:specList-5/>"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:733
+msgid "Text types: newspaper editorials and reportage, science fiction, westerns, and detective stories"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:731
+msgid "the nature, scope, artistic form, or purpose of the file; also the genre or other intellectual category to which it may belong: e.g. <_:q-1/>. These should be formally described within the <_:gi-2/> element (section <_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:737
+#: Source/Guidelines/en/HD-Header.xml:2154
+msgid "abstract"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:737
+msgid "an abstract or summary of the content of a document which has been supplied by the encoder because no such abstract forms part of the content of the source. This should be supplied in the <_:gi-1/> element within the <_:gi-2/> element (section <_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:739
+msgid "Transcribes interviews on general topics with native speakers of English in 17 cities during the spring and summer of 1963."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:738
+msgid "summary description providing a factual, non-evaluative account of the subject content of the file: e.g. <_:q-1/> These should also be formally described within the <_:gi-2/> element (section <_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:745
+msgid "Transcribed from the Norton facsimile of the 1623 Folio"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:744
+msgid "bibliographic details relating to the source or sources of an electronic text: e.g. <_:q-1/>. These should be formally described in the <_:gi-2/> element (section <_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:749
+msgid "further information relating to publication, distribution, or release of the text, including sources from which the text may be obtained, any restrictions on its use or formal terms on its availability. These should be placed in the appropriate division of the <_:gi-1/> element (section <_:ptr-2/>)."
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:756
+msgid "ICPSR study number 1803"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:756
+msgid "Oxford Text Archive text number 1243"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:755
+msgid "publicly documented numbers associated with the file: e.g. <_:q-1/> or <_:q-2/>. These should be placed in an <_:gi-3/> element within the appropriate division of the <_:gi-4/> element. International Standard Serial Numbers (ISSN), International Standard Book Numbers (ISBN), and other internationally agreed upon standard numbers that uniquely identify an item, should be treated in the same way, rather than as specialized bibliographic notes."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:726
+msgid "Some information found in the notes area in conventional bibliography has been assigned specific elements in these Guidelines; in particular the following items should be tagged as indicated, rather than as general notes: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:769
+msgid "manual dated 1983"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:769
+msgid "Interview wave I: Apr. 1989; wave II: Jan. 1990"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:768
+msgid "dates, when they are relevant to the content or condition of the computer file: e.g. <_:q-1/>, <_:q-2/>"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:775
+msgid "Historical commentary provided by Mark Cohen"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:771
+msgid "names of persons or bodies connected with the technical production, administration, or consulting functions of the effort which produced the file, if these are not named in statements of responsibility in the title or edition statements of the file description: e.g. <_:q-1/>"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:778
+msgid "User manual is loose-leaf in eleven paginated sections"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:776
+msgid "availability of the file in an additional medium or information not already recorded about the availability of documentation: e.g. <_:q-1/>"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:779
+#: Source/Guidelines/en/HD-Header.xml:1981
+msgid "langUsage"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:780
+msgid "Text in English with summaries in French and German"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:779
+msgid "language of work and abstract, if not encoded in the <_:gi-1/> element, e.g. <_:q-2/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:782
+msgid "The unique name assigned to a serial by the International Serials Data System (ISDS), if not encoded in an <_:gi-1/>"
+msgstr ""
+
+#. (itstool) path: item/q
+#: Source/Guidelines/en/HD-Header.xml:786
+msgid "Texts used in <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:784
+msgid "lists of related publications, either describing the source itself, or concerned with the creation or use of the electronic work, e.g. <_:q-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:765
+msgid "Nevertheless, the <_:gi-1/> element may be used to record potentially significant details about the file and its features, e.g.: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: notesStmt/note
+#: Source/Guidelines/en/HD-Header.xml:793
+msgid "Historical commentary provided by Mark Cohen."
+msgstr ""
+
+#. (itstool) path: notesStmt/note
+#: Source/Guidelines/en/HD-Header.xml:794
+msgid "OCR scanning done at University of Toronto."
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:801
+msgid "…"
+msgstr ""
+
+#. (itstool) path: respStmt/persName
+#: Source/Guidelines/en/HD-Header.xml:803
+msgid "Mark Cohen"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:804
+msgid "historical commentary"
+msgstr ""
+
+#. (itstool) path: respStmt/orgName
+#: Source/Guidelines/en/HD-Header.xml:807
+msgid "University of Toronto"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:808
+msgid "OCR scanning"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:788
+msgid "Each such item of information may be tagged using the general-purpose <_:gi-1/> element, which is described in section <_:ptr-2/>. Groups of notes are contained within the <_:gi-3/> element, as in the following example: <_:egXML-4/> There are advantages, however, to encoding such information with more precise elements elsewhere in the TEI header, when such elements are available. For example, the notes above might be encoded as follows: <_:egXML-5/> <_:specGrp-6/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:816
+msgid "The Source Description"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:817
+msgid "The <_:gi-1/> element is the seventh and final component of the <_:gi-2/> element. It is a mandatory element and is used to record details of the source or sources from which a computer file is derived. This might be a printed text or manuscript, another computer file, an audio or video recording of some kind, or a combination of these. An electronic file may also have no source, if what is being catalogued is an original text created in electronic form. <_:specList-3/>"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: Source/Guidelines/en/HD-Header.xml:830
+msgid "Born digital."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:826
+msgid "The <_:gi-1/> element may contain little more than a simple prose description, or a brief note stating that the document has no source: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:832
+msgid "Alternatively, it may contain elements drawn from the following three classes: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: sourceDesc/bibl
+#: Source/Guidelines/en/HD-Header.xml:854
+msgid "The first folio of Shakespeare, prepared by Charlton Hinman (The Norton Facsimile, 1968)"
+msgstr ""
+
+#. (itstool) path: monogr/author
+#: Source/Guidelines/en/HD-Header.xml:861
+msgid "Eugène Sue"
+msgstr ""
+
+#. (itstool) path: monogr/title
+#: Source/Guidelines/en/HD-Header.xml:862
+msgid "Martin, l'enfant trouvé"
+msgstr ""
+
+#. (itstool) path: monogr/title
+#: Source/Guidelines/en/HD-Header.xml:863
+msgid "Mémoires d'un valet de chambre"
+msgstr ""
+
+#. (itstool) path: imprint/pubPlace
+#: Source/Guidelines/en/HD-Header.xml:865
+msgid "Bruxelles et Leipzig"
+msgstr ""
+
+#. (itstool) path: imprint/publisher
+#: Source/Guidelines/en/HD-Header.xml:866
+msgid "C. Muquardt"
+msgstr ""
+
+#. (itstool) path: imprint/date
+#: Source/Guidelines/en/HD-Header.xml:867
+msgid "1846"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:840
+msgid "These classes make available by default a range of ways of providing bibliographic citations which specify the provenance of the text. For written or printed sources, the source may be described in the same way as any other bibliographic citation, using one of the following elements: <_:specList-1/> These elements are described in more detail in section <_:ptr-2/>. Using them, a source might be described in very simple terms: <_:egXML-3/> or with more elaboration: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:875
+msgid "born digital"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:872
+msgid "When the header describes a text derived from some pre-existing TEI-conformant or other digital document, it may be simpler to use the following element, which is designed specifically for documents derived from texts which were <_:soCalled-1/>: <_:specList-2/> For further discussion see section <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:881
+msgid "When the module for manuscript description is included in a schema, this class also makes available the following element: <_:specList-1/> This element enables the encoder to record very detailed information about one or more manuscript or analogous sources, as further discussed in <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:889
+msgid "model.sourceDescPart"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:891
+msgid "spoken"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:889
+msgid "The <_:ident-1/> class also makes available additional elements when additional modules are included. For example, when the <_:ident-2/> module is included, the <_:gi-3/> element may also include the following special-purpose elements, intended for cases where an electronic text is derived from a spoken text rather than a written one: <_:specList-4/> Full descriptions of these elements and their contents are given in section <_:ptr-5/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:902
+msgid "listBibl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:902
+msgid "bibl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:903
+msgid "biblStruct"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:903
+msgid "msDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:900
+msgid "A single electronic text may be derived from multiple source documents, in whole or in part. The <_:gi-1/> may therefore contain a <_:gi-2/> element grouping together <_:gi-3/>, <_:gi-4/>, or <_:gi-5/> elements for each of the sources concerned. It is also possible to repeat the <_:gi-6/> element in such a case. The <_:att-7/> attribute described in section <_:ptr-8/> may be used to associate parts of the encoded text with the bibliographic element from which it derives in either case."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:913
+msgid "namesdates"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:914
+msgid "model.listLike"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:910
+msgid "The source description may also include lists of names, persons, places, etc. when these are considered to form part of the source for an encoded document. When such information is recorded using the specialized elements discussed in the <_:ident-1/> module (<_:ptr-2/>), the class <_:ident-3/> makes available the following elements to hold such information: <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:928
+msgid "Computer Files Derived from Other Computer Files"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/HD-Header.xml:939
+msgid "biblFull"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:937
+msgid "A's file description should be copied into the <_:gi-1/> section of B's file description, enclosed within a <_:gi-2/> element"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:941
+msgid "A's <_:gi-1/> should be copied into B's, in principle unchanged; it may however be expanded by project-specific information relating to B."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:945
+msgid "A's encoding practice may or (more likely) may not be the same as B's. Since the object of the encoding description is to define the relationship between the current file and its source, in principle only changes in encoding practice between A and B need be documented in B. The relationship between A and its source(s) is then only recoverable from the original header of A. In practice it may be more convenient to create a new complete <_:gi-1/> for B based on A's."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:954
+msgid "B is a new computer file, with a different source than A's source (namely, A). Thus it is unlikely that metadata from other schemes about A or its source can be copied wholesale to B, although there may be similarities."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:959
+msgid "B is a new computer file, and should therefore have a new revision description. If, however, it is felt useful to include some information from A's <_:gi-1/>, for example dates of major updates or versions, such information must be clearly marked as relating to A rather than to B."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:929
+msgid "If a computer file (call it B) is derived not from a printed source but from another computer file (call it A) which includes a TEI header, then the source text of computer file B is another computer file, A. The five sections of A's file header will need to be incorporated into the new header for B in slightly differing ways, as listed below: <_:list-1/> This concludes the discussion of the <_:gi-2/> element and its contents."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:970
+msgid "The Encoding Description"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:982
+msgid "model.encodingDescPart"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:971
+msgid "The <_:gi-1/> element is the second major subdivision of the TEI header. It specifies the methods and editorial principles which governed the transcription or encoding of the text in hand and may also include sets of coded definitions used by other components of the header. Though not formally required, its use is highly recommended. <_:specList-2/> The encoding description may contain any combination of paragraphs of text, marked up using the <_:gi-3/> element, along with more specialized elements taken from the <_:ident-4/> class. By default, this class makes available the following elements: <_:specList-5/>Each of these elements is further described in the appropriate section below. Other modules have the ability to extend this class; examples are noted in section <_:ptr-6/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1011
+msgid "The Project Description"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1012
+msgid "The <_:gi-1/> element may be used to describe, in prose, the purpose for which a digital resource was created, together with any other relevant information concerning the process by which it was assembled or collected. This is of particular importance for corpora or miscellaneous collections, but may be of use for any text, for example to explain why one kind of encoding practice has been followed rather than another. <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: projectDesc/p
+#: Source/Guidelines/en/HD-Header.xml:1025
+msgid "Texts collected for use in the Claremont Shakespeare Clinic, June 1990."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1022
+#: Source/Guidelines/en/HD-Header.xml:1517
+msgid "For example: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1033
+msgid "The Sampling Declaration"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1034
+msgid "samplingDecl"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1042
+msgid "the size of individual samples"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1043
+msgid "the method or methods by which they were selected"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1044
+msgid "the underlying population being sampled"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1045
+msgid "the object of the sampling procedure used"
+msgstr ""
+
+#. (itstool) path: samplingDecl/p
+#: Source/Guidelines/en/HD-Header.xml:1051
+msgid "Samples of 2000 words taken from the beginning of the text."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1034
+msgid "The <_:gi-1/> element may be used to describe, in prose, the rationale and methods used in selecting texts, or parts of text, for inclusion in the resource. <_:specList-2/> It should include information about such matters as <_:list-3/> but is not restricted to these. <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: samplingDecl/p
+#: Source/Guidelines/en/HD-Header.xml:1056
+msgid "Text of stories only has been transcribed. Pull quotes, captions, and advertisements have been silently omitted. Any mathematical expressions requiring symbols not present in the ISOnum or ISOpub entity sets have been omitted, and their place marked with a GAP element."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1053
+msgid "It may also include a simple description of any parts of the source text included or excluded. <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1062
+msgid "A sampling declaration which applies to more than one text or division of a text need not be repeated in the header of each such text. Instead, the <_:att-1/> attribute of each text (or subdivision of the text) to which the sampling declaration applies may be used to supply a cross-reference to it, as further described in section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1073
+msgid "The Editorial Practices Declaration"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1074
+msgid "editorialDecl"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1080
+msgid "model.editorialDeclPart"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1074
+msgid "The <_:gi-1/> element is used to provide details of the editorial practices applied during the encoding of a text. <_:specList-2/>It may contain a prose description only, or one or more of a set of specialized elements, members of the TEI <_:ident-3/> class. Where an encoder wishes to record an editorial policy not specified above, this may be done by adding a new element to this class, using the mechanisms discussed in chapter <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1089
+msgid "correction"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1094
+msgid "Was the text corrected during or after data capture? If so, were corrections made silently or are they marked using the tags described in section <_:ptr-1/>? What principles have been adopted with respect to omissions, truncations, dubious corrections, alternate readings, false starts, repetitions, etc.?"
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1101
+msgid "normalization"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1111
+msgid "value"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1106
+msgid "Was the text normalized, for example by regularizing any non-standard spellings, dialect forms, etc.? If so, were normalizations performed silently or are they marked using the tags described in section <_:ptr-1/>? What authority was used for the regularization? Also, what principles were used when normalizing numbers to provide the standard values for the <_:att-2/> attribute described in section <_:ptr-3/> and what format used for them?"
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1114
+msgid "punctuation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1119
+msgid "pc"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1119
+msgid "Are punctuation marks present in the original source retained? Are they identified with the element <_:gi-1/>, or implied by markup? If retained, how are they placed with respect to related elements? For example, do commas and periods appear inside or outside elements marking phrases and sentences?"
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1120
+msgid "quotation"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1125
+msgid "How were quotation marks processed? Are apostrophes and quotation marks distinguished? How? Are quotation marks retained as content in the text or replaced by markup? Are there any special conventions regarding for example the use of single or double quotation marks when nested? Is the file consistent in its practice or has this not been checked? See section <_:ptr-1/> for discussion of ways in which quotation marks may be encoded."
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1133
+msgid "hyphenation"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:1139
+msgid "soft"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:1140
+msgid "hard"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1138
+msgid "Does the encoding distinguish <_:soCalled-1/> and <_:soCalled-2/> hyphens? What principle has been adopted with respect to end-of-line hyphenation where source lineation has not been retained? Have soft hyphens been silently removed, and if so what is the effect on lineation and pagination? See section <_:ptr-3/> for discussion of ways in which hyphenation may be encoded."
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1147
+msgid "segmentation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1154
+#: Source/Guidelines/en/HD-Header.xml:1194
+msgid "s"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1154
+msgid "seg"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1152
+msgid "How is the text segmented? If <_:gi-1/> or <_:gi-2/> segmentation units have been used to divide up the text for analysis, how are they marked and how was the segmentation arrived at?"
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1157
+msgid "stdVals"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1163
+#: Source/Guidelines/en/HD-Header.xml:2330
+#: Source/Guidelines/en/HD-Header.xml:2512
+msgid "when"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1163
+#: Source/Guidelines/en/HD-Header.xml:2724
+msgid "when-iso"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1162
+msgid "In most cases, attributes bearing standardized values (such as the <_:att-1/> or <_:att-2/> attribute on dates) should conform to a defined W3C or ISO datatype. In cases where this is not appropriate, this element may be used to describe the standardization methods underlying the values supplied."
+msgstr ""
+
+#. (itstool) path: label/gi
+#: Source/Guidelines/en/HD-Header.xml:1175
+msgid "interpretation"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:1181
+msgid "interpretive"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1185
+#: Source/Guidelines/en/HD-Header.xml:1878
+msgid "fsdDecl"
+msgstr ""
+
+#. (itstool) path: item/p
+#: Source/Guidelines/en/HD-Header.xml:1180
+msgid "Has any analytic or <_:soCalled-1/> information been provided—that is, information which is felt to be non-obvious, or potentially contentious? If so, how was it generated? How was it encoded? If feature-structure analysis has been used, are <_:gi-2/> elements (section <_:ptr-3/>) present?"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1083
+msgid "Some of these policy elements carry attributes to support automated processing of certain well-defined editorial decisions; all of them contain a prose description of the editorial principles adopted with respect to the particular feature concerned. Examples of the kinds of questions which these descriptions are intended to answer are given in the list below.<_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1196
+msgid "div"
+msgstr ""
+
+#. (itstool) path: segmentation/p
+#: Source/Guidelines/en/HD-Header.xml:1194
+msgid "<_:gi-1/> elements mark orthographic sentences and are numbered sequentially within their parent <_:gi-2/> element"
+msgstr ""
+
+#. (itstool) path: interpretation/p
+#: Source/Guidelines/en/HD-Header.xml:1199
+msgid "The part of speech analysis applied throughout section 4 was added by hand and has not been checked."
+msgstr ""
+
+#. (itstool) path: correction/p
+#: Source/Guidelines/en/HD-Header.xml:1203
+msgid "Errors in transcription controlled by using the WordPerfect spelling checker."
+msgstr ""
+
+#. (itstool) path: normalization/p
+#: Source/Guidelines/en/HD-Header.xml:1207
+msgid "All words converted to Modern American spelling following Websters 9th Collegiate dictionary."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1212
+msgid "odq"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1213
+msgid "cdq"
+msgstr ""
+
+#. (itstool) path: quotation/p
+#: Source/Guidelines/en/HD-Header.xml:1211
+msgid "All opening quotation marks represented by entity reference <_:ident-1/>; all closing quotation marks represented by entity reference <_:ident-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1187
+msgid "Any information about the editorial principles applied not falling under one of the above headings should be recorded in a distinct list of items. Experience shows that a full record should be kept of decisions relating to editorial principles and encoding practice, both for future users of the text and for the project which produced the text in the first instance. Some simple examples follow: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1220
+msgid "An editorial practices declaration which applies to more than one text or division of a text need not be repeated in the header of each such text. Instead, the <_:att-1/> attribute of each text (or subdivision of the text) to which it applies may be used to supply a cross-reference to it, as further described in section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1228
+msgid "The Tagging Declaration"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1233
+msgid "the namespace to which elements appearing within the transcribed text belong."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1235
+msgid "how often particular elements appear within the text, so that a recipient can validate the integrity of a text during interchange."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1237
+msgid "any comment relating to the usage of particular elements not specified elsewhere in the header."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1239
+msgid "a default rendition applicable to all instances of an element."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1229
+msgid "The <_:gi-1/> element is used to record the following information about the tagging used within a particular document: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1241
+msgid "This information is conveyed by the following elements: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1247
+msgid "The <_:gi-1/> element is descriptive, rather than prescriptive: if used, it simply documents practice in the TEI document containing it. The elements constituting a TEI customization file (discussed in chapter <_:ptr-2/>) by contrast document expected practice in a number of documents, and may thus be used prescriptively. If there is an inconsistency between the actual state of a document and what is documented by its <_:gi-3/>, then the latter should be corrected. If there is an inconsistency between a document and what is required by the customization file, or a schema derived from it, then it will usually be the document that requires correction."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#. (itstool) path: item/att
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1254
+#: Source/Guidelines/en/HD-Header.xml:1264
+#: Source/Guidelines/en/HD-Header.xml:1276
+#: Source/Guidelines/en/HD-Header.xml:1277
+#: Source/Guidelines/en/HD-Header.xml:1284
+#: Source/Guidelines/en/HD-Header.xml:1293
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:1317
+#: Source/Guidelines/en/HD-Header.xml:1340
+#: Source/Guidelines/en/HD-Header.xml:1444
+msgid "rendition"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1256
+#: Source/Guidelines/en/HD-Header.xml:1260
+#: Source/Guidelines/en/HD-Header.xml:1396
+msgid "namespace"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1257
+#: Source/Guidelines/en/HD-Header.xml:1259
+#: Source/Guidelines/en/HD-Header.xml:1397
+#: Source/Guidelines/en/HD-Header.xml:1404
+#: Source/Guidelines/en/HD-Header.xml:1424
+#: Source/Guidelines/en/HD-Header.xml:1428
+msgid "tagUsage"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1253
+msgid "The <_:gi-1/> element consists of an optional sequence of <_:gi-2/> elements, each of which must bear a unique identifier, followed by an optional sequence of one or more <_:gi-3/> elements, each of which contains a series of <_:gi-4/> elements, up to one for each element type from that namespace occurring within the associated <_:gi-5/> element. Note that these <_:gi-6/> elements must be nested within a <_:gi-7/> element, and cannot appear directly within the <_:gi-8/> element."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1263
+msgid "Rendition"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1268
+msgid "using an informal prose description"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1269
+msgid "using a standard stylesheet language such as CSS or XSL-FO"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1271
+msgid "using a project-defined formal language"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1264
+msgid "The <_:gi-1/> element allows the encoder to specify how one or more elements are rendered in the original source in any of the following ways: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: item/att
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1276
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:1445
+msgid "selector"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1276
+msgid "the <_:att-1/> attribute on any <_:gi-2/> element may be used to select a collection of elements to which it applies"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1277
+msgid "the global <_:att-1/> attribute may be used on any element to indicate its rendition, overriding or complementing any supplied default value"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1281
+msgid "rend"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1281
+#: Source/Guidelines/en/HD-Header.xml:1446
+#: Source/Guidelines/en/HD-Header.xml:1465
+msgid "style"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1273
+msgid "One or more such specifications may be associated with elements of a document in two ways: <_:list-1/> The global <_:att-2/> and <_:att-3/> attributes may also be used to describe the rendering of an element. See further <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1290
+#: Source/Guidelines/en/HD-Header.xml:1450
+#: Source/Guidelines/en/HD-Header.xml:1467
+msgid "styleDefDecl"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1293
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:1453
+#: Source/Guidelines/en/HD-Header.xml:2053
+#: Source/Guidelines/en/HD-Header.xml:2074
+#: Source/Guidelines/en/HD-Header.xml:2094
+#: Source/Guidelines/en/HD-Header.xml:2097
+#: Source/Guidelines/en/HD-Header.xml:2109
+#: Source/Guidelines/en/HD-Header.xml:2128
+msgid "scheme"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1284
+msgid "The content of a <_:gi-1/> element may describe the appearance of the source material using prose, a project-defined formal language, or any standard languages such as the Cascading Stylesheet Language (<_:ptr-2/>) or the XML vocabulary for specifying formatting semantics which forms a part of the W3C's Extensible Stylesheet Language (<_:ptr-3/>). A <_:gi-4/> element (<_:ptr-5/>) may be supplied within the <_:gi-6/> to specify which of these applies by default, and it may be overridden for one or more specific <_:gi-7/> elements using the <_:att-8/> attribute."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:2154
+msgid "front"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1296
+#: Source/Guidelines/en/HD-Header.xml:1788
+msgid "body"
+msgstr ""
+
+#. (itstool) path: egXML/rendition
+#: Source/Guidelines/en/HD-Header.xml:1298
+msgid "font-size: 110%; margin-top: 0.5em; margin-bottom: 0.5em;"
+msgstr ""
+
+#. (itstool) path: egXML/rendition
+#: Source/Guidelines/en/HD-Header.xml:1305
+msgid "font-size: 100%; margin-top: 0; margin-bottom: 0;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1296
+msgid "The recommended way to indicate a default rendition on one or more elements is to use the <_:att-1/> attribute together with the <_:att-2/> attribute on <_:gi-3/>. For example, suppose that all paragraphs in the <_:gi-4/> of a text appear in a large font, with significant top and bottom margins, while paragraphs in the main <_:gi-5/> are in regular font size and have no top and bottom margins. The use of <_:att-6/> together with <_:att-7/> provides an efficient way to specify the distinct styling for distinct contexts of the paragraph by means of CSS selectors: <_:egXML-8/> <_:egXML-9/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1313
+msgid "In the following extended example we consider how to capture the appearance of a typical early 20th century titlepage, such as that in the following figure: <_:figure-1/> Elements for the encoding of the information on a titlepage are presented in <_:ptr-2/>; here we consider how we might go about encoding some of the visual information as well, using the <_:gi-3/> element and its corresponding attributes."
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#center
+#: Source/Guidelines/en/HD-Header.xml:1329
+msgid "text-align: center;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#small
+#: Source/Guidelines/en/HD-Header.xml:1330
+msgid "font-size: small;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#large
+#: Source/Guidelines/en/HD-Header.xml:1331
+msgid "font-size: large;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#x-large
+#: Source/Guidelines/en/HD-Header.xml:1332
+msgid "font-size: x-large;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#xx-large
+#: Source/Guidelines/en/HD-Header.xml:1333
+msgid "font-size: xx-large"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#expanded
+#: Source/Guidelines/en/HD-Header.xml:1334
+msgid "letter-spacing: +3pt;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#x-space
+#: Source/Guidelines/en/HD-Header.xml:1335
+msgid "line-height: 150%;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#xx-space
+#: Source/Guidelines/en/HD-Header.xml:1336
+msgid "line-height: 200%;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: HD-Header.xml#red
+#: Source/Guidelines/en/HD-Header.xml:1337
+msgid "color: red;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1319
+msgid "First we define a rendition element for each aspect of the source page rendition that we wish to retain. Details of CSS are given in <_:ptr-1/>; we use it here simply to provide a vocabulary with which to describe such aspects as font size and style, letter and line spacing, colour, etc. Note that the purpose of this encoding is to describe the original, rather than specify how it should be reproduced, although the two are obviously closely linked. <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: titlePart/hi
+#: Source/Guidelines/en/HD-Header.xml:1347
+msgid "THE POEMS"
+msgstr ""
+
+#. (itstool) path: titlePart/hi
+#: Source/Guidelines/en/HD-Header.xml:1348
+msgid "OF"
+msgstr ""
+
+#. (itstool) path: titlePart/hi
+#: Source/Guidelines/en/HD-Header.xml:1349
+msgid "ALGERNON CHARLES SWINBURNE"
+msgstr ""
+
+#. (itstool) path: titlePart/hi
+#: Source/Guidelines/en/HD-Header.xml:1350
+msgid "IN SIX VOLUMES"
+msgstr ""
+
+#. (itstool) path: titlePart/hi
+#: Source/Guidelines/en/HD-Header.xml:1353
+msgid "POEMS AND BALLADS"
+msgstr ""
+
+#. (itstool) path: titlePart/hi
+#: Source/Guidelines/en/HD-Header.xml:1354
+msgid "FIRST SERIES"
+msgstr ""
+
+#. (itstool) path: docTitle/titlePart
+#: Source/Guidelines/en/HD-Header.xml:1352
+msgid "<_:lb-1/> VOLUME I. <_:lb-2/><_:hi-3/> <_:lb-4/><_:hi-5/>"
+msgstr ""
+
+#. (itstool) path: docImprint/pubPlace
+#: Source/Guidelines/en/HD-Header.xml:1358
+msgid "LONDON"
+msgstr ""
+
+#. (itstool) path: docImprint/publisher
+#: Source/Guidelines/en/HD-Header.xml:1359
+msgid "CHATTO &amp; WINDUS"
+msgstr ""
+
+#. (itstool) path: docImprint/docDate
+#: Source/Guidelines/en/HD-Header.xml:1360
+msgid "1904"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1340
+msgid "The global <_:att-1/> attribute can now be used to specify on any element which of the above rendition features apply to it. For example, a title page might be encoded as follows: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1364
+msgid "scope"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:1367
+msgid "first-letter"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:1369
+msgid "before"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:1370
+msgid "after"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1364
+msgid "When CSS is used as the style definition language, the <_:att-1/> attribute may be used to specify CSS pseudo-elements. These pseudo-elements are used to specify styling applicable to only a portion of the given text. For example, the <_:code-2/> pseudo-element defines styling to be applied to the first letter in the targeted element, while the <_:code-3/> and <_:code-4/> pseudo-elements can be used often in conjunction with the \"content\" property to add additional characters which need to be added before or after the element content to make it more closely resemble the appearance of the source."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1374
+#: Source/Guidelines/en/HD-Header.xml:1385
+msgid "q"
+msgstr ""
+
+#. (itstool) path: egXML/rendition
+#. (itstool) id: HD-Header.xml#quoteBefore
+#: Source/Guidelines/en/HD-Header.xml:1379
+msgid "content: '“';"
+msgstr ""
+
+#. (itstool) path: egXML/rendition
+#. (itstool) id: HD-Header.xml#quoteAfter
+#: Source/Guidelines/en/HD-Header.xml:1381
+msgid "content: '”';"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:1384
+msgid "quoteBefore"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:1385
+msgid "quoteAfter"
+msgstr ""
+
+#. (itstool) path: egXML/q
+#: Source/Guidelines/en/HD-Header.xml:1389
+msgid "Four score and seven years ago..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1374
+msgid "For example, assuming that a text has been encoded using the <_:gi-1/> element to enclose passages in quotation marks, but the quotation marks themselves have been routinely omitted from the encoding, a set of renditions such as the following: <_:egXML-2/> might be used to predefine pseudo-elements <_:code-3/> and <_:code-4/>. Where a <_:gi-5/> element is actually rendered in the source with initial and final quotation marks, it may then be encoded as follows: <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1395
+msgid "Tag Usage"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/HD-Header.xml:1400
+msgid "In the case of a TEI corpus (<_:ptr-1/>), a <_:gi-2/> in a corpus header will describe tag usage across the whole corpus, while one in an individual text header will describe tag usage for the individual text concerned."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1406
+#: Source/Guidelines/en/HD-Header.xml:1428
+msgid "occurs"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1396
+msgid "As noted above, each <_:gi-1/> element, if present, should contain up to one occurrence of a <_:gi-2/> element for each element type from the given namespace that occurs within the outermost <_:gi-3/> element associated with the <_:gi-4/> in which it appears.<_:note-5/> The <_:gi-6/> element may be used to supply a count of the number of occurrences of this element within the text, which is given as the value of its <_:att-7/> attribute. It may also be used to hold any additional usage information, which is supplied as running prose within the element itself."
+msgstr ""
+
+#. (itstool) path: egXML/tagUsage
+#: Source/Guidelines/en/HD-Header.xml:1410
+msgid "Used only to mark English words italicised in the copy text."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1413
+msgid "hi"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1409
+msgid "For example: <_:egXML-1/> This indicates that the <_:gi-2/> element appears a total of 28 times in the <_:gi-3/> element in question, and that the encoder has used it to mark italicised English words only."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1416
+msgid "withId"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1418
+#: Source/Guidelines/en/HD-Header.xml:1674
+#: Source/Guidelines/en/HD-Header.xml:2256
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: egXML/tagUsage
+#: Source/Guidelines/en/HD-Header.xml:1419
+msgid "Marks page breaks in the York (1734) edition only"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1421
+msgid "pb"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1416
+msgid "The <_:att-1/> attribute may optionally be used to specify how many of the occurrences of the element in question bear a value for the global <_:att-2/> attribute, as in the following example: <_:egXML-3/> This indicates that the <_:gi-4/> element occurs 321 times, on each of which an identifier is provided."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1424
+msgid "The content of the <_:gi-1/> element is not susceptible of automatic processing. It should not therefore be used to hold information for which provision is already made by other components of the encoding description. A TEI-conformant document is not required to provide any <_:gi-2/> elements or <_:att-3/> attributes, but if it does, then the counts provided must correspond with the number of such elements present in the associated <_:gi-4/>. <_:specGrp-5/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1443
+msgid "The Default Style Definition Language Declaration"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1444
+msgid "The content of the <_:gi-1/> element, the value of its <_:att-2/> attribute, and the value of the <_:att-3/> attribute are expressed using one of a small number of formally defined style definition languages. For ease of processing, it is strongly recommended to use a single such language throughout an encoding project, although the TEI system permits a mixture."
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:1457
+msgid "free"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1457
+msgid "Informal free text description"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:1458
+msgid "css"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1458
+msgid "Cascading Stylesheet Language"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:1459
+msgid "xslfo"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1459
+msgid "Extensible Stylesheet Language Formatting Objects"
+msgstr ""
+
+#. (itstool) path: list/label
+#: Source/Guidelines/en/HD-Header.xml:1460
+msgid "other"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1460
+msgid "A user-defined formal description language"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1461
+msgid "schemeVersion"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1450
+msgid "The element <_:gi-1/>, a sibling of the <_:gi-2/> element, is used to supply the name of the default style definition language. The name is supplied as the value of the <_:att-3/> attribute and may take any of the following values: <_:list-4/>. The <_:att-5/> attribute may be used to supply the precise version of the style definition language used, and the content of this element, if any, may supply additional information."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1465
+msgid "When the <_:att-1/> attribute is used, its value must always be expressed using whichever default style definition language is in force. If more than one occurrence of the <_:gi-2/> is provided, there will be more than one default available, and the <_:att-3/> attribute must be used to select which is applicable in a given context, as discussed in section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1473
+msgid "The Reference System Declaration"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1474
+msgid "The <_:gi-1/> element is used to document the way in which any standard referencing scheme built into the encoding works. <_:specList-2/> It may contain either a series of prose paragraphs or the following specialized elements: <_:specList-3/> Note that not all possible referencing schemes are equally easily supported by current software systems. A choice must be made between the convenience of the encoder and the likely efficiency of the particular software applications envisaged, in this context as in many others. For a more detailed discussion of referencing systems supported by these Guidelines, see section <_:ptr-4/> below."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1496
+msgid "as a prose description"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1497
+msgid "as a series of pairs of regular expressions and XPaths"
+msgstr ""
+
+#. (itstool) path: item/term
+#. (itstool) path: p/soCalled
+#. (itstool) path: note/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1499
+#: Source/Guidelines/en/HD-Header.xml:1547
+#: Source/Guidelines/en/HD-Header.xml:1570
+#: Source/Guidelines/en/HD-Header.xml:1582
+#: Source/Guidelines/en/HD-Header.xml:1583
+#: Source/Guidelines/en/HD-Header.xml:1587
+msgid "milestone"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1498
+msgid "as a concatenation of sequentially organized <_:term-1/>s"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1493
+msgid "A referencing scheme may be described in one of three ways using this element: <_:list-1/> Each method is described in more detail below. Only one method can be used within a single <_:gi-2/> element."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1502
+msgid "More than one <_:gi-1/> element can be included in the header if more than one canonical reference scheme is to be used in the same document, but the current proposals do not check for mutual inconsistency."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1507
+msgid "Prose Method"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1508
+msgid "The referencing scheme may be specified within the <_:gi-1/> by a simple prose description. Such a description should indicate which elements carry identifying information, and whether this information is represented as attribute values or as content. Any special rules about how the information is to be interpreted when reading or generating a reference string should also be specified here. Such a prose description cannot be processed automatically, and this method of specifying the structure of a canonical reference system is therefore not recommended for automatic processing."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1521
+msgid "head"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1522
+#: Source/Guidelines/en/HD-Header.xml:1531
+msgid "div1"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1523
+#: Source/Guidelines/en/HD-Header.xml:1532
+msgid "div2"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1526
+msgid "lb"
+msgstr ""
+
+#. (itstool) path: refsDecl/p
+#: Source/Guidelines/en/HD-Header.xml:1519
+msgid "The <_:att-1/> attribute of each text in this corpus carries a unique identifying code for the whole text. The title of the text is held as the content of the first <_:gi-2/> element within each text. The <_:att-3/> attribute on each <_:gi-4/> and <_:gi-5/> contains the canonical reference for each such division, in the form 'XX.yyy', where XX is the book number in Roman numerals, and yyy the section number in arabic. Line breaks are marked by empty <_:gi-6/> elements, each of which includes the through line number in Casaubon's edition as the value of its <_:gi-7/> attribute."
+msgstr ""
+
+#. (itstool) path: refsDecl/p
+#: Source/Guidelines/en/HD-Header.xml:1529
+msgid "The through line number and the text identifier uniquely identify any line. A canonical reference may be made up by concatenating the <_:gi-1/> values from the <_:gi-2/>, <_:gi-3/>, or <_:gi-4/> and calculating the line number within each part."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1536
+msgid "Search-and-Replace Method"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1537
+msgid "This method often requires a significant investment of effort initially, but permits extremely flexible addressing. For details, see section <_:ptr-1/>. <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1546
+msgid "Milestone Method"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1547
+msgid "This method is appropriate when only <_:soCalled-1/> tags (see section <_:ptr-2/>) are available to provide the required referencing information. It does not provide any abilities which cannot be mimicked by the search-and-replace referencing method discussed in the previous section, but in the cases where it applies, it provides a somewhat simpler notation."
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1555
+#: Source/Guidelines/en/HD-Header.xml:1558
+#: Source/Guidelines/en/HD-Header.xml:1585
+msgid "refState"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1553
+msgid "A reference based on milestone tags concatenates the values specified by one or more such tags. Since each tag marks the point at which a value changes, it may be regarded as specifying the <_:term-1/> of a variable. A reference declaration using this method therefore specifies the individual components of the canonical reference as a sequence of <_:gi-2/> elements: <_:specList-3/>"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1563
+#: Source/Guidelines/en/HD-Header.xml:1573
+msgid "Matthew 12:34"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1564
+msgid "book"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1565
+msgid "Matthew"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1565
+msgid "chapter"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1566
+msgid "12"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1566
+#: Source/Guidelines/en/HD-Header.xml:1881
+msgid "verse"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1567
+msgid "34"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#. (itstool) path: note/soCalled
+#: Source/Guidelines/en/HD-Header.xml:1569
+#: Source/Guidelines/en/HD-Header.xml:1571
+msgid "variables"
+msgstr ""
+
+#. (itstool) path: note/att
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1572
+#: Source/Guidelines/en/HD-Header.xml:1584
+msgid "ed"
+msgstr ""
+
+#. (itstool) path: note/att
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1572
+#: Source/Guidelines/en/HD-Header.xml:1584
+msgid "unit"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/HD-Header.xml:1569
+msgid "On the <_:gi-1/> tag itself, what are here referred to as <_:soCalled-2/> are identified by the combination of the <_:att-3/> and <_:att-4/> attributes."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1563
+msgid "For example, the reference <_:q-1/> might be thought of as representing the state of three variables: the <_:ident-2/> variable is in state <_:q-3/>; the <_:ident-4/> variable is in state <_:q-5/>, and the <_:ident-6/> variable is in state <_:q-7/>. If milestone tagging has been used, there should be a tag marking the point in the text at which each of the above <_:soCalled-8/> changes its state.<_:note-9/> To find <_:q-10/> therefore an application must scan left to right through the text, monitoring changes in the state of each of these three variables as it does so. When all three are simultaneously in the required state, the desired point will have been reached. There may of course be several such points."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1578
+msgid "delim"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1578
+msgid "length"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1578
+msgid "The <_:att-1/> and <_:att-2/> attributes are used to specify components of a canonical reference using this method in exactly the same way as for the stepwise method described in the preceding section. The other attributes are used to determine which instances of <_:gi-3/> tags in the text are to be checked for state-changes. A state-change is signalled whenever a new <_:gi-4/> tag is found with <_:att-5/> and, optionally, <_:att-6/> attributes identical to those of the <_:gi-7/> element in question. The value for the new state may be given explicitly by the <_:att-8/> attribute on the <_:gi-9/> element, or it may be implied, if the <_:att-10/> attribute is not specified."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:1589
+msgid "xx.yyy"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:1590
+msgid "xx"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:1591
+msgid "yyy"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1589
+msgid "For example, for canonical references in the form <_:mentioned-1/> where the <_:mentioned-2/> represents the page number in the first edition, and <_:mentioned-3/> the line number within this page, a reference system declaration such as the following would be appropriate: <_:egXML-4/> This implies that milestone tags of the form <_:egXML-5/> will be found throughout the text, marking the positions at which page and line numbers change. Note that no value has been specified for the <_:att-6/> attribute on the second milestone tag above; this implies that its value at each state change is monotonically increased. For more detail on the use of milestone tags, see section <_:ptr-7/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1608
+msgid "The milestone referencing scheme, though conceptually simple, is not supported by a generic XML parser. Its use places a correspondingly greater burden of verification and accuracy on the encoder."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1624
+msgid "A reference system declaration which applies to more than one text or division of a text need not be repeated in the header of each such text. Instead, the <_:att-1/> attribute of each text (or subdivision of the text) to which the declaration applies may be used to supply a cross-reference to it, as further described in section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1631
+msgid "The Classification Declaration"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1632
+#: Source/Guidelines/en/HD-Header.xml:2099
+msgid "classDecl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1635
+#: Source/Guidelines/en/HD-Header.xml:1645
+#: Source/Guidelines/en/HD-Header.xml:1657
+#: Source/Guidelines/en/HD-Header.xml:2073
+#: Source/Guidelines/en/HD-Header.xml:2075
+#: Source/Guidelines/en/HD-Header.xml:2098
+msgid "taxonomy"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: Source/Guidelines/en/HD-Header.xml:1653
+msgid "Dewey Decimal Classification"
+msgstr ""
+
+#. (itstool) path: bibl/edition
+#: Source/Guidelines/en/HD-Header.xml:1654
+msgid "Abridged Edition 12"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1660
+#: Source/Guidelines/en/HD-Header.xml:1671
+#: Source/Guidelines/en/HD-Header.xml:1673
+#: Source/Guidelines/en/HD-Header.xml:1747
+#: Source/Guidelines/en/HD-Header.xml:2117
+#: Source/Guidelines/en/HD-Header.xml:2119
+msgid "category"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1662
+#: Source/Guidelines/en/HD-Header.xml:1668
+#: Source/Guidelines/en/HD-Header.xml:1748
+msgid "catDesc"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1663
+msgid "model.catDescPart"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1664
+msgid "textDesc"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:1666
+msgid "situational parameters"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1632
+msgid "The <_:gi-1/> element is used to group together definitions or sources for any descriptive classification schemes used by other parts of the header or elsewhere in the document. Each such scheme is represented by a <_:gi-2/> element, which may contain either a simple bibliographic citation, or a definition of the descriptive typology concerned; the following elements are used in defining a descriptive classification scheme: <_:specList-3/> The <_:gi-4/> element has two slightly different, but related, functions. For well-recognized and documented public classification schemes, such as Dewey or other published descriptive thesauri, it contains simply a bibliographic citation indicating where a full description of a particular taxonomy may be found. <_:egXML-5/> For less easily accessible schemes, the <_:gi-6/> element contains a description of the taxonomy itself as well as an optional bibliographic citation. The description consists of a number of <_:gi-7/> elements, each defining a single category within the given typology. The category is defined by the contents of a nested <_:gi-8/> element, which may contain either a phrase describing the category, or any number of elements from the <_:ident-9/> class. When the corpus module is included in a schema, this class provides the <_:gi-10/> element whose components allow the definition of a text type in terms of a set of <_:soCalled-11/> (see further section <_:ptr-12/>; if the corpus module is not included in a schema, this class is empty and the <_:gi-13/> element may contain only plain text."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1675
+#: Source/Guidelines/en/HD-Header.xml:1693
+#: Source/Guidelines/en/HD-Header.xml:1742
+#: Source/Guidelines/en/HD-Header.xml:2116
+#: Source/Guidelines/en/HD-Header.xml:2122
+#: Source/Guidelines/en/HD-Header.xml:2126
+#: Source/Guidelines/en/HD-Header.xml:2138
+#: Source/Guidelines/en/HD-Header.xml:2139
+#: Source/Guidelines/en/HD-Header.xml:2142
+msgid "catRef"
+msgstr ""
+
+#. (itstool) path: taxonomy/bibl
+#: Source/Guidelines/en/HD-Header.xml:1677
+msgid "Brown Corpus"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1679
+#: Source/Guidelines/en/HD-Header.xml:1744
+msgid "Press Reportage"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1680
+#: Source/Guidelines/en/HD-Header.xml:1743
+msgid "Daily"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1681
+msgid "Sunday"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1682
+#: Source/Guidelines/en/HD-Header.xml:1743
+msgid "National"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1683
+msgid "Provincial"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:1684
+#: Source/Guidelines/en/HD-Header.xml:1744
+msgid "Political"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1685
+msgid "Sports"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1687
+msgid "Religion"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1688
+msgid "Books"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1689
+msgid "Periodicals and tracts"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1670
+msgid "If the category is subdivided, each subdivision is represented by a nested <_:gi-1/> element, having the same structure. Categories may be nested to an arbitrary depth in order to reflect the hierarchical structure of the taxonomy. Each <_:gi-2/> element bears a unique <_:att-3/> attribute, which is used as the target for <_:gi-4/> elements referring to it. <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1694
+#: Source/Guidelines/en/HD-Header.xml:2014
+msgid "textClass"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1695
+msgid "ana"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1700
+msgid "Poetry"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1702
+msgid "Sonnet"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1704
+msgid "Shakespearean Sonnet"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1707
+msgid "Petrarchan Sonnet"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1711
+msgid "Metrical Categories"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1713
+msgid "Metrical Feet"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1715
+msgid "Iambic"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1718
+msgid "trochaic"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1722
+msgid "Number of feet"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1724
+msgid "&gt;Pentameter"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1727
+msgid "&gt;Tetrameter"
+msgstr ""
+
+#. (itstool) path: lg/l
+#: Source/Guidelines/en/HD-Header.xml:1735
+msgid "Shall I compare thee to a summer's day"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1692
+msgid "Linkage between a particular text and a category within such a taxonomy is made by means of the <_:gi-1/> element within the <_:gi-2/> element, as described in section <_:ptr-3/>. Where finer-grained analysis is desired, the <_:att-4/> attribute on an element in the text could point to a category, as in the following abbreviated example: <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1740
+msgid "Where the taxonomy permits of classification along more than one dimension, more than one category will be referenced by a particular <_:gi-1/>, as in the following example, which identifies a text with the sub-categories <_:q-2/>, <_:q-3/>, and <_:q-4/> within the category <_:q-5/> as defined above. <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1752
+msgid "literatura piękna"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1753
+msgid "fiction"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1755
+msgid "proza"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1756
+msgid "prose"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1759
+msgid "poezja"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1760
+msgid "poetry"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1763
+msgid "dramat"
+msgstr ""
+
+#. (itstool) path: category/catDesc
+#: Source/Guidelines/en/HD-Header.xml:1764
+msgid "drama"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1747
+msgid "A single <_:gi-1/> may contain more than one <_:gi-2/> child, when for example the category is described in more than one language, as in the following example: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1773
+msgid "The Geographic Coordinates Declaration"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1774
+msgid "The following element is provided to indicate (within the header of a document, or in an external location) that a particular coordinate notation, or a particular datum, has been employed in a text. The default notation is a string containing two real numbers separated by whitespace, of which the first indicates latitude and the second longitude according to the 1984 World Geodetic System (WGS84). <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1787
+msgid "The Schema Specification"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1788
+#: Source/Guidelines/en/HD-Header.xml:1790
+#: Source/Guidelines/en/HD-Header.xml:1791
+#: Source/Guidelines/en/HD-Header.xml:1793
+msgid "schemaSpec"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1788
+msgid "The <_:gi-1/> element contains a schema specification. When this element appears inside <_:gi-2/>, it allows embedding of a TEI ODD customization file inside a TEI header; alternatively, this element may be used in the <_:gi-3/> of an ODD document. The use of ODD files, and their relationship to schemas, is described in detail in <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1790
+msgid "A <_:gi-1/> element contains all the information needed to generate schemas for a particular TEI customization, and the ODD documentation elements, by reference to the TEI, are more succinct than the schemas derived from them. Therefore you may find it convenient to make a copy of the <_:gi-2/> from your project's ODD document inside the <_:gi-3/> itself, in addition to supplying an external schema and/or ODD file; if the XML file becomes separated from its schema, the schema can be regenerated at any time using the information in the <_:gi-4/> element. For example: <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1806
+#: Source/Guidelines/en/HD-Header.xml:1806
+msgid "schemaRef"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1813
+msgid "url"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1813
+msgid "prefixDef"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1806
+msgid "Alternatively, it is possible to point to an external ODD customization file or schema through use of the <_:gi-1/> element. More than one <_:gi-2/> element may be provided for different sources, stages in a workflow, or formats. <_:egXML-3/> The <_:att-4/> attribute may be any form of URI pointer including a private URI syntax documented by a <_:gi-5/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1818
+msgid "The Application Information Element"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1823
+msgid "to allow an application to discover that it has previously opened or edited a file, and what version of itself was used to do that;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1827
+msgid "to show (through a date) which application last edited the file to allow for diagnosis of any problems that might have been caused by that application;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1831
+msgid "to allow users to discover information about an application used to edit the file"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:1833
+msgid "to allow the application to declare an interest in elements of the file which it has edited, so that other applications or human editors may be more wary of making changes to those sections of the file."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1819
+msgid "It is sometimes convenient to store information relating to the processing of an encoded resource within its header. Typical uses for such information might be: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1838
+msgid "model.applicationLike"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1839
+#: Source/Guidelines/en/HD-Header.xml:1844
+#: Source/Guidelines/en/HD-Header.xml:1852
+msgid "application"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1840
+msgid "appInfo"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1838
+msgid "The class <_:ident-1/> provides an element, <_:gi-2/>, which may be used to record such information within the <_:gi-3/> element.<_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1846
+#: Source/Guidelines/en/HD-Header.xml:2246
+msgid "att.datable"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:1848
+#: Source/Guidelines/en/HD-Header.xml:1996
+msgid "ident"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:1851
+msgid "ImageMarkupTool 1.5"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1844
+msgid "Each <_:gi-1/> element identifies the current state of one software application with regard to the current file. This element is a member of the <_:ident-2/> class, which provides a variety of attributes for associating this state with a date and time, or a temporal range. The <_:att-3/> and <_:att-4/> attributes should be used to uniquely identify the application and its major version number (for example, <_:val-5/>). It is not intended that an application should add a new <_:gi-6/> each time it touches the file."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#. (itstool) path: application/label
+#: Source/Guidelines/en/HD-Header.xml:1855
+#: Source/Guidelines/en/HD-Header.xml:1862
+msgid "Image Markup Tool"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1858
+msgid "ptr"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1854
+msgid "The following example shows how these elements might be used to document the fact that version 1.5 of an application called <_:soCalled-1/> has an interest in two parts of a document which was last saved on June 6 2006. The parts concerned are accessible at the URLs given as target for the two <_:gi-2/> elements. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1871
+msgid "Module-Specific Declarations"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1872
+msgid "The elements discussed so far are available to any schema. When the schema in use includes some of the more specialized TEI modules, these make available other more module-specific components of the encoding description. These are discussed fully in the documentation for the module in question, but are also noted briefly here for convenience."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1878
+msgid "iso-fs"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:1879
+msgid "feature system declaration"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/HD-Header.xml:1881
+msgid "feature structures"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1878
+msgid "The <_:gi-1/> element is available only when the <_:ident-2/> module is included in a schema. Its purpose is to document the <_:term-3/> (as defined in chapter <_:ptr-4/>) underlying any analytic <_:term-5/> (as defined in chapter <_:ptr-6/>) present in the text documented by this header."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1881
+msgid "metDecl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1884
+msgid "metSym"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1881
+msgid "The <_:gi-1/> element is available only when the <_:ident-2/> module is included in a schema. Its purpose is to document any metrical notation scheme used in the text, as further discussed in section <_:ptr-3/>. It consists either of a prose description or a series of <_:gi-4/> elements."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1885
+msgid "variantEncoding"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1886
+msgid "textcrit"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1885
+msgid "The <_:gi-1/> element is available only when the <_:ident-2/> module is included in a schema. Its purpose is to document the method used to encode textual variants in the text, as discussed in section <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1892
+msgid "The Profile Description"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1893
+msgid "The <_:gi-1/> element is the third major subdivision of the TEI header. It is an optional element, the purpose of which is to enable information characterizing various descriptive aspects of a text or a corpus to be recorded within a single unified framework. <_:specList-2/> In principle, almost any component of the header might be of importance as a means of characterizing a text. The author of a written text, its title or its date of publication, may all be regarded as characterizing it at least as strongly as any of the parameters discussed in this section. The rule of thumb applied has been to exclude from discussion here most of the information which generally forms part of a standard bibliographic style description, if only because such information has already been included elsewhere in the TEI header."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1911
+msgid "model.profileDescPart"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1910
+msgid "The <_:gi-1/> element contains elements taken from the <_:ident-2/> class. The default members of this class are the following : <_:specList-3/> These elements are further described in the remainder of this section."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1922
+msgid "corpus"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1922
+msgid "When the <_:ident-1/> module described in chapter <_:ptr-2/> is included in a schema, three further elements become available within the <_:gi-3/> element: <_:specList-4/> For descriptions of these elements, see section <_:ptr-5/>."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1932
+#: Source/Guidelines/en/HD-Header.xml:1947
+msgid "transcr"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1939
+msgid "handNotes"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1940
+#: Source/Guidelines/en/HD-Header.xml:1942
+#: Source/Guidelines/en/HD-Header.xml:1945
+msgid "handNote"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:1943
+#: Source/Guidelines/en/HD-Header.xml:1947
+msgid "msdescription"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1932
+msgid "When the <_:ident-1/> module for the transcription of primary sources described in chapter <_:ptr-2/> is included in a schema, the following elements become available within the <_:gi-3/> element: <_:specList-4/> For a description of the <_:gi-5/> element, see section <_:ptr-6/>. Its purpose is to group together a number of <_:gi-7/> elements, each of which describes a different hand or equivalent identified within a manuscript. The <_:gi-8/> element can also appear within a structured manuscript description, when the <_:ident-9/> module described in chapter <_:ptr-10/> is included in a schema. For this reason, the <_:gi-11/> element is actually declared within the header module, but is only accessible to a schema when one or other of the <_:ident-12/> or <_:ident-13/> modules is included in a schema. See further the discussion at <_:ptr-14/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1949
+msgid "listTranspose"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1949
+msgid "The <_:gi-1/> element is discussed in detail in section <_:ptr-2/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1960
+msgid "Creation"
+msgstr ""
+
+#. (itstool) path: creation/date
+#: Source/Guidelines/en/HD-Header.xml:1972
+msgid "August 1992"
+msgstr ""
+
+#. (itstool) path: creation/rs
+#: Source/Guidelines/en/HD-Header.xml:1973
+msgid "Taos, New Mexico"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1961
+msgid "The <_:gi-1/> element contains phrases describing the origin of the text, e.g. the date and place of its composition. <_:specList-2/> The date and place of composition are often of particular importance for studies of linguistic variation; since such information cannot be inferred with confidence from the bibliographic description of the copy text, the <_:gi-3/> element may be used to provide a consistent location for this information: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:1980
+msgid "Language Usage"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1984
+#: Source/Guidelines/en/HD-Header.xml:1995
+msgid "language"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:1989
+msgid "charDecl"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1981
+msgid "The <_:gi-1/> element is used within the <_:gi-2/> element to describe the languages, sublanguages, registers, dialects, etc. represented within a text. It contains one or more <_:gi-3/> elements, each of which provides information about a single language, notably the quantity of that language present in the text. Note that this element should <_:emph-4/> be used to supply information about any non-standard characters or glyphs used by this language; such information should be recorded in the <_:gi-5/> element in the encoding description (see further <_:ptr-6/>). <_:specList-7/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:1995
+msgid "A <_:gi-1/> element may be supplied for each different language used in a document. If used, its <_:att-2/> attribute should specify an appropriate language identifier, as further discussed in section <_:ptr-3/>. This is particularly important if extended language identifiers have been used as the value of <_:att-4/> attributes elsewhere in the document."
+msgstr ""
+
+#. (itstool) path: langUsage/language
+#: Source/Guidelines/en/HD-Header.xml:2004
+msgid "Québecois"
+msgstr ""
+
+#. (itstool) path: langUsage/language
+#: Source/Guidelines/en/HD-Header.xml:2005
+msgid "Canadian business English"
+msgstr ""
+
+#. (itstool) path: langUsage/language
+#: Source/Guidelines/en/HD-Header.xml:2006
+msgid "British English"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2002
+msgid "Here is an example of the use of this element: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2012
+msgid "The Text Classification"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2013
+msgid "The <_:gi-1/> element is used to classify a text in some way. <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2022
+msgid "by reference to a recognized international classification such as the Dewey Decimal Classification, the Universal Decimal Classification, the Colon Classification, the Library of Congress Classification, or any other system widely used in library and documentation work"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2026
+msgid "by providing a set of keywords, as provided for example by British Library or Library of Congress Cataloguing in Publication data"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2028
+msgid "by referencing any other taxonomy of text categories recognized in the field concerned, or peculiar to the material in hand; this may include one based on recurring sets of values for the situational parameters defined in section <_:ptr-1/>, or the demographic elements described in section <_:ptr-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2018
+msgid "Text classification may be carried out according to one or more of the following methods: <_:list-1/> The last of these may be particularly important for dealing with existing corpora or collections, both as a means of avoiding the expense or inconvenience of reclassification and as a means of documenting the organizing principles of such materials."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2037
+msgid "The following elements are provided for this purpose: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2043
+#: Source/Guidelines/en/HD-Header.xml:2112
+msgid "keywords"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2043
+msgid "The <_:gi-1/> element simply categorizes an individual text by supplying a list of keywords which may describe its topic or subject matter, its form, date, etc. In some schemes, the order of items in the list is significant, for example, from major topic to minor; in others, the list has an organized substructure of its own. No recommendations are made here as to which method is to be preferred. Wherever possible, such keywords should be taken from a recognized source, such as the British Library/Library of Congress Cataloguing in Publication data in the case of printed books, or a published thesaurus appropriate to the field."
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2060
+msgid "Babbage, Charles"
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2061
+msgid "Mathematicians - Great Britain - Biography"
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2065
+msgid "English literature -- History and criticism -- Data processing."
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2066
+msgid "English literature -- History and criticism -- Theory, etc."
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2067
+msgid "English language -- Style -- Data processing."
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2068
+msgid "Style, Literary -- Data processing."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2053
+msgid "The <_:att-1/> attribute is used to indicate the source of the keywords used, in the case where such a source exists. If the keywords are taken from an externally defined authority which is available online, this attribute should point directly to it, as in the following examples: <_:egXML-2/> <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2078
+msgid "ceremonials"
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2079
+msgid "fairs"
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2080
+msgid "street life"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: Source/Guidelines/en/HD-Header.xml:2085
+msgid "Notes on London Municipal Literature, and a Suggested Scheme for Its Classification"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: Source/Guidelines/en/HD-Header.xml:2087
+msgid "Charles Welch"
+msgstr ""
+
+#. (itstool) path: bibl/edition
+#: Source/Guidelines/en/HD-Header.xml:2088
+msgid "1895"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2071
+msgid "If the authority file is not available online, but is generally recognized and commonly cited, a bibliographic description for it should be supplied within the <_:gi-1/> element described in section <_:ptr-2/>; the <_:att-3/> attribute may then reference that <_:gi-4/> element by means of its identifier in the usual way: <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2093
+msgid "If no authority file exists, perhaps because the keywords used were assigned directly by an author, the <_:att-1/> attribute should be omitted."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2096
+msgid "Alternatively, if the keyword vocabulary itself is locally defined, the <_:att-1/> attribute will point to the local definition, which will typically be held in a <_:gi-2/> element within the <_:gi-3/> part of the encoding description (see section <_:ptr-4/>)."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2105
+#: Source/Guidelines/en/HD-Header.xml:2142
+msgid "classCode"
+msgstr ""
+
+#. (itstool) path: egXML/classCode
+#: Source/Guidelines/en/HD-Header.xml:2113
+msgid "005.756"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2105
+msgid "The <_:gi-1/> element also categorizes an individual text, by supplying a numerical or other code rather than descriptive terms. Such codes constitute a recognized classification scheme, such as the Dewey Decimal Classification. On this element, the <_:att-2/> attribute is required; it indicates the source of the classification scheme in the same way as for keywords: this may be a pointer of any kind, either to a TEI element, possibly in the current document, as in the <_:gi-3/> examples above, or to some canonical source for the scheme, as in the following example: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:2118
+msgid "att.pointing"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2116
+msgid "The <_:gi-1/> element categorizes an individual text by pointing to one or more <_:gi-2/> elements using the <_:att-3/> attribute, which it inherits from the <_:ident-4/> class. The <_:gi-5/> element (which is fully described in section <_:ptr-6/>) holds information about a particular classification or category within a given taxonomy. Each such category must have a unique identifier, which may be supplied as the value of the <_:att-7/> attribute for <_:gi-8/> elements which are regarded as falling within the category indicated."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2124
+msgid "A text may, of course, fall into more than one category, in which case more than one identifier may be supplied as the value for the <_:att-1/> attribute on the <_:gi-2/> element, as in the following example: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:2134
+msgid "b.a4"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:2135
+msgid "b.d2"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/HD-Header.xml:2136
+msgid "http://www.example.com/browncorpus"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/HD-Header.xml:2137
+msgid "A45"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2128
+msgid "The <_:att-1/> attribute may be supplied to specify the taxonomy to which the categories identified by the target attribute belong, if this is not adequately conveyed by the resource pointed to. For example, <_:egXML-2/> Here the same text has been classified as of categories <_:val-3/> and <_:val-4/> within the Brown classification scheme (presumed to be available from <_:ident-5/>), and as of category <_:q-6/> within the SUC classification scheme documented at the URL given."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2138
+msgid "In general, it is a matter of style whether to use a single <_:gi-1/> with multiple identifiers in the value of <_:att-2/> or multiple <_:gi-3/> elements, each with a single identifier in the value of <_:att-4/>. However, note that maintenance of a TEI document with a large number of values within a single <_:att-5/> can be cumbersome."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2142
+msgid "The distinction between the <_:gi-1/> and <_:gi-2/> elements is that the values used as identifying codes are exhaustively enumerated for the former, typically within the TEI header. In the latter case, however, the values use any externally-defined scheme, and therefore may be taken from a more open-ended descriptive classification system."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2153
+msgid "Abstracts"
+msgstr ""
+
+#. (itstool) path: abstract/p
+#: Source/Guidelines/en/HD-Header.xml:2157
+msgid "This paper is a draft studying various aspects of using the TEI as a reference serialization framework for LMF. Comments are welcome to bring this to a useful document for the community."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2154
+msgid "The main purpose of the <_:gi-1/> element is to supply a brief resume or abstract for an article which was originally published without such a component. An abstract or summary forming part of the document at its creation should usually appear in the front matter (<_:gi-2/>) of the document. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: p/foreign
+#: Source/Guidelines/en/HD-Header.xml:2181
+#: Source/Guidelines/en/HD-Header.xml:2201
+msgid "landnám"
+msgstr ""
+
+#. (itstool) path: abstract/p
+#: Source/Guidelines/en/HD-Header.xml:2168
+msgid "The recent archaeological emphasis on the study of settlement patterns, landscape and palaeoenvironments has shaped and re-shaped our understanding of the Viking settlement of Iceland. This paper reviews the developments in Icelandic archaeology, examining both theoretical and practical advances. Particular attention is paid to new ideas in terms of settlement patterns and resource exploitation. Finally, some of the key studies of the ecological consequences of the Norse <_:foreign-1/> are presented."
+msgstr ""
+
+#. (itstool) path: abstract/p
+#: Source/Guidelines/en/HD-Header.xml:2184
+msgid "L’accent récent des recherches archéologiques sur l’étude des configurations spatiales des colonies, de la géographie des sites ainsi que des éléments paléo-environnementaux nous mène à réexaminer et réévaluer nos connaissances acquises sur la colonisation de l’Islande par les Vikings. Cet article passe en revue le développement de l’archéologie islandaise en examinant les progrès théoriques et pratiques en la matière. Une attention particulière est portée sur l’étude des configurations spatiales des colonies ainsi qu’une considération des questions d’exploitation des ressources. Finalement, l’article présente un aperçu des études principales qui traitent des conséquences écologiques du <_:foreign-1/> islandais."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2165
+msgid "Abstracts may be provided in multiple languages, distinguished by the <_:att-1/> attribute: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2211
+msgid "An annual HBC supply ship is set to the North West Coast for mid-September."
+msgstr ""
+
+#. (itstool) path: item/name
+#: Source/Guidelines/en/HD-Header.xml:2213
+#: Source/Guidelines/en/HD-Header.xml:2227
+msgid "Pelly"
+msgstr ""
+
+#. (itstool) path: item/name
+#: Source/Guidelines/en/HD-Header.xml:2217
+msgid "Vancouver Island"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2213
+msgid "<_:name-1/> writes to ascertain the British Government's plans for the lands associated with the Oregon Treaty; he wants to know what will happen to the HBC's establishment on the southern <_:name-2/>. He adds that a former Crown grant, an 1838 exclusive trade-grant for the lands in question, has yet to expire."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2221
+msgid "The minutes discuss the nature of the HBC's original entitlements and question whether or not, and in what capacity, the Oregon Treaty affects the HBC's position. The majority council further investigation, and to reply cautiously and judiciously to the HBC inquiry."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2226
+msgid "A summary of a meeting with <_:name-1/> is offered in order to elucidate the HBC's intentions."
+msgstr ""
+
+#. (itstool) path: item/name
+#: Source/Guidelines/en/HD-Header.xml:2229
+msgid "Lord Grey"
+msgstr ""
+
+#. (itstool) path: item/name
+#: Source/Guidelines/en/HD-Header.xml:2231
+msgid "Stephen"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2229
+msgid "<_:name-1/> calls for greater consideration on the issue of colonization; he asks that <_:name-2/> write the Company, asking them to detail their intentions, and to state their legal opinion for entitlement."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2207
+msgid "The same element may be used to provide other summary information supplied by the encoder, perhaps grouped together into a list of discrete items: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2242
+msgid "Calendar Description"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2243
+msgid "calendarDesc"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2245
+#: Source/Guidelines/en/HD-Header.xml:2250
+#: Source/Guidelines/en/HD-Header.xml:2273
+msgid "calendar"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:2246
+msgid "datingMethod"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2243
+msgid "The <_:gi-1/> element is used within the <_:gi-2/> element to document objects referenced by means of either the <_:att-3/> attribute on <_:gi-4/> or the <_:att-5/> attribute on any member of the <_:ident-6/> class. <_:specList-7/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2250
+msgid "This element may contain one or more <_:gi-1/> elements: <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: calendar/p
+#: Source/Guidelines/en/HD-Header.xml:2259
+msgid "Gregorian calendar"
+msgstr ""
+
+#. (itstool) path: calendar/p
+#: Source/Guidelines/en/HD-Header.xml:2260
+msgid "Fictional Stardate (from Star Trek series)"
+msgstr ""
+
+#. (itstool) path: calendar/p
+#: Source/Guidelines/en/HD-Header.xml:2261
+msgid "Calendar years before present (measured from 1950)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2254
+msgid "Each such element contains one or more paragraphs of description for the calendar system concerned, and also supplies an identifying code for it as the value of its <_:att-1/> attribute. <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/date
+#: Source/Guidelines/en/HD-Header.xml:2269
+msgid "stardate 23.9 rounded off to the nearest decimal point"
+msgstr ""
+
+#. (itstool) path: egXML/p
+#: Source/Guidelines/en/HD-Header.xml:2269
+msgid "Captain's log <_:date-1/>..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2265
+msgid "This identifying code may then be referenced from any element supplying a date expressed using that calendar system: <_:egXML-1/> See <_:ptr-2/> for details of the usage of dating attributes in conjunction with <_:gi-3/> elements in the <_:gi-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2279
+msgid "Correspondence Description"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2280
+#: Source/Guidelines/en/HD-Header.xml:2291
+#: Source/Guidelines/en/HD-Header.xml:2381
+#: Source/Guidelines/en/HD-Header.xml:2383
+msgid "correspDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2280
+msgid "The <_:gi-1/> element is used within the <_:gi-2/> element to provide detailed correspondence-specific metadata, concerning in particular the communicative aspects (sending, receiving, forwarding etc.) associated with an act of correspondence."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2284
+msgid "This information is complementary to the detailed descriptions of physical objects (such as letters) associated with correspondence acts, which are typically provided by the <_:gi-1/> element. <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2291
+#: Source/Guidelines/en/HD-Header.xml:2316
+#: Source/Guidelines/en/HD-Header.xml:2335
+msgid "correspAction"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2292
+#: Source/Guidelines/en/HD-Header.xml:2299
+msgid "correspContext"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2291
+msgid "The <_:gi-1/> element contains the elements <_:gi-2/> and <_:gi-3/>, describing the actions identified and the context in which the correspondence occurs respectively. <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: ref/persName
+#: Source/Guidelines/en/HD-Header.xml:2303
+#: Source/Guidelines/en/HD-Header.xml:2305
+msgid "Chamisso"
+msgstr ""
+
+#. (itstool) path: ref/persName
+#: Source/Guidelines/en/HD-Header.xml:2303
+#: Source/Guidelines/en/HD-Header.xml:2305
+msgid "de La Foye"
+msgstr ""
+
+#. (itstool) path: ref/date
+#: Source/Guidelines/en/HD-Header.xml:2304
+msgid "16 January 1807"
+msgstr ""
+
+#. (itstool) path: correspContext/ref
+#: Source/Guidelines/en/HD-Header.xml:2303
+msgid "Previous letter of <_:persName-1/> to <_:persName-2/>: <_:date-3/>"
+msgstr ""
+
+#. (itstool) path: ref/date
+#: Source/Guidelines/en/HD-Header.xml:2306
+msgid "07 May 1810"
+msgstr ""
+
+#. (itstool) path: correspContext/ref
+#: Source/Guidelines/en/HD-Header.xml:2305
+msgid "Next letter of <_:persName-1/> to <_:persName-2/>: <_:date-3/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2298
+msgid "Acts of correspondence typically do not occur in isolation from each other. The <_:gi-1/> element is used to group references relevant to the item of correspondence being described, typically to other items such as the item to which it is a reply, or the item which replies to it: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2313
+msgid "Many types of correspondence actions may be distinguished. The <_:att-1/> attribute should be used to indicate the type of action being documented, using values such as those suggested above."
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2320
+msgid "Adelbert von Chamisso"
+msgstr ""
+
+#. (itstool) path: correspAction/placeName
+#: Source/Guidelines/en/HD-Header.xml:2321
+msgid "Vertus"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2325
+msgid "Louis de La Foye"
+msgstr ""
+
+#. (itstool) path: correspAction/placeName
+#: Source/Guidelines/en/HD-Header.xml:2326
+msgid "Caen"
+msgstr ""
+
+#. (itstool) path: correspAction/date
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/HD-Header.xml:2327
+#: Source/Guidelines/en/HD-Header.xml:2627
+msgid "unknown"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2316
+msgid "The following simple example uses <_:gi-1/> to describe the sending of a letter by Adelbert von Chamisso from Vertus on 29 January 1807 to Louis de La Foye at Caen. The date of reception is unknown: <_:egXML-2/> Note the use of the <_:att-3/> attribute described in <_:ptr-4/> to provide a normalized form of the date. The content of the <_:gi-5/> element may be omitted, since no underlying source is being transcribed."
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2339
+msgid "Hermann Hesse"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2340
+msgid "Ninon Hesse"
+msgstr ""
+
+#. (itstool) path: correspAction/placeName
+#: Source/Guidelines/en/HD-Header.xml:2341
+msgid "Montagnola"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2334
+msgid "Several senders, recipients, etc. can be specified for a single <_:gi-1/> if the action is considered to apply to them all acting as a single group. In the following example, two people are considered to have received the piece of correspondence. <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:2345
+msgid "subtype"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/HD-Header.xml:2347
+msgid "carbon copy"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:2347
+#: Source/Guidelines/en/HD-Header.xml:2463
+msgid "cc"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2349
+msgid "PN0001"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2353
+msgid "PN0002"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2356
+msgid "PN0003"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2359
+msgid "PN0004"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2345
+msgid "The <_:att-1/> attribute may be used to further distinguish types of action. In the following example, an e-mail is sent to two people directly and to a third by <_:soCalled-2/> (<_:term-3/>). <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:2366
+msgid "sameAs"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2363
+msgid "The same person may be associated with several actions. For example, it will often be the case that the author and sender of a message are identical, and that many individual letters will need to be associated with the same person. The <_:att-1/> attribute defined in section <_:ptr-2/> may be used to indicate that the same name applies to many actions. Its value will usually be the identifier of an element defining the person or name concerned, which is supplied elsewhere in the document. <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2387
+msgid "John Gneisenau Neihardt"
+msgstr ""
+
+#. (itstool) path: correspAction/placeName
+#: Source/Guidelines/en/HD-Header.xml:2388
+#: Source/Guidelines/en/HD-Header.xml:2399
+msgid "Branson (Montgomery)"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#. (itstool) id: HD-Header.xml#JTH
+#: Source/Guidelines/en/HD-Header.xml:2392
+msgid "Julius Temple House"
+msgstr ""
+
+#. (itstool) path: correspAction/placeName
+#. (itstool) path: imprint/pubPlace
+#: Source/Guidelines/en/HD-Header.xml:2393
+#: Source/Guidelines/en/HD-Header.xml:2404
+#: Source/Guidelines/en/HD-Header.xml:2680
+msgid "New York"
+msgstr ""
+
+#. (itstool) path: correspAction/persName
+#: Source/Guidelines/en/HD-Header.xml:2398
+msgid "Enid Neihardt"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2376
+msgid "It is assumed that each correspondence action applies to a single act of communication. However, it may be the case that the same physical object is involved in several such acts, if for example person A sends a letter to person B, who then annotates it and sends it on to person C, or if persons A and B both use the same document to convey quite different messages. In such situations, multiple <_:gi-1/> elements should be supplied, one for each communication. In the following example, the same document contains distinct messages, sent by two different people to the same destination: <_:gi-2/> is used for each separately: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2421
+msgid "Non-TEI Metadata"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2422
+msgid "Projects often maintain metadata about their TEI documents in more than one form or system. For example, a project may have a database of bibliographic information on the set of documents they intend to encode. From this database, both a MARC record and a <_:gi-1/> are generated. The document is then encoded, during which process additional information is added to the <_:gi-2/> manually. Then, when the document is published on the web, a Dublin Core record is generated for discoverability of the resource. It is sometimes advantageous to store some or all of the non-TEI metadata in the TEI file."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2432
+msgid "Such non-TEI data may be placed anywhere within a TEI file (other than as the root element), as it does not affect TEI conformance. However, it is easier for humans to manage these kinds of data if they are grouped together in a single location. In addition, such grouping makes it easy to avoid accidentally flagging non-TEI data as errors during validation of the file against a TEI schema. The <_:gi-1/> element, which may appear in the TEI Header after the <_:gi-2/> but before the optional <_:gi-3/>, is provided for this purpose. <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/HD-Header.xml:2446
+msgid "As is always the case when mixing elements from different namespaces in an XML document, the namespace of these non-TEI elements must be declared either on the elements themselves or on an ancestor element."
+msgstr ""
+
+#. (itstool) path: note/soCalled
+#: Source/Guidelines/en/HD-Header.xml:2452
+msgid "escaped"
+msgstr ""
+
+#. (itstool) path: note/q
+#: Source/Guidelines/en/HD-Header.xml:2453
+msgid "&lt;"
+msgstr ""
+
+#. (itstool) path: note/q
+#: Source/Guidelines/en/HD-Header.xml:2454
+msgid "&amp;"
+msgstr ""
+
+#. (itstool) path: note/code
+#: Source/Guidelines/en/HD-Header.xml:2455
+msgid "&amp;lt;"
+msgstr ""
+
+#. (itstool) path: note/code
+#: Source/Guidelines/en/HD-Header.xml:2455
+msgid "&amp;amp;"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/HD-Header.xml:2450
+msgid "As is always the case when using text inside an XML document, certain characters cannot occur in their normal form, and must be <_:soCalled-1/>. The most common of these are LESS-THAN SIGN (<_:q-2/>, U+003C) and AMPERSAND (<_:q-3/>, U+0026), which may be escaped with <_:code-4/> and <_:code-5/> respectively. See <_:ptr-6/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2444
+msgid "The <_:gi-1/> element may contain anything except TEI elements. It may contain one or more elements from outside the TEI<_:note-2/> or data in some non-XML text format.<_:note-3/>"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:2461
+msgid "rdf"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:2461
+msgid "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:2462
+msgid "dc"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:2462
+msgid "http://purl.org/dc/elements/1.1/"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/HD-Header.xml:2463
+msgid "http://web.resource.org/cc/"
+msgstr ""
+
+#. (itstool) path: Work/title
+#: Source/Guidelines/en/HD-Header.xml:2467
+msgid "Applied Software Project Management - review"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2460
+msgid "In the following example, the prefix <_:code-1/> is bound to the namespace <_:code-2/>, the prefix <_:code-3/> is bound to the namespace <_:code-4/>, and the prefix <_:code-5/> is bound to the namespace <_:code-6/>. <_:egXML-7/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2483
+msgid "The Revision Description"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2484
+msgid "The final sub-element of the TEI header, the <_:gi-1/> element, provides a detailed change log in which each change made to a text may be recorded. Its use is optional but highly recommended. It provides essential information for the administration of large numbers of files which are being updated, corrected, or otherwise modified as well as extremely useful documentation for files being passed from researcher to researcher or system to system. Without change logs, it is easy to confuse different versions of a file, or to remain unaware of small but important changes made in the file by some earlier link in the chain of distribution. No significant change should be made in any TEI-conformant file without corresponding entries being made in the change log.<_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2501
+msgid "The main purpose of the revision description is to record changes in the text to which a header is prefixed. However, it is recommended TEI practice to include entries also for significant changes in the header itself (other than the revision description itself, of course). At the very least, an entry should be supplied indicating the date of creation of the header."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2508
+msgid "listChange"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2509
+msgid "list"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2511
+#: Source/Guidelines/en/HD-Header.xml:2513
+msgid "change"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/HD-Header.xml:2512
+#: Source/Guidelines/en/HD-Header.xml:2538
+msgid "who"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2507
+msgid "The log consists of a list of entries, one for each change. Changes may be grouped and organised using either the <_:gi-1/> element described in section <_:ptr-2/> or the simple <_:gi-3/> element described in section <_:ptr-4/>. Alternatively, a simple sequence of <_:gi-5/> elements may be given. The attributes <_:att-6/> and <_:att-7/> may be supplied for each <_:gi-8/> element to indicate its date and the person responsible for it respectively. The description of the change itself can range from a simple phrase to a series of paragraphs. If a number is to be associated with one or more changes (for example, a revision number), the global <_:att-9/> attribute may be used to indicate it."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2519
+msgid "It is recommended to give changes in reverse chronological order, most recent first."
+msgstr ""
+
+#. (itstool) path: change/val
+#: Source/Guidelines/en/HD-Header.xml:2525
+msgid "drama.verse"
+msgstr ""
+
+#. (itstool) path: change/gi
+#. (itstool) path: note/gi
+#: Source/Guidelines/en/HD-Header.xml:2526
+#: Source/Guidelines/en/HD-Header.xml:2527
+msgid "lg"
+msgstr ""
+
+#. (itstool) path: note/val
+#: Source/Guidelines/en/HD-Header.xml:2527
+msgid "drama.free.verse"
+msgstr ""
+
+#. (itstool) path: change/note
+#: Source/Guidelines/en/HD-Header.xml:2526
+msgid "we have opened a discussion about the need for a new value for <_:att-1/> of <_:gi-2/>, <_:val-3/>, in order to address the verse of Behn which is not in regular iambic pentameter. For the time being these instances are marked with a comment note until we are able to fully consider the best way to encode these instances."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: Source/Guidelines/en/HD-Header.xml:2525
+msgid "Changed <_:val-1/> <_:gi-2/>s to <_:gi-3/>s. <_:note-4/>"
+msgstr ""
+
+#. (itstool) path: change/att
+#: Source/Guidelines/en/HD-Header.xml:2532
+msgid "key"
+msgstr ""
+
+#. (itstool) path: change/att
+#: Source/Guidelines/en/HD-Header.xml:2532
+msgid "reg"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: Source/Guidelines/en/HD-Header.xml:2532
+msgid "Added <_:att-1/> and <_:att-2/> to <_:gi-3/>s."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: Source/Guidelines/en/HD-Header.xml:2534
+msgid "Completed renovation. Validated."
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:2543
+msgid "The Amorous Prince, or, the Curious Husband, 1671"
+msgstr ""
+
+#. (itstool) path: author/persName
+#: Source/Guidelines/en/HD-Header.xml:2544
+msgid "Behn, Aphra"
+msgstr ""
+
+#. (itstool) path: respStmt/persName
+#: Source/Guidelines/en/HD-Header.xml:2546
+msgid "Caton, Paul"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:2547
+msgid "electronic publication editor"
+msgstr ""
+
+#. (itstool) path: respStmt/persName
+#: Source/Guidelines/en/HD-Header.xml:2550
+msgid "Gui, Weihsin"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/HD-Header.xml:2551
+#: Source/Guidelines/en/HD-Header.xml:2555
+msgid "encoder"
+msgstr ""
+
+#. (itstool) path: respStmt/persName
+#: Source/Guidelines/en/HD-Header.xml:2554
+msgid "Wernimont, Jacqueline"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2564
+msgid "person"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2521
+msgid "For example: <_:egXML-1/> In the above example, the <_:att-2/> attributes point to <_:gi-3/> elements which have been included earlier in the <_:gi-4/> of the same header: <_:egXML-5/> There is however no requirement that the <_:gi-6/> be used for this person, or that the elements indicated be contained within the same document. A project might for example maintain a separate document listing all of its personnel in which they were represented using the <_:gi-7/> element described in <_:ptr-8/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2571
+msgid "Minimal and Recommended Headers"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2573
+msgid "The TEI header allows for the provision of a very large amount of information concerning the text itself, its source, its encodings, and revisions of it, as well as a wealth of descriptive information such as the languages it uses and the situation(s) in which it was produced, together with the setting and identity of participants within it. This diversity and richness reflects the diversity of uses to which it is envisaged that electronic texts conforming to these Guidelines will be put. It is emphatically <_:emph-1/> intended that all of the elements described above should be present in every TEI Header."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2584
+msgid "The amount of encoding in a header will depend both on the nature and the intended use of the text. At one extreme, an encoder may expect that the header will be needed only to provide a bibliographic identification of the text adequate to local needs. At the other, wishing to ensure that their texts can be used for the widest range of applications, encoders will want to document as explicitly as possible both bibliographic and descriptive information, in such a way that no prior or ancillary knowledge about the text is needed in order to process it. The header in such a case will be very full, approximating to the kind of documentation often supplied in the form of a manual. Most texts will lie somewhere between these extremes; textual corpora in particular will tend more to the latter extreme. In the remainder of this section we demonstrate first the minimal, and next a commonly recommended, level of encoding for the bibliographic information held by the TEI header."
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:2608
+msgid "Thomas Paine: Common sense, a machine-readable transcript"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/HD-Header.xml:2612
+#: Source/Guidelines/en/HD-Header.xml:2653
+msgid "Jon K Adams"
+msgstr ""
+
+#. (itstool) path: sourceDesc/bibl
+#: Source/Guidelines/en/HD-Header.xml:2619
+msgid "The complete writings of Thomas Paine, collected and edited by Phillip S. Foner (New York, Citadel Press, 1945)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2602
+msgid "Supplying only the minimal level of encoding required, the TEI header of a single text might look like the following example: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2623
+msgid "The only mandatory component of the TEI header is the <_:gi-1/> element. Within this, <_:gi-2/>, <_:gi-3/>, and <_:gi-4/> are all required constituents. Within the title statement, a title is required, and an author should be specified, even if it is <_:mentioned-5/>, as should some additional statement of responsibility, here given by the <_:gi-6/> element. Within the <_:gi-7/>, a publisher, distributor, or other agency responsible for the file must be specified. Finally, the source description should contain at the least a loosely structured bibliographic citation identifying the source of the electronic text if (as is usually the case) there is one."
+msgstr ""
+
+#. (itstool) path: p/ref
+#. (itstool) path: label/ref
+#: Source/Guidelines/en/HD-Header.xml:2637
+#: Source/Guidelines/en/HD-Header.xml:2803
+msgid "AACR2"
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: Source/Guidelines/en/HD-Header.xml:2649
+msgid "Common sense, a machine-readable transcript"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: Source/Guidelines/en/HD-Header.xml:2650
+msgid "Paine, Thomas (1737-1809)"
+msgstr ""
+
+#. (itstool) path: edition/date
+#: Source/Guidelines/en/HD-Header.xml:2658
+msgid "1986"
+msgstr ""
+
+#. (itstool) path: publicationStmt/distributor
+#: Source/Guidelines/en/HD-Header.xml:2662
+msgid "Oxford Text Archive."
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:2664
+msgid "Oxford University Computing Services,"
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:2665
+msgid "13 Banbury Road,"
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:2666
+msgid "Oxford OX2 6RB,"
+msgstr ""
+
+#. (itstool) path: address/addrLine
+#: Source/Guidelines/en/HD-Header.xml:2667
+msgid "UK"
+msgstr ""
+
+#. (itstool) path: notesStmt/note
+#: Source/Guidelines/en/HD-Header.xml:2671
+msgid "Brief notes on the text are in a supplementary file."
+msgstr ""
+
+#. (itstool) path: monogr/editor
+#: Source/Guidelines/en/HD-Header.xml:2677
+msgid "Foner, Philip S."
+msgstr ""
+
+#. (itstool) path: monogr/title
+#: Source/Guidelines/en/HD-Header.xml:2678
+msgid "The collected writings of Thomas Paine"
+msgstr ""
+
+#. (itstool) path: imprint/publisher
+#: Source/Guidelines/en/HD-Header.xml:2681
+msgid "Citadel Press"
+msgstr ""
+
+#. (itstool) path: imprint/date
+#: Source/Guidelines/en/HD-Header.xml:2682
+msgid "1945"
+msgstr ""
+
+#. (itstool) path: samplingDecl/p
+#: Source/Guidelines/en/HD-Header.xml:2690
+msgid "Editorial notes in the Foner edition have not been reproduced."
+msgstr ""
+
+#. (itstool) path: samplingDecl/p
+#: Source/Guidelines/en/HD-Header.xml:2692
+msgid "Blank lines and multiple blank spaces, including paragraph indents, have not been preserved."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2700
+msgid "p. 13 l. 7 cotemporaries contemporaries"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2701
+msgid "p. 28 l. 26 [comma] [period]"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2702
+msgid "p. 84 l. 4 kin kind"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2703
+msgid "p. 95 l. 1 stuggle struggle"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2704
+msgid "p. 101 l. 4 certainy certainty"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2705
+msgid "p. 167 l. 6 than that"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2706
+msgid "p. 209 l. 24 publshed published"
+msgstr ""
+
+#. (itstool) path: correction/p
+#: Source/Guidelines/en/HD-Header.xml:2697
+msgid "The following errors in the Foner edition have been corrected: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: normalization/p
+#: Source/Guidelines/en/HD-Header.xml:2711
+msgid "No normalization beyond that performed by Foner, if any."
+msgstr ""
+
+#. (itstool) path: quotation/p
+#: Source/Guidelines/en/HD-Header.xml:2715
+msgid "All double quotation marks rendered with \", all single quotation marks with apostrophe."
+msgstr ""
+
+#. (itstool) path: hyphenation/p
+#: Source/Guidelines/en/HD-Header.xml:2720
+msgid "Hyphenated words that appear at the end of the line in the Foner edition have been reformed."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/HD-Header.xml:2724
+msgid "time"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:2725
+msgid "HH:MM"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/HD-Header.xml:2726
+msgid "HH"
+msgstr ""
+
+#. (itstool) path: stdVals/p
+#: Source/Guidelines/en/HD-Header.xml:2724
+msgid "The values of <_:att-1/> on the <_:gi-2/> element always end in the format <_:val-3/> or <_:val-4/>; i.e., seconds, fractions thereof, and time zone designators are not present."
+msgstr ""
+
+#. (itstool) path: interpretation/p
+#: Source/Guidelines/en/HD-Header.xml:2730
+msgid "Compound proper names are marked."
+msgstr ""
+
+#. (itstool) path: interpretation/p
+#: Source/Guidelines/en/HD-Header.xml:2731
+msgid "Dates are marked."
+msgstr ""
+
+#. (itstool) path: interpretation/p
+#: Source/Guidelines/en/HD-Header.xml:2732
+msgid "Italics are recorded without interpretation."
+msgstr ""
+
+#. (itstool) path: taxonomy/bibl
+#: Source/Guidelines/en/HD-Header.xml:2737
+msgid "Library of Congress Subject Headings"
+msgstr ""
+
+#. (itstool) path: taxonomy/bibl
+#: Source/Guidelines/en/HD-Header.xml:2740
+msgid "Library of Congress Classification"
+msgstr ""
+
+#. (itstool) path: creation/date
+#: Source/Guidelines/en/HD-Header.xml:2746
+msgid "1774"
+msgstr ""
+
+#. (itstool) path: langUsage/language
+#: Source/Guidelines/en/HD-Header.xml:2749
+msgid "English."
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2753
+msgid "Political science"
+msgstr ""
+
+#. (itstool) path: keywords/term
+#: Source/Guidelines/en/HD-Header.xml:2754
+msgid "United States -- Politics and government — Revolution, 1775-1783"
+msgstr ""
+
+#. (itstool) path: textClass/classCode
+#: Source/Guidelines/en/HD-Header.xml:2757
+msgid "JC 177"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: Source/Guidelines/en/HD-Header.xml:2761
+#: Source/Guidelines/en/HD-Header.xml:2762
+msgid "finished proofreading"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: Source/Guidelines/en/HD-Header.xml:2763
+msgid "finished data entry at end of term"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: Source/Guidelines/en/HD-Header.xml:2764
+msgid "began data entry before New Year 1995"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2635
+msgid "We now present the same example header, expanded to include additionally recommended information, adequate to most bibliographic purposes, in particular to allow for the creation of an <_:ref-1/>-conformant bibliographic record. We have also added information about the encoding principles used in this (imaginary) encoding, about the text itself (in the form of Library of Congress subject headings), and about the revision of the file. <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2776
+msgid "Many other examples of recommended usage for the elements discussed in this chapter are provided here, in the reference index and in the associated tutorials."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2782
+msgid "Note for Library Cataloguers"
+msgstr ""
+
+#. (itstool) path: label/ref
+#: Source/Guidelines/en/HD-Header.xml:2794
+msgid "ISBD"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: Source/Guidelines/en/HD-Header.xml:2795
+msgid "ISBD: International Standard Bibliographic Description"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2795
+msgid "<_:bibl-1/> is an international standard setting out what information should be recorded in a description of a bibliographical item. Until a consolidated edition published in 2011, there was a general standard called ISBD(G) and separate ISBDs covering different types of material, e.g. ISBD(M) for monographs, ISBD(ER) for electronic resources. These separate ISBDs follow the same general scheme as the main ISBD(G), but provide appropriate interpretations for the specific materials under consideration."
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: Source/Guidelines/en/HD-Header.xml:2804
+msgid "Anglo-American Cataloguing Rules"
+msgstr ""
+
+#. (itstool) path: item/bibl
+#: Source/Guidelines/en/HD-Header.xml:2804
+msgid "<_:title-1/> (second edition)"
+msgstr ""
+
+#. (itstool) path: item/title
+#: Source/Guidelines/en/HD-Header.xml:2812
+msgid "Regeln für die alphabetische Katalogisierung in wissenschaftlichen Bibliotheken"
+msgstr ""
+
+#. (itstool) path: item/title
+#: Source/Guidelines/en/HD-Header.xml:2813
+msgid "Regole italiane di catalogazione per autore"
+msgstr ""
+
+#. (itstool) path: item/title
+#: Source/Guidelines/en/HD-Header.xml:2814
+msgid "Система стандартов по информации, библиотечному и издательскому делу. Библиографическая запись. Библиографическое описание. Общие требования и правила составления"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2804
+msgid "The <_:bibl-1/> were published in 1978, with revisions appearing periodically through 2005. AACR2 provides guidelines for the construction of catalogues in general libraries in the English-speaking world. AACR2 is explicitly based on the general framework of the ISBD(G) and the subsidiary ISBDs: it gives a description of how to describe bibliographic items and how to create access points such as subject or name headings and uniform titles. Other national cataloguing codes exist as well, including the Z44 series of standards from issued by the Association française de normalisation (AFNOR), <_:title-2/> (RAK-WB), <_:title-3/> (RICA), and <_:title-4/> (ГОСТ 7.1)."
+msgstr ""
+
+#. (itstool) path: label/ref
+#: Source/Guidelines/en/HD-Header.xml:2817
+msgid "ANSI Z39.29"
+msgstr ""
+
+#. (itstool) path: item/title
+#: Source/Guidelines/en/HD-Header.xml:2818
+msgid "American National Standard for Bibliographic References"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2818
+msgid "The <_:title-1/> was an American national standard governing bibliographic references for use in bibliographies, end-of-work lists, references in abstracting and indexing publications, and outputs from computerized bibliographic data bases. A revised version is maintained by the National Information Standards Organization (NISO). The related ISO standard is ISO 690. Other relevant national standards include BS 5605:1990, BS 6371:1983. DIN 1505-2, and ГОСТ 7.0.5."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2782
+msgid "A strong motivation in preparing the material in this chapter was to provide in the TEI header a viable chief source of information for cataloguing computer files. The TEI header is not a library catalogue record, and so will not make all of the distinctions essential in standard library work. It also includes much information generally excluded from standard bibliographic descriptions. It is the intention of the developers, however, to ensure that the information required for a catalogue record be retrievable from the TEI file header, and moreover that the mapping from the one to the other be as simple and straightforward as possible. Where the correspondence is not obvious, it may prove useful to consult one of the works which were influential in developing the content of the TEI header. These include:<_:list-1/>"
+msgstr ""
+
+#. (itstool) path: item/soCalled
+#: Source/Guidelines/en/HD-Header.xml:2834
+msgid "chief source of information"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2834
+msgid "The TEI Guidelines do not require that text be transcribed from the <_:soCalled-1/> using normalized capitalization and punctuation ."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2835
+msgid "The TEI title statement may not categorize constituent titles in the same way as prescribed by a national cataloguing code."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2837
+msgid "The TEI title statement contains authors, editors, and other responsible parties in separate elements, with names which may not have been normalized; it does not necessarily contain a single statement of responsibility ."
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:2843
+msgid "main entry"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/HD-Header.xml:2843
+msgid "added entries"
+msgstr ""
+
+#. (itstool) path: item/gloss
+#: Source/Guidelines/en/HD-Header.xml:2844
+msgid "name or title headings under which a catalogue record is filed"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2842
+msgid "There is no specific place in a TEI header to specify the <_:term-1/> or <_:term-2/> (<_:gloss-3/>) for the catalogue record."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/HD-Header.xml:2846
+msgid "The TEI header does not require use of a particular vocabulary for subject headings nor require the use of subject headings."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2826
+msgid "Since the TEI file description elements are based on the ISBD areas, it should be possible to use the content of file description as the basis for a catalog record for a TEI document. However, cataloguers should be aware that the permissive nature of the TEI Guidelines may lead to divergences between practice in using the TEI file description and the comparatively strict recommendations of AACR2 and other national cataloguing codes. Such divergences as the following may preclude automatic generation of catalogue records from TEI headers: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/HD-Header.xml:2852
+msgid "The TEI Header Module"
+msgstr ""
+
+#. (itstool) path: moduleSpec/altIdent
+#: Source/Guidelines/en/HD-Header.xml:2856
+msgid "Common Metadata"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/HD-Header.xml:2858
+msgid "En-tête TEI"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/HD-Header.xml:2859
+msgid "TEI標頭"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/HD-Header.xml:2860
+msgid "L'intestazione TEI (TEI Header)"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/HD-Header.xml:2861
+msgid "O cabeçalho TEI"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/HD-Header.xml:2862
+msgid "ヘダーモジュール"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/HD-Header.xml:2853
+msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>."
+msgstr ""
+

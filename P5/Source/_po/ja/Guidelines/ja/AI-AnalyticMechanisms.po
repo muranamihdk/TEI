@@ -1,0 +1,2539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:10
+msgid "Simple Analytic Mechanisms"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:14
+msgid "analysis"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:17
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:26
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:50
+msgid "clause"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:17
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:27
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:51
+msgid "morpheme"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:18
+msgid "part-of-speech"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:19
+msgid "theme"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: spanGrp/span
+#. (itstool) path: p/soCalled
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#RECONCIL
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:19
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:672
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:677
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:726
+msgid "reconciliation"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:12
+msgid "This chapter describes a module for associating simple analyses and interpretations with text elements. We use the term <_:term-1/> here to refer to any kind of semantic or syntactic interpretation which an encoder wishes to attach to all or part of a text. Examples discussed in this chapter include familiar linguistic categorizations (such as <_:q-2/>, <_:q-3/>, <_:q-4/> etc.) and characterizations of narrative structure (such as <_:q-5/>, <_:q-6/> etc.). The mechanisms presented in this chapter are simpler but less powerful than those described in chapter <_:ptr-7/>."
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:26
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:50
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:57
+msgid "sentence"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:26
+msgid "s-unit"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:27
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:50
+msgid "phrase"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:27
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:51
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:56
+msgid "word"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:28
+msgid "character"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:28
+msgid "punctuation mark"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:29
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:92
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:92
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:97
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:101
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:244
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:246
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:247
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:255
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:339
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:700
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:704
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:732
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:776
+msgid "seg"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:23
+msgid "Section <_:ptr-1/> introduces elements which can be used to characterize text segments according to the familiar linguistic categories of <_:term-2/> or <_:term-3/>, <_:term-4/>, <_:term-5/>, <_:term-6/>, <_:term-7/>, <_:term-8/>, and <_:term-9/>. These elements represent special cases of the generic <_:gi-10/> element described in section <_:ptr-11/>."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:33
+msgid "interpretative"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:33
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:508
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:519
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:522
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:523
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:541
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:564
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:593
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:596
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:686
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:769
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:771
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:777
+msgid "span"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:34
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:508
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:519
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:522
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:537
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:596
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:685
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:691
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:692
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:698
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:703
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:717
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:730
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:768
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:769
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:774
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:860
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:943
+msgid "interp"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:37
+msgid "attribute-value pairs"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:36
+msgid "Or, as they are widely known, <_:term-1/>; this term should not be confused, however, with XML attributes and their values, which are similar in concept but distinct in their formal definitions."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:30
+msgid "Section <_:ptr-1/> introduces an additional global attribute which allows passages of text to be associated with specialized elements representing their interpretation. These <_:soCalled-2/> elements (<_:gi-3/> and <_:gi-4/>) are described in detail in section <_:ptr-5/>. They allow the encoder to specify an analysis as a series of names and associated values,<_:note-6/> each such pair being linked to one or more stretches of text, either directly, in the case of spans, or indirectly, in the case of interpretations."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:42
+msgid "Finally section <_:ptr-1/> revisits the topic of linguistic analysis, and illustrates how these interpretative mechanisms may be used to associate simple linguistic analysis with text segments."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:46
+msgid "Linguistic Segment Categories"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:47
+msgid "linguistic segment category"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:52
+msgid "characters"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:52
+msgid "punctuation marks"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:47
+msgid "In this section we introduce specialized <_:term-1/> elements which may be used to represent the segmentation of a text into the traditional linguistic categories of <_:term-2/>, <_:term-3/>, <_:term-4/>, <_:term-5/>, <_:term-6/>, <_:term-7/>, and <_:term-8/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:54
+msgid "Words and Above"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:55
+msgid "Although different languages have very different rules about what constitutes a <_:soCalled-1/> or a <_:soCalled-2/>, these remain generally useful concepts. In this section we discuss elements provided for marking up linguistic units down to the word level, however defined. <_:specList-3/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:63
+msgid "att.segLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:66
+msgid "att.typed"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:63
+msgid "As members of the <_:ident-1/> class, these elements all share the following attribute: <_:specList-2/> They also share attributes from <_:ident-3/>: <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:69
+msgid "model.segLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:70
+msgid "model.phrase"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:69
+msgid "These elements are also all members of the <_:ident-1/> class, which is a subclass of <_:ident-2/>. They may thus appear anywhere that text is permitted within a document, when the module defined by this chapter is included in a schema."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/q
+#. (itstool) path: p/g
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:74
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:243
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:245
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:248
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:248
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:258
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:267
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:283
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:300
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:321
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:334
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:357
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:379
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:449
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1034
+msgid "w"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:74
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:249
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:250
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:251
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:393
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:397
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:422
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:449
+msgid "pc"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:74
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1015
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1041
+msgid "att.linguistic"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:74
+msgid "The <_:gi-1/> and <_:gi-2/> elements belong to the <_:ident-3/> class, which supplies attributes that may be used for lightweight linguistic annotation (see section <_:ptr-4/> below): <_:specList-5/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: note/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:78
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:91
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:96
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:97
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:100
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:104
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:110
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1056
+msgid "s"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:80
+msgid "s-units"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:80
+msgid "sentences"
+msgstr ""
+
+#. (itstool) path: p/s
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:82
+msgid "Nineteen fifty-four, when I was eighteen years old, is held to be a crucial turning point in the history of the Afro-American — for the U.S.A. as a whole — the year segregation was outlawed by the U.S. Supreme Court."
+msgstr ""
+
+#. (itstool) path: p/s
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:86
+msgid "It was also a crucial year for me because on June 18, 1954, I began serving a sentence in state prison for possession of marijuana."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:94
+msgid "model.inter"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:95
+msgid "bibl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:95
+msgid "list"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:98
+msgid "Neither this constraint, nor the requirement that the whole of the text be segmented by <_:gi-1/> elements is required by the TEI Guidelines."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:103
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:161
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:244
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:348
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:518
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1005
+msgid "type"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:104
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:111
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:163
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1057
+msgid "cl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:105
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:133
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:164
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1057
+msgid "phr"
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:105
+msgid "seg type=\"s-unit\""
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:106
+msgid "seg type=\"clause\""
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:107
+msgid "seg type=\"phrase\""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:78
+msgid "The <_:gi-1/> element may be used simply to segment a text end-to-end into a series of non-overlapping segments, referred to here and elsewhere as <_:term-2/>, or <_:term-3/>. <_:egXML-4/> The <_:gi-5/> element is more restricted both in its content and its usage than the generic <_:gi-6/> element. The <_:gi-7/> unit may contain anything which can appear within a paragraph: thus it may be used to enclose members of the <_:ident-8/> class (such as <_:gi-9/> or <_:gi-10/>) as well as other phrase elements; the <_:gi-11/> unit may only contain phrase-level elements or text. Also, unlike <_:gi-12/> elements, <_:gi-13/> elements should not be nested within each other.<_:note-14/> The <_:gi-15/> element is intended for use as a generic segmentation element, the specific function of which may be indicated by its <_:att-16/> attribute; the other members of the class are more specialized. Thus, the <_:gi-17/>, <_:gi-18/>, and <_:gi-19/> elements may be thought of as equivalent to <_:tag-20/>, <_:tag-21/> and <_:tag-22/>, respectively, but with the above-mentioned restrictions."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:111
+msgid "clauses"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:118
+msgid "that the plague was returned again to Holland;"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:116
+msgid "that I, among the rest of my neighbours, heard in ordinary discourse <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: s/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:115
+msgid "It was about the beginning of September, 1664, <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: s/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:119
+msgid "for it had been very violent there, and particularly at Amsterdam and Rotterdam, in the year 1663,"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:121
+msgid "they say,"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:122
+msgid "some said"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:123
+msgid "which were brought home by their Turkey fleet;"
+msgstr ""
+
+#. (itstool) path: s/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:121
+msgid "whither, <_:cl-1/> it was brought, <_:cl-2/> from Italy, others from the Levant, among some goods <_:cl-3/>"
+msgstr ""
+
+#. (itstool) path: s/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:124
+msgid "others said it was brought from Candia; others from Cyprus."
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:128
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:178
+msgid "from whence it came;"
+msgstr ""
+
+#. (itstool) path: s/cl
+#. (itstool) path: egXML/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:128
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:177
+msgid "It mattered not <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:129
+msgid "it was come into Holland again."
+msgstr ""
+
+#. (itstool) path: s/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:129
+msgid "but all agreed <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:110
+msgid "The <_:gi-1/> element may be further subdivided into <_:term-2/>, marked with the <_:gi-3/> element, as in the following example: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:133
+msgid "Clauses may be further divided into <_:gi-1/> elements in the same way. A text may be segmented directly into clauses, or into phrases, with no need to include segmentation at a higher level as well."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:141
+msgid "part"
+msgstr ""
+
+#. (itstool) path: l/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:143
+msgid "Tweedledum and Tweedledee"
+msgstr ""
+
+#. (itstool) path: l/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:144
+msgid "Agreed to have a battle;"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#. (itstool) id: AI-AnalyticMechanisms.xml#c4
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:145
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:156
+msgid "Tweedledee"
+msgstr ""
+
+#. (itstool) path: l/cl
+#. (itstool) id: AI-AnalyticMechanisms.xml#c3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:145
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:155
+msgid "For Tweedledum said <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#. (itstool) id: AI-AnalyticMechanisms.xml#c6
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:146
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:158
+msgid "Had spoiled his nice new rattle."
+msgstr ""
+
+#. (itstool) path: l/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:148
+msgid "Just then flew down a monstrous crow,"
+msgstr ""
+
+#. (itstool) path: l/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:149
+msgid "As black as a tar barrel;"
+msgstr ""
+
+#. (itstool) path: l/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:150
+msgid "Which frightened both the heroes so,"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:151
+msgid "They quite forgot their quarrel."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:153
+msgid "next"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:153
+msgid "prev"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:137
+msgid "For verse texts, the overlapping of metrical and syntactic structure requires that special care be given to representing both using an element hierarchy. One simple approach is to split the syntactic phrases into fragments when they cross verse boundaries, reuniting them with the <_:att-1/> attribute: <_:egXML-2/> Another approach is to use the <_:att-3/> and <_:att-4/> attributes defined in the additional module for linking (chapter <_:ptr-5/>): <_:egXML-6/> Other methods are also possible; for discussion, see chapter <_:ptr-7/>."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:163
+msgid "function"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:167
+msgid "segmentation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:168
+msgid "encodingDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:161
+msgid "The <_:att-1/> attribute on linguistic segment categories can be used to provide additional interpretative information about the category. The <_:att-2/> attribute on the <_:gi-3/> and <_:gi-4/> elements can be used to provide additional information about the function of the category. Legal values for these two attributes are not defined by these Guidelines, but should be documented in the <_:gi-5/> element of the <_:gi-6/> element within the document's header. A general approach to the encoding of linguistic categories for parts of a text is discussed in section <_:ptr-7/> below."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:173
+msgid "from whence it came"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:175
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:219
+msgid "by the U.S. Supreme Court"
+msgstr ""
+
+#. (itstool) path: egXML/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:180
+msgid "the year segregation"
+msgstr ""
+
+#. (itstool) path: egXML/phr
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:181
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:218
+msgid "was outlawed"
+msgstr ""
+
+#. (itstool) path: egXML/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:182
+msgid "by the U.S. Supreme Court."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:172
+msgid "Using traditional terminology, these attributes provide a convenient way of specifying, for example, that the clause <_:mentioned-1/> is a relative clause modifying another, or that the phrase <_:mentioned-2/> is a prepositional post-modifier: <_:egXML-3/> <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#. (itstool) path: p/soCalled
+#. (itstool) path: phr/c
+#. (itstool) path: egXML/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:192
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:231
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:356
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:370
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:453
+msgid "I"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:193
+msgid "was eighteen years old"
+msgstr ""
+
+#. (itstool) path: phr/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:191
+msgid "when <_:phr-1/> <_:phr-2/>"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:190
+msgid "Nineteen fifty-four, <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:196
+msgid "is held"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:199
+msgid "to be"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:203
+msgid "of the Afro-American"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:202
+msgid "the history <_:phr-1/>"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:201
+msgid "in <_:phr-1/>"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:209
+msgid "as a whole"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:208
+msgid "the U.S.A. <_:phr-1/>"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:207
+msgid "for <_:phr-1/>"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:200
+msgid "a crucial turning point <_:phr-1/> — <_:phr-2/>"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:216
+msgid "segregation"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:214
+msgid "the year <_:cl-1/>"
+msgstr ""
+
+#. (itstool) path: phr/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:198
+msgid "<_:phr-1/> <_:phr-2/> — <_:phr-3/>"
+msgstr ""
+
+#. (itstool) path: s/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:189
+msgid "<_:phr-1/>, <_:phr-2/>."
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:223
+msgid "It"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:225
+msgid "was"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:227
+msgid "a crucial year for me"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:224
+msgid "<_:phr-1/> also <_:phr-2/>"
+msgstr ""
+
+#. (itstool) path: cl/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:230
+msgid "on June 18, 1954"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:233
+msgid "began serving"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:235
+msgid "for possession of marijuana"
+msgstr ""
+
+#. (itstool) path: phr/phr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:234
+msgid "a sentence in state prison <_:phr-1/>"
+msgstr ""
+
+#. (itstool) path: cl/cl
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:229
+msgid "because <_:phr-1/>, <_:phr-2/> <_:phr-3/>"
+msgstr ""
+
+#. (itstool) path: egXML/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:187
+msgid "<_:s-1/> <_:s-2/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:184
+msgid "Segmentation into clauses and phrases can, of course, be combined. Such detailed encodings as the following may require careful formatting if they are to be easily readable however. <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:239
+msgid "lb"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:240
+msgid "rend"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:240
+msgid "rendition"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:237
+msgid "This style of markup may introduce spurious new lines and blanks into the text. If the original layout is important, it should be explicitly encoded, using such facilities as the <_:gi-1/> element, the global <_:att-2/> or <_:att-3/> attributes, etc."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:243
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:245
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:248
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:249
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:319
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:322
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:324
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:334
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:379
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:449
+msgid "m"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:243
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:245
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:249
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:250
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:251
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:357
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:360
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:378
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:392
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:449
+msgid "c"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:243
+msgid "The <_:gi-1/>, <_:gi-2/>, and <_:gi-3/> elements are identical in meaning to the <_:gi-4/> element with a <_:att-5/> attribute of <_:q-6/>, <_:q-7/>, or <_:q-8/> respectively, and may occur wherever <_:gi-9/> is permitted to occur. However, their content is more constrained than <_:gi-10/>: for example, the <_:gi-11/> element should only contain <_:gi-12/>, <_:gi-13/>, <_:gi-14/> elements or <_:gi-15/> elements, or plain text; the <_:gi-16/> element should contain only <_:gi-17/> or <_:gi-18/> elements or plain text; both the <_:gi-19/> and <_:gi-20/> elements should contain only plain text, most often only a single character or a sequence of graphemes to be treated as a single character. Consequently, while these more specific elements can be translated directly into typed <_:gi-21/> elements, the reverse is not necessarily the case."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:261
+msgid "word level"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:261
+msgid "phrase level"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:263
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:266
+msgid "mentioned"
+msgstr ""
+
+#. (itstool) path: egXML/mentioned
+#. (itstool) path: mentioned/w
+#. (itstool) path: w/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:264
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:269
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:270
+msgid "grandiloquent"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:258
+msgid "The restriction on the content of the <_:gi-1/> element in particular requires that a certain care must be exercised when using it, especially in relation to the use of other tags that one may think of as <_:term-2/>, but which are in fact defined as <_:term-3/>. Consider the problem of segmenting an occurrence of the <_:gi-4/> element as a word. <_:egXML-5/> The first of the following two encodings is legitimate; the second is not, since the <_:gi-6/> element is not part of the content model of the <_:gi-7/> element: <_:egXML-8/> <_:egXML-9/>"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:271
+msgid "are"
+msgstr ""
+
+#. (itstool) path: mentioned/phr
+#. (itstool) path: phr/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:274
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:277
+msgid "grandiloquent speech"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:271
+msgid "On the other hand, both of the following encodings <_:emph-1/> legitimate: <_:egXML-2/> <_:egXML-3/> The first encoding describes the citing of a phrase. The second describes a phrase which consists of something mentioned."
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:285
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:286
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:321
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1049
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1051
+msgid "lemma"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:289
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:306
+msgid "timeo"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:290
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:307
+msgid "Danaos"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:291
+msgid "et"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:292
+msgid "dona"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:293
+msgid "ferentes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:283
+msgid "The <_:gi-1/> element carries additional attributes which may be of use in many indexing or analytic applications. The <_:att-2/> attribute may be used to specify the <_:term-3/>, that is the head- or uninflected form of an inflected verb or noun, for example: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:297
+msgid "lemmaRef"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:303
+msgid "http://lexicon.org/latin.xml"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:296
+msgid "In some situations it may be more convenient to use the <_:att-1/> pointer attribute than to supply an explicit uninflected form. This attribute assumes the existence of a list of uninflected forms, for example in an online lexicon, with which individual <_:g-2/> entries can be associated using the usual TEI pointer mechanisms. Assuming that a standardized lexicon for Latin is available at the location <_:code-3/>, we might for example revise the above example as: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:312
+msgid "Below the Word Level"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:313
+msgid "It is sometimes helpful to markup explicitly sub-word components such as morphemes, characters, or punctuation. <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:322
+msgid "baseForm"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:323
+msgid "base form"
+msgstr ""
+
+#. (itstool) path: m/m
+#. (itstool) path: seg/seg
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:328
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:343
+msgid "com"
+msgstr ""
+
+#. (itstool) path: m/m
+#. (itstool) path: seg/seg
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:329
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:344
+msgid "fort"
+msgstr ""
+
+#. (itstool) path: w/m
+#. (itstool) path: seg/seg
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:331
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:346
+msgid "able"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:319
+msgid "The <_:gi-1/> element is used to mark up morphologically identified segmentation below the word level. Analogous to the <_:att-2/> attribute for <_:gi-3/>, there is a <_:att-4/> attribute for the <_:gi-5/> element, which may be used to indicate the <_:soCalled-6/> of an inflected morpheme; where appropriate, <_:gi-7/> elements may also be organized hierarchically: <_:egXML-8/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:334
+msgid "The distinction between <_:gi-1/> and <_:gi-2/> is provided as a convenience only; it may not be appropriate for all linguistic theories, nor is it meaningful in all languages. The intention is to provide a means for those cases where it is considered helpful to distinguish lexical from sub-lexical tokens, to complement the more general mechanism already provided by the <_:gi-3/> element, using which the above example could alternatively be marked up as follows: <_:egXML-4/> See section <_:ptr-5/> for an alternative to using <_:att-6/> in such contexts."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:351
+msgid "There is a substantial linguistic difference between characters like letters or diacritics and punctuation marks. The former are used to construct meaningful units like morphemes or words. The latter are functionally independent units acting at the level of syntactic units. A word may consist of a single letter (for example <_:soCalled-1/> in English), but this does not mean that we should use <_:gi-2/> instead of <_:gi-3/> to mark it up."
+msgstr ""
+
+#. (itstool) path: phr/c
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:367
+msgid "M"
+msgstr ""
+
+#. (itstool) path: phr/c
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:368
+msgid "O"
+msgstr ""
+
+#. (itstool) path: phr/c
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:369
+msgid "A"
+msgstr ""
+
+#. (itstool) path: phr/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:371
+msgid "doth"
+msgstr ""
+
+#. (itstool) path: phr/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:372
+msgid "sway"
+msgstr ""
+
+#. (itstool) path: phr/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:373
+msgid "my"
+msgstr ""
+
+#. (itstool) path: phr/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:374
+msgid "life"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:360
+msgid "The <_:gi-1/> (character) element should be used to mark up any non-lexical character, whether this appears within a word, or outside it. In the following example, the encoder wishes to indicate that the letters are not to be regarded as words: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: m/c
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:384
+msgid "n"
+msgstr ""
+
+#. (itstool) path: m/c
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:385
+msgid "'"
+msgstr ""
+
+#. (itstool) path: m/c
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:386
+msgid "t"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:391
+msgid "am"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:378
+msgid "The <_:gi-1/> element may be used for individual characters occurring within a <_:gi-2/> or <_:gi-3/> element which it is desired to distinguish for some reason, as in the following examples: <_:egXML-4/> This encoding represents the constituents of a common abbreviation, but does not indicate that it is in fact an abbreviation; the <_:gi-5/> element (<_:ptr-6/>) may be preferred for the latter purpose. Generally speaking, the use of <_:gi-7/> use to mark non-lexical punctuation marks is deprecated, since the <_:gi-8/> element is provided specifically to distinguish these."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:409
+msgid "punctus elevatus"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:411
+msgid "g"
+msgstr ""
+
+#. (itstool) path: pc/g
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:414
+msgid ";"
+msgstr ""
+
+#. (itstool) path: egXML/pc
+#. (itstool) path: s/c
+#. (itstool) path: s/pc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:415
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:415
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:460
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:940
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1108
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1129
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1150
+#, no-wrap
+msgid ""
+"."
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:413
+msgid "deus qui regis omnia <_:pc-1/> natus est in bethlehem <_:pc-2/>o <_:pc-3/> mira gratia... <_:char-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:397
+msgid "The <_:gi-1/> (punctuation character) element should be used to mark up characters which are specifically regarded as providing punctuation, rather than constituting parts of a word. It may be particularly useful when transcribing older written materials, in which an encoding of the original punctuation may be useful for interpretive or analytic purposes, in much the same way as an encoding of the original orthography may be. For example, in the following extract from a Bodleian Library musical manuscript <_:figure-2/> two different punctuation marks are used to distinguish kinds of pause in the text. The <_:term-3/> (which resembles an inverted semicolon) is not a Unicode character, but may still be encoded using the <_:gi-4/> element. As further described in chapter <_:ptr-5/>, this element points to a definition for the intended character which may be stored either locally or elsewhere. <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:424
+msgid "unit"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:425
+msgid "milestone"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:427
+msgid "pre"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:429
+msgid "force"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:422
+msgid "The <_:gi-1/> element carries special attributes to record analyses of the functional behaviour or classification of the punctuation mark it contains. The <_:att-2/> attribute may be used, as on the <_:gi-3/> element to name the kind of unit which the punctuation mark delimits, for example a paragraph or section. The <_:att-4/> attribute may be used to indicate whether the punctuation precedes or follows the unit it delimits. The <_:att-5/> attribute indicates the strength of the association between the punctuation mark and its adjacent word."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:433
+msgid "para"
+msgstr ""
+
+#. (itstool) path: p/pc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:435
+msgid "¶"
+msgstr ""
+
+#. (itstool) path: egXML/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:435
+msgid "<_:pc-1/>Incipit..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:431
+msgid "In the following example, the paragraph marker (¶) has been tagged as a strong punctuation mark, preceding the unit it marks, which is named <_:soCalled-1/>: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: egXML/pc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:441
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:441
+#, no-wrap
+msgid ""
+"-"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:441
+#, no-wrap
+msgid ""
+"A fire<_:pc-1/>proof vest is recom<_:pc-2/><_:lb-3/>\n"
+"mended. \n"
+""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:439
+msgid "A similar encoding can be used for hyphenation: <_:egXML-1/> Refer to <_:ptr-2/> for a discussion of the motivations for explicitely recording the presence of hyphens."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:452
+msgid "I didn't do it"
+msgstr ""
+
+#. (itstool) path: w/m
+#. (itstool) path: p/mentioned
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:455
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:464
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:545
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:553
+msgid "did"
+msgstr ""
+
+#. (itstool) path: w/m
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:456
+msgid "n't"
+msgstr ""
+
+#. (itstool) path: egXML/w
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:458
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:466
+msgid "do"
+msgstr ""
+
+#. (itstool) path: egXML/w
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:459
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:560
+msgid "it"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:449
+msgid "The <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, and <_:gi-4/> elements can be used together to give a fairly detailed low-level grammatical analysis of text. For example, consider the following segmentation of the English S-unit <_:mentioned-5/>. <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:466
+msgid "didn't"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:463
+msgid "This segmentation, crude as it is, succeeds in representing the idea that <_:mentioned-1/> occurring as a morphological component of the word <_:mentioned-2/> has something in common with the word <_:gi-3/>. A further advantage of segmenting the text down to this level is that it becomes relatively simple to associate each such segment with a more detailed formal analysis, for example by providing a baseform, or morphological analysis at whichever level is appropriate. This matter is taken up in detail in section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:488
+msgid "Global Attributes for Simple Analyses"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:492
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:693
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:704
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:731
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:732
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:757
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:886
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1005
+msgid "ana"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:496
+msgid "note"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:497
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:883
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:944
+msgid "fs"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:499
+msgid "category"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:500
+msgid "taxonomy"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:489
+msgid "When the module described by this chapter is selected, an additional attribute is defined for all elements: <_:specList-1/> The <_:att-2/> attribute may be specified for any element. Its effect is to associate the element with one or more others representing an analysis or interpretation of it. Its target should be one of the elements described in the section <_:ptr-3/> below, or some other interpretative element such as <_:gi-4/>, on which see section <_:ptr-5/> or <_:gi-6/>, on which see chapter <_:ptr-7/>. If a hierarchical form of classification is desired then it may point to <_:gi-8/> element at a suitable level in a <_:gi-9/> see <_:ptr-10/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:505
+msgid "Spans and Interpretations"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:509
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:598
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:720
+msgid "spanGrp"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:509
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:598
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:718
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:719
+msgid "interpGrp"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:506
+msgid "The simplest mechanisms for attaching analytic notes in some structured vocabulary to particular passages of text are provided by the <_:gi-1/> and <_:gi-2/> elements, and their associated grouping elements <_:gi-3/> and <_:gi-4/>. <_:specList-5/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:512
+msgid "att.interpLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:514
+msgid "att.global.responsibility"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:512
+msgid "These elements are all members of the class <_:ident-1/>, and thus share the following attributes: <_:specList-2/> They also inherit the following attributes from <_:ident-3/>: <_:specList-4/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:524
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:526
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:528
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:529
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:534
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:549
+msgid "from"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:525
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:528
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:530
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:533
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:534
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:549
+msgid "to"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:525
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:531
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:536
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:550
+msgid "target"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:538
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:694
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:731
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:755
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:975
+msgid "link"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:539
+msgid "resp"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:518
+msgid "The <_:att-1/> attribute of the <_:gi-2/> and <_:gi-3/> elements may be used to indicate that the annotations are of specific types, for example thematic or structural. The annotation itself is supplied as the content of the <_:gi-4/> or <_:gi-5/> element. In the case of the <_:gi-6/> element, the span of text being annotated is indicated by values of the <_:att-7/>, <_:att-8/> or <_:att-9/> attributes, used in combination as follows. If only the <_:att-10/> attribute is supplied, then the span is coterminous with the element indicated by its value; if both <_:att-11/> and <_:att-12/> are supplied, the span runs from the start of the element indicated by the <_:att-13/> attribute up to the end of the element indicated by the <_:att-14/> attribute; if the <_:att-15/> attribute is used, the span is defined by aggregating the contents of the (possibly non-contiguous) elements pointed to by its values. It is an error to supply only the <_:att-16/> attribute; to supply more than one pointer value for either <_:att-17/> or <_:att-18/> attributes; or to supply either of these in conjunction with the <_:att-19/> attribute. In the case of <_:gi-20/> (see below), the span is indicated by a pointer from a <_:gi-21/> element or some similar mechanism. The <_:att-22/> attribute indicates the annotator responsible for this annotation."
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:545
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:553
+msgid "What"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:545
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:553
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:560
+msgid "you"
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#mk01
+#. (itstool) id: AI-AnalyticMechanisms.xml#mk02
+#. (itstool) id: AI-AnalyticMechanisms.xml#mk03
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:545
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:553
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:560
+msgid "make"
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#up01
+#. (itstool) id: AI-AnalyticMechanisms.xml#up02
+#. (itstool) id: AI-AnalyticMechanisms.xml#up03
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:545
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:553
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:560
+msgid "up"
+msgstr ""
+
+#. (itstool) path: egXML/span
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:546
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:554
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:561
+msgid "phrasal verb \"make up\""
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:560
+msgid "Did"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:541
+msgid "The <_:gi-1/> element provides a simple way of indicating such features as phrasal verbs in a linguistic analysis, as in this example: <_:egXML-2/> Here the two components of the span follow each other, so the <_:att-3/> and <_:att-4/> attributes may be used. The same effect could however be achieved by using the <_:att-5/> attribute: <_:egXML-6/> This second approach might be cumbersome if the number of components to be combined is very large. It is however essential if the components do not follow each other, as in this example: <_:egXML-7/>"
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MaQp1s2p114s1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:567
+msgid "There was certainly a definite point at which the thing began."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MaQp1s2p114s2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:569
+msgid "It was not; then it was suddenly inescapable, and nothing could have frightened it away."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MaQp1s2p114s3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:571
+msgid "There was a slow integration, during which she, and the little animals, and the moving grasses, and the sun-warmed trees, and the slopes of shivering silvery mealies, and the great dome of blue light overhead, and the stones of earth under her feet, became one, shuddering together in a dissolution of dancing atoms."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MaQp1s2p114s4
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:577
+msgid "She felt the rivers under the ground forcing themselves painfully along her veins, swelling them out in an unbearable pressure; her flesh was the earth, and suffered growth like a ferment; and her eyes stared, fixed like the eye of the sun."
+msgstr ""
+
+#. (itstool) path: s/emph
+#. (itstool) path: s/w
+#. (itstool) path: cl/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-7
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:584
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:848
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:917
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:968
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1106
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1120
+#, no-wrap
+msgid ""
+"that"
+msgstr ""
+
+#. (itstool) path: s/soCalled
+#. (itstool) path: p/span
+#. (itstool) path: spanGrp/span
+#. (itstool) path: egXML/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#moment
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:584
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:587
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:600
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:715
+msgid "the moment"
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MaQp1s2p114s5
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:582
+msgid "Not for one second longer (if the terms for time apply) could she have borne it; but then, with a sudden movement forwards and out, the whole process stopped; and <_:emph-1/> was <_:soCalled-2/> which it was impossible to remember afterwards."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MaQp1s2p114s6
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:588
+msgid "For during that space of time (which was timeless) she understood quite finally her smallness, the unimportance of humanity."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:564
+msgid "The <_:gi-1/> element can be used for any kind of annotation. In this example it is used in a narratological analysis: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:593
+msgid "The <_:gi-1/> element may, as in this example, be placed in the text near the textual span it is associated with. Alternatively, it may be placed elsewhere in the same or a different document. Where several <_:gi-2/> or <_:gi-3/> elements share the same attributes, for example having the same responsibility or type, it may be convenient to group them within a <_:gi-4/> or <_:gi-5/> element as follows: <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:613
+msgid "The rule marks spaces left for the missing name in the manuscript."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:619
+msgid "This drink is cloudy, old man."
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:626
+msgid "Filter it through your mustache, son!"
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:608
+msgid "Sigmund, the son of Volsung, was a king in Frankish country. Sinfiotli was the eldest of his sons, the second was Helgi, the third Hamund. Borghild, Sigmund's wife, had a brother named — But Sinfiotli, her stepson, and — both wooed the same woman and Sinfiotli killed him over it.<_:note-1/> And when he came home, Borghild asked him to go away, but Sigmund offered her weregild, and she was obliged to accept it. At the funeral feast Borghild was serving beer. She took poison, a big drinking horn full, and brought it to Sinfiotli. When Sinfiotli looked into the horn, he saw that poison was in it, and said to Sigmund <_:q-2/> Sigmund took the horn and drank it off. It is said that Sigmund was hardy and that poison did him no harm, inside or out. And all his sons could tolerate poison on their skin. Borghild brought another horn to Sinfiotli, and asked him to drink, and everything happened as before. And a third time she brought him a horn, and reproachful words as well, if he didn't drink from it. He spoke again to Sigmund as before. He said <_:q-3/> Sinfiotli drank it off and at once fell dead."
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:629
+msgid "Sigmund carried him a long way in his arms and came to a long, narrow fjord, and there was a small boat there and a man in it. He offered to ferry Sigmund over the fjord. But when Sigmund carried the body out to the boat, it was fully laden. The man said Sigmund should go around the fjord inland. The man pushed the boat out and then suddenly vanished."
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:636
+msgid "King Sigmund lived a long time in Denmark in the kingdom of Borghild, after he married her. Then he went south to Frankish lands, to the kingdom he had there. Then he married Hiordis, the daughter of King Eylimi. Their son was Sigurd. King Sigmund fell in a battle with the sons of Hunding. And then Hiordis married Alf, the son of King Hialprec. Sigurd grew up there as a boy."
+msgstr ""
+
+#. (itstool) path: q/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:643
+msgid "Sigmund and all his sons were tall and outstanding in their strength, their growth, their intelligence, and their accomplishments. But Sigurd was the most outstanding of all, and everyone who knows about the old days says he was the most outstanding of men and the noblest of all the warrior kings."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:604
+msgid "Spans may also be used to represent structural divisions within a narrative, particularly when these do not coincide with the structure implied by the element structure. Consider the following narrative: <_:q-1/>"
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S1
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:653
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:737
+msgid "Sigmund ... was a king in Frankish country."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S2
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:654
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:738
+msgid "Sinfiotli was the eldest of his sons."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S3
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:655
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:739
+msgid "Borghild, Sigmund's wife, had a brother ..."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S4A
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS4A
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:656
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:741
+msgid "But Sinfiotli ... wooed the same woman"
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S4B
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS4B
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:657
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:742
+msgid "and Sinfiotli killed him over it."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S5
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS5
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:658
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:744
+msgid "And when he came home, ... she was obliged to accept it."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S6
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS6
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:659
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:745
+msgid "At the funeral feast Borghild was serving beer."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S7
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:660
+msgid "She took poison ... and brought it to Sinfiotli."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#S17
+#. (itstool) id: AI-AnalyticMechanisms.xml#SS17
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:661
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:746
+msgid "Sinfiotli drank it off and at once fell dead."
+msgstr ""
+
+#. (itstool) path: egXML/p
+#. (itstool) id: AI-AnalyticMechanisms.xml#P2
+#. (itstool) id: AI-AnalyticMechanisms.xml#PP2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:664
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:749
+msgid "Sigmund carried him a long way in his arms ..."
+msgstr ""
+
+#. (itstool) path: egXML/p
+#. (itstool) id: AI-AnalyticMechanisms.xml#P3
+#. (itstool) id: AI-AnalyticMechanisms.xml#PP3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:665
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:750
+msgid "King Sigmund lived a long time in Denmark ..."
+msgstr ""
+
+#. (itstool) path: egXML/p
+#. (itstool) id: AI-AnalyticMechanisms.xml#P4
+#. (itstool) id: AI-AnalyticMechanisms.xml#PP4
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:666
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:751
+msgid "Sigmund and all his sons were tall ..."
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#INTRO
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:668
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:722
+msgid "introduction"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#CONFLICT
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:669
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:723
+msgid "conflict"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#CLIMAX
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:670
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:724
+msgid "climax"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#REVENGE
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:671
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:725
+msgid "revenge"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#AFTERM
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:673
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:727
+msgid "aftermath"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:649
+msgid "A structural analysis of this text, dividing it into narrative units in a pattern shared with other texts from the same literature, might look like this: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:676
+msgid "anchor"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:676
+msgid "Note the use of an empty <_:gi-1/> element to provide a target for the <_:soCalled-2/> unit which is normally part of the narrative pattern but which is not realized in the text shown."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:685
+msgid "The same analysis may be expressed with the <_:gi-1/> element instead of the <_:gi-2/> element; this element provides attributes for recording an interpretive category and its value, as well as the identity of the interpreter, but does not itself indicate which passage of text is being interpreted; the same interpretive structures can thus be associated with many passages of the text. The association between text passages and <_:gi-3/> elements should be made either by pointing from the text to the <_:gi-4/> element with the <_:att-5/> attribute defined in section <_:ptr-6/>, or by pointing at both text and interpretation from a <_:gi-7/> element, as described in chapter <_:ptr-8/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:701
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:776
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1093
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1100
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1111
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1132
+msgid "join"
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MarQp1s2p114s1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:706
+msgid "There was certainly a definite point ..."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MarQp1s2p114s2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:707
+msgid "It was not; then it was suddenly inescapable ..."
+msgstr ""
+
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MarQp1s2p114s3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:709
+msgid "There was a slow integration ..."
+msgstr ""
+
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MarQp1s2p114s4
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:710
+msgid "She felt the rivers under the ground ..."
+msgstr ""
+
+#. (itstool) path: seg/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MarQp1s2p114s5
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:711
+msgid "Not for one second longer ..."
+msgstr ""
+
+#. (itstool) path: p/s
+#. (itstool) id: AI-AnalyticMechanisms.xml#MarQp1s2p114s6
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:713
+msgid "For during that space of time ..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:698
+msgid "To encode the first example above using <_:gi-1/>, it is necessary to create a text element which contains—or corresponds to—the third, fourth, and fifth orthographic sentences (S-units) in the paragraph. This can be done either with the <_:gi-2/> element, described in <_:ptr-3/>, or the <_:gi-4/> element, described in <_:ptr-5/>. The resulting element can then be associated with the <_:gi-6/> element using the <_:att-7/> attribute described in section <_:ptr-8/>. We illustrate using the <_:gi-9/> element. <_:egXML-10/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:717
+msgid "The second example above can be recoded using <_:gi-1/> and <_:gi-2/> tags in a similar manner. The interpretation itself can be expressed in an <_:gi-3/> element, which would replace the <_:gi-4/> in the example shown above: <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:730
+msgid "Any of these <_:gi-1/> elements may be linked to the text either by means of the <_:att-2/> attribute, or by means of <_:gi-3/> elements. Using the <_:att-4/> attribute (on <_:gi-5/> elements introduced specifically for this purpose), the text would be encoded as follows: <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:754
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:959
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:975
+msgid "linkGrp"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:754
+msgid "The linkage may also be accomplished using a <_:gi-1/> element, whose content is a set of <_:gi-2/> elements which point to each interpretive element and its corresponding text unit. This method does not require the use of the <_:att-3/> attribute on the text units. <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:768
+msgid "One obvious advantage of using <_:gi-1/> rather than <_:gi-2/> elements for the Sigmund text is that the <_:gi-3/> elements can be reused for marking up other texts in the same document, whereas the <_:gi-4/> elements cannot. On the other hand, the use of <_:gi-5/> elements may require the creation of special text elements not otherwise needed (e.g. the <_:gi-6/> and the <_:gi-7/> in the revised encoding of the text), whereas the use of <_:gi-8/> elements does not."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:786
+msgid "Linguistic Annotation"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:787
+msgid "linguistic annotation"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:787
+msgid "By <_:term-1/> we mean here any annotation determined by an analysis of linguistic features of the text, excluding as borderline cases both the formal structural properties of the text (e.g. its division into chapters or paragraphs) and descriptive information about its context (the circumstances of its production, its genre or medium). The structural properties of any TEI-conformant text should be represented using the structural elements discussed elsewhere in this chapter and in chapters <_:ptr-2/>, <_:ptr-3/>, and the various chapters of Part III. The contextual properties of a TEI text are fully documented in the TEI header, which is discussed in chapter <_:ptr-4/>, and in section <_:ptr-5/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:799
+msgid "Other forms of linguistic annotation may be applied at a number of levels in a text. A code (such as a word-class or part-of-speech code) may be associated with each word or token, or with groups of such tokens, which may be continuous, discontinuous, or nested. A code may also be associated with relationships (such as cohesion) perceived as existing between distinct parts of a text. The codes themselves may stand for discrete and non-decomposable categories, or they may represent highly articulated bundles of textual features. Their function may be to place the annotated part of the text somewhere within a narrowly linguistic or discoursal domain of analysis, or within a more general semantic field, or any combination drawn from these and other domains."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:815
+msgid "interpretation"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:818
+msgid "decls"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:811
+msgid "The manner by which such annotations are generated and attached to the text may be entirely automatic, entirely manual or a mixture. The ease and accuracy with which analysis may be automated may vary with the level at which the annotation is attached. The method employed should be documented in the <_:gi-1/> element within the encoding description of the TEI header, as described in section <_:ptr-2/>. Where different parts of a language corpus have used different annotation methods, the <_:att-3/> attribute may be used to indicate the fact, as further discussed in section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:822
+msgid "Linguistic Annotation by Means of Generic TEI Devices"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:826
+msgid "The victim's friends told police that Kruger drove into the quarry and never surfaced."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:823
+msgid "As one example of such types of analysis, consider the following sentence, taken from the Lancaster/IBM Treebank Project (<_:ptr-1/>). <_:q-2/>"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:830
+msgid "For the word-class tagging method used by CLAWS see <_:ptr-1/>; For an overview of the system see <_:ptr-2/>. The example sentence was processed using an online version of the CLAWS tagger at <_:ptr-3/>"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:838
+#, no-wrap
+msgid ""
+"\n"
+"The_AT0 victim_NN1 's_POS friends_NN2 told_VVD police_NN2 that_CJT Kruger_NP0 \n"
+"drove_VVD into_PRP the_AT0 quarry_NN1 and_CJC never_AV0 surfaced_VVD\n"
+""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:827
+msgid "Our discussion focuses on the way that this sentence might be analysed using the CLAWS system developed at the University of Lancaster but exactly the same principles may be applied to a wide variety of other systems.<_:note-1/> Output from the system consists of a segmented and tokenized version of the text, in which word class codes have been associated with each token. CLAWS offers outputs in a variety of non-XML and XML formats: for example, the simplest format for the sample sentence would be: <_:eg-2/>"
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:845
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:905
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:964
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1105
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1114
+#, no-wrap
+msgid ""
+"The "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) path: p/mentioned
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:846
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:906
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:965
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1105
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1115
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1133
+#, no-wrap
+msgid ""
+"victim"
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/m
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:846
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:907
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:966
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1105
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1116
+#, no-wrap
+msgid ""
+"'s"
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-4
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:847
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:909
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:966
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1105
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1117
+#, no-wrap
+msgid ""
+"friends "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-5
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:847
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:912
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:967
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1106
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1118
+#, no-wrap
+msgid ""
+"told "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-6
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:848
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:914
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:967
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1106
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1119
+#, no-wrap
+msgid ""
+"police "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-8
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:849
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:968
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1106
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1121
+#, no-wrap
+msgid ""
+"Kruger "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word-9
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:849
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:923
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:969
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1107
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1122
+#, no-wrap
+msgid ""
+"drove "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word10
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:849
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:925
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:969
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1107
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1123
+#, no-wrap
+msgid ""
+"into "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word11
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:850
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:927
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:970
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1107
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1124
+#, no-wrap
+msgid ""
+"the "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word12
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:850
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:928
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:970
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1107
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1125
+#, no-wrap
+msgid ""
+"quarry "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word13
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:851
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:932
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:971
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1108
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1126
+#, no-wrap
+msgid ""
+"and "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) id: AI-AnalyticMechanisms.xml#word14
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:851
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:934
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:971
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1108
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1127
+#, no-wrap
+msgid ""
+"never "
+msgstr ""
+
+#. (itstool) path: s/w
+#. (itstool) path: phr/w
+#. (itstool) path: p/mentioned
+#. (itstool) id: AI-AnalyticMechanisms.xml#word15
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:852
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:935
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:972
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1108
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1128
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1133
+#, no-wrap
+msgid ""
+"surfaced"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:855
+msgid "AT0"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:856
+msgid "article"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:856
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:879
+msgid "NN1"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:856
+msgid "singular noun"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:857
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:879
+msgid "NN2"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:857
+msgid "plural noun"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:860
+msgid "atomic"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#AT0
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:865
+msgid "Definite article"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#AV0
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:866
+msgid "Adverb"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#CJC
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:867
+msgid "Conjunction"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#CJT
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:868
+msgid "Relative that"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#NN1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:869
+msgid "Noun singular"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#NN2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:870
+msgid "Noun plural"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#NP0
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:871
+msgid "Proper noun"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#POS
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:872
+msgid "Genitive marker"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#PRP
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:873
+msgid "Preposition"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#VVD
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:874
+msgid "Verb past tense"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:880
+msgid "noun-ness"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:881
+msgid "VVD"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:843
+msgid "This may be easily transformed into an equivalent TEI XML representation: <_:egXML-1/> Although the names used for the attribute values here may have some significance for the human reader (<_:val-2/> for <_:term-3/>, <_:val-4/> for <_:term-5/>, <_:val-6/> for <_:term-7/>, etc.) they are arbitrary codes, used in this case as pointers to other elements which define their significance more precisely. If the codes are considered to be <_:term-8/>, then the <_:gi-9/> element described in section <_:ptr-10/> might be used to supply brief definitions in the header: <_:egXML-11/> If the codes are considered to be compositional (for example that <_:val-12/> and <_:val-13/> have something in common, namely their <_:term-14/>, which they do not share with, say, <_:val-15/>), then this compositionality may be most clearly expressed using a mechanism based on the <_:gi-16/> element defined in chapter <_:ptr-17/>."
+msgstr ""
+
+#. (itstool) path: p/eg
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:891
+#, no-wrap
+msgid ""
+"\n"
+"[N [G The victim's G] friends N] [V told [N police N] [Fn that \n"
+"[N Krueger N] [V [V&amp; drove [P into [N the quarry N]P]V&amp;] and \n"
+"[V+ never surfaced V+]V]Fn]V]"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:885
+msgid "This approach requires the text to be fully segmented, using the linguistic segment elements described in section <_:ptr-1/>, so that the scope of the <_:att-2/> attribute used to point to each interpretation is clearly defined. A further analysis into phrase and clause elements can be superimposed on the word and morpheme tagging in the preceding illustration. For example, CLAWS provides the following constituent analysis of the sample sentence (the word class codes have been deleted): <_:eg-3/>"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:899
+msgid "V&amp;\"/&gt;"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:900
+msgid "V1"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:900
+msgid "V+"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:901
+msgid "V2"
+msgstr ""
+
+#. (itstool) path: phr/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:919
+msgid "Krueger"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:896
+msgid "Treating the labels on the brackets as phrase or clause interpretations, this analysis of the structure of the example sentence can be combined with the word class analysis and represented as follows (the symbol <_:val-1/> representing the first part of a coordinate phrase, has been replaced by <_:val-2/>, and <_:val-3/>, representing the second part, has been replaced by <_:val-4/>). <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#v2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:948
+msgid "coordinate continuation"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#v
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:949
+msgid "verbal"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#no
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:950
+msgid "nominal"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#gn
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:951
+msgid "genitive"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#fn
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:952
+msgid "finite clause"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#pr
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:953
+msgid "prepositional"
+msgstr ""
+
+#. (itstool) path: interpGrp/interp
+#. (itstool) id: AI-AnalyticMechanisms.xml#v1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:954
+msgid "coordinate start"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:943
+msgid "This approach requires the definition of further <_:gi-1/> (or <_:gi-2/>) elements to provide targets for the pointers used to represent the constituent analysis: <_:egXML-3/>"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:958
+msgid "stand-off"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:961
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:958
+msgid "Alternatively, a <_:soCalled-1/> representation for these analyses might be created using the <_:gi-2/> element. In this case, each linguistic segment to be annotated must be supplied with its own <_:att-3/> attribute: <_:egXML-4/> Each segment-interpretation pair may now be represented by means of a <_:gi-5/> element inside an appropriate <_:gi-6/> element: <_:egXML-7/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:987
+msgid "Each linguistic segment so far discussed has been well-behaved with respect to the basic document hierarchy, having only a single parent. Moreover, the segmentation has been complete, in that each part of the text is accounted for by some segment at each level of analysis, without discontinuities or overlap. This state of affairs does not of course apply in all types of analysis, and these Guidelines provide a number of mechanisms to support the representation of discontinuities or multiple analyses. A brief overview of these facilities is provided in chapter <_:ptr-1/>; also see <_:ptr-2/>. These mechanisms all depend to a greater or lesser degree on the use of pointing elements of various kinds."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1000
+msgid "Lightweight Linguistic Annotation"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1001
+msgid "While these Guidelines offer a variety of means to add linguistic information to textual units and much of that has been presented above, two kinds of use cases and two groups of users call for a dedicated set of specialized attributes to carry linguistic information. One relevant use case is where basic linguistic information gets added to an existing resource, in which generic attributes such as <_:att-1/> or <_:att-2/> have already been used to encode other categorizations and analyses. The other group of users and use cases involves corpus linguists and resources built from scratch as lightly annotated language corpora. In the latter kind of projects, energy and person-hours are not devoted to careful literary analysis and hand-encoding of the relevant phenomena, but rather to the analysis of the completed resources, and therefore the phase of resource-building must be quick and relatively effortless, requiring minimal structural markup, well-established containers for grammatical information, and a standardized way of filling them in."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1014
+msgid "The aims defined above can be realized by means of lightweight linguistic annotation using attributes that belong to the <_:ident-1/> class: <_:specList-2/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1028
+msgid "word forms"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1029
+msgid "All definitions contained within ISO standards can be accessed at the ISO Online Browsing Platform. For ISO MAF, see <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1035
+msgid "att.fragmentable"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1019
+msgid "The essence of lightweight linguistic annotation is that the basic grammatical information is encapsulated at the word level, together with the orthographic shape of the word. This has clear advantages for automatic processing but, on the other hand, this form of data encapsulation also imposes restrictions on the extent of information that can be encoded, essentially limiting it to a single tokenization and lemmatization schema, a single tagset, and a subset of the possible analyses (out from potentially many guesses at the part-of-speech or morphosyntactic descriptions, single values have to fit into the existing attributes). Another important principle that this kind of annotation is sensitive to is the need for (near) homomorphism between the assumed tokenization (division of the text stream into minimal units) and the division into minimal syntactic units (<_:term-1/>, in the terminology of ISO Morpho-Syntactic Framework, ISO 24611<_:note-2/>), because it is the former that results from the process of tokenization, but the latter that can be lemmatized and meaningfully described by means of grammatical features. Where tokens are only minimally mismatched with word forms, various repair strategies can be used (e.g., recursing <_:gi-3/> to capture multi-token compounds or using <_:ident-4/> to point at disjoint tokens). Beyond that, more robust TEI mechanisms, based on standoff principles and feature structures, should replace lightweight annotation."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1043
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1044
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1045
+msgid "cut"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: note/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1046
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1047
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1085
+msgid "pos"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: note/att
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1047
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1085
+msgid "msd"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1049
+msgid "dictionary word"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1051
+msgid "bare infinitive"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1052
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1054
+msgid "write"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1052
+msgid "writes"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1053
+msgid "wrote"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1053
+msgid "written"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1054
+msgid "writing"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1040
+msgid "The basic grammatical information encoded by means of <_:ident-1/> is sufficient for the purpose of enhancing queries or improving the analysis of search results by, for example, making it possible to distinguish between the noun <_:mentioned-2/> and the identically spelled verb <_:mentioned-3/> in English, and further between e.g. the present-tense form of <_:mentioned-4/> and its past-tense or past-participial forms. For the former contrast, the part-of-speech (<_:att-5/>) attribute should be used, whereas the latter may use <_:att-6/> and/or <_:att-7/> attributes, depending on the annotation vocabulary adopted for the project in question. The various grammatical realizations of a single <_:q-8/> can be captured by means of the attribute <_:att-9/>, which provides a common label for them. For example, English verbs are typically lemmatized as the base form (also called <_:term-10/>), so the value of <_:att-11/> for the verbal forms <_:mentioned-12/>, <_:mentioned-13/>, <_:mentioned-14/>, <_:mentioned-15/>, and <_:mentioned-16/> is typically <_:val-17/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1056
+msgid "Together with the span-delimiting elements mentioned in this section, such as <_:gi-1/>, <_:gi-2/>, or <_:gi-3/>, lightweight grammatical annotation may be used to build basic syntactic constituency structures, where hierarchical information is expressed through span containment rather than by relations among tree nodes. This is however the limit of this kind of annotation: for the purpose of describing true constituency or dependency syntactic structures, one needs to turn to more robust mechanisms offered by the TEI, which may involve graph description (see chapter <_:ptr-4/>) or standoff techniques (see section <_:ptr-5/>), and where grammatical labels may need to be annotated by means of feature structures (see chapter <_:ptr-6/>)."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1068
+msgid "cutting"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1066
+msgid "Some of the above-mentioned robust methods will also prove handy in cases where more than one tagset (label inventory) is used to label the words, or where automatic morphological analysis yields multiple possibilities (for example, the form <_:mentioned-1/> is morphologically ambiguous between verbal, adjectival, and nominal) and needs to be followed by (often also automatic) disambiguation in morphosyntactic contexts, with varying probabilities that may also need to be recorded together with their corresponding part-of-speech and morphosyntactic values."
+msgstr ""
+
+#. (itstool) path: note/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1083
+msgid "PPHO1"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1081
+msgid "Given that the English language has relatively poor inflectional morphology, the decision to merge part-of-speech symbols with morphosyntactic features (as in, e.g., CLAWS-7, where the value <_:val-1/> signals the 3rd person singular objective personal pronoun) is fully justified as the most economical approach. For languages with more robust inflection, the <_:att-2/> and <_:att-3/> attributes will either be used separately, or the part-of-speech information will be merged into the morphosyntactic description."
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1089
+msgid "must"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1073
+msgid "It should be borne in mind that tokenization, lemmatization, part-of-speech identification, and morphosyntactic labelling, especially when performed automatically, should in most cases be seen as involving pragmatic decisions, dictated by concrete practical goals, economy of description, or the demands of particular analytic and/or visualization tools. It comes therefore as no surprise that numerous alternative (and often conflicting) lemmatization strategies and tagsets exist, in use by various communities and various tools, and that they change with time (a case in point is the CLAWS tagset for English, with several versions that merge the part-of-speech and morphosyntactic information to various degrees). <_:note-1/> The nature and description of these systems is outside the scope of these Guidelines, but it has to be stressed that all the strategies adopted for linguistic annotation, even at the lightweight level of complexity, <_:emph-2/> be documented in the header of the given electronic resource, not only for the purpose of guaranteeing successful data interpretation and exchange, but also for the sake of sustainability of the results of the given project."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1093
+msgid "The last of the att.linguistic attributes, <_:att-1/>, has the most text-technological flavour. It can be used to amend the loss of whitespace-related information in non-inline markup."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1096
+msgid "Compare the following two listings. The first difference between them is in the tagset used (CLAWS-5 vs. CLAWS-7) and only serves to exemplify the need to document the choice of descriptive vocabulary in the header, lest the encoded information is unreadable or confusing. The second difference is the difference in the treatment of inter-token whitespace, and it is here that the <_:att-1/> attribute proves indispensable."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1102
+msgid "The first example listing uses CLAWS-5 and inline annotation, where whitespace serves as part of the markup: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1111
+msgid "In the second example, the attribute <_:att-1/> is the only way to encode whether two tokens are adjacent or not: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1132
+msgid "right"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1130
+msgid "Note that projects will need to decide whether they want to redundantly encode full information on the adjacency of each token (in which case, the above listing should also have <_:att-1/> with the value <_:val-2/> on the tokens <_:mentioned-3/> and <_:mentioned-4/>, or whether information on a single direction of adjacency is enough. Strategies vary, and it is important to document them in the TEI header."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1136
+msgid "Wir fahren in den Urlaub"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1137
+msgid "We're going on vacation"
+msgstr ""
+
+#. (itstool) path: note/ref
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1139
+msgid "CLARIN Weblicht service"
+msgstr ""
+
+#. (itstool) path: note/code
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1140
+msgid "[cat pronoun, personal true, substituting true, person 1, case nominative, number plural]"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1138
+msgid "The annotation values have been adapted from the <_:ref-1/>, where e.g. the full morphosyntactic description of the first item reads: <_:code-2/>, and has been mapped from a sequence of attribute-value pairs suitable for feature structure notation, into a compressed form that fits inside a single attribute value."
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1145
+msgid "Wir"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1146
+msgid "fahren"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1147
+msgid "in"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1148
+msgid "den"
+msgstr ""
+
+#. (itstool) path: s/w
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1149
+msgid "Urlaub"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1136
+msgid "This section concludes with an example German sentence <_:mentioned-1/> (<_:q-2/>) annotated with all the attributes discussed here.<_:note-3/> <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1155
+msgid "Spoken Text"
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: AI-AnalyticMechanisms.xml#u1
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1160
+msgid "Can I have ten oranges and a kilo of bananas please?"
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: AI-AnalyticMechanisms.xml#u2
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1161
+msgid "Yes, anything else?"
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: AI-AnalyticMechanisms.xml#u3
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1162
+msgid "No thanks."
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: AI-AnalyticMechanisms.xml#u4
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1163
+msgid "That'll be dollar forty."
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: AI-AnalyticMechanisms.xml#u5
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1164
+msgid "Two dollars"
+msgstr ""
+
+#. (itstool) path: egXML/u
+#. (itstool) id: AI-AnalyticMechanisms.xml#u6
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1165
+msgid "Sixty, eighty, two dollars. Thank you."
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1167
+msgid "sale request"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1168
+msgid "sale compliance"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1169
+msgid "sale"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1170
+msgid "purchase"
+msgstr ""
+
+#. (itstool) path: spanGrp/span
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1171
+msgid "purchase closure"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1173
+msgid "u"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1156
+msgid "The mechanisms proposed in this chapter may also be used to encode analyses of an entirely different kind, for example discourse function. Here is an application of the span technique to record details of a sales transaction in a spoken text. <_:egXML-1/> For further discussion of the <_:gi-2/> (utterance) element and other elements recommended for transcriptions of spoken language, see chapter <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1179
+msgid "Module for Analysis and Interpretation"
+msgstr ""
+
+#. (itstool) path: moduleSpec/altIdent
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1183
+msgid "Analysis and Interpretation"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1184
+msgid "Simple analytic mechanisms"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1185
+msgid "Mécanismes analytiques simples"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1186
+msgid "簡易分析機制"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1187
+msgid "Semplici meccanismi di analisi"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1188
+msgid "Mecanismos simples de análise"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1189
+msgid "分析モジュール"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/AI-AnalyticMechanisms.xml:1180
+msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>. <_:specGrpRef-3/> <_:specGrpRef-4/> <_:specGrpRef-5/>"
+msgstr ""
+

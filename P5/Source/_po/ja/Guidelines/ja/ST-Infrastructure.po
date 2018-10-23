@@ -1,0 +1,2479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-22 19:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:11
+msgid "The TEI Infrastructure"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:12
+msgid "This chapter describes the infrastructure for the encoding scheme defined by these Guidelines. It introduces the conceptual framework within which the following chapters are to be understood, and the means by which that conceptual framework is implemented. It assumes some familiarity with XML and XML schemas (see chapter <_:ptr-1/>) but is intended to be accessible to any user of these Guidelines. Other chapters supply further technical details, in particular chapter <_:ptr-2/> which describes the XML schema used to express these Guidelines themselves, and chapter <_:ptr-3/> which combines a discussion of modification and conformance issues with a description of the intended behaviour of an ODD processor; these chapters should be read by anyone intending to implement a new TEI-based system."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:21
+msgid "modules"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:23
+msgid "classes"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:26
+msgid "schema"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:21
+msgid "The TEI encoding scheme consists of a number of <_:term-1/>, each of which declares particular XML elements and their attributes. Part of an element's declaration includes its assignment to one or more element <_:term-2/>. Another part defines its possible content and attributes with reference to these classes. This indirection gives the TEI system much of its strength and its flexibility. Elements may be combined more or less freely to form a <_:term-3/> appropriate to a particular set of requirements. It is also easy to add new elements which reference existing classes or elements to a schema, as it is to exclude some of the elements provided by any module included in a schema."
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:31
+#: Source/Guidelines/en/ST-Infrastructure.xml:171
+#: Source/Guidelines/en/ST-Infrastructure.xml:346
+#: Source/Guidelines/en/ST-Infrastructure.xml:967
+#: Source/Guidelines/en/ST-Infrastructure.xml:1394
+msgid "tei"
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:33
+#: Source/Guidelines/en/ST-Infrastructure.xml:100
+#: Source/Guidelines/en/ST-Infrastructure.xml:297
+#: Source/Guidelines/en/ST-Infrastructure.xml:993
+msgid "core"
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:34
+#: Source/Guidelines/en/ST-Infrastructure.xml:131
+msgid "header"
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:36
+#: Source/Guidelines/en/ST-Infrastructure.xml:182
+#: Source/Guidelines/en/ST-Infrastructure.xml:297
+msgid "textstructure"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:29
+msgid "In principle, a TEI schema may be constructed using any combination of modules. However, certain TEI modules are of particular importance, and should always be included in all but exceptional circumstances: the module <_:ident-1/> described in the present chapter is of this kind because it defines classes, macros, and datatypes which are used by all other modules. The <_:ident-2/> module, defined in chapter <_:ptr-3/> contains declarations for elements and attributes which are likely to be needed in almost any kind of document, and is therefore recommended for global use. The <_:ident-4/> module defined in chapter <_:ptr-5/> provides declarations for the metadata elements and attributes constituting the TEI header, a component which is required for TEI conformance, while the <_:ident-6/> module defined in chapter <_:ptr-7/> declares basic structural elements needed for the encoding of most book-like objects. Most schemas will therefore need to include these four modules."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:43
+msgid "ODD"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/ST-Infrastructure.xml:43
+msgid "One Document Does it all"
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/ST-Infrastructure.xml:49
+msgid "Guidelines"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:41
+msgid "The specification for a TEI schema is itself a TEI document, using elements from the module described in chapter <_:ptr-1/>: we refer to such a document informally as an <_:term-2/> document, from the design goal originally formulated for the system: <_:q-3/>. Stylesheets for maintaining and processing ODD documents are maintained by the TEI, and these Guidelines are also maintained as such a document. As further discussed in <_:ptr-4/>, an ODD document can be processed to generate a schema expressed using any of the three schema languages currently in wide use: the XML DTD language, the ISO RELAX NG language, or the W3C Schema language, as well as to generate documentation such as the <_:title-5/> and their associated web site."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:50
+msgid "The bulk of this chapter describes the TEI infrastructure module itself. Although it may be skipped at a first reading, an understanding of the topics addressed here is essential for anyone planning to take full advantage of the TEI customization techniques described in chapter <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:54
+msgid "The chapter begins by briefly characterizing each of the modules available in the TEI scheme. Section <_:ptr-1/> describes in general terms the method of constructing a TEI schema in a specific schema language such as XML DTD language, RELAX NG, or W3C Schema."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:57
+msgid "The next and largest part of the chapter introduces the attribute and element classes used to define groups of elements and their characteristics (section <_:ptr-1/>)."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:59
+#: Source/Guidelines/en/ST-Infrastructure.xml:1175
+msgid "macros"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:60
+msgid "datatypes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:59
+msgid "Finally, section <_:ptr-1/> introduces the concept of <_:term-2/>, which are used to express some commonly used content models, and lists the <_:term-3/> used to constrain the range of legal values for TEI attributes (section <_:ptr-4/>)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:63
+msgid "TEI Modules"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:66
+msgid "a prose description"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:67
+msgid "a formal declaration, expressed using a special-purpose XML vocabulary defined by these Guidelines in combination with elements taken from the ISO schema language RELAX NG"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:70
+msgid "usage examples"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:64
+msgid "These Guidelines define several hundred elements and attributes for marking up documents of any kind. Each definition has the following components: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:73
+msgid "module"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:72
+msgid "Each chapter of these Guidelines presents a group of related elements, and also defines a corresponding set of declarations, which we call a <_:term-1/>. All the definitions are collected together in the reference sections provided as an appendix. Formal declarations for a given chapter are collected together within the corresponding module. For convenience, each element is assigned to a single module, typically for use in some specific application area, or to support a particular kind of usage. A module is thus simply a convenient way of grouping together a number of associated element declarations. In the simple case, a TEI schema is made by combining together a small number of modules, as further described in section <_:ptr-2/> below."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:85
+msgid "Module name"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:86
+msgid "Formal public identifier"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:87
+msgid "Where defined"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:90
+#: Source/Guidelines/en/ST-Infrastructure.xml:861
+msgid "analysis"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:91
+msgid "Analysis and Interpretation"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:95
+#: Source/Guidelines/en/ST-Infrastructure.xml:1236
+msgid "certainty"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:96
+msgid "Certainty and Uncertainty"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:101
+msgid "Common Core"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:105
+msgid "corpus"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:106
+msgid "Metadata for Language Corpora"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:111
+msgid "dictionaries"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:112
+msgid "Print Dictionaries"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:116
+msgid "drama"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:117
+msgid "Performance Texts"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:121
+msgid "figures"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:122
+msgid "Tables, Formulae, Figures"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:126
+#: Source/Guidelines/en/ST-Infrastructure.xml:986
+msgid "gaiji"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:127
+msgid "Character and Glyph Documentation"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:132
+msgid "Common Metadata"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:136
+msgid "iso-fs"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:137
+msgid "Feature Structures"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:141
+#: Source/Guidelines/en/ST-Infrastructure.xml:860
+msgid "linking"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:142
+msgid "Linking, Segmentation, and Alignment"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:146
+msgid "msdescription"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:147
+msgid "Manuscript Description"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:151
+#: Source/Guidelines/en/ST-Infrastructure.xml:994
+msgid "namesdates"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:152
+msgid "Names, Dates, People, and Places"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:156
+msgid "nets"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:157
+msgid "Graphs, Networks, and Trees"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:161
+msgid "spoken"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:162
+msgid "Transcribed Speech"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:166
+#: Source/Guidelines/en/ST-Infrastructure.xml:995
+msgid "tagdocs"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:167
+msgid "Documentation Elements"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: moduleSpec/altIdent
+#: Source/Guidelines/en/ST-Infrastructure.xml:172
+#: Source/Guidelines/en/ST-Infrastructure.xml:1399
+msgid "TEI Infrastructure"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:177
+#: Source/Guidelines/en/ST-Infrastructure.xml:979
+msgid "textcrit"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:178
+msgid "Text Criticism"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:183
+msgid "Default Text Structure"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:187
+#: Source/Guidelines/en/ST-Infrastructure.xml:297
+#: Source/Guidelines/en/ST-Infrastructure.xml:862
+#: Source/Guidelines/en/ST-Infrastructure.xml:863
+msgid "transcr"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:188
+msgid "Transcription of Primary Sources"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:192
+#: Source/Guidelines/en/ST-Infrastructure.xml:359
+#: Source/Guidelines/en/ST-Infrastructure.xml:363
+msgid "verse"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:193
+#: Source/Guidelines/en/ST-Infrastructure.xml:414
+msgid "Verse"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:81
+msgid "The following table lists the modules defined by the current release of these Guidelines: <_:table-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:198
+msgid "For each module listed above, the corresponding chapter gives a full description of the classes, elements, and macros which it makes available when it is included in a schema. Other chapters of these Guidelines explore other aspects of using the TEI scheme."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:203
+msgid "Defining a TEI Schema"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/ST-Infrastructure.xml:207
+msgid "must"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:204
+msgid "To determine that an XML document is valid (as opposed to merely well-formed), its structure must be checked against a schema, as discussed in chapter <_:ptr-1/>. For a valid TEI document, this schema must be a conformant TEI schema, as further defined in chapter <_:ptr-2/>. Local systems may allow their schema to be implicit, but for interchange purposes the schema associated with a document <_:emph-3/> be made explicit. The method of doing this recommended by these Guidelines is to provide explicitly or by reference a TEI schema specification against which the document may be validated."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:213
+#: Source/Guidelines/en/ST-Infrastructure.xml:665
+msgid "schemaSpec"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:210
+msgid "A TEI-conformant schema is a specific combination of TEI modules, possibly also including additional declarations that modify the element and attribute declarations contained by each module, for example to suppress or rename some elements. The TEI provides an application-independent way of specifying a TEI schema by means of the <_:gi-1/> element defined in chapter <_:ptr-2/>. The same system may also be used to specify a schema which extends the TEI by adding new elements explicitly, or by reference to other XML vocabularies. In either case, the specification may be processed to generate a formal schema, expressed in a variety of specific schema languages, such as XML DTD language, RELAX NG, or W3C Schema. These output schemas can then be used by an XML processor such as a validator or editor to validate or otherwise process documents. Further information about the processing of a TEI formal specification is given in chapter <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:222
+msgid "A Simple Customization"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:223
+msgid "The simplest customization of the TEI scheme combines just the four recommended modules mentioned above. In ODD format, this schema specification takes this form: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:233
+#: Source/Guidelines/en/ST-Infrastructure.xml:338
+msgid "key"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:233
+#: Source/Guidelines/en/ST-Infrastructure.xml:678
+msgid "moduleRef"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:234
+msgid "TEI-minimal"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:240
+msgid "start"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:232
+msgid "This schema specification contains references to each of four modules, identified by the <_:att-1/> attribute on the <_:gi-2/> element. The schema specification itself is also given an identifier (<_:ident-3/>). An ODD processor will generate an appropriate schema from this set of declarations, expressed using the XML DTD language, the ISO RELAX NG language, the W3C Schema language, or in principle any other adequately powerful schema language. The resulting schema may then be associated with the document instance by one of a number of different mechanisms, as further described in chapter <_:ptr-4/>. The start point (or root element) of document instances to be validated against the schema is specified by means of the <_:att-5/> attribute. Further information about the processing of an ODD specification is given in <_:ptr-6/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:244
+msgid "A Larger Customization"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:250
+msgid "a text may be a collection of other texts of different types: for example, an anthology of prose, verse, and drama;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:252
+msgid "a text may contain other smaller, embedded texts: for example, a poem or song included in a prose narrative;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:254
+msgid "some sections of a text may be written in one form, and others in a different form: for example, a novel where some chapters are in prose, others take the form of dictionary entries, and still others the form of scenes in a play;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:257
+msgid "an encoded text may include detailed analytic annotation, for example of rhetorical or linguistic features;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:259
+msgid "an encoded text may combine a literal transcription with a diplomatic edition of the same or different sources;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:261
+msgid "the description of a text may require additional specialized metadata elements, for example when describing manuscript material in detail."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:245
+msgid "These Guidelines introduce each of the modules making up the TEI scheme one by one, and therefore, for clarity of exposition, each chapter focusses on elements drawn from a single module. In reality, of course, the markup of a text will draw on elements taken from many different modules, partly because texts are heterogeneous objects, and partly because encoders have different goals. Some examples of this heterogeneity include: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:267
+msgid "granularity"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:269
+#: Source/Guidelines/en/ST-Infrastructure.xml:443
+#: Source/Guidelines/en/ST-Infrastructure.xml:447
+msgid "TEI"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:269
+msgid "a definition of a corpus or collection as a series of <_:gi-1/> documents, sharing a common TEI header (see chapter <_:ptr-2/>)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:271
+msgid "a definition of composite texts which combine optional front- and back-matter with a group of collected texts, themselves possibly composite (see section <_:ptr-1/>)"
+msgstr ""
+
+#. (itstool) path: item/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:273
+msgid "embedded texts"
+msgstr ""
+
+#. (itstool) path: item/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:274
+msgid "float"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:273
+msgid "an element for the representation of <_:term-1/>, where one narrative appears to <_:soCalled-2/> within another (see section <_:ptr-3/>)"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:264
+msgid "The TEI provides mechanisms to support all of these and many other use cases. The architecture permits elements and attributes from any combination of modules to co-exist within a single schema. Within particular modules, elements and attributes are provided to support differing views of the <_:soCalled-1/> of a text, for example: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:276
+msgid "Subsequent chapters of these Guidelines describe in detail markup constructs appropriate for these and many other possible features of interest. The markup constructs can be combined as needed for any given set of applications or project."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:279
+msgid "For example, a project aiming to produce an ambitious digital edition of a collection of manuscript materials, to include detailed metadata about each source, digital images of the content, along with a detailed transcription of each source, and a supporting biographical and geographical database might need a schema combining several modules, as follows: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:296
+msgid "Alternatively, a simpler schema might be used for a part of such a project: those preparing the transcriptions, for example, might need only elements from the <_:ident-1/>, <_:ident-2/>, and <_:ident-3/> modules, and might therefore prefer to use a simpler schema such as that generated by the following: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:305
+msgid "The TEI architecture also supports more detailed customization beyond the simple selection of modules. A schema may suppress elements from a module, suppress some of their attributes, change their names, or even add new elements and attributes. Detailed discussion of the kind of modification possible in this way is provided in <_:ptr-1/> and conformance rules relating to their application are discussed in <_:ptr-2/>. These facilities are available for any schema language (though some features may not be available in all languages). The ODD language also makes it possible to combine TEI and non-TEI modules into a single schema, provided that the non-TEI module is expressed using the RELAX NG schema language (see further <_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:317
+msgid "The TEI Class System"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:322
+msgid "attribute class"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:323
+msgid "model class"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:324
+msgid "inherit"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:318
+msgid "The TEI scheme distinguishes about five hundred different elements. To aid comprehension, modularity, and modification, the majority of these elements are formally classified in some way. Classes are used to express two distinct kinds of commonality among elements. The elements of a class may share some set of attributes, or they may appear in the same locations in a content model. A class is known as an <_:term-1/> if its members share attributes, and as a <_:term-2/> if its members appear in the same locations. In either case, an element is said to <_:term-3/> properties from any classes of which it is a member."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:328
+msgid "subclass"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:330
+msgid "superclass"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:326
+msgid "Classes (and therefore elements which are members of those classes) may also inherit properties from other classes. For example, supposing that class A is a member (or a <_:term-1/>) of class B, any element which is a member of class A will inherit not only the properties defined by class A, but also those defined by class B. In such a situation, we also say that class B is a <_:term-2/> of class A. The properties of a superclass are inherited by all members of its subclasses."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:332
+msgid "A basic understanding of the classes into which the TEI scheme is organized is strongly recommended and is essential for any successful customization of the system."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:335
+msgid "Attribute Classes"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:337
+msgid "att."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:338
+#: Source/Guidelines/en/ST-Infrastructure.xml:341
+#: Source/Guidelines/en/ST-Infrastructure.xml:343
+msgid "att.canonical"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:338
+msgid "ref"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:336
+msgid "An attribute class groups together elements which share some set of common attributes. Attribute classes are given names composed of the prefix <_:code-1/>, often followed by an adjective. For example, the members of the class <_:ident-2/> have in common a <_:att-3/> and a <_:att-4/> attribute, both of which are inherited from their membership in the class rather than individually defined for each element. These attributes are said to be defined by (or inherited from) the <_:ident-5/> class. If another element were to be added to the TEI scheme for which these attributes were considered useful, the simplest way to provide them would be to make the new element a member of the <_:ident-6/> class. Note also that this method ensures that the attributes in question are always defined in the same way, taking the same default values etc., no matter which element they are attached to."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:346
+msgid "Some attribute classes are defined within the <_:ident-1/> infrastructural module and are thus globally available. Other attribute classes are specific to particular modules and thus defined in other chapters. Attributes defined by such classes will not be available unless the module concerned is included in a schema."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:352
+#: Source/Guidelines/en/ST-Infrastructure.xml:356
+msgid "att.pointing.group"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:352
+msgid "domains"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:353
+msgid "targFunc"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:353
+#: Source/Guidelines/en/ST-Infrastructure.xml:355
+msgid "att.pointing"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:354
+msgid "target"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:354
+#: Source/Guidelines/en/ST-Infrastructure.xml:516
+#: Source/Guidelines/en/ST-Infrastructure.xml:518
+msgid "targetLang"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:354
+msgid "evaluate"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:350
+msgid "The attributes provided by an attribute class are those specified by the class itself, either directly, or by inheritance from another class. For example, the attribute class <_:ident-1/> provides attributes <_:att-2/> and <_:att-3/> to all of its members. This class is however a subclass of the <_:ident-4/> class, from which its members also inherit the attributes <_:att-5/>, <_:att-6/> and <_:att-7/>. Members of the class <_:ident-8/> will thus have these three attributes, while members of the class <_:ident-9/> will have all five."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:358
+#: Source/Guidelines/en/ST-Infrastructure.xml:361
+#: Source/Guidelines/en/ST-Infrastructure.xml:363
+#: Source/Guidelines/en/ST-Infrastructure.xml:364
+msgid "att.divLike"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:359
+#: Source/Guidelines/en/ST-Infrastructure.xml:701
+#: Source/Guidelines/en/ST-Infrastructure.xml:722
+msgid "org"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:359
+msgid "sample"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:359
+#: Source/Guidelines/en/ST-Infrastructure.xml:361
+#: Source/Guidelines/en/ST-Infrastructure.xml:362
+msgid "att.metrical"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:360
+msgid "met"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:360
+msgid "real"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:360
+msgid "rhyme"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:357
+msgid "Note that some modules define superclasses of an existing infrastructural class. For example, the global attribute class <_:ident-1/> makes attributes <_:att-2/> and <_:att-3/> available, while the <_:ident-4/> class, which is specific to the <_:ident-5/> module, provides attributes <_:att-6/>, <_:att-7/>, and <_:att-8/>. Because <_:ident-9/> is defined as a superclass of <_:ident-10/>, all five of these attributes are available to elements; the declaration for <_:ident-11/> adds its three attributes to the three already defined by <_:ident-12/> when the <_:ident-13/> module is included in a schema. If, however, this module is not included in a schema, then the <_:ident-14/> class supplies only the two attributes first mentioned."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:367
+#: Source/Guidelines/en/ST-Infrastructure.xml:376
+#: Source/Guidelines/en/ST-Infrastructure.xml:380
+msgid "att.global"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:366
+msgid "Attributes specific to particular modules are documented along with the relevant module rather than in the present chapter. One particular attribute class, known as <_:ident-1/>, is common to all modules, and is therefore described in some detail in the next section. A full list of all attribute classes is given in <_:ptr-2/> below."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:370
+msgid "Global Attributes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:371
+msgid "The following attributes are defined in the infrastructure module for every TEI element. <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:375
+#: Source/Guidelines/en/ST-Infrastructure.xml:385
+#: Source/Guidelines/en/ST-Infrastructure.xml:392
+#: Source/Guidelines/en/ST-Infrastructure.xml:406
+#: Source/Guidelines/en/ST-Infrastructure.xml:428
+#: Source/Guidelines/en/ST-Infrastructure.xml:761
+#: Source/Guidelines/en/ST-Infrastructure.xml:775
+#: Source/Guidelines/en/ST-Infrastructure.xml:1318
+#: Source/Guidelines/en/ST-Infrastructure.xml:1327
+#: Source/Guidelines/en/ST-Infrastructure.xml:1337
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/val
+#. (itstool) path: choice/sic
+#: Source/Guidelines/en/ST-Infrastructure.xml:375
+#: Source/Guidelines/en/ST-Infrastructure.xml:405
+#: Source/Guidelines/en/ST-Infrastructure.xml:409
+#: Source/Guidelines/en/ST-Infrastructure.xml:418
+#: Source/Guidelines/en/ST-Infrastructure.xml:428
+#: Source/Guidelines/en/ST-Infrastructure.xml:703
+#: Source/Guidelines/en/ST-Infrastructure.xml:710
+msgid "n"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:375
+#: Source/Guidelines/en/ST-Infrastructure.xml:440
+#: Source/Guidelines/en/ST-Infrastructure.xml:444
+#: Source/Guidelines/en/ST-Infrastructure.xml:447
+#: Source/Guidelines/en/ST-Infrastructure.xml:451
+#: Source/Guidelines/en/ST-Infrastructure.xml:508
+#: Source/Guidelines/en/ST-Infrastructure.xml:510
+#: Source/Guidelines/en/ST-Infrastructure.xml:518
+msgid "xml:lang"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:376
+#: Source/Guidelines/en/ST-Infrastructure.xml:731
+#: Source/Guidelines/en/ST-Infrastructure.xml:733
+#: Source/Guidelines/en/ST-Infrastructure.xml:735
+#: Source/Guidelines/en/ST-Infrastructure.xml:751
+#: Source/Guidelines/en/ST-Infrastructure.xml:756
+#: Source/Guidelines/en/ST-Infrastructure.xml:758
+#: Source/Guidelines/en/ST-Infrastructure.xml:760
+#: Source/Guidelines/en/ST-Infrastructure.xml:765
+msgid "xml:base"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:376
+#: Source/Guidelines/en/ST-Infrastructure.xml:772
+#: Source/Guidelines/en/ST-Infrastructure.xml:780
+#: Source/Guidelines/en/ST-Infrastructure.xml:842
+msgid "xml:space"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:377
+msgid "att.global.rendition"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:378
+msgid "att.global.responsibility"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:378
+msgid "att.global.source"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:375
+msgid "Some of these attributes (specifically <_:att-1/>, <_:att-2/>, <_:att-3/>, <_:att-4/> and <_:att-5/>) are provided by the <_:ident-6/> attribute class itself. The others are provided by one its subclasses <_:ident-7/>, <_:ident-8/>, or <_:ident-9/>. Their usage is discussed in the following subsections."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:379
+msgid "Several other globally-available attributes are defined by other subclasses of the <_:ident-1/> class. These are provided by other modules, and are therefore discussed in the chapter discussing that module. A brief summary table is provided in section <_:ptr-2/> below."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:384
+msgid "Element Identifiers and Labels"
+msgstr ""
+
+#. (itstool) path: p/term
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:386
+#: Source/Guidelines/en/ST-Infrastructure.xml:534
+#: Source/Guidelines/en/ST-Infrastructure.xml:721
+msgid "name"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/ST-Infrastructure.xml:386
+msgid "XML Recommendation"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/ST-Infrastructure.xml:387
+msgid "_"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/ST-Infrastructure.xml:389
+msgid "The colon is also by default a valid name character; however, it has a specific purpose in XML (to indicate namespace prefixes), and may not therefore be used in any other way within a name."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:385
+msgid "The value supplied for the <_:att-1/> attribute must be a legal <_:term-2/>, as defined in the World Wide Web Consortium's <_:ref-3/>. This means that it must begin with a letter, or the underscore character (<_:q-4/>), and contain no characters other than letters, digits, hyphens, underscores, full stops, and certain combining and extension characters.<_:note-5/>"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/ST-Infrastructure.xml:394
+msgid "partTime"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/ST-Infrastructure.xml:394
+msgid "parttime"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:392
+msgid "In XML names (and thus the values of <_:att-1/> in an XML TEI document) uppercase and lowercase letters are distinguished, and thus <_:mentioned-2/> and <_:mentioned-3/> are two distinctly different names, and could (though perhaps unwisely) be used to denote two different element occurrences."
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/ST-Infrastructure.xml:398
+#: Source/Guidelines/en/ST-Infrastructure.xml:616
+msgid "not"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/ST-Infrastructure.xml:398
+msgid "&lt;p xml:id=\"PAGE1\"&gt;&lt;q&gt;What's it going to be then, eh?&lt;/q&gt;&lt;/p&gt; &lt;p xml:id=\"PAGE1\"&gt;There was me, that is Alex, and my three droogs, that is Pete, Georgie, and Dim, ... &lt;/p&gt;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:397
+msgid "If two elements are given the same identifier, a validating XML parser will signal a syntax error. The following example, therefore, is <_:emph-1/> valid: <_:egXML-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:403
+msgid "For a discussion of methods of providing unique identifiers for elements, see section <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:412
+msgid "About These Guidelines"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:413
+msgid "A Gentle Introduction to XML"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:415
+msgid "Drama"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:416
+msgid "Spoken Materials"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:417
+msgid "Dictionaries"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:405
+msgid "The <_:att-1/> attribute also provides an identifying name or number for an element, but in this case the information need not be a legal <_:att-2/> value. Its value may be any string of characters; typically it is a number or other similar enumerator or label. For example, the numbers given to the items of a numbered list may be recorded with the <_:att-3/> attribute; this would make it possible to record errors in the numeration of the original, as in this list of chapters, transcribed from a faulty original in which the number 10 is used twice, and 11 is omitted: <_:egXML-4/> The <_:att-5/> attribute may also be used to record non-unique names associated with elements in a text, possibly together with a unique identifier as in the following example: <_:egXML-6/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:427
+msgid "As noted above there is no requirement to record a value for either the <_:att-1/> or the <_:att-2/> attribute. Any XML processor can identify the sequential position of one element within another in an XML document without any additional tagging. An encoding in which each line of a long poem is explicitly labelled with its numerical sequence such as the following <_:egXML-3/> is therefore probably redundant."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:439
+msgid "Language Indicators"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:448
+msgid "teiHeader"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:448
+msgid "text"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:440
+msgid "The <_:att-1/> attribute indicates the natural language and writing system applicable to the content of a given element. If it is not specified, the value is inherited from that of the immediately enclosing element. As a rule, therefore, it is simplest to specify the base language of the text on the <_:gi-2/> element, and allow most elements to take the default value for <_:att-3/>; the language of an element then need be explicitly specified only for elements in languages other than the base language. For this reason, it is recommended practice to supply a default value for the <_:att-4/> attribute, either on the <_:gi-5/> root element, or on both the <_:gi-6/> and the <_:gi-7/> element. The latter is appropriate in the not uncommon case where the text element in a TEI document uses a different default language from that of the TEI header attached to it. Other language shifts in the source should be explicitly identified by use of the <_:att-8/> attribute on an element at an appropriate level wherever possible."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:453
+msgid "In the following example schematic, an English language TEI header is attached to an English language text: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:464
+msgid "The same effect would be obtained by specifying the default language for both header and text: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:475
+msgid "The latter approach is necessary in the case where the two differ: for example, where an English language header is applied to a French text: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:486
+msgid "The same principle applies at any hierarchic level. In the following example, the default language of the text is French, but one section of it is in German: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:509
+msgid "term"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:510
+msgid "q"
+msgstr ""
+
+#. (itstool) path: q/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:512
+msgid "ex post facto"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/ST-Infrastructure.xml:512
+msgid "that no bill of attainder or <_:term-1/> law shall be passed."
+msgstr ""
+
+#. (itstool) path: egXML/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:511
+msgid "The constitution declares <_:q-1/> ..."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:508
+msgid "Similarly, in the following example the <_:att-1/> attribute on the <_:gi-2/> element allows us to record the fact that the technical terms used are Latin rather than English; no <_:att-3/> attribute is needed on the <_:gi-4/> element, by contrast, because it is in the same language as its parent. <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:515
+msgid "Note that in cases where it is advisable or necessary to identify the language of the text that is pointed at, the (non-global) attribute <_:att-1/> should be used, for example in <_:egXML-2/> the pointer references text written in French."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:518
+msgid "The values used for the <_:att-1/> and <_:att-2/> attributes must be constructed in a particular way, using values from standard lists. See further <_:ptr-3/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:521
+msgid "language"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:520
+msgid "Additional information about a particular language may be supplied in the <_:gi-1/> element within the header (see section <_:ptr-2/>)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:524
+msgid "Rendition Indicators"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: item/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:525
+#: Source/Guidelines/en/ST-Infrastructure.xml:527
+#: Source/Guidelines/en/ST-Infrastructure.xml:536
+#: Source/Guidelines/en/ST-Infrastructure.xml:538
+#: Source/Guidelines/en/ST-Infrastructure.xml:542
+#: Source/Guidelines/en/ST-Infrastructure.xml:596
+#: Source/Guidelines/en/ST-Infrastructure.xml:612
+msgid "rend"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#. (itstool) path: item/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:525
+#: Source/Guidelines/en/ST-Infrastructure.xml:535
+#: Source/Guidelines/en/ST-Infrastructure.xml:545
+#: Source/Guidelines/en/ST-Infrastructure.xml:546
+#: Source/Guidelines/en/ST-Infrastructure.xml:547
+#: Source/Guidelines/en/ST-Infrastructure.xml:570
+#: Source/Guidelines/en/ST-Infrastructure.xml:570
+#: Source/Guidelines/en/ST-Infrastructure.xml:582
+#: Source/Guidelines/en/ST-Infrastructure.xml:593
+#: Source/Guidelines/en/ST-Infrastructure.xml:599
+#: Source/Guidelines/en/ST-Infrastructure.xml:599
+#: Source/Guidelines/en/ST-Infrastructure.xml:611
+#: Source/Guidelines/en/ST-Infrastructure.xml:613
+msgid "rendition"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: item/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:525
+#: Source/Guidelines/en/ST-Infrastructure.xml:530
+#: Source/Guidelines/en/ST-Infrastructure.xml:536
+#: Source/Guidelines/en/ST-Infrastructure.xml:538
+#: Source/Guidelines/en/ST-Infrastructure.xml:543
+#: Source/Guidelines/en/ST-Infrastructure.xml:580
+#: Source/Guidelines/en/ST-Infrastructure.xml:601
+#: Source/Guidelines/en/ST-Infrastructure.xml:614
+msgid "style"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/ST-Infrastructure.xml:528
+#: Source/Guidelines/en/ST-Infrastructure.xml:531
+msgid "might"
+msgstr ""
+
+#. (itstool) path: p/name
+#: Source/Guidelines/en/ST-Infrastructure.xml:529
+#: Source/Guidelines/en/ST-Infrastructure.xml:532
+msgid "Bohemond"
+msgstr ""
+
+#. (itstool) path: egXML/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:528
+#: Source/Guidelines/en/ST-Infrastructure.xml:531
+msgid "... Their motives <_:emph-1/> be pure and pious; but he was equally alarmed by his knowledge of the ambitious <_:name-2/>, and his ignorance of the Transalpine chiefs: ..."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:533
+msgid "emph"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:525
+msgid "The <_:att-1/>, <_:att-2/>, and <_:att-3/> attributes are all used to give information about the physical presentation of the text in the source. In the following example, <_:att-4/> is used to indicate that both the emphasized word and the proper name are printed in italics: <_:egXML-5/> The same effect might be achieved using the <_:att-6/> attribute, as follows: <_:egXML-7/> If all or most <_:gi-8/> and <_:gi-9/> elements are rendered in the text by italics, it will be more convenient to register that fact in the TEI header once and for all (using the <_:gi-10/> element discussed below) and specify a <_:att-11/> or <_:att-12/> value only for any elements which deviate from the stated rendition."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:538
+msgid "The main difference between <_:att-1/> attribute and <_:att-2/> is that the value used for the former may contain one or more tokens from any vocabulary devised by the encoder, separated by space characters, whereas the value used for the latter must be a single string taken from a formally-defined style definition language such as CSS. The <_:att-3/> attribute values are sequence-indeterminate set of whitespace-separated tokens, whereas <_:att-4/> values allow whitespace and sequence relationships as part of the formally-defined style definition language."
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: ST-Infrastructure.xml#IT
+#: Source/Guidelines/en/ST-Infrastructure.xml:551
+msgid "font-style: italic;"
+msgstr ""
+
+#. (itstool) path: tagsDecl/rendition
+#. (itstool) id: ST-Infrastructure.xml#FontRoman
+#: Source/Guidelines/en/ST-Infrastructure.xml:553
+msgid "font-family: serif;"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:545
+msgid "The <_:gi-1/> element defined in <_:ptr-2/> may be used to hold repeatedly-used format descriptions. A <_:gi-3/> element can then be associated with any element, either by default, or by means of the global <_:att-4/> attribute. For example: <_:egXML-5/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:570
+msgid "The <_:att-1/> attribute always points to one or more <_:gi-2/> elements, each of which defines some aspect of the rendering or appearance of the text in its original form. These details may most conveniently be described using a formal style definition language, such as CSS (<_:ptr-3/>) or XSL-FO (<_:ptr-4/>); in some other formal language developed for a specific project; or even informally in running prose. Although languages such as CSS and XSL-FO are generally used to describe document output to screen or print, they nonetheless provide formal and precise mechanisms for describing the appearance of source documents, especially print documents, but also many aspects of manuscript documents. For example, both CSS and XSL-FO provide mechanisms for describing typefaces, weight, and styles; character and line spacing; and so on."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:580
+msgid "As noted above, the <_:att-1/> attribute is provided for encoders wishing to describe the appearance of individual source elements using a language such as CSS directly rather than by reference to a <_:gi-2/> element. Its value may be any expression in the chosen formal style definition language."
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:585
+msgid "properties"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:586
+msgid "values"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:584
+msgid "Formal definition languages such as CSS typically identity a series of <_:term-1/> (such as font-style or margin-left) for which <_:term-2/> are specified. A sequence of such property-value pairs makes up a stylesheet. The TEI uses such languages simply to describe the appearance of a source document, rather than to control how it should be formatted."
+msgstr ""
+
+#. (itstool) path: item/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:594
+msgid "selector"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:591
+msgid "One or more properties may be specified as the default for a set of elements (based on an external scheme, by default CSS), using <_:gi-1/> elements and their <_:att-2/> attributes;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:595
+msgid "One or more properties may be specified for individual element occurrences, using the <_:att-1/> attribute with any convenient set of one or more sequence-indeterminate tokens;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:598
+msgid "One or more properties may be specified for individual element occurrences, using the <_:att-1/> attribute to point to <_:gi-2/> elements;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:600
+msgid "One or more properties may be supplied explicitly for individual element occurrences, using the <_:att-1/> attribute."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:589
+msgid "In the TEI scheme, it is possible to supply information about the appearance of elements within a source document in the following distinct ways: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:604
+msgid "If the same property is specified in more than one of the above ways, the one with the highest number in the list above is understood to be applicable. The resulting properties from each way are then combined to provide the full set of property-value pairs applicable to the given element, and (by default) to all of its children."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:610
+msgid "scheme"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:608
+msgid "For simplicity of processing, the same formal style definition should be used throughout; however, the architecture does permit this to be varied, by using the <_:att-1/> attribute to indicate a different language for one or more <_:gi-2/> elements. Care should be taken to ensure that such values can be meaningfully combined. Similar considerations apply to the use of the <_:att-3/> attribute, if this is used in combination with either <_:att-4/> or <_:att-5/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:615
+msgid "Note that these TEI attributes always describe the rendition or appearance of the source document, <_:emph-1/> intended output renditions, although often the two may be closely related."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:622
+msgid "Sources, certainty, and responsibility"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:623
+#: Source/Guidelines/en/ST-Infrastructure.xml:664
+#: Source/Guidelines/en/ST-Infrastructure.xml:672
+#: Source/Guidelines/en/ST-Infrastructure.xml:678
+msgid "source"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:623
+msgid "The <_:att-1/> attribute is used to indicate the source of an element and its content, for example by pointing to a bibliographic citation for a quotation to indicate the source from which it derives. The target of the pointer may be an entry in a bibliographic list of some kind, or a pointer to a digital version of the source itself."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:631
+#: Source/Guidelines/en/ST-Infrastructure.xml:1347
+msgid "prefixDef"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:632
+msgid "bare name"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:633
+#: Source/Guidelines/en/ST-Infrastructure.xml:958
+msgid "bibl"
+msgstr ""
+
+#. (itstool) path: p/quote
+#: Source/Guidelines/en/ST-Infrastructure.xml:639
+#: Source/Guidelines/en/ST-Infrastructure.xml:657
+msgid "Grammatical theories are in flux, and the more we learn, the less we seem to know."
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: Source/Guidelines/en/ST-Infrastructure.xml:645
+msgid "The Chicago Manual of Style"
+msgstr ""
+
+#. (itstool) path: bibl/edition
+#: Source/Guidelines/en/ST-Infrastructure.xml:646
+msgid "15th edition"
+msgstr ""
+
+#. (itstool) path: bibl/pubPlace
+#: Source/Guidelines/en/ST-Infrastructure.xml:647
+msgid "Chicago"
+msgstr ""
+
+#. (itstool) path: bibl/publisher
+#: Source/Guidelines/en/ST-Infrastructure.xml:648
+msgid "University of Chicago Press"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: Source/Guidelines/en/ST-Infrastructure.xml:649
+msgid "2003"
+msgstr ""
+
+#. (itstool) path: bibl/biblScope
+#: Source/Guidelines/en/ST-Infrastructure.xml:650
+msgid "p.147"
+msgstr ""
+
+#. (itstool) path: egXML/bibl
+#. (itstool) id: ST-Infrastructure.xml#chicago-15_ed
+#: Source/Guidelines/en/ST-Infrastructure.xml:645
+msgid "<_:title-1/>, <_:edition-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>), <_:biblScope-6/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:627
+msgid "As with other TEI pointers, the value of this attribute is expressed as any form of URI, for example an absolute URL, a relative URL, or a private scheme URI that is expanded to a relative or absolute URL as documented in a <_:gi-1/>. In the following typical example a relative <_:soCalled-2/> URL value is used to point to a <_:gi-3/> elsewhere in the bibliography of the document which contains a bibliographic source for the quotation itself: <_:egXML-4/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:652
+msgid "Alternatively, the quotation might be directly linked to the online edition of this source using a full URI : <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:665
+#: Source/Guidelines/en/ST-Infrastructure.xml:667
+#: Source/Guidelines/en/ST-Infrastructure.xml:678
+msgid "elementRef"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:667
+#: Source/Guidelines/en/ST-Infrastructure.xml:992
+#: Source/Guidelines/en/ST-Infrastructure.xml:995
+msgid "p"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:664
+msgid "The <_:att-1/> attribute is also used on schema documentation elements such as <_:gi-2/> or <_:gi-3/> to indicate the location from which declarations for the components being defined may be obtained by an ODD processor. For example, a customization wishing to include the <_:gi-4/> element specifically as it was in version 2.0.1 of TEI P5 would indicate the source for this on an <_:gi-5/> element like the following: <_:egXML-6/> Here the value of the <_:att-7/> attribute is provided using private URI syntax, using a short cut predefined for the TEI Guidelines. More generally, an ODD customization can point to a URI from which a compiled version of any ODD can be downloaded. The above shortcut is equivalent to <_:egXML-8/> Elements such as <_:gi-9/> or <_:gi-10/> can use the <_:att-11/> attribute in this way to point to any previously compiled set of TEI ODD specifications which are to be included in a schema, as further discussed in section <_:ptr-12/>"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:682
+#: Source/Guidelines/en/ST-Infrastructure.xml:690
+msgid "cert"
+msgstr ""
+
+#. (itstool) path: choice/sic
+#: Source/Guidelines/en/ST-Infrastructure.xml:688
+msgid "cheesemakers"
+msgstr ""
+
+#. (itstool) path: choice/corr
+#. (itstool) path: egXML/corr
+#: Source/Guidelines/en/ST-Infrastructure.xml:688
+#: Source/Guidelines/en/ST-Infrastructure.xml:698
+msgid "peacemakers"
+msgstr ""
+
+#. (itstool) path: choice/corr
+#. (itstool) path: egXML/corr
+#: Source/Guidelines/en/ST-Infrastructure.xml:688
+#: Source/Guidelines/en/ST-Infrastructure.xml:699
+msgid "placemakers"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/ST-Infrastructure.xml:687
+msgid "Blessed are the <_:choice-1/>: for they shall be called the children of God."
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:690
+msgid "high"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:690
+msgid "medium"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:690
+msgid "low"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:691
+msgid "0"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:692
+msgid "1"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:682
+msgid "The <_:att-1/> attribute provides a method of indicating the encoder's certainty concerning an intervention or interpretation represented by the markup. It is typically used where the encoder wishes to supply one or more possible corrections to a text, indicating the certainty they wish to attach to each, as in the following example: <_:egXML-2/> The <_:att-3/> attribute will usually, as here, characterize the degree of certainty simply as <_:val-4/>, <_:val-5/> or <_:val-6/>. In situations where a more detailed or nuanced indication is required, it can instead supply a probability value between <_:val-7/> (minimal probability) and <_:val-8/> (maximal probability). Other more sophisticated mechanisms are discussed in chapter <_:ptr-9/>."
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:694
+#: Source/Guidelines/en/ST-Infrastructure.xml:701
+msgid "resp"
+msgstr ""
+
+#. (itstool) path: p/egXML
+#: Source/Guidelines/en/ST-Infrastructure.xml:697
+msgid "... <_:corr-1/> <_:corr-2/>..."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:701
+#: Source/Guidelines/en/ST-Infrastructure.xml:721
+#: Source/Guidelines/en/ST-Infrastructure.xml:1313
+msgid "person"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:702
+#: Source/Guidelines/en/ST-Infrastructure.xml:720
+#: Source/Guidelines/en/ST-Infrastructure.xml:721
+msgid "respStmt"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:702
+msgid "author"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:702
+msgid "editor"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: choice/corr
+#: Source/Guidelines/en/ST-Infrastructure.xml:703
+#: Source/Guidelines/en/ST-Infrastructure.xml:710
+msgid "u"
+msgstr ""
+
+#. (itstool) path: lg/l
+#: Source/Guidelines/en/ST-Infrastructure.xml:709
+msgid "Punkes, Panders, baſe extortionizing sla<_:choice-1/>es,"
+msgstr ""
+
+#. (itstool) path: respStmt/resp
+#: Source/Guidelines/en/ST-Infrastructure.xml:716
+msgid "Transcriber"
+msgstr ""
+
+#. (itstool) path: respStmt/name
+#: Source/Guidelines/en/ST-Infrastructure.xml:717
+msgid "Janelle Jenstad"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:694
+msgid "The <_:att-1/> attribute is used to indicate the person or organization considered responsible for some aspects of the information encoded by an element. For example, the preceding example might be revised as follows to indicate the editors responsible for the two corrections: <_:egXML-2/> When a more detailed or nuanced representation of responsibility is required, it is recommended that the element indicated by the <_:att-3/> attribute should not be a generic agent (for example a <_:gi-4/> or <_:gi-5/>) but a more precise element such as <_:gi-6/>, <_:gi-7/>, or <_:gi-8/> which can document the exact role played by the agent. In the following example, we indicate that the correction of <_:val-9/> to <_:val-10/> was made by a particular named transcriber: <_:egXML-11/> Pointing to multiple <_:gi-12/>s allows the encoder to specify clearly each of the roles played in part of a TEI file (creating, transcribing, encoding, editing, proofing etc.). If appropriate, the <_:gi-13/> element inside a <_:gi-14/> may also be associated with a more detailed <_:gi-15/> or <_:gi-16/> element using methods discussed in chapter <_:ptr-17/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:726
+msgid "Evaluation of Links"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:727
+msgid "anyURI"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:727
+msgid "Several TEI elements carry attributes whose values are defined as <_:code-1/>, meaning that such attributes supply a link or pointer, typically expressed as a URL. Like other XML applications, the TEI allows use of a special attribute to set the context within which relative URLs are to be evaluated. The global attribute <_:att-2/> is defined as part of the XML specification and belongs to the XML namespace rather than the TEI namespace. We do not describe it in detail here: reference information about <_:att-3/> is provided by <_:ptr-4/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:750
+#: Source/Guidelines/en/ST-Infrastructure.xml:753
+msgid "ptr"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:751
+#: Source/Guidelines/en/ST-Infrastructure.xml:753
+#: Source/Guidelines/en/ST-Infrastructure.xml:957
+#: Source/Guidelines/en/ST-Infrastructure.xml:1038
+msgid "div"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:752
+msgid "http://www.example.org/elsewhere.xml"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:735
+msgid "In essence <_:att-1/> is used to set a context for all relative URLs within the scope of the element on which it is specified. For example: <_:egXML-2/>The first <_:gi-3/> element here is within the scope of a <_:gi-4/> which supplies a value for <_:att-5/>; its target is therefore to be found at <_:code-6/>. The second <_:gi-7/>, however, is within the scope of a <_:gi-8/> which does not change the default context, and its target is therefore a document in the same directory as the current document."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:761
+msgid "#id"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:761
+msgid "id"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/ST-Infrastructure.xml:762
+msgid "RFC 3986"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:756
+msgid "The <_:att-1/> attribute is intended to enable the stable resolution of relative URIs in a document after that document's context may have changed (for example as a result of being embedded in another document via XInclude). Setting the <_:att-2/> simply as a way to allow encoders to write shorter URIs is not recommended. In particular, <_:att-3/> may cause ambiguity as to the referent of same-document references in the form <_:code-4/> (where <_:code-5/> is an <_:att-6/>). <_:ref-7/> states that URIs of this type should not result in the loading of a different document. The RFC therefore assumes that such references are internal to the document in which they are located. Using <_:att-8/> to denote arbitrary external bases while also using same-document references may mean that software agents deal with these links in unexpected and inconsistent ways. Further discussion of this attribute and its effect on TEI linking methods is provided in chapter <_:ptr-9/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:771
+msgid "XML Whitespace"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/ST-Infrastructure.xml:777
+msgid "section 2.10 of the XML Specification"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:772
+msgid "The global attribute <_:att-1/> provides a mechanism for indicating to systems processing an XML file how they should treat whitespace, that is, any sequences of consecutive tab (#x09), space (#x20), carriage return (#x0D) or linefeed (#x0A) characters. Like <_:att-2/> this attribute is defined as part of the XML specification and belongs to the XML namespace rather than the TEI namespace. Complete information about this attribute is provided by <_:ref-3/>; here we provide a summary of how its use affects users of the TEI scheme."
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:780
+#: Source/Guidelines/en/ST-Infrastructure.xml:843
+msgid "preserve"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:781
+msgid "default"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:784
+msgid "as appropriate"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:780
+msgid "The <_:att-1/> attribute has only two permitted values: <_:val-2/> and <_:val-3/>. The first indicates that whitespace in a text node—every carriage return, every tab, etc.—should be maintained as is when the document is processed. The second (which is implied when the attribute is not supplied), indicates that whitespace should be handled <_:soCalled-4/>. Exactly what is deemed appropriate is left unspecified by the XML Recommendation."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:790
+#: Source/Guidelines/en/ST-Infrastructure.xml:795
+msgid "choice"
+msgstr ""
+
+#. (itstool) path: choice/sic
+#: Source/Guidelines/en/ST-Infrastructure.xml:792
+msgid "1724"
+msgstr ""
+
+#. (itstool) path: choice/corr
+#: Source/Guidelines/en/ST-Infrastructure.xml:793
+msgid "1728"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:796
+#: Source/Guidelines/en/ST-Infrastructure.xml:796
+msgid "sic"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:796
+msgid "corr"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:786
+msgid "These Guidelines assume one of two different ways of processing whitespace will apply in a given case, depending on an element's content model. For an element that can contain only other elements with no intervening non-whitespace characters, whitespace is considered to have no semantic significance, and should therefore be discarded by a processor. For example, in a <_:gi-1/> element, such as <_:egXML-2/> since non-whitespace text is not permitted between the <_:gi-3/> start-tag and the <_:gi-4/> tags or between the <_:gi-5/> and <_:gi-6/> tags, any whitespace found there has no significance and can be ignored completely by a processor."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:799
+#: Source/Guidelines/en/ST-Infrastructure.xml:1008
+msgid "address"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:799
+msgid "Similarly, the <_:gi-1/> element has a content model containing only elements: any punctuation or whitespace required between the lines of an address must therefore be supplied by the processor, as any whitespace present in the input document will be ignored."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:804
+msgid "stripspace.xsl.model"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:804
+msgid "xsl:strip-space"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:803
+msgid "Elements with content models of this type are comparatively unusual in the TEI: a list of them is provided in the TEI release file <_:ident-1/>, formatted there for use as an <_:gi-2/> command for XSL stylesheets."
+msgstr ""
+
+#. (itstool) path: persName/forename
+#: Source/Guidelines/en/ST-Infrastructure.xml:813
+msgid "Edward"
+msgstr ""
+
+#. (itstool) path: persName/forename
+#: Source/Guidelines/en/ST-Infrastructure.xml:814
+msgid "George"
+msgstr ""
+
+#. (itstool) path: persName/surname
+#: Source/Guidelines/en/ST-Infrastructure.xml:815
+msgid "Bulwer-Lytton"
+msgstr ""
+
+#. (itstool) path: roleName/placeName
+#: Source/Guidelines/en/ST-Infrastructure.xml:816
+msgid "Knebworth"
+msgstr ""
+
+#. (itstool) path: persName/roleName
+#: Source/Guidelines/en/ST-Infrastructure.xml:815
+msgid "Baron Lytton of <_:placeName-1/>"
+msgstr ""
+
+#. (itstool) path: egXML/persName
+#: Source/Guidelines/en/ST-Infrastructure.xml:812
+msgid "<_:forename-1/> <_:forename-2/> <_:surname-3/>, <_:roleName-4/>"
+msgstr ""
+
+#. (itstool) path: p/q
+#: Source/Guidelines/en/ST-Infrastructure.xml:819
+msgid "Edward George Bulwer-Lytton, Baron Lytton of Knebworth"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:806
+msgid "Most TEI elements permit what is known as mixed-content: that is, they can contain both text and other elements. Here the assumption of these Guidelines is that whitespace will be normalized. This means that all space, carriage return, linefeed, and tab characters are converted into spaces, all consecutive spaces are then deleted and replaced by one space, and then space immediately after a start-tag or immediately before an end-tag is deleted. The result is that this encoding, <_:egXML-1/> would be rendered as <_:q-2/>. The space before his name has been removed, a space is included between his forenames, the comma is preserved, and the newlines within his name have all been removed."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:840
+msgid "encodingDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:839
+msgid "If the default treatment described above is not appropriate for a mixed content element, the processing required may be described in the <_:gi-1/> element of the TEI header, but generic XML processing tools may not take note of this."
+msgstr ""
+
+#. (itstool) path: p/tag
+#: Source/Guidelines/en/ST-Infrastructure.xml:846
+msgid "persName xml:space=\"preserve\""
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:842
+msgid "Alternatively, the <_:att-1/> attribute may be supplied with a value of <_:val-2/> in order to indicate that every space, tab, carriage return and linefeed character found within that element in the document being processed is significant. Typically, the result of that processing will be to retain the whitespace characters in the output. Thus if the above example began <_:tag-3/>, the resulting text would most likely be rendered over five lines, indented, and with a blank line following."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:849
+msgid "xml:space=\"preserve\""
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:851
+msgid "lb"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:851
+msgid "space"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:849
+msgid "The <_:code-1/> attribute is rarely used in TEI documents because such layout features are generally captured with less risk and more precision by using native TEI elements such as <_:gi-2/> or <_:gi-3/>, or by using the renditional attributes described in section <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:853
+msgid "Other Globally Available Attributes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:859
+msgid "class name"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:859
+msgid "module name"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:859
+msgid "see further"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:860
+msgid "att.global.linking"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:861
+msgid "att.global.analytic"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:862
+msgid "att.global.facs"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: Source/Guidelines/en/ST-Infrastructure.xml:863
+msgid "att.global.change"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:854
+msgid "The following table lists for convenience other potentially available global attributes. The table specifies the name of the attribute class providing the attributes concerned, the module which must be included in a schema if the attributes are to be made available, and the section of these Guidelines where the class is discussed. <_:table-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:932
+msgid "Model Classes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:933
+msgid "As noted above, the members of a given TEI model class share the property that they can all appear in the same location within a document. Wherever possible, the content model of a TEI element is expressed not directly in terms of specific elements, but indirectly in terms of particular model classes. This makes content models simpler and more consistent; it also makes them much easier to understand and to modify."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:938
+msgid "Like attribute classes, model classes may have subclasses or superclasses. Just as elements inherit from a class the ability to appear in certain locations of a document (wherever the class can appear), so all members of a subclass inherit the ability to appear wherever any superclass can appear. To some extent, the class system thus provides a way of reducing the whole TEI galaxy of elements into a tidy hierarchy. This is however not entirely the case."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:950
+msgid "set of places where class members are permitted"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:944
+msgid "In fact, the nature of a given class of elements can be considered along two dimensions: as noted, it defines a set of places where the class members are permitted within the document hierarchy; it also implies a semantic grouping of some kind. For example, the very large class of elements which can appear within a paragraph comprises a number of other classes, all of which have the same structural property, but which differ in their field of application. Some are related to highlighting, while others relate to names or places, and so on. In some cases, the <_:soCalled-1/> is very constrained: it may just be within one specific element, or one class of element, for example. In other cases, elements may be permitted to appear in very many places, or in more than one such set of places."
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:955
+msgid "part"
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:955
+#: Source/Guidelines/en/ST-Infrastructure.xml:957
+#: Source/Guidelines/en/ST-Infrastructure.xml:1022
+#: Source/Guidelines/en/ST-Infrastructure.xml:1040
+#: Source/Guidelines/en/ST-Infrastructure.xml:1047
+msgid "model.divPart"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:955
+#: Source/Guidelines/en/ST-Infrastructure.xml:958
+msgid "model.biblPart"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:959
+msgid "like"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:959
+msgid "model.biblLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:959
+#: Source/Guidelines/en/ST-Infrastructure.xml:965
+msgid "model.nameLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:963
+msgid "model.pPart.data"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:963
+msgid "data elements that form part of a paragraph"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:965
+msgid "model.addressLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:965
+msgid "model.dateLike"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:965
+msgid "model.measureLike"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:954
+msgid "These factors are reflected in the way that model classes are named. If a model class has a name containing <_:val-1/>, such as <_:ident-2/> or <_:ident-3/> then it is primarily defined in terms of its structural location. For example, those elements (or classes of element) which appear as content of a <_:gi-4/> constitute the <_:ident-5/> class; those which appear as content of a <_:gi-6/> constitute the <_:ident-7/> class. If, however, a model class has a name containing <_:val-8/>, such as <_:ident-9/> or <_:ident-10/>, the implication is that its members all have some additional semantic property in common, for example containing a bibliographic description, or containing some form of name, respectively. These semantically-motivated classes often provide a useful way of dividing up large structurally-motivated classes: for example, the very general structural class <_:ident-11/> (<_:soCalled-12/>) has four semantically-motivated member classes (<_:ident-13/>, <_:ident-14/>, <_:ident-15/>, and <_:ident-16/>), the last of these being itself a superclass with several members."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:970
+msgid "top down"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:967
+msgid "Although most classes are defined by the <_:ident-1/> infrastructure module, a class cannot be populated unless some other specific module is included in a schema, since element declarations are contained by modules. Classes are not declared <_:soCalled-2/>, but instead gain their members as a consequence of individual elements' declaration of their membership. The same class may therefore contain different members, depending on which modules are active. Consequently, the content model of a given element (being expressed in terms of model classes) may differ depending on which modules are active."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:978
+msgid "model.rdgLike"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:980
+msgid "rdg"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:975
+msgid "Some classes contain only a single member, even when all modules are loaded. One reason for declaring such a class is to make it easier for a customization to add new member elements in a specific place, particularly in areas where the TEI does not make fully elaborated proposals. For example, the TEI class <_:ident-1/>, initially empty, is expanded by the <_:ident-2/> module to include just the TEI <_:gi-3/> element. A project wishing to add an alternative way of structuring text-critical information could do so by defining their own elements and adding it to this class."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:985
+#: Source/Guidelines/en/ST-Infrastructure.xml:988
+msgid "g"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:986
+msgid "model.gLike"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:983
+msgid "Another reason for declaring single-member classes is where the class members are not needed in all documents, but appear in the same place as elements which are very frequently required. For example, the specialized element <_:gi-1/> used to represent a non-Unicode character or glyph is provided as the only member of the <_:ident-2/> class when the <_:ident-3/> module is added to a schema. References to this class are included in almost every content model, since if it is used at all the <_:gi-4/> must be available wherever text is available; however these references have no effect unless the gaiji module is loaded."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:991
+msgid "model.pPart.edit"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:990
+msgid "At the other end of the scale, a few of the classes predefined by the tei module are subsequently populated with very many members. For example, the class <_:ident-1/> groups all the classes of element for simple editorial correction and transcription which can appear within a <_:gi-2/> or paragraph element. The <_:ident-3/> module alone adds more than fifty elements to this class; the <_:ident-4/> module adds another twenty, as does the <_:ident-5/> module. Since the <_:gi-6/> element is one of the basic building blocks of a TEI document it is not surprising that each module will need to add elements to it. The class system here provides a very convenient way of controlling the resulting complexity. Typically, elements are not added directly to these very general classes, but via some intermediate semantically-motivated class."
+msgstr ""
+
+#. (itstool) path: note/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:1006
+msgid "crystals"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/ST-Infrastructure.xml:1004
+msgid "In former editions of these Guidelines, such elements were known metaphorically as <_:soCalled-1/>."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1007
+msgid "model.addrPart"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1000
+msgid "Just as there are a few classes which have a single member, so there are some classes which are used only once in the TEI architecture. These classes, which have no superclass and therefore do not fit into the class hierarchy defined here, are a convenient way of maintaining elements which are highly structured internally, but which appear from the outside to be uniform objects like others at the same level.<_:note-1/> Members of such classes can only ever appear within one element, or one class of elements. For example, the class <_:ident-2/> is used only to express the content model for the element <_:gi-3/>; it references some other classes of elements, which can appear elsewhere, and also some elements which can only appear inside an address."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:1011
+msgid "Informal Element Classifications"
+msgstr ""
+
+#. (itstool) path: label/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1014
+msgid "divisions"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1016
+msgid "model.divLike"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1016
+msgid "model.div1Like"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:1015
+msgid "high level, possibly self-nesting, major divisions of texts. These elements populate such classes as <_:ident-1/> or <_:ident-2/>, and typically form the largest component units of a text."
+msgstr ""
+
+#. (itstool) path: label/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1018
+msgid "chunks"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1023
+#: Source/Guidelines/en/ST-Infrastructure.xml:1041
+msgid "model.pLike"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1023
+#: Source/Guidelines/en/ST-Infrastructure.xml:1048
+msgid "model.entryLike"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:1020
+msgid "elements such as paragraphs and other paragraph-level elements, which can appear directly within texts or within divisions of them, but not (usually) within other chunks. These elements populate the class <_:ident-1/>, either directly or by means of other classes such as <_:ident-2/> (paragraph-like elements), <_:ident-3/>, etc."
+msgstr ""
+
+#. (itstool) path: label/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1024
+msgid "phrase-level elements"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1028
+#: Source/Guidelines/en/ST-Infrastructure.xml:1040
+#: Source/Guidelines/en/ST-Infrastructure.xml:1041
+msgid "model.phrase"
+msgstr ""
+
+#. (itstool) path: note/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1029
+msgid "phrase"
+msgstr ""
+
+#. (itstool) path: item/note
+#: Source/Guidelines/en/ST-Infrastructure.xml:1028
+msgid "Note that in this context, <_:term-1/> means any string of characters, and can apply to individual words, parts of words, and groups of words indifferently; it does not refer only to linguistically-motivated phrasal units. This may cause confusion for readers accustomed to applying the word in a more restrictive sense."
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:1026
+msgid "elements such as highlighted phrases, book titles, or editorial corrections which can occur only within chunks, but not between them (and thus cannot appear directly within a division). These elements populate the class <_:ident-1/>.<_:note-2/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1012
+msgid "Most TEI elements may also be informally classified as belonging to one of the following groupings: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: label/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1036
+msgid "inter-level elements"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1039
+#: Source/Guidelines/en/ST-Infrastructure.xml:1041
+#: Source/Guidelines/en/ST-Infrastructure.xml:1047
+msgid "model.inter"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:1037
+msgid "elements such as lists, notes, quotations, etc. which can appear either between chunks (as children of a <_:gi-1/>) or within them; these elements populate the class <_:ident-2/>. Note that this class is not a superset of the <_:ident-3/> and <_:ident-4/> classes but rather a distinct grouping of elements which are both chunk-like and phrase-like. However, the classes <_:ident-5/>, <_:ident-6/>, and <_:ident-7/> are all disjoint."
+msgstr ""
+
+#. (itstool) path: label/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1042
+msgid "components"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1046
+msgid "model.common"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/ST-Infrastructure.xml:1044
+msgid "elements which can appear directly within texts or text divisions; this is a combination of the inter- and chunk- level elements defined above. These elements populate the class <_:ident-1/>, which is defined as a superset of the classes <_:ident-2/>, <_:ident-3/>, and (when the dictionary module is included in a schema) <_:ident-4/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1035
+msgid "The TEI also identifies two further groupings derived from these three: <_:list-1/> Broadly speaking, the front, body, and back of a text each comprises a series of components, optionally grouped into divisions."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1051
+msgid "As noted above, some elements do not belong to any model class, and some model classes are not readily associated with any of the above informal groupings. However, over two-thirds of the elements defined in the present edition of these Guidelines are classified in this way, and future editions of these recommendations will extend and develop this classification scheme."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1056
+msgid "A complete alphabetical list of all model classes is provided in <_:ptr-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:1173
+msgid "Macros"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1174
+msgid "The infrastructure module defined by this chapter also declares a number of <_:term-1/>, or shortcut names for frequently occurring parts of other declarations. Macros are used in two ways in the TEI scheme: to stand for frequently-encountered content models, or parts of content models (<_:ptr-2/>); and to stand for attribute datatypes (<_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:1182
+msgid "Standard Content Models"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1183
+msgid "As far as possible, the TEI schemas use the following set of frequently-encountered content models to help achieve consistency among different elements. <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1196
+msgid "The present version of the TEI Guidelines includes some different elements. <_:ptr-1/> shows, in descending order of frequency, the seven most commonly used content models."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:1209
+msgid "Datatype Specifications"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1211
+msgid "datatype specification"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/ST-Infrastructure.xml:1212
+msgid "W3C Schema Datatypes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1210
+msgid "The values which attributes may take in a TEI schema are defined, for the most part, by reference to a TEI <_:term-1/>. Each such specification is defined in terms of other primitive datatypes, derived mostly from <_:ref-2/>, literal values, or other datatypes. This indirection makes it possible for a TEI application to set constraints either globally or in individual cases, by redefining the datatype definition or the reference to it respectively. In some cases, the TEI datatype includes additional usage constraints which cannot be enforced by existing schema languages, although a TEI-compliant processor should attempt to validate them (see further discussion in chapter <_:ptr-3/>)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1219
+msgid "The following element is used to define a TEI datatype: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1223
+msgid "TEI-defined datatypes may be grouped into those which define normalized values for numeric quantities, probabilities, or temporal expressions, those which define various kinds of shorthand codes or keys, and those which define pointers or links."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1226
+msgid "The following datatypes are used for attributes which are intended to hold normalized values of various kinds. First, expressions of quantity or probability: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1235
+msgid "teidata.probability"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1236
+msgid "degree"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:1236
+msgid "damage"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1237
+msgid "teidata.numeric"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1237
+msgid "quantity"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1238
+msgid "att.measurement"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1238
+msgid "value"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:1239
+msgid "numeric"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1239
+msgid "teidata.count"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1240
+msgid "cols"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:1240
+msgid "cell"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:1240
+msgid "table"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1235
+msgid "Examples of attributes using the <_:ident-1/> datatype include <_:att-2/> on <_:gi-3/> or <_:gi-4/>; examples of <_:ident-5/> include <_:att-6/> on members of the <_:ident-7/> class or <_:att-8/> on <_:gi-9/>; examples of <_:ident-10/> include <_:att-11/> on <_:gi-12/> and <_:gi-13/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1248
+msgid "Next, the datatypes used for attributes which are intended to hold normalized dates or times, durations, truth values, and language identifiers: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/ST-Infrastructure.xml:1261
+msgid "XML Schema Part 2: Datatypes Second Edition"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1259
+msgid "Note that in each of these cases the values used are those recommended by existing international standards: ISO 8601 as profiled by <_:title-1/> in the case of durations, times, and date; W3C Schema datatypes in the case of truth values; and BCP 47 in the case of language."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1275
+msgid "The following datatypes have more specialized uses: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1300
+msgid "By far the largest number of TEI attributes take values which are coded values or names of some kind. These values may be constrained or defined in a number of different ways, each of which is given a different name, as follows: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1312
+#: Source/Guidelines/en/ST-Infrastructure.xml:1334
+#: Source/Guidelines/en/ST-Infrastructure.xml:1357
+msgid "teidata.word"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1312
+msgid "age"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1317
+#: Source/Guidelines/en/ST-Infrastructure.xml:1326
+#: Source/Guidelines/en/ST-Infrastructure.xml:1337
+msgid "cholmondeley"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1317
+#: Source/Guidelines/en/ST-Infrastructure.xml:1326
+#: Source/Guidelines/en/ST-Infrastructure.xml:1337
+msgid "été"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1318
+#: Source/Guidelines/en/ST-Infrastructure.xml:1327
+#: Source/Guidelines/en/ST-Infrastructure.xml:1338
+msgid "1234"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1318
+#: Source/Guidelines/en/ST-Infrastructure.xml:1337
+msgid "e_content"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1318
+#: Source/Guidelines/en/ST-Infrastructure.xml:1327
+#: Source/Guidelines/en/ST-Infrastructure.xml:1338
+msgid "grand wazoo"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1312
+msgid "Attributes of type <_:ident-1/>, such as <_:att-2/> on <_:gi-3/>, are used to supply an identifier expressed as any kind of single token or word. The TEI places a few constraints on the characters which may be used for this purpose: only Unicode characters classified as letters, digits, punctuation characters, or symbols can appear in an attribute value of this kind. Note in particular that such values cannot include whitespace characters. Legal values include <_:val-4/>, <_:val-5/>, <_:val-6/>, <_:val-7/>, or <_:val-8/>, but not <_:val-9/>. Attributes of this kind are sometimes used to associate (by co-reference) elements of different types."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1325
+msgid "teidata.text"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1327
+msgid "e-content"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:1329
+msgid "n=\"a  b\""
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:1329
+msgid "n=\"a   b\""
+msgstr ""
+
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/ST-Infrastructure.xml:1332
+msgid "will"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1321
+msgid "Where identifiers are defined externally, for example as part of a database or file system, the inability to include whitespace or other special characters in a value may be problematic. In other cases, it may also be simply more convenient to supply a short sequence of natural language words including spaces as a single value. For these reasons, we also provide a datatype <_:ident-1/> which does permit whitespace and indeed any other Unicode character. Legal values include <_:val-2/>, <_:val-3/>, <_:val-4/>, <_:val-5/>, <_:val-6/>, and <_:val-7/>. This datatype should be used with care since XML will not normalize whitespace characters within it: for example the values <_:code-8/> (two spaces) and <_:code-9/> (three spaces) would be considered distinct. This case should be distinguished from that of an attribute permitting multiple values, each of which may be separated by whitespace which <_:emph-10/> be normalized (see further <_:ptr-11/>)."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1333
+#: Source/Guidelines/en/ST-Infrastructure.xml:1341
+msgid "teidata.name"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1333
+msgid "Attributes of type <_:ident-1/> are similar to those of type <_:ident-2/>, but with the additional constraint that they must be legal XML identifiers, as defined by the XML 1.0 specification, or successors. Hence, they may not begin with digits or punctuation characters. Legal identifiers include <_:val-3/>, <_:val-4/>, <_:val-5/>, or <_:val-6/>, but not <_:val-7/> or <_:val-8/>. Attributes of this kind are typically used to represent XML element or attribute names."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1340
+msgid "teidata.xmlName"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: Source/Guidelines/en/ST-Infrastructure.xml:1343
+msgid ":"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1340
+msgid "Attributes of type <_:ident-1/> are similar to those of type <_:ident-2/>, but with the additional constraint that they must not contain a colon character (<_:mentioned-3/>, U+003A). Thus attributes of this kind are used to represent XML element or attribute names that do not have a namespace prefix."
+msgstr ""
+
+#. (itstool) path: p/ident
+#. (itstool) path: note/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1346
+#: Source/Guidelines/en/ST-Infrastructure.xml:1352
+msgid "teidata.prefix"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1346
+msgid "ident"
+msgstr ""
+
+#. (itstool) path: note/ref
+#: Source/Guidelines/en/ST-Infrastructure.xml:1348
+msgid "the specification"
+msgstr ""
+
+#. (itstool) path: note/mentioned
+#: Source/Guidelines/en/ST-Infrastructure.xml:1350
+msgid "A-Z"
+msgstr ""
+
+#. (itstool) path: note/quote
+#: Source/Guidelines/en/ST-Infrastructure.xml:1350
+msgid "the canonical form is lowercase and documents that specify schemes must do so with lowercase letters"
+msgstr ""
+
+#. (itstool) path: p/note
+#: Source/Guidelines/en/ST-Infrastructure.xml:1348
+msgid "Technically <_:ref-1/> permits the 26 uppercase letters <_:mentioned-2/>; however, since <_:quote-3/>, the TEI <_:ident-4/> datatype does not permit uppercase letters."
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1354
+msgid "http"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1354
+msgid "https"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1354
+msgid "tn3270"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1355
+msgid "xmlrpc.beep"
+msgstr ""
+
+#. (itstool) path: p/val
+#: Source/Guidelines/en/ST-Infrastructure.xml:1355
+msgid "view-source"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1346
+msgid "Attributes of type <_:ident-1/>, such as <_:att-2/> of <_:gi-3/>, are restricted to strings that form legal URI prefixes.<_:note-4/> Examples of valid values are <_:val-5/>, <_:val-6/>, <_:val-7/>, <_:val-8/>, and <_:val-9/>."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1356
+#: Source/Guidelines/en/ST-Infrastructure.xml:1362
+msgid "teidata.enumerated"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1357
+msgid "new"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ST-Infrastructure.xml:1357
+msgid "shift"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1357
+msgid "evidence"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1357
+msgid "att.editLike"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1356
+msgid "Attributes of type <_:ident-1/>, such as <_:att-2/> on <_:gi-3/> or <_:att-4/> supplied by <_:ident-5/>, have the same definition as <_:ident-6/> above, with the added constraint that the word supplied is taken from a specific list of possibilities. In each case, the element or class specification which includes the definition for the attribute will also contain a list of possible values, together with a prose description of their intended significance. This list may be open (in which case the list is advisory), or closed (in which case it determines the range of legal values). In this latter case, the datatype will not be <_:ident-7/>, but an explicit list of the possible values."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:1374
+#: Source/Guidelines/en/ST-Infrastructure.xml:1375
+msgid "datatype"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1376
+msgid "minOccurs"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ST-Infrastructure.xml:1376
+msgid "maxOccurs"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1372
+msgid "An attribute may, of course, take more than one value of a given type, for example a list of pointer values, or a list of words. In the TEI scheme, this information is regarded as a property of the <_:gi-1/> element used to document the attribute in question rather than as a distinct <_:soCalled-2/>, and is provided by the <_:att-3/> or <_:att-4/> attribute. See further <_:ptr-5/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1377
+msgid "In a small number of cases, an attribute may take a value of either one datatype or another. These cases are considered as distinct datatypes: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:1393
+msgid "The TEI Infrastructure Module"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/ST-Infrastructure.xml:1400
+msgid "Declarations for classes, datatypes, and macros available to all TEI modules"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/ST-Infrastructure.xml:1401
+msgid "Infrastructure de la TEI"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/ST-Infrastructure.xml:1402
+msgid "所有TEI模組可用的元素集、資料類型、巨集指令之宣告"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/ST-Infrastructure.xml:1403
+msgid "Dichiarazione di classi, tipi di dati (datatype)e macro disponibili in tutti i moduli TEI"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/ST-Infrastructure.xml:1404
+msgid "Declaraçoes de classes, tipos de dados, e macros disponíveis em todos os módulos TEI"
+msgstr ""
+
+#. (itstool) path: moduleSpec/desc
+#: Source/Guidelines/en/ST-Infrastructure.xml:1405
+msgid "全TEIモジュールで使用可能なデータ型，クラス，マクロ．"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1394
+msgid "The <_:ident-1/> module defined by this chapter is a required component of any TEI schema. It provides declarations for all datatypes, and initial declarations for the attribute classes, model classes, and macros used by other modules in the TEI scheme. Its components are listed below in alphabetical order: <_:moduleSpec-2/>"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1412
+msgid "parameter entities"
+msgstr ""
+
+#. (itstool) path: p/term
+#: Source/Guidelines/en/ST-Infrastructure.xml:1412
+msgid "marked sections"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: Source/Guidelines/en/ST-Infrastructure.xml:1414
+msgid "notAllowed"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1408
+msgid "The order in which declarations are made within the infrastructure module is critical, since several class declarations refer to others, which must therefore precede them. Other constraints on the order of declarations derive from the way in which the modularity of the TEI scheme is implemented in different schema languages. The XML DTD fragment implementing this TEI module makes extensive use of <_:term-1/> and <_:term-2/> to effect a kind of conditional construction; the RELAX NG schema fragment similarly predeclares a number of patterns with null (<_:soCalled-3/>) values. These issues are further discussed in chapter <_:ptr-4/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ST-Infrastructure.xml:1418
+msgid "Deprecated Datatype Macros"
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:1421
+msgid "data."
+msgstr ""
+
+#. (itstool) path: p/code
+#: Source/Guidelines/en/ST-Infrastructure.xml:1422
+msgid "teidata."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1424
+msgid "data.xxxx"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: Source/Guidelines/en/ST-Infrastructure.xml:1425
+msgid "teidata.xxxx"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ST-Infrastructure.xml:1419
+msgid "For each of the datatypes mentioned in <_:ptr-1/> above, an older datatype macro also exists which uses RELAX NG syntax rather than the pure ODD syntax used throughout these Guidelines. These older macros have the prefix <_:code-2/> rather than <_:code-3/>. They have been retained for backwards compatability, but will be removed at a future release. A TEI customization which makes reference to an old style datatype, for example <_:ident-4/> should continue to work until that time; it is however recommended to replace such references with the new form <_:ident-5/> as soon as convenient."
+msgstr ""
+
