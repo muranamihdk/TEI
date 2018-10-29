@@ -1,23 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-22 19:52+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-10-27 22:38+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.2\n"
 
 #. (itstool) path: div/head
 #: Source/Guidelines/en/AB-About.xml:14
 msgid "About These Guidelines"
-msgstr ""
+msgstr "このガイドラインについて"
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/AB-About.xml:16
 msgid "These Guidelines have been developed and are maintained by the Text Encoding Initiative Consortium (TEI); see <_:ptr-1/>. They are addressed to anyone who works with any kind of textual resource in digital form."
-msgstr ""
+msgstr "このガイドラインは、テキスト・エンコーディング・イニシアチブ・コンソーシアム Text Encoding Initiative Consortium（TEI）によって開発され、維持されています（「<_:ptr-1/>」を参照してください）。これに取り組んでいるのは皆、あらゆる種類のデジタル形式テキスト資料のために仕事をしている人たちです。"
 
 #. (itstool) path: p/term
 #: Source/Guidelines/en/AB-About.xml:24
@@ -57,7 +60,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: Source/Guidelines/en/AB-About.xml:21
 msgid "They make recommendations about suitable ways of representing those features of textual resources which need to be identified explicitly in order to facilitate processing by computer programs. In particular, they specify a set of markers (or <_:term-1/>) which may be inserted in the electronic representation of the text, in order to mark the text structure and other features of interest. Many, or most, computer programs depend on the presence of such explicit markers for their functionality, since without them a digitized text appears to be nothing but a sequence of undifferentiated bits. The success of the World Wide Web, for example, is partly a consequence of its use of such markup to indicate such features as headings and lists on individual pages, and to indicate links between pages. The process of inserting such explicit markers for implicit textual features is often called <_:soCalled-2/>, or equivalently within this work <_:soCalled-3/>; the term <_:soCalled-4/> is also used informally. We use the term <_:term-5/> or <_:term-6/> to denote the complete set of rules associated with the use of markup in a given context; we use the term <_:term-7/> for the specific set of markers or named distinctions employed by a given encoding scheme. Thus, this work both describes the TEI encoding scheme, and documents the TEI markup vocabulary."
-msgstr ""
+msgstr "コンソーシアムでは、コンピュータによる処理を容易にするために明示的に識別されるべき、テキスト資料の特徴を表現するための適切な方法についての提言を行います。"
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/AB-About.xml:44
@@ -127,7 +130,6 @@ msgstr ""
 #. (itstool) path: p/gi
 #. (itstool) path: p/q
 #: Source/Guidelines/en/AB-About.xml:164
-#: Source/Guidelines/en/AB-About.xml:164
 msgid "name"
 msgstr ""
 
@@ -149,7 +151,6 @@ msgstr ""
 #. (itstool) path: p/att
 #. (itstool) path: p/q
 #: Source/Guidelines/en/AB-About.xml:168
-#: Source/Guidelines/en/AB-About.xml:168
 msgid "attname"
 msgstr ""
 
@@ -160,8 +161,7 @@ msgstr ""
 
 #. (itstool) path: p/ident
 #. (itstool) path: row/cell
-#: Source/Guidelines/en/AB-About.xml:171
-#: Source/Guidelines/en/AB-About.xml:322
+#: Source/Guidelines/en/AB-About.xml:171 Source/Guidelines/en/AB-About.xml:322
 msgid "att.global"
 msgstr ""
 
@@ -307,8 +307,7 @@ msgstr ""
 
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/AB-About.xml:234
-#: Source/Guidelines/en/AB-About.xml:306
+#: Source/Guidelines/en/AB-About.xml:234 Source/Guidelines/en/AB-About.xml:306
 msgid "gloss"
 msgstr ""
 
@@ -344,8 +343,7 @@ msgstr ""
 
 #. (itstool) path: list/label
 #. (itstool) path: item/gi
-#: Source/Guidelines/en/AB-About.xml:249
-#: Source/Guidelines/en/AB-About.xml:270
+#: Source/Guidelines/en/AB-About.xml:249 Source/Guidelines/en/AB-About.xml:270
 msgid "bibl"
 msgstr ""
 
@@ -590,8 +588,7 @@ msgid "ptr"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/AB-About.xml:304
-#: Source/Guidelines/en/AB-About.xml:362
+#: Source/Guidelines/en/AB-About.xml:304 Source/Guidelines/en/AB-About.xml:362
 #: Source/Guidelines/en/AB-About.xml:364
 msgid "div"
 msgstr ""
@@ -1325,4 +1322,3 @@ msgstr ""
 #: Source/Guidelines/en/AB-About.xml:837
 msgid "The Guidelines are currently maintained as an open source project on the Github site <_:ptr-1/>, from which released and development versions may be freely downloaded. See <_:ref-2/> for information on how to find specific versions of TEI releases (Guidelines, schemas etc.). Notice of errors detected and enhancements requested may be submitted at <_:ptr-3/>."
 msgstr ""
-
