@@ -42,14 +42,3 @@ do
   fi
   itstool -o "$TARGET_DIR"/$(basename "$SOURCE" .xml).pot "$SOURCE"
 done
-
-
-# potファイルからpoファイルを生成（docs/locale/ja/LC_MESSAGES/ 以下に）
-
-# poファイルをmoファイルに変換
-
-# moファイルから翻訳ファイルを作成
-
-# 原文の変更をマージ
-
-
