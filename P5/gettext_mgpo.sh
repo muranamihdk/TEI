@@ -8,6 +8,7 @@ SPECS_DIR="Specs"
 GUIDELINES_DIR="Guidelines"
 POT_DIR="_pot"
 PO_DIR="_po"
+MO_DIR="_mo"
 SOURCE_LANG="en"
 TARGET_LANG="ja"
 
