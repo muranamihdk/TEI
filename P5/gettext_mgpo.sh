@@ -28,7 +28,7 @@ do
   fi
 done
 
-# potファイルからpoファイルを生成（Source/_po 以下に）
+# potファイルからpoファイルを生成（Source/_po 以下に）／poファイルがあるときは変更をマージ
 for SOURCE in `find "${PREFIX_PATH}/${POT_DIR}/${GUIDELINES_DIR}/${SOURCE_LANG}/" -type f -name "*.pot" -print`
 do
   SOURCE_DIR=`dirname $SOURCE`
@@ -53,13 +53,3 @@ do
 
   msgmerge -U "$PO_FILE" "$SOURCE"
 done
-
-
-
-# poファイルをmoファイルに変換
-
-# moファイルから翻訳ファイルを作成
-
-# 原文の変更をマージ
-
-
