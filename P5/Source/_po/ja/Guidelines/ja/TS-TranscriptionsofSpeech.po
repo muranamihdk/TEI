@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:53+0900\n"
+"POT-Creation-Date: 2018-10-29 21:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,12 +17,30 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:13
-msgid "The module described in this chapter is intended for use with a wide variety of transcribed spoken material. It should be stressed, however, that the present proposals are not intended to support unmodified every variety of research undertaken upon spoken material now or in the future; some discourse analysts, some phonologists, and doubtless others may wish to extend the scheme presented here to express more precisely the set of distinctions they wish to draw in their transcriptions. Speech regarded as a purely acoustic phenomenon may well require different methods from those outlined here, as may speech regarded solely as a process of social interaction."
+msgid ""
+"The module described in this chapter is intended for use with a wide variety "
+"of transcribed spoken material. It should be stressed, however, that the "
+"present proposals are not intended to support unmodified every variety of "
+"research undertaken upon spoken material now or in the future; some "
+"discourse analysts, some phonologists, and doubtless others may wish to "
+"extend the scheme presented here to express more precisely the set of "
+"distinctions they wish to draw in their transcriptions. Speech regarded as a "
+"purely acoustic phenomenon may well require different methods from those "
+"outlined here, as may speech regarded solely as a process of social "
+"interaction."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:24
-msgid "This chapter begins with a discussion of some of the problems commonly encountered in transcribing spoken language (section <_:ptr-1/>). Section <_:ptr-2/> documents some additional TEI header elements which may be used to document the recording or other source from which transcribed text is taken. Section <_:ptr-3/> describes the basic structural elements provided by this module. Finally, section <_:ptr-4/> of this chapter reviews further problems specific to the encoding of spoken language, demonstrating how mechanisms and elements discussed elsewhere in these Guidelines may be applied to them."
+msgid ""
+"This chapter begins with a discussion of some of the problems commonly "
+"encountered in transcribing spoken language (section <_:ptr-1/>). Section <_:"
+"ptr-2/> documents some additional TEI header elements which may be used to "
+"document the recording or other source from which transcribed text is taken. "
+"Section <_:ptr-3/> describes the basic structural elements provided by this "
+"module. Finally, section <_:ptr-4/> of this chapter reviews further problems "
+"specific to the encoding of spoken language, demonstrating how mechanisms "
+"and elements discussed elsewhere in these Guidelines may be applied to them."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -31,7 +50,9 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:37
-msgid "For a discussion of several of these see <_:ptr-1/>; <_:ptr-2/>; and <_:ptr-3/>."
+msgid ""
+"For a discussion of several of these see <_:ptr-1/>; <_:ptr-2/>; and <_:"
+"ptr-3/>."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -41,7 +62,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:36
-msgid "There is great variation in the ways different researchers have chosen to represent speech using the written medium.<_:note-1/> This reflects the special difficulties which apply to the encoding or <_:term-2/> of speech. Speech varies according to a large number of dimensions, many of which have no counterpart in writing (for example, tempo, loudness, pitch, etc.). The audibility of speech recorded in natural communication situations is often less than perfect, affecting the accuracy of the transcription. Spoken material may be transcribed in the course of linguistic, acoustic, anthropological, psychological, ethnographic, journalistic, or many other types of research. Even in the same field, the interests and theoretical perspectives of different transcribers may lead them to prefer different levels of detail in the transcript and different styles of visual display. The production and comprehension of speech are intimately bound up with the situation in which speech occurs, far more so than is the case for written texts. A speech transcript must therefore include some contextual features; determining which are relevant is not always simple. Moreover, the ethical problems in recording and making public what was produced in a private setting and intended for a limited audience are more frequently encountered in dealing with spoken texts than with written ones."
+msgid ""
+"There is great variation in the ways different researchers have chosen to "
+"represent speech using the written medium.<_:note-1/> This reflects the "
+"special difficulties which apply to the encoding or <_:term-2/> of speech. "
+"Speech varies according to a large number of dimensions, many of which have "
+"no counterpart in writing (for example, tempo, loudness, pitch, etc.). The "
+"audibility of speech recorded in natural communication situations is often "
+"less than perfect, affecting the accuracy of the transcription. Spoken "
+"material may be transcribed in the course of linguistic, acoustic, "
+"anthropological, psychological, ethnographic, journalistic, or many other "
+"types of research. Even in the same field, the interests and theoretical "
+"perspectives of different transcribers may lead them to prefer different "
+"levels of detail in the transcript and different styles of visual display. "
+"The production and comprehension of speech are intimately bound up with the "
+"situation in which speech occurs, far more so than is the case for written "
+"texts. A speech transcript must therefore include some contextual features; "
+"determining which are relevant is not always simple. Moreover, the ethical "
+"problems in recording and making public what was produced in a private "
+"setting and intended for a limited audience are more frequently encountered "
+"in dealing with spoken texts than with written ones."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -51,7 +91,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:59
-msgid "Speech also poses difficult structural problems. Unlike a written text, a speech event takes place in time. Its beginning and end may be hard to determine and its internal composition difficult to define. Most researchers agree that the utterances or <_:term-1/> of individual speakers form an important structural component in most kinds of speech, but these are rarely as well-behaved (in the structural sense) as paragraphs or other analogous units in written texts: speakers frequently interrupt each other, use gestures as well as words, leave remarks unfinished and so on. Speech itself, though it may be represented as words, frequently contains items such as vocalized pauses which, although only semi-lexical, have immense importance in the analysis of spoken text. Even non-vocal elements such as gestures may be regarded as forming a component of spoken text for some analytic purposes. Below the level of the individual utterance, speech may be segmented into units defined by phonological, prosodic, or syntactic phenomena; no clear agreement exists, however, even as to appropriate names for such segments."
+msgid ""
+"Speech also poses difficult structural problems. Unlike a written text, a "
+"speech event takes place in time. Its beginning and end may be hard to "
+"determine and its internal composition difficult to define. Most researchers "
+"agree that the utterances or <_:term-1/> of individual speakers form an "
+"important structural component in most kinds of speech, but these are rarely "
+"as well-behaved (in the structural sense) as paragraphs or other analogous "
+"units in written texts: speakers frequently interrupt each other, use "
+"gestures as well as words, leave remarks unfinished and so on. Speech "
+"itself, though it may be represented as words, frequently contains items "
+"such as vocalized pauses which, although only semi-lexical, have immense "
+"importance in the analysis of spoken text. Even non-vocal elements such as "
+"gestures may be regarded as forming a component of spoken text for some "
+"analytic purposes. Below the level of the individual utterance, speech may "
+"be segmented into units defined by phonological, prosodic, or syntactic "
+"phenomena; no clear agreement exists, however, even as to appropriate names "
+"for such segments."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -79,12 +135,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:79
-msgid "Spoken texts transcribed according to the guidelines presented here are organized as follows. The overall structure of a TEI spoken text is identical to that of any other TEI text: the <_:gi-1/> element for a spoken text contains a <_:gi-2/> element, followed by a <_:gi-3/> element. Even texts primarily composed of transcribed speech may also include conventional front and back matter, and may even be organized into divisions like printed texts."
+msgid ""
+"Spoken texts transcribed according to the guidelines presented here are "
+"organized as follows. The overall structure of a TEI spoken text is "
+"identical to that of any other TEI text: the <_:gi-1/> element for a spoken "
+"text contains a <_:gi-2/> element, followed by a <_:gi-3/> element. Even "
+"texts primarily composed of transcribed speech may also include conventional "
+"front and back matter, and may even be organized into divisions like printed "
+"texts."
 msgstr ""
 
 #. (itstool) path: p/term
 #. (itstool) path: index/term
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:87
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:87
 msgid "texts"
 msgstr ""
@@ -96,7 +158,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:86
-msgid "We may say, therefore, that these Guidelines regard transcribed speech as being composed of arbitrary high-level units called <_:term-1/>.<_:index-2/> A spoken <_:gi-3/> might typically be a conversation between a small number of people, a lecture, a broadcast TV item, or a similar event. Each such unit has associated with it a <_:gi-4/> providing detailed contextual information such as the source of the transcript, the identity of the participants, whether the speech is scripted or spontaneous, the physical and social setting in which the discourse takes place and a range of other aspects. Details of the header in general are provided in chapter <_:ptr-5/>; the particular elements it provides for use with spoken texts are described below (<_:ptr-6/>). Details concerning additional elements which may be used for the documentation of participant and contextual information are given in <_:ptr-7/>."
+msgid ""
+"We may say, therefore, that these Guidelines regard transcribed speech as "
+"being composed of arbitrary high-level units called <_:term-1/>.<_:index-2/> "
+"A spoken <_:gi-3/> might typically be a conversation between a small number "
+"of people, a lecture, a broadcast TV item, or a similar event. Each such "
+"unit has associated with it a <_:gi-4/> providing detailed contextual "
+"information such as the source of the transcript, the identity of the "
+"participants, whether the speech is scripted or spontaneous, the physical "
+"and social setting in which the discourse takes place and a range of other "
+"aspects. Details of the header in general are provided in chapter <_:ptr-5/"
+">; the particular elements it provides for use with spoken texts are "
+"described below (<_:ptr-6/>). Details concerning additional elements which "
+"may be used for the documentation of participant and contextual information "
+"are given in <_:ptr-7/>."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -126,7 +201,8 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:114
-msgid "it represents a single stretch of time with no significant discontinuities."
+msgid ""
+"it represents a single stretch of time with no significant discontinuities."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -141,7 +217,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:103
-msgid "Defining the bounds of a spoken text is frequently a matter of arbitrary convention or convenience. In public or semi-public contexts, a text may be regarded as synonymous with, for example, a <_:term-1/>, a <_:term-2/>, a <_:term-3/>, etc. In informal or private contexts, a text may be simply a conversation involving a specific group of participants. Alternatively, researchers may elect to define spoken texts solely in terms of their duration in time or length in words. By default, these Guidelines assume of a text only that: <_:list-4/> Deviation from these assumptions may be specified (for example, the <_:att-5/> attribute on the <_:gi-6/> element may take the value <_:val-7/> to specify that the components of the text are discrete) but is not recommended."
+msgid ""
+"Defining the bounds of a spoken text is frequently a matter of arbitrary "
+"convention or convenience. In public or semi-public contexts, a text may be "
+"regarded as synonymous with, for example, a <_:term-1/>, a <_:term-2/>, a <_:"
+"term-3/>, etc. In informal or private contexts, a text may be simply a "
+"conversation involving a specific group of participants. Alternatively, "
+"researchers may elect to define spoken texts solely in terms of their "
+"duration in time or length in words. By default, these Guidelines assume of "
+"a text only that: <_:list-4/> Deviation from these assumptions may be "
+"specified (for example, the <_:att-5/> attribute on the <_:gi-6/> element "
+"may take the value <_:val-7/> to specify that the components of the text are "
+"discrete) but is not recommended."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -149,14 +236,21 @@ msgstr ""
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:176
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:177
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:182
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:182
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:193
 msgid "div"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:122
-msgid "Within a <_:gi-1/> it may be necessary to identify subdivisions of various kinds, if only for convenience of handling. The neutral <_:gi-2/> element discussed in section <_:ptr-3/> is recommended for this purpose. It may be found useful also for representing subdivisions relating to discourse structure, speech act theory, transactional analysis, etc., provided only that these divisions are hierarchically well-behaved. Where they are not, as is often the case, the mechanisms discussed in chapters <_:ptr-4/> and <_:ptr-5/> may be used."
+msgid ""
+"Within a <_:gi-1/> it may be necessary to identify subdivisions of various "
+"kinds, if only for convenience of handling. The neutral <_:gi-2/> element "
+"discussed in section <_:ptr-3/> is recommended for this purpose. It may be "
+"found useful also for representing subdivisions relating to discourse "
+"structure, speech act theory, transactional analysis, etc., provided only "
+"that these divisions are hierarchically well-behaved. Where they are not, as "
+"is often the case, the mechanisms discussed in chapters <_:ptr-4/> and <_:"
+"ptr-5/> may be used."
 msgstr ""
 
 #. (itstool) path: list/item
@@ -181,12 +275,16 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:139
-msgid "entirely non-linguistic incidents occurring during and possibly influencing the course of speech"
+msgid ""
+"entirely non-linguistic incidents occurring during and possibly influencing "
+"the course of speech"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:141
-msgid "writing, regarded as a special class of incident in that it can be transcribed, for example captions or overheads displayed during a lecture"
+msgid ""
+"writing, regarded as a special class of incident in that it can be "
+"transcribed, for example captions or overheads displayed during a lecture"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -201,7 +299,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:146
-msgid "Elements to represent all of these features of spoken language are discussed in section <_:ptr-1/> below."
+msgid ""
+"Elements to represent all of these features of spoken language are discussed "
+"in section <_:ptr-1/> below."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -227,7 +327,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:149
-msgid "An utterance (tagged <_:gi-1/>) may contain lexical items interspersed with pauses and non-lexical vocal sounds; during an utterance, non-linguistic incidents may occur and written materials may be presented. The <_:gi-2/> element can thus contain any of the other elements listed, interspersed with a transcription of the lexical items of the utterance; the other elements may all appear between utterances or next to each other, but except for <_:gi-3/> they do not contain any other elements nor any data."
+msgid ""
+"An utterance (tagged <_:gi-1/>) may contain lexical items interspersed with "
+"pauses and non-lexical vocal sounds; during an utterance, non-linguistic "
+"incidents may occur and written materials may be presented. The <_:gi-2/> "
+"element can thus contain any of the other elements listed, interspersed with "
+"a transcription of the lexical items of the utterance; the other elements "
+"may all appear between utterances or next to each other, but except for <_:"
+"gi-3/> they do not contain any other elements nor any data."
 msgstr ""
 
 #. (itstool) path: p/q
@@ -247,7 +354,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:159
-msgid "A spoken text itself may be without substructure, that is, it may consist simply of units such as utterances or pauses, not grouped together in any way, or it may be subdivided. If the notion of what constitutes a <_:soCalled-1/> in spoken discourse is inevitably rather an arbitrary one, the notion of formal subdivisions within such a <_:soCalled-2/> may appear even more debatable. Nevertheless, such divisions may be useful for such types of discourse as debates, broadcasts, etc., where structural subdivisions can easily be identified, or more generally wherever it is desired to aggregate utterances or other parts of a transcript into units smaller than a complete <_:soCalled-3/>. Examples might include <_:q-4/> or <_:q-5/>, or more narrowly, <_:q-6/>, provided only that the set of all such divisions is coextensive with the text."
+msgid ""
+"A spoken text itself may be without substructure, that is, it may consist "
+"simply of units such as utterances or pauses, not grouped together in any "
+"way, or it may be subdivided. If the notion of what constitutes a <_:"
+"soCalled-1/> in spoken discourse is inevitably rather an arbitrary one, the "
+"notion of formal subdivisions within such a <_:soCalled-2/> may appear even "
+"more debatable. Nevertheless, such divisions may be useful for such types of "
+"discourse as debates, broadcasts, etc., where structural subdivisions can "
+"easily be identified, or more generally wherever it is desired to aggregate "
+"utterances or other parts of a transcript into units smaller than a complete "
+"<_:soCalled-3/>. Examples might include <_:q-4/> or <_:q-5/>, or more "
+"narrowly, <_:q-6/>, provided only that the set of all such divisions is "
+"coextensive with the text."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -257,7 +376,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:175
-msgid "Each such division of a spoken text should be represented by the numbered or unnumbered <_:gi-1/> elements defined in chapter <_:ptr-2/>. For some detailed kinds of analysis a hierarchy of such divisions may be found useful; nested <_:gi-3/> elements may be used for this purpose, as in the following example showing how a collection made up of transcribed <_:soCalled-4/> taken from speeches given by a politician on different occasions might be encoded. Each extract is regarded as a distinct <_:gi-5/>, nested within a single composite <_:gi-6/> as follows: <_:egXML-7/>"
+msgid ""
+"Each such division of a spoken text should be represented by the numbered or "
+"unnumbered <_:gi-1/> elements defined in chapter <_:ptr-2/>. For some "
+"detailed kinds of analysis a hierarchy of such divisions may be found "
+"useful; nested <_:gi-3/> elements may be used for this purpose, as in the "
+"following example showing how a collection made up of transcribed <_:"
+"soCalled-4/> taken from speeches given by a politician on different "
+"occasions might be encoded. Each extract is regarded as a distinct <_:gi-5/"
+">, nested within a single composite <_:gi-6/> as follows: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -276,7 +403,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:192
-msgid "As a member of the class <_:ident-1/>, the <_:gi-2/> element may also carry a <_:att-3/> attribute, for use where the divisions of a text do not all share the same set of the contextual declarations specified in the TEI header. (See further section <_:ptr-4/>)."
+msgid ""
+"As a member of the class <_:ident-1/>, the <_:gi-2/> element may also carry "
+"a <_:att-3/> attribute, for use where the divisions of a text do not all "
+"share the same set of the contextual declarations specified in the TEI "
+"header. (See further section <_:ptr-4/>)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -302,12 +433,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:202
-msgid "Where a computer file is derived from a spoken text rather than a written one, it will usually be desirable to record additional information about the recording or broadcast which constitutes its source. Several additional elements are provided for this purpose within the source description component of the TEI header: <_:specList-1/> As a member of the <_:ident-2/> class, the <_:gi-3/> element inherits the following attribute: <_:specList-4/>"
+msgid ""
+"Where a computer file is derived from a spoken text rather than a written "
+"one, it will usually be desirable to record additional information about the "
+"recording or broadcast which constitutes its source. Several additional "
+"elements are provided for this purpose within the source description "
+"component of the TEI header: <_:specList-1/> As a member of the <_:ident-2/> "
+"class, the <_:gi-3/> element inherits the following attribute: <_:specList-4/"
+">"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:219
-msgid "Note that detailed information about the participants or setting of an interview or other transcript of spoken language should be recorded in the appropriate division of the profile description, discussed in chapter <_:ptr-1/>, rather than as part of the source description. The source description is used to hold information only about the source from which the transcribed speech was taken, for example, any script being read and any technical details of how the recording was produced. If the source was a previously-created transcript, it should be treated in the same way as any other source text."
+msgid ""
+"Note that detailed information about the participants or setting of an "
+"interview or other transcript of spoken language should be recorded in the "
+"appropriate division of the profile description, discussed in chapter <_:"
+"ptr-1/>, rather than as part of the source description. The source "
+"description is used to hold information only about the source from which the "
+"transcribed speech was taken, for example, any script being read and any "
+"technical details of how the recording was produced. If the source was a "
+"previously-created transcript, it should be treated in the same way as any "
+"other source text."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -332,7 +479,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:230
-msgid "The <_:gi-1/> element should be used where it is known that one or more of the participants in a spoken text is speaking from a previously prepared script. The script itself should be documented in the same way as any other written text, using one of the three citation tags mentioned above. Utterances or groups of utterances may be linked to the script concerned by means of the <_:att-2/> attribute, described in section <_:ptr-3/>. <_:egXML-4/>"
+msgid ""
+"The <_:gi-1/> element should be used where it is known that one or more of "
+"the participants in a spoken text is speaking from a previously prepared "
+"script. The script itself should be documented in the same way as any other "
+"written text, using one of the three citation tags mentioned above. "
+"Utterances or groups of utterances may be linked to the script concerned by "
+"means of the <_:att-2/> attribute, described in section <_:ptr-3/>. <_:"
+"egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -342,7 +496,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:247
-msgid "The <_:gi-1/> is used to group together information relating to the recordings from which the spoken text was transcribed. The element may contain either a prose description or, more helpfully, one or more <_:gi-2/> elements, each corresponding with a particular recording. The linkage between utterances or groups of utterances and the relevant recording statement is made by means of the <_:att-3/> attribute, described in section <_:ptr-4/>."
+msgid ""
+"The <_:gi-1/> is used to group together information relating to the "
+"recordings from which the spoken text was transcribed. The element may "
+"contain either a prose description or, more helpfully, one or more <_:gi-2/> "
+"elements, each corresponding with a particular recording. The linkage "
+"between utterances or groups of utterances and the relevant recording "
+"statement is made by means of the <_:att-3/> attribute, described in section "
+"<_:ptr-4/>."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -352,12 +513,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:255
-msgid "The <_:gi-1/> element should be used to provide a description of how and by whom a recording was made. This information may be provided in the form of a prose description, within which such items as statements of responsibility, names, places, and dates may be identified using the appropriate phrase-level tags. Alternatively, a selection of elements from the <_:ident-2/> class may be provided. This element class makes available the following elements: <_:specList-3/>"
+msgid ""
+"The <_:gi-1/> element should be used to provide a description of how and by "
+"whom a recording was made. This information may be provided in the form of a "
+"prose description, within which such items as statements of responsibility, "
+"names, places, and dates may be identified using the appropriate phrase-"
+"level tags. Alternatively, a selection of elements from the <_:ident-2/> "
+"class may be provided. This element class makes available the following "
+"elements: <_:specList-3/>"
 msgstr ""
 
 #. (itstool) path: recording/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:278
-msgid "U-matic recording made by college audio-visual department staff, available as PAL-standard VHS transfer or sound-only cassette"
+msgid ""
+"U-matic recording made by college audio-visual department staff, available "
+"as PAL-standard VHS transfer or sound-only cassette"
 msgstr ""
 
 #. (itstool) path: respStmt/resp
@@ -372,7 +542,9 @@ msgstr ""
 
 #. (itstool) path: equipment/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:288
-msgid "Multiple close microphones mixed down to stereo Digital Audio Tape, standard play, 44.1 KHz sampling frequency"
+msgid ""
+"Multiple close microphones mixed down to stereo Digital Audio Tape, standard "
+"play, 44.1 KHz sampling frequency"
 msgstr ""
 
 #. (itstool) path: recording/date
@@ -397,7 +569,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:270
-msgid "Specialized collections may wish to add further sub-elements to these major components. These elements should be used only for information relating to the recording process itself; information about the setting or participants (for example) is recorded elsewhere: see sections <_:ptr-1/> and <_:ptr-2/>. <_:egXML-3/> <_:egXML-4/> <_:egXML-5/>"
+msgid ""
+"Specialized collections may wish to add further sub-elements to these major "
+"components. These elements should be used only for information relating to "
+"the recording process itself; information about the setting or participants "
+"(for example) is recorded elsewhere: see sections <_:ptr-1/> and <_:ptr-2/>. "
+"<_:egXML-3/> <_:egXML-4/> <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -489,12 +666,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:306
-msgid "When a recording has been made from a public broadcast, details of the broadcast itself should be supplied within the <_:gi-1/> element, as a nested <_:gi-2/> element. A broadcast is closely analogous to a publication and the <_:gi-3/> element should therefore contain one or the other of the bibliographic citation elements <_:gi-4/>, <_:gi-5/>, or <_:gi-6/>. The broadcasting agency responsible for a broadcast is regarded as its author, while other participants (for example interviewers, interviewees, script writers, directors, producers, etc.) should be specified using the <_:gi-7/> or <_:gi-8/> element with an appropriate <_:gi-9/> (see further section <_:ptr-10/>). <_:egXML-11/>"
+msgid ""
+"When a recording has been made from a public broadcast, details of the "
+"broadcast itself should be supplied within the <_:gi-1/> element, as a "
+"nested <_:gi-2/> element. A broadcast is closely analogous to a publication "
+"and the <_:gi-3/> element should therefore contain one or the other of the "
+"bibliographic citation elements <_:gi-4/>, <_:gi-5/>, or <_:gi-6/>. The "
+"broadcasting agency responsible for a broadcast is regarded as its author, "
+"while other participants (for example interviewers, interviewees, script "
+"writers, directors, producers, etc.) should be specified using the <_:gi-7/> "
+"or <_:gi-8/> element with an appropriate <_:gi-9/> (see further section <_:"
+"ptr-10/>). <_:egXML-11/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:329
-msgid "When a broadcast contains several distinct recordings (for example a compilation), additional <_:gi-1/> elements may be further nested within the <_:gi-2/> element. <_:egXML-3/>"
+msgid ""
+"When a broadcast contains several distinct recordings (for example a "
+"compilation), additional <_:gi-1/> elements may be further nested within the "
+"<_:gi-2/> element. <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -514,7 +704,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:341
-msgid "The <_:gi-1/> element can be used to document the particular transcription conventions (use of space, punctuation, special characters etc.) used in making the transcription. A number of sets of such conventions have been defined within particular research communities, or by users of particular transcription tools. The attributes <_:att-2/> and <_:att-3/> may be used to refer to such conventions in a machine tractable way, where this is appropriate. <_:egXML-4/>"
+msgid ""
+"The <_:gi-1/> element can be used to document the particular transcription "
+"conventions (use of space, punctuation, special characters etc.) used in "
+"making the transcription. A number of sets of such conventions have been "
+"defined within particular research communities, or by users of particular "
+"transcription tools. The attributes <_:att-2/> and <_:att-3/> may be used to "
+"refer to such conventions in a machine tractable way, where this is "
+"appropriate. <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -524,7 +721,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:363
-msgid "The following elements characterize spoken texts, transcribed according to these Guidelines: <_:specList-1/>"
+msgid ""
+"The following elements characterize spoken texts, transcribed according to "
+"these Guidelines: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -556,7 +755,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:367
-msgid "The <_:gi-1/> element may appear directly within a spoken text, and may contain any of the others; the others may also appear directly (for example, a <_:gi-2/> may appear between two utterances) but cannot contain a <_:gi-3/> element. In terms of the basic TEI model, therefore, we regard the <_:gi-4/> element as analogous to a paragraph, and the others as analogous to <_:soCalled-5/> elements, but with the important difference that they can exist either as siblings or as children of utterances. The class <_:ident-6/> provides the <_:gi-7/> element; the class <_:ident-8/> provides the six other elements listed above."
+msgid ""
+"The <_:gi-1/> element may appear directly within a spoken text, and may "
+"contain any of the others; the others may also appear directly (for example, "
+"a <_:gi-2/> may appear between two utterances) but cannot contain a <_:gi-3/"
+"> element. In terms of the basic TEI model, therefore, we regard the <_:gi-4/"
+"> element as analogous to a paragraph, and the others as analogous to <_:"
+"soCalled-5/> elements, but with the important difference that they can exist "
+"either as siblings or as children of utterances. The class <_:ident-6/> "
+"provides the <_:gi-7/> element; the class <_:ident-8/> provides the six "
+"other elements listed above."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -590,12 +798,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:378
-msgid "As members of the <_:ident-1/> class, all of these elements share the following attributes: <_:specList-2/> As members of the <_:ident-3/>, <_:ident-4/> and <_:ident-5/> classes, all of these elements except <_:gi-6/> share the following attribute: <_:specList-7/>"
+msgid ""
+"As members of the <_:ident-1/> class, all of these elements share the "
+"following attributes: <_:specList-2/> As members of the <_:ident-3/>, <_:"
+"ident-4/> and <_:ident-5/> classes, all of these elements except <_:gi-6/> "
+"share the following attribute: <_:specList-7/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:389
-msgid "Each of these elements is further discussed and specified in sections <_:ptr-1/> to <_:ptr-2/>."
+msgid ""
+"Each of these elements is further discussed and specified in sections <_:"
+"ptr-1/> to <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -639,22 +853,13 @@ msgstr ""
 #. (itstool) path: row/cell
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:397
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:398
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:398
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:399
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:399
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:399
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:400
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:400
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:400
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:400
 msgid "+"
 msgstr ""
 
 #. (itstool) path: row/cell
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:397
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:397
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:397
-#: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:398
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:398
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:399
 msgid "-"
@@ -704,12 +909,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:392
-msgid "We can show the relationship between four of these constituents of speech using the features <_:mentioned-1/>, <_:mentioned-2/>, <_:mentioned-3/> (for sounds produced by the human vocal apparatus), and <_:mentioned-4/>: <_:table-5/> The differences are not always clear-cut. Among <_:term-6/> might be included actions like slamming the door, which can certainly be communicative. <_:term-7/> include coughing and sneezing, which are<_:index-8/> usually involuntary noises. Equally, the distinction between utterances and vocals is not always clear, although for many analytic purposes it will be convenient to regard them as distinct. Individual scholars may differ in the way borderlines are drawn and should declare their definitions in the <_:gi-9/> element of the header (see <_:ptr-10/>)."
+msgid ""
+"We can show the relationship between four of these constituents of speech "
+"using the features <_:mentioned-1/>, <_:mentioned-2/>, <_:mentioned-3/> (for "
+"sounds produced by the human vocal apparatus), and <_:mentioned-4/>: <_:"
+"table-5/> The differences are not always clear-cut. Among <_:term-6/> might "
+"be included actions like slamming the door, which can certainly be "
+"communicative. <_:term-7/> include coughing and sneezing, which are<_:"
+"index-8/> usually involuntary noises. Equally, the distinction between "
+"utterances and vocals is not always clear, although for many analytic "
+"purposes it will be convenient to regard them as distinct. Individual "
+"scholars may differ in the way borderlines are drawn and should declare "
+"their definitions in the <_:gi-9/> element of the header (see <_:ptr-10/>)."
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:415
-msgid "The original is a conversation between two children and their parents, recorded in 1987, and discussed in <_:ptr-1/>"
+msgid ""
+"The original is a conversation between two children and their parents, "
+"recorded in 1987, and discussed in <_:ptr-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -726,7 +944,8 @@ msgstr ""
 
 #. (itstool) path: egXML/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:427
-msgid "you never <_:pause-1/> take this cat for show and tell <_:pause-2/> meow meow"
+msgid ""
+"you never <_:pause-1/> take this cat for show and tell <_:pause-2/> meow meow"
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -778,7 +997,9 @@ msgstr ""
 
 #. (itstool) path: egXML/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:434
-msgid "how <_:choice-1/> <_:emph-2/> cat <_:pause-3/>yours is <_:emph-4/> <_:kinesic-5/>"
+msgid ""
+"how <_:choice-1/> <_:emph-2/> cat <_:pause-3/>yours is <_:emph-4/> <_:"
+"kinesic-5/>"
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -803,7 +1024,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:413
-msgid "The following short extract exemplifies several of these elements. It is recoded from a text originally transcribed in the CHILDES format.<_:note-1/> Each utterance is encoded using a <_:gi-2/> element (see section <_:ptr-3/>). The speakers are defined using the <_:gi-4/> element discussed in <_:ptr-5/> and each is given a unique identifier also used to identify their speech. Pauses marked by the transcriber are indicated using the <_:gi-6/> element (see section <_:ptr-7/>). Non-verbal vocal effects such as the child's meowing are indicated either with orthographic transcriptions or with the <_:gi-8/> element, and entirely non-linguistic but significant incidents such as the sound of the toy cat are represented by the <_:gi-9/> elements (see section <_:ptr-10/>). <_:egXML-11/>"
+msgid ""
+"The following short extract exemplifies several of these elements. It is "
+"recoded from a text originally transcribed in the CHILDES format.<_:note-1/> "
+"Each utterance is encoded using a <_:gi-2/> element (see section <_:ptr-3/"
+">). The speakers are defined using the <_:gi-4/> element discussed in <_:"
+"ptr-5/> and each is given a unique identifier also used to identify their "
+"speech. Pauses marked by the transcriber are indicated using the <_:gi-6/> "
+"element (see section <_:ptr-7/>). Non-verbal vocal effects such as the "
+"child's meowing are indicated either with orthographic transcriptions or "
+"with the <_:gi-8/> element, and entirely non-linguistic but significant "
+"incidents such as the sound of the toy cat are represented by the <_:gi-9/> "
+"elements (see section <_:ptr-10/>). <_:egXML-11/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -825,12 +1057,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:447
-msgid "This example also uses some elements common to all TEI texts, notably the <_:gi-1/> tag for editorial regularization. Unusually stressed syllables have been encoded with the <_:gi-2/> element. The <_:gi-3/> element has also been used to segment the last utterance. Further discussion of all of such options is provided in section <_:ptr-4/>."
+msgid ""
+"This example also uses some elements common to all TEI texts, notably the <_:"
+"gi-1/> tag for editorial regularization. Unusually stressed syllables have "
+"been encoded with the <_:gi-2/> element. The <_:gi-3/> element has also been "
+"used to segment the last utterance. Further discussion of all of such "
+"options is provided in section <_:ptr-4/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:454
-msgid "Contextual information is of particular importance in spoken texts, and should be provided by the TEI header of a text. In general, all of the information in a header is understood to be relevant to the whole of the associated text. The element <_:gi-1/> as a member of the <_:ident-2/> class, may however specify a different context by means of the <_:att-3/> attribute (see further section <_:ptr-4/>)."
+msgid ""
+"Contextual information is of particular importance in spoken texts, and "
+"should be provided by the TEI header of a text. In general, all of the "
+"information in a header is understood to be relevant to the whole of the "
+"associated text. The element <_:gi-1/> as a member of the <_:ident-2/> "
+"class, may however specify a different context by means of the <_:att-3/> "
+"attribute (see further section <_:ptr-4/>)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -840,7 +1083,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:463
-msgid "Each distinct <_:term-1/> in a spoken text is represented by a <_:gi-2/> element, described as follows: <_:specList-3/>"
+msgid ""
+"Each distinct <_:term-1/> in a spoken text is represented by a <_:gi-2/> "
+"element, described as follows: <_:specList-3/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -886,7 +1131,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:468
-msgid "Use of the <_:att-1/> attribute to associate the utterance with a particular speaker is recommended but not required. Its use implies as a further requirement that all speakers be identified by a <_:gi-2/> or <_:gi-3/> element in the TEI header (see section <_:ptr-4/>), but it may also point to another external source of information about the speaker. Where utterances or other parts of the transcription cannot be attributed with confidence to any particular participant or group of participants, the encoder may choose to create <_:gi-5/> elements with <_:att-6/> attributes such as <_:val-7/> or <_:val-8/>, and perhaps give the root <_:gi-9/> element an <_:att-10/> value of <_:val-11/>, then point to those as appropriate using <_:att-12/>."
+msgid ""
+"Use of the <_:att-1/> attribute to associate the utterance with a particular "
+"speaker is recommended but not required. Its use implies as a further "
+"requirement that all speakers be identified by a <_:gi-2/> or <_:gi-3/> "
+"element in the TEI header (see section <_:ptr-4/>), but it may also point to "
+"another external source of information about the speaker. Where utterances "
+"or other parts of the transcription cannot be attributed with confidence to "
+"any particular participant or group of participants, the encoder may choose "
+"to create <_:gi-5/> elements with <_:att-6/> attributes such as <_:val-7/> "
+"or <_:val-8/>, and perhaps give the root <_:gi-9/> element an <_:att-10/> "
+"value of <_:val-11/>, then point to those as appropriate using <_:att-12/>."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -898,7 +1153,10 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:486
-msgid "For the most part, the examples in this chapter use no sentence punctuation except to mark the rising intonation often found in interrogative statements; for further discussion, see section <_:ptr-1/>."
+msgid ""
+"For the most part, the examples in this chapter use no sentence punctuation "
+"except to mark the rising intonation often found in interrogative "
+"statements; for further discussion, see section <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -949,12 +1207,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:481
-msgid "The <_:att-1/> attribute is provided as a means of characterizing the transition from one utterance to the next at a simpler level of detail than that provided by the temporal alignment mechanism discussed in section <_:ptr-2/>. The value specified applies to the transition from the preceding utterance into the utterance bearing the attribute. For example:<_:note-3/> <_:egXML-4/> In this example, utterance <_:val-5/> latches on to utterance <_:val-6/>, while there is a marked pause between <_:val-7/> and <_:val-8/>. <_:val-9/> and <_:val-10/> overlap, but by an unspecified amount. For ways of providing a more precise indication of the degree of overlap, see section <_:ptr-11/>."
+msgid ""
+"The <_:att-1/> attribute is provided as a means of characterizing the "
+"transition from one utterance to the next at a simpler level of detail than "
+"that provided by the temporal alignment mechanism discussed in section <_:"
+"ptr-2/>. The value specified applies to the transition from the preceding "
+"utterance into the utterance bearing the attribute. For example:<_:note-3/> "
+"<_:egXML-4/> In this example, utterance <_:val-5/> latches on to utterance "
+"<_:val-6/>, while there is a marked pause between <_:val-7/> and <_:val-8/>. "
+"<_:val-9/> and <_:val-10/> overlap, but by an unspecified amount. For ways "
+"of providing a more precise indication of the degree of overlap, see section "
+"<_:ptr-11/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:501
-msgid "An utterance may contain either running text, or text within which other basic structural elements are nested. Where such nesting occurs, the <_:att-1/> attribute is considered to be inherited for the elements <_:gi-2/>, <_:gi-3/>, <_:gi-4/> and <_:gi-5/>; that is, a pause or shift (etc.) within an utterance is regarded as being produced by that speaker only, while a pause between utterances applies to all speakers."
+msgid ""
+"An utterance may contain either running text, or text within which other "
+"basic structural elements are nested. Where such nesting occurs, the <_:"
+"att-1/> attribute is considered to be inherited for the elements <_:gi-2/>, "
+"<_:gi-3/>, <_:gi-4/> and <_:gi-5/>; that is, a pause or shift (etc.) within "
+"an utterance is regarded as being produced by that speaker only, while a "
+"pause between utterances applies to all speakers."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -964,7 +1238,10 @@ msgstr ""
 
 #. (itstool) path: egXML/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:519
-msgid "Listen to this <_:shift-1/>The government is confident, he said, that the current economic problems will be completely overcome by June<_:shift-2/> what nonsense"
+msgid ""
+"Listen to this <_:shift-1/>The government is confident, he said, that the "
+"current economic problems will be completely overcome by June<_:shift-2/> "
+"what nonsense"
 msgstr ""
 
 #. (itstool) path: incident/desc
@@ -979,7 +1256,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:509
-msgid "Occasionally, an utterance may seem to contain other utterances, for example where one speaker interrupts himself, or when another speaker produces a <_:soCalled-1/> while they are still speaking. The present version of these Guidelines does not support nesting of one <_:gi-2/> element within another. The transcriber must therefore decide whether such interruptions constitute a change of utterance, or whether other elements may be used. In the case of self-interruption, the <_:gi-3/> element may be used to show that the speaker has changed the quality of their speech: <_:egXML-4/> Alternatively the <_:gi-5/> element described in section <_:ptr-6/> might be used, without transcribing the read material: <_:egXML-7/>"
+msgid ""
+"Occasionally, an utterance may seem to contain other utterances, for example "
+"where one speaker interrupts himself, or when another speaker produces a <_:"
+"soCalled-1/> while they are still speaking. The present version of these "
+"Guidelines does not support nesting of one <_:gi-2/> element within another. "
+"The transcriber must therefore decide whether such interruptions constitute "
+"a change of utterance, or whether other elements may be used. In the case of "
+"self-interruption, the <_:gi-3/> element may be used to show that the "
+"speaker has changed the quality of their speech: <_:egXML-4/> Alternatively "
+"the <_:gi-5/> element described in section <_:ptr-6/> might be used, without "
+"transcribing the read material: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: vocal/desc
@@ -994,7 +1281,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:526
-msgid "Often, back-channelling is only semi-lexicalized and may therefore be represented using the <_:gi-1/> element: <_:egXML-2/> Where this is not possible, it is simplest to regard the back-channel as a distinct utterance."
+msgid ""
+"Often, back-channelling is only semi-lexicalized and may therefore be "
+"represented using the <_:gi-1/> element: <_:egXML-2/> Where this is not "
+"possible, it is simplest to regard the back-channel as a distinct utterance."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1017,12 +1307,28 @@ msgstr ""
 
 #. (itstool) path: egXML/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:544
-msgid "Okay <_:pause-1/>U-m<_:pause-2/>the scene opens up <_:pause-3/> with <_:pause-4/> um <_:pause-5/> you see a tree okay?"
+msgid ""
+"Okay <_:pause-1/>U-m<_:pause-2/>the scene opens up <_:pause-3/> with <_:"
+"pause-4/> um <_:pause-5/> you see a tree okay?"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:533
-msgid "Speakers differ very much in their rhythm and in particular in the amount of time they leave between words. The following element is provided to mark occasions where the transcriber judges that speech has been paused, irrespective of the actual amount of silence: <_:specList-1/> A pause contained by an utterance applies to the speaker of that utterance. A pause between utterances applies to all speakers. The <_:att-2/> attribute may be used to categorize the pause, for example as short, medium, or long; alternatively the attribute <_:att-3/> may be used to indicate its length more exactly, as in the following example: <_:egXML-4/> If detailed synchronization of pausing with other vocal phenomena is required, the alignment mechanism defined at section <_:ptr-5/> and discussed informally below should be used. Note that the <_:att-6/> attribute mentioned in the previous section may also be used to characterize the degree of pausing between (but not within) utterances."
+msgid ""
+"Speakers differ very much in their rhythm and in particular in the amount of "
+"time they leave between words. The following element is provided to mark "
+"occasions where the transcriber judges that speech has been paused, "
+"irrespective of the actual amount of silence: <_:specList-1/> A pause "
+"contained by an utterance applies to the speaker of that utterance. A pause "
+"between utterances applies to all speakers. The <_:att-2/> attribute may be "
+"used to categorize the pause, for example as short, medium, or long; "
+"alternatively the attribute <_:att-3/> may be used to indicate its length "
+"more exactly, as in the following example: <_:egXML-4/> If detailed "
+"synchronization of pausing with other vocal phenomena is required, the "
+"alignment mechanism defined at section <_:ptr-5/> and discussed informally "
+"below should be used. Note that the <_:att-6/> attribute mentioned in the "
+"previous section may also be used to characterize the degree of pausing "
+"between (but not within) utterances."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1032,12 +1338,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:556
-msgid "The presence of non-transcribed semi-lexical or non-lexical phenomena either between or within utterances may be indicated with the following three elements. <_:specList-1/>"
+msgid ""
+"The presence of non-transcribed semi-lexical or non-lexical phenomena either "
+"between or within utterances may be indicated with the following three "
+"elements. <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:561
-msgid "The <_:att-1/> attribute should be used to specify the person or group responsible for a <_:gi-2/>, <_:gi-3/>, or <_:gi-4/> which is contained within an utterance, if this differs from that of the enclosing utterance. The attribute must be supplied for a <_:gi-5/>, <_:gi-6/>, or <_:gi-7/> which is not contained within an utterance."
+msgid ""
+"The <_:att-1/> attribute should be used to specify the person or group "
+"responsible for a <_:gi-2/>, <_:gi-3/>, or <_:gi-4/> which is contained "
+"within an utterance, if this differs from that of the enclosing utterance. "
+"The attribute must be supplied for a <_:gi-5/>, <_:gi-6/>, or <_:gi-7/> "
+"which is not contained within an utterance."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1064,7 +1378,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:567
-msgid "The <_:att-1/> attribute may be used to indicate that the vocal, kinesic, or incident is repeated, for example <_:val-2/> as opposed to <_:val-3/>. These should both be distinguished from <_:val-4/>, where what is being encoded is a shift in voice quality. For this last case, the <_:gi-5/> element discussed in section <_:ptr-6/> should be used."
+msgid ""
+"The <_:att-1/> attribute may be used to indicate that the vocal, kinesic, or "
+"incident is repeated, for example <_:val-2/> as opposed to <_:val-3/>. These "
+"should both be distinguished from <_:val-4/>, where what is being encoded is "
+"a shift in voice quality. For this last case, the <_:gi-5/> element "
+"discussed in section <_:ptr-6/> should be used."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1081,7 +1400,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:576
-msgid "burp, click, cough, exhale, giggle, gulp, inhale, laugh, sneeze, sniff, snort, sob, swallow, throat, yawn"
+msgid ""
+"burp, click, cough, exhale, giggle, gulp, inhale, laugh, sneeze, sniff, "
+"snort, sob, swallow, throat, yawn"
 msgstr ""
 
 #. (itstool) path: list/label
@@ -1091,7 +1412,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:579
-msgid "ah, aha, aw, eh, ehm, er, erm, hmm, huh, mm, mmhm, oh, ooh, oops, phew, tsk, uh, uh-huh, uh-uh, um, urgh, yup"
+msgid ""
+"ah, aha, aw, eh, ehm, er, erm, hmm, huh, mm, mmhm, oh, ooh, oops, phew, tsk, "
+"uh, uh-huh, uh-uh, um, urgh, yup"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1107,7 +1430,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:573
-msgid "A child <_:gi-1/> element may be used to supply a conventional representation for the phenomenon, for example: <_:list-2/> Researchers may prefer to regard some semi-lexical phenomena as <_:soCalled-3/> within the bounds of the <_:gi-4/> element. See further the discussion at section <_:ptr-5/> below. As for all basic categories, the definition should be made clear in the <_:gi-6/> element of the TEI header."
+msgid ""
+"A child <_:gi-1/> element may be used to supply a conventional "
+"representation for the phenomenon, for example: <_:list-2/> Researchers may "
+"prefer to regard some semi-lexical phenomena as <_:soCalled-3/> within the "
+"bounds of the <_:gi-4/> element. See further the discussion at section <_:"
+"ptr-5/> below. As for all basic categories, the definition should be made "
+"clear in the <_:gi-6/> element of the TEI header."
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -1153,12 +1482,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:588
-msgid "Some typical examples follow: <_:egXML-1/> Note that Ann's snorting could equally well be encoded as follows: <_:egXML-2/>"
+msgid ""
+"Some typical examples follow: <_:egXML-1/> Note that Ann's snorting could "
+"equally well be encoded as follows: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:610
-msgid "The extent to which encoding of incidents or kinesics is included in a transcription will depend entirely on the purpose for which the transcription was made. As elsewhere, this will depend on the particular research agenda and the extent to which their presence is felt to be significant for the interpretation of spoken interactions."
+msgid ""
+"The extent to which encoding of incidents or kinesics is included in a "
+"transcription will depend entirely on the purpose for which the "
+"transcription was made. As elsewhere, this will depend on the particular "
+"research agenda and the extent to which their presence is felt to be "
+"significant for the interpretation of spoken interactions."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1188,7 +1524,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:617
-msgid "Written text may also be encountered when speech is transcribed, for example in a television broadcast or cinema performance, or where one participant shows written text to another. The <_:gi-1/> element may be used to distinguish such written elements from the spoken text in which they are embedded. <_:specList-2/> For example, if speaker A in the breakfast table conversation in section <_:ptr-3/> above had simply shown the newspaper passage to her interlocutor instead of reading it, the interaction might have been encoded as follows: <_:egXML-4/>"
+msgid ""
+"Written text may also be encountered when speech is transcribed, for example "
+"in a television broadcast or cinema performance, or where one participant "
+"shows written text to another. The <_:gi-1/> element may be used to "
+"distinguish such written elements from the spoken text in which they are "
+"embedded. <_:specList-2/> For example, if speaker A in the breakfast table "
+"conversation in section <_:ptr-3/> above had simply shown the newspaper "
+"passage to her interlocutor instead of reading it, the interaction might "
+"have been encoded as follows: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1226,12 +1570,19 @@ msgstr ""
 
 #. (itstool) path: egXML/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:648
-msgid "[...] now compare the punctuation of lines 12 and 14 in these two versions of page 42... <_:writing-1/> <_:writing-2/>"
+msgid ""
+"[...] now compare the punctuation of lines 12 and 14 in these two versions "
+"of page 42... <_:writing-1/> <_:writing-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:633
-msgid "If the source of the writing being displayed is known, bibliographic information about it may be stored in a <_:gi-1/> within the <_:gi-2/> element of the TEI header, and then pointed to using the <_:att-3/> attribute. For example, in the following imaginary example, a lecturer displays two different versions of the same passage of text: <_:egXML-4/>"
+msgid ""
+"If the source of the writing being displayed is known, bibliographic "
+"information about it may be stored in a <_:gi-1/> within the <_:gi-2/> "
+"element of the TEI header, and then pointed to using the <_:att-3/> "
+"attribute. For example, in the following imaginary example, a lecturer "
+"displays two different versions of the same passage of text: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1271,7 +1622,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:656
-msgid "As noted above, utterances, vocals, pauses, kinesics, incidents, and writing elements all inherit attributes providing information about their position in time from the classes <_:ident-1/> and <_:ident-2/>. These attributes can be used to link parts of the transcription very exactly with points on a timeline, or simply to indicate their duration. Note that if <_:att-3/> and <_:att-4/> point to <_:gi-5/> elements whose temporal distance from each other is specified in a timeline, then <_:att-6/> is ignored."
+msgid ""
+"As noted above, utterances, vocals, pauses, kinesics, incidents, and writing "
+"elements all inherit attributes providing information about their position "
+"in time from the classes <_:ident-1/> and <_:ident-2/>. These attributes can "
+"be used to link parts of the transcription very exactly with points on a "
+"timeline, or simply to indicate their duration. Note that if <_:att-3/> and "
+"<_:att-4/> point to <_:gi-5/> elements whose temporal distance from each "
+"other is specified in a timeline, then <_:att-6/> is ignored."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1283,12 +1641,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:665
-msgid "The <_:gi-1/> element (see <_:ptr-2/>) may be used as an alternative means of aligning the start and end of timed elements, and is required when the temporal alignment involves points within an element."
+msgid ""
+"The <_:gi-1/> element (see <_:ptr-2/>) may be used as an alternative means "
+"of aligning the start and end of timed elements, and is required when the "
+"temporal alignment involves points within an element."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:670
-msgid "For further discussion of temporal alignment and synchronization see <_:ptr-1/> below."
+msgid ""
+"For further discussion of temporal alignment and synchronization see <_:"
+"ptr-1/> below."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1330,7 +1693,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:674
-msgid "A common requirement in transcribing spoken language is to mark positions at which a variety of prosodic features change. Many paralinguistic features (pitch, prominence, loudness, etc.) characterize stretches of speech which are not co-extensive with utterances or any of the other units discussed so far. One simple method of encoding such units is simply to mark their boundaries. An empty element called <_:gi-1/> is provided for this purpose. <_:specList-2/> A <_:gi-3/> element may appear within an utterance or a segment to mark a significant change in the particular feature defined by its attributes, which is then understood to apply to all subsequent utterances for the same speaker, unless changed by a new shift for the same feature in the same speaker. Intervening utterances by other speakers do not normally carry the same feature. For example: <_:egXML-4/> In this example, the word <_:mentioned-5/> is spoken loudly, the words <_:mentioned-6/> and <_:mentioned-7/> with normal volume, and the words <_:mentioned-8/> very loudly."
+msgid ""
+"A common requirement in transcribing spoken language is to mark positions at "
+"which a variety of prosodic features change. Many paralinguistic features "
+"(pitch, prominence, loudness, etc.) characterize stretches of speech which "
+"are not co-extensive with utterances or any of the other units discussed so "
+"far. One simple method of encoding such units is simply to mark their "
+"boundaries. An empty element called <_:gi-1/> is provided for this purpose. "
+"<_:specList-2/> A <_:gi-3/> element may appear within an utterance or a "
+"segment to mark a significant change in the particular feature defined by "
+"its attributes, which is then understood to apply to all subsequent "
+"utterances for the same speaker, unless changed by a new shift for the same "
+"feature in the same speaker. Intervening utterances by other speakers do not "
+"normally carry the same feature. For example: <_:egXML-4/> In this example, "
+"the word <_:mentioned-5/> is spoken loudly, the words <_:mentioned-6/> and "
+"<_:mentioned-7/> with normal volume, and the words <_:mentioned-8/> very "
+"loudly."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1345,7 +1723,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:697
-msgid "The values proposed here for the <_:att-1/> attribute are based on those used by the Survey of English Usage (see further <_:ref-2/>); this list may be revised or supplemented using the methods outlined in section <_:ptr-3/>."
+msgid ""
+"The values proposed here for the <_:att-1/> attribute are based on those "
+"used by the Survey of English Usage (see further <_:ref-2/>); this list may "
+"be revised or supplemented using the methods outlined in section <_:ptr-3/>."
 msgstr ""
 
 #. (itstool) path: p/val
@@ -1355,7 +1736,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:701
-msgid "The <_:att-1/> attribute specifies the new state of the feature following the shift. If this attribute has the special value <_:val-2/>, the implication is that the feature concerned ceases to be remarkable at this point."
+msgid ""
+"The <_:att-1/> attribute specifies the new state of the feature following "
+"the shift. If this attribute has the special value <_:val-2/>, the "
+"implication is that the feature concerned ceases to be remarkable at this "
+"point."
 msgstr ""
 
 #. (itstool) path: list/label
@@ -1560,7 +1945,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:733
-msgid "scandent, each succeeding syllable higher than the last, generally ending in a falling tone"
+msgid ""
+"scandent, each succeeding syllable higher than the last, generally ending in "
+"a falling tone"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -1680,7 +2067,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:753
-msgid "glissando rising, like spiky rising but the unstressed syllables, usually several, also rise in pitch relative to each other"
+msgid ""
+"glissando rising, like spiky rising but the unstressed syllables, usually "
+"several, also rise in pitch relative to each other"
 msgstr ""
 
 #. (itstool) path: list/label
@@ -1690,7 +2079,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:756
-msgid "glissando falling, like spiky falling but with the unstressed syllables also falling in pitch relative to each other"
+msgid ""
+"glissando falling, like spiky falling but with the unstressed syllables also "
+"falling in pitch relative to each other"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -1820,12 +2211,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:704
-msgid "A list of suggested values for each of the features proposed follows: <_:list-1/>"
+msgid ""
+"A list of suggested values for each of the features proposed follows: <_:"
+"list-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:774
-msgid "A full definition of the sense of the values provided for each feature may be provided either in the encoding description section of the text header (see section <_:ptr-1/>) or as part of a TEI customization, as described in section <_:ptr-2/>."
+msgid ""
+"A full definition of the sense of the values provided for each feature may "
+"be provided either in the encoding description section of the text header "
+"(see section <_:ptr-1/>) or as part of a TEI customization, as described in "
+"section <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1850,7 +2247,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:898
-msgid "This section describes the following features characteristic of spoken texts for which elements are defined elsewhere in these Guidelines: <_:list-1/> The elements discussed here are not provided by the module for spoken texts. Some of them are included in the core module and others are contained in the modules for linking and for analysis respectively. The selection of modules and their combination to define a TEI schema is discussed in section <_:ptr-2/>."
+msgid ""
+"This section describes the following features characteristic of spoken texts "
+"for which elements are defined elsewhere in these Guidelines: <_:list-1/> "
+"The elements discussed here are not provided by the module for spoken texts. "
+"Some of them are included in the core module and others are contained in the "
+"modules for linking and for analysis respectively. The selection of modules "
+"and their combination to define a TEI schema is discussed in section <_:"
+"ptr-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1865,17 +2269,30 @@ msgstr ""
 
 #. (itstool) path: note/q
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:923
-msgid "A text can be analysed as a sequence of segments which are internally connected by a network of syntactic relations and externally delimited by the absence of such relations with respect to neighbouring segments. Such a segment is a syntactic unit called a macrosyntagm"
+msgid ""
+"A text can be analysed as a sequence of segments which are internally "
+"connected by a network of syntactic relations and externally delimited by "
+"the absence of such relations with respect to neighbouring segments. Such a "
+"segment is a syntactic unit called a macrosyntagm"
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:921
-msgid "The term was apparently first proposed by <_:ptr-1/>, where it is defined as follows: <_:q-2/> (trans. S. Johansson)."
+msgid ""
+"The term was apparently first proposed by <_:ptr-1/>, where it is defined as "
+"follows: <_:q-2/> (trans. S. Johansson)."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:914
-msgid "For some analytic purposes it may be desirable to subdivide the divisions of a spoken text into units smaller than the individual utterance or turn. Segmentation may be performed for a number of different purposes and in terms of a variety of speech phenomena. Common examples include units defined both prosodically (by intonation, pausing, etc.) and syntactically (clauses, phrases, etc.) The term <_:term-1/> has been used by a number of researchers to define units peculiar to speech transcripts.<_:note-2/>"
+msgid ""
+"For some analytic purposes it may be desirable to subdivide the divisions of "
+"a spoken text into units smaller than the individual utterance or turn. "
+"Segmentation may be performed for a number of different purposes and in "
+"terms of a variety of speech phenomena. Common examples include units "
+"defined both prosodically (by intonation, pausing, etc.) and syntactically "
+"(clauses, phrases, etc.) The term <_:term-1/> has been used by a number of "
+"researchers to define units peculiar to speech transcripts.<_:note-2/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -1891,7 +2308,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:928
-msgid "These Guidelines propose that such analyses be performed in terms of neutrally-named <_:term-1/>, represented by the <_:gi-2/> element, which is discussed more fully in section <_:ptr-3/>. This element may take a <_:att-4/> attribute to specify the kind of segmentation applicable to a particular segment, if more than one is possible in a text. A full definition of the segmentation scheme or schemes used should be provided in the <_:gi-5/> element of the <_:gi-6/> element in the TEI header (see <_:ptr-7/>)."
+msgid ""
+"These Guidelines propose that such analyses be performed in terms of "
+"neutrally-named <_:term-1/>, represented by the <_:gi-2/> element, which is "
+"discussed more fully in section <_:ptr-3/>. This element may take a <_:att-4/"
+"> attribute to specify the kind of segmentation applicable to a particular "
+"segment, if more than one is possible in a text. A full definition of the "
+"segmentation scheme or schemes used should be provided in the <_:gi-5/> "
+"element of the <_:gi-6/> element in the TEI header (see <_:ptr-7/>)."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1921,7 +2345,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:936
-msgid "In the first example below, an utterance has been segmented according to a notion of syntactic completeness not necessarily marked by the speech, although in this case a pause has been recorded between the two sentence-like units. In the second, the segments are defined prosodically (an acute accent has been used to mark the position immediately following the syllable bearing the primary accent or stress), and may be thought of as <_:soCalled-1/>. <_:egXML-2/> In either case, the <_:gi-3/> element in the header of the text should specify the principles adopted to define the segments marked in this way."
+msgid ""
+"In the first example below, an utterance has been segmented according to a "
+"notion of syntactic completeness not necessarily marked by the speech, "
+"although in this case a pause has been recorded between the two sentence-"
+"like units. In the second, the segments are defined prosodically (an acute "
+"accent has been used to mark the position immediately following the syllable "
+"bearing the primary accent or stress), and may be thought of as <_:"
+"soCalled-1/>. <_:egXML-2/> In either case, the <_:gi-3/> element in the "
+"header of the text should specify the principles adopted to define the "
+"segments marked in this way."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1934,7 +2367,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:957
-msgid "When utterances are segmented end-to-end in the same way as the s-units in written texts, the <_:gi-1/> element discussed in chapter <_:ptr-2/> may be used, either as an alternative or in addition to the more general purpose <_:gi-3/> element. The <_:gi-4/> element is available without formality in all texts, but does not allow segments to nest within each other."
+msgid ""
+"When utterances are segmented end-to-end in the same way as the s-units in "
+"written texts, the <_:gi-1/> element discussed in chapter <_:ptr-2/> may be "
+"used, either as an alternative or in addition to the more general purpose <_:"
+"gi-3/> element. The <_:gi-4/> element is available without formality in all "
+"texts, but does not allow segments to nest within each other."
 msgstr ""
 
 #. (itstool) path: u/seg
@@ -2010,7 +2448,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:964
-msgid "Where segments of different kinds are to be distinguished within the same stretch of speech, the <_:att-1/> attribute may be used, as in the following example: <_:egXML-2/> In this example, recoded from a corpus of language-impaired speech prepared by Fletcher and Garman, the speaker's utterance has been fully segmented into clausal (<_:code-3/>) or minor (<_:code-4/>) units."
+msgid ""
+"Where segments of different kinds are to be distinguished within the same "
+"stretch of speech, the <_:att-1/> attribute may be used, as in the following "
+"example: <_:egXML-2/> In this example, recoded from a corpus of language-"
+"impaired speech prepared by Fletcher and Garman, the speaker's utterance has "
+"been fully segmented into clausal (<_:code-3/>) or minor (<_:code-4/>) units."
 msgstr ""
 
 #. (itstool) path: seg/paraphasia
@@ -2030,7 +2473,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:988
-msgid "For some features, it may be more appropriate or convenient to introduce a new element in a custom namespace: <_:egXML-1/> Here, <_:gi-2/> has been used to define a particular characteristic of this corpus for which no element exists in the TEI scheme. See further chapter <_:ptr-3/> for a discussion of the way in which this kind of user-defined extension of the TEI scheme may be performed and chapter <_:ptr-4/> for the mechanisms on which it depends."
+msgid ""
+"For some features, it may be more appropriate or convenient to introduce a "
+"new element in a custom namespace: <_:egXML-1/> Here, <_:gi-2/> has been "
+"used to define a particular characteristic of this corpus for which no "
+"element exists in the TEI scheme. See further chapter <_:ptr-3/> for a "
+"discussion of the way in which this kind of user-defined extension of the "
+"TEI scheme may be performed and chapter <_:ptr-4/> for the mechanisms on "
+"which it depends."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2048,7 +2498,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1005
-msgid "This example also uses the core elements <_:gi-1/> and <_:gi-2/> to mark editorial decisions concerning matter completely omitted from the transcript (because of inaudibility), and words which have been transcribed but which the transcriber wishes to exclude from the segment because they are repeated, respectively. See section <_:ptr-3/> for a discussion of these and related elements."
+msgid ""
+"This example also uses the core elements <_:gi-1/> and <_:gi-2/> to mark "
+"editorial decisions concerning matter completely omitted from the transcript "
+"(because of inaudibility), and words which have been transcribed but which "
+"the transcriber wishes to exclude from the segment because they are "
+"repeated, respectively. See section <_:ptr-3/> for a discussion of these and "
+"related elements."
 msgstr ""
 
 #. (itstool) path: item/soCalled
@@ -2058,7 +2514,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1018
-msgid "<_:soCalled-1/> tags may be used; the special-purpose <_:gi-2/> tag discussed in section <_:ptr-3/> is an extension of this method"
+msgid ""
+"<_:soCalled-1/> tags may be used; the special-purpose <_:gi-2/> tag "
+"discussed in section <_:ptr-3/> is an extension of this method"
 msgstr ""
 
 #. (itstool) path: item/gi
@@ -2068,12 +2526,20 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1021
-msgid "where several discontinuous segments are to be grouped together to form a syntactic unit (e.g. a phrasal verb with interposed complement), the <_:gi-1/> element may be used"
+msgid ""
+"where several discontinuous segments are to be grouped together to form a "
+"syntactic unit (e.g. a phrasal verb with interposed complement), the <_:gi-1/"
+"> element may be used"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1012
-msgid "It is often the case that the desired segmentation does not respect utterance boundaries; for example, syntactic units may cross utterance boundaries. For a detailed discussion of this problem, and the various methods proposed by these Guidelines for handling it, see chapter <_:ptr-1/>. Methods discussed there include these: <_:list-2/>"
+msgid ""
+"It is often the case that the desired segmentation does not respect "
+"utterance boundaries; for example, syntactic units may cross utterance "
+"boundaries. For a detailed discussion of this problem, and the various "
+"methods proposed by these Guidelines for handling it, see chapter <_:ptr-1/"
+">. Methods discussed there include these: <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2116,12 +2582,34 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1026
-msgid "A major difference between spoken and written texts is the importance of the temporal dimension to the former. As a very simple example, consider the following, first as it might be represented in a playscript: <_:egXML-1/> To encode this, we first define the participants: <_:egXML-2/> Let us assume that Stig and Lou respond to Jane's question before she has finished asking it—a fairly normal situation in spontaneous speech. The simplest way of representing this <_:term-3/> would be to use the <_:att-4/> attribute previously discussed: <_:egXML-5/> However, this does not allow us to indicate either the extent to which Stig's utterance is overlapped, nor does it show that there are in fact three things which are synchronous: the end of Jane's utterance, Stig's whole utterance, and Lou's kinesic. To overcome these problems, more sophisticated techniques, employing the mechanisms for pointing and alignment discussed in detail in section <_:ptr-6/>, are needed. If the module for linking has been enabled (as described in section <_:ptr-7/> above), one way to represent the simple example above would be as follows: <_:egXML-8/>"
+msgid ""
+"A major difference between spoken and written texts is the importance of the "
+"temporal dimension to the former. As a very simple example, consider the "
+"following, first as it might be represented in a playscript: <_:egXML-1/> To "
+"encode this, we first define the participants: <_:egXML-2/> Let us assume "
+"that Stig and Lou respond to Jane's question before she has finished asking "
+"it—a fairly normal situation in spontaneous speech. The simplest way of "
+"representing this <_:term-3/> would be to use the <_:att-4/> attribute "
+"previously discussed: <_:egXML-5/> However, this does not allow us to "
+"indicate either the extent to which Stig's utterance is overlapped, nor does "
+"it show that there are in fact three things which are synchronous: the end "
+"of Jane's utterance, Stig's whole utterance, and Lou's kinesic. To overcome "
+"these problems, more sophisticated techniques, employing the mechanisms for "
+"pointing and alignment discussed in detail in section <_:ptr-6/>, are "
+"needed. If the module for linking has been enabled (as described in section "
+"<_:ptr-7/> above), one way to represent the simple example above would be as "
+"follows: <_:egXML-8/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1058
-msgid "For a full discussion of this and related mechanisms, section <_:ptr-1/> should be consulted. The rest of the present section, which should be read in conjunction with that more detailed discussion, presents a number of ways in which these mechanisms may be applied to the specific problem of representing temporal alignment, synchrony, or overlap in transcribing spoken texts."
+msgid ""
+"For a full discussion of this and related mechanisms, section <_:ptr-1/> "
+"should be consulted. The rest of the present section, which should be read "
+"in conjunction with that more detailed discussion, presents a number of ways "
+"in which these mechanisms may be applied to the specific problem of "
+"representing temporal alignment, synchrony, or overlap in transcribing "
+"spoken texts."
 msgstr ""
 
 #. (itstool) path: p/val
@@ -2145,7 +2633,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1063
-msgid "In the simple example above, the first utterance (that with identifier <_:val-1/>) contains an <_:gi-2/> element, the function of which is simply to mark a point within it. The <_:att-3/> attribute associated with this anchor point specifies the identifiers of the other two elements which are to be synchronized with it: specifically, the second utterance (<_:val-4/>) and the kinesic (k1). Note that one of these elements has content and the other is empty."
+msgid ""
+"In the simple example above, the first utterance (that with identifier <_:"
+"val-1/>) contains an <_:gi-2/> element, the function of which is simply to "
+"mark a point within it. The <_:att-3/> attribute associated with this anchor "
+"point specifies the identifiers of the other two elements which are to be "
+"synchronized with it: specifically, the second utterance (<_:val-4/>) and "
+"the kinesic (k1). Note that one of these elements has content and the other "
+"is empty."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2159,12 +2654,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1070
-msgid "This example demonstrates only a way of indicating a point within one utterance at which it can be synchronized with another utterance and a kinesic. For more complex kinds of alignment, involving possibly multiple synchronization points, an additional element is provided, known as a <_:gi-1/>. This consists of a series of <_:gi-2/> elements, each representing a point in time, and bearing attributes which indicate its exact temporal position relative to other elements in the same timeline, in addition to the sequencing implied by its position within it."
+msgid ""
+"This example demonstrates only a way of indicating a point within one "
+"utterance at which it can be synchronized with another utterance and a "
+"kinesic. For more complex kinds of alignment, involving possibly multiple "
+"synchronization points, an additional element is provided, known as a <_:"
+"gi-1/>. This consists of a series of <_:gi-2/> elements, each representing a "
+"point in time, and bearing attributes which indicate its exact temporal "
+"position relative to other elements in the same timeline, in addition to the "
+"sequencing implied by its position within it."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1079
-msgid "For example: <_:egXML-1/> This timeline represents four points in time, named TS-P1, TS-P2, TS-P6, and TS-P3 (as with all attributes named <_:att-2/> in the TEI scheme, the names must be unique within the document but have no other significance). TS-P1 is located absolutely, at 12:20:01:01 BST. TS-P2 is 4.5 seconds later than TS-P2 (i.e. at 12:20:46). TS-P6 is at some unspecified time later than TS-P2 and previous to TS-P3 (this is implied by its position within the timeline, as no attribute values have been specified for it). The fourth point, TS-P3, is 1.5 seconds later than TS-P6."
+msgid ""
+"For example: <_:egXML-1/> This timeline represents four points in time, "
+"named TS-P1, TS-P2, TS-P6, and TS-P3 (as with all attributes named <_:att-2/"
+"> in the TEI scheme, the names must be unique within the document but have "
+"no other significance). TS-P1 is located absolutely, at 12:20:01:01 BST. TS-"
+"P2 is 4.5 seconds later than TS-P2 (i.e. at 12:20:46). TS-P6 is at some "
+"unspecified time later than TS-P2 and previous to TS-P3 (this is implied by "
+"its position within the timeline, as no attribute values have been specified "
+"for it). The fourth point, TS-P3, is 1.5 seconds later than TS-P6."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2186,17 +2697,30 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1095
-msgid "One or more such timelines may be specified within a spoken text, to suit the encoder's convenience. If more than one is supplied, the <_:att-1/> attribute may be used on each to specify which other <_:gi-2/> element it follows. The <_:att-3/> attribute indicates the units used for timings given on <_:gi-4/> elements contained by the alignment map. Alternatively, to avoid the need to specify times explicitly, the <_:att-5/> attribute may be used to indicate that all the <_:gi-6/> elements in a time line are a fixed distance apart."
+msgid ""
+"One or more such timelines may be specified within a spoken text, to suit "
+"the encoder's convenience. If more than one is supplied, the <_:att-1/> "
+"attribute may be used on each to specify which other <_:gi-2/> element it "
+"follows. The <_:att-3/> attribute indicates the units used for timings given "
+"on <_:gi-4/> elements contained by the alignment map. Alternatively, to "
+"avoid the need to specify times explicitly, the <_:att-5/> attribute may be "
+"used to indicate that all the <_:gi-6/> elements in a time line are a fixed "
+"distance apart."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1107
-msgid "The elements to be synchronized may specify the identifier of a <_:gi-1/> element as the value of one of the <_:att-2/>, <_:att-3/>, or <_:att-4/> attributes"
+msgid ""
+"The elements to be synchronized may specify the identifier of a <_:gi-1/> "
+"element as the value of one of the <_:att-2/>, <_:att-3/>, or <_:att-4/> "
+"attributes"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1110
-msgid "The <_:gi-1/> element may specify the identifiers of all the elements to be synchronized with it using the <_:att-2/> attribute"
+msgid ""
+"The <_:gi-1/> element may specify the identifiers of all the elements to be "
+"synchronized with it using the <_:att-2/> attribute"
 msgstr ""
 
 #. (itstool) path: item/gi
@@ -2211,12 +2735,17 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1113
-msgid "A free-standing <_:gi-1/> element may be used to associate the <_:gi-2/> element and the elements synchronized with it by specifying their identifiers as values for its <_:att-3/> attribute."
+msgid ""
+"A free-standing <_:gi-1/> element may be used to associate the <_:gi-2/> "
+"element and the elements synchronized with it by specifying their "
+"identifiers as values for its <_:att-3/> attribute."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1104
-msgid "Three methods are available for aligning points or elements within a spoken text with the points in time defined by the <_:gi-1/>: <_:list-2/>"
+msgid ""
+"Three methods are available for aligning points or elements within a spoken "
+"text with the points in time defined by the <_:gi-1/>: <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -2266,7 +2795,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1118
-msgid "For example, using the timeline given above: <_:egXML-1/> The start of utterance <_:val-2/> is aligned with <_:val-3/> and its end with <_:val-4/>. The transition between the words <_:mentioned-5/> and <_:mentioned-6/> occurs at point <_:val-7/>, which is synchronous with point <_:val-8/> on the timeline."
+msgid ""
+"For example, using the timeline given above: <_:egXML-1/> The start of "
+"utterance <_:val-2/> is aligned with <_:val-3/> and its end with <_:val-4/>. "
+"The transition between the words <_:mentioned-5/> and <_:mentioned-6/> "
+"occurs at point <_:val-7/>, which is synchronous with point <_:val-8/> on "
+"the timeline."
 msgstr ""
 
 #. (itstool) path: p/val
@@ -2286,7 +2820,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1124
-msgid "The synchronization represented by the preceding examples could equally well be represented as follows: <_:egXML-1/> Here, the whole of the object with identifier <_:val-2/> (the utterance) has been aligned with two different points, <_:val-3/> and <_:val-4/>. This is interpreted to mean that the utterance spans at least those two points."
+msgid ""
+"The synchronization represented by the preceding examples could equally well "
+"be represented as follows: <_:egXML-1/> Here, the whole of the object with "
+"identifier <_:val-2/> (the utterance) has been aligned with two different "
+"points, <_:val-3/> and <_:val-4/>. This is interpreted to mean that the "
+"utterance spans at least those two points."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2303,27 +2842,43 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1137
-msgid "Finally, a <_:gi-1/> may be used as an alternative to the <_:att-2/> attribute: <_:egXML-3/>"
+msgid ""
+"Finally, a <_:gi-1/> may be used as an alternative to the <_:att-2/> "
+"attribute: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1158
-msgid "Tom: I used to smoke - - Bob: (interrupting) You used to smoke? Tom: (at the same time) a lot more than this. But I never inhaled the smoke"
+msgid ""
+"Tom: I used to smoke - - Bob: (interrupting) You used to smoke? Tom: (at the "
+"same time) a lot more than this. But I never inhaled the smoke"
 msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1165
-msgid "(1) I used to smoke [ a lot more than this ] (2)                 [ you used to smoke ] (1) but I never inhaled the smoke"
+msgid ""
+"(1) I used to smoke [ a lot more than this ] (2)                 [ you used "
+"to smoke ] (1) but I never inhaled the smoke"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1155
-msgid "As a further example of the three possibilities, consider the following dialogue, represented first as it might appear in a conventional playscript: <_:egXML-1/> A commonly used convention might be to transcribe such a passage as follows: <_:egXML-2/> Such conventions have the drawback that they are hard to generalize or to extend beyond the very simple case presented here. Their reliance on the accidentals of physical layout may also make them difficult to transport and to process computationally. These Guidelines recommend the following mechanisms to encode this."
+msgid ""
+"As a further example of the three possibilities, consider the following "
+"dialogue, represented first as it might appear in a conventional playscript: "
+"<_:egXML-1/> A commonly used convention might be to transcribe such a "
+"passage as follows: <_:egXML-2/> Such conventions have the drawback that "
+"they are hard to generalize or to extend beyond the very simple case "
+"presented here. Their reliance on the accidentals of physical layout may "
+"also make them difficult to transport and to process computationally. These "
+"Guidelines recommend the following mechanisms to encode this."
 msgstr ""
 
 #. (itstool) path: egXML/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1175
-msgid "I used to smoke <_:anchor-1/> a lot more than this <_:anchor-2/>but I never inhaled the smoke"
+msgid ""
+"I used to smoke <_:anchor-1/> a lot more than this <_:anchor-2/>but I never "
+"inhaled the smoke"
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -2345,7 +2900,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1173
-msgid "Where the whole of one or another utterance is to be synchronized, the <_:att-1/> and <_:att-2/> attributes may be used: <_:egXML-3/> Note that the second utterance above could equally well be encoded as follows with exactly the same effect: <_:egXML-4/>"
+msgid ""
+"Where the whole of one or another utterance is to be synchronized, the <_:"
+"att-1/> and <_:att-2/> attributes may be used: <_:egXML-3/> Note that the "
+"second utterance above could equally well be encoded as follows with exactly "
+"the same effect: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: egXML/u
@@ -2353,7 +2912,9 @@ msgstr ""
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1187
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1207
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1218
-msgid "I used to smoke <_:anchor-1/>a lot more than this <_:anchor-2/>but I never inhaled the smoke"
+msgid ""
+"I used to smoke <_:anchor-1/>a lot more than this <_:anchor-2/>but I never "
+"inhaled the smoke"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2363,27 +2924,42 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1181
-msgid "If synchronization with specific timing information is required, a <_:gi-1/> must be included: <_:egXML-2/> (Note that If only the ordering or sequencing of utterances is needed, then specific timing information shown here in <_:att-3/>, <_:att-4/> and <_:att-5/> does not need to be provided.)"
+msgid ""
+"If synchronization with specific timing information is required, a <_:gi-1/> "
+"must be included: <_:egXML-2/> (Note that If only the ordering or sequencing "
+"of utterances is needed, then specific timing information shown here in <_:"
+"att-3/>, <_:att-4/> and <_:att-5/> does not need to be provided.)"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1197
-msgid "As above, since the whole of Bob's utterance is to be aligned, the <_:att-1/> and <_:att-2/> attributes may be used as an alternative to the second pair of <_:gi-3/> elements: <_:egXML-4/>"
+msgid ""
+"As above, since the whole of Bob's utterance is to be aligned, the <_:att-1/"
+"> and <_:att-2/> attributes may be used as an alternative to the second pair "
+"of <_:gi-3/> elements: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1201
-msgid "An alternative approach is to mark the synchronization by pointing from the <_:gi-1/> to the text: <_:egXML-2/> To avoid deciding whether to point from the timeline to the text or vice versa, a <_:gi-3/> may be used: <_:egXML-4/>"
+msgid ""
+"An alternative approach is to mark the synchronization by pointing from the "
+"<_:gi-1/> to the text: <_:egXML-2/> To avoid deciding whether to point from "
+"the timeline to the text or vice versa, a <_:gi-3/> may be used: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1227
-msgid "Note that in each case, although Bob's utterance follows Tom's sequentially in the text, it is aligned temporally with its middle, without any need to disrupt the normal syntax of the text."
+msgid ""
+"Note that in each case, although Bob's utterance follows Tom's sequentially "
+"in the text, it is aligned temporally with its middle, without any need to "
+"disrupt the normal syntax of the text."
 msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1234
-msgid "Stig: This is |my  |turn Jane:         |Balderdash Lou :         |No, |it's mine"
+msgid ""
+"Stig: This is |my  |turn Jane:         |Balderdash Lou :         |No, |it's "
+"mine"
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -2422,7 +2998,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1230
-msgid "As a final example, consider the following exchange, first as it might be represented using a musical-score-like notation, in which points of synchronization are represented by vertical alignment of the text: <_:egXML-1/> All three speakers are simultaneous at the words <_:mentioned-2/>, <_:mentioned-3/>, and <_:mentioned-4/>; speakers Stig and Lou are simultaneous at the words <_:mentioned-5/> and <_:mentioned-6/>. This could be encoded as follows, using pointers from the alignment map into the text: <_:egXML-7/>"
+msgid ""
+"As a final example, consider the following exchange, first as it might be "
+"represented using a musical-score-like notation, in which points of "
+"synchronization are represented by vertical alignment of the text: <_:"
+"egXML-1/> All three speakers are simultaneous at the words <_:mentioned-2/>, "
+"<_:mentioned-3/>, and <_:mentioned-4/>; speakers Stig and Lou are "
+"simultaneous at the words <_:mentioned-5/> and <_:mentioned-6/>. This could "
+"be encoded as follows, using pointers from the alignment map into the text: "
+"<_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2457,7 +3041,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1252
-msgid "When speech is transcribed using ordinary orthographic notation, as is customary, some compromise must be made between the sounds produced and conventional orthography. Particularly when dealing with informal, dialectal, or other varieties of language, the transcriber will frequently have to decide whether a particular sound is to be treated as a distinct vocabulary item or not. For example, while in a given project <_:mentioned-1/> may not be worth distinguishing as a vocabulary item from <_:mentioned-2/>, <_:mentioned-3/> may clearly be worth distinguishing from <_:mentioned-4/>; for some purposes, the regional variant <_:mentioned-5/> might also be worth distinguishing in the same way."
+msgid ""
+"When speech is transcribed using ordinary orthographic notation, as is "
+"customary, some compromise must be made between the sounds produced and "
+"conventional orthography. Particularly when dealing with informal, "
+"dialectal, or other varieties of language, the transcriber will frequently "
+"have to decide whether a particular sound is to be treated as a distinct "
+"vocabulary item or not. For example, while in a given project <_:mentioned-1/"
+"> may not be worth distinguishing as a vocabulary item from <_:mentioned-2/"
+">, <_:mentioned-3/> may clearly be worth distinguishing from <_:mentioned-4/"
+">; for some purposes, the regional variant <_:mentioned-5/> might also be "
+"worth distinguishing in the same way."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -2492,17 +3086,39 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1263
-msgid "One rule of thumb might be to allow such variation only where a generally accepted orthographic form exists, for example, in published dictionaries of the language register being encoded; this has the disadvantage that such dictionaries may not exist. Another is to maintain a controlled (but extensible) set of normalized forms for all such words; this has the advantage of enforcing some degree of consistency among different transcribers. Occasionally, as for example when transcribing abbreviations or acronyms, it may be felt necessary to depart from conventional spelling to distinguish between cases where the abbreviation is spelled out letter by letter (e.g. <_:mentioned-1/> or <_:mentioned-2/>) and where it is pronounced as a single word (<_:mentioned-3/> or <_:mentioned-4/>). Similar considerations might apply to pronunciation of foreign words (e.g. <_:mentioned-5/> vs. <_:mentioned-6/>)."
+msgid ""
+"One rule of thumb might be to allow such variation only where a generally "
+"accepted orthographic form exists, for example, in published dictionaries of "
+"the language register being encoded; this has the disadvantage that such "
+"dictionaries may not exist. Another is to maintain a controlled (but "
+"extensible) set of normalized forms for all such words; this has the "
+"advantage of enforcing some degree of consistency among different "
+"transcribers. Occasionally, as for example when transcribing abbreviations "
+"or acronyms, it may be felt necessary to depart from conventional spelling "
+"to distinguish between cases where the abbreviation is spelled out letter by "
+"letter (e.g. <_:mentioned-1/> or <_:mentioned-2/>) and where it is "
+"pronounced as a single word (<_:mentioned-3/> or <_:mentioned-4/>). Similar "
+"considerations might apply to pronunciation of foreign words (e.g. <_:"
+"mentioned-5/> vs. <_:mentioned-6/>)."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1277
-msgid "In general, use of punctuation, capitalization, etc., in spoken transcripts should be carefully controlled. It is important to distinguish the transcriber's intuition as to what the punctuation should be from the marking of prosodic features such as pausing, intonation, etc."
+msgid ""
+"In general, use of punctuation, capitalization, etc., in spoken transcripts "
+"should be carefully controlled. It is important to distinguish the "
+"transcriber's intuition as to what the punctuation should be from the "
+"marking of prosodic features such as pausing, intonation, etc."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1282
-msgid "Whatever practice is adopted, it is essential that it be clearly and fully documented in the editorial declarations section of the header. It may also be found helpful to include normalized forms of non-conventional spellings within the text, using the elements for simple editorial changes described in section <_:ptr-1/> (see further section <_:ptr-2/>)."
+msgid ""
+"Whatever practice is adopted, it is essential that it be clearly and fully "
+"documented in the editorial declarations section of the header. It may also "
+"be found helpful to include normalized forms of non-conventional spellings "
+"within the text, using the elements for simple editorial changes described "
+"in section <_:ptr-1/> (see further section <_:ptr-2/>)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2512,7 +3128,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1289
-msgid "In the absence of conventional punctuation, the marking of prosodic features assumes paramount importance, since these structure and organize the spoken message. Indeed, such prosodic features as points of primary or secondary stress may be represented by specialized punctuation marks, or other characters such as those provided by the Unicode Spacing Modifier Letters block. Pauses have already been dealt with in section <_:ptr-1/>; while tone units (or intonational phrases) can be indicated by the segmentation tag discussed in section <_:ptr-2/>. The <_:gi-3/> element discussed in section <_:ptr-4/> may also be used to encode some prosodic features, for example where all that is required is the ability to record shifts in voice quality."
+msgid ""
+"In the absence of conventional punctuation, the marking of prosodic features "
+"assumes paramount importance, since these structure and organize the spoken "
+"message. Indeed, such prosodic features as points of primary or secondary "
+"stress may be represented by specialized punctuation marks, or other "
+"characters such as those provided by the Unicode Spacing Modifier Letters "
+"block. Pauses have already been dealt with in section <_:ptr-1/>; while tone "
+"units (or intonational phrases) can be indicated by the segmentation tag "
+"discussed in section <_:ptr-2/>. The <_:gi-3/> element discussed in section "
+"<_:ptr-4/> may also be used to encode some prosodic features, for example "
+"where all that is required is the ability to record shifts in voice quality."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2522,7 +3148,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1301
-msgid "In a more detailed phonological transcript, it is common practice to include a number of conventional signs to mark prosodic features of the surrounding or (more usually) preceding speech. Such signs may be used to record, for example, particular intonation patterns, truncation, vowel quality (long or short) etc. These signs may be preserved in a transcript either by using conventional punctuation or by marking their presence by <_:gi-1/> elements. Where a transcript includes many phonetic or phonemic aspects, it will generally be more convenient to use the appropriate Unicode characters (see further chapters <_:ptr-2/> and <_:ptr-3/>). For representation of phonemic information, the use of the International Phonetic Alphabet, which can be represented in Unicode characters, is recommended."
+msgid ""
+"In a more detailed phonological transcript, it is common practice to include "
+"a number of conventional signs to mark prosodic features of the surrounding "
+"or (more usually) preceding speech. Such signs may be used to record, for "
+"example, particular intonation patterns, truncation, vowel quality (long or "
+"short) etc. These signs may be preserved in a transcript either by using "
+"conventional punctuation or by marking their presence by <_:gi-1/> elements. "
+"Where a transcript includes many phonetic or phonemic aspects, it will "
+"generally be more convenient to use the appropriate Unicode characters (see "
+"further chapters <_:ptr-2/> and <_:ptr-3/>). For representation of phonemic "
+"information, the use of the International Phonetic Alphabet, which can be "
+"represented in Unicode characters, is recommended."
 msgstr ""
 
 #. (itstool) path: char/desc
@@ -2572,7 +3209,9 @@ msgstr ""
 
 #. (itstool) path: div/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1332
-msgid "<_:unclear-1/> <_:pause-2/> You dont have some aesthetic<_:g-3/> <_:pause-4/> <_:unclear-5/> aesthetics terminology <_:g-6/>"
+msgid ""
+"<_:unclear-1/> <_:pause-2/> You dont have some aesthetic<_:g-3/> <_:pause-4/"
+"> <_:unclear-5/> aesthetics terminology <_:g-6/>"
 msgstr ""
 
 #. (itstool) path: div/u
@@ -2592,7 +3231,10 @@ msgstr ""
 
 #. (itstool) path: div/u
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1339
-msgid "No<_:g-1/> <_:unclear-2/> thanks<_:g-3/> <_:pause-4/> Oh<_:g-5/> <_:unclear-6/> kind of<_:g-7/> <_:pause-8/>I mean ask you to order it for us<_:g-9/><_:g-10/>"
+msgid ""
+"No<_:g-1/> <_:unclear-2/> thanks<_:g-3/> <_:pause-4/> Oh<_:g-5/> <_:"
+"unclear-6/> kind of<_:g-7/> <_:pause-8/>I mean ask you to order it for us<_:"
+"g-9/><_:g-10/>"
 msgstr ""
 
 #. (itstool) path: div/u
@@ -2622,7 +3264,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1315
-msgid "In the following example, special characters have been defined as follows within the <_:gi-1/> of the TEI header <_:egXML-2/> These declarations might additionally provide information about how the characters concerned should be rendered, their equivalent IPA form, etc. In the transcript itself references to them can then be included as follows: <_:egXML-3/>"
+msgid ""
+"In the following example, special characters have been defined as follows "
+"within the <_:gi-1/> of the TEI header <_:egXML-2/> These declarations might "
+"additionally provide information about how the characters concerned should "
+"be rendered, their equivalent IPA form, etc. In the transcript itself "
+"references to them can then be included as follows: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2634,12 +3281,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1357
-msgid "This example, which is taken from a corpus of bookshop service encounters, also demonstrates the use of the <_:gi-1/> and <_:gi-2/> elements discussed in section <_:ptr-3/>. Where words are so unclear that only their extent can be recorded, the empty <_:gi-4/> element may be used; where the encoder can identify the words but wishes to record a degree of uncertainty about their accuracy, the <_:gi-5/> element may be used. More flexible and detailed methods of indicating uncertainty are discussed in chapter <_:ptr-6/>."
+msgid ""
+"This example, which is taken from a corpus of bookshop service encounters, "
+"also demonstrates the use of the <_:gi-1/> and <_:gi-2/> elements discussed "
+"in section <_:ptr-3/>. Where words are so unclear that only their extent can "
+"be recorded, the empty <_:gi-4/> element may be used; where the encoder can "
+"identify the words but wishes to record a degree of uncertainty about their "
+"accuracy, the <_:gi-5/> element may be used. More flexible and detailed "
+"methods of indicating uncertainty are discussed in chapter <_:ptr-6/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1368
-msgid "For more detailed work, involving a detailed phonological transcript including representation of stress and pitch patterns, it is probably best to maintain the prosodic description in parallel with the conventional written transcript, rather than attempt to embed detailed prosodic information within it. The two parallel streams may be aligned with each other and with other streams, for example an acoustic encoding, using the general alignment mechanisms discussed in section <_:ptr-1/>."
+msgid ""
+"For more detailed work, involving a detailed phonological transcript "
+"including representation of stress and pitch patterns, it is probably best "
+"to maintain the prosodic description in parallel with the conventional "
+"written transcript, rather than attempt to embed detailed prosodic "
+"information within it. The two parallel streams may be aligned with each "
+"other and with other streams, for example an acoustic encoding, using the "
+"general alignment mechanisms discussed in section <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2659,7 +3320,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1380
-msgid "Phenomena of <_:term-1/> include disfluencies such as filled and unfilled pauses, interrupted or repeated words, corrections, and reformulations as well as interactional devices asking for or providing feedback. Depending on the importance attached to such features, transcribers may choose to adopt conventionalized representations for them (as discussed in section <_:ptr-2/> above), or to transcribe them using IPA or some other transcription system. To simplify analysis of the lexical features of a speech transcript, it may be felt useful to <_:soCalled-3/> many of these disfluencies. Where this policy has been adopted, these Guidelines recommend the use of the tags for simple editorial intervention discussed in section <_:ptr-4/>, to make explicit the extent of regularization or normalization performed by the transcriber."
+msgid ""
+"Phenomena of <_:term-1/> include disfluencies such as filled and unfilled "
+"pauses, interrupted or repeated words, corrections, and reformulations as "
+"well as interactional devices asking for or providing feedback. Depending on "
+"the importance attached to such features, transcribers may choose to adopt "
+"conventionalized representations for them (as discussed in section <_:ptr-2/"
+"> above), or to transcribe them using IPA or some other transcription "
+"system. To simplify analysis of the lexical features of a speech transcript, "
+"it may be felt useful to <_:soCalled-3/> many of these disfluencies. Where "
+"this policy has been adopted, these Guidelines recommend the use of the tags "
+"for simple editorial intervention discussed in section <_:ptr-4/>, to make "
+"explicit the extent of regularization or normalization performed by the "
+"transcriber."
 msgstr ""
 
 #. (itstool) path: u/del
@@ -2674,12 +3347,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1394
-msgid "For example, false starts, repetition, and truncated words might all be included within a transcript, but marked as editorially deleted, in the following way: <_:egXML-1/>"
+msgid ""
+"For example, false starts, repetition, and truncated words might all be "
+"included within a transcript, but marked as editorially deleted, in the "
+"following way: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1400
-msgid "As previously noted, the <_:gi-1/> element may be used to mark points within a transcript where words have been omitted, for example because they are inaudible, as in the following example in which 5 seconds of speech is drowned out by an external event: <_:egXML-2/>"
+msgid ""
+"As previously noted, the <_:gi-1/> element may be used to mark points within "
+"a transcript where words have been omitted, for example because they are "
+"inaudible, as in the following example in which 5 seconds of speech is "
+"drowned out by an external event: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: u/unclear
@@ -2694,7 +3374,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1405
-msgid "The <_:gi-1/> element may be used to mark words which have been included although the transcriber is unsure of their accuracy: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element may be used to mark words which have been included "
+"although the transcriber is unsure of their accuracy: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2724,7 +3406,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1408
-msgid "Where a transcriber is believed to have incorrectly identified a word, the elements <_:gi-1/> or <_:gi-2/> embedded within a <_:gi-3/> element may be used to indicate both the original and a corrected form of it: <_:egXML-4/> These elements are further discussed in section <_:ptr-5/>."
+msgid ""
+"Where a transcriber is believed to have incorrectly identified a word, the "
+"elements <_:gi-1/> or <_:gi-2/> embedded within a <_:gi-3/> element may be "
+"used to indicate both the original and a corrected form of it: <_:egXML-4/> "
+"These elements are further discussed in section <_:ptr-5/>."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -2754,7 +3440,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1417
-msgid "Finally phenomena such as <_:term-1/>, where a speaker switches from one language to another, may easily be represented in a transcript by using the <_:gi-2/> element provided by the core tagset: <_:egXML-3/>"
+msgid ""
+"Finally phenomena such as <_:term-1/>, where a speaker switches from one "
+"language to another, may easily be represented in a transcript by using the "
+"<_:gi-2/> element provided by the core tagset: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2774,7 +3463,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1431
-msgid "The recommendations made here only concern the establishment of a basic text. Where a more sophisticated analysis is needed, more sophisticated methods of markup will also be appropriate, for example, using stand-off markup to indicate multiple segmentation of the stream of discourse, or complex alignment of several segments within it. Where additional annotations (sometimes called <_:soCalled-1/> or <_:soCalled-2/>) are used to represent such features as linguistic word class (noun, verb, etc.), type of speech act (imperative, concessive, etc.), or information status (theme/rheme, given/new, active/semi-active/new), etc., a selection from the general purpose analytic tools discussed in chapters <_:ptr-3/>, <_:ptr-4/>, and <_:ptr-5/> may be used to advantage."
+msgid ""
+"The recommendations made here only concern the establishment of a basic "
+"text. Where a more sophisticated analysis is needed, more sophisticated "
+"methods of markup will also be appropriate, for example, using stand-off "
+"markup to indicate multiple segmentation of the stream of discourse, or "
+"complex alignment of several segments within it. Where additional "
+"annotations (sometimes called <_:soCalled-1/> or <_:soCalled-2/>) are used "
+"to represent such features as linguistic word class (noun, verb, etc.), type "
+"of speech act (imperative, concessive, etc.), or information status (theme/"
+"rheme, given/new, active/semi-active/new), etc., a selection from the "
+"general purpose analytic tools discussed in chapters <_:ptr-3/>, <_:ptr-4/>, "
+"and <_:ptr-5/> may be used to advantage."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2784,7 +3484,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1444
-msgid "The general-purpose <_:gi-1/> element may be used to group together a transcription and multiple layers of annotation. It also serves to divide a transcribed text up into meaningful analytic sections. <_:specList-2/>"
+msgid ""
+"The general-purpose <_:gi-1/> element may be used to group together a "
+"transcription and multiple layers of annotation. It also serves to divide a "
+"transcribed text up into meaningful analytic sections. <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2826,6 +3529,8 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TS-TranscriptionsofSpeech.xml:1456
-msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>."
+msgid ""
+"The module described in this chapter makes available the following "
+"components: <_:moduleSpec-1/> The selection and combination of modules to "
+"form a TEI schema is described in <_:ptr-2/>."
 msgstr ""
-

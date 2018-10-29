@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:53+0900\n"
+"POT-Creation-Date: 2018-10-29 21:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +19,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:14
-msgid "This chapter describes a module which may be used for the documentation of the XML elements and element classes which make up any markup scheme, in particular that described by the TEI Guidelines, and also for the automatic generation of schemas or DTDs conforming to that documentation. It should be used also by those wishing to customize or modify these Guidelines in a conformant manner, as further described in chapters <_:ptr-1/> and <_:ptr-2/> and may also be useful in the documentation of any other comparable encoding scheme, even though it contains some aspects which are specific to the TEI and may not be generally applicable."
+msgid ""
+"This chapter describes a module which may be used for the documentation of "
+"the XML elements and element classes which make up any markup scheme, in "
+"particular that described by the TEI Guidelines, and also for the automatic "
+"generation of schemas or DTDs conforming to that documentation. It should be "
+"used also by those wishing to customize or modify these Guidelines in a "
+"conformant manner, as further described in chapters <_:ptr-1/> and <_:ptr-2/"
+"> and may also be useful in the documentation of any other comparable "
+"encoding scheme, even though it contains some aspects which are specific to "
+"the TEI and may not be generally applicable."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -33,37 +43,73 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TD-DocumentationElements.xml:23
-msgid "ODD is short for <_:q-1/>, and was the name invented by the original TEI Editors for the predecessor of the system currently used for this purpose. See further <_:ptr-2/> and <_:ptr-3/>."
+msgid ""
+"ODD is short for <_:q-1/>, and was the name invented by the original TEI "
+"Editors for the predecessor of the system currently used for this purpose. "
+"See further <_:ptr-2/> and <_:ptr-3/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:21
-msgid "An overview of the kind of processing environment envisaged for the module described by this chapter may be helpful. In the remainder of this chapter we refer to software which provides such a processing environment as an <_:term-1/>.<_:note-2/> Like any other piece of XML software, an ODD processor may be instantiated in many ways: the current system uses a number of XSLT stylesheets which are freely available from the TEI, but this specification makes no particular assumptions about the tools which will be used to provide an ODD processing environment."
+msgid ""
+"An overview of the kind of processing environment envisaged for the module "
+"described by this chapter may be helpful. In the remainder of this chapter "
+"we refer to software which provides such a processing environment as an <_:"
+"term-1/>.<_:note-2/> Like any other piece of XML software, an ODD processor "
+"may be instantiated in many ways: the current system uses a number of XSLT "
+"stylesheets which are freely available from the TEI, but this specification "
+"makes no particular assumptions about the tools which will be used to "
+"provide an ODD processing environment."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:32
-msgid "formal reference documentation for elements, attributes, element classes, patterns, etc. such as those provided in <_:ptr-1/> below;"
+msgid ""
+"formal reference documentation for elements, attributes, element classes, "
+"patterns, etc. such as those provided in <_:ptr-1/> below;"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:34
-msgid "detailed descriptive documentation, embedding some parts of the formal reference documentation, such as the tag description lists provided in this and other chapters of these Guidelines;"
+msgid ""
+"detailed descriptive documentation, embedding some parts of the formal "
+"reference documentation, such as the tag description lists provided in this "
+"and other chapters of these Guidelines;"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:36
-msgid "declarative code for one or more XML schema languages, such as RELAX NG, W3C Schema, ISO Schematron, or DTD."
+msgid ""
+"declarative code for one or more XML schema languages, such as RELAX NG, W3C "
+"Schema, ISO Schematron, or DTD."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:30
-msgid "As the name suggests, an ODD processor uses a single XML document to generate multiple outputs. These outputs will include: <_:list-1/>"
+msgid ""
+"As the name suggests, an ODD processor uses a single XML document to "
+"generate multiple outputs. These outputs will include: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:42
-msgid "The input required to generate these outputs consists of running prose, and special purpose elements documenting the components (elements, classes, etc.) which are to be declared in the chosen schema language. All of this input is encoded in XML using elements defined in this chapter. In order to support more than one schema language, these elements constitute a comparatively high-level model which can then be mapped by an ODD processor to the specific constructs appropriate for the schema language in use. Although some modern schema languages such as RELAX NG or W3C Schema natively support self-documentary features of this kind, we have chosen to retain the ODD model, if only for reasons of compatibility with earlier versions of these Guidelines. For reasons of backwards compatibility, the ISO standard XML schema language RELAX NG (<_:ptr-1/>) may be used as a means of declaring content models and datatypes, but it is also possible to express content models using native TEI XML constructs. We also use the ISO Schematron language to define additional constraints beyond those expressed in the content model, as further discussed in <_:ptr-2/> below."
+msgid ""
+"The input required to generate these outputs consists of running prose, and "
+"special purpose elements documenting the components (elements, classes, "
+"etc.) which are to be declared in the chosen schema language. All of this "
+"input is encoded in XML using elements defined in this chapter. In order to "
+"support more than one schema language, these elements constitute a "
+"comparatively high-level model which can then be mapped by an ODD processor "
+"to the specific constructs appropriate for the schema language in use. "
+"Although some modern schema languages such as RELAX NG or W3C Schema "
+"natively support self-documentary features of this kind, we have chosen to "
+"retain the ODD model, if only for reasons of compatibility with earlier "
+"versions of these Guidelines. For reasons of backwards compatibility, the "
+"ISO standard XML schema language RELAX NG (<_:ptr-1/>) may be used as a "
+"means of declaring content models and datatypes, but it is also possible to "
+"express content models using native TEI XML constructs. We also use the ISO "
+"Schematron language to define additional constraints beyond those expressed "
+"in the content model, as further discussed in <_:ptr-2/> below."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -105,12 +151,36 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:54
-msgid "In the TEI system, a <_:term-1/> is built by combining element and attribute declarations, more or less as required. Each element is documented by an appropriate <_:term-2/> and has an identifier unique across the whole TEI scheme. For convenience, these specifications are grouped into a number of discrete <_:term-3/>, which can also be combined more or less as required. Each major chapter of these Guidelines defines a distinct module. Each module declares a number of <_:term-4/> specific to that module, and may also populate particular <_:term-5/>. All classes are available globally, irrespective of the module in which they are declared; particular modules extend the meaning of a class by adding elements or attributes to it. Wherever possible, element content models are defined in terms of classes rather than in terms of specific elements. Modules can also declare particular <_:term-6/>, which act as short-cuts for commonly used content models or class references."
+msgid ""
+"In the TEI system, a <_:term-1/> is built by combining element and attribute "
+"declarations, more or less as required. Each element is documented by an "
+"appropriate <_:term-2/> and has an identifier unique across the whole TEI "
+"scheme. For convenience, these specifications are grouped into a number of "
+"discrete <_:term-3/>, which can also be combined more or less as required. "
+"Each major chapter of these Guidelines defines a distinct module. Each "
+"module declares a number of <_:term-4/> specific to that module, and may "
+"also populate particular <_:term-5/>. All classes are available globally, "
+"irrespective of the module in which they are declared; particular modules "
+"extend the meaning of a class by adding elements or attributes to it. "
+"Wherever possible, element content models are defined in terms of classes "
+"rather than in terms of specific elements. Modules can also declare "
+"particular <_:term-6/>, which act as short-cuts for commonly used content "
+"models or class references."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:65
-msgid "In the present chapter, we discuss the components needed to support this system. In addition, section <_:ptr-1/> discusses some general purpose elements which may be useful in any kind of technical documentation, wherever there is need to talk about technical features of an XML encoding such as element names and attributes. Section <_:ptr-2/> discusses the elements which are used to document XML <_:term-3/> and their high-level components. Section <_:ptr-4/> discusses the elements which document XML elements and their attributes, element classes, and generic patterns or macros. Finally, section <_:ptr-5/> provides a summary overview of the elements provided by this module."
+msgid ""
+"In the present chapter, we discuss the components needed to support this "
+"system. In addition, section <_:ptr-1/> discusses some general purpose "
+"elements which may be useful in any kind of technical documentation, "
+"wherever there is need to talk about technical features of an XML encoding "
+"such as element names and attributes. Section <_:ptr-2/> discusses the "
+"elements which are used to document XML <_:term-3/> and their high-level "
+"components. Section <_:ptr-4/> discusses the elements which document XML "
+"elements and their attributes, element classes, and generic patterns or "
+"macros. Finally, section <_:ptr-5/> provides a summary overview of the "
+"elements provided by this module."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -130,7 +200,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:77
-msgid "In any kind of technical documentation, the following phrase-level elements may be found useful for marking up strings of text which need to be distinguished from the running text because they come from some formal language: <_:specList-1/> Like other phrase-level elements used to indicate the semantics of a typographically distinct string, these are members of the <_:ident-2/> class. They are available anywhere that running prose is permitted when the module defined by this chapter is included in a schema."
+msgid ""
+"In any kind of technical documentation, the following phrase-level elements "
+"may be found useful for marking up strings of text which need to be "
+"distinguished from the running text because they come from some formal "
+"language: <_:specList-1/> Like other phrase-level elements used to indicate "
+"the semantics of a typographically distinct string, these are members of the "
+"<_:ident-2/> class. They are available anywhere that running prose is "
+"permitted when the module defined by this chapter is included in a schema."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -150,7 +227,6 @@ msgstr ""
 #: Source/Guidelines/en/TD-DocumentationElements.xml:824
 #: Source/Guidelines/en/TD-DocumentationElements.xml:826
 #: Source/Guidelines/en/TD-DocumentationElements.xml:829
-#: Source/Guidelines/en/TD-DocumentationElements.xml:829
 #: Source/Guidelines/en/TD-DocumentationElements.xml:844
 msgid "ident"
 msgstr ""
@@ -167,12 +243,17 @@ msgstr ""
 
 #. (itstool) path: egXML/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:89
-msgid "If the variable <_:ident-1/> has a value of zero, a statement such as <_:code-2/> will usually cause a fatal error."
+msgid ""
+"If the variable <_:ident-1/> has a value of zero, a statement such as <_:"
+"code-2/> will usually cause a fatal error."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:86
-msgid "The <_:gi-1/> and <_:gi-2/> elements are intended for use when citing brief passages in some formal language such as a programming language, as in the following example: <_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> and <_:gi-2/> elements are intended for use when citing brief "
+"passages in some formal language such as a programming language, as in the "
+"following example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -187,7 +268,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:93
-msgid "If the cited phrase is a mathematical or chemical formula, the more specific <_:gi-1/> element defined by the <_:ident-2/> module (<_:ptr-3/>) may be more appropriate."
+msgid ""
+"If the cited phrase is a mathematical or chemical formula, the more specific "
+"<_:gi-1/> element defined by the <_:ident-2/> module (<_:ptr-3/>) may be "
+"more appropriate."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -204,7 +288,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:96
-msgid "A further group of similar phrase-level elements is also defined for the special case of representing parts of an XML document: <_:specList-1/> These elements constitute the <_:ident-2/> class, which is also a subclass of <_:ident-3/>. They are also available anywhere that running prose is permitted when the module defined by this chapter is included in a schema."
+msgid ""
+"A further group of similar phrase-level elements is also defined for the "
+"special case of representing parts of an XML document: <_:specList-1/> These "
+"elements constitute the <_:ident-2/> class, which is also a subclass of <_:"
+"ident-3/>. They are also available anywhere that running prose is permitted "
+"when the module defined by this chapter is included in a schema."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -243,17 +332,28 @@ msgstr ""
 
 #. (itstool) path: egXML/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:106
-msgid "The <_:gi-1/> element is used to tag element names when they appear in the text; the <_:gi-2/> element however is used to show how a tag as such might appear. So one might talk of an occurrence of the <_:gi-3/> element which had been tagged <_:tag-4/>. The <_:att-5/> attribute may take any name token as value; the default value is <_:val-6/>, in memory of its creator."
+msgid ""
+"The <_:gi-1/> element is used to tag element names when they appear in the "
+"text; the <_:gi-2/> element however is used to show how a tag as such might "
+"appear. So one might talk of an occurrence of the <_:gi-3/> element which "
+"had been tagged <_:tag-4/>. The <_:att-5/> attribute may take any name token "
+"as value; the default value is <_:val-6/>, in memory of its creator."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:105
-msgid "As an example of the recommended use of these elements, we quote from an imaginary TEI working paper: <_:egXML-1/>"
+msgid ""
+"As an example of the recommended use of these elements, we quote from an "
+"imaginary TEI working paper: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:112
-msgid "Within technical documentation, it is also often necessary to provide more extended examples of usage or to present passages of markup for discussion. The following special elements are provided for these purposes: <_:specList-1/>"
+msgid ""
+"Within technical documentation, it is also often necessary to provide more "
+"extended examples of usage or to present passages of markup for discussion. "
+"The following special elements are provided for these purposes: <_:"
+"specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -263,7 +363,6 @@ msgstr ""
 #: Source/Guidelines/en/TD-DocumentationElements.xml:475
 #: Source/Guidelines/en/TD-DocumentationElements.xml:489
 #: Source/Guidelines/en/TD-DocumentationElements.xml:492
-#: Source/Guidelines/en/TD-DocumentationElements.xml:546
 #: Source/Guidelines/en/TD-DocumentationElements.xml:546
 #: Source/Guidelines/en/TD-DocumentationElements.xml:548
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2158
@@ -288,7 +387,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:119
-msgid "Like the <_:gi-1/> element, the <_:gi-2/> element is used to mark strings of formal code, or passages of XML markup. The <_:gi-3/> element may be used to enclose any kind of example, which will typically be rendered as a distinct block, possibly using particular formatting conventions, when the document is processed. It is a specialized form of the more general <_:gi-4/> element provided by the TEI core module. In documents containing examples of XML markup, the <_:gi-5/> element should be used for preference, as further discussed below in <_:ptr-6/>, since the content of this element can be checked for well-formedness."
+msgid ""
+"Like the <_:gi-1/> element, the <_:gi-2/> element is used to mark strings of "
+"formal code, or passages of XML markup. The <_:gi-3/> element may be used to "
+"enclose any kind of example, which will typically be rendered as a distinct "
+"block, possibly using particular formatting conventions, when the document "
+"is processed. It is a specialized form of the more general <_:gi-4/> element "
+"provided by the TEI core module. In documents containing examples of XML "
+"markup, the <_:gi-5/> element should be used for preference, as further "
+"discussed below in <_:ptr-6/>, since the content of this element can be "
+"checked for well-formedness."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -304,7 +412,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:126
-msgid "These elements are added to the class <_:ident-1/> when this module is included in a schema. That class is a part of the general <_:ident-2/> class, thus permitting <_:gi-3/> or <_:gi-4/> elements to appear either within or between paragraph-like elements."
+msgid ""
+"These elements are added to the class <_:ident-1/> when this module is "
+"included in a schema. That class is a part of the general <_:ident-2/> "
+"class, thus permitting <_:gi-3/> or <_:gi-4/> elements to appear either "
+"within or between paragraph-like elements."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -315,7 +427,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:133
-msgid "Within the body of a document using this module, the following elements may be used to reference parts of the specification elements discussed in section <_:ptr-1/>, in particular the brief prose descriptions these provide for elements and attributes. <_:specList-2/>"
+msgid ""
+"Within the body of a document using this module, the following elements may "
+"be used to reference parts of the specification elements discussed in "
+"section <_:ptr-1/>, in particular the brief prose descriptions these provide "
+"for elements and attributes. <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -327,7 +443,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:146
-msgid "Within the body of a document using this module, the … the brief prose descriptions these provide for elements and attributes. <_:specList-1/>"
+msgid ""
+"Within the body of a document using this module, the … the brief prose "
+"descriptions these provide for elements and attributes. <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
@@ -337,7 +455,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:140
-msgid "TEI practice recommends that a <_:gi-1/> listing the elements under discussion introduce each subsection of a module's documentation. The source for the present section, for example, begins as follows: <_:egXML-2/>"
+msgid ""
+"TEI practice recommends that a <_:gi-1/> listing the elements under "
+"discussion introduce each subsection of a module's documentation. The source "
+"for the present section, for example, begins as follows: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -359,7 +480,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:156
-msgid "When formatting the <_:gi-1/> element in this example, an ODD processor might simply generate the section number and title of the section referred to, perhaps additionally inserting a link to the section. In a similar way, when processing the <_:gi-2/> elements, an ODD processor may recover relevant details of the elements being specified (<_:gi-3/> and <_:gi-4/> in this case) from their associated declaration elements: typically, the details recovered will include a brief description of the element and its attributes. These, and other data, will be stored in a specification element elsewhere within the current document, or they may be supplied by the ODD processor in some other way, for example from a database. For this reason, the link to the required specification element is always made using a TEI-defined key rather than an XML IDREF value. The ODD processor uses this key as a means of accessing the specification element required. There is no requirement that this be performed using the XML ID/IDREF mechanism, but there is an assumption that the identifier be unique."
+msgid ""
+"When formatting the <_:gi-1/> element in this example, an ODD processor "
+"might simply generate the section number and title of the section referred "
+"to, perhaps additionally inserting a link to the section. In a similar way, "
+"when processing the <_:gi-2/> elements, an ODD processor may recover "
+"relevant details of the elements being specified (<_:gi-3/> and <_:gi-4/> in "
+"this case) from their associated declaration elements: typically, the "
+"details recovered will include a brief description of the element and its "
+"attributes. These, and other data, will be stored in a specification element "
+"elsewhere within the current document, or they may be supplied by the ODD "
+"processor in some other way, for example from a database. For this reason, "
+"the link to the required specification element is always made using a TEI-"
+"defined key rather than an XML IDREF value. The ODD processor uses this key "
+"as a means of accessing the specification element required. There is no "
+"requirement that this be performed using the XML ID/IDREF mechanism, but "
+"there is an assumption that the identifier be unique."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -387,7 +523,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:168
-msgid "A <_:gi-1/> generates in the documentation the identifier, and also the contents of the <_:gi-2/> child of whatever specification element is indicated by its <_:att-3/> attribute, as in the example above. Documentation for any attributes specified by the <_:att-4/> attribute will also be generated as an associated attribute list."
+msgid ""
+"A <_:gi-1/> generates in the documentation the identifier, and also the "
+"contents of the <_:gi-2/> child of whatever specification element is "
+"indicated by its <_:att-3/> attribute, as in the example above. "
+"Documentation for any attributes specified by the <_:att-4/> attribute will "
+"also be generated as an associated attribute list."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -409,7 +550,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:188
-msgid "As mentioned above, the primary purpose of this module is to facilitate the documentation and creation of an XML schema derived from the TEI Guidelines. The following elements are provided for this purpose: <_:specList-1/> A <_:term-2/> is a convenient way of grouping together element and other declarations, and of associating an externally-visible name with the resulting group. A <_:term-3/> performs essentially the same function, but the resulting group is not accessible outside the scope of the ODD document in which it is defined, whereas a module can be accessed by name from any TEI schema specification. Elements, and their attributes, element classes, and patterns are all individually documented using further elements described in section <_:ptr-4/> below; part of that specification includes the name of the module to which the component belongs."
+msgid ""
+"As mentioned above, the primary purpose of this module is to facilitate the "
+"documentation and creation of an XML schema derived from the TEI Guidelines. "
+"The following elements are provided for this purpose: <_:specList-1/> A <_:"
+"term-2/> is a convenient way of grouping together element and other "
+"declarations, and of associating an externally-visible name with the "
+"resulting group. A <_:term-3/> performs essentially the same function, but "
+"the resulting group is not accessible outside the scope of the ODD document "
+"in which it is defined, whereas a module can be accessed by name from any "
+"TEI schema specification. Elements, and their attributes, element classes, "
+"and patterns are all individually documented using further elements "
+"described in section <_:ptr-4/> below; part of that specification includes "
+"the name of the module to which the component belongs."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -481,22 +634,50 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:206
-msgid "An ODD processor generating XML DTD or schema fragments from a document marked up according to the recommendations of this chapter will generate such fragments for each <_:gi-1/> element found. For example, the chapter documenting the TEI module for names and dates contains a module specification like the following: <_:egXML-2/> together with specifications for all the elements, classes, and patterns which make up that module, expressed using <_:gi-3/>, <_:gi-4/>, or <_:gi-5/> elements as appropriate. (These elements are discussed in section <_:ptr-6/> below.) Each of those specifications carries a <_:att-7/> attribute, the value of which is <_:code-8/>. An ODD processor encountering the <_:gi-9/> element above can thus generate a schema fragment for the TEI <_:ident-10/> module that includes declarations for all the elements (etc.) which reference it."
+msgid ""
+"An ODD processor generating XML DTD or schema fragments from a document "
+"marked up according to the recommendations of this chapter will generate "
+"such fragments for each <_:gi-1/> element found. For example, the chapter "
+"documenting the TEI module for names and dates contains a module "
+"specification like the following: <_:egXML-2/> together with specifications "
+"for all the elements, classes, and patterns which make up that module, "
+"expressed using <_:gi-3/>, <_:gi-4/>, or <_:gi-5/> elements as appropriate. "
+"(These elements are discussed in section <_:ptr-6/> below.) Each of those "
+"specifications carries a <_:att-7/> attribute, the value of which is <_:"
+"code-8/>. An ODD processor encountering the <_:gi-9/> element above can thus "
+"generate a schema fragment for the TEI <_:ident-10/> module that includes "
+"declarations for all the elements (etc.) which reference it."
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TD-DocumentationElements.xml:227
-msgid "The distinction between base and additional tagsets in earlier versions of the TEI scheme has not been carried forward into P5."
+msgid ""
+"The distinction between base and additional tagsets in earlier versions of "
+"the TEI scheme has not been carried forward into P5."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:223
-msgid "In most realistic applications, it will be desirable to combine more than one module together to form a complete <_:term-1/>. A schema consists of references to one or more modules or specification groups, and may also contain explicit declarations or redeclarations of elements (see further <_:ptr-2/>). Any combination of modules can be used to create a schema <_:note-3/>"
+msgid ""
+"In most realistic applications, it will be desirable to combine more than "
+"one module together to form a complete <_:term-1/>. A schema consists of "
+"references to one or more modules or specification groups, and may also "
+"contain explicit declarations or redeclarations of elements (see further <_:"
+"ptr-2/>). Any combination of modules can be used to create a schema <_:"
+"note-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:230
-msgid "A schema can combine references to TEI modules with references to other (non-TEI) modules using different namespaces, for example to include mathematical markup expressed using MathML in a TEI document. By default, the effect of combining modules is to allow all of the components declared by the constituent modules to coexist (where this is syntactically possible: where it is not—for example, because of name clashes—a schema cannot be generated). It is also possible to over-ride declarations contained by a module, as further discussed in section <_:ptr-1/>"
+msgid ""
+"A schema can combine references to TEI modules with references to other (non-"
+"TEI) modules using different namespaces, for example to include mathematical "
+"markup expressed using MathML in a TEI document. By default, the effect of "
+"combining modules is to allow all of the components declared by the "
+"constituent modules to coexist (where this is syntactically possible: where "
+"it is not—for example, because of name clashes—a schema cannot be "
+"generated). It is also possible to over-ride declarations contained by a "
+"module, as further discussed in section <_:ptr-1/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -529,12 +710,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:236
-msgid "It is often convenient to describe and operate on sets of declarations smaller than the whole, and to document them in a specific order: such collections are called <_:term-1/> (specification groups). Individual <_:gi-2/> elements are identified using the global <_:att-3/> attribute, and may then be referenced from any point in an ODD document using the <_:gi-4/> element. This is useful if, for example, it is desired to describe particular groups of elements in a specific sequence. Note however that the order in which element declarations appear within the schema code generated from an ODD file element is not in general affected by the order of declarations within a <_:gi-5/>."
+msgid ""
+"It is often convenient to describe and operate on sets of declarations "
+"smaller than the whole, and to document them in a specific order: such "
+"collections are called <_:term-1/> (specification groups). Individual <_:"
+"gi-2/> elements are identified using the global <_:att-3/> attribute, and "
+"may then be referenced from any point in an ODD document using the <_:gi-4/> "
+"element. This is useful if, for example, it is desired to describe "
+"particular groups of elements in a specific sequence. Note however that the "
+"order in which element declarations appear within the schema code generated "
+"from an ODD file element is not in general affected by the order of "
+"declarations within a <_:gi-5/>."
 msgstr ""
 
 #. (itstool) path: egXML/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:247
-msgid "This module contains three red elements: <_:specGrp-1/> and two blue ones: <_:specGrp-2/>"
+msgid ""
+"This module contains three red elements: <_:specGrp-1/> and two blue ones: "
+"<_:specGrp-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -569,7 +762,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:264
-msgid "The imaginary module contains declarations for coloured things: <_:specGrpRef-1/> <_:specGrpRef-2/>"
+msgid ""
+"The imaginary module contains declarations for coloured things: <_:"
+"specGrpRef-1/> <_:specGrpRef-2/>"
 msgstr ""
 
 #. (itstool) path: p/q
@@ -579,7 +774,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:244
-msgid "An ODD processor will generate a piece of schema code corresponding with the declarations contained by a <_:gi-1/> element in the documentation being output, and a cross-reference to such a piece of schema code when processing a <_:gi-2/>. For example, if the input text reads <_:egXML-3/> then the output documentation will replace the two <_:gi-4/> elements above with a representation of the schema code declaring the elements <_:gi-5/>, <_:gi-6/>, and <_:gi-7/> and that declaring the elements <_:gi-8/> and <_:gi-9/> respectively. Similarly, if the input text contains elsewhere a passage such as <_:egXML-10/> then the <_:gi-11/> elements may be replaced by an appropriate piece of reference text such as <_:q-12/>, or even by a copy of the relevant declarations. As stated above, the order of declarations within the imaginary module described above will not be affected in any way. Indeed, it is possible that the imaginary module will contain declarations not present in any specification group, or that the specification groups will refer to elements that come from different modules. Specification groups are always local to the document in which they are defined, and cannot be referenced externally (unlike modules)."
+msgid ""
+"An ODD processor will generate a piece of schema code corresponding with the "
+"declarations contained by a <_:gi-1/> element in the documentation being "
+"output, and a cross-reference to such a piece of schema code when processing "
+"a <_:gi-2/>. For example, if the input text reads <_:egXML-3/> then the "
+"output documentation will replace the two <_:gi-4/> elements above with a "
+"representation of the schema code declaring the elements <_:gi-5/>, <_:gi-6/"
+">, and <_:gi-7/> and that declaring the elements <_:gi-8/> and <_:gi-9/> "
+"respectively. Similarly, if the input text contains elsewhere a passage such "
+"as <_:egXML-10/> then the <_:gi-11/> elements may be replaced by an "
+"appropriate piece of reference text such as <_:q-12/>, or even by a copy of "
+"the relevant declarations. As stated above, the order of declarations within "
+"the imaginary module described above will not be affected in any way. "
+"Indeed, it is possible that the imaginary module will contain declarations "
+"not present in any specification group, or that the specification groups "
+"will refer to elements that come from different modules. Specification "
+"groups are always local to the document in which they are defined, and "
+"cannot be referenced externally (unlike modules)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -589,7 +801,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:289
-msgid "The following elements are used to specify elements, classes, patterns, and datatypes: <_:specList-1/>"
+msgid ""
+"The following elements are used to specify elements, classes, patterns, and "
+"datatypes: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -599,12 +813,34 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:296
-msgid "Unlike most elements in the TEI scheme, each of these <_:soCalled-1/> has a fairly rigid internal structure consisting of a large number of child elements which are always presented in the same order. Furthermore, since these elements all describe markup objects in broadly similar ways, they have several child elements in common. In the remainder of this chapter, we discuss first the elements which are common to all the specification elements, and then those which are specific to a particular type."
+msgid ""
+"Unlike most elements in the TEI scheme, each of these <_:soCalled-1/> has a "
+"fairly rigid internal structure consisting of a large number of child "
+"elements which are always presented in the same order. Furthermore, since "
+"these elements all describe markup objects in broadly similar ways, they "
+"have several child elements in common. In the remainder of this chapter, we "
+"discuss first the elements which are common to all the specification "
+"elements, and then those which are specific to a particular type."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:303
-msgid "Specification elements may appear at any point in an ODD document, both between and within paragraphs as well as inside a <_:gi-1/> element, but the specification element for any particular component may only appear once (except in the case where a modification is being defined; see further <_:ptr-2/>). The order in which they appear will not affect the order in which they are presented within any schema module generated from the document. In documentation mode, however, an ODD processor will output the schema declarations corresponding with a specification element at the point in the text where they are encountered, provided that they are contained by a <_:gi-3/> element, as discussed in the previous section. An ODD processor will also associate all declarations found with the nominated module, thus including them within the schema code generated for that module, and it will also generate a full reference description for the object concerned in a catalogue of markup objects. These latter two actions always occur irrespective of whether or not the declaration is included in a <_:gi-4/>."
+msgid ""
+"Specification elements may appear at any point in an ODD document, both "
+"between and within paragraphs as well as inside a <_:gi-1/> element, but the "
+"specification element for any particular component may only appear once "
+"(except in the case where a modification is being defined; see further <_:"
+"ptr-2/>). The order in which they appear will not affect the order in which "
+"they are presented within any schema module generated from the document. In "
+"documentation mode, however, an ODD processor will output the schema "
+"declarations corresponding with a specification element at the point in the "
+"text where they are encountered, provided that they are contained by a <_:"
+"gi-3/> element, as discussed in the previous section. An ODD processor will "
+"also associate all declarations found with the nominated module, thus "
+"including them within the schema code generated for that module, and it will "
+"also generate a full reference description for the object concerned in a "
+"catalogue of markup objects. These latter two actions always occur "
+"irrespective of whether or not the declaration is included in a <_:gi-4/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -614,7 +850,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:327
-msgid "This section discusses the child elements common to all of the specification elements; some of these are defined in the core module (<_:ptr-1/>). These child elements are used to specify the naming, description, exemplification, and classification of the specification elements."
+msgid ""
+"This section discusses the child elements common to all of the specification "
+"elements; some of these are defined in the core module (<_:ptr-1/>). These "
+"child elements are used to specify the naming, description, exemplification, "
+"and classification of the specification elements."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -649,7 +889,9 @@ msgstr ""
 
 #. (itstool) path: valItem/desc
 #: Source/Guidelines/en/TD-DocumentationElements.xml:354
-msgid "the abbreviation provides the first letter(s) of the word or phrase, omitting the remainder."
+msgid ""
+"the abbreviation provides the first letter(s) of the word or phrase, "
+"omitting the remainder."
 msgstr ""
 
 #. (itstool) path: valItem/gloss
@@ -664,7 +906,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:342
-msgid "The <_:gi-1/> element may be used to provide a brief explanation for the name of the object if this is not self-explanatory. For example, the specification for the element <_:gi-2/> used to mark arbitrary blocks of text begins as follows: <_:egXML-3/> A <_:gi-4/> may also be supplied for an attribute name or an attribute value in similar circumstances: <_:egXML-5/>"
+msgid ""
+"The <_:gi-1/> element may be used to provide a brief explanation for the "
+"name of the object if this is not self-explanatory. For example, the "
+"specification for the element <_:gi-2/> used to mark arbitrary blocks of "
+"text begins as follows: <_:egXML-3/> A <_:gi-4/> may also be supplied for an "
+"attribute name or an attribute value in similar circumstances: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -685,12 +932,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:364
-msgid "Note that the <_:gi-1/> element is needed to explain the significance of the identifier for an item only when this is not apparent, for example because it is abbreviated, as in the above example. It should not be used to provide a full description of the intended meaning (this is the function of the <_:gi-2/> element), nor to comment on equivalent values in other schemes (this is the purpose of the <_:gi-3/> element), nor to provide alternative versions of the <_:att-4/> attribute value in other languages (this is the purpose of the <_:gi-5/> element)."
+msgid ""
+"Note that the <_:gi-1/> element is needed to explain the significance of the "
+"identifier for an item only when this is not apparent, for example because "
+"it is abbreviated, as in the above example. It should not be used to provide "
+"a full description of the intended meaning (this is the function of the <_:"
+"gi-2/> element), nor to comment on equivalent values in other schemes (this "
+"is the purpose of the <_:gi-3/> element), nor to provide alternative "
+"versions of the <_:att-4/> attribute value in other languages (this is the "
+"purpose of the <_:gi-5/> element)."
 msgstr ""
 
 #. (itstool) path: elementSpec/desc
 #: Source/Guidelines/en/TD-DocumentationElements.xml:375
-msgid "identifies a word or phrase as belonging to some language other than that of the surrounding text."
+msgid ""
+"identifies a word or phrase as belonging to some language other than that of "
+"the surrounding text."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -710,7 +967,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:370
-msgid "The contents of the <_:gi-1/> element provide a brief characterization of the intended function of the object being documented in a form that permits its quotation out of context, as in the following example: <_:egXML-2/> By convention, a <_:gi-3/> element begins with a verb such as <_:mentioned-4/>, <_:mentioned-5/>, <_:mentioned-6/>, etc. and contains a single clause."
+msgid ""
+"The contents of the <_:gi-1/> element provide a brief characterization of "
+"the intended function of the object being documented in a form that permits "
+"its quotation out of context, as in the following example: <_:egXML-2/> By "
+"convention, a <_:gi-3/> element begins with a verb such as <_:mentioned-4/>, "
+"<_:mentioned-5/>, <_:mentioned-6/>, etc. and contains a single clause."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -726,7 +988,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:382
-msgid "Where specifications are supplied in multiple languages, the elements <_:gi-1/> and <_:gi-2/> may be repeated as often as needed. Each such description or gloss should carry both an <_:att-3/> and a <_:att-4/> attribute to indicate the language used and the date on which the translated text was last checked against its source."
+msgid ""
+"Where specifications are supplied in multiple languages, the elements <_:"
+"gi-1/> and <_:gi-2/> may be repeated as often as needed. Each such "
+"description or gloss should carry both an <_:att-3/> and a <_:att-4/> "
+"attribute to indicate the language used and the date on which the translated "
+"text was last checked against its source."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -744,7 +1011,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:386
-msgid "The <_:gi-1/> element is used to document equivalencies between the concept represented by this object and the same concept as described in other schemes or ontologies. The <_:att-2/> attribute is used to supply a pointer to some location where such external concepts are defined. For example, to indicate that the TEI <_:gi-3/> element corresponds to the concept defined by the CIDOC CRM category E69, the declaration for the former might begin as follows: <_:egXML-4/>"
+msgid ""
+"The <_:gi-1/> element is used to document equivalencies between the concept "
+"represented by this object and the same concept as described in other "
+"schemes or ontologies. The <_:att-2/> attribute is used to supply a pointer "
+"to some location where such external concepts are defined. For example, to "
+"indicate that the TEI <_:gi-3/> element corresponds to the concept defined "
+"by the CIDOC CRM category E69, the declaration for the former might begin as "
+"follows: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -796,7 +1070,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:398
-msgid "The <_:gi-1/> element may also be used to map newly-defined elements onto existing constructs in the TEI, using the <_:att-2/> and <_:att-3/> attributes to point to an implementation of the mapping. This is useful when a TEI customization (see <_:ptr-4/>) defines <_:soCalled-5/> for convenience of data entry or markup readability. For example, suppose that in some TEI customization an element <_:gi-6/> has been defined which is conceptually equivalent to the standard markup construct <_:tag-7/>. The following declarations would additionally indicate that instances of the <_:gi-8/> element can be converted to canonical TEI by obtaining a filter from the URI specified, and running the procedure with the name <_:ident-9/>. The <_:att-10/> attribute specifies the language (in this case XSL) in which the filter is written: <_:egXML-11/>"
+msgid ""
+"The <_:gi-1/> element may also be used to map newly-defined elements onto "
+"existing constructs in the TEI, using the <_:att-2/> and <_:att-3/> "
+"attributes to point to an implementation of the mapping. This is useful when "
+"a TEI customization (see <_:ptr-4/>) defines <_:soCalled-5/> for convenience "
+"of data entry or markup readability. For example, suppose that in some TEI "
+"customization an element <_:gi-6/> has been defined which is conceptually "
+"equivalent to the standard markup construct <_:tag-7/>. The following "
+"declarations would additionally indicate that instances of the <_:gi-8/> "
+"element can be converted to canonical TEI by obtaining a filter from the URI "
+"specified, and running the procedure with the name <_:ident-9/>. The <_:"
+"att-10/> attribute specifies the language (in this case XSL) in which the "
+"filter is written: <_:egXML-11/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -835,12 +1121,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:417
-msgid "The <_:gi-1/> element is used to provide an alternative name for an object, for example using a different natural language. Thus, the following might be used to indicate that the <_:gi-2/> element should be identified using the German word <_:foreign-3/>: <_:egXML-4/> In the same way, the following specification for the <_:gi-5/> element indicates that the attribute <_:att-6/> may also be referred to using the alternate identifier <_:ident-7/>: <_:egXML-8/>"
+msgid ""
+"The <_:gi-1/> element is used to provide an alternative name for an object, "
+"for example using a different natural language. Thus, the following might be "
+"used to indicate that the <_:gi-2/> element should be identified using the "
+"German word <_:foreign-3/>: <_:egXML-4/> In the same way, the following "
+"specification for the <_:gi-5/> element indicates that the attribute <_:"
+"att-6/> may also be referred to using the alternate identifier <_:ident-7/>: "
+"<_:egXML-8/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:436
-msgid "By default, the <_:gi-1/> of a component is identical to the value of its <_:att-2/> attribute."
+msgid ""
+"By default, the <_:gi-1/> of a component is identical to the value of its <_:"
+"att-2/> attribute."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -850,7 +1145,11 @@ msgstr ""
 
 #. (itstool) path: remarks/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:444
-msgid "This element is intended for use only where no other element is available to mark the phrase or words concerned. The global <_:att-1/> attribute should be used in preference to this element where it is intended to mark the language of the whole of some text element."
+msgid ""
+"This element is intended for use only where no other element is available to "
+"mark the phrase or words concerned. The global <_:att-1/> attribute should "
+"be used in preference to this element where it is intended to mark the "
+"language of the whole of some text element."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -860,12 +1159,18 @@ msgstr ""
 
 #. (itstool) path: remarks/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:447
-msgid "The <_:gi-1/> element may be used to identify phrases belonging to sublanguages or registers not generally regarded as true languages."
+msgid ""
+"The <_:gi-1/> element may be used to identify phrases belonging to "
+"sublanguages or registers not generally regarded as true languages."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:438
-msgid "The <_:gi-1/> element contains any additional commentary about how the item concerned may be used, details of implementation-related issues, suggestions for other ways of treating related information etc., as in the following example: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element contains any additional commentary about how the item "
+"concerned may be used, details of implementation-related issues, suggestions "
+"for other ways of treating related information etc., as in the following "
+"example: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -886,7 +1191,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:453
-msgid "A specification element will usually conclude with a list of references, each tagged using the standard <_:gi-1/> element, and grouped together into a <_:gi-2/> element: in the case of the <_:gi-3/> element discussed above, the list is as follows: <_:egXML-4/> where the value <_:val-5/> is the identifier of the section in these Guidelines where this element is fully documented."
+msgid ""
+"A specification element will usually conclude with a list of references, "
+"each tagged using the standard <_:gi-1/> element, and grouped together into "
+"a <_:gi-2/> element: in the case of the <_:gi-3/> element discussed above, "
+"the list is as follows: <_:egXML-4/> where the value <_:val-5/> is the "
+"identifier of the section in these Guidelines where this element is fully "
+"documented."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -901,7 +1212,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:473
-msgid "The <_:gi-1/> element is used to combine a single illustrative example with an optional paragraph of commentary following or preceding it. The illustrative example itself may be marked up using either the <_:gi-2/> or the <_:gi-3/> element."
+msgid ""
+"The <_:gi-1/> element is used to combine a single illustrative example with "
+"an optional paragraph of commentary following or preceding it. The "
+"illustrative example itself may be marked up using either the <_:gi-2/> or "
+"the <_:gi-3/> element."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -915,12 +1230,23 @@ msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/TD-DocumentationElements.xml:479
-msgid "&lt;exemplum versionDate=\"2008-04-06\" xml:lang=\"fr\"&gt; &lt;p&gt;L'element &lt;gi&gt;foreign&lt;/gi&gt; s'applique également aux termes considerés étrangers.&lt;/p&gt; &lt;egXML xmlns=\"http://www.tei-c.org/ns/Examples\" source=\"#fr-ex-Queneau_Journ\"&gt; &lt;p&gt;Pendant ce temps-là, dans le bureau du rez- de-chaussée, les secrétaires faisaient du &lt;foreign xml:lang=\"en\"&gt;hulla-hoop&lt;/foreign&gt;.&lt;/p&gt; &lt;/egXML&gt; &lt;/exemplum&gt;"
+msgid ""
+"&lt;exemplum versionDate=\"2008-04-06\" xml:lang=\"fr\"&gt; &lt;p&gt;"
+"L'element &lt;gi&gt;foreign&lt;/gi&gt; s'applique également aux termes "
+"considerés étrangers.&lt;/p&gt; &lt;egXML xmlns=\"http://www.tei-c.org/ns/"
+"Examples\" source=\"#fr-ex-Queneau_Journ\"&gt; &lt;p&gt;Pendant ce temps-là, "
+"dans le bureau du rez- de-chaussée, les secrétaires faisaient du &lt;foreign "
+"xml:lang=\"en\"&gt;hulla-hoop&lt;/foreign&gt;.&lt;/p&gt; &lt;/egXML&gt; &lt;/"
+"exemplum&gt;"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:476
-msgid "The <_:att-1/> attribute may be used on either element to indicate the source from which an example is taken, typically by means of a pointer to an entry in an associated bibliography, as in the following example: <_:egXML-2/>"
+msgid ""
+"The <_:att-1/> attribute may be used on either element to indicate the "
+"source from which an example is taken, typically by means of a pointer to an "
+"entry in an associated bibliography, as in the following example: <_:egXML-2/"
+">"
 msgstr ""
 
 #. (itstool) path: p/eg
@@ -932,12 +1258,16 @@ msgid ""
 "&lt;egXML xmlns=\"http://www.tei-c.org/ns/Examples\"&gt;\n"
 "  This &lt;term&gt;recursion&lt;/term&gt; is \n"
 "  giving me a headache.&lt;/egXML&gt;&lt;/p&gt;\n"
-""
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:489
-msgid "When, as here, an example contains valid XML markup, the <_:gi-1/> element should be used. In such a case, it will clearly be necessary to distinguish the markup within the example from the markup of the document itself. In an XML environment, this is easily done by using a different name space for the content of the <_:gi-2/> element. For example: <_:eg-3/>"
+msgid ""
+"When, as here, an example contains valid XML markup, the <_:gi-1/> element "
+"should be used. In such a case, it will clearly be necessary to distinguish "
+"the markup within the example from the markup of the document itself. In an "
+"XML environment, this is easily done by using a different name space for the "
+"content of the <_:gi-2/> element. For example: <_:eg-3/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -955,7 +1285,6 @@ msgid ""
 "&lt;egXML xmlns=\"http://www.tei-c.org/ns/Examples\"&gt;\n"
 "  This &amp;lt;term&amp;gt;recursion&amp;lt;/term&amp;gt; is \n"
 "  giving me a headache.&lt;/egXML&gt;&lt;/p&gt;\n"
-""
 msgstr ""
 
 #. (itstool) path: p/eg
@@ -967,12 +1296,16 @@ msgid ""
 "&lt;egXML xmlns=\"http://www.tei-c.org/ns/Examples\"&gt;&lt;![CDATA[\n"
 "  This &lt;term&gt;recursion&lt;/term&gt; is \n"
 "  giving me a headache.]]&gt;&lt;/egXML&gt;&lt;/p&gt;\n"
-""
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:530
-msgid "Alternatively, the XML tagging within an example may be <_:soCalled-1/>, either by using entity references to represent the opening angle bracket, or by wrapping the whole example in a CDATA marked section: <_:eg-2/> or, equivalently: <_:eg-3/> However, escaping the markup in this way will make it impossible to validate, and should therefore generally be avoided."
+msgid ""
+"Alternatively, the XML tagging within an example may be <_:soCalled-1/>, "
+"either by using entity references to represent the opening angle bracket, or "
+"by wrapping the whole example in a CDATA marked section: <_:eg-2/> or, "
+"equivalently: <_:eg-3/> However, escaping the markup in this way will make "
+"it impossible to validate, and should therefore generally be avoided."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -982,12 +1315,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:544
-msgid "If the XML contained in an example is not well-formed then it must either be enclosed in a CDATA marked section, or <_:soCalled-1/> as above: this applies whether the <_:gi-2/> or <_:gi-3/> is used. The <_:att-4/> attribute on <_:gi-5/> may be used to indicate the XML validity of the example with respect to some schema, as being valid, invalid, or feasibly valid."
+msgid ""
+"If the XML contained in an example is not well-formed then it must either be "
+"enclosed in a CDATA marked section, or <_:soCalled-1/> as above: this "
+"applies whether the <_:gi-2/> or <_:gi-3/> is used. The <_:att-4/> attribute "
+"on <_:gi-5/> may be used to indicate the XML validity of the example with "
+"respect to some schema, as being valid, invalid, or feasibly valid."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:548
-msgid "The <_:gi-1/> element should not be used to tag non-XML examples: the general purpose <_:gi-2/> or <_:gi-3/> elements should be used for such purposes."
+msgid ""
+"The <_:gi-1/> element should not be used to tag non-XML examples: the "
+"general purpose <_:gi-2/> or <_:gi-3/> elements should be used for such "
+"purposes."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -997,7 +1338,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:553
-msgid "In the TEI scheme elements are assigned to one or more <_:term-1/>, which may themselves have subclasses. The following elements are used to indicate class membership: <_:specList-2/>"
+msgid ""
+"In the TEI scheme elements are assigned to one or more <_:term-1/>, which "
+"may themselves have subclasses. The following elements are used to indicate "
+"class membership: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1008,12 +1352,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:559
-msgid "The <_:gi-1/> element appears within either the <_:gi-2/> or <_:gi-3/> element. It specifies the classes of which the element or class concerned is a member by means of one or more <_:gi-4/> child elements. Each such element references a class by means of its <_:att-5/> attribute. Classes themselves are defined by the <_:gi-6/> element described in section <_:ptr-7/> below."
+msgid ""
+"The <_:gi-1/> element appears within either the <_:gi-2/> or <_:gi-3/> "
+"element. It specifies the classes of which the element or class concerned is "
+"a member by means of one or more <_:gi-4/> child elements. Each such element "
+"references a class by means of its <_:att-5/> attribute. Classes themselves "
+"are defined by the <_:gi-6/> element described in section <_:ptr-7/> below."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:564
-msgid "For example, to show that the element <_:gi-1/> is a member of the class <_:ident-2/>, the <_:gi-3/> which documents this element contains the following <_:gi-4/> element: <_:egXML-5/>"
+msgid ""
+"For example, to show that the element <_:gi-1/> is a member of the class <_:"
+"ident-2/>, the <_:gi-3/> which documents this element contains the following "
+"<_:gi-4/> element: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1023,7 +1375,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:585
-msgid "The <_:gi-1/> element is used to document an element type, together with its associated attributes. In addition to the elements listed above, it may contain the following subcomponents: <_:specList-2/>"
+msgid ""
+"The <_:gi-1/> element is used to document an element type, together with its "
+"associated attributes. In addition to the elements listed above, it may "
+"contain the following subcomponents: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
@@ -1085,22 +1440,39 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:606
-msgid "The content model can be described using TEI elements defined by this chapter, as discussed in <_:ptr-1/> immediately below. Two such TEI elements that may be used to define a content model are <_:gi-2/> and <_:gi-3/>. But because these are most often used to define attribute values, they are discussed separately near the beginning and towards the end of <_:ptr-4/>, respectively."
+msgid ""
+"The content model can be described using TEI elements defined by this "
+"chapter, as discussed in <_:ptr-1/> immediately below. Two such TEI elements "
+"that may be used to define a content model are <_:gi-2/> and <_:gi-3/>. But "
+"because these are most often used to define attribute values, they are "
+"discussed separately near the beginning and towards the end of <_:ptr-4/>, "
+"respectively."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:614
-msgid "Alternatively, and primarily for backwards compatibility, the content model may be expressed using a RELAX NG pattern. This is discussed in <_:ptr-1/>, below."
+msgid ""
+"Alternatively, and primarily for backwards compatibility, the content model "
+"may be expressed using a RELAX NG pattern. This is discussed in <_:ptr-1/>, "
+"below."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:618
-msgid "Lastly, content models may be expressed using a schema language other than TEI or RELAX NG, but no further recommendations on doing so are provided by these Guidelines."
+msgid ""
+"Lastly, content models may be expressed using a schema language other than "
+"TEI or RELAX NG, but no further recommendations on doing so are provided by "
+"these Guidelines."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:598
-msgid "As described in <_:ptr-1/> and <_:ptr-2/>, the <_:term-3/> of the element being defined — that is, what elements are allowed inside it, and in what order they are permitted — is described by its <_:term-4/>. The content model is defined by the <_:gi-5/> child of <_:gi-6/>. There are three distinctly different ways of specifying a content model: <_:list-7/>"
+msgid ""
+"As described in <_:ptr-1/> and <_:ptr-2/>, the <_:term-3/> of the element "
+"being defined — that is, what elements are allowed inside it, and in what "
+"order they are permitted — is described by its <_:term-4/>. The content "
+"model is defined by the <_:gi-5/> child of <_:gi-6/>. There are three "
+"distinctly different ways of specifying a content model: <_:list-7/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1117,17 +1489,28 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TD-DocumentationElements.xml:629
-msgid "It would still be allowed to contain comments or processing instructions, as these are not considered part of the content model."
+msgid ""
+"It would still be allowed to contain comments or processing instructions, as "
+"these are not considered part of the content model."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:625
-msgid "In the simplest case, the content model of an element may be expressed using a single <_:gi-1/> element as the only child of <_:gi-2/>. This describes the element being defined as <_:term-3/>, meaning a valid instance of said element can not have any content.<_:note-4/> The same restriction can currently be expressed more succinctly but less explicitly by using an empty <_:gi-5/> element; this usage is deprecated and will be removed in a future release of these Guidelines. <_:specList-6/>"
+msgid ""
+"In the simplest case, the content model of an element may be expressed using "
+"a single <_:gi-1/> element as the only child of <_:gi-2/>. This describes "
+"the element being defined as <_:term-3/>, meaning a valid instance of said "
+"element can not have any content.<_:note-4/> The same restriction can "
+"currently be expressed more succinctly but less explicitly by using an empty "
+"<_:gi-5/> element; this usage is deprecated and will be removed in a future "
+"release of these Guidelines. <_:specList-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:640
-msgid "More commonly, one or more of the following elements are used to define a content model: <_:specList-1/>"
+msgid ""
+"More commonly, one or more of the following elements are used to define a "
+"content model: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1154,7 +1537,9 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TD-DocumentationElements.xml:657
-msgid "The <_:gi-1/> element may be used to refer to attribute classes, but this should not be done within a <_:gi-2/>."
+msgid ""
+"The <_:gi-1/> element may be used to refer to attribute classes, but this "
+"should not be done within a <_:gi-2/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1165,12 +1550,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:649
-msgid "An <_:gi-1/> provides the name of an element which may appear at a certain point in a content model. An <_:gi-2/> also asserts that an element may appear at a certain point in a content model, but rather than providing the name of a particular element type that may appear, any element regardless of its name may appear (and may have any attributes). A <_:gi-3/> provides the name of a model class, members of which may appear at a certain point in content model.<_:note-4/> A <_:gi-5/> provides the name of a predefined macro, the expansion of which is to be inserted at a certain point in a content model."
+msgid ""
+"An <_:gi-1/> provides the name of an element which may appear at a certain "
+"point in a content model. An <_:gi-2/> also asserts that an element may "
+"appear at a certain point in a content model, but rather than providing the "
+"name of a particular element type that may appear, any element regardless of "
+"its name may appear (and may have any attributes). A <_:gi-3/> provides the "
+"name of a model class, members of which may appear at a certain point in "
+"content model.<_:note-4/> A <_:gi-5/> provides the name of a predefined "
+"macro, the expansion of which is to be inserted at a certain point in a "
+"content model."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:662
-msgid "These three elements are all members of an attribute class which provides attributes that further modify their significance as follows: <_:specList-1/>"
+msgid ""
+"These three elements are all members of an attribute class which provides "
+"attributes that further modify their significance as follows: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1213,7 +1609,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:669
-msgid "Additionally, two wrapper elements are provided to indicate whether the components listed as their children form a sequence or an alternation: <_:specList-1/> These two wrapper elements are also members of <_:ident-2/>. References listed as children of <_:gi-3/> must appear in the order and cardinality specified. Only one of the references listed as children of <_:gi-4/> may appear, although the cardinality of the <_:gi-5/> itself applies. Thus the following fanciful content model permits either any number of <_:gi-6/> elements (except zero) or any number of <_:gi-7/> elements (except zero); at least one element must be present, but having both a <_:gi-8/> and a <_:gi-9/> would be invalid. <_:egXML-10/> However, the following content model permits any number of either <_:gi-11/> or <_:gi-12/> elements (except zero); one element must be present, and having both <_:gi-13/> elements and <_:gi-14/> elements (even intermixed) would be valid. <_:egXML-15/>"
+msgid ""
+"Additionally, two wrapper elements are provided to indicate whether the "
+"components listed as their children form a sequence or an alternation: <_:"
+"specList-1/> These two wrapper elements are also members of <_:ident-2/>. "
+"References listed as children of <_:gi-3/> must appear in the order and "
+"cardinality specified. Only one of the references listed as children of <_:"
+"gi-4/> may appear, although the cardinality of the <_:gi-5/> itself applies. "
+"Thus the following fanciful content model permits either any number of <_:"
+"gi-6/> elements (except zero) or any number of <_:gi-7/> elements (except "
+"zero); at least one element must be present, but having both a <_:gi-8/> and "
+"a <_:gi-9/> would be invalid. <_:egXML-10/> However, the following content "
+"model permits any number of either <_:gi-11/> or <_:gi-12/> elements (except "
+"zero); one element must be present, and having both <_:gi-13/> elements and "
+"<_:gi-14/> elements (even intermixed) would be valid. <_:egXML-15/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1288,7 +1697,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:737
-msgid "a single <_:gi-1/> followed by a single <_:gi-2/> followed by a single <_:gi-3/> followed by an optional <_:gi-4/>, or"
+msgid ""
+"a single <_:gi-1/> followed by a single <_:gi-2/> followed by a single <_:"
+"gi-3/> followed by an optional <_:gi-4/>, or"
 msgstr ""
 
 #. (itstool) path: item/gi
@@ -1303,7 +1714,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:708
-msgid "The <_:gi-1/> and <_:gi-2/> elements may be used in combination with great expressive power. For example, in the following example, which might be imagined as a clean replacement for the content of the <_:gi-3/> element, one and only one of the element pairs <_:gi-4/> and <_:gi-5/>, <_:gi-6/> and <_:gi-7/>, or <_:gi-8/> and <_:gi-9/> is allowed. <_:egXML-10/> In the following example, which might be imagined as a clean replacement for the content of the <_:gi-11/> element, the encoder is given a choice of either: <_:list-12/> <_:egXML-13/>"
+msgid ""
+"The <_:gi-1/> and <_:gi-2/> elements may be used in combination with great "
+"expressive power. For example, in the following example, which might be "
+"imagined as a clean replacement for the content of the <_:gi-3/> element, "
+"one and only one of the element pairs <_:gi-4/> and <_:gi-5/>, <_:gi-6/> and "
+"<_:gi-7/>, or <_:gi-8/> and <_:gi-9/> is allowed. <_:egXML-10/> In the "
+"following example, which might be imagined as a clean replacement for the "
+"content of the <_:gi-11/> element, the encoder is given a choice of either: "
+"<_:list-12/> <_:egXML-13/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1326,12 +1745,26 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/TD-DocumentationElements.xml:770
-msgid "This content model is not used very often in the TEI scheme. Because only Unicode characters are permitted, there is no way to record characters that are not (yet) represented in Unicode. Thus in TEI instead of <_:gi-1/> we often use a reference to <_:ident-2/> which permits both Unicode characters and the <_:gi-3/> element."
+msgid ""
+"This content model is not used very often in the TEI scheme. Because only "
+"Unicode characters are permitted, there is no way to record characters that "
+"are not (yet) represented in Unicode. Thus in TEI instead of <_:gi-1/> we "
+"often use a reference to <_:ident-2/> which permits both Unicode characters "
+"and the <_:gi-3/> element."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:757
-msgid "In addition to expressing where certain elements, members of a class of elements, or constructs matching a predefined macro may occur inside an element, a content model may permit a string of zero or more Unicode characters to occur at a certain point in the content model. This is indicated by supplying the element <_:gi-1/> within the <_:gi-2/> element. <_:specList-3/> If nothing but a <_:gi-4/> element is present inside a <_:gi-5/> element, valid instances of the element being defined may contain a sequence of zero or more Unicode characters, but may not contain any elements.<_:note-6/>"
+msgid ""
+"In addition to expressing where certain elements, members of a class of "
+"elements, or constructs matching a predefined macro may occur inside an "
+"element, a content model may permit a string of zero or more Unicode "
+"characters to occur at a certain point in the content model. This is "
+"indicated by supplying the element <_:gi-1/> within the <_:gi-2/> element. "
+"<_:specList-3/> If nothing but a <_:gi-4/> element is present inside a <_:"
+"gi-5/> element, valid instances of the element being defined may contain a "
+"sequence of zero or more Unicode characters, but may not contain any "
+"elements.<_:note-6/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1353,7 +1786,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:780
-msgid "Element content models may also be defined using RELAX NG patterns. Here is a very simple example <_:egXML-1/> The element within whose specification element this <_:gi-2/> element appears will have a content model which is expressed in RELAX NG as <_:code-3/>, using the RELAX NG namespace. This model will be copied unchanged to the output when RELAX NG schemas are being generated. When an XML DTD is being generated, an equivalent declaration (in this case <_:code-4/>) will be output."
+msgid ""
+"Element content models may also be defined using RELAX NG patterns. Here is "
+"a very simple example <_:egXML-1/> The element within whose specification "
+"element this <_:gi-2/> element appears will have a content model which is "
+"expressed in RELAX NG as <_:code-3/>, using the RELAX NG namespace. This "
+"model will be copied unchanged to the output when RELAX NG schemas are being "
+"generated. When an XML DTD is being generated, an equivalent declaration (in "
+"this case <_:code-4/>) will be output."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1368,7 +1808,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:793
-msgid "Here is a more complex example: <_:egXML-1/> This is the content model for the <_:gi-2/> element, expressed in the RELAX NG syntax, which again is copied unchanged to the output during schema generation. The equivalent DTD notation generated from this is <_:code-3/>."
+msgid ""
+"Here is a more complex example: <_:egXML-1/> This is the content model for "
+"the <_:gi-2/> element, expressed in the RELAX NG syntax, which again is "
+"copied unchanged to the output during schema generation. The equivalent DTD "
+"notation generated from this is <_:code-3/>."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -1408,7 +1852,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:809
-msgid "The RELAX NG language does not formally distinguish element names, attribute names, class names, or macro names: all names are patterns which are handled in the same way, as the above example shows. Within the TEI scheme, however, different naming conventions are used to distinguish amongst the objects being named. Unqualified names (<_:code-1/>, <_:code-2/>) are always element names. Names prefixed with <_:code-3/> or <_:code-4/> (e.g. <_:ident-5/> and <_:ident-6/>) are always class names. In DTD language, classes are represented by parameter entities (<_:code-7/> in the above example); see further <_:ptr-8/>."
+msgid ""
+"The RELAX NG language does not formally distinguish element names, attribute "
+"names, class names, or macro names: all names are patterns which are handled "
+"in the same way, as the above example shows. Within the TEI scheme, however, "
+"different naming conventions are used to distinguish amongst the objects "
+"being named. Unqualified names (<_:code-1/>, <_:code-2/>) are always element "
+"names. Names prefixed with <_:code-3/> or <_:code-4/> (e.g. <_:ident-5/> and "
+"<_:ident-6/>) are always class names. In DTD language, classes are "
+"represented by parameter entities (<_:code-7/> in the above example); see "
+"further <_:ptr-8/>."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1443,7 +1896,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:817
-msgid "The RELAX NG pattern names generated by an ODD processor by default include a special prefix, the default value for which is set using the <_:att-1/> attribute on <_:gi-2/>. The purpose of this is to ensure that the pattern name generated is uniquely identified as belonging to a particular schema, and thus avoid name clashes. For example, in a RELAX NG schema combining the TEI element <_:gi-3/> with another element called <_:gi-4/> from some other vocabulary, the former will be defined by a pattern called <_:code-5/> rather than simply <_:code-6/>. Most of the time, this behaviour is entirely transparent to the user; the one occasion when it is not will be where a content model (expressed using RELAX NG syntax) needs explicitly to reference either the TEI <_:gi-7/> or the other one. In such a situation, the <_:att-8/> attribute on <_:gi-9/> may be used. For example, suppose that we wish to define a content model for <_:gi-10/> which permits either a TEI <_:gi-11/> or the <_:gi-12/> defined by some other vocabulary. A suitable content model would be generated from the following <_:gi-13/> element: <_:egXML-14/>"
+msgid ""
+"The RELAX NG pattern names generated by an ODD processor by default include "
+"a special prefix, the default value for which is set using the <_:att-1/> "
+"attribute on <_:gi-2/>. The purpose of this is to ensure that the pattern "
+"name generated is uniquely identified as belonging to a particular schema, "
+"and thus avoid name clashes. For example, in a RELAX NG schema combining the "
+"TEI element <_:gi-3/> with another element called <_:gi-4/> from some other "
+"vocabulary, the former will be defined by a pattern called <_:code-5/> "
+"rather than simply <_:code-6/>. Most of the time, this behaviour is entirely "
+"transparent to the user; the one occasion when it is not will be where a "
+"content model (expressed using RELAX NG syntax) needs explicitly to "
+"reference either the TEI <_:gi-7/> or the other one. In such a situation, "
+"the <_:att-8/> attribute on <_:gi-9/> may be used. For example, suppose that "
+"we wish to define a content model for <_:gi-10/> which permits either a TEI "
+"<_:gi-11/> or the <_:gi-12/> defined by some other vocabulary. A suitable "
+"content model would be generated from the following <_:gi-13/> element: <_:"
+"egXML-14/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1470,7 +1939,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:842
-msgid "In addition to the <_:gi-1/> element, a set of general <_:gi-2/> elements can be used to express rules about the validity of an element. Like some other specification elements, they are identifiable (using the <_:att-3/> attribute) in order that a TEI customization may override, delete or change them individually. Each <_:gi-4/> can be expressed in any notation which is found useful; the notation used must be recorded using the <_:att-5/> attribute."
+msgid ""
+"In addition to the <_:gi-1/> element, a set of general <_:gi-2/> elements "
+"can be used to express rules about the validity of an element. Like some "
+"other specification elements, they are identifiable (using the <_:att-3/> "
+"attribute) in order that a TEI customization may override, delete or change "
+"them individually. Each <_:gi-4/> can be expressed in any notation which is "
+"found useful; the notation used must be recorded using the <_:att-5/> "
+"attribute."
 msgstr ""
 
 #. (itstool) path: p/ref
@@ -1485,12 +1961,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:848
-msgid "Schematron is an ISO standard (<_:ref-1/>) which defines a simple XML vocabulary for an <_:soCalled-2/>, together with a RELAX NG schema to validate it. The Schematron assertion language provides a powerful way of expressing constraints on the content of any XML document in addition to those provided by other schema languages. Such constraints can be embedded within a TEI schema specification using the methods exemplified in this chapter. An ODD processor will typically process any <_:gi-3/> elements in a TEI specification whose <_:att-4/> attribute indicates that they are expressed in Schematron to create an ISO-conformant Schematron schema which may be used to validate document instances."
+msgid ""
+"Schematron is an ISO standard (<_:ref-1/>) which defines a simple XML "
+"vocabulary for an <_:soCalled-2/>, together with a RELAX NG schema to "
+"validate it. The Schematron assertion language provides a powerful way of "
+"expressing constraints on the content of any XML document in addition to "
+"those provided by other schema languages. Such constraints can be embedded "
+"within a TEI schema specification using the methods exemplified in this "
+"chapter. An ODD processor will typically process any <_:gi-3/> elements in a "
+"TEI specification whose <_:att-4/> attribute indicates that they are "
+"expressed in Schematron to create an ISO-conformant Schematron schema which "
+"may be used to validate document instances."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:856
-msgid "The TEI Guidelines include some additional constraints which are expressed using the ISO Schematron language. A conformant TEI document should respect these constraints, although automatic validation of them may not be possible for all processors. A TEI customization may likewise specify additional constraints using this mechanism. Some examples of what is possible using the Schematron language are given below."
+msgid ""
+"The TEI Guidelines include some additional constraints which are expressed "
+"using the ISO Schematron language. A conformant TEI document should respect "
+"these constraints, although automatic validation of them may not be possible "
+"for all processors. A TEI customization may likewise specify additional "
+"constraints using this mechanism. Some examples of what is possible using "
+"the Schematron language are given below."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1516,7 +2008,10 @@ msgstr ""
 
 #. (itstool) path: p/q
 #: Source/Guidelines/en/TD-DocumentationElements.xml:863
-msgid "only one of the attributes <_:att-1/> and <_:att-2/> may be supplied; the attribute <_:att-3/> may be supplied only if the attribute <_:att-4/> is supplied."
+msgid ""
+"only one of the attributes <_:att-1/> and <_:att-2/> may be supplied; the "
+"attribute <_:att-3/> may be supplied only if the attribute <_:att-4/> is "
+"supplied."
 msgstr ""
 
 #. (itstool) path: constraint/assert
@@ -1531,12 +2026,21 @@ msgstr ""
 
 #. (itstool) path: constraint/report
 #: Source/Guidelines/en/TD-DocumentationElements.xml:883
-msgid "the attribute 'passive' may be supplied only if the attribute 'active' is supplied"
+msgid ""
+"the attribute 'passive' may be supplied only if the attribute 'active' is "
+"supplied"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:861
-msgid "Constraints are generally used to model local rules which may be outside the scope of the target schema language. For example, in earlier versions of these Guidelines several constraints on the usage of the attributes of the TEI element <_:gi-1/> were expressed informally as follows: <_:q-2/>. Few schema language support co-occurence constraints such as the latter. In the current version of the Guidelines, constraint specifications expressed as Schematron rules have been added, as follows: <_:egXML-3/>"
+msgid ""
+"Constraints are generally used to model local rules which may be outside the "
+"scope of the target schema language. For example, in earlier versions of "
+"these Guidelines several constraints on the usage of the attributes of the "
+"TEI element <_:gi-1/> were expressed informally as follows: <_:q-2/>. Few "
+"schema language support co-occurence constraints such as the latter. In the "
+"current version of the Guidelines, constraint specifications expressed as "
+"Schematron rules have been added, as follows: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1553,7 +2057,8 @@ msgstr ""
 
 #. (itstool) path: rule/report
 #: Source/Guidelines/en/TD-DocumentationElements.xml:899
-msgid "if it contains any subdivisions, a division must contain at least two of them"
+msgid ""
+"if it contains any subdivisions, a division must contain at least two of them"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1573,7 +2078,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:889
-msgid "The constraints in the preceding example all related to attributes in the empty namespace, and the Schematron rules did not therefore need to define a TEI namespace prefix. The Schematron language <_:gi-1/> element should be used to do this when a constraint needs to refer to a TEI element, as in the following example, which models the constraint that a TEI <_:gi-2/> must contain either no subdivisions or at least two of them: <_:egXML-3/> Schematron rules are also useful where an application needs to enforce rules on attribute values, as in the following examples which check that various types of <_:gi-4/> are provided: <_:egXML-5/>"
+msgid ""
+"The constraints in the preceding example all related to attributes in the "
+"empty namespace, and the Schematron rules did not therefore need to define a "
+"TEI namespace prefix. The Schematron language <_:gi-1/> element should be "
+"used to do this when a constraint needs to refer to a TEI element, as in the "
+"following example, which models the constraint that a TEI <_:gi-2/> must "
+"contain either no subdivisions or at least two of them: <_:egXML-3/> "
+"Schematron rules are also useful where an application needs to enforce rules "
+"on attribute values, as in the following examples which check that various "
+"types of <_:gi-4/> are provided: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1588,7 +2102,9 @@ msgstr ""
 
 #. (itstool) path: rule/report
 #: Source/Guidelines/en/TD-DocumentationElements.xml:934
-msgid "You should provide information in a figure from which we can construct an alt attribute in HTML"
+msgid ""
+"You should provide information in a figure from which we can construct an "
+"alt attribute in HTML"
 msgstr ""
 
 #. (itstool) path: rule/assert
@@ -1603,7 +2119,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:924
-msgid "As a further example, Schematron may be used to enforce rules applicable to a TEI document which is going to be rendered into accessible HTML, for example to check that some sort of content is available from which the <_:att-1/> attribute of an HTML <_:gi-2/> can be created: <_:egXML-3/> Schematron rules can also be used to enforce other HTML accessibility rules about tables; note here the use of a report and an assertion within one pattern: <_:egXML-4/>"
+msgid ""
+"As a further example, Schematron may be used to enforce rules applicable to "
+"a TEI document which is going to be rendered into accessible HTML, for "
+"example to check that some sort of content is available from which the <_:"
+"att-1/> attribute of an HTML <_:gi-2/> can be created: <_:egXML-3/> "
+"Schematron rules can also be used to enforce other HTML accessibility rules "
+"about tables; note here the use of a report and an assertion within one "
+"pattern: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: constraintSpec/constraint
@@ -1628,7 +2151,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:958
-msgid "Constraints can be expressed using any convenient language. The following example uses a pattern matching language called SPITBOL to express the requirement that title and author should be different. <_:egXML-1/> Note that the value of <_:att-2/> is <_:val-3/>. In order to properly constrain and document the values of <_:att-4/> used in their customization file, a project may wish to create a customization that (among other things) adds and explains this value for use in validating their customization file. Thus using schemes other than those provided for by the TEI (currently <_:val-5/> and <_:val-6/>) may require somewhat more effort when creating a customization file. Such private schemes will generally be even more problematic on implementation of the constraints themselves, as it may require siginficant programming work. The TEI only provides this capability for the suggested values."
+msgid ""
+"Constraints can be expressed using any convenient language. The following "
+"example uses a pattern matching language called SPITBOL to express the "
+"requirement that title and author should be different. <_:egXML-1/> Note "
+"that the value of <_:att-2/> is <_:val-3/>. In order to properly constrain "
+"and document the values of <_:att-4/> used in their customization file, a "
+"project may wish to create a customization that (among other things) adds "
+"and explains this value for use in validating their customization file. Thus "
+"using schemes other than those provided for by the TEI (currently <_:val-5/> "
+"and <_:val-6/>) may require somewhat more effort when creating a "
+"customization file. Such private schemes will generally be even more "
+"problematic on implementation of the constraints themselves, as it may "
+"require siginficant programming work. The TEI only provides this capability "
+"for the suggested values."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1649,7 +2185,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:983
-msgid "The <_:gi-1/> element is used to document information about a collection of attributes, either within an <_:gi-2/>, or within a <_:gi-3/>. An attribute list can be organized either as a group of attribute definitions, all of which are understood to be available, or as a choice of attribute definitions, of which only one is understood to be available. An attribute list may thus contain nested attribute lists."
+msgid ""
+"The <_:gi-1/> element is used to document information about a collection of "
+"attributes, either within an <_:gi-2/>, or within a <_:gi-3/>. An attribute "
+"list can be organized either as a group of attribute definitions, all of "
+"which are understood to be available, or as a choice of attribute "
+"definitions, of which only one is understood to be available. An attribute "
+"list may thus contain nested attribute lists."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1687,17 +2229,31 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:988
-msgid "The attribute <_:att-1/> is used to indicate whether its child <_:gi-2/> elements are all to be made available, or whether only one of them may be used. For example, the attribute list for the element <_:gi-3/> contains a nested attribute list to indicate that either the <_:att-4/> or the <_:att-5/> attribute may be supplied, but not both: <_:egXML-6/>"
+msgid ""
+"The attribute <_:att-1/> is used to indicate whether its child <_:gi-2/> "
+"elements are all to be made available, or whether only one of them may be "
+"used. For example, the attribute list for the element <_:gi-3/> contains a "
+"nested attribute list to indicate that either the <_:att-4/> or the <_:att-5/"
+"> attribute may be supplied, but not both: <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1005
-msgid "The <_:gi-1/> element is used to document a single attribute, using an appropriate selection from the common elements already mentioned and the following : <_:specList-2/>"
+msgid ""
+"The <_:gi-1/> element is used to document a single attribute, using an "
+"appropriate selection from the common elements already mentioned and the "
+"following : <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1016
-msgid "The <_:gi-1/> within an <_:gi-2/> is used to specify only the attributes which are specific to that particular element. Instances of the element may carry other attributes which are declared by the classes of which the element is a member. These extra attributes, which are shared by other elements, or by all elements, are specified by an <_:gi-3/> contained within a <_:gi-4/> element, as described in section <_:ptr-5/> below."
+msgid ""
+"The <_:gi-1/> within an <_:gi-2/> is used to specify only the attributes "
+"which are specific to that particular element. Instances of the element may "
+"carry other attributes which are declared by the classes of which the "
+"element is a member. These extra attributes, which are shared by other "
+"elements, or by all elements, are specified by an <_:gi-3/> contained within "
+"a <_:gi-4/> element, as described in section <_:ptr-5/> below."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1719,7 +2275,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1027
-msgid "by use of its name in the widely used schema datatype library maintained by the W3C as part of the definition of its schema language;"
+msgid ""
+"by use of its name in the widely used schema datatype library maintained by "
+"the W3C as part of the definition of its schema language;"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -1734,7 +2292,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1023
-msgid "The <_:soCalled-1/> (i.e. the kind of value) for an attribute may be specified using the elements <_:gi-2/> and <_:gi-3/>. A datatype may be defined in any of the following three ways: <_:list-4/>The TEI defines a number of datatypes, each with an identifier beginning <_:code-5/>, which are used in preference to the datatypes available natively from a target schema such as RELAX NG or W3C Schema since the facilities provided by different schema languages vary so widely. The TEI datatypes available are described in section <_:ptr-6/> above. Note that each is, of necessity, mapped eventually to an externally defined datatype such as W3C Schema's <_:ident-7/> or <_:ident-8/>, possibly combined to give more expressivity, or constrained to a particular defined usage."
+msgid ""
+"The <_:soCalled-1/> (i.e. the kind of value) for an attribute may be "
+"specified using the elements <_:gi-2/> and <_:gi-3/>. A datatype may be "
+"defined in any of the following three ways: <_:list-4/>The TEI defines a "
+"number of datatypes, each with an identifier beginning <_:code-5/>, which "
+"are used in preference to the datatypes available natively from a target "
+"schema such as RELAX NG or W3C Schema since the facilities provided by "
+"different schema languages vary so widely. The TEI datatypes available are "
+"described in section <_:ptr-6/> above. Note that each is, of necessity, "
+"mapped eventually to an externally defined datatype such as W3C Schema's <_:"
+"ident-7/> or <_:ident-8/>, possibly combined to give more expressivity, or "
+"constrained to a particular defined usage."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1751,7 +2320,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1037
-msgid "It is possible reference W3C schema datatypes directly using <_:att-1/>. In this case, the child <_:gi-2/> can be used instead of <_:att-3/> to set W3C schema compliant restrictions on the datatype. This is particularly useful for restrictions that cannot be imposed with a regular expression pattern. <_:egXML-4/> Note that restrictions are either expressed with <_:att-5/> or <_:gi-6/>, never both."
+msgid ""
+"It is possible reference W3C schema datatypes directly using <_:att-1/>. In "
+"this case, the child <_:gi-2/> can be used instead of <_:att-3/> to set W3C "
+"schema compliant restrictions on the datatype. This is particularly useful "
+"for restrictions that cannot be imposed with a regular expression pattern. "
+"<_:egXML-4/> Note that restrictions are either expressed with <_:att-5/> or "
+"<_:gi-6/>, never both."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1778,7 +2353,9 @@ msgstr ""
 
 #. (itstool) path: attDef/desc
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1051
-msgid "specifies the destination of the reference by supplying one or more URI References"
+msgid ""
+"specifies the destination of the reference by supplying one or more URI "
+"References"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1798,7 +2375,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1046
-msgid "Attributes <_:att-1/> and <_:att-2/> are available for the case where an attribute may take more than one value of the type specified. For example, the <_:att-3/> attribute provided by the <_:ident-4/> class has the following declaration: <_:egXML-5/> indicating that the <_:att-6/> attribute may take any number of values, each being of the same datatype, namely the TEI data specification <_:ident-7/>. As is usual in XML, multiple values for a single attribute are separated by one or more white space characters. Hence, values such as <_:code-8/> or <_:code-9/> may be supplied."
+msgid ""
+"Attributes <_:att-1/> and <_:att-2/> are available for the case where an "
+"attribute may take more than one value of the type specified. For example, "
+"the <_:att-3/> attribute provided by the <_:ident-4/> class has the "
+"following declaration: <_:egXML-5/> indicating that the <_:att-6/> attribute "
+"may take any number of values, each being of the same datatype, namely the "
+"TEI data specification <_:ident-7/>. As is usual in XML, multiple values for "
+"a single attribute are separated by one or more white space characters. "
+"Hence, values such as <_:code-8/> or <_:code-9/> may be supplied."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1838,7 +2423,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1067
-msgid "The <_:gi-1/> element may be used to describe constraints on data content in an informal way: for example <_:egXML-2/> <_:egXML-3/> <_:egXML-4/>"
+msgid ""
+"The <_:gi-1/> element may be used to describe constraints on data content in "
+"an informal way: for example <_:egXML-2/> <_:egXML-3/> <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1863,7 +2450,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1076
-msgid "Constraints expressed in this way are purely documentary; to enforce them, the <_:gi-1/> element described in section <_:ptr-2/> must be used. For example, to specify that an imaginary attribute <_:att-3/> must take positive integer values less than 150, the datatype <_:ident-4/> might be used in combination with a <_:gi-5/> such as the following: <_:egXML-6/>"
+msgid ""
+"Constraints expressed in this way are purely documentary; to enforce them, "
+"the <_:gi-1/> element described in section <_:ptr-2/> must be used. For "
+"example, to specify that an imaginary attribute <_:att-3/> must take "
+"positive integer values less than 150, the datatype <_:ident-4/> might be "
+"used in combination with a <_:gi-5/> such as the following: <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: valItem/altIdent
@@ -1883,7 +2475,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1093
-msgid "The elements <_:gi-1/>, <_:gi-2/>, <_:gi-3/> and <_:gi-4/> may all be used in the same way as they are elsewhere to describe fully the meaning of a coded value, as in the following example: <_:egXML-5/>"
+msgid ""
+"The elements <_:gi-1/>, <_:gi-2/>, <_:gi-3/> and <_:gi-4/> may all be used "
+"in the same way as they are elsewhere to describe fully the meaning of a "
+"coded value, as in the following example: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1914,7 +2509,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1105
-msgid "Where all the possible values for an attribute can be enumerated, the datatype <_:ident-1/> should be used, together with a <_:gi-2/> element specifying the values and their significance, as in the following example: <_:egXML-3/> Note the use of the <_:gi-4/> element here to explain the otherwise less than obvious meaning of the codes used for these values. Since this value list specifies that it is of type <_:val-5/>, only the values enumerated are legal, and an ODD processor will typically enforce these constraints in the schema fragment generated."
+msgid ""
+"Where all the possible values for an attribute can be enumerated, the "
+"datatype <_:ident-1/> should be used, together with a <_:gi-2/> element "
+"specifying the values and their significance, as in the following example: "
+"<_:egXML-3/> Note the use of the <_:gi-4/> element here to explain the "
+"otherwise less than obvious meaning of the codes used for these values. "
+"Since this value list specifies that it is of type <_:val-5/>, only the "
+"values enumerated are legal, and an ODD processor will typically enforce "
+"these constraints in the schema fragment generated."
 msgstr ""
 
 #. (itstool) path: p/val
@@ -1964,12 +2567,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1118
-msgid "The <_:gi-1/> element can also be used to provide illustrative examples of the kinds of values expected without listing all of them. In such cases the <_:att-2/> attribute will have the value <_:val-3/>, as in the following example: <_:egXML-4/> The datatype will be <_:ident-5/> in either case."
+msgid ""
+"The <_:gi-1/> element can also be used to provide illustrative examples of "
+"the kinds of values expected without listing all of them. In such cases the "
+"<_:att-2/> attribute will have the value <_:val-3/>, as in the following "
+"example: <_:egXML-4/> The datatype will be <_:ident-5/> in either case."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1144
-msgid "The <_:gi-1/> or <_:gi-2/> elements may also be used (as a child of the <_:gi-3/> element) to put constraints on the permitted content of an element, as noted at <_:ptr-4/>. This use is not however supported by all schema languages, and is therefore not recommended if support for non-RELAX NG systems is a consideration."
+msgid ""
+"The <_:gi-1/> or <_:gi-2/> elements may also be used (as a child of the <_:"
+"gi-3/> element) to put constraints on the permitted content of an element, "
+"as noted at <_:ptr-4/>. This use is not however supported by all schema "
+"languages, and is therefore not recommended if support for non-RELAX NG "
+"systems is a consideration."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1984,7 +2596,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1218
-msgid "As far as possible, the TEI defines elements and their attributes in a way which is entirely independent of their subsequent processing, since its intention is to maximize the reusability of encoded documents and their use in multiple contexts. Nevertheless, it can be very useful to specify one or more possible models for such processing, both to clarify the intentions of the encoder, and to provide default behaviours for a software engineer to implement when documents conforming to a particular TEI customization are processed. To that end, the following elements may be used to document one or more <_:term-1/> for a given element. <_:specList-2/>"
+msgid ""
+"As far as possible, the TEI defines elements and their attributes in a way "
+"which is entirely independent of their subsequent processing, since its "
+"intention is to maximize the reusability of encoded documents and their use "
+"in multiple contexts. Nevertheless, it can be very useful to specify one or "
+"more possible models for such processing, both to clarify the intentions of "
+"the encoder, and to provide default behaviours for a software engineer to "
+"implement when documents conforming to a particular TEI customization are "
+"processed. To that end, the following elements may be used to document one "
+"or more <_:term-1/> for a given element. <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2045,7 +2666,6 @@ msgstr ""
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1645
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1648
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1650
-#: Source/Guidelines/en/TD-DocumentationElements.xml:1650
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1652
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1654
 msgid "modelSequence"
@@ -2053,7 +2673,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1230
-msgid "One or more of these elements may appear directly within an element specification to define the processing anticipated for that element, more specifically how it should be processed to produce the kind of output indicated by the <_:att-1/> attribute. Where multiple such elements appear directly within an <_:gi-2/>, they are understood to document mutually exclusive processing models, possibly for different outputs or applicable in different contexts. Alternatively, the <_:gi-3/> element may be used to group alternative <_:gi-4/> elements intended for a single kind of output. The <_:gi-5/> element is provided for the case where a sequence of models is to be processed, functioning as a single unit."
+msgid ""
+"One or more of these elements may appear directly within an element "
+"specification to define the processing anticipated for that element, more "
+"specifically how it should be processed to produce the kind of output "
+"indicated by the <_:att-1/> attribute. Where multiple such elements appear "
+"directly within an <_:gi-2/>, they are understood to document mutually "
+"exclusive processing models, possibly for different outputs or applicable in "
+"different contexts. Alternatively, the <_:gi-3/> element may be used to "
+"group alternative <_:gi-4/> elements intended for a single kind of output. "
+"The <_:gi-5/> element is provided for the case where a sequence of models is "
+"to be processed, functioning as a single unit."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -2065,7 +2695,6 @@ msgstr ""
 #. (itstool) path: p/term
 #. (itstool) path: p/ident
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1239
-#: Source/Guidelines/en/TD-DocumentationElements.xml:1417
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1417
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1429
 msgid "parameters"
@@ -2107,7 +2736,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1238
-msgid "A processing model suggests how a given element may be transformed to produce one or more outputs. The model is expressed in terms of <_:term-1/> and <_:term-2/>, using high-level formatting concepts familiar to software engineers and web designers, such as <_:soCalled-3/> or <_:soCalled-4/>. As such, it has a different purpose from existing TEI mechanisms for documenting the appearance of source materials, such as the global attributes <_:att-5/>, <_:att-6/> and <_:att-7/>, described in sections <_:ptr-8/> and <_:ptr-9/>. It does not necessarily describe anything present in the original source, nor does it necessarily represent its original structure or semantics. A processing model is a template description, which may be used to simplify the task of producing or customizing the stylesheets needed by a formatting engine or any other form of processor."
+msgid ""
+"A processing model suggests how a given element may be transformed to "
+"produce one or more outputs. The model is expressed in terms of <_:term-1/> "
+"and <_:term-2/>, using high-level formatting concepts familiar to software "
+"engineers and web designers, such as <_:soCalled-3/> or <_:soCalled-4/>. As "
+"such, it has a different purpose from existing TEI mechanisms for "
+"documenting the appearance of source materials, such as the global "
+"attributes <_:att-5/>, <_:att-6/> and <_:att-7/>, described in sections <_:"
+"ptr-8/> and <_:ptr-9/>. It does not necessarily describe anything present in "
+"the original source, nor does it necessarily represent its original "
+"structure or semantics. A processing model is a template description, which "
+"may be used to simplify the task of producing or customizing the stylesheets "
+"needed by a formatting engine or any other form of processor."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2144,7 +2785,6 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1263
-#: Source/Guidelines/en/TD-DocumentationElements.xml:1263
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1282
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1290
 msgid "outputRendition"
@@ -2157,7 +2797,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1250
-msgid "The <_:gi-1/> element is used to document the processing model intended for a particular element in an abstract manner, independently of its implementation in whatever processing language is chosen. This is achieved by means of the following attributes and elements: <_:specList-2/> The mandatory <_:att-3/> attribute defines in broad terms how an element should be processed, for example as a block or as an inline element. The optional <_:att-4/> attribute may be used to specify a subset of contexts in which this model should be applicable: for example, an element might be treated as a block element in some contexts, but not in others. The <_:att-5/> attribute supplies a name for the output for which this model is intended, for example for screen display, for a printed reading copy, for a scholarly publication, etc. The way in which an element should be rendered is declared independently of its behaviour, using either the attribute <_:att-6/> or the element <_:gi-7/>. These Guidelines recommend that <_:gi-8/> be expressed using the W3C Cascading Stylesheet Language (CSS), but other possibilities are not excluded. The particular language used may be documented by means of the <_:gi-9/> element described in <_:ptr-10/>."
+msgid ""
+"The <_:gi-1/> element is used to document the processing model intended for "
+"a particular element in an abstract manner, independently of its "
+"implementation in whatever processing language is chosen. This is achieved "
+"by means of the following attributes and elements: <_:specList-2/> The "
+"mandatory <_:att-3/> attribute defines in broad terms how an element should "
+"be processed, for example as a block or as an inline element. The optional "
+"<_:att-4/> attribute may be used to specify a subset of contexts in which "
+"this model should be applicable: for example, an element might be treated as "
+"a block element in some contexts, but not in others. The <_:att-5/> "
+"attribute supplies a name for the output for which this model is intended, "
+"for example for screen display, for a printed reading copy, for a scholarly "
+"publication, etc. The way in which an element should be rendered is declared "
+"independently of its behaviour, using either the attribute <_:att-6/> or the "
+"element <_:gi-7/>. These Guidelines recommend that <_:gi-8/> be expressed "
+"using the W3C Cascading Stylesheet Language (CSS), but other possibilities "
+"are not excluded. The particular language used may be documented by means of "
+"the <_:gi-9/> element described in <_:ptr-10/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2192,7 +2849,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1271
-msgid "Here is a simple example of a processing model which might be included in the specification for an element such as <_:gi-1/> or <_:gi-2/>. The intent is that these elements should be presented inline using an italic font. <_:egXML-3/> If the <_:gi-4/> element, or the attributes <_:att-5/>, <_:att-6/>, or <_:att-7/> have already been used in the source document to indicate elements that were originally rendered in italic, and we wish simply to follow this in our processing, then there is no need to include an <_:gi-8/> element, and the attribute <_:att-9/> could be used as follows: <_:egXML-10/> Any rendition information present in the source document will be ignored unless the <_:att-11/> attribute has the value <_:val-12/>. If that is the case, then such information will be combined with any rendition information supplied by the <_:gi-13/> element. For example, using CSS, an element which appears in the source as follows <_:egXML-14/> would appear in bold and italic if processed by the following model <_:egXML-15/>"
+msgid ""
+"Here is a simple example of a processing model which might be included in "
+"the specification for an element such as <_:gi-1/> or <_:gi-2/>. The intent "
+"is that these elements should be presented inline using an italic font. <_:"
+"egXML-3/> If the <_:gi-4/> element, or the attributes <_:att-5/>, <_:att-6/"
+">, or <_:att-7/> have already been used in the source document to indicate "
+"elements that were originally rendered in italic, and we wish simply to "
+"follow this in our processing, then there is no need to include an <_:gi-8/> "
+"element, and the attribute <_:att-9/> could be used as follows: <_:egXML-10/"
+"> Any rendition information present in the source document will be ignored "
+"unless the <_:att-11/> attribute has the value <_:val-12/>. If that is the "
+"case, then such information will be combined with any rendition information "
+"supplied by the <_:gi-13/> element. For example, using CSS, an element which "
+"appears in the source as follows <_:egXML-14/> would appear in bold and "
+"italic if processed by the following model <_:egXML-15/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2223,17 +2894,33 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1305
-msgid "In a typical workflow processing TEI documents for display on the web, a system designer will often wish to use an externally defined CSS stylesheet. The <_:att-1/> attribute simplifies the task of maintaining compatibility amongst the possibly many applications using such a stylesheet and also enables a TEI application to specify the names of classes to be used for particular processing models. For example, supposing that the associated CSS stylesheet includes a CSS class called <_:ident-2/>, the following processing model might be used to request it be used for <_:gi-3/> elements containing a child <_:gi-4/> element: <_:egXML-5/>"
+msgid ""
+"In a typical workflow processing TEI documents for display on the web, a "
+"system designer will often wish to use an externally defined CSS stylesheet. "
+"The <_:att-1/> attribute simplifies the task of maintaining compatibility "
+"amongst the possibly many applications using such a stylesheet and also "
+"enables a TEI application to specify the names of classes to be used for "
+"particular processing models. For example, supposing that the associated CSS "
+"stylesheet includes a CSS class called <_:ident-2/>, the following "
+"processing model might be used to request it be used for <_:gi-3/> elements "
+"containing a child <_:gi-4/> element: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1320
-msgid "In the following example, a table will be formatted using renditional information provided in the source if that is available, or by an external stylesheet, using one of the CSS classes specified, if it is not: <_:egXML-1/>"
+msgid ""
+"In the following example, a table will be formatted using renditional "
+"information provided in the source if that is available, or by an external "
+"stylesheet, using one of the CSS classes specified, if it is not: <_:egXML-1/"
+">"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1333
-msgid "As discussed further below, the input data available to a processing model is by default the content of the element being processed, together with its child nodes."
+msgid ""
+"As discussed further below, the input data available to a processing model "
+"is by default the content of the element being processed, together with its "
+"child nodes."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2260,12 +2947,30 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1365
-msgid "Sometimes different processing models are required for the same element in different contexts. For example, we may wish to process the <_:gi-1/> element as an inline italic element when it appears inside a <_:gi-2/> element, but as an indented block when it appears elsewhere. To achieve this, we need to change the specification for the <_:gi-3/> element to include two <_:gi-4/> elements as follows: <_:egXML-5/> As noted above, these two models are mutually exclusive. The first processing model will be used only for <_:gi-6/> elements which match the XPath expression given as value for the <_:att-7/> attribute. All other element occurrences will use the second processing model."
+msgid ""
+"Sometimes different processing models are required for the same element in "
+"different contexts. For example, we may wish to process the <_:gi-1/> "
+"element as an inline italic element when it appears inside a <_:gi-2/> "
+"element, but as an indented block when it appears elsewhere. To achieve "
+"this, we need to change the specification for the <_:gi-3/> element to "
+"include two <_:gi-4/> elements as follows: <_:egXML-5/> As noted above, "
+"these two models are mutually exclusive. The first processing model will be "
+"used only for <_:gi-6/> elements which match the XPath expression given as "
+"value for the <_:att-7/> attribute. All other element occurrences will use "
+"the second processing model."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1382
-msgid "When, as here, multiple behaviours are required for the same element, it will often be the case that the appropriate processing will depend on the context. It may however be the case that the choice of an appropriate model will be made on the basis of the intended output. For example, we might wish to define quite different behaviours when a document is to be displayed on a mobile device and when it is to be displayed on a desktop screen. Different behaviours again might be specified for a print version intended for the general reader, and for a print version aimed at the technical specialist."
+msgid ""
+"When, as here, multiple behaviours are required for the same element, it "
+"will often be the case that the appropriate processing will depend on the "
+"context. It may however be the case that the choice of an appropriate model "
+"will be made on the basis of the intended output. For example, we might wish "
+"to define quite different behaviours when a document is to be displayed on a "
+"mobile device and when it is to be displayed on a desktop screen. Different "
+"behaviours again might be specified for a print version intended for the "
+"general reader, and for a print version aimed at the technical specialist."
 msgstr ""
 
 #. (itstool) path: model/outputRendition
@@ -2290,7 +2995,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1389
-msgid "The <_:gi-1/> element can be used to group together all the processing models which have in common a particular intended output, as in the following example: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element can be used to group together all the processing "
+"models which have in common a particular intended output, as in the "
+"following example: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2300,12 +3008,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1413
-msgid "In the examples above we have used without explanation or definition two simple <_:term-1/>: <_:ident-2/> and <_:ident-3/>, but many other behaviours are possible. A list of recommended behaviour names forms part of the specification for the element <_:gi-4/>. A processing model can specify any named behaviour, some of which have additional <_:term-5/>. The <_:ident-6/> of a <_:ident-7/> resemble the arguments of a function in many programming languages: they provide names which can be used to distinguish particular parts of the input data available to the process used to implement the behaviour in question."
+msgid ""
+"In the examples above we have used without explanation or definition two "
+"simple <_:term-1/>: <_:ident-2/> and <_:ident-3/>, but many other behaviours "
+"are possible. A list of recommended behaviour names forms part of the "
+"specification for the element <_:gi-4/>. A processing model can specify any "
+"named behaviour, some of which have additional <_:term-5/>. The <_:ident-6/> "
+"of a <_:ident-7/> resemble the arguments of a function in many programming "
+"languages: they provide names which can be used to distinguish particular "
+"parts of the input data available to the process used to implement the "
+"behaviour in question."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1421
-msgid "The following elements are used to represent and to define parameters: <_:specList-1/>"
+msgid ""
+"The following elements are used to represent and to define parameters: <_:"
+"specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2325,7 +3044,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1426
-msgid "By default, a processor implementing the TEI processing model for a particular element has available to it as input data the content of the element itself, and all of its children. One or more <_:gi-1/> elements may be supplied within a <_:gi-2/> element to specify <_:term-3/> which modify this, either by selecting particular parts of the default input data, or by selecting data which would not otherwise be available. In either case, the value supplied for the parameter is given as an XPath expression, evaluated with respect to the element node being processed. An arbitrary name (defined in the corresponding <_:gi-4/>) is also supplied to a processor to identify each parameter."
+msgid ""
+"By default, a processor implementing the TEI processing model for a "
+"particular element has available to it as input data the content of the "
+"element itself, and all of its children. One or more <_:gi-1/> elements may "
+"be supplied within a <_:gi-2/> element to specify <_:term-3/> which modify "
+"this, either by selecting particular parts of the default input data, or by "
+"selecting data which would not otherwise be available. In either case, the "
+"value supplied for the parameter is given as an XPath expression, evaluated "
+"with respect to the element node being processed. An arbitrary name (defined "
+"in the corresponding <_:gi-4/>) is also supplied to a processor to identify "
+"each parameter."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2348,12 +3077,34 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1434
-msgid "For example, an element such as the TEI <_:gi-1/> element will probably be associated with a processing model which treats it as a hyperlink. But a hyperlink (in most implementations) often has two associated pieces of information: the address indicated, and some textual content serving to label the link . In HTML, the former is provided as value of the <_:att-2/> element, and the latter by the content of an <_:gi-3/> element. In the following processing model we define a behaviour called <_:ident-4/>, which will use whatever is indicated by the parameter called <_:ident-5/> to provide the former, while the latter is provided by the content of the <_:gi-6/> element itself: <_:egXML-7/> The <_:att-8/> attribute of a <_:gi-9/> element supplies an XPath expression that indicates where the required value may be found. The context for this XPath is the element which is being processed; hence in this example, the <_:ident-10/> parameter takes the value of the <_:att-11/> attribute on the <_:gi-12/> element being processed. The <_:ident-13/> parameter indicates that the content of that <_:gi-14/> element should be provided as its value. (This parameter is not strictly necessary, since by default the whole content of the element being processed is always available to a processor, but supplying it in this way makes the procedure more explicit)."
+msgid ""
+"For example, an element such as the TEI <_:gi-1/> element will probably be "
+"associated with a processing model which treats it as a hyperlink. But a "
+"hyperlink (in most implementations) often has two associated pieces of "
+"information: the address indicated, and some textual content serving to "
+"label the link . In HTML, the former is provided as value of the <_:att-2/> "
+"element, and the latter by the content of an <_:gi-3/> element. In the "
+"following processing model we define a behaviour called <_:ident-4/>, which "
+"will use whatever is indicated by the parameter called <_:ident-5/> to "
+"provide the former, while the latter is provided by the content of the <_:"
+"gi-6/> element itself: <_:egXML-7/> The <_:att-8/> attribute of a <_:gi-9/> "
+"element supplies an XPath expression that indicates where the required value "
+"may be found. The context for this XPath is the element which is being "
+"processed; hence in this example, the <_:ident-10/> parameter takes the "
+"value of the <_:att-11/> attribute on the <_:gi-12/> element being "
+"processed. The <_:ident-13/> parameter indicates that the content of that <_:"
+"gi-14/> element should be provided as its value. (This parameter is not "
+"strictly necessary, since by default the whole content of the element being "
+"processed is always available to a processor, but supplying it in this way "
+"makes the procedure more explicit)."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1459
-msgid "All the parameters available for a given behaviour are defined as a part of the definition of the behaviour itself, as further discussed in section <_:ptr-1/> below."
+msgid ""
+"All the parameters available for a given behaviour are defined as a part of "
+"the definition of the behaviour itself, as further discussed in section <_:"
+"ptr-1/> below."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -2367,7 +3118,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1461
-msgid "As a further example, the TEI <_:gi-1/> element requires a different behaviour for which the name <_:ident-2/> is proposed as in the following example: <_:egXML-3/> The processing model shown here will be selected for processing a <_:gi-4/> element which has both <_:gi-5/> and <_:gi-6/> child elements. The names <_:ident-7/> and <_:ident-8/> here are provided for convenience. The <_:ident-9/> parameter provides the value of the child <_:gi-10/> element, and the <_:ident-11/> parameter will provide that of the child <_:gi-12/> elements. If neither <_:gi-13/> element was supplied, both elements would still be available to an application, but the application would need to distinguish them for itself."
+msgid ""
+"As a further example, the TEI <_:gi-1/> element requires a different "
+"behaviour for which the name <_:ident-2/> is proposed as in the following "
+"example: <_:egXML-3/> The processing model shown here will be selected for "
+"processing a <_:gi-4/> element which has both <_:gi-5/> and <_:gi-6/> child "
+"elements. The names <_:ident-7/> and <_:ident-8/> here are provided for "
+"convenience. The <_:ident-9/> parameter provides the value of the child <_:"
+"gi-10/> element, and the <_:ident-11/> parameter will provide that of the "
+"child <_:gi-12/> elements. If neither <_:gi-13/> element was supplied, both "
+"elements would still be available to an application, but the application "
+"would need to distinguish them for itself."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2384,17 +3145,30 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1476
-msgid "A <_:gi-1/> element might contain multiple corrections, each with differing values for their <_:att-2/> attribute. In the following processing model, we will accept as value of the <_:ident-3/> attribute only those child <_:gi-4/> elements which have a value <_:val-5/> for that attribute: <_:egXML-6/>"
+msgid ""
+"A <_:gi-1/> element might contain multiple corrections, each with differing "
+"values for their <_:att-2/> attribute. In the following processing model, we "
+"will accept as value of the <_:ident-3/> attribute only those child <_:gi-4/"
+"> elements which have a value <_:val-5/> for that attribute: <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1487
-msgid "A <_:gi-1/> element might contain several different pairs of alternate elements (<_:gi-2/> and <_:gi-3/>, <_:gi-4/> and <_:gi-5/>, etc.) We might wish to group together a set of processing models for these, for example to determine which of the possible alternatives is displayed by default whenever a <_:gi-6/> element is processed for output to the web: <_:egXML-7/>"
+msgid ""
+"A <_:gi-1/> element might contain several different pairs of alternate "
+"elements (<_:gi-2/> and <_:gi-3/>, <_:gi-4/> and <_:gi-5/>, etc.) We might "
+"wish to group together a set of processing models for these, for example to "
+"determine which of the possible alternatives is displayed by default "
+"whenever a <_:gi-6/> element is processed for output to the web: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1509
-msgid "If nothing matches the XPath defining the value of a particular parameter (e.g. if in the above example there is no correction with <_:att-1/>=<_:val-2/>) then the <_:ident-3/> parameter has no value. It is left to implementors to determine how null-valued parameters should be processed."
+msgid ""
+"If nothing matches the XPath defining the value of a particular parameter (e."
+"g. if in the above example there is no correction with <_:att-1/>=<_:val-2/"
+">) then the <_:ident-3/> parameter has no value. It is left to implementors "
+"to determine how null-valued parameters should be processed."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2410,7 +3184,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1516
-msgid "As noted above, the <_:att-1/> attribute is used to associate particular processing models with a specific type of output. The following example documents a range of processing intentions for the <_:gi-2/> element, intended to cope with at least the following three situations:"
+msgid ""
+"As noted above, the <_:att-1/> attribute is used to associate particular "
+"processing models with a specific type of output. The following example "
+"documents a range of processing intentions for the <_:gi-2/> element, "
+"intended to cope with at least the following three situations:"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -2429,17 +3207,30 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1521
-msgid "there is no text inside the element but there is a <_:att-1/> attribute, and the output is print;"
+msgid ""
+"there is no text inside the element but there is a <_:att-1/> attribute, and "
+"the output is print;"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1523
-msgid "there is a <_:att-1/> attribute, there is text inside the element, and the output is web"
+msgid ""
+"there is a <_:att-1/> attribute, there is text inside the element, and the "
+"output is web"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1540
-msgid "For output to print we supply two processing models, one for the simplest case where the content of the <_:gi-1/> is to be treated as an inline element, and the other for the case where there is no content and the value of the <_:att-2/> attribute is to be used in its place. This is specified by a parameter, called <_:ident-3/> in this example. For output to web, we use the <_:ident-4/> behaviour discussed in the previous section to indicate that by default the content of the element will be used, while retaining access to the value of the <_:att-5/> attribute, this time via a parameter called <_:ident-6/>."
+msgid ""
+"For output to print we supply two processing models, one for the simplest "
+"case where the content of the <_:gi-1/> is to be treated as an inline "
+"element, and the other for the case where there is no content and the value "
+"of the <_:att-2/> attribute is to be used in its place. This is specified by "
+"a parameter, called <_:ident-3/> in this example. For output to web, we use "
+"the <_:ident-4/> behaviour discussed in the previous section to indicate "
+"that by default the content of the element will be used, while retaining "
+"access to the value of the <_:att-5/> attribute, this time via a parameter "
+"called <_:ident-6/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2475,7 +3266,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1550
-msgid "As well as being combined to form model groups, several models may be combined to form a <_:term-1/>. All of the individual components of a model sequence are understood to be applied, rather than considered to be mutually exclusive alternatives. For example, we might wish to define two different behaviours for a <_:gi-2/> element: the inline behaviour should be used to display the value of the note number (given by its <_:att-3/> attribute), while a different behaviour (here called <_:ident-4/>) should be used to display the content of the element at a specified place, given by the parameter <_:ident-5/>. Because both of these actions are required, the two models are grouped by a <_:gi-6/> element: <_:egXML-7/>"
+msgid ""
+"As well as being combined to form model groups, several models may be "
+"combined to form a <_:term-1/>. All of the individual components of a model "
+"sequence are understood to be applied, rather than considered to be mutually "
+"exclusive alternatives. For example, we might wish to define two different "
+"behaviours for a <_:gi-2/> element: the inline behaviour should be used to "
+"display the value of the note number (given by its <_:att-3/> attribute), "
+"while a different behaviour (here called <_:ident-4/>) should be used to "
+"display the content of the element at a specified place, given by the "
+"parameter <_:ident-5/>. Because both of these actions are required, the two "
+"models are grouped by a <_:gi-6/> element: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: p/q
@@ -2485,7 +3286,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1571
-msgid "The value of the parameter called <_:ident-1/> above is an XPath expression supplying an arbitrary string (<_:q-2/>), which is therefore quoted. It is left to implementors to validate or constrain the possible values for such expressions."
+msgid ""
+"The value of the parameter called <_:ident-1/> above is an XPath expression "
+"supplying an arbitrary string (<_:q-2/>), which is therefore quoted. It is "
+"left to implementors to validate or constrain the possible values for such "
+"expressions."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2495,12 +3300,10 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1583
-#: Source/Guidelines/en/TD-DocumentationElements.xml:1583
 msgid "paramList"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TD-DocumentationElements.xml:1584
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1584
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1600
 msgid "valItem"
@@ -2523,12 +3326,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1578
-msgid "The processing model for an element is defined using some combination of <_:gi-1/>, <_:gi-2/>, or <_:gi-3/> elements within the <_:gi-4/> element containing its specification. The processing to be carried out is defined by means of the behaviour specified for each <_:gi-5/> element, possibly supplying specified values for a number of named parameters. The parameters available for a given behaviour are specified using a number of <_:gi-6/> elements grouped together in a <_:gi-7/> element. This <_:gi-8/> is supplied within the <_:gi-9/> used to document and name the behaviour. Here for example is the <_:gi-10/> which defines the <_:ident-11/> behaviour presented above: <_:egXML-12/>"
+msgid ""
+"The processing model for an element is defined using some combination of <_:"
+"gi-1/>, <_:gi-2/>, or <_:gi-3/> elements within the <_:gi-4/> element "
+"containing its specification. The processing to be carried out is defined by "
+"means of the behaviour specified for each <_:gi-5/> element, possibly "
+"supplying specified values for a number of named parameters. The parameters "
+"available for a given behaviour are specified using a number of <_:gi-6/> "
+"elements grouped together in a <_:gi-7/> element. This <_:gi-8/> is supplied "
+"within the <_:gi-9/> used to document and name the behaviour. Here for "
+"example is the <_:gi-10/> which defines the <_:ident-11/> behaviour "
+"presented above: <_:egXML-12/>"
 msgstr ""
 
 #. (itstool) path: valItem/desc
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1604
-msgid "support display of alternative visualisations, for example by displaying the preferred content, by displaying both in parallel, or by toggling between the two."
+msgid ""
+"support display of alternative visualisations, for example by displaying the "
+"preferred content, by displaying both in parallel, or by toggling between "
+"the two."
 msgstr ""
 
 #. (itstool) path: paramSpec/desc
@@ -2543,12 +3359,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1600
-msgid "Similarly the <_:gi-1/> which defines the behaviour named <_:ident-2/> includes specifications for two parameters: one also called <_:ident-3/> and the other called <_:ident-4/> <_:egXML-5/>"
+msgid ""
+"Similarly the <_:gi-1/> which defines the behaviour named <_:ident-2/> "
+"includes specifications for two parameters: one also called <_:ident-3/> and "
+"the other called <_:ident-4/> <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1620
-msgid "The suggested behaviours provided by the <_:gi-1/> element are informally defined using commonly understood terminology, but specific details of how they should be implemented are left to the implementor. Such decisions may vary greatly depending on the kind of processing environment, the kind of output envisaged, etc. The intention is to reduce as far as possible any requirement for the implementor to be aware of TEI-specific rules, and to maximize the ability of the ODD to express processing intentions without fully specifying an implementation."
+msgid ""
+"The suggested behaviours provided by the <_:gi-1/> element are informally "
+"defined using commonly understood terminology, but specific details of how "
+"they should be implemented are left to the implementor. Such decisions may "
+"vary greatly depending on the kind of processing environment, the kind of "
+"output envisaged, etc. The intention is to reduce as far as possible any "
+"requirement for the implementor to be aware of TEI-specific rules, and to "
+"maximize the ability of the ODD to express processing intentions without "
+"fully specifying an implementation."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2563,17 +3390,28 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1636
-msgid "If a <_:gi-1/> element has no child <_:gi-2/> elements, the action specified by its behaviour should be applied to the whole element node concerned, including its child nodes of whatever type. If that behaviour requires distinguishing particular parts of the input, an implementation may choose either to make those distinctions itself, or to raise an error."
+msgid ""
+"If a <_:gi-1/> element has no child <_:gi-2/> elements, the action specified "
+"by its behaviour should be applied to the whole element node concerned, "
+"including its child nodes of whatever type. If that behaviour requires "
+"distinguishing particular parts of the input, an implementation may choose "
+"either to make those distinctions itself, or to raise an error."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1640
-msgid "If a <_:gi-1/> element has no <_:att-2/> or <_:att-3/> attribute then it is assumed to apply to all instances of the element defined in its parent <_:gi-4/> for all outputs. Otherwise its applicability depends on these attributes."
+msgid ""
+"If a <_:gi-1/> element has no <_:att-2/> or <_:att-3/> attribute then it is "
+"assumed to apply to all instances of the element defined in its parent <_:"
+"gi-4/> for all outputs. Otherwise its applicability depends on these "
+"attributes."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1644
-msgid "Only one of the <_:gi-1/>s is to be applied for a particular instance of the element, except when they appear within a <_:gi-2/>"
+msgid ""
+"Only one of the <_:gi-1/>s is to be applied for a particular instance of the "
+"element, except when they appear within a <_:gi-2/>"
 msgstr ""
 
 #. (itstool) path: item/soCalled
@@ -2583,17 +3421,29 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1647
-msgid "A <_:soCalled-1/> model is one where the element to be processed satisfies the XPath in the <_:att-2/> attribute of the <_:gi-3/> or <_:gi-4/> and the current output method matches the method specified in the <_:att-5/> attribute of the <_:gi-6/>, <_:gi-7/>, or a containing <_:gi-8/>. A <_:gi-9/> or <_:gi-10/> without a <_:att-11/> always matches the element to be processed. A <_:gi-12/>, <_:gi-13/>, or <_:gi-14/> without an <_:att-15/> attribute matches any output method."
+msgid ""
+"A <_:soCalled-1/> model is one where the element to be processed satisfies "
+"the XPath in the <_:att-2/> attribute of the <_:gi-3/> or <_:gi-4/> and the "
+"current output method matches the method specified in the <_:att-5/> "
+"attribute of the <_:gi-6/>, <_:gi-7/>, or a containing <_:gi-8/>. A <_:gi-9/"
+"> or <_:gi-10/> without a <_:att-11/> always matches the element to be "
+"processed. A <_:gi-12/>, <_:gi-13/>, or <_:gi-14/> without an <_:att-15/> "
+"attribute matches any output method."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1653
-msgid "Processing Model implementations must execute only the first matching <_:gi-1/> or <_:gi-2/> in document order."
+msgid ""
+"Processing Model implementations must execute only the first matching <_:"
+"gi-1/> or <_:gi-2/> in document order."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1655
-msgid "If there are two or more <_:gi-1/> elements provided for an <_:gi-2/> but they have different <_:att-3/> attributes then the implementation should choose the <_:gi-4/> appropriate to the desired output."
+msgid ""
+"If there are two or more <_:gi-1/> elements provided for an <_:gi-2/> but "
+"they have different <_:att-3/> attributes then the implementation should "
+"choose the <_:gi-4/> appropriate to the desired output."
 msgstr ""
 
 #. (itstool) path: item/term
@@ -2603,7 +3453,11 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1658
-msgid "If there are two or more <_:gi-1/> elements provided for an <_:gi-2/> but they have different <_:att-3/> attributes then the implementation should choose the <_:gi-4/> whose <_:att-5/> provides the most specific context (where <_:term-6/> is understood in the same way as in XSLT)"
+msgid ""
+"If there are two or more <_:gi-1/> elements provided for an <_:gi-2/> but "
+"they have different <_:att-3/> attributes then the implementation should "
+"choose the <_:gi-4/> whose <_:att-5/> provides the most specific context "
+"(where <_:term-6/> is understood in the same way as in XSLT)"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2626,7 +3480,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1629
-msgid "As elsewhere in these Guidelines, the recommendations of this section are intended to be implementation-agnostic, not favouring any particular implementation method or technology. An implementor may choose, for example, whether to pre-process processing model specifications into a free standing <_:soCalled-1/>, or to extract and process them dynamically during document processing. However, although implementors are generally free to interpret the processing model documentation according to their own requirements, some general assumptions underlie the recommendations made here: <_:list-2/> In the following example, which shows part of the element specification for the <_:gi-3/> element, there are two <_:gi-4/> elements, one with and one without a <_:att-5/> attribute: <_:egXML-6/> In this example, an implementation should use the first processing model only for <_:gi-7/> elements with a <_:gi-8/> element as parent; for all other <_:gi-9/> elements, the second processing model should be used."
+msgid ""
+"As elsewhere in these Guidelines, the recommendations of this section are "
+"intended to be implementation-agnostic, not favouring any particular "
+"implementation method or technology. An implementor may choose, for example, "
+"whether to pre-process processing model specifications into a free standing "
+"<_:soCalled-1/>, or to extract and process them dynamically during document "
+"processing. However, although implementors are generally free to interpret "
+"the processing model documentation according to their own requirements, some "
+"general assumptions underlie the recommendations made here: <_:list-2/> In "
+"the following example, which shows part of the element specification for the "
+"<_:gi-3/> element, there are two <_:gi-4/> elements, one with and one "
+"without a <_:att-5/> attribute: <_:egXML-6/> In this example, an "
+"implementation should use the first processing model only for <_:gi-7/> "
+"elements with a <_:gi-8/> element as parent; for all other <_:gi-9/> "
+"elements, the second processing model should be used."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2646,7 +3514,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1704
-msgid "The element <_:gi-1/> is used to document either an <_:term-2/> or a <_:soCalled-3/>, as defined in section <_:ptr-4/>. A corresponding <_:gi-5/> element may be used to select a specific named class from those available. <_:specList-6/>"
+msgid ""
+"The element <_:gi-1/> is used to document either an <_:term-2/> or a <_:"
+"soCalled-3/>, as defined in section <_:ptr-4/>. A corresponding <_:gi-5/> "
+"element may be used to select a specific named class from those available. "
+"<_:specList-6/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -2658,7 +3530,9 @@ msgstr ""
 
 #. (itstool) path: classSpec/desc
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1725
-msgid "groups phrase-level elements related to highlighting that have no specific semantics"
+msgid ""
+"groups phrase-level elements related to highlighting that have no specific "
+"semantics"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -2668,12 +3542,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1712
-msgid "A model class specification does not list all of its members. Instead, its members declare that they belong to it by means of a <_:gi-1/> element contained within the relevant <_:gi-2/>. This will contain a <_:gi-3/> element for each class of which the relevant element is a member, supplying the name of the relevant class. For example, the <_:gi-4/> for the element <_:gi-5/> contains the following: <_:egXML-6/> This indicates that the <_:gi-7/> element is a member of the class with identifier <_:ident-8/>. The <_:gi-9/> element that documents this class contains the following declarations: <_:egXML-10/> which indicate that the class <_:ident-11/> is actually a member (or subclass) of the class <_:ident-12/>."
+msgid ""
+"A model class specification does not list all of its members. Instead, its "
+"members declare that they belong to it by means of a <_:gi-1/> element "
+"contained within the relevant <_:gi-2/>. This will contain a <_:gi-3/> "
+"element for each class of which the relevant element is a member, supplying "
+"the name of the relevant class. For example, the <_:gi-4/> for the element "
+"<_:gi-5/> contains the following: <_:egXML-6/> This indicates that the <_:"
+"gi-7/> element is a member of the class with identifier <_:ident-8/>. The <_:"
+"gi-9/> element that documents this class contains the following "
+"declarations: <_:egXML-10/> which indicate that the class <_:ident-11/> is "
+"actually a member (or subclass) of the class <_:ident-12/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1733
-msgid "The function of a model class declaration is to provide another way of referring to a group of elements. It does not confer any other properties on the elements which constitute its membership."
+msgid ""
+"The function of a model class declaration is to provide another way of "
+"referring to a group of elements. It does not confer any other properties on "
+"the elements which constitute its membership."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -2683,7 +3570,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1735
-msgid "The attribute <_:att-1/> is used to distinguish between <_:soCalled-2/> and <_:soCalled-3/> classes. In the case of attribute classes, the attributes provided by membership in the class are documented by an <_:gi-4/> element contained within the <_:gi-5/>. In the case of model classes, no further information is needed to define the class beyond its description, its identifier, and optionally any classes of which it is a member."
+msgid ""
+"The attribute <_:att-1/> is used to distinguish between <_:soCalled-2/> and "
+"<_:soCalled-3/> classes. In the case of attribute classes, the attributes "
+"provided by membership in the class are documented by an <_:gi-4/> element "
+"contained within the <_:gi-5/>. In the case of model classes, no further "
+"information is needed to define the class beyond its description, its "
+"identifier, and optionally any classes of which it is a member."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2693,7 +3586,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1740
-msgid "When a model class is referenced in the content model of an element (i.e. by means of a <_:gi-1/> element within the <_:gi-2/> of an <_:gi-3/>), its meaning will depend on the value of its <_:att-4/> attribute."
+msgid ""
+"When a model class is referenced in the content model of an element (i.e. by "
+"means of a <_:gi-1/> element within the <_:gi-2/> of an <_:gi-3/>), its "
+"meaning will depend on the value of its <_:att-4/> attribute."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2718,7 +3614,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1743
-msgid "If this attribute is not specified, the <_:gi-1/> is interpreted to mean an alternated list of all the current members of the class named. For example, suppose that the members of the class <_:ident-2/> are elements <_:gi-3/>, <_:gi-4/>, and <_:gi-5/>. Then a content model such as <_:egXML-6/> would be equivalent to the explicit content model: <_:egXML-7/> (or, to use RELAX NG compact syntax, <_:code-8/>). However, a content model of <_:code-9/> would be equivalent to the following explicit content model: <_:egXML-10/> (or, in RELAX NG compact syntax, <_:code-11/>)."
+msgid ""
+"If this attribute is not specified, the <_:gi-1/> is interpreted to mean an "
+"alternated list of all the current members of the class named. For example, "
+"suppose that the members of the class <_:ident-2/> are elements <_:gi-3/>, "
+"<_:gi-4/>, and <_:gi-5/>. Then a content model such as <_:egXML-6/> would be "
+"equivalent to the explicit content model: <_:egXML-7/> (or, to use RELAX NG "
+"compact syntax, <_:code-8/>). However, a content model of <_:code-9/> would "
+"be equivalent to the following explicit content model: <_:egXML-10/> (or, in "
+"RELAX NG compact syntax, <_:code-11/>)."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -2734,7 +3638,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1829
-msgid "An attribute class (a <_:gi-1/> of <_:att-2/> <_:val-3/>) contains an <_:gi-4/> element which lists the attributes that all the members of that class inherit from it. For example, the class <_:ident-5/> defines a small set of attributes common to all elements which are members of that class: those attributes are listed by the <_:gi-6/> element contained by the <_:gi-7/> for <_:ident-8/>. When processing the documentation elements for elements which are members of that class, an ODD processor is required to extend the <_:gi-9/> (or equivalent) for such elements to include any attributes defined by the <_:gi-10/> elements concerned. There is a single global attribute class, <_:ident-11/>, to which some modules contribute additional attributes when they are included in a schema."
+msgid ""
+"An attribute class (a <_:gi-1/> of <_:att-2/> <_:val-3/>) contains an <_:"
+"gi-4/> element which lists the attributes that all the members of that class "
+"inherit from it. For example, the class <_:ident-5/> defines a small set of "
+"attributes common to all elements which are members of that class: those "
+"attributes are listed by the <_:gi-6/> element contained by the <_:gi-7/> "
+"for <_:ident-8/>. When processing the documentation elements for elements "
+"which are members of that class, an ODD processor is required to extend the "
+"<_:gi-9/> (or equivalent) for such elements to include any attributes "
+"defined by the <_:gi-10/> elements concerned. There is a single global "
+"attribute class, <_:ident-11/>, to which some modules contribute additional "
+"attributes when they are included in a schema."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2744,7 +3659,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1864
-msgid "The <_:gi-1/> element is used to declare and document predefined strings or patterns not otherwise documented by the elements described in this section. A corresponding <_:gi-2/> element may be used to select a specific named pattern from those available. Patterns are used as a shorthand chiefly to describe common content models and datatypes, but may be used for any purpose. The following elements are used to represent patterns: <_:specList-3/>"
+msgid ""
+"The <_:gi-1/> element is used to declare and document predefined strings or "
+"patterns not otherwise documented by the elements described in this section. "
+"A corresponding <_:gi-2/> element may be used to select a specific named "
+"pattern from those available. Patterns are used as a shorthand chiefly to "
+"describe common content models and datatypes, but may be used for any "
+"purpose. The following elements are used to represent patterns: <_:"
+"specList-3/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2775,17 +3697,33 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1877
-msgid "The specification elements, and some of their children, are all members of the <_:ident-1/> class, from which they inherit the following attributes: <_:specList-2/> This attribute class is a subclass of the <_:ident-3/> class from which it (and some other elements) inherits the following attribute: <_:specList-4/> This attribute class, in turn, is a subclass of the <_:ident-5/> class, from which it inherits the following attribute: <_:specList-6/> The <_:att-7/> attribute may be used to signal an intent to remove a construct from future versions of the schema being specified."
+msgid ""
+"The specification elements, and some of their children, are all members of "
+"the <_:ident-1/> class, from which they inherit the following attributes: <_:"
+"specList-2/> This attribute class is a subclass of the <_:ident-3/> class "
+"from which it (and some other elements) inherits the following attribute: <_:"
+"specList-4/> This attribute class, in turn, is a subclass of the <_:ident-5/"
+"> class, from which it inherits the following attribute: <_:specList-6/> The "
+"<_:att-7/> attribute may be used to signal an intent to remove a construct "
+"from future versions of the schema being specified."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1891
-msgid "The <_:gi-1/>, <_:gi-2/> and <_:gi-3/> specification elements also have an attribute which determines which namespace to which the object being created will belong. In the case of <_:gi-4/>, this namespace is inherited by all the elements created in the schema, unless they have their own <_:att-5/>. <_:specList-6/>"
+msgid ""
+"The <_:gi-1/>, <_:gi-2/> and <_:gi-3/> specification elements also have an "
+"attribute which determines which namespace to which the object being created "
+"will belong. In the case of <_:gi-4/>, this namespace is inherited by all "
+"the elements created in the schema, unless they have their own <_:att-5/>. "
+"<_:specList-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1899
-msgid "These attributes are used by an ODD processor to determine how declarations are to be combined to form a schema or DTD, as further discussed in this section."
+msgid ""
+"These attributes are used by an ODD processor to determine how declarations "
+"are to be combined to form a schema or DTD, as further discussed in this "
+"section."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2795,12 +3733,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1904
-msgid "As noted above, a TEI schema is defined by a <_:gi-1/> element containing an arbitrary mixture of explicit declarations for objects (i.e. elements, classes, patterns, or macro specifications) and references to other objects containing such declarations (i.e. references to specification groups, or to modules). A major purpose of this mechanism is to simplify the process of defining user customizations, by providing a formal method for the user to combine new declarations with existing ones, or to modify particular parts of existing declarations."
+msgid ""
+"As noted above, a TEI schema is defined by a <_:gi-1/> element containing an "
+"arbitrary mixture of explicit declarations for objects (i.e. elements, "
+"classes, patterns, or macro specifications) and references to other objects "
+"containing such declarations (i.e. references to specification groups, or to "
+"modules). A major purpose of this mechanism is to simplify the process of "
+"defining user customizations, by providing a formal method for the user to "
+"combine new declarations with existing ones, or to modify particular parts "
+"of existing declarations."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1910
-msgid "In the simplest case, a user-defined schema might just combine all the declarations from two nominated modules: <_:egXML-1/> An ODD processor, given such a document, should combine the declarations which belong to the named modules, and deliver the result as a schema of the requested type. It may also generate documentation for the elements declared by those modules. No source is specified for the modules, and the schema will therefore combine the declarations found in the most recent release version of the TEI Guidelines known to the ODD processor in use."
+msgid ""
+"In the simplest case, a user-defined schema might just combine all the "
+"declarations from two nominated modules: <_:egXML-1/> An ODD processor, "
+"given such a document, should combine the declarations which belong to the "
+"named modules, and deliver the result as a schema of the requested type. It "
+"may also generate documentation for the elements declared by those modules. "
+"No source is specified for the modules, and the schema will therefore "
+"combine the declarations found in the most recent release version of the TEI "
+"Guidelines known to the ODD processor in use."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -2826,12 +3780,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1921
-msgid "The value specified for the <_:att-1/> attribute, when it is supplied as a URL, specifies any convenient location from which the relevant ODD files may be obtained. For the current release of the TEI Guidelines, a URL in the form <_:code-2/> may be used, where <_:code-3/> represents the P5 version number, e.g. <_:code-4/>. Alternatively, if the ODD files are locally installed, it may be more convenient to supply a value such as <_:val-5/>."
+msgid ""
+"The value specified for the <_:att-1/> attribute, when it is supplied as a "
+"URL, specifies any convenient location from which the relevant ODD files may "
+"be obtained. For the current release of the TEI Guidelines, a URL in the "
+"form <_:code-2/> may be used, where <_:code-3/> represents the P5 version "
+"number, e.g. <_:code-4/>. Alternatively, if the ODD files are locally "
+"installed, it may be more convenient to supply a value such as <_:val-5/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1937
-msgid "The value for the <_:att-1/> attribute may be any form of URI. A set of TEI-conformant specifications in a form directly usable by an ODD processor must be available at the location indicated. When no <_:att-2/> value is supplied, an ODD processor may either raise an error or assume that the location of the current release of the TEI Guidelines is intended."
+msgid ""
+"The value for the <_:att-1/> attribute may be any form of URI. A set of TEI-"
+"conformant specifications in a form directly usable by an ODD processor must "
+"be available at the location indicated. When no <_:att-2/> value is "
+"supplied, an ODD processor may either raise an error or assume that the "
+"location of the current release of the TEI Guidelines is intended."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -2851,7 +3816,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1941
-msgid "If the source is specified in the form of a private URI, the form recommended is <_:code-1/>, where <_:code-2/> is a prefix indicating the markup language in use, and <_:code-3/> indicates the version number. For example, <_:code-4/> should be used to reference release 1.2.1 of the current TEI Guidelines. When such a URI is used, it will usually be necessary to translate it before such a file can be used in blind interchange."
+msgid ""
+"If the source is specified in the form of a private URI, the form "
+"recommended is <_:code-1/>, where <_:code-2/> is a prefix indicating the "
+"markup language in use, and <_:code-3/> indicates the version number. For "
+"example, <_:code-4/> should be used to reference release 1.2.1 of the "
+"current TEI Guidelines. When such a URI is used, it will usually be "
+"necessary to translate it before such a file can be used in blind "
+"interchange."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2874,12 +3846,27 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1946
-msgid "The effect of a <_:gi-1/> element is to include in the schema all declarations provided by that module. This may be modified by means of the attributes <_:att-2/> and <_:att-3/> which allow the encoder to supply an explicit lists of elements from the stated module which are to be included or excluded respectively. For example: <_:egXML-4/> The schema specified here will include all the elements supplied by the core module except for <_:gi-5/>, <_:gi-6/>, <_:gi-7/>, and <_:gi-8/>. It will also include only the <_:gi-9/> and <_:gi-10/> elements from the linking module."
+msgid ""
+"The effect of a <_:gi-1/> element is to include in the schema all "
+"declarations provided by that module. This may be modified by means of the "
+"attributes <_:att-2/> and <_:att-3/> which allow the encoder to supply an "
+"explicit lists of elements from the stated module which are to be included "
+"or excluded respectively. For example: <_:egXML-4/> The schema specified "
+"here will include all the elements supplied by the core module except for <_:"
+"gi-5/>, <_:gi-6/>, <_:gi-7/>, and <_:gi-8/>. It will also include only the "
+"<_:gi-9/> and <_:gi-10/> elements from the linking module."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1957
-msgid "Alternatively, the element <_:gi-1/> may be used to indicate explicitly which elements are to be included in a schema. The same effect as the preceding example might thus be achieved by the following: <_:egXML-2/> Note that in this last case, there is no need to specify the name of the module from which the two element declarations are to be found; in the TEI scheme, element names are unique across all modules. The module is simply a convenient way of grouping together a number of related declarations."
+msgid ""
+"Alternatively, the element <_:gi-1/> may be used to indicate explicitly "
+"which elements are to be included in a schema. The same effect as the "
+"preceding example might thus be achieved by the following: <_:egXML-2/> Note "
+"that in this last case, there is no need to specify the name of the module "
+"from which the two element declarations are to be found; in the TEI scheme, "
+"element names are unique across all modules. The module is simply a "
+"convenient way of grouping together a number of related declarations."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2889,7 +3876,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1968
-msgid "In the same way, a schema may select a subset of the attributes available in a specific class, using the <_:gi-1/> element to point to an attribute class: <_:egXML-2/> Here, only the <_:att-3/> attribute is included; the other attributes in the class are not available. The same effect can be achieved using <_:att-4/>: <_:egXML-5/>"
+msgid ""
+"In the same way, a schema may select a subset of the attributes available in "
+"a specific class, using the <_:gi-1/> element to point to an attribute "
+"class: <_:egXML-2/> Here, only the <_:att-3/> attribute is included; the "
+"other attributes in the class are not available. The same effect can be "
+"achieved using <_:att-4/>: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -2915,7 +3907,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:1985
-msgid "A schema may also include declarations for new elements, as in the following example: <_:egXML-1/> A declaration for the element <_:gi-2/>, which is not defined in the TEI scheme, will be added to the output schema. This element will also be added to the existing TEI class <_:ident-3/>, and will thus be available in TEI conformant documents. Attributes from existing TEI classes could be added to the new element using <_:gi-4/>: <_:egXML-5/> This will provide the <_:att-6/> attribute from the <_:ident-7/> class on the new <_:gi-8/> element."
+msgid ""
+"A schema may also include declarations for new elements, as in the following "
+"example: <_:egXML-1/> A declaration for the element <_:gi-2/>, which is not "
+"defined in the TEI scheme, will be added to the output schema. This element "
+"will also be added to the existing TEI class <_:ident-3/>, and will thus be "
+"available in TEI conformant documents. Attributes from existing TEI classes "
+"could be added to the new element using <_:gi-4/>: <_:egXML-5/> This will "
+"provide the <_:att-6/> attribute from the <_:ident-7/> class on the new <_:"
+"gi-8/> element."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -2940,7 +3940,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2010
-msgid "A schema might also include re-declarations of existing elements, as in the following example: <_:egXML-1/> The effect of this is to redefine the content model for the element <_:gi-2/> as plain text, by over-riding the <_:gi-3/> child of the selected <_:gi-4/>. The attribute specification <_:code-5/> has the effect of over-riding only those children elements of the <_:gi-6/> which appear both in the original specification and in the new specification supplied above: <_:gi-7/> in this example. Note that if the value for <_:att-8/> were <_:val-9/>, the effect would be to replace all children elements of the original specification with the the children elements of the new specification, and thus (in this example) to delete all of them except <_:gi-10/>."
+msgid ""
+"A schema might also include re-declarations of existing elements, as in the "
+"following example: <_:egXML-1/> The effect of this is to redefine the "
+"content model for the element <_:gi-2/> as plain text, by over-riding the <_:"
+"gi-3/> child of the selected <_:gi-4/>. The attribute specification <_:"
+"code-5/> has the effect of over-riding only those children elements of the "
+"<_:gi-6/> which appear both in the original specification and in the new "
+"specification supplied above: <_:gi-7/> in this example. Note that if the "
+"value for <_:att-8/> were <_:val-9/>, the effect would be to replace all "
+"children elements of the original specification with the the children "
+"elements of the new specification, and thus (in this example) to delete all "
+"of them except <_:gi-10/>."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -2994,7 +4005,9 @@ msgstr ""
 
 #. (itstool) path: row/cell
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2055
-msgid "retain existing declaration; process new children in replace mode; ignore existing children"
+msgid ""
+"retain existing declaration; process new children in replace mode; ignore "
+"existing children"
 msgstr ""
 
 #. (itstool) path: row/cell
@@ -3005,7 +4018,10 @@ msgstr ""
 
 #. (itstool) path: row/cell
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2066
-msgid "process identifiable children according to their modes; process unidentifiable children in replace mode; retain existing children where no replacement or change is provided"
+msgid ""
+"process identifiable children according to their modes; process "
+"unidentifiable children in replace mode; retain existing children where no "
+"replacement or change is provided"
 msgstr ""
 
 #. (itstool) path: row/cell
@@ -3021,7 +4037,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2027
-msgid "A schema may not contain more than two declarations for any given component. The value of the <_:att-1/> attribute is used to determine exactly how the second declaration (and its constituents) should be combined with the first. The following table summarizes how a processor should resolve duplicate declarations; the term <_:term-2/> refers to those elements which can have a <_:att-3/> attribute: <_:table-4/>"
+msgid ""
+"A schema may not contain more than two declarations for any given component. "
+"The value of the <_:att-1/> attribute is used to determine exactly how the "
+"second declaration (and its constituents) should be combined with the first. "
+"The following table summarizes how a processor should resolve duplicate "
+"declarations; the term <_:term-2/> refers to those elements which can have a "
+"<_:att-3/> attribute: <_:table-4/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -3037,7 +4059,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2084
-msgid "In the simplest case, all that is needed to include a non-TEI module in a schema is to reference its RELAX NG source using the <_:att-1/> attribute on <_:gi-2/>. The following specification, for example, creates a schema in which declarations from the non-TEI module <_:ident-3/> (defining Standard Vector Graphics) are included. To avoid any risk of name clashes, the schema specifies that all TEI patterns generated should be prefixed by the string \"TEI_\". <_:egXML-4/>"
+msgid ""
+"In the simplest case, all that is needed to include a non-TEI module in a "
+"schema is to reference its RELAX NG source using the <_:att-1/> attribute on "
+"<_:gi-2/>. The following specification, for example, creates a schema in "
+"which declarations from the non-TEI module <_:ident-3/> (defining Standard "
+"Vector Graphics) are included. To avoid any risk of name clashes, the schema "
+"specifies that all TEI patterns generated should be prefixed by the string "
+"\"TEI_\". <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -3061,7 +4090,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2098
-msgid "This specification generates a single schema which might be used to validate either a TEI document (with the root element <_:gi-1/>), or an SVG document (with a root element <_:gi-2/>), but would <_:emph-3/> validate a TEI document containing <_:gi-4/> or other elements from the SVG language. For that to be possible, the <_:gi-5/> element must become a member of a TEI model class (<_:ptr-6/>), so that it may be referenced by other TEI elements. To achieve this, we modify the last <_:gi-7/> in the above example as follows: <_:egXML-8/>"
+msgid ""
+"This specification generates a single schema which might be used to validate "
+"either a TEI document (with the root element <_:gi-1/>), or an SVG document "
+"(with a root element <_:gi-2/>), but would <_:emph-3/> validate a TEI "
+"document containing <_:gi-4/> or other elements from the SVG language. For "
+"that to be possible, the <_:gi-5/> element must become a member of a TEI "
+"model class (<_:ptr-6/>), so that it may be referenced by other TEI "
+"elements. To achieve this, we modify the last <_:gi-7/> in the above example "
+"as follows: <_:egXML-8/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -3077,7 +4114,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2114
-msgid "This states that when the declarations from the <_:ident-1/> module are combined with those from the other modules, the declaration for the model class <_:ident-2/> in the TEI module should be extended to include the element <_:gi-3/> as an alternative. This has the effect that elements in the TEI scheme which define their content model in terms of that element class (notably <_:gi-4/>) can now include it. A RELAX NG schema generated from such a specification can be used to validate documents in which the TEI <_:gi-5/> element contains any valid SVG representation of a graphic, embedded within an <_:gi-6/> element."
+msgid ""
+"This states that when the declarations from the <_:ident-1/> module are "
+"combined with those from the other modules, the declaration for the model "
+"class <_:ident-2/> in the TEI module should be extended to include the "
+"element <_:gi-3/> as an alternative. This has the effect that elements in "
+"the TEI scheme which define their content model in terms of that element "
+"class (notably <_:gi-4/>) can now include it. A RELAX NG schema generated "
+"from such a specification can be used to validate documents in which the TEI "
+"<_:gi-5/> element contains any valid SVG representation of a graphic, "
+"embedded within an <_:gi-6/> element."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -3112,7 +4158,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2126
-msgid "Schemas can be linked to XML documents by means of the <_:tag-1/> processing instruction described in the W3C Working Group Note <_:title-2/> (<_:ptr-3/>). <_:tag-4/> can be used for any type of schema, and may be used for multiple schemas: <_:eg-5/> This example includes a standard RELAX NG schema, a Schematron schema which might be used for checking that all pointing attributes point at existing targets, and also a link to the TEI ODD file from which the RELAX NG schema was generated. See also <_:ptr-6/> for details of another method of linking an ODD specification into your file by including a <_:gi-7/> element in <_:gi-8/>."
+msgid ""
+"Schemas can be linked to XML documents by means of the <_:tag-1/> processing "
+"instruction described in the W3C Working Group Note <_:title-2/> (<_:ptr-3/"
+">). <_:tag-4/> can be used for any type of schema, and may be used for "
+"multiple schemas: <_:eg-5/> This example includes a standard RELAX NG "
+"schema, a Schematron schema which might be used for checking that all "
+"pointing attributes point at existing targets, and also a link to the TEI "
+"ODD file from which the RELAX NG schema was generated. See also <_:ptr-6/> "
+"for details of another method of linking an ODD specification into your file "
+"by including a <_:gi-7/> element in <_:gi-8/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -3152,7 +4207,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2141
-msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>."
+msgid ""
+"The module described in this chapter makes available the following "
+"components: <_:moduleSpec-1/> The selection and combination of modules to "
+"form a TEI schema is described in <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -3177,11 +4235,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2152
-msgid "The elements described in this chapter are all members of one of three classes: <_:ident-1/>, <_:ident-2/>, or <_:ident-3/>, with the exceptions of <_:gi-4/> (a member of <_:ident-5/>) and both <_:gi-6/> and <_:gi-7/> (members of <_:ident-8/> and <_:ident-9/>). All of these classes are declared along with the other general TEI classes, in the basic structure module documented in <_:ptr-10/>."
+msgid ""
+"The elements described in this chapter are all members of one of three "
+"classes: <_:ident-1/>, <_:ident-2/>, or <_:ident-3/>, with the exceptions of "
+"<_:gi-4/> (a member of <_:ident-5/>) and both <_:gi-6/> and <_:gi-7/> "
+"(members of <_:ident-8/> and <_:ident-9/>). All of these classes are "
+"declared along with the other general TEI classes, in the basic structure "
+"module documented in <_:ptr-10/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/TD-DocumentationElements.xml:2162
-msgid "In addition, some elements are members of the <_:ident-1/> class, which is documented in <_:ptr-2/> above."
+msgid ""
+"In addition, some elements are members of the <_:ident-1/> class, which is "
+"documented in <_:ptr-2/> above."
 msgstr ""
-

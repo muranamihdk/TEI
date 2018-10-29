@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"POT-Creation-Date: 2018-10-29 21:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,32 +17,60 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:12
-msgid "Many documents, both historical and contemporary, include not only text, but also graphics, artwork, and other images. Although some types of images can be represented directly with markup, it is more common practice to include such information by using a reference to an external entity (typically a URL) encoded in a suitable graphical notation."
+msgid ""
+"Many documents, both historical and contemporary, include not only text, but "
+"also graphics, artwork, and other images. Although some types of images can "
+"be represented directly with markup, it is more common practice to include "
+"such information by using a reference to an external entity (typically a "
+"URL) encoded in a suitable graphical notation."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:17
-msgid "In addition to graphic images, documents often contain material presented in graphical or tabular format. In such materials, details of layout and presentation may also be of comparatively greater significance or complexity than they are for running text. Indeed, it may often be difficult to make a clear distinction between details relating purely to the rendition of information and those relating to the information itself."
+msgid ""
+"In addition to graphic images, documents often contain material presented in "
+"graphical or tabular format. In such materials, details of layout and "
+"presentation may also be of comparatively greater significance or complexity "
+"than they are for running text. Indeed, it may often be difficult to make a "
+"clear distinction between details relating purely to the rendition of "
+"information and those relating to the information itself."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:23
-msgid "Documents may also contain mathematical formulæ or expressions in other formulaic notations, for which no notation is defined in these Guidelines."
+msgid ""
+"Documents may also contain mathematical formulæ or expressions in other "
+"formulaic notations, for which no notation is defined in these Guidelines."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:26
-msgid "Finally, documents may contain musical notation, embedded in a manner similar to tables, graphs and formulæ."
+msgid ""
+"Finally, documents may contain musical notation, embedded in a manner "
+"similar to tables, graphs and formulæ."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:28
-msgid "These areas (graphics, tabular material, and mathematical or other formulæ, and music) have in common that they have received considerable attention from many other standards bodies or similar professional groups. In part because of this, they may frequently be most conveniently encoded and processed using some notation not defined by these Guidelines. For these reasons, and others, we consider tables, formulæ, graphics and notated music together in this chapter."
+msgid ""
+"These areas (graphics, tabular material, and mathematical or other formulæ, "
+"and music) have in common that they have received considerable attention "
+"from many other standards bodies or similar professional groups. In part "
+"because of this, they may frequently be most conveniently encoded and "
+"processed using some notation not defined by these Guidelines. For these "
+"reasons, and others, we consider tables, formulæ, graphics and notated music "
+"together in this chapter."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:35
-msgid "As with text markup in general, many incompatible formats have been proposed for the representation of graphics, formulæ, and tables in electronic form. Unfortunately, no single format as effective as XML in the domain of text has yet emerged for their interchange, to some extent because of the difficulty of representing the information these data formats convey independently of the way it is rendered."
+msgid ""
+"As with text markup in general, many incompatible formats have been proposed "
+"for the representation of graphics, formulæ, and tables in electronic form. "
+"Unfortunately, no single format as effective as XML in the domain of text "
+"has yet emerged for their interchange, to some extent because of the "
+"difficulty of representing the information these data formats convey "
+"independently of the way it is rendered."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -51,12 +80,27 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:41
-msgid "The module defined by this chapter defines special purpose <_:soCalled-1/> elements that can be used to encapsulate occurrences of such data within a TEI-conformant document in a portable way. Specific recommendations for the encoding of tables are provided in section <_:ptr-2/>, recommendations for mathematical or other formulæ in section <_:ptr-3/>, and for the encoding of musical notation in section <_:ptr-4/>. Specific recommendations for the encoding of graphic figures may be found in section <_:ptr-5/>. The rest of the chapter is devoted to general problems of encoding graphic information."
+msgid ""
+"The module defined by this chapter defines special purpose <_:soCalled-1/> "
+"elements that can be used to encapsulate occurrences of such data within a "
+"TEI-conformant document in a portable way. Specific recommendations for the "
+"encoding of tables are provided in section <_:ptr-2/>, recommendations for "
+"mathematical or other formulæ in section <_:ptr-3/>, and for the encoding of "
+"musical notation in section <_:ptr-4/>. Specific recommendations for the "
+"encoding of graphic figures may be found in section <_:ptr-5/>. The rest of "
+"the chapter is devoted to general problems of encoding graphic information."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:51
-msgid "There is at the time of writing no consensus on formats for graphical images, and such formats vary in many ways. We therefore provide (in section <_:ptr-1/>) a brief discussion of the ways in which images may be represented, and (in section <_:ptr-2/>) a list of formal names for those representations most popular at this time. Each one includes a very brief description. These Guidelines recommend a few particular representations as being the most widely supported and understood."
+msgid ""
+"There is at the time of writing no consensus on formats for graphical "
+"images, and such formats vary in many ways. We therefore provide (in section "
+"<_:ptr-1/>) a brief discussion of the ways in which images may be "
+"represented, and (in section <_:ptr-2/>) a list of formal names for those "
+"representations most popular at this time. Each one includes a very brief "
+"description. These Guidelines recommend a few particular representations as "
+"being the most widely supported and understood."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -84,7 +128,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:61
-msgid "A table is the least <_:soCalled-1/> of the elements discussed in this chapter. Almost any text structure can be presented as a series of rows and columns: one might, for example, choose to show a glossary or other form of list in tabular form, without necessarily regarding it as a table. In such cases, the global <_:att-2/> attribute is an appropriate way of indicating that some element is being presented in tabular format, for example by using an appropriate display property in CSS. When tabular presentation is regarded as of less intrinsic importance, it is correspondingly simpler to encode descriptive or functional information about the contents of the table, for example to identify one cell as containing a name and another as containing a date, though the two methods may be combined."
+msgid ""
+"A table is the least <_:soCalled-1/> of the elements discussed in this "
+"chapter. Almost any text structure can be presented as a series of rows and "
+"columns: one might, for example, choose to show a glossary or other form of "
+"list in tabular form, without necessarily regarding it as a table. In such "
+"cases, the global <_:att-2/> attribute is an appropriate way of indicating "
+"that some element is being presented in tabular format, for example by using "
+"an appropriate display property in CSS. When tabular presentation is "
+"regarded as of less intrinsic importance, it is correspondingly simpler to "
+"encode descriptive or functional information about the contents of the "
+"table, for example to identify one cell as containing a name and another as "
+"containing a date, though the two methods may be combined."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -94,7 +149,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:73
-msgid "When, however, particular elements are required to encode the tabular arrangement itself, then one or other of the various <_:soCalled-1/> now available may be preferable. The schemas in common use generally view a table as a special text element, made up of row elements, themselves composed of cells. Table cells generally appear in row-major order, with the first row from left to right, then the second row, and so on. Details of appearance such as column widths, border lines, and alignment are generally encoded by numerous attributes. Beyond this, however, such schemas differ greatly. This section begins by describing a table schema of this kind; a brief summary of some other widely available table schemas is also provided in section <_:ptr-2/>."
+msgid ""
+"When, however, particular elements are required to encode the tabular "
+"arrangement itself, then one or other of the various <_:soCalled-1/> now "
+"available may be preferable. The schemas in common use generally view a "
+"table as a special text element, made up of row elements, themselves "
+"composed of cells. Table cells generally appear in row-major order, with the "
+"first row from left to right, then the second row, and so on. Details of "
+"appearance such as column widths, border lines, and alignment are generally "
+"encoded by numerous attributes. Beyond this, however, such schemas differ "
+"greatly. This section begins by describing a table schema of this kind; a "
+"brief summary of some other widely available table schemas is also provided "
+"in section <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -104,7 +170,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:90
-msgid "For encoding tables of low to moderate complexity, these Guidelines provide the following special purpose elements: <_:specList-1/>"
+msgid ""
+"For encoding tables of low to moderate complexity, these Guidelines provide "
+"the following special purpose elements: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -119,12 +187,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:97
-msgid "The <_:gi-1/> element is defined as a member of the class <_:ident-2/>; it may therefore appear both within other components (such as paragraphs), or between them, provided that the module defined in this chapter has been enabled, as described at the beginning of this chapter."
+msgid ""
+"The <_:gi-1/> element is defined as a member of the class <_:ident-2/>; it "
+"may therefore appear both within other components (such as paragraphs), or "
+"between them, provided that the module defined in this chapter has been "
+"enabled, as described at the beginning of this chapter."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:101
-msgid "It is to a large extent arbitrary whether a table should be regarded as a series of rows or as a series of columns. For compatibility with currently available systems, however, these Guidelines require a row-by-row description of a table. It is also possible to describe a table simply as a series of cells; this may be useful for tabular material which is not presented as a simple matrix."
+msgid ""
+"It is to a large extent arbitrary whether a table should be regarded as a "
+"series of rows or as a series of columns. For compatibility with currently "
+"available systems, however, these Guidelines require a row-by-row "
+"description of a table. It is also possible to describe a table simply as a "
+"series of cells; this may be useful for tabular material which is not "
+"presented as a simple matrix."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -139,12 +217,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:107
-msgid "The attributes <_:att-1/> and <_:att-2/> may be used to indicate the size of a table, or to indicate that a particular cell or row of a table spans more than one row or column. For both tables and cells, rows and columns are always given in top-to-bottom, left-to-right order, although formatting properties such as those provided by CSS may be used to specify that they should be displayed differently. These Guidelines do not require that the size of a table be specified; for most formatting and many other applications, it will be necessary to process the whole table in two passes in any case."
+msgid ""
+"The attributes <_:att-1/> and <_:att-2/> may be used to indicate the size of "
+"a table, or to indicate that a particular cell or row of a table spans more "
+"than one row or column. For both tables and cells, rows and columns are "
+"always given in top-to-bottom, left-to-right order, although formatting "
+"properties such as those provided by CSS may be used to specify that they "
+"should be displayed differently. These Guidelines do not require that the "
+"size of a table be specified; for most formatting and many other "
+"applications, it will be necessary to process the whole table in two passes "
+"in any case."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:116
-msgid "Where cells span more than one column or row, the encoder must determine whether this is a purely presentational effect (in which case the <_:att-1/> attribute may be more appropriate), whether the part of the table affected would be better treated as a nested table, or whether to use the spanning attributes listed above."
+msgid ""
+"Where cells span more than one column or row, the encoder must determine "
+"whether this is a purely presentational effect (in which case the <_:att-1/> "
+"attribute may be more appropriate), whether the part of the table affected "
+"would be better treated as a nested table, or whether to use the spanning "
+"attributes listed above."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -177,7 +269,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:121
-msgid "The <_:att-1/> attribute may be used to categorize a single cell, or set a default for all the cells in a given row. The present Guidelines distinguish the roles of <_:term-2/> and <_:term-3/> only, but the encoder may define other roles, such as <_:q-4/>, <_:q-5/>, etc., as appropriate."
+msgid ""
+"The <_:att-1/> attribute may be used to categorize a single cell, or set a "
+"default for all the cells in a given row. The present Guidelines distinguish "
+"the roles of <_:term-2/> and <_:term-3/> only, but the encoder may define "
+"other roles, such as <_:q-4/>, <_:q-5/>, etc., as appropriate."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -199,12 +295,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:126
-msgid "These three attributes are provided by the attribute class <_:ident-1/> of which both <_:gi-2/> and <_:gi-3/> are members; see further <_:ptr-4/>."
+msgid ""
+"These three attributes are provided by the attribute class <_:ident-1/> of "
+"which both <_:gi-2/> and <_:gi-3/> are members; see further <_:ptr-4/>."
 msgstr ""
 
 #. (itstool) path: table/head
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:132
-msgid "Report of the conduct and progress of Ernest Pontifex. Upper Vth form — half term ending Midsummer 1851"
+msgid ""
+"Report of the conduct and progress of Ernest Pontifex. Upper Vth form — half "
+"term ending Midsummer 1851"
 msgstr ""
 
 #. (itstool) path: row/cell
@@ -252,17 +352,27 @@ msgstr ""
 
 #. (itstool) path: row/cell
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:152
-msgid "Not satisfactory, on account of his great unpunctuality and inattention to duties"
+msgid ""
+"Not satisfactory, on account of his great unpunctuality and inattention to "
+"duties"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:128
-msgid "The following simple example demonstrates how the data presented as a labelled list in section <_:ptr-1/> might be represented by an encoder wishing to preserve its original appearance as a table: <_:egXML-2/>"
+msgid ""
+"The following simple example demonstrates how the data presented as a "
+"labelled list in section <_:ptr-1/> might be represented by an encoder "
+"wishing to preserve its original appearance as a table: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:158
-msgid "Note that this encoding makes no attempt to represent the full significance of the <_:q-1/> cells above; these might be regarded as simple links between the cells containing them and that to which they refer, or as virtual copies of it. For ways of representing either interpretation, see chapter <_:ptr-2/>."
+msgid ""
+"Note that this encoding makes no attempt to represent the full significance "
+"of the <_:q-1/> cells above; these might be regarded as simple links between "
+"the cells containing them and that to which they refer, or as virtual copies "
+"of it. For ways of representing either interpretation, see chapter <_:ptr-2/"
+">."
 msgstr ""
 
 #. (itstool) path: table/head
@@ -370,12 +480,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:163
-msgid "The following example demonstrates how a simple statistical table may be represented using this scheme: <_:egXML-1/>"
+msgid ""
+"The following example demonstrates how a simple statistical table may be "
+"represented using this scheme: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:199
-msgid "Note the use of a blank cell in the first row to ensure that the column labels are correctly aligned with the data. Again, this encoding does not explicitly represent the alignment between column and row labels and the data to which they apply. Where the primary emphasis of an encoding is on the semantic content of a table, a more explicit mechanism for the representation of structured information such as that provided by the feature structure mechanism described in chapter <_:ptr-1/> may be preferred. Alternatively, the general purpose linkage and alignment mechanisms described in chapter <_:ptr-2/> may also be applied to individual cells of a table."
+msgid ""
+"Note the use of a blank cell in the first row to ensure that the column "
+"labels are correctly aligned with the data. Again, this encoding does not "
+"explicitly represent the alignment between column and row labels and the "
+"data to which they apply. Where the primary emphasis of an encoding is on "
+"the semantic content of a table, a more explicit mechanism for the "
+"representation of structured information such as that provided by the "
+"feature structure mechanism described in chapter <_:ptr-1/> may be "
+"preferred. Alternatively, the general purpose linkage and alignment "
+"mechanisms described in chapter <_:ptr-2/> may also be applied to individual "
+"cells of a table."
 msgstr ""
 
 #. (itstool) path: table/head
@@ -442,17 +564,29 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:209
-msgid "The content of a table cell need not be simply character data. It may also contain any sequence of the phrase-level elements described in chapter <_:ptr-1/>, thus allowing for the encoding of potentially more useful semantic information, as in the following example, where the fact that one cell contains a number and the other contains a place name has been explicitly recorded: <_:egXML-2/>"
+msgid ""
+"The content of a table cell need not be simply character data. It may also "
+"contain any sequence of the phrase-level elements described in chapter <_:"
+"ptr-1/>, thus allowing for the encoding of potentially more useful semantic "
+"information, as in the following example, where the fact that one cell "
+"contains a number and the other contains a place name has been explicitly "
+"recorded: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:243
-msgid "The use of semantically marked elements within a <_:gi-1/> enables the encoder to convey something about the nature and significance of the information, rather than merely suggesting how to display it in rows and columns."
+msgid ""
+"The use of semantically marked elements within a <_:gi-1/> enables the "
+"encoder to convey something about the nature and significance of the "
+"information, rather than merely suggesting how to display it in rows and "
+"columns."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:247
-msgid "Alternatively, the <_:att-1/> attribute might be used to convey such information: <_:egXML-2/>"
+msgid ""
+"Alternatively, the <_:att-1/> attribute might be used to convey such "
+"information: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -530,12 +664,21 @@ msgstr ""
 
 #. (itstool) path: table/trailer
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:285
-msgid "The end of the Table of Battallions reduced out of the battels of g. and squares of men: vpon the right side of euery leafe."
+msgid ""
+"The end of the Table of Battallions reduced out of the battels of g. and "
+"squares of men: vpon the right side of euery leafe."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:261
-msgid "The content of table elements is not limited to <_:gi-1/> and <_:gi-2/>. Milestone elements such as <_:gi-3/> and <_:gi-4/> allow breaks to be signalled inside tables; <_:gi-5/> provides an option for including data which is not amenable to normal row/cell analysis; and other elements such as <_:gi-6/> and <_:gi-7/> provide options for including text which is clearly part of the table, but outside the actual tabular layout. This example shows the use of <_:gi-8/>: <_:egXML-9/>"
+msgid ""
+"The content of table elements is not limited to <_:gi-1/> and <_:gi-2/>. "
+"Milestone elements such as <_:gi-3/> and <_:gi-4/> allow breaks to be "
+"signalled inside tables; <_:gi-5/> provides an option for including data "
+"which is not amenable to normal row/cell analysis; and other elements such "
+"as <_:gi-6/> and <_:gi-7/> provide options for including text which is "
+"clearly part of the table, but outside the actual tabular layout. This "
+"example shows the use of <_:gi-8/>: <_:egXML-9/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -545,22 +688,42 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:298
-msgid "Many authoring systems include built-in support for their own or for public table schemas. These provide an enhanced user interface and good formatting capabilities, but are often product-specific, despite their use of a XML markup language."
+msgid ""
+"Many authoring systems include built-in support for their own or for public "
+"table schemas. These provide an enhanced user interface and good formatting "
+"capabilities, but are often product-specific, despite their use of a XML "
+"markup language."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:302
-msgid "The DTD developed by the Association of American Publishers (AAP) and standardized in ANSI Z39.59 provided a very simple encoding for correspondingly simple tables. This has been further developed, together with the table DTD documented in ISO Technical Report 9537, and now forms part of ISO 12083. The TEI table model described above has functionality very similar to that defined by ISO 12083."
+msgid ""
+"The DTD developed by the Association of American Publishers (AAP) and "
+"standardized in ANSI Z39.59 provided a very simple encoding for "
+"correspondingly simple tables. This has been further developed, together "
+"with the table DTD documented in ISO Technical Report 9537, and now forms "
+"part of ISO 12083. The TEI table model described above has functionality "
+"very similar to that defined by ISO 12083."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:308
-msgid "For more complex tables, the most effective publicly-available DTD is probably that developed by the US Department of Defense CALS project. This supports vertical and horizontal spanning and various kinds of text rotation and justification within cells and is also directly supported by a number of existing XML software systems."
+msgid ""
+"For more complex tables, the most effective publicly-available DTD is "
+"probably that developed by the US Department of Defense CALS project. This "
+"supports vertical and horizontal spanning and various kinds of text rotation "
+"and justification within cells and is also directly supported by a number of "
+"existing XML software systems."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:313
-msgid "The CALS table model is much too complex to describe fully here; for historical background see <_:ptr-1/>; for more recent simplifications of it and current implementations see <_:ptr-2/>. As with any other XML vocabulary, the XML version of the CALS model may readily be included in a TEI schema, using the techniques described in <_:ptr-3/>."
+msgid ""
+"The CALS table model is much too complex to describe fully here; for "
+"historical background see <_:ptr-1/>; for more recent simplifications of it "
+"and current implementations see <_:ptr-2/>. As with any other XML "
+"vocabulary, the XML version of the CALS model may readily be included in a "
+"TEI schema, using the techniques described in <_:ptr-3/>."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -570,7 +733,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:341
-msgid "The XHTML table model (<_:ptr-1/>) is based on the HTML table model (<_:ptr-2/>). Both models support arrangement of arbitrary data into rows and columns of cells. Table rows and columns may be grouped to convey additional structural information and may be rendered by user agents in ways that emphasize this structure. Support for incremental rendering of tables and for rendering on <_:soCalled-3/> user agents is also available. Special elements and attributes are provided to associate metadata with tables. They indicate the table's purpose, or are for the benefit of people using speech or Braille-based user agents. Tables are not recommended for use purely as a means to lay out document content, as this leads to many accessibility problems (see further <_:ptr-4/>). Stylesheets provide a far more effective means of controlling layout and other visual characteristics in both HTML and XML documents."
+msgid ""
+"The XHTML table model (<_:ptr-1/>) is based on the HTML table model (<_:"
+"ptr-2/>). Both models support arrangement of arbitrary data into rows and "
+"columns of cells. Table rows and columns may be grouped to convey additional "
+"structural information and may be rendered by user agents in ways that "
+"emphasize this structure. Support for incremental rendering of tables and "
+"for rendering on <_:soCalled-3/> user agents is also available. Special "
+"elements and attributes are provided to associate metadata with tables. They "
+"indicate the table's purpose, or are for the benefit of people using speech "
+"or Braille-based user agents. Tables are not recommended for use purely as a "
+"means to lay out document content, as this leads to many accessibility "
+"problems (see further <_:ptr-4/>). Stylesheets provide a far more effective "
+"means of controlling layout and other visual characteristics in both HTML "
+"and XML documents."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -580,27 +756,55 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:361
-msgid "Mathematical and chemical formulæ pose problems similar to those posed by tables in that rendition may be of great significance and hard to disentangle from content. They also require access to a wide range of special characters, for most of which standard entity names already exist in the documented ISO entity sets (see further chapters <_:ptr-1/> and <_:ptr-2/>)."
+msgid ""
+"Mathematical and chemical formulæ pose problems similar to those posed by "
+"tables in that rendition may be of great significance and hard to "
+"disentangle from content. They also require access to a wide range of "
+"special characters, for most of which standard entity names already exist in "
+"the documented ISO entity sets (see further chapters <_:ptr-1/> and <_:ptr-2/"
+">)."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:366
-msgid "Formulæ and tables are also similar in that well-researched and detailed DTD fragments have already been developed for them independently of the TEI. They differ in that (for mathematics at least) there also exists a richly detailed text-based but non-XML notation which is very widely used: this is the TeX system, and the sets of descriptive macros developed for it such as LaTeX, AMS-TeX, and AMS-LaTeX."
+msgid ""
+"Formulæ and tables are also similar in that well-researched and detailed DTD "
+"fragments have already been developed for them independently of the TEI. "
+"They differ in that (for mathematics at least) there also exists a richly "
+"detailed text-based but non-XML notation which is very widely used: this is "
+"the TeX system, and the sets of descriptive macros developed for it such as "
+"LaTeX, AMS-TeX, and AMS-LaTeX."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:372
-msgid "The AAP and ISO standards mentioned in section <_:ptr-1/> above both provide DTDs for equations as well as for tables, which now form part of ISO 12083. The European Mathematical Trust, an organization set up specifically to enhance research support for European mathematicians, has also defined a general purpose mathematical DTD known as EuroMath (<_:ptr-2/>), for which it provides both software and services."
+msgid ""
+"The AAP and ISO standards mentioned in section <_:ptr-1/> above both provide "
+"DTDs for equations as well as for tables, which now form part of ISO 12083. "
+"The European Mathematical Trust, an organization set up specifically to "
+"enhance research support for European mathematicians, has also defined a "
+"general purpose mathematical DTD known as EuroMath (<_:ptr-2/>), for which "
+"it provides both software and services."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:378
-msgid "Most if not all of the functionality provided by these DTDs can now be found in the OpenMath and MathML XML-based systems briefly described below."
+msgid ""
+"Most if not all of the functionality provided by these DTDs can now be found "
+"in the OpenMath and MathML XML-based systems briefly described below."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:381
-msgid "As with tables, in all the XML solutions a tension exists between the need to encode the way a formula is written (its appearance) and the need to represent its semantics. If the object of the encoding is purely to act as an interchange format among different formatting programs, then there is no need to represent the mathematical meaning of an expression. If however the object is to use the encoding as input to an algebraic manipulation system (such as Mathematica or Maple) or a database system, clearly simply representing superscripts and subscripts will be inadequate."
+msgid ""
+"As with tables, in all the XML solutions a tension exists between the need "
+"to encode the way a formula is written (its appearance) and the need to "
+"represent its semantics. If the object of the encoding is purely to act as "
+"an interchange format among different formatting programs, then there is no "
+"need to represent the mathematical meaning of an expression. If however the "
+"object is to use the encoding as input to an algebraic manipulation system "
+"(such as Mathematica or Maple) or a database system, clearly simply "
+"representing superscripts and subscripts will be inadequate."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -613,7 +817,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:390
-msgid "The <_:gi-1/> element provided by these Guidelines makes no attempt to represent the internal structure of formulæ. <_:specList-2/>"
+msgid ""
+"The <_:gi-1/> element provided by these Guidelines makes no attempt to "
+"represent the internal structure of formulæ. <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -650,22 +856,44 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:395
-msgid "By default, a <_:gi-1/> is assumed to contain character data which is not validated in any way. The notation used may however be named, using the <_:att-2/> attribute provided by the <_:ident-3/> class. <_:egXML-4/> The character data must still be well-formed, of course, which means that <_:mentioned-5/> and <_:mentioned-6/> must be escaped with entity references or numeric character references, e.g. <_:egXML-7/>"
+msgid ""
+"By default, a <_:gi-1/> is assumed to contain character data which is not "
+"validated in any way. The notation used may however be named, using the <_:"
+"att-2/> attribute provided by the <_:ident-3/> class. <_:egXML-4/> The "
+"character data must still be well-formed, of course, which means that <_:"
+"mentioned-5/> and <_:mentioned-6/> must be escaped with entity references or "
+"numeric character references, e.g. <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:406
-msgid "Alternatively, if more detailed markup is desired, the content of the <_:gi-1/> element may be redefined to include elements defined by some other XML vocabulary, such as that of ISO 12083, or to use elements from the OpenMath or MathML schemas."
+msgid ""
+"Alternatively, if more detailed markup is desired, the content of the <_:"
+"gi-1/> element may be redefined to include elements defined by some other "
+"XML vocabulary, such as that of ISO 12083, or to use elements from the "
+"OpenMath or MathML schemas."
 msgstr ""
 
 #. (itstool) path: p/formula
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:427
-msgid "$$ {1 \\over 10} + {1 \\over 100} + {1 \\over 1000} + {1 \\over 10,\\!000} + \\dots $$"
+msgid ""
+"$$ {1 \\over 10} + {1 \\over 100} + {1 \\over 1000} + {1 \\over 10,\\!000} + "
+"\\dots $$"
 msgstr ""
 
 #. (itstool) path: egXML/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:417
-msgid "Achilles runs ten times faster than the tortoise and gives the animal a headstart of ten meters. Achilles runs those ten meters, the tortoise one; Achilles runs that meter, the tortoise runs a decimeter; Achilles runs that decimeter, the tortoise runs a centimeter; Achilles runs that centimeter, the tortoise, a millimeter; Fleet-footed Achilles, the millimeter, the tortoise, a tenth of a millimeter, and so on to infinity, without the tortoise ever being overtaken. . . Such is the customary version. The problem does not change, as you can see; but I would like to know the name of the poet who provided it with a hero and a tortoise. To those magical competitors and to the series <_:formula-1/> the argument owes its fame."
+msgid ""
+"Achilles runs ten times faster than the tortoise and gives the animal a "
+"headstart of ten meters. Achilles runs those ten meters, the tortoise one; "
+"Achilles runs that meter, the tortoise runs a decimeter; Achilles runs that "
+"decimeter, the tortoise runs a centimeter; Achilles runs that centimeter, "
+"the tortoise, a millimeter; Fleet-footed Achilles, the millimeter, the "
+"tortoise, a tenth of a millimeter, and so on to infinity, without the "
+"tortoise ever being overtaken. . . Such is the customary version. The "
+"problem does not change, as you can see; but I would like to know the name "
+"of the poet who provided it with a hero and a tortoise. To those magical "
+"competitors and to the series <_:formula-1/> the argument owes its fame."
 msgstr ""
 
 #. (itstool) path: p/q
@@ -675,7 +903,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:414
-msgid "When the content of a <_:gi-1/> element is not expressed in XML the notation used should always be specified using the <_:att-2/> attribute as above, and in the following longer example: <_:egXML-3/> The <_:att-4/> attribute supplies the name of a notation (<_:q-5/>), which is expected to be identified somewhere in document metadata."
+msgid ""
+"When the content of a <_:gi-1/> element is not expressed in XML the notation "
+"used should always be specified using the <_:att-2/> attribute as above, and "
+"in the following longer example: <_:egXML-3/> The <_:att-4/> attribute "
+"supplies the name of a notation (<_:q-5/>), which is expected to be "
+"identified somewhere in document metadata."
 msgstr ""
 
 #. (itstool) path: p/hi
@@ -728,7 +961,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:433
-msgid "Mathematical Markup Language (MathML) (<_:ptr-1/>) is a vocabulary for describing mathematical notation, capturing both its structure and content. It provides two types of markup: Presentation Markup, which captures the <_:hi-2/> structure of an expression and could be seen as the <_:soCalled-3/> and Content Markup, which captures the <_:hi-4/> structure of an expression. Most of its content elements correspond with the range of operators, relations, and named functions typically found at the high-school level of mathematics. The tortoise example given above in TeX can be re-expressed in MathML as <_:egXML-5/>"
+msgid ""
+"Mathematical Markup Language (MathML) (<_:ptr-1/>) is a vocabulary for "
+"describing mathematical notation, capturing both its structure and content. "
+"It provides two types of markup: Presentation Markup, which captures the <_:"
+"hi-2/> structure of an expression and could be seen as the <_:soCalled-3/> "
+"and Content Markup, which captures the <_:hi-4/> structure of an expression. "
+"Most of its content elements correspond with the range of operators, "
+"relations, and named functions typically found at the high-school level of "
+"mathematics. The tortoise example given above in TeX can be re-expressed in "
+"MathML as <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -743,12 +985,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:489
-msgid "MathML 2.0 provides support for a <_:soCalled-1/>, XML namespaces, and other current XML standards, such as XML DOM, OMG IDL, ECMAScript, and Java. It also provides a modularized version of the MathML DTD so that MathML fragments <_:soCalled-2/> in XHTML 1.1 documents can be correctly validated."
+msgid ""
+"MathML 2.0 provides support for a <_:soCalled-1/>, XML namespaces, and other "
+"current XML standards, such as XML DOM, OMG IDL, ECMAScript, and Java. It "
+"also provides a modularized version of the MathML DTD so that MathML "
+"fragments <_:soCalled-2/> in XHTML 1.1 documents can be correctly validated."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:494
-msgid "The OpenMath (<_:ptr-1/>) project is coordinated by the OpenMath Society (<_:ptr-2/>) and funded by the European Commission under the Esprit Multimedia Standards Initiative that commenced in September 1997. It is likely to become a key standard for communicating semantically rich representations of mathematical objects both on and off the Web in a platform-independent manner."
+msgid ""
+"The OpenMath (<_:ptr-1/>) project is coordinated by the OpenMath Society (<_:"
+"ptr-2/>) and funded by the European Commission under the Esprit Multimedia "
+"Standards Initiative that commenced in September 1997. It is likely to "
+"become a key standard for communicating semantically rich representations of "
+"mathematical objects both on and off the Web in a platform-independent "
+"manner."
 msgstr ""
 
 #. (itstool) path: list/item
@@ -768,7 +1020,8 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:499
-msgid "The OpenMath Standard (<_:ptr-1/>) consists of specifications for <_:list-2/>"
+msgid ""
+"The OpenMath Standard (<_:ptr-1/>) consists of specifications for <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -778,12 +1031,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:505
-msgid "OpenMath and MathML have certain common aspects. They both use prefix operators, both are XML-based and they both construct their objects by applying certain rules recursively. Such similarities facilitate mapping between the two standards. There are also some key differences between MathML and OpenMath. OpenMath does not provide support for presentation of mathematical objects and its scope of semantically-oriented elements is much broader that of MathML, with the expressive power to cover virtually all areas of computational mathematics. In fact, a particular set of Content Dictionaries, the <_:soCalled-1/>, covers the same areas of mathematics as the Content Markup elements of MathML 2.0."
+msgid ""
+"OpenMath and MathML have certain common aspects. They both use prefix "
+"operators, both are XML-based and they both construct their objects by "
+"applying certain rules recursively. Such similarities facilitate mapping "
+"between the two standards. There are also some key differences between "
+"MathML and OpenMath. OpenMath does not provide support for presentation of "
+"mathematical objects and its scope of semantically-oriented elements is much "
+"broader that of MathML, with the expressive power to cover virtually all "
+"areas of computational mathematics. In fact, a particular set of Content "
+"Dictionaries, the <_:soCalled-1/>, covers the same areas of mathematics as "
+"the Content Markup elements of MathML 2.0."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:516
-msgid "Finally, OMDoc (<_:ptr-1/>) is an extension of the OpenMath standard that supplies markup for structures such as axioms, theorems, proofs, definitions, texts (mixing formal content with mathematical text)."
+msgid ""
+"Finally, OMDoc (<_:ptr-1/>) is an extension of the OpenMath standard that "
+"supplies markup for structures such as axioms, theorems, proofs, "
+"definitions, texts (mixing formal content with mathematical text)."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -819,7 +1085,9 @@ msgstr ""
 
 #. (itstool) path: egXML/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:526
-msgid "The volume of a sphere is given by the formula: <_:formula-1/> which is readily calculated."
+msgid ""
+"The volume of a sphere is given by the formula: <_:formula-1/> which is "
+"readily calculated."
 msgstr ""
 
 #. (itstool) path: egXML/p
@@ -829,7 +1097,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:520
-msgid "In-line versus block placement for an equation can be distinguished if desired, via the global <_:att-1/> attribute. The global <_:att-2/> and <_:att-3/> attributes may also be used to label or identify the formula, as in the following example: <_:egXML-4/>"
+msgid ""
+"In-line versus block placement for an equation can be distinguished if "
+"desired, via the global <_:att-1/> attribute. The global <_:att-2/> and <_:"
+"att-3/> attributes may also be used to label or identify the formula, as in "
+"the following example: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -839,7 +1111,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:558
-msgid "Music, like many other art forms, is often mentioned, discussed and described in writings of various kinds. This applies to both historical and contemporary documents, even though methods of notating music have changed considerably in western history. In most cases, music notation enters the text flow in a way similar to figures, images or graphs. On other occasions, elements of music notation are treated as inline characters in running text."
+msgid ""
+"Music, like many other art forms, is often mentioned, discussed and "
+"described in writings of various kinds. This applies to both historical and "
+"contemporary documents, even though methods of notating music have changed "
+"considerably in western history. In most cases, music notation enters the "
+"text flow in a way similar to figures, images or graphs. On other occasions, "
+"elements of music notation are treated as inline characters in running text."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -861,12 +1139,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:565
-msgid "<_:gi-1/> provides a way to signal the presence of music notation in text, but defer to other representations, which are not covered by the TEI guidelines, to describe the music notation itself. In fact, several commercial, academic and standard bodies have developed digital representations of music notation, and given the topic's complexity, these representations often focus on different aspects and adopt different methodologies. Therefore, <_:gi-2/> only defines a container element to encode the occurrence of music notation and allows linking to the data format preferred by the encoder. (Note: <_:gi-3/> is not the same as <_:gi-4/>, a metadata element, which is used to describe musical notation that appears in a manuscript. See <_:ptr-5/>.)"
+msgid ""
+"<_:gi-1/> provides a way to signal the presence of music notation in text, "
+"but defer to other representations, which are not covered by the TEI "
+"guidelines, to describe the music notation itself. In fact, several "
+"commercial, academic and standard bodies have developed digital "
+"representations of music notation, and given the topic's complexity, these "
+"representations often focus on different aspects and adopt different "
+"methodologies. Therefore, <_:gi-2/> only defines a container element to "
+"encode the occurrence of music notation and allows linking to the data "
+"format preferred by the encoder. (Note: <_:gi-3/> is not the same as <_:gi-4/"
+">, a metadata element, which is used to describe musical notation that "
+"appears in a manuscript. See <_:ptr-5/>.)"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:577
-msgid "The following elements can be used for encoding music notation in text: <_:specList-1/>"
+msgid ""
+"The following elements can be used for encoding music notation in text: <_:"
+"specList-1/>"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -896,7 +1187,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:589
-msgid "<_:label-1/> can be used to indicate the location of a representation of the music notation. <_:list-2/>"
+msgid ""
+"<_:label-1/> can be used to indicate the location of a representation of the "
+"music notation. <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: label/gi
@@ -908,12 +1201,15 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:596
-msgid "<_:label-1/> can be used to give a prose description of the notated music."
+msgid ""
+"<_:label-1/> can be used to give a prose description of the notated music."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:599
-msgid "<_:label-1/> can be used to indicate the location of a graphical representation of the music notation."
+msgid ""
+"<_:label-1/> can be used to indicate the location of a graphical "
+"representation of the music notation."
 msgstr ""
 
 #. (itstool) path: label/gi
@@ -926,7 +1222,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:602
-msgid "<_:label-1/> provides encoded binary data which constitutes another representation of the music notation (e.g. audio)."
+msgid ""
+"<_:label-1/> provides encoded binary data which constitutes another "
+"representation of the music notation (e.g. audio)."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -936,12 +1234,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:607
-msgid "The <_:gi-1/> element may contain a textual description and pointers to various representations of the music notation in different media. An external representation of the notated music is specified using the <_:gi-2/> element, whose <_:att-3/> attribute provides its electronically-accessible location. The attribute <_:att-4/> supplies the MIME type of the data format when available. For example:"
+msgid ""
+"The <_:gi-1/> element may contain a textual description and pointers to "
+"various representations of the music notation in different media. An "
+"external representation of the notated music is specified using the <_:gi-2/"
+"> element, whose <_:att-3/> attribute provides its electronically-accessible "
+"location. The attribute <_:att-4/> supplies the MIME type of the data format "
+"when available. For example:"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:616
-msgid "A textual description of the notation can be provided within the <_:gi-1/> element; alternatively, a <_:gi-2/> may be supplied. For example:"
+msgid ""
+"A textual description of the notation can be provided within the <_:gi-1/> "
+"element; alternatively, a <_:gi-2/> may be supplied. For example:"
 msgstr ""
 
 #. (itstool) path: notatedMusic/desc
@@ -952,7 +1258,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:623
-msgid "It is possible to link to any kind of music notation data format. However, when a MIME type is not available, it is recommended that the format be specified in the description. See the following examples."
+msgid ""
+"It is possible to link to any kind of music notation data format. However, "
+"when a MIME type is not available, it is recommended that the format be "
+"specified in the description. See the following examples."
 msgstr ""
 
 #. (itstool) path: div/p
@@ -982,7 +1291,8 @@ msgstr ""
 
 #. (itstool) path: notatedMusic/desc
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:641
-msgid "First bar of Chopin's Scherzo No.3 Op.39. MuseScore Notation Software format."
+msgid ""
+"First bar of Chopin's Scherzo No.3 Op.39. MuseScore Notation Software format."
 msgstr ""
 
 #. (itstool) path: p/ref
@@ -992,7 +1302,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:644
-msgid "It is possible to specify the location of digital objects representing the notated music in other media such as images or audio-visual files. The interpretation of the correspondence between the notated music and these digital objects is not encoded explicitly. We recommend the use of <_:gi-1/> and <_:gi-2/> mainly as a fallback mechanism when the notated music format is not displayable by the application using the encoding. The alignment of encoded notated music, images carrying the notation, and audio files is a complex matter for which we refer the reader to other formats and specifications such as <_:ref-3/>."
+msgid ""
+"It is possible to specify the location of digital objects representing the "
+"notated music in other media such as images or audio-visual files. The "
+"interpretation of the correspondence between the notated music and these "
+"digital objects is not encoded explicitly. We recommend the use of <_:gi-1/> "
+"and <_:gi-2/> mainly as a fallback mechanism when the notated music format "
+"is not displayable by the application using the encoding. The alignment of "
+"encoded notated music, images carrying the notation, and audio files is a "
+"complex matter for which we refer the reader to other formats and "
+"specifications such as <_:ref-3/>."
 msgstr ""
 
 #. (itstool) path: p/ref
@@ -1002,7 +1321,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:659
-msgid "It is also recommended, when useful, to embed XML-based music notation formats, such as the <_:ref-1/> format as content of <_:gi-2/>. This must be done by means of customization."
+msgid ""
+"It is also recommended, when useful, to embed XML-based music notation "
+"formats, such as the <_:ref-1/> format as content of <_:gi-2/>. This must be "
+"done by means of customization."
 msgstr ""
 
 #. (itstool) path: p/q
@@ -1012,7 +1334,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:663
-msgid "In modern printing, music notation positioned between blocks of text for illustrative purposes is usually referred to as a <_:q-1/> or <_:q-2/>. In this cases, we recommend the inclusion of <_:gi-3/> in <_:gi-4/> in order to encode possible captions and headers. For example:"
+msgid ""
+"In modern printing, music notation positioned between blocks of text for "
+"illustrative purposes is usually referred to as a <_:q-1/> or <_:q-2/>. In "
+"this cases, we recommend the inclusion of <_:gi-3/> in <_:gi-4/> in order to "
+"encode possible captions and headers. For example:"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1042,7 +1368,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:676
-msgid "We now give some examples, from the works of the great masters, of some of the most frequently used bowings."
+msgid ""
+"We now give some examples, from the works of the great masters, of some of "
+"the most frequently used bowings."
 msgstr ""
 
 #. (itstool) path: figure/head
@@ -1057,12 +1385,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:692
-msgid "The following special purpose elements are used to indicate the presence of graphic images within a document: <_:specList-1/>"
+msgid ""
+"The following special purpose elements are used to indicate the presence of "
+"graphic images within a document: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:700
-msgid "The <_:gi-1/> and <_:gi-2/> elements form part of the common core module, and are discussed in section <_:ptr-3/>."
+msgid ""
+"The <_:gi-1/> and <_:gi-2/> elements form part of the common core module, "
+"and are discussed in section <_:ptr-3/>."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1072,7 +1404,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:702
-msgid "The <_:gi-1/> element is used to contain images, captions, and textual descriptions of the pictures. The images themselves are specified using the <_:gi-2/> element, whose <_:att-3/> attribute provides the location of an image. For example: <_:egXML-4/>"
+msgid ""
+"The <_:gi-1/> element is used to contain images, captions, and textual "
+"descriptions of the pictures. The images themselves are specified using the "
+"<_:gi-2/> element, whose <_:att-3/> attribute provides the location of an "
+"image. For example: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: figure/head
@@ -1082,7 +1418,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:710
-msgid "Three kinds of content may be supplied inside a <_:gi-1/> element: the element <_:gi-2/> may be used to transcribe (or supply) a descriptive heading or title for the graphic itself as in this example: <_:egXML-3/>"
+msgid ""
+"Three kinds of content may be supplied inside a <_:gi-1/> element: the "
+"element <_:gi-2/> may be used to transcribe (or supply) a descriptive "
+"heading or title for the graphic itself as in this example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1102,12 +1441,18 @@ msgstr ""
 
 #. (itstool) path: figure/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:726
-msgid "The drawing room of the Pullman house, the white and gold saloon where the magnate delighted in giving receptions for several hundred people."
+msgid ""
+"The drawing room of the Pullman house, the white and gold saloon where the "
+"magnate delighted in giving receptions for several hundred people."
 msgstr ""
 
 #. (itstool) path: figure/figDesc
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:729
-msgid "The figure shows an elaborately decorated room, at least twenty-five feet side to side and fifty feet long, with ornate mouldings and Corinthian columns on the walls, overstuffed armchairs and loveseats arranged in several conversational groupings, and two large chandeliers."
+msgid ""
+"The figure shows an elaborately decorated room, at least twenty-five feet "
+"side to side and fifty feet long, with ornate mouldings and Corinthian "
+"columns on the walls, overstuffed armchairs and loveseats arranged in "
+"several conversational groupings, and two large chandeliers."
 msgstr ""
 
 #. (itstool) path: p/q
@@ -1132,12 +1477,24 @@ msgstr ""
 
 #. (itstool) path: figure/figDesc
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:748
-msgid "A Whistleresque view showing four or five sailing boats in the foreground, and a series of buoys strung out between them."
+msgid ""
+"A Whistleresque view showing four or five sailing boats in the foreground, "
+"and a series of buoys strung out between them."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:718
-msgid "Figures are often accompanied not only by a title or heading (a caption), but by a paragraph or so of commentary (a legend) following the caption. One or more <_:gi-1/> or <_:gi-2/> elements may be used to transcribe any commentary on the figure in the source: <_:egXML-3/> Here, the figure contains a heading <_:q-4/> which is complemented by a paragraph of description <_:q-5/>. Both of these are transcribed from the source, while the description is provided by the encoder, for use by applications which cannot display the graphic directly. In documents created in electronic form with the needs of print-handicapped readers in mind, the <_:gi-6/> element may be provided by the author rather than a subsequent encoder. <_:egXML-7/>"
+msgid ""
+"Figures are often accompanied not only by a title or heading (a caption), "
+"but by a paragraph or so of commentary (a legend) following the caption. One "
+"or more <_:gi-1/> or <_:gi-2/> elements may be used to transcribe any "
+"commentary on the figure in the source: <_:egXML-3/> Here, the figure "
+"contains a heading <_:q-4/> which is complemented by a paragraph of "
+"description <_:q-5/>. Both of these are transcribed from the source, while "
+"the description is provided by the encoder, for use by applications which "
+"cannot display the graphic directly. In documents created in electronic form "
+"with the needs of print-handicapped readers in mind, the <_:gi-6/> element "
+"may be provided by the author rather than a subsequent encoder. <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1162,7 +1519,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:753
-msgid "Where the graphic itself contains large amounts of text, perhaps with a complex structure, and perhaps difficult to distinguish from the graphic, the encoder should choose whether to regard the graphic as containing the text (in which case, a nested <_:gi-1/> element may be included within the <_:gi-2/> element) or to regard the enclosed text as being a separate division of the <_:gi-3/> element in which the graphic appears. In this latter case, an appropriate <_:gi-4/> or <_:gi-5/> (etc.) element may be used for the text represented within the graphic, and the <_:gi-6/> element embedded within it. The choice will depend to a large degree on the encoder's understanding of the relationship between the graphic and the surrounding text."
+msgid ""
+"Where the graphic itself contains large amounts of text, perhaps with a "
+"complex structure, and perhaps difficult to distinguish from the graphic, "
+"the encoder should choose whether to regard the graphic as containing the "
+"text (in which case, a nested <_:gi-1/> element may be included within the "
+"<_:gi-2/> element) or to regard the enclosed text as being a separate "
+"division of the <_:gi-3/> element in which the graphic appears. In this "
+"latter case, an appropriate <_:gi-4/> or <_:gi-5/> (etc.) element may be "
+"used for the text represented within the graphic, and the <_:gi-6/> element "
+"embedded within it. The choice will depend to a large degree on the "
+"encoder's understanding of the relationship between the graphic and the "
+"surrounding text."
 msgstr ""
 
 #. (itstool) path: figure/ab
@@ -1177,17 +1545,26 @@ msgstr ""
 
 #. (itstool) path: figure/ab
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:776
-msgid "The two canonical view volumes, for the (a) parallel and (b) perspective projections. Note that -z is to the right."
+msgid ""
+"The two canonical view volumes, for the (a) parallel and (b) perspective "
+"projections. Note that -z is to the right."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:764
-msgid "A figure which is internally divided, or contains sub-figures, may be encoded with nested <_:gi-1/> elements, as in the following example. <_:egXML-2/>"
+msgid ""
+"A figure which is internally divided, or contains sub-figures, may be "
+"encoded with nested <_:gi-1/> elements, as in the following example. <_:"
+"egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:783
-msgid "Like any other element in the TEI scheme, figures may be given identifiers so that they can be aligned with other elements, and linked to or from them, as described in chapter <_:ptr-1/>. Some common examples are discussed briefly here; full information is provided in that chapter."
+msgid ""
+"Like any other element in the TEI scheme, figures may be given identifiers "
+"so that they can be aligned with other elements, and linked to or from them, "
+"as described in chapter <_:ptr-1/>. Some common examples are discussed "
+"briefly here; full information is provided in that chapter."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1217,7 +1594,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:788
-msgid "It is often desirable to maintain two versions of an image in an electronic file: one a low resolution or <_:soCalled-1/> version which, when selected by the user, causes the other, high resolution, version to be accessed. In TEI terms, the thumbnail image acts as a <_:term-2/> to the other. Supposing that a thumbnail version of the figure discussed above is available as <_:ident-3/>, we might embed a reference to the image using the simple <_:gi-4/> element discussed in section <_:ptr-5/>: <_:egXML-6/>"
+msgid ""
+"It is often desirable to maintain two versions of an image in an electronic "
+"file: one a low resolution or <_:soCalled-1/> version which, when selected "
+"by the user, causes the other, high resolution, version to be accessed. In "
+"TEI terms, the thumbnail image acts as a <_:term-2/> to the other. Supposing "
+"that a thumbnail version of the figure discussed above is available as <_:"
+"ident-3/>, we might embed a reference to the image using the simple <_:gi-4/"
+"> element discussed in section <_:ptr-5/>: <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -1227,7 +1611,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:802
-msgid "Another common requirement is to associate part or the whole of an image with a textual element not necessarily contiguous to it in the text; this is sometimes known as a <_:term-1/>. When the module for transcription is included in a schema, specific attributes for parts of a text and parts (or all) of a digital image are available; these are discussed in <_:ptr-2/>. In addition, chapter <_:ptr-3/> may be consulted for other mechanisms available for this purpose."
+msgid ""
+"Another common requirement is to associate part or the whole of an image "
+"with a textual element not necessarily contiguous to it in the text; this is "
+"sometimes known as a <_:term-1/>. When the module for transcription is "
+"included in a schema, specific attributes for parts of a text and parts (or "
+"all) of a digital image are available; these are discussed in <_:ptr-2/>. In "
+"addition, chapter <_:ptr-3/> may be consulted for other mechanisms available "
+"for this purpose."
 msgstr ""
 
 #. (itstool) path: p/q
@@ -1237,12 +1628,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:809
-msgid "The following example assumes that we wish to associate one portion of the image held as <_:q-1/> with chapter two of some text, and another portion of it with chapter three. The application may be thought of as a hypertext browser in which the user selects from a graphic image which part of a text to read next, but the mechanism is independent of this particular application."
+msgid ""
+"The following example assumes that we wish to associate one portion of the "
+"image held as <_:q-1/> with chapter two of some text, and another portion of "
+"it with chapter three. The application may be thought of as a hypertext "
+"browser in which the user selects from a graphic image which part of a text "
+"to read next, but the mechanism is independent of this particular "
+"application."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:815
-msgid "The first requirement is some way of identifying and hence pointing to sub-parts of a graphic image. This may be done by pointing into an XML graphic representation, for example an SVG file. Thus <_:egXML-1/>"
+msgid ""
+"The first requirement is some way of identifying and hence pointing to sub-"
+"parts of a graphic image. This may be done by pointing into an XML graphic "
+"representation, for example an SVG file. Thus <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/q
@@ -1257,12 +1657,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:821
-msgid "These <_:gi-1/> elements identify two areas within the image <_:q-2/> by pointing at elements inside the XML file <_:ident-3/>, which contains the following. <_:egXML-4/>"
+msgid ""
+"These <_:gi-1/> elements identify two areas within the image <_:q-2/> by "
+"pointing at elements inside the XML file <_:ident-3/>, which contains the "
+"following. <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:834
-msgid "The next requirement is some way of identifying the parts of the document to which a link is to be made. The most obvious way of doing this is to use the global <_:att-1/> attribute: <_:egXML-2/>"
+msgid ""
+"The next requirement is some way of identifying the parts of the document to "
+"which a link is to be made. The most obvious way of doing this is to use the "
+"global <_:att-1/> attribute: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1272,7 +1678,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:844
-msgid "Now, all that is needed to linking these areas to the relevant chapters is a <_:gi-1/> element, as described in section <_:ptr-2/>: <_:egXML-3/>"
+msgid ""
+"Now, all that is needed to linking these areas to the relevant chapters is a "
+"<_:gi-1/> element, as described in section <_:ptr-2/>: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1282,7 +1690,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:851
-msgid "In this example, the SVG representation of the graphic is stored externally to the TEI document and linked by means of a pointer. It is also possible to embed the SVG representation directly within the TEI by extending the content model of the <_:gi-1/> element to permit an element <_:gi-2/> from the SVG namespace. Like other customizations of the TEI scheme, this is carried out using the techniques documented in section <_:ptr-3/>; further examples are provided in chapter <_:ptr-4/>."
+msgid ""
+"In this example, the SVG representation of the graphic is stored externally "
+"to the TEI document and linked by means of a pointer. It is also possible to "
+"embed the SVG representation directly within the TEI by extending the "
+"content model of the <_:gi-1/> element to permit an element <_:gi-2/> from "
+"the SVG namespace. Like other customizations of the TEI scheme, this is "
+"carried out using the techniques documented in section <_:ptr-3/>; further "
+"examples are provided in chapter <_:ptr-4/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1302,17 +1717,41 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:867
-msgid "The first major distinction in graphic representation is that between raster graphics and vector graphics. A <_:term-1/> is a list of points, or dots. Scanners, fax machines and other simple devices easily produce digital raster images, and such images are therefore quite common. A <_:term-2/>, in contrast, is a list of geometrical objects, such as lines, circles, arcs, or even cubes. These are much more difficult to produce, and so are mainly encountered as the output of sophisticated systems such as architectural and engineering CAD programs."
+msgid ""
+"The first major distinction in graphic representation is that between raster "
+"graphics and vector graphics. A <_:term-1/> is a list of points, or dots. "
+"Scanners, fax machines and other simple devices easily produce digital "
+"raster images, and such images are therefore quite common. A <_:term-2/>, in "
+"contrast, is a list of geometrical objects, such as lines, circles, arcs, or "
+"even cubes. These are much more difficult to produce, and so are mainly "
+"encountered as the output of sophisticated systems such as architectural and "
+"engineering CAD programs."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:876
-msgid "Raster images are difficult to modify because by definition they only encode single points: a line, for example, cannot grow or shrink as such, since it is not identified as such. Only its component parts are identified, and only they can be manipulated. Therefore the resolution or dot-size of a raster image is important, which is not the case with vector images. It is also far more difficult to convert raster images to vector images than to perform the opposite conversion. Raster images generally require more storage space than vector images, and a wide variety of methods exists for compressing them; the variation in these methods leads to corresponding variations in representations for storage and transmission of raster images."
+msgid ""
+"Raster images are difficult to modify because by definition they only encode "
+"single points: a line, for example, cannot grow or shrink as such, since it "
+"is not identified as such. Only its component parts are identified, and only "
+"they can be manipulated. Therefore the resolution or dot-size of a raster "
+"image is important, which is not the case with vector images. It is also far "
+"more difficult to convert raster images to vector images than to perform the "
+"opposite conversion. Raster images generally require more storage space than "
+"vector images, and a wide variety of methods exists for compressing them; "
+"the variation in these methods leads to corresponding variations in "
+"representations for storage and transmission of raster images."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:887
-msgid "Motion video usually consists of a long series of raster images. Data compression is even more effective on video than on single raster images (mainly owing to redundancy which arises from the usual similarity of adjacent frames). Notations for representing full-motion video are hotly debated at this time, and any user of these Guidelines would do well to obtain up-to-date expert advice before undertaking a project using them."
+msgid ""
+"Motion video usually consists of a long series of raster images. Data "
+"compression is even more effective on video than on single raster images "
+"(mainly owing to redundancy which arises from the usual similarity of "
+"adjacent frames). Notations for representing full-motion video are hotly "
+"debated at this time, and any user of these Guidelines would do well to "
+"obtain up-to-date expert advice before undertaking a project using them."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1337,7 +1776,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:894
-msgid "The compression methods used with any of these image types may be <_:soCalled-1/> or <_:soCalled-2/>. Methods for <_:term-3/> save space by discarding a small portion of the image's detail, such as fine distinctions of shading. When decompressed, therefore, such an image will be only a close approximation of the original. In contrast, <_:term-4/> guarantees that the exact uncompressed image will be reproducible from the compressed form: only truly redundant information is removed. In general, therefore, lossless compression does not save quite so much space as lossy compression, though it does guarantee fidelity to the original uncompressed image."
+msgid ""
+"The compression methods used with any of these image types may be <_:"
+"soCalled-1/> or <_:soCalled-2/>. Methods for <_:term-3/> save space by "
+"discarding a small portion of the image's detail, such as fine distinctions "
+"of shading. When decompressed, therefore, such an image will be only a close "
+"approximation of the original. In contrast, <_:term-4/> guarantees that the "
+"exact uncompressed image will be reproducible from the compressed form: only "
+"truly redundant information is removed. In general, therefore, lossless "
+"compression does not save quite so much space as lossy compression, though "
+"it does guarantee fidelity to the original uncompressed image."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -1347,7 +1795,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:905
-msgid "Raster images may be characterized by their <_:term-1/>, which is the number of dots per inch used to represent the image. Doubling the resolution will give a more precise image, but also quadruple the storage requirement (before compression), and affect processing time for any operations to be performed, such as displaying an image for a reader. Motion video also has resolution in time: the number of frames to be shown per second. Encoders should consider carefully what resolution(s) and frame rate(s) to use for particular applications; these Guidelines express no recommendation in this matter, save the universal ones of consistency and documentation."
+msgid ""
+"Raster images may be characterized by their <_:term-1/>, which is the number "
+"of dots per inch used to represent the image. Doubling the resolution will "
+"give a more precise image, but also quadruple the storage requirement "
+"(before compression), and affect processing time for any operations to be "
+"performed, such as displaying an image for a reader. Motion video also has "
+"resolution in time: the number of frames to be shown per second. Encoders "
+"should consider carefully what resolution(s) and frame rate(s) to use for "
+"particular applications; these Guidelines express no recommendation in this "
+"matter, save the universal ones of consistency and documentation."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1361,12 +1818,24 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:922
-msgid "Since no special purpose element is provided for this purpose by the current version of these Guidelines, such information should be provided as one or more distinct paragraphs at the end of the <_:gi-1/> element described in section <_:ptr-2/>."
+msgid ""
+"Since no special purpose element is provided for this purpose by the current "
+"version of these Guidelines, such information should be provided as one or "
+"more distinct paragraphs at the end of the <_:gi-1/> element described in "
+"section <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:915
-msgid "Within any image, it is typical to refer to locations via Cartesian coordinate axes: values for x, y, and sometimes z and/or time. However, graphic notations vary in whether coordinates count from left-to-right and top-to-bottom, or another way. They also vary in whether coordinates are considered real (inches, millimeters, and so on), or virtual (dots). These Guidelines do not recommend any of these methods over another, but all decisions made should be applied consistently, and documented in the <_:gi-1/> section of the TEI header.<_:note-2/>"
+msgid ""
+"Within any image, it is typical to refer to locations via Cartesian "
+"coordinate axes: values for x, y, and sometimes z and/or time. However, "
+"graphic notations vary in whether coordinates count from left-to-right and "
+"top-to-bottom, or another way. They also vary in whether coordinates are "
+"considered real (inches, millimeters, and so on), or virtual (dots). These "
+"Guidelines do not recommend any of these methods over another, but all "
+"decisions made should be applied consistently, and documented in the <_:gi-1/"
+"> section of the TEI header.<_:note-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
@@ -1381,7 +1850,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:927
-msgid "The chromatic values of an image may be rendered in many different ways. In monochrome images every displayed point is either black or white. In <_:term-1/> images, each point is rendered in some shade of gray, the number of shades varying from system to system. In true polychrome images, points are rendered in different hues, again with varying limitations affecting the number of distinct shades and the means by which they are displayed."
+msgid ""
+"The chromatic values of an image may be rendered in many different ways. In "
+"monochrome images every displayed point is either black or white. In <_:"
+"term-1/> images, each point is rendered in some shade of gray, the number of "
+"shades varying from system to system. In true polychrome images, points are "
+"rendered in different hues, again with varying limitations affecting the "
+"number of distinct shades and the means by which they are displayed."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1391,7 +1866,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:937
-msgid "As noted above, there exists a wide variety of different graphics formats, and the following list is in no way exhaustive. Moreover, inclusion of any format in this list should not be taken as indicating endorsement by the TEI of this format or any products associated with it. Some of the formats listed here are proprietary to a greater or lesser extent and cannot therefore be regarded as standards in any meaningful sense. They are however widely used by many different vendors."
+msgid ""
+"As noted above, there exists a wide variety of different graphics formats, "
+"and the following list is in no way exhaustive. Moreover, inclusion of any "
+"format in this list should not be taken as indicating endorsement by the TEI "
+"of this format or any products associated with it. Some of the formats "
+"listed here are proprietary to a greater or lesser extent and cannot "
+"therefore be regarded as standards in any meaningful sense. They are however "
+"widely used by many different vendors."
 msgstr ""
 
 #. (itstool) path: list/item
@@ -1485,12 +1967,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:944
-msgid "The following formats are widely used at the present time, and likely to remain supported by more than one vendor's software: <_:list-1/>"
+msgid ""
+"The following formats are widely used at the present time, and likely to "
+"remain supported by more than one vendor's software: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:960
-msgid "Brief descriptions of all the above are given below. Where possible, current addresses or other contact information are shown for the originator of each format. Many formal standards, especially those promulgated by ISO and many related national organizations (ANSI, DIN, BSI, and many more), are available from those national organizations. Addresses may be found in any standard organizational directory for the country in question."
+msgid ""
+"Brief descriptions of all the above are given below. Where possible, current "
+"addresses or other contact information are shown for the originator of each "
+"format. Many formal standards, especially those promulgated by ISO and many "
+"related national organizations (ANSI, DIN, BSI, and many more), are "
+"available from those national organizations. Addresses may be found in any "
+"standard organizational directory for the country in question."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1500,17 +1990,29 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:971
-msgid "This vector graphics format is specified by an ISO standard, ISO 8632:1987, amended in 1990. It defines binary, character, and plain-text encodings; the non-binary forms are safer for blind interchange, especially over networks. Documentation on CGM is available from ISO and from its member national bodies such as AFNOR, ANSI, BSI, DIN, JIS, etc."
+msgid ""
+"This vector graphics format is specified by an ISO standard, ISO 8632:1987, "
+"amended in 1990. It defines binary, character, and plain-text encodings; the "
+"non-binary forms are safer for blind interchange, especially over networks. "
+"Documentation on CGM is available from ISO and from its member national "
+"bodies such as AFNOR, ANSI, BSI, DIN, JIS, etc."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:978
-msgid "SVG is a language for describing two-dimensional vector and mixed vector or raster graphics in XML. It is defined by the Scalable Vector Graphics (SVG) 1.0 Specification, W3C Recommendation, 04 September 2001, and is available at <_:ptr-1/>."
+msgid ""
+"SVG is a language for describing two-dimensional vector and mixed vector or "
+"raster graphics in XML. It is defined by the Scalable Vector Graphics (SVG) "
+"1.0 Specification, W3C Recommendation, 04 September 2001, and is available "
+"at <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:983
-msgid "This format is universally supported on Macintosh (tm) systems, and readable by a limited range of software for other systems. Documentation is available from Apple Computer Company, Cupertino, California USA."
+msgid ""
+"This format is universally supported on Macintosh (tm) systems, and readable "
+"by a limited range of software for other systems. Documentation is available "
+"from Apple Computer Company, Cupertino, California USA."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1520,32 +2022,67 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:993
-msgid "PNG is a non-proprietary raster format currently widely available. It provides an extensible file format for the lossless, portable, well-compressed storage of raster images. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. It is defined by IETF RFC 2083, March 1997."
+msgid ""
+"PNG is a non-proprietary raster format currently widely available. It "
+"provides an extensible file format for the lossless, portable, well-"
+"compressed storage of raster images. Indexed-color, grayscale, and truecolor "
+"images are supported, plus an optional alpha channel. Sample depths range "
+"from 1 to 16 bits. It is defined by IETF RFC 2083, March 1997."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1000
-msgid "Currently the most widely supported raster image format, especially for black and white images, TIFF is also one of the few formats commonly supported on more than one operating system. The drawback to TIFF is that it actually is a wrapper for several formats, and some TIFF-supporting software does not support all variants. TIFF files may use LZW, CCITT Group 4, or PackBits compression methods, or may use no compression at all. Also, TIFF files may be monochrome, grayscale, or polychromatic. All such options should be specified in prose at the end of the <_:gi-1/> section of the TEI header for any document including TIFF images. TIFF is owned by Aldus Corporation. Documentation on TIFF is available from them at Craigcook Castle, Craigcook Road, Edinburgh EH4 3UH, Scotland, or 411 First Avenue South, Seattle, Washington 98104 USA."
+msgid ""
+"Currently the most widely supported raster image format, especially for "
+"black and white images, TIFF is also one of the few formats commonly "
+"supported on more than one operating system. The drawback to TIFF is that it "
+"actually is a wrapper for several formats, and some TIFF-supporting software "
+"does not support all variants. TIFF files may use LZW, CCITT Group 4, or "
+"PackBits compression methods, or may use no compression at all. Also, TIFF "
+"files may be monochrome, grayscale, or polychromatic. All such options "
+"should be specified in prose at the end of the <_:gi-1/> section of the TEI "
+"header for any document including TIFF images. TIFF is owned by Aldus "
+"Corporation. Documentation on TIFF is available from them at Craigcook "
+"Castle, Craigcook Road, Edinburgh EH4 3UH, Scotland, or 411 First Avenue "
+"South, Seattle, Washington 98104 USA."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1014
-msgid "Raster images are widely available in this form, which was created by CompuServe Information Services, but has by now been implemented for many other systems as well. Documentation on GIF is copyright by, and is available from, CompuServe Incorporated, Graphics Technology Department, 5000 Arlington Center Boulevard, Columbus, Ohio 43220 USA."
+msgid ""
+"Raster images are widely available in this form, which was created by "
+"CompuServe Information Services, but has by now been implemented for many "
+"other systems as well. Documentation on GIF is copyright by, and is "
+"available from, CompuServe Incorporated, Graphics Technology Department, "
+"5000 Arlington Center Boulevard, Columbus, Ohio 43220 USA."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1020
-msgid "PBM files are easy to process, eschewing all compression in favor of transparency of file format. PBM files can, of course, be compressed by generic file-compression tools for storage and transfer. Public domain software exists which will convert many other formats to and from PBM. Documentation on PBM is copyright by Jeff Poskanzer, and is available widely on the Internet."
+msgid ""
+"PBM files are easy to process, eschewing all compression in favor of "
+"transparency of file format. PBM files can, of course, be compressed by "
+"generic file-compression tools for storage and transfer. Public domain "
+"software exists which will convert many other formats to and from PBM. "
+"Documentation on PBM is copyright by Jeff Poskanzer, and is available widely "
+"on the Internet."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1027
-msgid "This format is used by most IBM PC paint programs, and supports both monochrome and polychromatic images. Documentation is available from ZSoft Corporation, Technical Support Department, ATTN: Technical Reference Manual, 450 Franklin Rd. Suite 100, Marietta, GA 30067 USA."
+msgid ""
+"This format is used by most IBM PC paint programs, and supports both "
+"monochrome and polychromatic images. Documentation is available from ZSoft "
+"Corporation, Technical Support Department, ATTN: Technical Reference Manual, "
+"450 Franklin Rd. Suite 100, Marietta, GA 30067 USA."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1032
-msgid "This format is the standard raster format for computer using Microsoft Windows (tm) or Presentation Manager (tm). Documentation is available from Microsoft Corporation."
+msgid ""
+"This format is the standard raster format for computer using Microsoft "
+"Windows (tm) or Presentation Manager (tm). Documentation is available from "
+"Microsoft Corporation."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1560,27 +2097,67 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1041
-msgid "This standard is sponsored by CCITT and by ISO. It is ISO/IEC Draft International Standard 10918-1, and CCITT T.81. It handles monochrome and polychromatic images with a variety of compression techniques. JPEG per se, like CCITT Group IV, must be encapsulated before transmission; this can be done via TIFF, or via the JPEG File Interchange Format (JFIF), as commonly done for Internet delivery."
+msgid ""
+"This standard is sponsored by CCITT and by ISO. It is ISO/IEC Draft "
+"International Standard 10918-1, and CCITT T.81. It handles monochrome and "
+"polychromatic images with a variety of compression techniques. JPEG per se, "
+"like CCITT Group IV, must be encapsulated before transmission; this can be "
+"done via TIFF, or via the JPEG File Interchange Format (JFIF), as commonly "
+"done for Internet delivery."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1048
-msgid "QuickTime is a proprietary method introduced by Apple Computer Company to synchronize the display of various data. The data can include frames of video, sound, lighting control mechanisms, and other things. Viewers for QuickTime productions are available for Apple and other computers. Further information is available from Apple Computer Incorporated, 10201 North de Anza Boulevard MS 23AQ, Cupertino, California 95014 USA."
+msgid ""
+"QuickTime is a proprietary method introduced by Apple Computer Company to "
+"synchronize the display of various data. The data can include frames of "
+"video, sound, lighting control mechanisms, and other things. Viewers for "
+"QuickTime productions are available for Apple and other computers. Further "
+"information is available from Apple Computer Incorporated, 10201 North de "
+"Anza Boulevard MS 23AQ, Cupertino, California 95014 USA."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1056
-msgid "This format was introduced by Kodak for rasterizing photographs and storing them on CD-ROMs (about one hundred 35mm file images fit on one disk), for display on televisions or CD-I systems. Information on Photo-CD is available from Kodak Limited, Research and Development, Headstone Drive, Harrow, Middlesex HA1 4TY, UK."
+msgid ""
+"This format was introduced by Kodak for rasterizing photographs and storing "
+"them on CD-ROMs (about one hundred 35mm file images fit on one disk), for "
+"display on televisions or CD-I systems. Information on Photo-CD is available "
+"from Kodak Limited, Research and Development, Headstone Drive, Harrow, "
+"Middlesex HA1 4TY, UK."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1062
-msgid "SMIL is a W3C Recommendation which supports the integration of independent multimedia objects into a synchronized multimedia presentation. It provides multimedia authors with easily-defined basic timing relationships, fine-tuned synchronization, spatial layout, direct inclusion of non-text and non-image media objects, hyperlink support for time-based media, and adaptiveness to varying user and system characteristics. SMIL 1.0 (<_:ptr-1/>) became a W3C Recommendation on June 15, 1998, and was further developed in SMIL 2.0. SMIL 2.0 adds native support for transitions, animation, event-based interaction, extended layout facilities, and more sophisticated timing and synchronization primitives to the SMIL 1.0 language. It also allows reuse of SMIL syntax and semantics in other XML-based languages, in particular those who need to represent timing and synchronization. For example, SMIL 2.0 components are used for integrating timing into XHTML Document Types and into SVG. SMIL 2.0 also provides recommendations for Document Types based on SMIL 2.0 Modules (<_:ptr-2/>). One such Document Type is the SMIL 2.0 Language Profile (<_:ptr-3/>). It contains support for all of the major SMIL 2.0 features including animation, content control, layout, linking, media object, meta-information, structure, timing, and transition effects and is designed for Web clients that support direct playback from SMIL 2.0 markup. SMIL 2.0 (<_:ptr-4/>) became a W3C Recommendation on August 7, 2001, becoming the first vocabulary to provide XML Schema support and to have reached such status."
+msgid ""
+"SMIL is a W3C Recommendation which supports the integration of independent "
+"multimedia objects into a synchronized multimedia presentation. It provides "
+"multimedia authors with easily-defined basic timing relationships, fine-"
+"tuned synchronization, spatial layout, direct inclusion of non-text and non-"
+"image media objects, hyperlink support for time-based media, and "
+"adaptiveness to varying user and system characteristics. SMIL 1.0 (<_:ptr-1/"
+">) became a W3C Recommendation on June 15, 1998, and was further developed "
+"in SMIL 2.0. SMIL 2.0 adds native support for transitions, animation, event-"
+"based interaction, extended layout facilities, and more sophisticated timing "
+"and synchronization primitives to the SMIL 1.0 language. It also allows "
+"reuse of SMIL syntax and semantics in other XML-based languages, in "
+"particular those who need to represent timing and synchronization. For "
+"example, SMIL 2.0 components are used for integrating timing into XHTML "
+"Document Types and into SVG. SMIL 2.0 also provides recommendations for "
+"Document Types based on SMIL 2.0 Modules (<_:ptr-2/>). One such Document "
+"Type is the SMIL 2.0 Language Profile (<_:ptr-3/>). It contains support for "
+"all of the major SMIL 2.0 features including animation, content control, "
+"layout, linking, media object, meta-information, structure, timing, and "
+"transition effects and is designed for Web clients that support direct "
+"playback from SMIL 2.0 markup. SMIL 2.0 (<_:ptr-4/>) became a W3C "
+"Recommendation on August 7, 2001, becoming the first vocabulary to provide "
+"XML Schema support and to have reached such status."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1086
-msgid "As noted above, the reader will encounter many, many other graphics formats."
+msgid ""
+"As noted above, the reader will encounter many, many other graphics formats."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1625,6 +2202,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FT-TablesFormulaeGraphics.xml:1092
-msgid "The module described in this chapter provides the following features: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>. <_:specGrpRef-3/> <_:specGrpRef-4/> <_:specGrpRef-5/> <_:specGrpRef-6/>"
+msgid ""
+"The module described in this chapter provides the following features: <_:"
+"moduleSpec-1/> The selection and combination of modules to form a TEI schema "
+"is described in <_:ptr-2/>. <_:specGrpRef-3/> <_:specGrpRef-4/> <_:"
+"specGrpRef-5/> <_:specGrpRef-6/>"
 msgstr ""
-

@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:53+0900\n"
+"POT-Creation-Date: 2018-10-29 21:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,12 +131,15 @@ msgstr ""
 #. (itstool) id: BIB-Bibliography.xml#DRPAL-eg-46
 #: Source/Guidelines/en/BIB-Bibliography.xml:28
 #: Source/Guidelines/en/BIB-Bibliography.xml:408
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/> (<_:date-4/>), <_:biblScope-5/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/> (<_:date-4/>), <_:biblScope-5/"
+">."
 msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:33
-msgid "American National Standard for Bibliographic References, ANSI Z39.29-1977"
+msgid ""
+"American National Standard for Bibliographic References, ANSI Z39.29-1977"
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
@@ -299,7 +303,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DIC-CR
 #: Source/Guidelines/en/BIB-Bibliography.xml:45
-msgid "<_:editor-1/> <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:editor-1/> <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -367,7 +372,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#TSSASE-eg-20
 #: Source/Guidelines/en/BIB-Bibliography.xml:51
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/> and <_:pubPlace-5/>: <_:publisher-6/>, <_:series-7/> (<_:date-8/>), <_:biblScope-9/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/> and <_:"
+"pubPlace-5/>: <_:publisher-6/>, <_:series-7/> (<_:date-8/>), <_:biblScope-9/"
+">."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -489,7 +497,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#NZETC01
 #: Source/Guidelines/en/BIB-Bibliography.xml:70
-msgid "<_:author-1/>. <_:title-2/>. In <_:title-3/>, vol 1 no 2. Wellington: Victoria University College Literary Society. (<_:date-4/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/>. In <_:title-3/>, vol 1 no 2. Wellington: "
+"Victoria University College Literary Society. (<_:date-4/>)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -527,7 +537,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#WD-BASHO
 #: Source/Guidelines/en/BIB-Bibliography.xml:73
-msgid "<_:author-1/>, <_:author-2/> and <_:author-3/>. <_:title-4/>. <_:date-5/>. <_:publisher-6/>"
+msgid ""
+"<_:author-1/>, <_:author-2/> and <_:author-3/>. <_:title-4/>. <_:date-5/>. "
+"<_:publisher-6/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -560,7 +572,8 @@ msgstr ""
 #: Source/Guidelines/en/BIB-Bibliography.xml:85
 #: Source/Guidelines/en/BIB-Bibliography.xml:519
 #: Source/Guidelines/en/BIB-Bibliography.xml:828
-msgid "<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -596,7 +609,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-05
 #: Source/Guidelines/en/BIB-Bibliography.xml:82
-msgid "<_:author-1/>. Autograph manuscript of <_:title-2/>, Pierpont Morgan MA 3391. in <_:ptr-3/> 123."
+msgid ""
+"<_:author-1/>. Autograph manuscript of <_:title-2/>, Pierpont Morgan MA "
+"3391. in <_:ptr-3/> 123."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -702,7 +717,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#TCAPLR-eg-11
 #: Source/Guidelines/en/BIB-Bibliography.xml:92
-msgid "<_:title-1/>; edited, with introduction, bibliography, notes, glossary, and appendices, by <_:editor-2/>. <_:pubPlace-3/> <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:title-1/>; edited, with introduction, bibliography, notes, glossary, and "
+"appendices, by <_:editor-2/>. <_:pubPlace-3/> <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -729,7 +746,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VESTR-eg-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:96
-msgid "<_:editor-1/> ed. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:editor-1/> ed. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/"
+">)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -824,7 +843,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SASE-eg-33
 #: Source/Guidelines/en/BIB-Bibliography.xml:108
-msgid "<_:author-1/>. <_:title-2/>, <_:title-3/>, <_:biblScope-4/>, (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:title-3/>, <_:biblScope-4/>, (<_:date-5/>), "
+"<_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -880,7 +901,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COLI-eg-171
 #: Source/Guidelines/en/BIB-Bibliography.xml:111
-msgid "<_:author-1/>, tr. <_:editor-2/>. <_:title-3/>. In <_:editor-4/> and <_:editor-5/>, eds. <_:title-6/>, <_:publisher-7/> (<_:date-8/>), <_:biblScope-9/>."
+msgid ""
+"<_:author-1/>, tr. <_:editor-2/>. <_:title-3/>. In <_:editor-4/> and <_:"
+"editor-5/>, eds. <_:title-6/>, <_:publisher-7/> (<_:date-8/>), <_:"
+"biblScope-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -918,7 +942,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#FTFOR-eg-10
 #: Source/Guidelines/en/BIB-Bibliography.xml:115
-msgid "<_:author-1/>. <_:title-2/> In <_:editor-3/> tr. <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>, (<_:date-7/>), <_:biblScope-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:editor-3/> tr. <_:title-4/>, <_:pubPlace-5/"
+">: <_:publisher-6/>, (<_:date-7/>), <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1004,7 +1030,8 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:129
-msgid "Information Technology in the Humanities: tools, techniques and applications"
+msgid ""
+"Information Technology in the Humanities: tools, techniques and applications"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
@@ -1025,7 +1052,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#Burnard-db
 #: Source/Guidelines/en/BIB-Bibliography.xml:129
-msgid "<_:author-1/>. <_:title-2/> in <_:editor-3/> ed. <_:title-4/>, <_:publisher-5/>, <_:series-6/>, (<_:date-7/>), <_:biblScope-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> in <_:editor-3/> ed. <_:title-4/>, <_:"
+"publisher-5/>, <_:series-6/>, (<_:date-7/>), <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1062,7 +1091,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COXR-eg-164
 #: Source/Guidelines/en/BIB-Bibliography.xml:130
-msgid "<_:author-1/>. <_:title-2/> (<_:date-3/>), <_:edition-4/> reprinted <_:date-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> (<_:date-3/>), <_:edition-4/> reprinted <_:"
+"date-5/>, <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1130,7 +1161,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VEST-eg-5
 #: Source/Guidelines/en/BIB-Bibliography.xml:137
-msgid "<_:author-1/>. <_:title-2/> In <_:editor-3/> ed. <_:title-4/>, <_:biblScope-5/>, 1922."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:editor-3/> ed. <_:title-4/>, <_:"
+"biblScope-5/>, 1922."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1157,7 +1190,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#caedmon
 #: Source/Guidelines/en/BIB-Bibliography.xml:143
-msgid "<_:title-1/> in Bede's Historia Ecclesiastica (MS Kk. 5. 16, Cambridge, University Library)"
+msgid ""
+"<_:title-1/> in Bede's Historia Ecclesiastica (MS Kk. 5. 16, Cambridge, "
+"University Library)"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1175,7 +1210,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#MasCab
 #: Source/Guidelines/en/BIB-Bibliography.xml:145
-msgid "<_:title-1/>. A musical play, with book by Joe Masteroff, lyrics by Fred Ebb, and music by John Kaner. Based on the play by John van Druten and stories by Christopher Isherwood. <_:date-2/>"
+msgid ""
+"<_:title-1/>. A musical play, with book by Joe Masteroff, lyrics by Fred "
+"Ebb, and music by John Kaner. Based on the play by John van Druten and "
+"stories by Christopher Isherwood. <_:date-2/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1212,7 +1250,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VESA-eg-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:148
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>, <_:date-4/>. <_:publisher-5/>. <_:date-6/> <_:ref-7/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>, <_:date-4/>. <_:publisher-5/>. "
+"<_:date-6/> <_:ref-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1269,7 +1309,11 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COEDREG-eg-74
 #: Source/Guidelines/en/BIB-Bibliography.xml:154
-msgid "Edward Barkley, describing how Essex drove the Irish from the plains into the woods to freeze or famish in winter; quoted by <_:author-1/> <_:title-2/>. In <_:editor-3/> and <_:editor-4/> eds. <_:title-5/>, <_:edition-6/> <_:pubPlace-7/>: <_:publisher-8/>, (<_:date-9/>), <_:biblScope-10/>."
+msgid ""
+"Edward Barkley, describing how Essex drove the Irish from the plains into "
+"the woods to freeze or famish in winter; quoted by <_:author-1/> <_:title-2/"
+">. In <_:editor-3/> and <_:editor-4/> eds. <_:title-5/>, <_:edition-6/> <_:"
+"pubPlace-7/>: <_:publisher-8/>, (<_:date-9/>), <_:biblScope-10/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1303,7 +1347,11 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COPA-eg-02
 #: Source/Guidelines/en/BIB-Bibliography.xml:170
-msgid "<_:title-1/>, in <_:title-2/> translated by Norbert Guterman from the collections of Aleksandr Afanas'ev, illustrations by Alexander Alexeieff, folkloristic commentary by Roman Jakobson (New York: Pantheon Books, 1947, rpt. [n.d.]), p. 25."
+msgid ""
+"<_:title-1/>, in <_:title-2/> translated by Norbert Guterman from the "
+"collections of Aleksandr Afanas'ev, illustrations by Alexander Alexeieff, "
+"folkloristic commentary by Roman Jakobson (New York: Pantheon Books, 1947, "
+"rpt. [n.d.]), p. 25."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1386,7 +1434,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#TSBAPA-eg-24
 #: Source/Guidelines/en/BIB-Bibliography.xml:174
-msgid "Example recoded from <_:author-1/> <_:title-2/> In <_:editor-3/>, <_:editor-4/>, <_:editor-5/> eds. <_:title-6/>. <_:pubPlace-7/>: <_:publisher-8/>, <_:date-9/>."
+msgid ""
+"Example recoded from <_:author-1/> <_:title-2/> In <_:editor-3/>, <_:"
+"editor-4/>, <_:editor-5/> eds. <_:title-6/>. <_:pubPlace-7/>: <_:publisher-8/"
+">, <_:date-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1440,7 +1491,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CORS5-eg-01
 #: Source/Guidelines/en/BIB-Bibliography.xml:179
-msgid "<_:author-1/> <_:title-2/> (also known as <_:title-3/>). In <_:title-4/>, <_:biblScope-5/>, (<_:date-6/>), <_:biblScope-7/>"
+msgid ""
+"<_:author-1/> <_:title-2/> (also known as <_:title-3/>). In <_:title-4/>, <_:"
+"biblScope-5/>, (<_:date-6/>), <_:biblScope-7/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1482,7 +1535,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#Python
 #: Source/Guidelines/en/BIB-Bibliography.xml:185
-msgid "<_:author-1/>, <_:author-2/>, <_:author-3/>, <_:author-4/>, <_:author-5/>. <_:title-6/>"
+msgid ""
+"<_:author-1/>, <_:author-2/>, <_:author-3/>, <_:author-4/>, <_:author-5/>. "
+"<_:title-6/>"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1493,7 +1548,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#pythonBrian
 #: Source/Guidelines/en/BIB-Bibliography.xml:188
-msgid "<_:author-1/>, <_:author-2/>, <_:author-3/>, <_:author-4/>, <_:author-5/>. <_:title-6/>(<_:date-7/>)"
+msgid ""
+"<_:author-1/>, <_:author-2/>, <_:author-3/>, <_:author-4/>, <_:author-5/>. "
+"<_:title-6/>(<_:date-7/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1560,7 +1617,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VEST-eg-4
 #: Source/Guidelines/en/BIB-Bibliography.xml:193
-msgid "<_:author-1/>. <_:title-2/>, <_:title-3/>, In <_:editor-4/> ed. <_:title-5/>, <_:edition-6/> <_:pubPlace-7/>: <_:publisher-8/>, <_:date-9/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:title-3/>, In <_:editor-4/> ed. <_:title-5/"
+">, <_:edition-6/> <_:pubPlace-7/>: <_:publisher-8/>, <_:date-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1606,7 +1665,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#FS-eg-01
 #: Source/Guidelines/en/BIB-Bibliography.xml:203
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>. New York: Harper &amp; Row (<_:date-4/>), p. 415."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>. New York: Harper &amp; Row "
+"(<_:date-4/>), p. 415."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1675,7 +1736,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DSFRONT-eg-69
 #: Source/Guidelines/en/BIB-Bibliography.xml:209
-msgid "<_:title-1/> In <_:editor-2/> ed. <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/>, <_:series-6/>, <_:biblScope-7/>, (<_:date-8/>)"
+msgid ""
+"<_:title-1/> In <_:editor-2/> ed. <_:title-3/>, <_:pubPlace-4/>: <_:"
+"publisher-5/>, <_:series-6/>, <_:biblScope-7/>, (<_:date-8/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1709,7 +1772,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#NDPER-eg-18
 #: Source/Guidelines/en/BIB-Bibliography.xml:214
-msgid "<_:author-1/><_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:author-1/><_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -1768,7 +1832,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CONONO-eg-189
 #: Source/Guidelines/en/BIB-Bibliography.xml:218
-msgid "<_:author-1/>. <_:title-2/>. In <_:author-3/> and <_:author-4/>. <_:title-5/> (<_:date-6/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/>. In <_:author-3/> and <_:author-4/>. <_:title-5/"
+"> (<_:date-6/>)"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1818,7 +1884,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VEST-eg-3
 #: Source/Guidelines/en/BIB-Bibliography.xml:221
-msgid "<_:author-1/>. <_:title-2/> In <_:editor-3/> ed. <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>, (<_:date-7/>), <_:biblScope-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:editor-3/> ed. <_:title-4/>, <_:pubPlace-5/"
+">: <_:publisher-6/>, (<_:date-7/>), <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -1845,7 +1913,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQHF-eg-8
 #: Source/Guidelines/en/BIB-Bibliography.xml:225
-msgid "<_:editor-1/> ed. <_:title-2/>. <_:pubPlace-3/> and <_:pubPlace-4/>: <_:publisher-5/>, (<_:date-6/>), <_:biblScope-7/> s.v. croissant."
+msgid ""
+"<_:editor-1/> ed. <_:title-2/>. <_:pubPlace-3/> and <_:pubPlace-4/>: <_:"
+"publisher-5/>, (<_:date-6/>), <_:biblScope-7/> s.v. croissant."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1866,7 +1936,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DIC-CED
 #: Source/Guidelines/en/BIB-Bibliography.xml:229
-msgid "<_:title-1/>, <_:edition-2/> <_:pubPlace-3/>: <_:publisher-4/> <_:date-5/>"
+msgid ""
+"<_:title-1/>, <_:edition-2/> <_:pubPlace-3/>: <_:publisher-4/> <_:date-5/>"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -1947,7 +2018,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SA-BIBL-2
 #: Source/Guidelines/en/BIB-Bibliography.xml:239
-msgid "<_:author-1/>. <_:title-2/> (ed. <_:editor-3/>) <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/> (ed. <_:editor-3/>) <_:publisher-4/> (<_:date-5/"
+">)"
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -1970,7 +2043,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PHegsurp2
 #: Source/Guidelines/en/BIB-Bibliography.xml:246
-msgid "<_:editor-1/>, <_:title-2/>, Milano-Napoli:Ricciardi I, (<_:date-3/>). pp 155-64."
+msgid ""
+"<_:editor-1/>, <_:title-2/>, Milano-Napoli:Ricciardi I, (<_:date-3/>). pp "
+"155-64."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2059,7 +2134,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DS-eg-02
 #: Source/Guidelines/en/BIB-Bibliography.xml:252
-msgid "<_:author-1/>, ed. <_:editor-2/>. <_:title-3/>. <_:edition-4/>: (<_:date-5/>)"
+msgid ""
+"<_:author-1/>, ed. <_:editor-2/>. <_:title-3/>. <_:edition-4/>: (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2155,7 +2231,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CONARS-eg-109
 #: Source/Guidelines/en/BIB-Bibliography.xml:260
-msgid "<_:author-1/>. <_:title-2/> cited in <_:editor-3/>, <_:editor-4/>, <_:editor-5/> eds. <_:title-6/>, <_:pubPlace-7/> and <_:pubPlace-8/>: <_:publisher-9/>, <_:date-10/>, <_:biblScope-11/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> cited in <_:editor-3/>, <_:editor-4/>, <_:"
+"editor-5/> eds. <_:title-6/>, <_:pubPlace-7/> and <_:pubPlace-8/>: <_:"
+"publisher-9/>, <_:date-10/>, <_:biblScope-11/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2165,7 +2244,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:266
-msgid "Narrative of the Surveying Voyages of His Majesty's ships Adventure and Beagle... volume 3 : Journal and Remarks (The Voyage of the Beagle)"
+msgid ""
+"Narrative of the Surveying Voyages of His Majesty's ships Adventure and "
+"Beagle... volume 3 : Journal and Remarks (The Voyage of the Beagle)"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -2182,7 +2263,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-12
 #: Source/Guidelines/en/BIB-Bibliography.xml:268
-msgid "Dean of Sarum Churchwardens' presentments, 1731, Hurst; Wiltshire Record Office; transcribed by Donald A. Spaeth."
+msgid ""
+"Dean of Sarum Churchwardens' presentments, 1731, Hurst; Wiltshire Record "
+"Office; transcribed by Donald A. Spaeth."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -2193,7 +2276,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-02
 #: Source/Guidelines/en/BIB-Bibliography.xml:270
-msgid "<_:title-1/>, fol 217r col b of Merton College Oxford MS O.2.1; in <_:ptr-2/> pl. 16."
+msgid ""
+"<_:title-1/>, fol 217r col b of Merton College Oxford MS O.2.1; in <_:ptr-2/"
+"> pl. 16."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2318,7 +2403,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COBICOR-eg-251
 #: Source/Guidelines/en/BIB-Bibliography.xml:285
-msgid "<_:title-1/>, <_:editor-2/>, <_:editor-3/> eds. <_:edition-4/> <_:biblScope-5/>, <_:pubPlace-6/>: <_:publisher-7/>, <_:date-8/>."
+msgid ""
+"<_:title-1/>, <_:editor-2/>, <_:editor-3/> eds. <_:edition-4/> <_:"
+"biblScope-5/>, <_:pubPlace-6/>: <_:publisher-7/>, <_:date-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2328,7 +2415,10 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:292
-msgid "The vvitts. A comedie, presented at the private house in Blacke Fryers, by his Majesties servants. The author VVilliam D'avenant, servant to Her Majestie."
+msgid ""
+"The vvitts. A comedie, presented at the private house in Blacke Fryers, by "
+"his Majesties servants. The author VVilliam D'avenant, servant to Her "
+"Majestie."
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -2374,7 +2464,9 @@ msgstr ""
 #. (itstool) id: BIB-Bibliography.xml#COHQQ-eg-27
 #: Source/Guidelines/en/BIB-Bibliography.xml:295
 #: Source/Guidelines/en/BIB-Bibliography.xml:523
-msgid "<_:author-1/>. <_:title-2/>, <_:publisher-3/>, (<_:date-4/>), <_:biblScope-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:publisher-3/>, (<_:date-4/>), <_:biblScope-5/"
+">."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -2425,7 +2517,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VEST-eg-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:301
-msgid "<_:author-1/>. <_:title-2/> In <_:editor-3/> et al. eds. <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:editor-3/> et al. eds. <_:title-4/>, <_:"
+"pubPlace-5/>: <_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2503,7 +2597,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:313
-msgid "Drawing of a leaden plaque bearing an inquiry by Hermon from the oracular precinct at Dodona"
+msgid ""
+"Drawing of a leaden plaque bearing an inquiry by Hermon from the oracular "
+"precinct at Dodona"
 msgstr ""
 
 #. (itstool) path: bibl/ref
@@ -2530,7 +2626,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-04
 #: Source/Guidelines/en/BIB-Bibliography.xml:316
-msgid "<_:author-1/>. <_:title-2/>, fol 4v of British Library MS Harley 3742; in <_:ptr-3/> pl 6(i)."
+msgid ""
+"<_:author-1/>. <_:title-2/>, fol 4v of British Library MS Harley 3742; in <_:"
+"ptr-3/> pl 6(i)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2561,7 +2659,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#eg-rhyme-dutt
 #: Source/Guidelines/en/BIB-Bibliography.xml:319
-msgid "<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:publisher-4/>, (<_:date-5/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:publisher-4/>, (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2651,7 +2750,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CONAAB-eg-151
 #: Source/Guidelines/en/BIB-Bibliography.xml:330
-msgid "<_:title-1/>, <_:title-2/>, <_:biblScope-3/> (<_:date-4/>), <_:biblScope-5/>."
+msgid ""
+"<_:title-1/>, <_:title-2/>, <_:biblScope-3/> (<_:date-4/>), <_:biblScope-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2700,7 +2800,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:340
-msgid "The waste land: a facsimile and transcript of the original drafts including the annotations of Ezra Pound"
+msgid ""
+"The waste land: a facsimile and transcript of the original drafts including "
+"the annotations of Ezra Pound"
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -2729,7 +2831,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COEDADD-eg-89
 #: Source/Guidelines/en/BIB-Bibliography.xml:340
-msgid "<_:author-1/>. <_:title-2/>, <_:editor-3/> ed. <_:publisher-4/> (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:editor-3/> ed. <_:publisher-4/> (<_:date-5/"
+">), <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2765,7 +2869,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:349
-msgid "The History of the Adventures of Joseph Andrews and his Friend, Mr. Abraham Abrams"
+msgid ""
+"The History of the Adventures of Joseph Andrews and his Friend, Mr. Abraham "
+"Abrams"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -2790,7 +2896,8 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:354
-msgid "Is there a text in this class? The authority of interpretive communities"
+msgid ""
+"Is there a text in this class? The authority of interpretive communities"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
@@ -2836,7 +2943,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SAAG-eg-72
 #: Source/Guidelines/en/BIB-Bibliography.xml:356
-msgid "<_:author-1/><_:title-2/> In <_:title-3/>, <_:publisher-4/> (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/><_:title-2/> In <_:title-3/>, <_:publisher-4/> (<_:date-5/>), "
+"<_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -2903,7 +3012,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#FTGRA-eg-18
 #: Source/Guidelines/en/BIB-Bibliography.xml:367
-msgid "<_:author-1/>, <_:author-2/>, <_:author-3/> and <_:author-4/>. <_:title-5/>, <_:edition-6/> <_:pubPlace-7/>: <_:publisher-8/>, <_:biblScope-9/>."
+msgid ""
+"<_:author-1/>, <_:author-2/>, <_:author-3/> and <_:author-4/>. <_:title-5/>, "
+"<_:edition-6/> <_:pubPlace-7/>: <_:publisher-8/>, <_:biblScope-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3053,7 +3164,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COEDADD-eg-83
 #: Source/Guidelines/en/BIB-Bibliography.xml:379
-msgid "<_:author-1/>, <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>, quoted by <_:author-6/>, <_:title-7/>, <_:pubPlace-8/>: <_:publisher-9/> (<_:date-10/>), <_:biblScope-11/>."
+msgid ""
+"<_:author-1/>, <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>, "
+"quoted by <_:author-6/>, <_:title-7/>, <_:pubPlace-8/>: <_:publisher-9/> (<_:"
+"date-10/>), <_:biblScope-11/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3132,7 +3246,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#TSTPPR-eg-58
 #: Source/Guidelines/en/BIB-Bibliography.xml:389
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/> (<_:date-6/>), <_:biblScope-7/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/>: <_:"
+"publisher-5/> (<_:date-6/>), <_:biblScope-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3174,7 +3290,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQU-eg-43
 #: Source/Guidelines/en/BIB-Bibliography.xml:395
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>. <_:publisher-4/> (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>. <_:publisher-4/> (<_:date-5/"
+">), <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3197,12 +3315,15 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#FS-BIBL-3
 #: Source/Guidelines/en/BIB-Bibliography.xml:398
-msgid "<_:author-1/>, <_:author-2/>: <_:title-3/>, <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:author-1/>, <_:author-2/>: <_:title-3/>, <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:402
-msgid "The Holy Bible, conteyning the Old Testament and the new... appointed to be read in Churches."
+msgid ""
+"The Holy Bible, conteyning the Old Testament and the new... appointed to be "
+"read in Churches."
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -3338,7 +3459,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VEST-eg-2
 #: Source/Guidelines/en/BIB-Bibliography.xml:413
-msgid "<_:author-1/>. <_:title-2/>, <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/>, (<_:date-6/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/"
+">, (<_:date-6/>)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3365,7 +3488,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRDIV-eg-31
 #: Source/Guidelines/en/BIB-Bibliography.xml:416
-msgid "<_:author-1/>, tr. <_:editor-2/>. <_:title-3/>, <_:biblScope-4/>, <_:pubPlace-5/>: Penguin. (<_:date-6/>)"
+msgid ""
+"<_:author-1/>, tr. <_:editor-2/>. <_:title-3/>, <_:biblScope-4/>, <_:"
+"pubPlace-5/>: Penguin. (<_:date-6/>)"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -3385,7 +3510,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:422
-msgid "The History of Little GOODY TWO-SHOES; Otherwise called, Mrs. MARGERY TWO-SHOES..."
+msgid ""
+"The History of Little GOODY TWO-SHOES; Otherwise called, Mrs. MARGERY TWO-"
+"SHOES..."
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -3422,7 +3549,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-07
 #: Source/Guidelines/en/BIB-Bibliography.xml:424
-msgid "<_:author-1/>. <_:title-2/>. <_:date-3/>. (from <_:title-4/>, compiled by Beryl Graves, C.G. Petter, L.R. Roberts, University of Victoria Libraries)"
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:date-3/>. (from <_:title-4/>, compiled by "
+"Beryl Graves, C.G. Petter, L.R. Roberts, University of Victoria Libraries)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3488,7 +3617,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COXR-eg-166
 #: Source/Guidelines/en/BIB-Bibliography.xml:434
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/> and <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/> and <_:"
+"pubPlace-5/>: <_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -3509,7 +3640,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DIC-DNT
 #: Source/Guidelines/en/BIB-Bibliography.xml:437
-msgid "<_:editor-1/>. <_:title-2/>, ed. <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>"
+msgid ""
+"<_:editor-1/>. <_:title-2/>, ed. <_:pubPlace-3/>: <_:publisher-4/>, <_:"
+"date-5/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3540,7 +3673,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:445
-msgid "Language, Context and Text: Aspects of Language in a Social-Semiotic Perspective"
+msgid ""
+"Language, Context and Text: Aspects of Language in a Social-Semiotic "
+"Perspective"
 msgstr ""
 
 #. (itstool) path: bibl/biblScope
@@ -3553,12 +3688,16 @@ msgstr ""
 #. (itstool) id: BIB-Bibliography.xml#COHQU-eg-42
 #: Source/Guidelines/en/BIB-Bibliography.xml:444
 #: Source/Guidelines/en/BIB-Bibliography.xml:561
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/>, <_:date-6/>, <_:biblScope-7/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/>: <_:"
+"publisher-5/>, <_:date-6/>, <_:biblScope-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:448
-msgid "Hannam's last farewell to the world:: being a full and true relation of the notorious life and shamfull death of Mr. Richard Hannam..."
+msgid ""
+"Hannam's last farewell to the world:: being a full and true relation of the "
+"notorious life and shamfull death of Mr. Richard Hannam..."
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -3595,7 +3734,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQQ-eg-29
 #: Source/Guidelines/en/BIB-Bibliography.xml:450
-msgid "<_:author-1/>. <_:title-2/>. In <_:editor-3/> ed. <_:title-4/><_:publisher-5/>, <_:date-6/>, <_:biblScope-7/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>. In <_:editor-3/> ed. <_:title-4/><_:publisher-5/"
+">, <_:date-6/>, <_:biblScope-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3736,7 +3877,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-ib05
 #: Source/Guidelines/en/BIB-Bibliography.xml:475
-msgid "<_:author-1/> <_:title-2/>, The Royal Library, Denmark. KBK Collin 262, 4°, I.1.1, fol. [4]v"
+msgid ""
+"<_:author-1/> <_:title-2/>, The Royal Library, Denmark. KBK Collin 262, 4°, "
+"I.1.1, fol. [4]v"
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -3777,7 +3920,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRSTA-eg-40
 #: Source/Guidelines/en/BIB-Bibliography.xml:478
-msgid "<_:author-1/>, tr. <_:editor-2/> and <_:editor-3/> <_:title-4/> In <_:title-5/>, <_:series-6/>, <_:pubPlace-7/>: <_:publisher-8/>, <_:date-9/>."
+msgid ""
+"<_:author-1/>, tr. <_:editor-2/> and <_:editor-3/> <_:title-4/> In <_:"
+"title-5/>, <_:series-6/>, <_:pubPlace-7/>: <_:publisher-8/>, <_:date-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3818,14 +3963,19 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DROTH-eg-58
 #: Source/Guidelines/en/BIB-Bibliography.xml:483
-msgid "<_:author-1/>, <_:author-2/>, <_:author-3/>, <_:author-4/>, <_:author-5/>. <_:title-6/>, <_:publisher-7/>, (<_:date-8/>), <_:biblScope-9/>, <_:biblScope-10/>."
+msgid ""
+"<_:author-1/>, <_:author-2/>, <_:author-3/>, <_:author-4/>, <_:author-5/>. "
+"<_:title-6/>, <_:publisher-7/>, (<_:date-8/>), <_:biblScope-9/>, <_:"
+"biblScope-10/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:487
 #: Source/Guidelines/en/BIB-Bibliography.xml:2910
-msgid "ISO 690:1987: Information and documentation – Bibliographic references – Content, form and structure"
+msgid ""
+"ISO 690:1987: Information and documentation – Bibliographic references – "
+"Content, form and structure"
 msgstr ""
 
 #. (itstool) path: bibl/biblScope
@@ -3873,7 +4023,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRDIV-eg-32
 #: Source/Guidelines/en/BIB-Bibliography.xml:491
-msgid "<_:author-1/>, tr. <_:editor-2/> and <_:editor-3/>. <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>."
+msgid ""
+"<_:author-1/>, tr. <_:editor-2/> and <_:editor-3/>. <_:title-4/>, <_:"
+"pubPlace-5/>: <_:publisher-6/>, <_:date-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3940,7 +4092,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRSP-eg-37
 #: Source/Guidelines/en/BIB-Bibliography.xml:498
-msgid "<_:author-1/>. <_:title-2/>, <_:editor-3/> ed. <_:publisher-4/>, <_:date-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:editor-3/> ed. <_:publisher-4/>, <_:date-5/"
+">, <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -3971,7 +4125,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRPAL-eg-44
 #: Source/Guidelines/en/BIB-Bibliography.xml:501
-msgid "<_:author-1/>. <_:title-2/>, <_:editor-3/> ed. <_:pubPlace-4/>: <_:publisher-5/>, <_:date-6/>, <_:biblScope-7/><_:biblScope-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:editor-3/> ed. <_:pubPlace-4/>: <_:"
+"publisher-5/>, <_:date-6/>, <_:biblScope-7/><_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -3997,7 +4153,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DSCO-eg-53
 #: Source/Guidelines/en/BIB-Bibliography.xml:504
-msgid "<_:author-1/>. <_:title-2/>: <_:publisher-3/>, <_:date-4/>. <_:biblScope-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>: <_:publisher-3/>, <_:date-4/>. <_:biblScope-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4038,7 +4195,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#Karstadt-Distinctiones-Thomistarum
 #: Source/Guidelines/en/BIB-Bibliography.xml:507
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/> <_:date-4/>. In <_:editor-5/> ed. <_:series-6/> <_:biblScope-7/>, available: <_:ref-8/>"
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/> <_:date-4/>. In <_:editor-5/> "
+"ed. <_:series-6/> <_:biblScope-7/>, available: <_:ref-8/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4069,7 +4228,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#REF-cb-eg-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:512
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>. <_:edition-6/>"
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>. "
+"<_:edition-6/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4095,7 +4256,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#MLK01
 #: Source/Guidelines/en/BIB-Bibliography.xml:515
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4118,7 +4280,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQHF-eg-5
 #: Source/Guidelines/en/BIB-Bibliography.xml:516
-msgid "<_:author-1/>. <_:title-2/>. In <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/>, (<_:date-6/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/>. In <_:title-3/>, <_:pubPlace-4/>: <_:"
+"publisher-5/>, (<_:date-6/>)"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4223,7 +4387,9 @@ msgstr ""
 #. (itstool) id: BIB-Bibliography.xml#VESE-eg-13x
 #: Source/Guidelines/en/BIB-Bibliography.xml:527
 #: Source/Guidelines/en/BIB-Bibliography.xml:531
-msgid "<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:series-4/>, <_:pubPlace-5/>: <_:publisher-6/>, <_:biblScope-7/>, <_:date-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:series-4/>, <_:pubPlace-5/>: "
+"<_:publisher-6/>, <_:biblScope-7/>, <_:date-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4254,7 +4420,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CONARS-eg-108
 #: Source/Guidelines/en/BIB-Bibliography.xml:534
-msgid "<_:author-1/>. <_:title-2/> (<_:date-3/>), <_:date-4/>, <_:biblScope-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> (<_:date-3/>), <_:date-4/>, <_:biblScope-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4288,7 +4455,9 @@ msgstr ""
 #. (itstool) id: BIB-Bibliography.xml#COHQU-eg-44
 #: Source/Guidelines/en/BIB-Bibliography.xml:537
 #: Source/Guidelines/en/BIB-Bibliography.xml:765
-msgid "<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>, "
+"<_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4314,7 +4483,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQQ-eg-33
 #: Source/Guidelines/en/BIB-Bibliography.xml:540
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/>: Basil Blackwell, <_:date-5/>, <_:biblScope-6/>, <_:biblScope-7/>."
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/>, <_:pubPlace-4/>: Basil "
+"Blackwell, <_:date-5/>, <_:biblScope-6/>, <_:biblScope-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4335,7 +4506,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#LANGENPOST
 #: Source/Guidelines/en/BIB-Bibliography.xml:543
-msgid "<_:author-1/>. <_:title-2/>, <_:publisher-3/>, <_:biblScope-4/>, <_:date-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:publisher-3/>, <_:biblScope-4/>, <_:date-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4361,7 +4533,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VESE-eg-9
 #: Source/Guidelines/en/BIB-Bibliography.xml:547
-msgid "<_:author-1/>. <_:title-2/>. In <_:editor-3/> ed. <_:title-4/>, <_:biblScope-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>. In <_:editor-3/> ed. <_:title-4/>, <_:"
+"biblScope-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4372,7 +4546,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#punctuseg
 #: Source/Guidelines/en/BIB-Bibliography.xml:553
-msgid "<_:title-1/>, folio 4r. Taken from the digitized image described at <_:ptr-2/>."
+msgid ""
+"<_:title-1/>, folio 4r. Taken from the digitized image described at <_:ptr-2/"
+">."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4388,7 +4564,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-06
 #: Source/Guidelines/en/BIB-Bibliography.xml:555
-msgid "<_:author-1/>. Autograph manuscript of <_:title-2/>, Pierpont Morgan MA 1892; in <_:ptr-3/> p.129."
+msgid ""
+"<_:author-1/>. Autograph manuscript of <_:title-2/>, Pierpont Morgan MA "
+"1892; in <_:ptr-3/> p.129."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4404,7 +4582,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-01
 #: Source/Guidelines/en/BIB-Bibliography.xml:558
-msgid "<_:author-1/>. <_:title-2/>, fol 65v of Bodleian MS. Rawlinson Poetry 32; in <_:ptr-3/> 12(ii)."
+msgid ""
+"<_:author-1/>. <_:title-2/>, fol 65v of Bodleian MS. Rawlinson Poetry 32; in "
+"<_:ptr-3/> 12(ii)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4430,7 +4610,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SACS1-eg-48
 #: Source/Guidelines/en/BIB-Bibliography.xml:564
-msgid "<_:editor-1/>, <_:editor-2/>, <_:editor-3/> eds. <_:title-4/>. <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>."
+msgid ""
+"<_:editor-1/>, <_:editor-2/>, <_:editor-3/> eds. <_:title-4/>. <_:pubPlace-5/"
+">: <_:publisher-6/>, <_:date-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4501,7 +4683,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#NH-eg-03
 #: Source/Guidelines/en/BIB-Bibliography.xml:572
-msgid "<_:author-1/> <_:title-2/>, <_:date-3/>, <_:pubPlace-4/>: <_:publisher-5/> <_:biblScope-6/>."
+msgid ""
+"<_:author-1/> <_:title-2/>, <_:date-3/>, <_:pubPlace-4/>: <_:publisher-5/> "
+"<_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4527,7 +4711,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRCAST-eg-21
 #: Source/Guidelines/en/BIB-Bibliography.xml:576
-msgid "<_:author-1/>. <_:title-2/>, (<_:date-3/>), translated from <_:author-4/>, <_:title-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, (<_:date-3/>), translated from <_:author-4/>, "
+"<_:title-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4553,7 +4739,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQHE-eg-10
 #: Source/Guidelines/en/BIB-Bibliography.xml:579
-msgid "<_:author-1/>. <_:title-2/> (1928), <_:publisher-3/>, <_:date-4/>, <_:biblScope-5/>"
+msgid ""
+"<_:author-1/>. <_:title-2/> (1928), <_:publisher-3/>, <_:date-4/>, <_:"
+"biblScope-5/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4615,7 +4803,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COPA-eg-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:585
-msgid "<_:author-1/>. <_:title-2/>, 10 Apr 1862. In <_:editor-3/> ed. <_:title-4/> <_:biblScope-5/> (1859-1865). <_:series-6/> <_:biblScope-7/>, <_:date-8/>, <_:biblScope-9/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, 10 Apr 1862. In <_:editor-3/> ed. <_:title-4/> "
+"<_:biblScope-5/> (1859-1865). <_:series-6/> <_:biblScope-7/>, <_:date-8/>, "
+"<_:biblScope-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4666,7 +4857,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#STGA-eg-9
 #: Source/Guidelines/en/BIB-Bibliography.xml:590
-msgid "<_:author-1/>. <_:title-2/>, <_:date-3/>. In <_:editor-4/>, ed., <_:title-5/>, <_:edition-6/><_:series-7/>. <_:pubPlace-8/>: <_:publisher-9/>, <_:date-10/>, <_:biblScope-11/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:date-3/>. In <_:editor-4/>, ed., <_:title-5/"
+">, <_:edition-6/><_:series-7/>. <_:pubPlace-8/>: <_:publisher-9/>, <_:"
+"date-10/>, <_:biblScope-11/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4710,7 +4904,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#FTGRA-eg-16
 #: Source/Guidelines/en/BIB-Bibliography.xml:605
-msgid "<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, (<_:date-5/"
+">), <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4743,7 +4939,10 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:609
-msgid "Die gantze Heilige Schrifft Deudsch, Wittenberg 1545. Letzte zu Luthers Lebzeiten erchienene Ausgabe, hsg. Hans Volz unter Mitarbeit von Heinz Blanke. Textredaktion Friedrich Kur"
+msgid ""
+"Die gantze Heilige Schrifft Deudsch, Wittenberg 1545. Letzte zu Luthers "
+"Lebzeiten erchienene Ausgabe, hsg. Hans Volz unter Mitarbeit von Heinz "
+"Blanke. Textredaktion Friedrich Kur"
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
@@ -4764,7 +4963,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SASE-eg-41
 #: Source/Guidelines/en/BIB-Bibliography.xml:609
-msgid "<_:author-1/> [tr]. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>."
+msgid ""
+"<_:author-1/> [tr]. <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>, <_:"
+"date-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4795,7 +4996,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#VERH-eg-27
 #: Source/Guidelines/en/BIB-Bibliography.xml:614
-msgid "<_:author-1/>. <_:title-2/> In <_:editor-3/> <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:editor-3/> <_:title-4/>, <_:pubPlace-5/>: "
+"<_:publisher-6/>, <_:date-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4815,13 +5018,18 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:620
-msgid "The approach of the Text Encoding Initiative to the encoding of spoken discourse"
+msgid ""
+"The approach of the Text Encoding Initiative to the encoding of spoken "
+"discourse"
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#TSBA-eg-19
 #: Source/Guidelines/en/BIB-Bibliography.xml:618
-msgid "Examples from <_:author-1/>, <_:biblScope-2/>, cited by <_:author-3/> <_:title-4/> In <_:editor-5/>, <_:editor-6/>, <_:editor-7/> eds. <_:title-8/>. <_:pubPlace-9/>: <_:publisher-10/>, <_:date-11/>."
+msgid ""
+"Examples from <_:author-1/>, <_:biblScope-2/>, cited by <_:author-3/> <_:"
+"title-4/> In <_:editor-5/>, <_:editor-6/>, <_:editor-7/> eds. <_:title-8/>. "
+"<_:pubPlace-9/>: <_:publisher-10/>, <_:date-11/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4831,7 +5039,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:625
-msgid "A summary catalogue of western manuscripts in the Bodleian Library at Oxford which have not hitherto been catalogued ..."
+msgid ""
+"A summary catalogue of western manuscripts in the Bodleian Library at Oxford "
+"which have not hitherto been catalogued ..."
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -4866,7 +5076,8 @@ msgstr ""
 
 #. (itstool) path: note/bibl
 #: Source/Guidelines/en/BIB-Bibliography.xml:628
-msgid "Driscoll, M.J. <_:title-1/> in <_:title-2/>: <_:biblScope-3/>, <_:date-4/>"
+msgid ""
+"Driscoll, M.J. <_:title-1/> in <_:title-2/>: <_:biblScope-3/>, <_:date-4/>"
 msgstr ""
 
 #. (itstool) path: bibl/note
@@ -4877,7 +5088,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#MS-eg-001
 #: Source/Guidelines/en/BIB-Bibliography.xml:624
-msgid "<_:author-1/>, <_:title-2/> <_:pubPlace-3/>, <_:date-4/>. <_:biblScope-5/>. <_:note-6/>"
+msgid ""
+"<_:author-1/>, <_:title-2/> <_:pubPlace-3/>, <_:date-4/>. <_:biblScope-5/>. "
+"<_:note-6/>"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4899,7 +5112,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-BIBL-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:639
-msgid "<_:title-1/>: fol. 126v of Bodleian MS Laud Misc 517; in <_:ptr-2/>, p.8."
+msgid ""
+"<_:title-1/>: fol. 126v of Bodleian MS Laud Misc 517; in <_:ptr-2/>, p.8."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -4925,7 +5139,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#STGA-eg-10
 #: Source/Guidelines/en/BIB-Bibliography.xml:642
-msgid "<_:title-1/>, <_:biblScope-2/> (<_:date-3/>), rpt. In <_:editor-4/>, ed., <_:title-5/>, <_:edition-6/> <_:series-7/>. <_:pubPlace-8/>: <_:publisher-9/>, <_:date-10/>, <_:biblScope-11/>."
+msgid ""
+"<_:title-1/>, <_:biblScope-2/> (<_:date-3/>), rpt. In <_:editor-4/>, ed., <_:"
+"title-5/>, <_:edition-6/> <_:series-7/>. <_:pubPlace-8/>: <_:publisher-9/>, "
+"<_:date-10/>, <_:biblScope-11/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -4982,7 +5199,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SOURCE-eg-01
 #: Source/Guidelines/en/BIB-Bibliography.xml:649
-msgid "<_:author-1/>. <_:title-2/> in <_:title-3/>: A volume in honour of Harold Short on the occasion of his 65th birthday, September 2010, ed. <_:editor-4/> and <_:editor-5/>. <_:pubPlace-6/>: <_:publisher-7/> (<_:date-8/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/> in <_:title-3/>: A volume in honour of Harold "
+"Short on the occasion of his 65th birthday, September 2010, ed. <_:editor-4/"
+"> and <_:editor-5/>. <_:pubPlace-6/>: <_:publisher-7/> (<_:date-8/>)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5044,7 +5264,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DRPERF-eg-12
 #: Source/Guidelines/en/BIB-Bibliography.xml:656
-msgid "<_:author-1/>. <_:title-2/> in <_:editor-3/> <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> in <_:editor-3/> <_:title-4/>, <_:pubPlace-5/>: "
+"<_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5070,7 +5292,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQHE-eg-11
 #: Source/Guidelines/en/BIB-Bibliography.xml:660
-msgid "<_:author-1/> <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/> <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>, <_:date-5/>, "
+"<_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5124,7 +5348,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-03
 #: Source/Guidelines/en/BIB-Bibliography.xml:670
-msgid "<_:author-1/>. Autograph manuscript of <_:title-2/>, Pierpont Morgan MA 3421; in <_:ptr-3/>"
+msgid ""
+"<_:author-1/>. Autograph manuscript of <_:title-2/>, Pierpont Morgan MA "
+"3421; in <_:ptr-3/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5140,7 +5366,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-09
 #: Source/Guidelines/en/BIB-Bibliography.xml:673
-msgid "<_:author-1/>. Autograph manuscript of the second version of <_:title-2/>, Pierpont Morgan MA 310; in <_:ptr-3/> 23."
+msgid ""
+"<_:author-1/>. Autograph manuscript of the second version of <_:title-2/>, "
+"Pierpont Morgan MA 310; in <_:ptr-3/> 23."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5166,7 +5394,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CO-eg-04
 #: Source/Guidelines/en/BIB-Bibliography.xml:676
-msgid "<_:author-1/> and <_:author-2/>. <_:title-3/> (<_:date-4/>) <_:biblScope-5/>"
+msgid ""
+"<_:author-1/> and <_:author-2/>. <_:title-3/> (<_:date-4/>) <_:biblScope-5/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5224,7 +5453,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#NJAL
 #: Source/Guidelines/en/BIB-Bibliography.xml:688
-msgid "<_:title-1/>. tr. <_:editor-2/>. <_:publisher-3/>. (<_:date-4/>), <_:biblScope-5/>."
+msgid ""
+"<_:title-1/>. tr. <_:editor-2/>. <_:publisher-3/>. (<_:date-4/>), <_:"
+"biblScope-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5261,7 +5492,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SA-eg-03
 #: Source/Guidelines/en/BIB-Bibliography.xml:694
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5277,7 +5509,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-16
 #: Source/Guidelines/en/BIB-Bibliography.xml:697
-msgid "<_:author-1/>. <_:title-2/>, from autograph manuscript in the English Faculty Library, Oxford University."
+msgid ""
+"<_:author-1/>. <_:title-2/>, from autograph manuscript in the English "
+"Faculty Library, Oxford University."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -5288,7 +5522,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PHegsurp
 #: Source/Guidelines/en/BIB-Bibliography.xml:701
-msgid "Hans Krummrey &amp; Silvio Panciera <_:title-1/>, Tituli 2 (<_:date-2/>), 205-215."
+msgid ""
+"Hans Krummrey &amp; Silvio Panciera <_:title-1/>, Tituli 2 (<_:date-2/>), "
+"205-215."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5298,7 +5534,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:705
-msgid "Report on the compatibility of J P French's spoken corpus transcription conventions with the TEI guidelines for transcription of spoken texts"
+msgid ""
+"Report on the compatibility of J P French's spoken corpus transcription "
+"conventions with the TEI guidelines for transcription of spoken texts"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -5314,7 +5552,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#TSSASE-eg-37
 #: Source/Guidelines/en/BIB-Bibliography.xml:703
-msgid "<_:author-1/> <_:title-2/>, <_:title-3/>, <_:date-4/>, NERC WP8/WP4 122."
+msgid ""
+"<_:author-1/> <_:title-2/>, <_:title-3/>, <_:date-4/>, NERC WP8/WP4 122."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5389,7 +5628,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#GDFT-eg-12
 #: Source/Guidelines/en/BIB-Bibliography.xml:714
-msgid "<_:title-1/> based on an example in <_:author-2/> and <_:author-3/>, <_:title-4/>, <_:pubPlace-5/>: <_:publisher-6/>. (<_:date-7/>), <_:biblScope-8/>."
+msgid ""
+"<_:title-1/> based on an example in <_:author-2/> and <_:author-3/>, <_:"
+"title-4/>, <_:pubPlace-5/>: <_:publisher-6/>. (<_:date-7/>), <_:biblScope-8/"
+">."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -5507,7 +5749,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PHOM-eg-secl
 #: Source/Guidelines/en/BIB-Bibliography.xml:728
-msgid "<_:author-1/>. <_:title-2/>. Edited and translated by <_:author-3/>. Loeb Classical Library 60. <_:pubPlace-4/>: <_:publisher-5/> (<_:date-6/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/>. Edited and translated by <_:author-3/>. Loeb "
+"Classical Library 60. <_:pubPlace-4/>: <_:publisher-5/> (<_:date-6/>)."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -5613,7 +5857,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQQ-eg-23
 #: Source/Guidelines/en/BIB-Bibliography.xml:744
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>, (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>, (<_:date-5/"
+">), <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5628,7 +5874,8 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:749
-msgid "The Synthesizer Generator: A system for constructing language-based editors"
+msgid ""
+"The Synthesizer Generator: A system for constructing language-based editors"
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
@@ -5653,7 +5900,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COBICOI-eg-264
 #: Source/Guidelines/en/BIB-Bibliography.xml:748
-msgid "Reference from the bibliography in <_:author-1/> and <_:author-2/> eds. <_:title-3/>, <_:pubPlace-4/> and <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/>, <_:biblScope-8/>."
+msgid ""
+"Reference from the bibliography in <_:author-1/> and <_:author-2/> eds. <_:"
+"title-3/>, <_:pubPlace-4/> and <_:pubPlace-5/>: <_:publisher-6/>, <_:date-7/"
+">, <_:biblScope-8/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5674,7 +5924,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQHEG-eg-02
 #: Source/Guidelines/en/BIB-Bibliography.xml:752
-msgid "<_:author-1/>. <_:title-2/>. (<_:date-3/>), <_:biblScope-4/> Letter XIV."
+msgid ""
+"<_:author-1/>. <_:title-2/>. (<_:date-3/>), <_:biblScope-4/> Letter XIV."
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -5695,7 +5946,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DIC-PR
 #: Source/Guidelines/en/BIB-Bibliography.xml:754
-msgid "<_:editor-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
+msgid ""
+"<_:editor-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5749,7 +6001,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQQ-eg-35
 #: Source/Guidelines/en/BIB-Bibliography.xml:757
-msgid "<_:author-1/> <_:title-2/>. In <_:title-3/>, (<_:date-4/>), <_:biblScope-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/> <_:title-2/>. In <_:title-3/>, (<_:date-4/>), <_:biblScope-5/"
+">, <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -5866,7 +6120,11 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SVG-11
 #: Source/Guidelines/en/BIB-Bibliography.xml:768
-msgid "<_:title-1/>. Editors <_:editor-2/>, <_:editor-3/>, <_:editor-4/>, <_:editor-5/>, <_:editor-6/>, <_:editor-7/>, <_:editor-8/> <_:editor-9/>, <_:editor-10/> and <_:editor-11/>. <_:publisher-12/> (<_:date-13/>). Available from <_:ptr-14/>"
+msgid ""
+"<_:title-1/>. Editors <_:editor-2/>, <_:editor-3/>, <_:editor-4/>, <_:"
+"editor-5/>, <_:editor-6/>, <_:editor-7/>, <_:editor-8/> <_:editor-9/>, <_:"
+"editor-10/> and <_:editor-11/>. <_:publisher-12/> (<_:date-13/>). Available "
+"from <_:ptr-14/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -5916,7 +6174,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#FHENRY5
 #: Source/Guidelines/en/BIB-Bibliography.xml:777
-msgid "<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/>, <_:date-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/"
+">, <_:date-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -5942,7 +6202,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#THENRY5
 #: Source/Guidelines/en/BIB-Bibliography.xml:780
-msgid "<_:author-1/>. <_:title-2/> In <_:title-3/>, ed. <_:editor-4/>, <_:pubPlace-5/>: <_:publisher-6/>, (<_:date-7/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:title-3/>, ed. <_:editor-4/>, <_:"
+"pubPlace-5/>: <_:publisher-6/>, (<_:date-7/>)."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -6035,7 +6297,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CODR-eg-293
 #: Source/Guidelines/en/BIB-Bibliography.xml:793
-msgid "<_:author-1/>. <_:title-2/> In <_:editor-3/> and <_:editor-4/> eds. <_:title-5/>, <_:pubPlace-6/>: <_:publisher-7/>, <_:date-8/>, <_:biblScope-9/>."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:editor-3/> and <_:editor-4/> eds. <_:"
+"title-5/>, <_:pubPlace-6/>: <_:publisher-7/>, <_:date-8/>, <_:biblScope-9/>."
 msgstr ""
 
 #. (itstool) path: bibl/publisher
@@ -6051,7 +6315,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CODR-eg-294
 #: Source/Guidelines/en/BIB-Bibliography.xml:797
-msgid "<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>:<_:publisher-4/>. (<_:date-5/>), <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>:<_:publisher-4/>. (<_:date-5/"
+">), <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -6064,7 +6330,9 @@ msgstr ""
 #. (itstool) id: BIB-Bibliography.xml#TwN
 #: Source/Guidelines/en/BIB-Bibliography.xml:800
 #: Source/Guidelines/en/BIB-Bibliography.xml:803
-msgid "<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/>, (<_:date-6/>)."
+msgid ""
+"<_:author-1/>. <_:title-2/> In <_:title-3/>, <_:pubPlace-4/>: <_:publisher-5/"
+">, (<_:date-6/>)."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -6184,7 +6452,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#SASE-eg-32
 #: Source/Guidelines/en/BIB-Bibliography.xml:816
-msgid "<_:author-1/>. <_:title-2/>, <_:publisher-3/>/<_:publisher-4/>, rpt. <_:date-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:publisher-3/>/<_:publisher-4/>, rpt. <_:"
+"date-5/>, <_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6210,7 +6480,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#DSBACK-eg-83
 #: Source/Guidelines/en/BIB-Bibliography.xml:819
-msgid "<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>. (<_:date-4/>), <_:biblScope-5/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:pubPlace-3/>. (<_:date-4/>), <_:biblScope-5/"
+">."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6242,7 +6514,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-14
 #: Source/Guidelines/en/BIB-Bibliography.xml:825
-msgid "<_:author-1/>. Autograph manuscript of <_:title-2/>. In Pierpont Morgan MA 412 (<_:ptr-3/> 15)."
+msgid ""
+"<_:author-1/>. Autograph manuscript of <_:title-2/>. In Pierpont Morgan MA "
+"412 (<_:ptr-3/> 15)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6262,7 +6536,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:831
-msgid "The Faerie Queene: Disposed into twelue bookes, Fashioning XII. Morall vertues."
+msgid ""
+"The Faerie Queene: Disposed into twelue bookes, Fashioning XII. Morall "
+"vertues."
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -6292,7 +6568,12 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:837
-msgid "A survey of the cities of London and Westminster: containing the original, antiquity, increase, modern estate and government of those cities. Written at first in the year MDXCVIII. By John Stow, citizen and native of London. ... Now lastly, corrected, improved, and very much enlarged: ... by John Strype, ... In six books. ..."
+msgid ""
+"A survey of the cities of London and Westminster: containing the original, "
+"antiquity, increase, modern estate and government of those cities. Written "
+"at first in the year MDXCVIII. By John Stow, citizen and native of "
+"London. ... Now lastly, corrected, improved, and very much enlarged: ... by "
+"John Strype, ... In six books. ..."
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -6335,7 +6616,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:846
-msgid "Travels into Several Remote Nations of the World, in Four Parts. By Lemuel Gulliver..."
+msgid ""
+"Travels into Several Remote Nations of the World, in Four Parts. By Lemuel "
+"Gulliver..."
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -6376,7 +6659,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#HD-eg-swinb
 #: Source/Guidelines/en/BIB-Bibliography.xml:850
-msgid "<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>. (<_:date-5/>)"
+msgid ""
+"<_:author-1/>. <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/>. (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6407,7 +6691,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#CONARS-eg-110
 #: Source/Guidelines/en/BIB-Bibliography.xml:853
-msgid "<_:author-1/>. <_:title-2/>, <_:date-3/>, <_:pubPlace-4/>: <_:publisher-5/>, <_:biblScope-6/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>, <_:date-3/>, <_:pubPlace-4/>: <_:publisher-5/>, "
+"<_:biblScope-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -6443,7 +6729,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#NDDATEA-eg-169
 #: Source/Guidelines/en/BIB-Bibliography.xml:856
-msgid "<_:editor-1/> and <_:editor-2/> eds. <_:title-3/>, <_:series-4/>, <_:biblScope-5/>."
+msgid ""
+"<_:editor-1/> and <_:editor-2/> eds. <_:title-3/>, <_:series-4/>, <_:"
+"biblScope-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6453,7 +6741,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:863
-msgid "The Cold Tearme or, The Frozen age, Or, The Metamorphosis of the Riuer of Thames."
+msgid ""
+"The Cold Tearme or, The Frozen age, Or, The Metamorphosis of the Riuer of "
+"Thames."
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -6537,7 +6827,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COHQQ-eg-31
 #: Source/Guidelines/en/BIB-Bibliography.xml:873
-msgid "<_:author-1/> <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)."
+msgid ""
+"<_:author-1/> <_:title-2/>. <_:pubPlace-3/>: <_:publisher-4/> (<_:date-5/>)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6587,7 +6878,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#COBITY-eg-240
 #: Source/Guidelines/en/BIB-Bibliography.xml:883
-msgid "<_:author-1/>, <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>. (<_:date-5/>)"
+msgid ""
+"<_:author-1/>, <_:title-2/>, <_:pubPlace-3/>: <_:publisher-4/>. (<_:date-5/>)"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -6640,7 +6932,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#MENTIOND-eg-1
 #: Source/Guidelines/en/BIB-Bibliography.xml:889
-msgid "<_:author-1/>. <_:title-2/>: <_:date-3/>. <_:idno-4/>, <_:biblScope-5/>. Available from <_:ptr-6/> and transcribed at <_:ptr-7/>."
+msgid ""
+"<_:author-1/>. <_:title-2/>: <_:date-3/>. <_:idno-4/>, <_:biblScope-5/>. "
+"Available from <_:ptr-6/> and transcribed at <_:ptr-7/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6682,7 +6976,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#PH-eg-13
 #: Source/Guidelines/en/BIB-Bibliography.xml:903
-msgid "<_:title-1/> recto of folio 5 of the unique manuscript of the Elder Edda. Codex Regius, ed. L. F. A. Wimmer and F. Jónsson (Copenhagen 1891)."
+msgid ""
+"<_:title-1/> recto of folio 5 of the unique manuscript of the Elder Edda. "
+"Codex Regius, ed. L. F. A. Wimmer and F. Jónsson (Copenhagen 1891)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6702,7 +6998,9 @@ msgstr ""
 
 #. (itstool) path: bibl/publisher
 #: Source/Guidelines/en/BIB-Bibliography.xml:909
-msgid "Brown University Steering Committee on Slavery and Justice: Repository of Historical Documents."
+msgid ""
+"Brown University Steering Committee on Slavery and Justice: Repository of "
+"Historical Documents."
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -6789,7 +7087,10 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#WHITMS1
 #: Source/Guidelines/en/BIB-Bibliography.xml:921
-msgid "\"[I am a curse]\" in <_:title-1/>, Collection MSS3829, part of the Papers of Walt Whitman, Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia."
+msgid ""
+"\"[I am a curse]\" in <_:title-1/>, Collection MSS3829, part of the Papers "
+"of Walt Whitman, Clifton Waller Barrett Library of American Literature, "
+"Albert and Shirley Small Special Collections Library, University of Virginia."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -6800,7 +7101,13 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#WHITMS2
 #: Source/Guidelines/en/BIB-Bibliography.xml:924
-msgid "<_:title-1/> Single leaf of Notes for a poem about night \"visions,\" possibly related to the untitled 1855 poem that Whitman eventually titled \"The Sleepers.\" Fragments of an unidentified newspaper clipping about the Puget Sound area have been pasted to the leaf. The Trent Collection of Walt Whitman Manuscripts, Duke University Rare Book, Manuscript, and Special Collections Library. <_:ptr-2/>"
+msgid ""
+"<_:title-1/> Single leaf of Notes for a poem about night \"visions,\" "
+"possibly related to the untitled 1855 poem that Whitman eventually titled "
+"\"The Sleepers.\" Fragments of an unidentified newspaper clipping about the "
+"Puget Sound area have been pasted to the leaf. The Trent Collection of Walt "
+"Whitman Manuscripts, Duke University Rare Book, Manuscript, and Special "
+"Collections Library. <_:ptr-2/>"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6835,7 +7142,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:936
-msgid "Principles of art history: the problem of the development of style in later art."
+msgid ""
+"Principles of art history: the problem of the development of style in later "
+"art."
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -6846,7 +7155,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#NOTE-eg
 #: Source/Guidelines/en/BIB-Bibliography.xml:934
-msgid "<_:author-1/>, trans. <_:editor-2/> (<_:date-3/>). <_:title-4/>. Originally published as <_:title-5/> (1915)"
+msgid ""
+"<_:author-1/>, trans. <_:editor-2/> (<_:date-3/>). <_:title-4/>. Originally "
+"published as <_:title-5/> (1915)"
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -6979,7 +7290,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#WD-VERT-IND
 #: Source/Guidelines/en/BIB-Bibliography.xml:955
-msgid "<_:author-1/>. <_:date-2/> <_:title-3/>. <_:title-4/> <_:edition-5/>. <_:title-6/>. <_:pubPlace-7/>:<_:publisher-8/> <_:biblScope-9/>"
+msgid ""
+"<_:author-1/>. <_:date-2/> <_:title-3/>. <_:title-4/> <_:edition-5/>. <_:"
+"title-6/>. <_:pubPlace-7/>:<_:publisher-8/> <_:biblScope-9/>"
 msgstr ""
 
 #. (itstool) path: bibl/title
@@ -7190,7 +7503,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#fr-ex-Angl
 #: Source/Guidelines/en/BIB-Bibliography.xml:983
-msgid "<_:author-1/> et <_:author-2/>, <_:title-3/>, <_:title-4/>, <_:num-5/>, <_:date-6/>."
+msgid ""
+"<_:author-1/> et <_:author-2/>, <_:title-3/>, <_:title-4/>, <_:num-5/>, <_:"
+"date-6/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -7360,7 +7675,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#fr-ex-Babel
 #: Source/Guidelines/en/BIB-Bibliography.xml:987
-msgid "<_:author-1/> et <_:author-2/> (dir. de collection), <_:title-3/>, <_:publisher-4/>,<_:date-5/>."
+msgid ""
+"<_:author-1/> et <_:author-2/> (dir. de collection), <_:title-3/>, <_:"
+"publisher-4/>,<_:date-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -7498,7 +7815,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#fr-ex-Becque-ee
 #: Source/Guidelines/en/BIB-Bibliography.xml:1005
-msgid "<_:author-1/>, <_:title-2/>. <_:ref-3/> par l'<_:editor-4/> et le <_:editor-5/>, d'après l'édition de Fasquelle (Paris, 1922)."
+msgid ""
+"<_:author-1/>, <_:title-2/>. <_:ref-3/> par l'<_:editor-4/> et le <_:"
+"editor-5/>, d'après l'édition de Fasquelle (Paris, 1922)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -7534,7 +7853,8 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1014
-msgid "Bibliographie dans le cadre de la semaine italienne du 11 au 18 mars 2006"
+msgid ""
+"Bibliographie dans le cadre de la semaine italienne du 11 au 18 mars 2006"
 msgstr ""
 
 #. (itstool) path: bibl/ref
@@ -7582,7 +7902,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1019
-msgid "Projet de description des reliures remarquables de la Réserve des livres rares selon le modèle de la TEI manuscrits"
+msgid ""
+"Projet de description des reliures remarquables de la Réserve des livres "
+"rares selon le modèle de la TEI manuscrits"
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -7873,7 +8195,8 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1067
-msgid "Fleurs, fruits et feuillages choisis de l'île de Java peints d'après nature"
+msgid ""
+"Fleurs, fruits et feuillages choisis de l'île de Java peints d'après nature"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
@@ -7889,7 +8212,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#fr-ex-Fleurs
 #: Source/Guidelines/en/BIB-Bibliography.xml:1067
-msgid "<_:author-1/><_:title-2/>, troisième édition par <_:publisher-3/>, Bruxelles, <_:date-4/>."
+msgid ""
+"<_:author-1/><_:title-2/>, troisième édition par <_:publisher-3/>, "
+"Bruxelles, <_:date-4/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -7960,7 +8285,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1078
-msgid "Dictionnaire de l'ancienne langue française et de tous ses dialectes du IXe au XVe siècle"
+msgid ""
+"Dictionnaire de l'ancienne langue française et de tous ses dialectes du IXe "
+"au XVe siècle"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -8077,7 +8404,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1098
-msgid "Hydraulique fluviale. Tome 16, Écoulement et phénomènes de transport dans les canaux à géométrie simple"
+msgid ""
+"Hydraulique fluviale. Tome 16, Écoulement et phénomènes de transport dans "
+"les canaux à géométrie simple"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -8111,7 +8440,9 @@ msgstr ""
 
 #. (itstool) path: title/ref
 #: Source/Guidelines/en/BIB-Bibliography.xml:1104
-msgid "Neige et glaciers ; notes prises au cours de géologie de la Faculté des Sciences de Grenoble par M. Alamelle"
+msgid ""
+"Neige et glaciers ; notes prises au cours de géologie de la Faculté des "
+"Sciences de Grenoble par M. Alamelle"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -8176,7 +8507,9 @@ msgstr ""
 
 #. (itstool) path: title/ref
 #: Source/Guidelines/en/BIB-Bibliography.xml:1114
-msgid "Manuel d’encodage XML-TEI étendu des transcriptions de manuscrits dans le projet BFM-Manuscrits"
+msgid ""
+"Manuel d’encodage XML-TEI étendu des transcriptions de manuscrits dans le "
+"projet BFM-Manuscrits"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -8316,7 +8649,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1133
-msgid "Mélanges de linguistique française et de philologie et littérature médiévales offerts à Monsieur Paul Imbs"
+msgid ""
+"Mélanges de linguistique française et de philologie et littérature "
+"médiévales offerts à Monsieur Paul Imbs"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -8327,7 +8662,8 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#fr-ex-Melanges_Imbs
 #: Source/Guidelines/en/BIB-Bibliography.xml:1132
-msgid "<_:author-1/>, <_:author-2/> et <_:author-3/>, <_:title-4/>, <_:date-5/>."
+msgid ""
+"<_:author-1/>, <_:author-2/> et <_:author-3/>, <_:title-4/>, <_:date-5/>."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -8668,7 +9004,10 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1183
-msgid "Le Sanctoral du lectionnaire de l'office dominicain (ms. Rome, Sainte-Sabine XIV L 1, f.142r et 189r-230v, Ecclesiasticum officium secundum ordinem fratrum praedicatorum)"
+msgid ""
+"Le Sanctoral du lectionnaire de l'office dominicain (ms. Rome, Sainte-Sabine "
+"XIV L 1, f.142r et 189r-230v, Ecclesiasticum officium secundum ordinem "
+"fratrum praedicatorum)"
 msgstr ""
 
 #. (itstool) path: bibl/editor
@@ -8684,7 +9023,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#fr-ex-Sanctoral-ee
 #: Source/Guidelines/en/BIB-Bibliography.xml:1183
-msgid "<_:title-1/>, <_:ref-2/> par l'<_:editor-3/>, d'après l'édition d'<_:editor-4/> (Paris : Ecole nationale des chartes, 2007)."
+msgid ""
+"<_:title-1/>, <_:ref-2/> par l'<_:editor-3/>, d'après l'édition d'<_:"
+"editor-4/> (Paris : Ecole nationale des chartes, 2007)."
 msgstr ""
 
 #. (itstool) path: bibl/author
@@ -8709,7 +9050,9 @@ msgstr ""
 
 #. (itstool) path: title/ref
 #: Source/Guidelines/en/BIB-Bibliography.xml:1191
-msgid "La TEI simplifiée, une introduction au codage des textes électroniques en vue de leur échange -- version de travail"
+msgid ""
+"La TEI simplifiée, une introduction au codage des textes électroniques en "
+"vue de leur échange -- version de travail"
 msgstr ""
 
 #. (itstool) path: bibl/date
@@ -8918,7 +9261,9 @@ msgstr ""
 
 #. (itstool) path: bibl/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1229
-msgid "Principaux manuscrits latins et français conservés dans la Bibliothèque impériale et dans celle de l'Ermitage à Saint-Pétersbourg"
+msgid ""
+"Principaux manuscrits latins et français conservés dans la Bibliothèque "
+"impériale et dans celle de l'Ermitage à Saint-Pétersbourg"
 msgstr ""
 
 #. (itstool) path: bibl/ref
@@ -8955,7 +9300,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#rab3
 #: Source/Guidelines/en/BIB-Bibliography.xml:1233
-msgid "<_:author-1/> <_:title-2/> (<_:date-3/>), adapted from the website at <_:ptr-4/>"
+msgid ""
+"<_:author-1/> <_:title-2/> (<_:date-3/>), adapted from the website at <_:"
+"ptr-4/>"
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -9217,7 +9564,9 @@ msgstr ""
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: BIB-Bibliography.xml#biblzh-tw_n47
 #: Source/Guidelines/en/BIB-Bibliography.xml:1283
-msgid "《台灣叢書》，伊能嘉矩著，藏於國立台灣大學圖書館。(http://catalog.ndap.org.tw/?URN=2155366 (Aug 2008))"
+msgid ""
+"《台灣叢書》，伊能嘉矩著，藏於國立台灣大學圖書館。(http://catalog.ndap.org."
+"tw/?URN=2155366 (Aug 2008))"
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
@@ -10373,7 +10722,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:1859
-msgid "Refining our notion of what text really is: the problem of overlapping hierarchies"
+msgid ""
+"Refining our notion of what text really is: the problem of overlapping "
+"hierarchies"
 msgstr ""
 
 #. (itstool) path: editor/forename
@@ -10669,7 +11020,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2023
-msgid "Computation into Criticism: A Study of Jane Austen's Novel and an Experiment in Method"
+msgid ""
+"Computation into Criticism: A Study of Jane Austen's Novel and an Experiment "
+"in Method"
 msgstr ""
 
 #. (itstool) path: editor/forename
@@ -10723,7 +11076,8 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2054
-msgid "Ein internationales Handbuch zur Wissenschaft von Sprache und Gesellschaft"
+msgid ""
+"Ein internationales Handbuch zur Wissenschaft von Sprache und Gesellschaft"
 msgstr ""
 
 #. (itstool) path: imprint/publisher
@@ -11014,12 +11368,16 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2235
-msgid "Fourth Annual Conference of the U[niversity of] W[aterloo] Centre for the New Oxford English Dictionary"
+msgid ""
+"Fourth Annual Conference of the U[niversity of] W[aterloo] Centre for the "
+"New Oxford English Dictionary"
 msgstr ""
 
 #. (itstool) path: monogr/meeting
 #: Source/Guidelines/en/BIB-Bibliography.xml:2237
-msgid "Fourth Annual Conference of the U[niversity of] W[aterloo] Centre for the New Oxford English Dictionary, October 26-28, 1988, Waterloo, Canada"
+msgid ""
+"Fourth Annual Conference of the U[niversity of] W[aterloo] Centre for the "
+"New Oxford English Dictionary, October 26-28, 1988, Waterloo, Canada"
 msgstr ""
 
 #. (itstool) path: imprint/pubPlace
@@ -11171,7 +11529,9 @@ msgstr ""
 
 #. (itstool) path: monogr/meeting
 #: Source/Guidelines/en/BIB-Bibliography.xml:2364
-msgid "Fifth EURALEX International Congress, EURALEX'92, University of Tampere, Finland"
+msgid ""
+"Fifth EURALEX International Congress, EURALEX'92, University of Tampere, "
+"Finland"
 msgstr ""
 
 #. (itstool) path: author/forename
@@ -11419,7 +11779,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2507
-msgid "Choice of Grammatical Word Class without Global Syntactic Analysis: Tagging Words in the LOB Corpus"
+msgid ""
+"Choice of Grammatical Word Class without Global Syntactic Analysis: Tagging "
+"Words in the LOB Corpus"
 msgstr ""
 
 #. (itstool) path: imprint/biblScope
@@ -11568,7 +11930,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2652
-msgid "Multiple Informationsstrukturierung mit Auszeichnungssprachen. XML-basierte Methoden und deren Nutzen für die Sprachtechnologie"
+msgid ""
+"Multiple Informationsstrukturierung mit Auszeichnungssprachen. XML-basierte "
+"Methoden und deren Nutzen für die Sprachtechnologie"
 msgstr ""
 
 #. (itstool) path: biblStruct/note
@@ -11887,7 +12251,8 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2873
-msgid "BS 5605:1990: Recommendations for Citing and Referencing Published Material"
+msgid ""
+"BS 5605:1990: Recommendations for Citing and Referencing Published Material"
 msgstr ""
 
 #. (itstool) path: monogr/title
@@ -11912,7 +12277,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2900
-msgid "Regeln für die alphabetische Katalogisierung in wissenschaftlichen Bibliotheken RAK-WB"
+msgid ""
+"Regeln für die alphabetische Katalogisierung in wissenschaftlichen "
+"Bibliotheken RAK-WB"
 msgstr ""
 
 #. (itstool) path: monogr/author
@@ -11924,7 +12291,10 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2920
-msgid "ISO 12620:2009: Terminology and other language and content resources – Specification of data categories and management of a Data Category Registry for language resources"
+msgid ""
+"ISO 12620:2009: Terminology and other language and content resources – "
+"Specification of data categories and management of a Data Category Registry "
+"for language resources"
 msgstr ""
 
 #. (itstool) path: imprint/date
@@ -11934,7 +12304,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2931
-msgid "ISO 19757-3:2006: Information technology – Document Schema Definition Languages (DSDL) – Part 3: Rule-based validation – Schematron"
+msgid ""
+"ISO 19757-3:2006: Information technology – Document Schema Definition "
+"Languages (DSDL) – Part 3: Rule-based validation – Schematron"
 msgstr ""
 
 #. (itstool) path: monogr/author
@@ -11985,17 +12357,25 @@ msgstr ""
 #. (itstool) path: monogr/author
 #: Source/Guidelines/en/BIB-Bibliography.xml:2972
 #: Source/Guidelines/en/BIB-Bibliography.xml:2982
-msgid "Федеральное агентство по техническому регулированию и метрологии (РОССТАНДАРТ)"
+msgid ""
+"Федеральное агентство по техническому регулированию и метрологии "
+"(РОССТАНДАРТ)"
 msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2973
-msgid "ГОСТ Р 7.0.5-2008: Система стандартов по информации, библиотечному и издательскому делу. Библиографическая ссылка. Общие требования и правила составления"
+msgid ""
+"ГОСТ Р 7.0.5-2008: Система стандартов по информации, библиотечному и "
+"издательскому делу. Библиографическая ссылка. Общие требования и правила "
+"составления"
 msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:2983
-msgid "ГОСТ 7.1—2003. Система стандартов по информации, библиотечному и издательскому делу. Библиографическая запись. Библоиграфическое описание. Общие требования и правила составления"
+msgid ""
+"ГОСТ 7.1—2003. Система стандартов по информации, библиотечному и "
+"издательскому делу. Библиографическая запись. Библоиграфическое описание. "
+"Общие требования и правила составления"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -12005,7 +12385,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/BIB-Bibliography.xml:2994
-msgid "The following lists of readings in markup theory and the TEI derive from work originally prepared by Susan Schreibman and Kevin Hawkins for the TEI Education Special Interest Group, recoded in TEI P5 by Sabine Krott and Eva Radermacher. They should be regarded only as a snapshot of work in progress, to which further contributions and corrections are welcomed (see further <_:ptr-1/>)."
+msgid ""
+"The following lists of readings in markup theory and the TEI derive from "
+"work originally prepared by Susan Schreibman and Kevin Hawkins for the TEI "
+"Education Special Interest Group, recoded in TEI P5 by Sabine Krott and Eva "
+"Radermacher. They should be regarded only as a snapshot of work in progress, "
+"to which further contributions and corrections are welcomed (see further <_:"
+"ptr-1/>)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -12153,7 +12539,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3131
-msgid "Modelling Historical Data: Towards a Standard for Encoding and Exchanging Machine-readable Texts"
+msgid ""
+"Modelling Historical Data: Towards a Standard for Encoding and Exchanging "
+"Machine-readable Texts"
 msgstr ""
 
 #. (itstool) path: imprint/pubPlace
@@ -12163,7 +12551,9 @@ msgstr ""
 
 #. (itstool) path: imprint/publisher
 #: Source/Guidelines/en/BIB-Bibliography.xml:3135
-msgid "Max-Planck-Institut für Geschichte In Kommission bei Scripta Mercaturae Verlag"
+msgid ""
+"Max-Planck-Institut für Geschichte In Kommission bei Scripta Mercaturae "
+"Verlag"
 msgstr ""
 
 #. (itstool) path: imprint/biblScope
@@ -12258,12 +12648,16 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3220
-msgid "Is Humanities Computing an Academic Discipline? or, Why Humanities Computing Matters"
+msgid ""
+"Is Humanities Computing an Academic Discipline? or, Why Humanities Computing "
+"Matters"
 msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:3229
-msgid "Presented at an interdisciplinary seminar at the Institute for Advanced Technology in the Humanities, University of Virginia, November 1999."
+msgid ""
+"Presented at an interdisciplinary seminar at the Institute for Advanced "
+"Technology in the Humanities, University of Virginia, November 1999."
 msgstr ""
 
 #. (itstool) path: analytic/title
@@ -12334,7 +12728,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3272
-msgid "Maschinelle Verarbeitung Altdeutscher Texte V (Beiträge zum Fünften Internationalen Symposion, Würzburg, 4–6 März 1997)"
+msgid ""
+"Maschinelle Verarbeitung Altdeutscher Texte V (Beiträge zum Fünften "
+"Internationalen Symposion, Würzburg, 4–6 März 1997)"
 msgstr ""
 
 #. (itstool) path: author/forename
@@ -12355,7 +12751,8 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3295
-msgid "Vers un Standard Européen de Description des Manuscrits: Le Projet Master"
+msgid ""
+"Vers un Standard Européen de Description des Manuscrits: Le Projet Master"
 msgstr ""
 
 #. (itstool) path: monogr/title
@@ -12457,7 +12854,8 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3378
-msgid "Dalle «Due Culture» Alla Cultura Digitale: La Nascita del Demotico Digitale"
+msgid ""
+"Dalle «Due Culture» Alla Cultura Digitale: La Nascita del Demotico Digitale"
 msgstr ""
 
 #. (itstool) path: respStmt/resp
@@ -12707,7 +13105,11 @@ msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:3537
-msgid "This paper was proceeded by reports at the Joint Annual Conference of the Association for Computers and the Humanities and the Association for Literary and Linguistic Computing in 1999 (Charlottesville, Virginia) and Extreme Markup Languages 2000 (Montreal, Canada)"
+msgid ""
+"This paper was proceeded by reports at the Joint Annual Conference of the "
+"Association for Computers and the Humanities and the Association for "
+"Literary and Linguistic Computing in 1999 (Charlottesville, Virginia) and "
+"Extreme Markup Languages 2000 (Montreal, Canada)"
 msgstr ""
 
 #. (itstool) path: author/forename
@@ -12737,7 +13139,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3555
-msgid "Proceedings of the 1st International Symposium on Information and Communication Technologies"
+msgid ""
+"Proceedings of the 1st International Symposium on Information and "
+"Communication Technologies"
 msgstr ""
 
 #. (itstool) path: imprint/pubPlace
@@ -12762,7 +13166,9 @@ msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:3568
-msgid "This paper was presented in a session entitled \"Electronic Document Technology.\""
+msgid ""
+"This paper was presented in a session entitled \"Electronic Document "
+"Technology.\""
 msgstr ""
 
 #. (itstool) path: author/surname
@@ -12921,7 +13327,9 @@ msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:3700
-msgid "Republished (<_:ptr-1/>) as a \"classic reprint\" with invited commentary and authors' replies in the ACM/SIGDOC"
+msgid ""
+"Republished (<_:ptr-1/>) as a \"classic reprint\" with invited commentary "
+"and authors' replies in the ACM/SIGDOC"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -13078,7 +13486,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3815
-msgid "What is Text? A Debate on the Philosophical and Epistemological Nature of Text in the Light of Humanities Computing Research"
+msgid ""
+"What is Text? A Debate on the Philosophical and Epistemological Nature of "
+"Text in the Light of Humanities Computing Research"
 msgstr ""
 
 #. (itstool) path: biblStruct/note
@@ -13126,7 +13536,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:3864
-msgid "Toward a Machine-Readable Version of Wittgenstein's Nachlaß: Some Editorial Problems"
+msgid ""
+"Toward a Machine-Readable Version of Wittgenstein's Nachlaß: Some Editorial "
+"Problems"
 msgstr ""
 
 #. (itstool) path: editor/forename
@@ -13473,7 +13885,10 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4140
-msgid "Culture and Value: Philosophy and the Cultural Sciences. Beiträge des 18. Internationalen Wittgenstein Symposiums 13–20. August 1995 Kirchberg am Wechsel"
+msgid ""
+"Culture and Value: Philosophy and the Cultural Sciences. Beiträge des 18. "
+"Internationalen Wittgenstein Symposiums 13–20. August 1995 Kirchberg am "
+"Wechsel"
 msgstr ""
 
 #. (itstool) path: imprint/pubPlace
@@ -13541,7 +13956,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4197
-msgid "Computers and Teaching in the Humanities: Selected Papers from the CATH94 Conference held in Glasgow University September 9th-12th 1994"
+msgid ""
+"Computers and Teaching in the Humanities: Selected Papers from the CATH94 "
+"Conference held in Glasgow University September 9th-12th 1994"
 msgstr ""
 
 #. (itstool) path: imprint/publisher
@@ -13561,7 +13978,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4212
-msgid "Suggestive Markup: Explicit Relationships in Descriptive and Prescriptive DTDs"
+msgid ""
+"Suggestive Markup: Explicit Relationships in Descriptive and Prescriptive "
+"DTDs"
 msgstr ""
 
 #. (itstool) path: editor/forename
@@ -13616,7 +14035,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4250
-msgid "From Data Representation to Data Model: Meta-Semantic Issues in the Evolution of SGML"
+msgid ""
+"From Data Representation to Data Model: Meta-Semantic Issues in the "
+"Evolution of SGML"
 msgstr ""
 
 #. (itstool) path: imprint/biblScope
@@ -13626,12 +14047,16 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4282
-msgid "Refining our Notion of What Text Really Is: The Problem of Overlapping Hierarchies"
+msgid ""
+"Refining our Notion of What Text Really Is: The Problem of Overlapping "
+"Hierarchies"
 msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4294
-msgid "Research in Humanities Computing 4: Selected Papers from the 1992 ALLC/ACH Conference"
+msgid ""
+"Research in Humanities Computing 4: Selected Papers from the 1992 ALLC/ACH "
+"Conference"
 msgstr ""
 
 #. (itstool) path: imprint/biblScope
@@ -13755,7 +14180,8 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4459
-msgid "Proceedings of the 3rd ACM/IEEE–CS Joint Conference on Digital Libraries"
+msgid ""
+"Proceedings of the 3rd ACM/IEEE–CS Joint Conference on Digital Libraries"
 msgstr ""
 
 #. (itstool) path: imprint/pubPlace
@@ -13890,7 +14316,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4587
-msgid "Formality Considered Harmful: Experiences, Emerging Themes, and Directions on the Use of Formal Representations in Interactive Systems"
+msgid ""
+"Formality Considered Harmful: Experiences, Emerging Themes, and Directions "
+"on the Use of Formal Representations in Interactive Systems"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -13987,17 +14415,23 @@ msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:4744
-msgid "Lecture I in the eHumanities NEH Lecture Series on Technology &amp; the Humanities, Washington, DC, April 3, 2001"
+msgid ""
+"Lecture I in the eHumanities NEH Lecture Series on Technology &amp; the "
+"Humanities, Washington, DC, April 3, 2001"
 msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4754
-msgid "Scholarly Primitives: What Methods Do Humanities Researchers Have in Common, How Might Our Tools Reflect This?"
+msgid ""
+"Scholarly Primitives: What Methods Do Humanities Researchers Have in Common, "
+"How Might Our Tools Reflect This?"
 msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:4761
-msgid "Part of a Symposium on \"Humanities Computing: Formal Methods, Experimental Practice\" sponsored by King's College, London"
+msgid ""
+"Part of a Symposium on \"Humanities Computing: Formal Methods, Experimental "
+"Practice\" sponsored by King's College, London"
 msgstr ""
 
 #. (itstool) path: author/forename
@@ -14059,7 +14493,9 @@ msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:4804
-msgid "Circular 1086. Florida Cooperative Extension Service, Institute of Food and Agricultural Sciences, University of Florida"
+msgid ""
+"Circular 1086. Florida Cooperative Extension Service, Institute of Food and "
+"Agricultural Sciences, University of Florida"
 msgstr ""
 
 #. (itstool) path: author/forename
@@ -14182,7 +14618,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:4911
-msgid "Electronic Texts and the Text Encoding Initiative. A Special Issue of TEXT Technology"
+msgid ""
+"Electronic Texts and the Text Encoding Initiative. A Special Issue of TEXT "
+"Technology"
 msgstr ""
 
 #. (itstool) path: imprint/biblScope
@@ -14373,17 +14811,24 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5082
-msgid "The Text Encoding Initiative's Recommendations for the Encoding of Language Corpora: Theory and Practice"
+msgid ""
+"The Text Encoding Initiative's Recommendations for the Encoding of Language "
+"Corpora: Theory and Practice"
 msgstr ""
 
 #. (itstool) path: biblStruct/note
 #: Source/Guidelines/en/BIB-Bibliography.xml:5089
-msgid "Prepared for a seminar on Etiquetación y extracción de información de grandes corpus textuales within the Curso Industrias de la Lengua (14–18 de Julio de 1997). Sponsored by the Fundacion Duques de Soria."
+msgid ""
+"Prepared for a seminar on Etiquetación y extracción de información de "
+"grandes corpus textuales within the Curso Industrias de la Lengua (14–18 de "
+"Julio de 1997). Sponsored by the Fundacion Duques de Soria."
 msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5103
-msgid "Putting Our Headers Together: A Report on the TEI Header Meeting 12 September 1997"
+msgid ""
+"Putting Our Headers Together: A Report on the TEI Header Meeting 12 "
+"September 1997"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -14417,7 +14862,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5120
-msgid "An Agreement to Establish a Consortium for the Maintenance of the Text Encoding Initiative"
+msgid ""
+"An Agreement to Establish a Consortium for the Maintenance of the Text "
+"Encoding Initiative"
 msgstr ""
 
 #. (itstool) path: imprint/date
@@ -14437,7 +14884,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5146
-msgid "Il Manuale TEI Lite: Introduzione Alla Codifica Elettronica Dei Testi Letterari"
+msgid ""
+"Il Manuale TEI Lite: Introduzione Alla Codifica Elettronica Dei Testi "
+"Letterari"
 msgstr ""
 
 #. (itstool) path: imprint/publisher
@@ -14482,7 +14931,8 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5178
-msgid "The Application of SGML/TEI to the Processing of Complex, Multi-lingual Text"
+msgid ""
+"The Application of SGML/TEI to the Processing of Complex, Multi-lingual Text"
 msgstr ""
 
 #. (itstool) path: monogr/note
@@ -14508,7 +14958,9 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5192
-msgid "TEI and XML in Digital Libraries: Meeting June 30 and July 1, 1998, Library of Congress, Summary/Proceedings"
+msgid ""
+"TEI and XML in Digital Libraries: Meeting June 30 and July 1, 1998, Library "
+"of Congress, Summary/Proceedings"
 msgstr ""
 
 #. (itstool) path: monogr/title
@@ -14548,7 +15000,8 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5230
-msgid "The Freer Biblical Manuscripts: Fresh Studies of an American Treasure Trove"
+msgid ""
+"The Freer Biblical Manuscripts: Fresh Studies of an American Treasure Trove"
 msgstr ""
 
 #. (itstool) path: imprint/pubPlace
@@ -14643,7 +15096,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5290
-msgid "Descriptive Metadata Strategy for TEI Headers: A University of Michigan Library Case Study"
+msgid ""
+"Descriptive Metadata Strategy for TEI Headers: A University of Michigan "
+"Library Case Study"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -14678,7 +15133,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5324
-msgid "Delivering Electronic Texts Over the Web: The Current and Planned Practices of the Oxford Text Archive"
+msgid ""
+"Delivering Electronic Texts Over the Web: The Current and Planned Practices "
+"of the Oxford Text Archive"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -14693,7 +15150,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5348
-msgid "The Text Encoding Initiative at 10: Not Just an Interchange Format Anymore — But a New Research Community"
+msgid ""
+"The Text Encoding Initiative at 10: Not Just an Interchange Format Anymore — "
+"But a New Research Community"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -14778,12 +15237,15 @@ msgstr ""
 
 #. (itstool) path: monogr/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5467
-msgid "The Electronic Text Center Introduction to TEI and Guide to Document Preparation"
+msgid ""
+"The Electronic Text Center Introduction to TEI and Guide to Document "
+"Preparation"
 msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5481
-msgid "Using Architectural Forms to Map TEI Data into an Object-Oriented Database"
+msgid ""
+"Using Architectural Forms to Map TEI Data into an Object-Oriented Database"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -14818,7 +15280,9 @@ msgstr ""
 
 #. (itstool) path: analytic/title
 #: Source/Guidelines/en/BIB-Bibliography.xml:5520
-msgid "Text in the Electronic Age: Textual Study and Text Encoding, with Examples from Medieval Texts"
+msgid ""
+"Text in the Electronic Age: Textual Study and Text Encoding, with Examples "
+"from Medieval Texts"
 msgstr ""
 
 #. (itstool) path: analytic/idno
@@ -14858,7 +15322,9 @@ msgstr ""
 
 #. (itstool) path: imprint/publisher
 #: Source/Guidelines/en/BIB-Bibliography.xml:5551
-msgid "University of Illinois at Urbana-Champaign, Graduate School of Library and Information Science"
+msgid ""
+"University of Illinois at Urbana-Champaign, Graduate School of Library and "
+"Information Science"
 msgstr ""
 
 #. (itstool) path: imprint/biblScope
@@ -14910,4 +15376,3 @@ msgstr ""
 #: Source/Guidelines/en/BIB-Bibliography.xml:5613
 msgid "RFC 4151"
 msgstr ""
-

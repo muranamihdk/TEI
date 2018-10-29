@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"POT-Creation-Date: 2018-10-29 21:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,17 +19,34 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:14
-msgid "This module is intended for use when encoding printed dramatic texts, screen plays or radio scripts, and written transcriptions of any other form of performance."
+msgid ""
+"This module is intended for use when encoding printed dramatic texts, screen "
+"plays or radio scripts, and written transcriptions of any other form of "
+"performance."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:18
-msgid "Section <_:ptr-1/> discusses elements such as cast lists, which can appear only in the front or back matter of printed dramatic texts. Section <_:ptr-2/> discusses the structural components of performance texts: these include major structural divisions such as acts and scenes (section <_:ptr-3/>); individual speeches (section <_:ptr-4/>); groups of speeches (section <_:ptr-5/>); stage directions (section <_:ptr-6/>); and the elements making up individual speeches (section <_:ptr-7/>). Section <_:ptr-8/> discusses ways of encoding units which cross the simple hierarchic structure so far defined, such as embedded songs or masques. Finally, section <_:ptr-9/> discusses a small number of additional elements characteristic of screen plays and radio or television scripts, as well as some elements for representing technical stage directions such as lighting or blocking."
+msgid ""
+"Section <_:ptr-1/> discusses elements such as cast lists, which can appear "
+"only in the front or back matter of printed dramatic texts. Section <_:ptr-2/"
+"> discusses the structural components of performance texts: these include "
+"major structural divisions such as acts and scenes (section <_:ptr-3/>); "
+"individual speeches (section <_:ptr-4/>); groups of speeches (section <_:"
+"ptr-5/>); stage directions (section <_:ptr-6/>); and the elements making up "
+"individual speeches (section <_:ptr-7/>). Section <_:ptr-8/> discusses ways "
+"of encoding units which cross the simple hierarchic structure so far "
+"defined, such as embedded songs or masques. Finally, section <_:ptr-9/> "
+"discusses a small number of additional elements characteristic of screen "
+"plays and radio or television scripts, as well as some elements for "
+"representing technical stage directions such as lighting or blocking."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:34
-msgid "The default structure for dramatic texts is similar to that defined by chapter <_:ptr-1/>, as further discussed in section <_:ptr-2/>."
+msgid ""
+"The default structure for dramatic texts is similar to that defined by "
+"chapter <_:ptr-1/>, as further discussed in section <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -43,7 +61,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:38
-msgid "Two element classes are used by this module. The <_:ident-1/> class supplies specialized elements which can appear only in the front or back matter of performance texts. The <_:ident-2/> class supplies a set of elements for stage directions and similar items such as camera movements, which can occur between or within speeches."
+msgid ""
+"Two element classes are used by this module. The <_:ident-1/> class supplies "
+"specialized elements which can appear only in the front or back matter of "
+"performance texts. The <_:ident-2/> class supplies a set of elements for "
+"stage directions and similar items such as camera movements, which can occur "
+"between or within speeches."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -69,7 +92,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:52
-msgid "In dramatic texts, as in all TEI-conformant documents, the header element is followed by a <_:gi-1/> element, which contains optional front and back matter, and either a <_:gi-2/> or else a <_:gi-3/> of nested <_:gi-4/> elements. For more information on these, see chapter <_:ptr-5/>."
+msgid ""
+"In dramatic texts, as in all TEI-conformant documents, the header element is "
+"followed by a <_:gi-1/> element, which contains optional front and back "
+"matter, and either a <_:gi-2/> or else a <_:gi-3/> of nested <_:gi-4/> "
+"elements. For more information on these, see chapter <_:ptr-5/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -84,7 +111,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:58
-msgid "The <_:gi-1/> and <_:gi-2/> elements are most likely to be of use when encoding preliminary materials in published performance texts. When the module defined by this chapter is included in a schema, the following additional elements not generally found in other forms of text become available as part of the front or back matter: <_:specList-3/>"
+msgid ""
+"The <_:gi-1/> and <_:gi-2/> elements are most likely to be of use when "
+"encoding preliminary materials in published performance texts. When the "
+"module defined by this chapter is included in a schema, the following "
+"additional elements not generally found in other forms of text become "
+"available as part of the front or back matter: <_:specList-3/>"
 msgstr ""
 
 #. (itstool) path: p/tag
@@ -99,7 +131,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:67
-msgid "Elements for encoding each of these specific kinds of front matter are discussed in the remainder of this section, in the order given above. In addition, the front matter of dramatic texts may include the same elements as that of any other kind of text, notably title pages and various kinds of text division, as discussed in section <_:ptr-1/>. The encoder may choose to ignore the specialized elements discussed in this section and instead use constructions of the type <_:tag-2/> or <_:tag-3/>."
+msgid ""
+"Elements for encoding each of these specific kinds of front matter are "
+"discussed in the remainder of this section, in the order given above. In "
+"addition, the front matter of dramatic texts may include the same elements "
+"as that of any other kind of text, notably title pages and various kinds of "
+"text division, as discussed in section <_:ptr-1/>. The encoder may choose to "
+"ignore the specialized elements discussed in this section and instead use "
+"constructions of the type <_:tag-2/> or <_:tag-3/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -124,7 +163,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:77
-msgid "Most other material in the front matter of a performance text will be marked with the default text structure elements described in chapter <_:ptr-1/>. For example, the title page, dedication, other commendatory material, preface, etc., in a printed text should be encoded using <_:gi-2/> or <_:gi-3/> elements, containing headings, paragraphs, and other core tags."
+msgid ""
+"Most other material in the front matter of a performance text will be marked "
+"with the default text structure elements described in chapter <_:ptr-1/>. "
+"For example, the title page, dedication, other commendatory material, "
+"preface, etc., in a printed text should be encoded using <_:gi-2/> or <_:"
+"gi-3/> elements, containing headings, paragraphs, and other core tags."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -133,7 +177,6 @@ msgid "The Set Element"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/DR-PerformanceTexts.xml:98
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:98
 msgid "set"
 msgstr ""
@@ -151,7 +194,9 @@ msgstr ""
 
 #. (itstool) path: set/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:105
-msgid "The action of the play is set in Chicago's Southside, sometime between World War II and the present."
+msgid ""
+"The action of the play is set in Chicago's Southside, sometime between World "
+"War II and the present."
 msgstr ""
 
 #. (itstool) path: docTitle/titlePart
@@ -171,12 +216,23 @@ msgstr ""
 
 #. (itstool) path: set/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:124
-msgid "The action, which opens in the beginning of the nineteenth century, and ends around the 1860s, takes place partly in Gudbrandsdalen, and on the mountains around it, partly on the coast of Morocco, in the desert of Sahara, in a madhouse at Cairo, at sea, etc."
+msgid ""
+"The action, which opens in the beginning of the nineteenth century, and ends "
+"around the 1860s, takes place partly in Gudbrandsdalen, and on the mountains "
+"around it, partly on the coast of Morocco, in the desert of Sahara, in a "
+"madhouse at Cairo, at sea, etc."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:92
-msgid "A special form of note describing the setting of a dramatic text (that is, the time and place of its action) is sometimes found in the front matter. <_:specList-1/> Descriptions of the setting may also appear as initial stage directions in the body of the play, but such descriptions should be marked as stage directions, not <_:gi-2/>. The <_:gi-3/> element should be used only where the description forms part of the front matter, as in the following examples: <_:egXML-4/> <_:egXML-5/>"
+msgid ""
+"A special form of note describing the setting of a dramatic text (that is, "
+"the time and place of its action) is sometimes found in the front matter. <_:"
+"specList-1/> Descriptions of the setting may also appear as initial stage "
+"directions in the body of the play, but such descriptions should be marked "
+"as stage directions, not <_:gi-2/>. The <_:gi-3/> element should be used "
+"only where the description forms part of the front matter, as in the "
+"following examples: <_:egXML-4/> <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -251,7 +307,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:140
-msgid "Many plays in the Western tradition include in their front matter a prologue, spoken by an actor, generally not in character. Similar speeches often also occur at the end of the play, as epilogues. The elements <_:gi-1/> and <_:gi-2/> are provided for the encoding of such features within the front or back matter, where appropriate. <_:specList-3/> A prologue may be encoded just like a distinct poem, as in the following example: <_:egXML-4/>"
+msgid ""
+"Many plays in the Western tradition include in their front matter a "
+"prologue, spoken by an actor, generally not in character. Similar speeches "
+"often also occur at the end of the play, as epilogues. The elements <_:gi-1/"
+"> and <_:gi-2/> are provided for the encoding of such features within the "
+"front or back matter, where appropriate. <_:specList-3/> A prologue may be "
+"encoded just like a distinct poem, as in the following example: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -325,7 +387,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:170
-msgid "A prologue or epilogue may also be encoded as a speech, using the <_:gi-1/> element described in section <_:ptr-2/>. This is particularly appropriate where stage directions, etc., are involved, as in the following example: <_:egXML-3/>"
+msgid ""
+"A prologue or epilogue may also be encoded as a speech, using the <_:gi-1/> "
+"element described in section <_:ptr-2/>. This is particularly appropriate "
+"where stage directions, etc., are involved, as in the following example: <_:"
+"egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/title
@@ -415,7 +481,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:197
-msgid "In cases where the prologue or epilogue is clearly a significant part of the dramatic action, it may be preferable to include it in the body of a text, rather than in the front or back matter. In such cases, the encoder (and theatrical tradition) will determine whether or not to regard it as a new scene or division, or simply the final speech in the play. In the First Folio version of Shakespeare's <_:title-1/>, for example, Prospero's final speech is clearly marked off as a distinct textual unit by the headings and layout of the page, and might therefore be encoded as back matter: <_:egXML-2/>"
+msgid ""
+"In cases where the prologue or epilogue is clearly a significant part of the "
+"dramatic action, it may be preferable to include it in the body of a text, "
+"rather than in the front or back matter. In such cases, the encoder (and "
+"theatrical tradition) will determine whether or not to regard it as a new "
+"scene or division, or simply the final speech in the play. In the First "
+"Folio version of Shakespeare's <_:title-1/>, for example, Prospero's final "
+"speech is clearly marked off as a distinct textual unit by the headings and "
+"layout of the page, and might therefore be encoded as back matter: <_:"
+"egXML-2/>"
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -450,7 +525,9 @@ msgstr ""
 
 #. (itstool) path: sp/l
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:247
-msgid "Be free and fare thou well. <_:stage-1/> Please you, draw near. <_:stage-2/> <_:note-3/>"
+msgid ""
+"Be free and fare thou well. <_:stage-1/> Please you, draw near. <_:stage-2/> "
+"<_:note-3/>"
 msgstr ""
 
 #. (itstool) path: sp/l
@@ -480,7 +557,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:241
-msgid "In many modern editions, the editors have chosen to regard Prospero's speech as a part of the preceding scene: <_:egXML-1/>"
+msgid ""
+"In many modern editions, the editors have chosen to regard Prospero's speech "
+"as a part of the preceding scene: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -497,12 +576,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:290
-msgid "Performance texts are not only printed in books to be read, they are also performed. It is common practice therefore to include within the front matter of a printed dramatic text some brief account of particular performances, using the following element: <_:specList-1/> The <_:gi-2/> element may be used to group any and all information relating to the actual performance of a play or screenplay, whether it specifies how the play should be performed in general or how it was performed in practice on some occasion."
+msgid ""
+"Performance texts are not only printed in books to be read, they are also "
+"performed. It is common practice therefore to include within the front "
+"matter of a printed dramatic text some brief account of particular "
+"performances, using the following element: <_:specList-1/> The <_:gi-2/> "
+"element may be used to group any and all information relating to the actual "
+"performance of a play or screenplay, whether it specifies how the play "
+"should be performed in general or how it was performed in practice on some "
+"occasion."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:300
-msgid "Performance information may include complex structures such as cast lists, or paragraphs describing the date and location of a performance, details about the setting portrayed in the performance and so forth. (See the discussion of these specialized structures in section <_:ptr-1/> above.) If information for more than one performance is being recorded, then more than one <_:gi-2/> element should be used, wherever possible."
+msgid ""
+"Performance information may include complex structures such as cast lists, "
+"or paragraphs describing the date and location of a performance, details "
+"about the setting portrayed in the performance and so forth. (See the "
+"discussion of these specialized structures in section <_:ptr-1/> above.) If "
+"information for more than one performance is being recorded, then more than "
+"one <_:gi-2/> element should be used, wherever possible."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -522,7 +615,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:307
-msgid "Names of persons, places, and dates of particular significance within the performance record may be explicitly marked using the general purpose <_:gi-1/>, <_:tag-2/> and <_:gi-3/> elements described in section <_:ptr-4/>. No particular elements for such features as stagehouses, directors, etc., are proposed at this time."
+msgid ""
+"Names of persons, places, and dates of particular significance within the "
+"performance record may be explicitly marked using the general purpose <_:"
+"gi-1/>, <_:tag-2/> and <_:gi-3/> elements described in section <_:ptr-4/>. "
+"No particular elements for such features as stagehouses, directors, etc., "
+"are proposed at this time."
 msgstr ""
 
 #. (itstool) path: performance/head
@@ -642,7 +740,8 @@ msgstr ""
 
 #. (itstool) path: performance/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:344
-msgid "Presented by <_:name-1/> and <_:name-2/> at the <_:rs-3/> on <_:date-4/>."
+msgid ""
+"Presented by <_:name-1/> and <_:name-2/> at the <_:rs-3/> on <_:date-4/>."
 msgstr ""
 
 #. (itstool) path: p/rs
@@ -667,7 +766,9 @@ msgstr ""
 
 #. (itstool) path: performance/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:356
-msgid "La Machine Infernale a été représentée pour la première fois au <_:rs-1/> <_:rs-2/> <_:date-3/>, avec les décors et les costumes de <_:name-4/> ..."
+msgid ""
+"La Machine Infernale a été représentée pour la première fois au <_:rs-1/> <_:"
+"rs-2/> <_:date-3/>, avec les décors et les costumes de <_:name-4/> ..."
 msgstr ""
 
 #. (itstool) path: div/p
@@ -704,7 +805,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:383
-msgid "A <_:term-1/> is a specialized form of list, conventionally found at the start or end of a play, usually listing all the speaking and non-speaking roles in the play, often with additional description (<_:q-2/>) or the name of an actor or actress (<_:q-3/>). Cast lists may be encoded with the general purpose <_:gi-4/> element described in section <_:ptr-5/>, but for more detailed work the following specialized elements are provided: <_:specList-6/>"
+msgid ""
+"A <_:term-1/> is a specialized form of list, conventionally found at the "
+"start or end of a play, usually listing all the speaking and non-speaking "
+"roles in the play, often with additional description (<_:q-2/>) or the name "
+"of an actor or actress (<_:q-3/>). Cast lists may be encoded with the "
+"general purpose <_:gi-4/> element described in section <_:ptr-5/>, but for "
+"more detailed work the following specialized elements are provided: <_:"
+"specList-6/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -739,7 +847,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:392
-msgid "A <_:gi-1/> element may contain any mixture of elements taken from the <_:ident-2/> class, members of which (when this module is included) are: <_:specList-3/> Cast lists often have an internal structure of their own; it is quite usual to find, for example, nobility and commoners, or male and female roles, presented in different groups or sublists. Roles are also often grouped together by their function, for example: <_:list-4/>"
+msgid ""
+"A <_:gi-1/> element may contain any mixture of elements taken from the <_:"
+"ident-2/> class, members of which (when this module is included) are: <_:"
+"specList-3/> Cast lists often have an internal structure of their own; it is "
+"quite usual to find, for example, nobility and commoners, or male and female "
+"roles, presented in different groups or sublists. Roles are also often "
+"grouped together by their function, for example: <_:list-4/>"
 msgstr ""
 
 #. (itstool) path: p/title
@@ -764,7 +878,10 @@ msgstr ""
 
 #. (itstool) path: performance/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:415
-msgid "The first performance in Great Britain of <_:title-1/> was given at the Arts Theatre, London, on <_:date-2/>. It was directed by <_:name-3/>, and the décor was by <_:name-4/>. The cast was as follows:"
+msgid ""
+"The first performance in Great Britain of <_:title-1/> was given at the Arts "
+"Theatre, London, on <_:date-2/>. It was directed by <_:name-3/>, and the "
+"décor was by <_:name-4/>. The cast was as follows:"
 msgstr ""
 
 #. (itstool) path: castList/castItem
@@ -779,7 +896,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:407
-msgid "A cast list relating to a specific performance may be accompanied by notes about the time or place of that performance, indicating (for example) the name of the theatre where the play was first presented, the name of the producer or director, and so forth. When the cast list relates to a specific performance, it should be embedded within a <_:gi-1/> element (see section <_:ptr-2/>), as in the following example: <_:egXML-3/>"
+msgid ""
+"A cast list relating to a specific performance may be accompanied by notes "
+"about the time or place of that performance, indicating (for example) the "
+"name of the theatre where the play was first presented, the name of the "
+"producer or director, and so forth. When the cast list relates to a specific "
+"performance, it should be embedded within a <_:gi-1/> element (see section "
+"<_:ptr-2/>), as in the following example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -823,7 +946,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:428
-msgid "In this example, the <_:gi-1/> elements have no substructure. If desired, however, their components may be more finely distinguished using the elements <_:gi-2/>, <_:gi-3/>, and <_:gi-4/>. For example, the second cast item above might be encoded as follows: <_:egXML-5/>"
+msgid ""
+"In this example, the <_:gi-1/> elements have no substructure. If desired, "
+"however, their components may be more finely distinguished using the "
+"elements <_:gi-2/>, <_:gi-3/>, and <_:gi-4/>. For example, the second cast "
+"item above might be encoded as follows: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -833,7 +960,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:437
-msgid "The <_:att-1/> attribute on <_:gi-2/> may be used to associate the name with information about the real-world person identified, as further discussed in section ND. In the previous example, we might associate the name of Paul Daneman with his entry in a widely used bibliography as follows : <_:egXML-3/>"
+msgid ""
+"The <_:att-1/> attribute on <_:gi-2/> may be used to associate the name with "
+"information about the real-world person identified, as further discussed in "
+"section ND. In the previous example, we might associate the name of Paul "
+"Daneman with his entry in a widely used bibliography as follows : <_:egXML-3/"
+">"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -855,7 +987,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:443
-msgid "The global <_:att-1/> attribute may be used to specify a unique identifier for the <_:gi-2/> element, where it is desired to link speeches within the text explicitly to the role, using the <_:att-3/> attribute, as further discussed in section <_:ptr-4/> below."
+msgid ""
+"The global <_:att-1/> attribute may be used to specify a unique identifier "
+"for the <_:gi-2/> element, where it is desired to link speeches within the "
+"text explicitly to the role, using the <_:att-3/> attribute, as further "
+"discussed in section <_:ptr-4/> below."
 msgstr ""
 
 #. (itstool) path: castItem/role
@@ -865,7 +1001,9 @@ msgstr ""
 
 #. (itstool) path: castItem/roleDesc
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:453
-msgid "a little hero with a great soul, something violent in his temper, which is a little abated by his love for Huncamunca"
+msgid ""
+"a little hero with a great soul, something violent in his temper, which is a "
+"little abated by his love for Huncamunca"
 msgstr ""
 
 #. (itstool) path: castItem/actor
@@ -880,7 +1018,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:448
-msgid "The occasionally lengthy descriptions of a role sometimes found in written play scripts may be marked using the <_:gi-1/> element, as in the following example: <_:egXML-2/> For non-speaking or un-named roles, a <_:gi-3/> may contain a <_:gi-4/> without an accompanying <_:gi-5/>, for example <_:egXML-6/>"
+msgid ""
+"The occasionally lengthy descriptions of a role sometimes found in written "
+"play scripts may be marked using the <_:gi-1/> element, as in the following "
+"example: <_:egXML-2/> For non-speaking or un-named roles, a <_:gi-3/> may "
+"contain a <_:gi-4/> without an accompanying <_:gi-5/>, for example <_:"
+"egXML-6/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -924,7 +1067,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:464
-msgid "When a list of such minor roles is given together, the <_:att-1/> attribute of the <_:gi-2/> should indicate that it contains more than one role, by taking a value such as <_:val-3/>. The encoder may or may not elect to encode each separate constituent within such a composite <_:gi-4/>. Thus, either of the following is acceptable: <_:egXML-5/>"
+msgid ""
+"When a list of such minor roles is given together, the <_:att-1/> attribute "
+"of the <_:gi-2/> should indicate that it contains more than one role, by "
+"taking a value such as <_:val-3/>. The encoder may or may not elect to "
+"encode each separate constituent within such a composite <_:gi-4/>. Thus, "
+"either of the following is acceptable: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -979,12 +1127,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:477
-msgid "A group of cast items forming a distinct subdivision of a cast list may be marked as such by using the special purpose <_:gi-1/> element. The <_:att-2/> attribute may be used to indicate whether this grouping is indicated in the text by layout alone (i.e. the use of whitespace), by long braces or by some other means. A <_:gi-3/> may contain an optional heading (represented as usual by a <_:gi-4/> element) followed by a series of <_:gi-5/> elements: <_:egXML-6/>"
+msgid ""
+"A group of cast items forming a distinct subdivision of a cast list may be "
+"marked as such by using the special purpose <_:gi-1/> element. The <_:att-2/"
+"> attribute may be used to indicate whether this grouping is indicated in "
+"the text by layout alone (i.e. the use of whitespace), by long braces or by "
+"some other means. A <_:gi-3/> may contain an optional heading (represented "
+"as usual by a <_:gi-4/> element) followed by a series of <_:gi-5/> elements: "
+"<_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:498
-msgid "Alternatively, the encoder may prefer to regard the phrase <_:q-1/> as a role description, and encode the above example as follows: <_:egXML-2/>"
+msgid ""
+"Alternatively, the encoder may prefer to regard the phrase <_:q-1/> as a "
+"role description, and encode the above example as follows: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: castGroup/head
@@ -1114,7 +1271,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:513
-msgid "This version has the advantage that all role descriptions are treated alike, rather than in some cases being treated as headings. On the other hand there are also cases, such as the following, where the role description does function more like a heading: <_:egXML-1/>"
+msgid ""
+"This version has the advantage that all role descriptions are treated alike, "
+"rather than in some cases being treated as headings. On the other hand there "
+"are also cases, such as the following, where the role description does "
+"function more like a heading: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1147,12 +1308,32 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:555
-msgid "The body of a performance text may be divided into structural units, variously called acts, scenes, stasima, entr'actes, etc. All such formal divisions should be encoded using an appropriate text-division element (<_:gi-1/>, <_:gi-2/>, <_:gi-3/>, etc.), as further discussed in section <_:ptr-4/>. Whether divided up into such units or not, all performance texts consist of sequences of speeches (see <_:ptr-5/>) and stage directions (see <_:ptr-6/>). In musical performances, it is also common to identify groups of speeches which act as a single unit, sometimes called a <_:term-7/>; such units typically float within the structural hierarchy at the same level as speeches preceding or following them and cannot therefore be treated as text-divisions. (see <_:ptr-8/>). Speeches will generally consist of a sequence of <_:term-9/>-level items: paragraphs, verse lines, stanzas, or (in case of uncertainty as to whether something is verse or prose) <_:gi-10/> elements (see <_:ptr-11/>)."
+msgid ""
+"The body of a performance text may be divided into structural units, "
+"variously called acts, scenes, stasima, entr'actes, etc. All such formal "
+"divisions should be encoded using an appropriate text-division element (<_:"
+"gi-1/>, <_:gi-2/>, <_:gi-3/>, etc.), as further discussed in section <_:"
+"ptr-4/>. Whether divided up into such units or not, all performance texts "
+"consist of sequences of speeches (see <_:ptr-5/>) and stage directions (see "
+"<_:ptr-6/>). In musical performances, it is also common to identify groups "
+"of speeches which act as a single unit, sometimes called a <_:term-7/>; such "
+"units typically float within the structural hierarchy at the same level as "
+"speeches preceding or following them and cannot therefore be treated as text-"
+"divisions. (see <_:ptr-8/>). Speeches will generally consist of a sequence "
+"of <_:term-9/>-level items: paragraphs, verse lines, stanzas, or (in case of "
+"uncertainty as to whether something is verse or prose) <_:gi-10/> elements "
+"(see <_:ptr-11/>)."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:572
-msgid "The boundaries of formal units such as verse lines or paragraphs do not always coincide with speech boundaries. Units such as songs may be discontinuous or shared among several speakers. As described below in section <_:ptr-1/>, such fragmentation may be encoded in a relatively simple fashion using the linkage and aggregation mechanisms defined in chapter <_:ptr-2/>."
+msgid ""
+"The boundaries of formal units such as verse lines or paragraphs do not "
+"always coincide with speech boundaries. Units such as songs may be "
+"discontinuous or shared among several speakers. As described below in "
+"section <_:ptr-1/>, such fragmentation may be encoded in a relatively simple "
+"fashion using the linkage and aggregation mechanisms defined in chapter <_:"
+"ptr-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1177,7 +1358,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:579
-msgid "Large divisions in drama such as acts, scenes, stasima, or entr'actes are indicated by numbered or unnumbered <_:gi-1/> elements, as described in section <_:ptr-2/>. The <_:att-3/> and <_:att-4/> attributes may be used to define the type of division being marked, and to provide a name or number for it, as in the following example: <_:egXML-5/>"
+msgid ""
+"Large divisions in drama such as acts, scenes, stasima, or entr'actes are "
+"indicated by numbered or unnumbered <_:gi-1/> elements, as described in "
+"section <_:ptr-2/>. The <_:att-3/> and <_:att-4/> attributes may be used to "
+"define the type of division being marked, and to provide a name or number "
+"for it, as in the following example: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div1/head
@@ -1228,7 +1414,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:594
-msgid "Where the largest divisions of a performance text are themselves subdivided, most obviously in the case of plays traditionally divided into acts and scenes, further nested text-division elements may be used, as in this example: <_:egXML-1/>"
+msgid ""
+"Where the largest divisions of a performance text are themselves subdivided, "
+"most obviously in the case of plays traditionally divided into acts and "
+"scenes, further nested text-division elements may be used, as in this "
+"example: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1243,17 +1433,33 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:621
-msgid "In the example above, the <_:gi-1/> element has been used to represent the <_:soCalled-2/> convention, (where the entrance of each new set of characters is marked as a distinct unit in the text) and the <_:gi-3/> element to represent the acts into which the play is divided. The elements chosen are determined only by the hierarchic position of these units in the text as a whole. If the text had no acts, but only scenes, then the scenes might be represented by <_:gi-4/> elements. Equally, if a play is divided only into <_:q-5/>, with no smaller subdivisions, then the <_:gi-6/> element might be used to represent acts. The <_:att-7/> should be used, as above, to make explicit the name associated with a particular category of subdivision."
+msgid ""
+"In the example above, the <_:gi-1/> element has been used to represent the "
+"<_:soCalled-2/> convention, (where the entrance of each new set of "
+"characters is marked as a distinct unit in the text) and the <_:gi-3/> "
+"element to represent the acts into which the play is divided. The elements "
+"chosen are determined only by the hierarchic position of these units in the "
+"text as a whole. If the text had no acts, but only scenes, then the scenes "
+"might be represented by <_:gi-4/> elements. Equally, if a play is divided "
+"only into <_:q-5/>, with no smaller subdivisions, then the <_:gi-6/> element "
+"might be used to represent acts. The <_:att-7/> should be used, as above, to "
+"make explicit the name associated with a particular category of subdivision."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:633
-msgid "As an alternative to the use of numbered divisions, the encoder may represent all subdivisions with the same element, the unnumbered <_:gi-1/>. The second act in the above example would then be represented as follows: <_:egXML-2/>"
+msgid ""
+"As an alternative to the use of numbered divisions, the encoder may "
+"represent all subdivisions with the same element, the unnumbered <_:gi-1/>. "
+"The second act in the above example would then be represented as follows: <_:"
+"egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:646
-msgid "For further discussion of the use of numbered and unnumbered divisions, see section <_:ptr-1/>."
+msgid ""
+"For further discussion of the use of numbered and unnumbered divisions, see "
+"section <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1263,12 +1469,29 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:649
-msgid "The following elements are used to identify speeches and speakers in a performance text: <_:specList-1/>"
+msgid ""
+"The following elements are used to identify speeches and speakers in a "
+"performance text: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:652
-msgid "As noted above, the structure of many performance texts may be analysed as multiply hierarchic: a scene of a verse play, for example, may be divided into speeches and, at the same time, into verse lines. The end of a line may or may not coincide with the end of a speech, and vice versa. Other structures, such as songs, may be discontinuous or split up over several speeches. For some purposes it will be appropriate to regard the verse-structure as the fundamental organizing principle of the text, and for others the speech structure; in some cases, the choice between the two may be arbitrary. The discussion in the remainder of this chapter assumes that it is the speech-based hierarchy which most prominently determines the structure of performance texts, but the same mechanisms could be employed to encode a view of a performance text in which individual speeches were entirely subordinate to the formal units of prose and verse. For more detailed discussion and examples of various treatments of this fundamental issue, refer to chapter <_:ptr-1/>."
+msgid ""
+"As noted above, the structure of many performance texts may be analysed as "
+"multiply hierarchic: a scene of a verse play, for example, may be divided "
+"into speeches and, at the same time, into verse lines. The end of a line may "
+"or may not coincide with the end of a speech, and vice versa. Other "
+"structures, such as songs, may be discontinuous or split up over several "
+"speeches. For some purposes it will be appropriate to regard the verse-"
+"structure as the fundamental organizing principle of the text, and for "
+"others the speech structure; in some cases, the choice between the two may "
+"be arbitrary. The discussion in the remainder of this chapter assumes that "
+"it is the speech-based hierarchy which most prominently determines the "
+"structure of performance texts, but the same mechanisms could be employed to "
+"encode a view of a performance text in which individual speeches were "
+"entirely subordinate to the formal units of prose and verse. For more "
+"detailed discussion and examples of various treatments of this fundamental "
+"issue, refer to chapter <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1333,7 +1556,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:668
-msgid "The <_:att-1/> attribute and the <_:gi-2/> element are both used to indicate the speaker or speakers of a speech, but in rather different ways. The <_:gi-3/> element is used to encode the word or phrase actually used within the source text to indicate the speaker: it may contain any string or prefix, and may be thought of as a highly specialized form of stage direction. The <_:att-4/> attribute however contains one or more pointer values, each of which indicates one or more other XML elements documenting the character to whom the speech is assigned. Typically, this attribute might point to a <_:gi-5/> element in the TEI header <_:ptr-6/>, to a <_:gi-7/> element in the cast list <_:ptr-8/>, or even to some external source such as an online handbook of dramatic roles. The most usual case is that the pointer value supplied (prefixed by a sharp sign) corresponds with the value of an <_:att-9/> attribute, used elsewhere in the document to identify a particular element, as in the following examples: <_:egXML-10/>"
+msgid ""
+"The <_:att-1/> attribute and the <_:gi-2/> element are both used to indicate "
+"the speaker or speakers of a speech, but in rather different ways. The <_:"
+"gi-3/> element is used to encode the word or phrase actually used within the "
+"source text to indicate the speaker: it may contain any string or prefix, "
+"and may be thought of as a highly specialized form of stage direction. The "
+"<_:att-4/> attribute however contains one or more pointer values, each of "
+"which indicates one or more other XML elements documenting the character to "
+"whom the speech is assigned. Typically, this attribute might point to a <_:"
+"gi-5/> element in the TEI header <_:ptr-6/>, to a <_:gi-7/> element in the "
+"cast list <_:ptr-8/>, or even to some external source such as an online "
+"handbook of dramatic roles. The most usual case is that the pointer value "
+"supplied (prefixed by a sharp sign) corresponds with the value of an <_:"
+"att-9/> attribute, used elsewhere in the document to identify a particular "
+"element, as in the following examples: <_:egXML-10/>"
 msgstr ""
 
 #. (itstool) path: castItem/role
@@ -1349,12 +1586,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:697
-msgid "If present, a <_:gi-1/> element may only appear as the first part of an <_:gi-2/> element. The distinction between the <_:gi-3/> element and the <_:att-4/> attribute makes it possible to encode uniformly characters whose names are not indicated in a uniform fashion throughout the play, or characters who appear in disguise, as in the following examples: <_:egXML-5/>"
+msgid ""
+"If present, a <_:gi-1/> element may only appear as the first part of an <_:"
+"gi-2/> element. The distinction between the <_:gi-3/> element and the <_:"
+"att-4/> attribute makes it possible to encode uniformly characters whose "
+"names are not indicated in a uniform fashion throughout the play, or "
+"characters who appear in disguise, as in the following examples: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:711
-msgid "If the speaker attributions are completely regular (and may thus be reconstructed mechanically from the values given for the <_:att-1/> attribute), or are of no interest for the encoder of the text (as might be the case with editorially supplied attributions in older texts), then the <_:gi-2/> element need not be used; the former example above then might look like this: <_:egXML-3/>"
+msgid ""
+"If the speaker attributions are completely regular (and may thus be "
+"reconstructed mechanically from the values given for the <_:att-1/> "
+"attribute), or are of no interest for the encoder of the text (as might be "
+"the case with editorially supplied attributions in older texts), then the <_:"
+"gi-2/> element need not be used; the former example above then might look "
+"like this: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: castItem/role
@@ -1386,12 +1634,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:726
-msgid "More than one identifier may be listed as value for the <_:att-1/> attribute if the speech is spoken by more than one person, as in the following example: <_:egXML-2/>"
+msgid ""
+"More than one identifier may be listed as value for the <_:att-1/> attribute "
+"if the speech is spoken by more than one person, as in the following "
+"example: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:738
-msgid "The <_:gi-1/> and <_:gi-2/> elements are both declared within the core module (see section <_:ptr-3/>)."
+msgid ""
+"The <_:gi-1/> and <_:gi-2/> elements are both declared within the core "
+"module (see section <_:ptr-3/>)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1401,7 +1654,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:743
-msgid "This module makes available the following additional element for handling groups of speeches: <_:specList-1/>"
+msgid ""
+"This module makes available the following additional element for handling "
+"groups of speeches: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1541,7 +1796,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:746
-msgid "The <_:gi-1/> element is intended for cases where the characters in a performance launch into something which might be regarded almost as a kind of separate structural division, typically associated with its own heading or numbering system, but which <_:soCalled-2/> in the text, at the same hierarchic level as speeches preceding or following it. Such units are often numbered, titled, and visually presented as distinct objects within the text. Here is a typical example from a well-known American musical comedy: <_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> element is intended for cases where the characters in a "
+"performance launch into something which might be regarded almost as a kind "
+"of separate structural division, typically associated with its own heading "
+"or numbering system, but which <_:soCalled-2/> in the text, at the same "
+"hierarchic level as speeches preceding or following it. Such units are often "
+"numbered, titled, and visually presented as distinct objects within the "
+"text. Here is a typical example from a well-known American musical comedy: "
+"<_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1551,7 +1814,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:792
-msgid "Both between and within the speeches of a written performance text, it is normal practice to include a wide variety of descriptive directions to indicate non-verbal action. The following elements are provided to represent these: <_:specList-1/>"
+msgid ""
+"Both between and within the speeches of a written performance text, it is "
+"normal practice to include a wide variety of descriptive directions to "
+"indicate non-verbal action. The following elements are provided to represent "
+"these: <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/q
@@ -1635,7 +1902,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:800
-msgid "A satisfactory typology of stage directions is difficult to define. Certain basic types such as <_:q-1/>, <_:q-2/>, <_:q-3/>, <_:q-4/>, are easily identified. But the list is not a closed one, and it is not uncommon to mix types within a single direction. No closed set of values for the <_:att-5/> attribute is therefore proposed at the present time, though some suggested values are indicated in the list below, which also indicates the range of possibilities. <_:egXML-6/>"
+msgid ""
+"A satisfactory typology of stage directions is difficult to define. Certain "
+"basic types such as <_:q-1/>, <_:q-2/>, <_:q-3/>, <_:q-4/>, are easily "
+"identified. But the list is not a closed one, and it is not uncommon to mix "
+"types within a single direction. No closed set of values for the <_:att-5/> "
+"attribute is therefore proposed at the present time, though some suggested "
+"values are indicated in the list below, which also indicates the range of "
+"possibilities. <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1708,27 +1982,44 @@ msgstr ""
 
 #. (itstool) path: egXML/tagUsage
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:824
-msgid "This element is used for all stage directions, editorial or authorial. The type attribute on this element takes one or more of the following values: <_:list-1/>"
+msgid ""
+"This element is used for all stage directions, editorial or authorial. The "
+"type attribute on this element takes one or more of the following values: <_:"
+"list-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:820
-msgid "The meaning of the values used for the <_:att-1/> attribute on <_:gi-2/> elements may be defined within the <_:gi-3/> element of the TEI header (described in section <_:ptr-4/>). For example: <_:egXML-5/>"
+msgid ""
+"The meaning of the values used for the <_:att-1/> attribute on <_:gi-2/> "
+"elements may be defined within the <_:gi-3/> element of the TEI header "
+"(described in section <_:ptr-4/>). For example: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:840
-msgid "This approach is purely documentary; in a real project it would generally be more effective to define the range of permitted values explicitly within the project's schema specification, using the techniques described in chapter <_:ptr-1/>. For example, a specification like the following might be used to produce a schema in which the <_:att-2/> attribute of the <_:gi-3/> element is permitted to take only the values listed above: <_:egXML-4/>"
+msgid ""
+"This approach is purely documentary; in a real project it would generally be "
+"more effective to define the range of permitted values explicitly within the "
+"project's schema specification, using the techniques described in chapter <_:"
+"ptr-1/>. For example, a specification like the following might be used to "
+"produce a schema in which the <_:att-2/> attribute of the <_:gi-3/> element "
+"is permitted to take only the values listed above: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: stage/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:873
-msgid "Scene. — A room furnished comfortably and tastefully but not extravagantly ... The floor is carpeted and a fire burns in the stove. It is winter."
+msgid ""
+"Scene. — A room furnished comfortably and tastefully but not "
+"extravagantly ... The floor is carpeted and a fire burns in the stove. It is "
+"winter."
 msgstr ""
 
 #. (itstool) path: stage/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:877
-msgid "A bell rings in the hall; shortly afterwards the door is heard to open. Enter NORA humming a tune ..."
+msgid ""
+"A bell rings in the hall; shortly afterwards the door is heard to open. "
+"Enter NORA humming a tune ..."
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -1743,17 +2034,25 @@ msgstr ""
 
 #. (itstool) path: sp/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:881
-msgid "Hide the Christmas Tree carefully, Helen. Be sure the children do not see it till this evening, when it is dressed. <_:stage-1/> How much?"
+msgid ""
+"Hide the Christmas Tree carefully, Helen. Be sure the children do not see it "
+"till this evening, when it is dressed. <_:stage-1/> How much?"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:867
-msgid "The <_:gi-1/> element may appear both between and within <_:gi-2/> elements. It may contain a mixture of phrase level elements, possibly combined into paragraphs, as in the following example: <_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> element may appear both between and within <_:gi-2/> elements. "
+"It may contain a mixture of phrase level elements, possibly combined into "
+"paragraphs, as in the following example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:888
-msgid "The <_:gi-1/> element may also be used in non-theatrical texts, to mark sound effects or musical effects, etc., as further discussed in section <_:ptr-2/>."
+msgid ""
+"The <_:gi-1/> element may also be used in non-theatrical texts, to mark "
+"sound effects or musical effects, etc., as further discussed in section <_:"
+"ptr-2/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1776,7 +2075,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:891
-msgid "The <_:gi-1/> element is intended to help overcome the fact that the stage directions of a printed text may often not provide full information about either the intended or the actual movement of actors on stage. It may be used to keep track of entrances and exits in detail, so as to know which characters are on stage at which time. Its attributes permit a relatively formal specification for movements of characters, using user-defined codes to identify the characters involved (the <_:att-2/> attribute), the direction of the movement (<_:att-3/> attribute), and optionally which part of the stage is involved (<_:att-4/> attribute). For stage-historical purposes, a <_:att-5/> attribute is also provided; this allows the recording of different <_:gi-6/> elements as taken in different performances of the same text."
+msgid ""
+"The <_:gi-1/> element is intended to help overcome the fact that the stage "
+"directions of a printed text may often not provide full information about "
+"either the intended or the actual movement of actors on stage. It may be "
+"used to keep track of entrances and exits in detail, so as to know which "
+"characters are on stage at which time. Its attributes permit a relatively "
+"formal specification for movements of characters, using user-defined codes "
+"to identify the characters involved (the <_:att-2/> attribute), the "
+"direction of the movement (<_:att-3/> attribute), and optionally which part "
+"of the stage is involved (<_:att-4/> attribute). For stage-historical "
+"purposes, a <_:att-5/> attribute is also provided; this allows the recording "
+"of different <_:gi-6/> elements as taken in different performances of the "
+"same text."
 msgstr ""
 
 #. (itstool) path: castItem/role
@@ -1792,7 +2103,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:904
-msgid "The <_:gi-1/> element should be located at the position in the text where the move is presumed to take place. This will often coincide with a stage direction, as in the following simple example: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element should be located at the position in the text where "
+"the move is presumed to take place. This will often coincide with a stage "
+"direction, as in the following simple example: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: castItem/role
@@ -1814,12 +2128,17 @@ msgstr ""
 
 #. (itstool) path: sp/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:919
-msgid "Neither to you, nor any one; having no witness to confirm my speech. <_:move-1/> Lo you! here she comes. This is her very guise; and, upon my life, fast asleep."
+msgid ""
+"Neither to you, nor any one; having no witness to confirm my speech. <_:"
+"move-1/> Lo you! here she comes. This is her very guise; and, upon my life, "
+"fast asleep."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:912
-msgid "The <_:gi-1/> element can however appear independently of a stage direction, as in the following example: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element can however appear independently of a stage direction, "
+"as in the following example: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1834,7 +2153,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:930
-msgid "The actual speeches of a dramatic text may be composed of running text, which must be formally organized into paragraphs, in the case of prose (see section <_:ptr-1/>), verse lines or line groups in that of verse (see section <_:ptr-2/>), or <_:gi-3/> elements, in case of doubt as to whether the material should be treated as verse or prose. The following elements, all of which are defined in the core, are particularly useful when marking units of prose or verse within speeches: <_:specList-4/>"
+msgid ""
+"The actual speeches of a dramatic text may be composed of running text, "
+"which must be formally organized into paragraphs, in the case of prose (see "
+"section <_:ptr-1/>), verse lines or line groups in that of verse (see "
+"section <_:ptr-2/>), or <_:gi-3/> elements, in case of doubt as to whether "
+"the material should be treated as verse or prose. The following elements, "
+"all of which are defined in the core, are particularly useful when marking "
+"units of prose or verse within speeches: <_:specList-4/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1859,7 +2185,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:939
-msgid "Like other milestone elements, the element <_:gi-1/> additionally bears the attributes <_:att-2/> and <_:att-3/>, from its membership in the class <_:ident-4/>: <_:specList-5/>"
+msgid ""
+"Like other milestone elements, the element <_:gi-1/> additionally bears the "
+"attributes <_:att-2/> and <_:att-3/>, from its membership in the class <_:"
+"ident-4/>: <_:specList-5/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1886,7 +2215,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:946
-msgid "As a member of the classes <_:ident-1/> and <_:ident-2/>, the <_:gi-3/> element also bears the following attributes: <_:specList-4/>"
+msgid ""
+"As a member of the classes <_:ident-1/> and <_:ident-2/>, the <_:gi-3/> "
+"element also bears the following attributes: <_:specList-4/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1909,7 +2240,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:956
-msgid "When the <_:ident-1/> module is included in a schema, the elements <_:gi-2/> and <_:gi-3/> also gain additional attributes through their membership of the class <_:ident-4/>: <_:specList-5/>"
+msgid ""
+"When the <_:ident-1/> module is included in a schema, the elements <_:gi-2/> "
+"and <_:gi-3/> also gain additional attributes through their membership of "
+"the class <_:ident-4/>: <_:specList-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1919,7 +2253,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:964
-msgid "In many texts, prose and verse may be inextricably mingled; particularly in earlier printed texts, prose may be printed as verse or verse as prose, or it may be impossible to distinguish the two. In cases of doubt, an encoder may prefer to tag the dubious material consistently as verse, to tag it all as prose, to follow the typography of the source text, or to use the neutral <_:gi-1/> element to contain the speech itself. When this question arises, the <_:gi-2/> element in the <_:gi-3/> element of the header may be used to record explicitly what policy has been adopted."
+msgid ""
+"In many texts, prose and verse may be inextricably mingled; particularly in "
+"earlier printed texts, prose may be printed as verse or verse as prose, or "
+"it may be impossible to distinguish the two. In cases of doubt, an encoder "
+"may prefer to tag the dubious material consistently as verse, to tag it all "
+"as prose, to follow the typography of the source text, or to use the neutral "
+"<_:gi-1/> element to contain the speech itself. When this question arises, "
+"the <_:gi-2/> element in the <_:gi-3/> element of the header may be used to "
+"record explicitly what policy has been adopted."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1929,7 +2271,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:973
-msgid "Even where they can reliably be distinguished, a single speech may frequently contain a mixture of prose (marked as <_:gi-1/>) and verse (marked as <_:gi-2/> or—if stanzaic—<_:gi-3/>)."
+msgid ""
+"Even where they can reliably be distinguished, a single speech may "
+"frequently contain a mixture of prose (marked as <_:gi-1/>) and verse "
+"(marked as <_:gi-2/> or—if stanzaic—<_:gi-3/>)."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2010,7 +2355,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:977
-msgid "The <_:att-1/> attribute which both <_:gi-2/> and <_:gi-3/> elements inherit from the <_:ident-4/> class provides one simple way of indicating where the boundaries of a speech and of a verse line or line group do not coincide. The encoder may simply indicate that a line or line group is metrically incomplete by specifying the value <_:val-5/> or <_:val-6/>, as in the following example: <_:egXML-7/>"
+msgid ""
+"The <_:att-1/> attribute which both <_:gi-2/> and <_:gi-3/> elements inherit "
+"from the <_:ident-4/> class provides one simple way of indicating where the "
+"boundaries of a speech and of a verse line or line group do not coincide. "
+"The encoder may simply indicate that a line or line group is metrically "
+"incomplete by specifying the value <_:val-5/> or <_:val-6/>, as in the "
+"following example: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: p/val
@@ -2030,7 +2381,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:992
-msgid "Alternatively, where the fragments of the line or line group are consecutive in the text (though possibly interrupted by stage directions), the values <_:val-1/> (initial), <_:val-2/> (medial), and <_:val-3/> (final) may be used to indicate how metrical lines are constituted: <_:egXML-4/>"
+msgid ""
+"Alternatively, where the fragments of the line or line group are consecutive "
+"in the text (though possibly interrupted by stage directions), the values <_:"
+"val-1/> (initial), <_:val-2/> (medial), and <_:val-3/> (final) may be used "
+"to indicate how metrical lines are constituted: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: spGrp/head
@@ -2083,12 +2438,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1006
-msgid "In dramatic texts, the <_:gi-1/> or line group element is most often of use for the encoding of songs and other stanzaic material. Line groups may be fragmented across speakers in the same way as individual lines, and the same set of attributes may be used to record this fact. The element <_:gi-2/> is provided in order to simplify the situation, very common in performances, where performance of a single entity, such as a song, is shared amongst several performers, as in the following example: <_:egXML-3/>"
+msgid ""
+"In dramatic texts, the <_:gi-1/> or line group element is most often of use "
+"for the encoding of songs and other stanzaic material. Line groups may be "
+"fragmented across speakers in the same way as individual lines, and the same "
+"set of attributes may be used to record this fact. The element <_:gi-2/> is "
+"provided in order to simplify the situation, very common in performances, "
+"where performance of a single entity, such as a song, is shared amongst "
+"several performers, as in the following example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1034
-msgid "This encoding however does not indicate that the three lines of Sir Joseph's song and the two lines following it together constitute a single verse stanza. This can be indicated by using the <_:att-1/> attribute, as follows: <_:egXML-2/>"
+msgid ""
+"This encoding however does not indicate that the three lines of Sir Joseph's "
+"song and the two lines following it together constitute a single verse "
+"stanza. This can be indicated by using the <_:att-1/> attribute, as follows: "
+"<_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2098,7 +2464,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1060
-msgid "Although primarily composed of speeches, performance texts often contain other structural units such as songs or strophes which are shared among different speakers. More generally, complex nested structures of plays within plays, interpolated masques, or interludes are far from uncommon. In more modern material, comparably complex structural devices such as flashback or nested playback are equally frequent. In all kinds of performance material, it may be necessary to indicate several actions which are happening simultaneously."
+msgid ""
+"Although primarily composed of speeches, performance texts often contain "
+"other structural units such as songs or strophes which are shared among "
+"different speakers. More generally, complex nested structures of plays "
+"within plays, interpolated masques, or interludes are far from uncommon. In "
+"more modern material, comparably complex structural devices such as "
+"flashback or nested playback are equally frequent. In all kinds of "
+"performance material, it may be necessary to indicate several actions which "
+"are happening simultaneously."
 msgstr ""
 
 #. (itstool) path: item/gi
@@ -2136,7 +2510,9 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1080
-msgid "the use of the <_:att-1/> and <_:att-2/> attributes on fragments of embedded structures to join them into a larger whole"
+msgid ""
+"the use of the <_:att-1/> and <_:att-2/> attributes on fragments of embedded "
+"structures to join them into a larger whole"
 msgstr ""
 
 #. (itstool) path: item/gi
@@ -2156,12 +2532,22 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1082
-msgid "the use of the <_:gi-1/> element to define a <_:soCalled-2/> composed of the fragments indicated"
+msgid ""
+"the use of the <_:gi-1/> element to define a <_:soCalled-2/> composed of the "
+"fragments indicated"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1068
-msgid "A number of different devices are available within the TEI scheme to support these complexities in the general case. Texts may be composite or self-nesting (see section <_:ptr-1/>) and multiple hierarchies may be defined (see chapter <_:ptr-2/>). The TEI encoding scheme provides a variety of linking mechanisms, which may be used to indicate temporal alignment and aggregation of fragmented structures. In this section we provide a few specific examples of the application of these techniques to performance texts: <_:list-3/>"
+msgid ""
+"A number of different devices are available within the TEI scheme to support "
+"these complexities in the general case. Texts may be composite or self-"
+"nesting (see section <_:ptr-1/>) and multiple hierarchies may be defined "
+"(see chapter <_:ptr-2/>). The TEI encoding scheme provides a variety of "
+"linking mechanisms, which may be used to indicate temporal alignment and "
+"aggregation of fragmented structures. In this section we provide a few "
+"specific examples of the application of these techniques to performance "
+"texts: <_:list-3/>"
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -2179,12 +2565,15 @@ msgstr ""
 
 #. (itstool) path: sp/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1090
-msgid "Aha, so you've bad minds along with th' love of gain. You thry to pin on others th' dirty decorations that may be hangin' on your own coats."
+msgid ""
+"Aha, so you've bad minds along with th' love of gain. You thry to pin on "
+"others th' dirty decorations that may be hangin' on your own coats."
 msgstr ""
 
 #. (itstool) path: sp/stage
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1093
-msgid "(He points, one after the other at Conroy, Bull, and Flagonson. Lilting)"
+msgid ""
+"(He points, one after the other at Conroy, Bull, and Flagonson. Lilting)"
 msgstr ""
 
 #. (itstool) path: lg/l
@@ -2222,7 +2611,8 @@ msgstr ""
 
 #. (itstool) path: sp/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1103
-msgid "This is more than a hurt to us: this hits at the decency of the whole nation!"
+msgid ""
+"This is more than a hurt to us: this hits at the decency of the whole nation!"
 msgstr ""
 
 #. (itstool) path: sp/p
@@ -2232,7 +2622,8 @@ msgstr ""
 
 #. (itstool) path: egXML/stage
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1112
-msgid "(He points, one after the other at Conroy, Bull, and Flagonson. Lilting):"
+msgid ""
+"(He points, one after the other at Conroy, Bull, and Flagonson. Lilting):"
 msgstr ""
 
 #. (itstool) path: front/titlePart
@@ -2242,12 +2633,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1086
-msgid "When the whole of a song appears within a single speech, it may require no special treatment if it is considered to form a part of the speech: <_:egXML-1/> If however, the song is to be regarded as forming a distinct item, perhaps with its own front and back matter, it may be better to regard it as a floating text: <_:egXML-2/>"
+msgid ""
+"When the whole of a song appears within a single speech, it may require no "
+"special treatment if it is considered to form a part of the speech: <_:"
+"egXML-1/> If however, the song is to be regarded as forming a distinct item, "
+"perhaps with its own front and back matter, it may be better to regard it as "
+"a floating text: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1126
-msgid "When an embedded structure extends across more than one <_:gi-1/> element, each of its constituent parts must be regarded as a distinct fragment; the problem then facing the encoder is to reconstitute the interrupted whole in some way."
+msgid ""
+"When an embedded structure extends across more than one <_:gi-1/> element, "
+"each of its constituent parts must be regarded as a distinct fragment; the "
+"problem then facing the encoder is to reconstitute the interrupted whole in "
+"some way."
 msgstr ""
 
 #. (itstool) path: sp/stage
@@ -2287,7 +2687,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1130
-msgid "As already noted above, the <_:gi-1/> element may be used to group together consecutive speeches which are grouped together in some way, for example constituting a single song. Alternatively the <_:att-2/> attribute, typically used to indicate that an <_:gi-3/> element contains a partial, not a complete, verse line, may also be used on the <_:gi-4/> element, to indicate that the line group is partial rather than complete, thus: <_:egXML-5/>"
+msgid ""
+"As already noted above, the <_:gi-1/> element may be used to group together "
+"consecutive speeches which are grouped together in some way, for example "
+"constituting a single song. Alternatively the <_:att-2/> attribute, "
+"typically used to indicate that an <_:gi-3/> element contains a partial, not "
+"a complete, verse line, may also be used on the <_:gi-4/> element, to "
+"indicate that the line group is partial rather than complete, thus: <_:"
+"egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div2/stage
@@ -2409,12 +2816,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1153
-msgid "When the fragments of a song are separated by other intervening dialogue, or even when not, they may be linked together with the <_:att-1/> and <_:att-2/> attributes defined in section <_:ptr-3/>. For example, the line groups making up Ophelia's song might be encoded as follows: <_:egXML-4/>"
+msgid ""
+"When the fragments of a song are separated by other intervening dialogue, or "
+"even when not, they may be linked together with the <_:att-1/> and <_:att-2/"
+"> attributes defined in section <_:ptr-3/>. For example, the line groups "
+"making up Ophelia's song might be encoded as follows: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1194
-msgid "The <_:att-1/> and <_:att-2/> attributes are discussed in section <_:ptr-3/>: they form part of the module for alignment and linking; this module must therefore be included in a schema if they are to be used, as further discussed in section <_:ptr-4/>."
+msgid ""
+"The <_:att-1/> and <_:att-2/> attributes are discussed in section <_:ptr-3/"
+">: they form part of the module for alignment and linking; this module must "
+"therefore be included in a schema if they are to be used, as further "
+"discussed in section <_:ptr-4/>."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -2424,12 +2839,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1198
-msgid "The fragments of Ophelia's song might also be linked together using the <_:gi-1/> mechanism described in section <_:ptr-2/>. The <_:gi-3/> element is specifically intended to encode the fact that several discontiguous elements of the text together form one <_:soCalled-4/> element. Using this mechanism, the example might be encoded as follows: <_:egXML-5/> The location of the <_:gi-6/> element is not significant; here it has been placed shortly after the conclusion of the song, in order to have it close to the fragments it unifies."
+msgid ""
+"The fragments of Ophelia's song might also be linked together using the <_:"
+"gi-1/> mechanism described in section <_:ptr-2/>. The <_:gi-3/> element is "
+"specifically intended to encode the fact that several discontiguous elements "
+"of the text together form one <_:soCalled-4/> element. Using this mechanism, "
+"the example might be encoded as follows: <_:egXML-5/> The location of the <_:"
+"gi-6/> element is not significant; here it has been placed shortly after the "
+"conclusion of the song, in order to have it close to the fragments it "
+"unifies."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1243
-msgid "Like the <_:att-1/> and <_:att-2/> attributes, the <_:gi-3/> element requires the additional module for linking, which is selected as shown above."
+msgid ""
+"Like the <_:att-1/> and <_:att-2/> attributes, the <_:gi-3/> element "
+"requires the additional module for linking, which is selected as shown above."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2444,7 +2869,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1247
-msgid "In printed or written versions of performance texts, a variety of techniques may be used to indicate the temporal alignment of speeches or actions. Speeches may be printed vertically aligned on the page, or braced together; stage directions (e.g. <_:q-1/>) are also often used. In operatic or musical works in particular, the need to indicate timing and alignment of individual parts of a song may lead to very complex layout."
+msgid ""
+"In printed or written versions of performance texts, a variety of techniques "
+"may be used to indicate the temporal alignment of speeches or actions. "
+"Speeches may be printed vertically aligned on the page, or braced together; "
+"stage directions (e.g. <_:q-1/>) are also often used. In operatic or musical "
+"works in particular, the need to indicate timing and alignment of individual "
+"parts of a song may lead to very complex layout."
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -2531,17 +2962,39 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1254
-msgid "One simple method of indicating the temporal alignment of speeches or actions is to use the <_:gi-1/> element discussed in section <_:ptr-2/>, with an <_:att-3/> attribute to specify the reason for grouping, as in the following example: <_:egXML-4/>"
+msgid ""
+"One simple method of indicating the temporal alignment of speeches or "
+"actions is to use the <_:gi-1/> element discussed in section <_:ptr-2/>, "
+"with an <_:att-3/> attribute to specify the reason for grouping, as in the "
+"following example: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1291
-msgid "In the original, the stage direction <_:q-1/> is printed opposite a brace grouping all four speeches, indicating that all four characters speak at once, and that the stage direction applies to all of them. Rather than attempting to represent the appearance of the source, this example encoding represents its presumed meaning: the <_:gi-2/> element is placed arbitrarily after the last relevant speech, and the four speeches with which it is to be associated are grouped by means of the <_:gi-3/> element. The <_:att-4/> attribute is used to specify the fact that the three speeches were grouped by the brace in the copy text. Producing a readable version of the text which simulates the original printed effect may however require more complex markup and processing."
+msgid ""
+"In the original, the stage direction <_:q-1/> is printed opposite a brace "
+"grouping all four speeches, indicating that all four characters speak at "
+"once, and that the stage direction applies to all of them. Rather than "
+"attempting to represent the appearance of the source, this example encoding "
+"represents its presumed meaning: the <_:gi-2/> element is placed arbitrarily "
+"after the last relevant speech, and the four speeches with which it is to be "
+"associated are grouped by means of the <_:gi-3/> element. The <_:att-4/> "
+"attribute is used to specify the fact that the three speeches were grouped "
+"by the brace in the copy text. Producing a readable version of the text "
+"which simulates the original printed effect may however require more complex "
+"markup and processing."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1304
-msgid "More powerful and more precise mechanisms for temporal alignment are defined in chapter <_:ptr-1/>. These would be appropriate for encodings the focus of which is on the actual performance of a text rather than its structure or formal properties. The module described in that chapter includes a large number of other detailed proposals for the encoding of such features as voice quality, prosody, etc., which might be relevant to such a treatment of performance texts."
+msgid ""
+"More powerful and more precise mechanisms for temporal alignment are defined "
+"in chapter <_:ptr-1/>. These would be appropriate for encodings the focus of "
+"which is on the actual performance of a text rather than its structure or "
+"formal properties. The module described in that chapter includes a large "
+"number of other detailed proposals for the encoding of such features as "
+"voice quality, prosody, etc., which might be relevant to such a treatment of "
+"performance texts."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2558,7 +3011,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1313
-msgid "Most of the elements and structures identified thus far are derived from traditional theatrical texts. Although other performance texts, such as screenplays or radio scripts, have not been discussed specifically, they can be encoded using the elements and structures listed above. Encoders may however find it convenient to use, as well, the additional specialized elements discussed in this section. For scripts containing very detailed technical information, the <_:gi-1/> element discussed in section <_:ptr-2/> may also be useful."
+msgid ""
+"Most of the elements and structures identified thus far are derived from "
+"traditional theatrical texts. Although other performance texts, such as "
+"screenplays or radio scripts, have not been discussed specifically, they can "
+"be encoded using the elements and structures listed above. Encoders may "
+"however find it convenient to use, as well, the additional specialized "
+"elements discussed in this section. For scripts containing very detailed "
+"technical information, the <_:gi-1/> element discussed in section <_:ptr-2/> "
+"may also be useful."
 msgstr ""
 
 #. (itstool) path: p/q
@@ -2593,12 +3054,32 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1323
-msgid "Like other texts, screenplays and television or radio scripts may be divided into text divisions marked with <_:gi-1/> or <_:gi-2/>, etc. Within units corresponding with the traditional <_:q-3/> and <_:q-4/>, further subdivisions or sequences may be identified, composed of individual <_:q-5/>, each associated with a single camera angle and setting. Shots and sequences should be encoded using an appropriate text-division element (i.e., a <_:gi-6/> element if numbered division elements are in use and the next largest unit is a <_:gi-7/>, or a <_:gi-8/> element if un-numbered divisions are in use) specifying <_:val-9/> or <_:val-10/> as the value of the <_:att-11/> attribute, as appropriate."
+msgid ""
+"Like other texts, screenplays and television or radio scripts may be divided "
+"into text divisions marked with <_:gi-1/> or <_:gi-2/>, etc. Within units "
+"corresponding with the traditional <_:q-3/> and <_:q-4/>, further "
+"subdivisions or sequences may be identified, composed of individual <_:q-5/"
+">, each associated with a single camera angle and setting. Shots and "
+"sequences should be encoded using an appropriate text-division element (i."
+"e., a <_:gi-6/> element if numbered division elements are in use and the "
+"next largest unit is a <_:gi-7/>, or a <_:gi-8/> element if un-numbered "
+"divisions are in use) specifying <_:val-9/> or <_:val-10/> as the value of "
+"the <_:att-11/> attribute, as appropriate."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1336
-msgid "It is normal practice in screenplays and radio scripts to distinguish directions concerning camera angles, sound effects, etc., from other forms of stage direction. Such texts also generally include far more detailed specifications of what the audience actually sees: descriptions of actions and background, etc. Scripts derived from cinema and television productions may also include texts displayed as captions superimposed on the action. All of these may be encoded using the general purpose <_:gi-1/> element discussed in section <_:ptr-2/>, and distinguished by means of its <_:att-3/> attribute. Alternatively, or in addition, the following more specific elements may be used, where clear distinctions can be made: <_:specList-4/>"
+msgid ""
+"It is normal practice in screenplays and radio scripts to distinguish "
+"directions concerning camera angles, sound effects, etc., from other forms "
+"of stage direction. Such texts also generally include far more detailed "
+"specifications of what the audience actually sees: descriptions of actions "
+"and background, etc. Scripts derived from cinema and television productions "
+"may also include texts displayed as captions superimposed on the action. All "
+"of these may be encoded using the general purpose <_:gi-1/> element "
+"discussed in section <_:ptr-2/>, and distinguished by means of its <_:att-3/"
+"> attribute. Alternatively, or in addition, the following more specific "
+"elements may be used, where clear distinctions can be made: <_:specList-4/>"
 msgstr ""
 
 #. (itstool) path: egXML/camera
@@ -2608,7 +3089,9 @@ msgstr ""
 
 #. (itstool) path: egXML/view
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1350
-msgid "Ryan's wife, standing nervously alone on the sidelines, biting her lip. She's scared and she shows it."
+msgid ""
+"Ryan's wife, standing nervously alone on the sidelines, biting her lip. "
+"She's scared and she shows it."
 msgstr ""
 
 #. (itstool) path: div/p
@@ -2633,7 +3116,11 @@ msgstr ""
 
 #. (itstool) path: egXML/view
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1358
-msgid "George glances at the window--and freezes. <_:camera-1/> Out the window the body of a dead man suddenly slams into <_:hi-2/>. He dangles grotesquely, held up by his coat caught on a protruding bolt. George gasps. The train <_:hi-3/> screams."
+msgid ""
+"George glances at the window--and freezes. <_:camera-1/> Out the window the "
+"body of a dead man suddenly slams into <_:hi-2/>. He dangles grotesquely, "
+"held up by his coat caught on a protruding bolt. George gasps. The train <_:"
+"hi-3/> screams."
 msgstr ""
 
 #. (itstool) path: view/name
@@ -2643,7 +3130,9 @@ msgstr ""
 
 #. (itstool) path: egXML/view
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1365
-msgid "Ext. TV control van—Early morning. The <_:name-1/> from the Ryan interview stands near the Control Van, the lake in b.g."
+msgid ""
+"Ext. TV control van—Early morning. The <_:name-1/> from the Ryan interview "
+"stands near the Control Van, the lake in b.g."
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -2653,12 +3142,18 @@ msgstr ""
 
 #. (itstool) path: sp/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1369
-msgid "Several years ago, Jack Ryan was a highly successful hydroplane racer ..."
+msgid ""
+"Several years ago, Jack Ryan was a highly successful hydroplane racer ..."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1353
-msgid "Where particular words or phrases within a direction are emphasized (by change of typeface or use of capital letters), an appropriate phrase-level element may be used to indicate the fact, as in the following examples, where certain words in the original are given in small capitals: <_:egXML-1/> <_:egXML-2/>"
+msgid ""
+"Where particular words or phrases within a direction are emphasized (by "
+"change of typeface or use of capital letters), an appropriate phrase-level "
+"element may be used to indicate the fact, as in the following examples, "
+"where certain words in the original are given in small capitals: <_:egXML-1/"
+"> <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -2673,12 +3168,17 @@ msgstr ""
 
 #. (itstool) path: p/view
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1380
-msgid "<_:camera-1/> standing in the tow boat, walkie-talkie in hand, watching Ryan carefully."
+msgid ""
+"<_:camera-1/> standing in the tow boat, walkie-talkie in hand, watching Ryan "
+"carefully."
 msgstr ""
 
 #. (itstool) path: sp/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1378
-msgid "Working with Ryan are his two coworkers— Strut Bowman, the mechanical engineer— <_:view-1/> —and Roger Dalton, a rocket systems analyst, and one of the scientists from the Jet Propulsion Lab ..."
+msgid ""
+"Working with Ryan are his two coworkers— Strut Bowman, the mechanical "
+"engineer— <_:view-1/> —and Roger Dalton, a rocket systems analyst, and one "
+"of the scientists from the Jet Propulsion Lab ..."
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -2724,7 +3224,8 @@ msgstr ""
 
 #. (itstool) path: egXML/camera
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1398
-msgid "Zoom in to overlay showing some stock film of hansom cabs galloping past."
+msgid ""
+"Zoom in to overlay showing some stock film of hansom cabs galloping past."
 msgstr ""
 
 #. (itstool) path: egXML/caption
@@ -2744,7 +3245,10 @@ msgstr ""
 
 #. (itstool) path: egXML/view
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1403
-msgid "Mix through to Wilde's drawing room. A crowd of suitably dressed folk are engaged in typically brilliant conversation, laughing affectedly and drinking champagne."
+msgid ""
+"Mix through to Wilde's drawing room. A crowd of suitably dressed folk are "
+"engaged in typically brilliant conversation, laughing affectedly and "
+"drinking champagne."
 msgstr ""
 
 #. (itstool) path: sp/speaker
@@ -2759,7 +3263,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1374
-msgid "All of these elements, like other stage directions, can appear both within and between speeches. <_:egXML-1/> <_:egXML-2/> <_:egXML-3/>"
+msgid ""
+"All of these elements, like other stage directions, can appear both within "
+"and between speeches. <_:egXML-1/> <_:egXML-2/> <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2774,12 +3280,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1413
-msgid "Traditional stage scripts may contain additional technical information about such production-related factors as lighting, <_:soCalled-1/> (that is, detailed notes on actors' movements), or props required at particular points. More technical information about intended production effects may also appear in published versions of screenplays or movie scripts. Where these are presented simply as marginal notes, they may be encoded using the general-purpose <_:gi-2/> element defined in section <_:ptr-3/>. Alternatively, they may be formally distinguished from other stage directions by using the specialized <_:gi-4/> element: <_:specList-5/>"
+msgid ""
+"Traditional stage scripts may contain additional technical information about "
+"such production-related factors as lighting, <_:soCalled-1/> (that is, "
+"detailed notes on actors' movements), or props required at particular "
+"points. More technical information about intended production effects may "
+"also appear in published versions of screenplays or movie scripts. Where "
+"these are presented simply as marginal notes, they may be encoded using the "
+"general-purpose <_:gi-2/> element defined in section <_:ptr-3/>. "
+"Alternatively, they may be formally distinguished from other stage "
+"directions by using the specialized <_:gi-4/> element: <_:specList-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1425
-msgid "Like stage directions, <_:gi-1/> elements can appear anywhere within a speech or between speeches."
+msgid ""
+"Like stage directions, <_:gi-1/> elements can appear anywhere within a "
+"speech or between speeches."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2819,6 +3336,8 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/DR-PerformanceTexts.xml:1439
-msgid "The module described in this chapter makes available the following components: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>."
+msgid ""
+"The module described in this chapter makes available the following "
+"components: <_:moduleSpec-1/> The selection and combination of modules to "
+"form a TEI schema is described in <_:ptr-2/>."
 msgstr ""
-

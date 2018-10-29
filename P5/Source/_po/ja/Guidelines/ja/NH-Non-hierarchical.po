@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"POT-Creation-Date: 2018-10-29 21:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,12 +17,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:22
-msgid "Conflict between the hierarchy established by the physical structure of a document (e.g., volume, page, column, line) and its rhetorical or linguistic structure (e.g., chapters, paragraphs, sentences, acts, scenes, etc.)"
+msgid ""
+"Conflict between the hierarchy established by the physical structure of a "
+"document (e.g., volume, page, column, line) and its rhetorical or linguistic "
+"structure (e.g., chapters, paragraphs, sentences, acts, scenes, etc.)"
 msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:29
-msgid "Conflict between a verse text's metrical structure (e.g., its arrangement in stanzas and metrical lines) and its rhetorical or linguistic structure (e.g., phrases, sentences, and, for plays, acts, scenes, and speeches)."
+msgid ""
+"Conflict between a verse text's metrical structure (e.g., its arrangement in "
+"stanzas and metrical lines) and its rhetorical or linguistic structure (e."
+"g., phrases, sentences, and, for plays, acts, scenes, and speeches)."
 msgstr ""
 
 #. (itstool) path: p/said
@@ -36,47 +43,79 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:36
-msgid "Conflict between metrical, rhetorical, or linguistic structure and the representation of direct speech, especially if the quoted speech is interrupted by other elements (e.g., <_:said-1/>, she asked, <_:said-2/>) or crosses metrical, rhetorical, or linguistic boundaries."
+msgid ""
+"Conflict between metrical, rhetorical, or linguistic structure and the "
+"representation of direct speech, especially if the quoted speech is "
+"interrupted by other elements (e.g., <_:said-1/>, she asked, <_:said-2/>) or "
+"crosses metrical, rhetorical, or linguistic boundaries."
 msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:44
-msgid "Conflict between different analytical views or descriptions of a text or document, e.g., markup intended to encode diplomatic information about a word's appearance in a manuscript with markup intended to describe its morphology or pronunciation."
+msgid ""
+"Conflict between different analytical views or descriptions of a text or "
+"document, e.g., markup intended to encode diplomatic information about a "
+"word's appearance in a manuscript with markup intended to describe its "
+"morphology or pronunciation."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:15
-msgid "XML employs a strongly hierarchical document model. At various points, these Guidelines discuss problems that arise when using XML to encode textual features that either do not naturally lend themselves to representation in a strictly hierarchical form or conflict with other hierarchies represented in the markup. Examples of such situations include: <_:list-1/>"
+msgid ""
+"XML employs a strongly hierarchical document model. At various points, these "
+"Guidelines discuss problems that arise when using XML to encode textual "
+"features that either do not naturally lend themselves to representation in a "
+"strictly hierarchical form or conflict with other hierarchies represented in "
+"the markup. Examples of such situations include: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:52
-msgid "Non-nesting information poses fundamental problems for any XML-based encoding scheme, and it must be stated at the outset that no current solution combines all the desirable attributes of formal simplicity, capacity to represent all occurring or imaginable kinds of structures, suitability for formal or mechanical validation. The representation of non-hierarchical information is thus necessarily a matter of trade-offs among various sets of advantages and disadvantages."
+msgid ""
+"Non-nesting information poses fundamental problems for any XML-based "
+"encoding scheme, and it must be stated at the outset that no current "
+"solution combines all the desirable attributes of formal simplicity, "
+"capacity to represent all occurring or imaginable kinds of structures, "
+"suitability for formal or mechanical validation. The representation of non-"
+"hierarchical information is thus necessarily a matter of trade-offs among "
+"various sets of advantages and disadvantages."
 msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:63
-msgid "redundant encoding of information in multiple forms (discussed in <_:ptr-1/>)"
+msgid ""
+"redundant encoding of information in multiple forms (discussed in <_:ptr-1/>)"
 msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:67
-msgid "the use of empty elements to delimit the boundaries of a non-nesting structure (discussed in <_:ptr-1/>)"
+msgid ""
+"the use of empty elements to delimit the boundaries of a non-nesting "
+"structure (discussed in <_:ptr-1/>)"
 msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:72
-msgid "the division of a logically single non-nesting element into segments that nest properly in their immediate hierarchical context but can also be reconstituted virtually across these hierarchical boundaries (discussed <_:ptr-1/>)"
+msgid ""
+"the division of a logically single non-nesting element into segments that "
+"nest properly in their immediate hierarchical context but can also be "
+"reconstituted virtually across these hierarchical boundaries (discussed <_:"
+"ptr-1/>)"
 msgstr ""
 
 #. (itstool) path: item/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:79
-msgid "stand-off markup: the annotation of information by pointing at it, rather than by placing XML tags within it (discussed in <_:ptr-1/>)"
+msgid ""
+"stand-off markup: the annotation of information by pointing at it, rather "
+"than by placing XML tags within it (discussed in <_:ptr-1/>)"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:60
-msgid "These Guidelines support several methods for handling non-hierarchical information: <_:list-1/> Some of these methods can be used in TEI-conformant documents. Others require extension."
+msgid ""
+"These Guidelines support several methods for handling non-hierarchical "
+"information: <_:list-1/> Some of these methods can be used in TEI-conformant "
+"documents. Others require extension."
 msgstr ""
 
 #. (itstool) path: p/title
@@ -218,7 +257,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:85
-msgid "In the sections which follow these techniques are described and their advantages and disadvantages are briefly discussed. The various solutions to the problem will be exemplified using extracts from two poems. The first is the opening quatrain from William Wordsworth's <_:title-1/>: <_:quote-2/> The second example is the third stanza from the fourth section of Robert Pinsky's <_:title-3/>: <_:quote-4/> These two texts can be analysed in various ways. The first, which we might describe as the <_:soCalled-5/>, encodes the text according to its metrical features: line divisions (as here), stanzas or cantos in larger poems, and perhaps prosodic features like stress or syllable patterns, alliteration, or rhyme. A second view, which we might describe as the <_:soCalled-6/>, encodes linguistic and rhetorical features: phonemes, morphemes, words, phrases, clauses, and sentences. A third view, the <_:soCalled-7/>, might concentrate on narrative voice: distinguishing between the narrator and their interlocutors and identifying individual segments as direct quotations. In our examples, we will restrict ourselves to relatively simple conflicts: for the <_:term-8/> we will encode only metrical lines and line groups; for the <_:term-9/> we will restrict ourselves to encoding sentences; and for the <_:term-10/>, we only will distinguish direct quotation from other narration."
+msgid ""
+"In the sections which follow these techniques are described and their "
+"advantages and disadvantages are briefly discussed. The various solutions to "
+"the problem will be exemplified using extracts from two poems. The first is "
+"the opening quatrain from William Wordsworth's <_:title-1/>: <_:quote-2/> "
+"The second example is the third stanza from the fourth section of Robert "
+"Pinsky's <_:title-3/>: <_:quote-4/> These two texts can be analysed in "
+"various ways. The first, which we might describe as the <_:soCalled-5/>, "
+"encodes the text according to its metrical features: line divisions (as "
+"here), stanzas or cantos in larger poems, and perhaps prosodic features like "
+"stress or syllable patterns, alliteration, or rhyme. A second view, which we "
+"might describe as the <_:soCalled-6/>, encodes linguistic and rhetorical "
+"features: phonemes, morphemes, words, phrases, clauses, and sentences. A "
+"third view, the <_:soCalled-7/>, might concentrate on narrative voice: "
+"distinguishing between the narrator and their interlocutors and identifying "
+"individual segments as direct quotations. In our examples, we will restrict "
+"ourselves to relatively simple conflicts: for the <_:term-8/> we will encode "
+"only metrical lines and line groups; for the <_:term-9/> we will restrict "
+"ourselves to encoding sentences; and for the <_:term-10/>, we only will "
+"distinguish direct quotation from other narration."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -228,7 +286,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:118
-msgid "Conceptually, the simplest method of disentangling two (or more) conflicting hierarchical views of the same information is to encode it twice (or more), each time capturing a single view."
+msgid ""
+"Conceptually, the simplest method of disentangling two (or more) conflicting "
+"hierarchical views of the same information is to encode it twice (or more), "
+"each time capturing a single view."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -240,7 +301,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:122
-msgid "Thus, for example, the <_:term-1/> of <_:title-2/> might be encoded as follows, using the <_:gi-3/> element to encode each metrical line: <_:egXML-4/>"
+msgid ""
+"Thus, for example, the <_:term-1/> of <_:title-2/> might be encoded as "
+"follows, using the <_:gi-3/> element to encode each metrical line: <_:"
+"egXML-4/>"
 msgstr ""
 
 #. (itstool) path: p/seg
@@ -270,12 +334,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:130
-msgid "The <_:term-1/> would be encoded by taking the same text and replacing the metrical markup with information about its sentence structure: <_:egXML-2/>"
+msgid ""
+"The <_:term-1/> would be encoded by taking the same text and replacing the "
+"metrical markup with information about its sentence structure: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/seg
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:157
-msgid "Catholic woman of twenty-seven with five children And a first-rate body—pointed her finger at the back of one certain man and asked me, \"Is that guy a psychiatrist?\" and by god he was!"
+msgid ""
+"Catholic woman of twenty-seven with five children And a first-rate body—"
+"pointed her finger at the back of one certain man and asked me, \"Is that "
+"guy a psychiatrist?\" and by god he was!"
 msgstr ""
 
 #. (itstool) path: p/seg
@@ -312,22 +381,42 @@ msgstr ""
 
 #. (itstool) path: egXML/ab
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:171
-msgid "Catholic woman of twenty-seven with five children And a first-rate body—pointed her finger at the back of one certain man and asked me, <_:said-1/> and by god he was! <_:said-2/> She said, <_:said-3/> Grown quiet, I looked at his pink back, and thought."
+msgid ""
+"Catholic woman of twenty-seven with five children And a first-rate body—"
+"pointed her finger at the back of one certain man and asked me, <_:said-1/> "
+"and by god he was! <_:said-2/> She said, <_:said-3/> Grown quiet, I looked "
+"at his pink back, and thought."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:141
-msgid "Likewise, the more complex passage from Pinsky could be encoded in three different ways to reflect the different metrical, grammatical, and dialogic views of its text: <_:egXML-1/> <_:egXML-2/> <_:egXML-3/>"
+msgid ""
+"Likewise, the more complex passage from Pinsky could be encoded in three "
+"different ways to reflect the different metrical, grammatical, and dialogic "
+"views of its text: <_:egXML-1/> <_:egXML-2/> <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:190
-msgid "It has been shown, however, that it is possible to relate the different annotations in an indirect way: if the textual content of the annotations is identical, the very text can serve as a means for linking the different annotations, as described in <_:ptr-1/>."
+msgid ""
+"It has been shown, however, that it is possible to relate the different "
+"annotations in an indirect way: if the textual content of the annotations is "
+"identical, the very text can serve as a means for linking the different "
+"annotations, as described in <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:180
-msgid "This method is TEI-conformant. Its advantages are that each way of looking at the information is explicitly represented in the data and that the individual views are simple to process. The disadvantages are that the method requires the maintenance of multiple copies of identical textual content (an invitation to inconsistency) and that there is no explicit indication that the various views, which might be in separate files, are related to each other: it might prove difficult to combine the views or access information from one view while processing the file that contains the encoding of another.<_:note-1/>"
+msgid ""
+"This method is TEI-conformant. Its advantages are that each way of looking "
+"at the information is explicitly represented in the data and that the "
+"individual views are simple to process. The disadvantages are that the "
+"method requires the maintenance of multiple copies of identical textual "
+"content (an invitation to inconsistency) and that there is no explicit "
+"indication that the various views, which might be in separate files, are "
+"related to each other: it might prove difficult to combine the views or "
+"access information from one view while processing the file that contains the "
+"encoding of another.<_:note-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -337,7 +426,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:199
-msgid "A second method for accommodating non-hierarchical objects in an XML document involves marking the start and end points of the non-nesting material. This prevents textual features that fall outside the privileged hierarchy from invalidating the document while identifying their beginnings and ends for further processing. The disadvantage of this method is that no single XML element represents the non-nesting material and, as a result, processing with XML technologies is significantly more difficult."
+msgid ""
+"A second method for accommodating non-hierarchical objects in an XML "
+"document involves marking the start and end points of the non-nesting "
+"material. This prevents textual features that fall outside the privileged "
+"hierarchy from invalidating the document while identifying their beginnings "
+"and ends for further processing. The disadvantage of this method is that no "
+"single XML element represents the non-nesting material and, as a result, "
+"processing with XML technologies is significantly more difficult."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -352,7 +448,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:208
-msgid "The empty elements used at each end are called <_:term-1/> or <_:term-2/>. There are several variations on this method of encoding."
+msgid ""
+"The empty elements used at each end are called <_:term-1/> or <_:term-2/>. "
+"There are several variations on this method of encoding."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -410,12 +508,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:213
-msgid "For some common structural features, the TEI provides milestone elements that can be used to mark the beginning of a textual feature. These include <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and the generic <_:gi-5/>. Using <_:gi-6/>, for example, it is possible to indicate both the physical lineation of a poem on the page and its grammatical division into sentences: <_:egXML-7/>"
+msgid ""
+"For some common structural features, the TEI provides milestone elements "
+"that can be used to mark the beginning of a textual feature. These include "
+"<_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and the generic <_:gi-5/>. Using "
+"<_:gi-6/>, for example, it is possible to indicate both the physical "
+"lineation of a poem on the page and its grammatical division into sentences: "
+"<_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:228
-msgid "The use of these elements is by definition TEI-conformant. Care should be taken, however, that the meaning of the milestone elements is preserved: semantically, for example, <_:gi-1/> is used to mark the start of a new (typographical) line. While in much modern poetry, typographical and metrical line divisions correspond, <_:gi-2/> does not itself make a metrical claim: in encoding verse from sources, such as Old English manuscripts, where physical line breaks are not used to indicate metrical lineation, the correspondence would break down entirely."
+msgid ""
+"The use of these elements is by definition TEI-conformant. Care should be "
+"taken, however, that the meaning of the milestone elements is preserved: "
+"semantically, for example, <_:gi-1/> is used to mark the start of a new "
+"(typographical) line. While in much modern poetry, typographical and "
+"metrical line divisions correspond, <_:gi-2/> does not itself make a "
+"metrical claim: in encoding verse from sources, such as Old English "
+"manuscripts, where physical line breaks are not used to indicate metrical "
+"lineation, the correspondence would break down entirely."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -429,7 +541,9 @@ msgstr ""
 
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:245
-msgid "<_:anchor-1/> Scorn not the sonnet; <_:anchor-2/> <_:anchor-3/> critic, you have frowned,"
+msgid ""
+"<_:anchor-1/> Scorn not the sonnet; <_:anchor-2/> <_:anchor-3/> critic, you "
+"have frowned,"
 msgstr ""
 
 #. (itstool) path: egXML/l
@@ -449,7 +563,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:240
-msgid "The segment boundaries also may be delimited by the generic <_:gi-1/> element. Attributes can then be used to indicate the type of feature being delimited and whether a given instance opens or closes the feature. <_:egXML-2/>"
+msgid ""
+"The segment boundaries also may be delimited by the generic <_:gi-1/> "
+"element. Attributes can then be used to indicate the type of feature being "
+"delimited and whether a given instance opens or closes the feature. <_:"
+"egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
@@ -489,32 +607,48 @@ msgstr ""
 
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:272
-msgid "<_:sentenceBoundaryStart-1/>Scorn not the sonnet; <_:sentenceBoundaryEnd-2/> <_:sentenceBoundaryStart-3/>critic, you have frowned,"
+msgid ""
+"<_:sentenceBoundaryStart-1/>Scorn not the sonnet; <_:sentenceBoundaryEnd-2/> "
+"<_:sentenceBoundaryStart-3/>critic, you have frowned,"
 msgstr ""
 
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:276
-msgid "Mindless of its just honours; <_:sentenceBoundaryEnd-1/> <_:sentenceBoundaryStart-2/>with this key"
+msgid ""
+"Mindless of its just honours; <_:sentenceBoundaryEnd-1/> <_:"
+"sentenceBoundaryStart-2/>with this key"
 msgstr ""
 
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:278
-msgid "Shakespeare unlocked his heart; <_:sentenceBoundaryEnd-1/> <_:sentenceBoundaryStart-2/>the melody"
+msgid ""
+"Shakespeare unlocked his heart; <_:sentenceBoundaryEnd-1/> <_:"
+"sentenceBoundaryStart-2/>the melody"
 msgstr ""
 
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:280
-msgid "Of this small lute gave ease to Petrarch's wound. <_:sentenceBoundaryEnd-1/>"
+msgid ""
+"Of this small lute gave ease to Petrarch's wound. <_:sentenceBoundaryEnd-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:260
-msgid "Another approach is to design custom elements that provide richer information about the feature being delimited or its boundaries. This information can be included as attribute values or as part of the element name itself: e.g., <_:tag-1/>... <_:tag-2/>, <_:tag-3/>... <_:tag-4/>, or <_:tag-5/>... <_:tag-6/>: <_:egXML-7/>"
+msgid ""
+"Another approach is to design custom elements that provide richer "
+"information about the feature being delimited or its boundaries. This "
+"information can be included as attribute values or as part of the element "
+"name itself: e.g., <_:tag-1/>... <_:tag-2/>, <_:tag-3/>... <_:tag-4/>, or <_:"
+"tag-5/>... <_:tag-6/>: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:283
-msgid "If the custom elements can be replaced by TEI elements and attributes without loss of information, this method is TEI-conformant (see <_:ptr-1/>); if the custom elements introduce information or distinctions that cannot be captured using standard TEI elements, the method is an extension."
+msgid ""
+"If the custom elements can be replaced by TEI elements and attributes "
+"without loss of information, this method is TEI-conformant (see <_:ptr-1/>); "
+"if the custom elements introduce information or distinctions that cannot be "
+"captured using standard TEI elements, the method is an extension."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -567,22 +701,41 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:316
-msgid "The method is TEI-conformant if the modified elements and attributes can be mapped without loss of information to existing TEI markup structures such as milestone or anchor elements automatically (see <_:ptr-1/>)."
+msgid ""
+"The method is TEI-conformant if the modified elements and attributes can be "
+"mapped without loss of information to existing TEI markup structures such as "
+"milestone or anchor elements automatically (see <_:ptr-1/>)."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:323
-msgid "The method represents an Extension if the modified elements are placed in a distinct, non-TEI namespace (see <_:ptr-1/>)."
+msgid ""
+"The method represents an Extension if the modified elements are placed in a "
+"distinct, non-TEI namespace (see <_:ptr-1/>)."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:329
-msgid "The method is non-conformant—and indeed strongly deprecated—if the modified elements and attributes are not placed in a distinct, non-TEI namespace (see <_:ptr-1/>)."
+msgid ""
+"The method is non-conformant—and indeed strongly deprecated—if the modified "
+"elements and attributes are not placed in a distinct, non-TEI namespace (see "
+"<_:ptr-1/>)."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:290
-msgid "Finally, elements that are normally used to encode nesting textual features (e.g., <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, etc.) can be adapted so that they serve as empty segment boundary delimiters when the features they encode cross-hierarchical boundaries. Additional attributes (<_:att-4/> and <_:att-5/> in the example below) are added to these elements in order to allow the unambiguous correlation of start and end points. This method has been introduced in the markup literature under various names, including Trojan milestones, HORSE markup, CLIX, and COLT. It is described in detail by <_:ptr-6/>): <_:egXML-7/> Depending on how the modifications are carried out, this method may be TEI-conformant, may represent an extension of the TEI, or may produce a non-conformant document. <_:list-8/>"
+msgid ""
+"Finally, elements that are normally used to encode nesting textual features "
+"(e.g., <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, etc.) can be adapted so that they "
+"serve as empty segment boundary delimiters when the features they encode "
+"cross-hierarchical boundaries. Additional attributes (<_:att-4/> and <_:"
+"att-5/> in the example below) are added to these elements in order to allow "
+"the unambiguous correlation of start and end points. This method has been "
+"introduced in the markup literature under various names, including Trojan "
+"milestones, HORSE markup, CLIX, and COLT. It is described in detail by <_:"
+"ptr-6/>): <_:egXML-7/> Depending on how the modifications are carried out, "
+"this method may be TEI-conformant, may represent an extension of the TEI, or "
+"may produce a non-conformant document. <_:list-8/>"
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -629,12 +782,24 @@ msgstr ""
 
 #. (itstool) path: figure/figDesc
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:353
-msgid "Graphic representation of two interpretations of the phrase <_:mentioned-1/>"
+msgid ""
+"Graphic representation of two interpretations of the phrase <_:mentioned-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:337
-msgid "In each of the above examples (except the last), the relationship between the start and end delimiters (where these exist) of a given feature is implicit: it is assumed that \"end\" delimiters close the nearest preceding \"start\" delimiter, or, in the case of milestones, that the milestone marks both the end of the preceding example and the beginning of the next. Complications arise, however, when the non-nesting text overlaps with other non-nesting text of the same type, as, for example, in a grammatical analysis of the various possible interpretations of the noun phrase <_:mentioned-1/>. In this case, the adjective <_:mentioned-2/> can be understood as either modifying <_:mentioned-3/> or just <_:mentioned-4/>: <_:figure-5/>"
+msgid ""
+"In each of the above examples (except the last), the relationship between "
+"the start and end delimiters (where these exist) of a given feature is "
+"implicit: it is assumed that \"end\" delimiters close the nearest preceding "
+"\"start\" delimiter, or, in the case of milestones, that the milestone marks "
+"both the end of the preceding example and the beginning of the next. "
+"Complications arise, however, when the non-nesting text overlaps with other "
+"non-nesting text of the same type, as, for example, in a grammatical "
+"analysis of the various possible interpretations of the noun phrase <_:"
+"mentioned-1/>. In this case, the adjective <_:mentioned-2/> can be "
+"understood as either modifying <_:mentioned-3/> or just <_:mentioned-4/>: <_:"
+"figure-5/>"
 msgstr ""
 
 #. (itstool) path: phr/w
@@ -654,7 +819,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:356
-msgid "In order to encode the possible analyses of this phrase, an unambiguous method of associating opening and closing segment boundary delimiters is required: <_:egXML-1/>"
+msgid ""
+"In order to encode the possible analyses of this phrase, an unambiguous "
+"method of associating opening and closing segment boundary delimiters is "
+"required: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -687,22 +855,47 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:372
-msgid "In this encoding, the first interpretation, in which <_:mentioned-1/> modifies the NP <_:mentioned-2/>, the NP <_:mentioned-3/> is opened using an <_:gi-4/> tag with the <_:att-5/> value <_:mentioned-6/> and closed with an <_:gi-7/> with the same value on <_:att-8/>; in the second interpretation, in which <_:mentioned-9/> forms a NP with <_:mentioned-10/>, the NP <_:mentioned-11/> is opened using an <_:gi-12/> tag with the <_:att-13/> value <_:mentioned-14/> and closed with an <_:gi-15/> tag that has the same value on <_:att-16/>."
+msgid ""
+"In this encoding, the first interpretation, in which <_:mentioned-1/> "
+"modifies the NP <_:mentioned-2/>, the NP <_:mentioned-3/> is opened using an "
+"<_:gi-4/> tag with the <_:att-5/> value <_:mentioned-6/> and closed with an "
+"<_:gi-7/> with the same value on <_:att-8/>; in the second interpretation, "
+"in which <_:mentioned-9/> forms a NP with <_:mentioned-10/>, the NP <_:"
+"mentioned-11/> is opened using an <_:gi-12/> tag with the <_:att-13/> value "
+"<_:mentioned-14/> and closed with an <_:gi-15/> tag that has the same value "
+"on <_:att-16/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:387
-msgid "Despite their advantages, segment boundary delimiters incur the disadvantage of cumbersome processing: since the elements of the analysis (e.g., the sentences in the poems, or phrases in the above example) are not uniformly represented by nodes in the document tree, they must be reconstituted by software in an ad hoc fashion, which is likely to be difficult and may be error prone."
+msgid ""
+"Despite their advantages, segment boundary delimiters incur the disadvantage "
+"of cumbersome processing: since the elements of the analysis (e.g., the "
+"sentences in the poems, or phrases in the above example) are not uniformly "
+"represented by nodes in the document tree, they must be reconstituted by "
+"software in an ad hoc fashion, which is likely to be difficult and may be "
+"error prone."
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:401
-msgid "Grammar based schema languages (e.g., DTD, W3C Schema, and RELAX NG) are used to define markup languages (e.g., XHTML or TEI). Rule-based schema languages (e.g., Schematron) can be used to define further constraints. Such a rule-based schema language permits a sequence of certain elements between empty elements to be legitimized or prohibited."
+msgid ""
+"Grammar based schema languages (e.g., DTD, W3C Schema, and RELAX NG) are "
+"used to define markup languages (e.g., XHTML or TEI). Rule-based schema "
+"languages (e.g., Schematron) can be used to define further constraints. Such "
+"a rule-based schema language permits a sequence of certain elements between "
+"empty elements to be legitimized or prohibited."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:394
-msgid "Most important for some encoders, the method also disguises the relationship between the beginning and the ending of each logical element. This makes it impossible for standard validation software to provide the same kind of validation possible elsewhere in the encoding. When using grammar-based schema languages it is not possible to define a content model for the range limited by empty elements.<_:note-1/>"
+msgid ""
+"Most important for some encoders, the method also disguises the relationship "
+"between the beginning and the ending of each logical element. This makes it "
+"impossible for standard validation software to provide the same kind of "
+"validation possible elsewhere in the encoding. When using grammar-based "
+"schema languages it is not possible to define a content model for the range "
+"limited by empty elements.<_:note-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -722,7 +915,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:411
-msgid "A third method involves breaking what might be considered a single logical (but non-nesting) element into multiple smaller structural elements that fit within the dominant hierarchy but can be reconstituted virtually. For example, if a passage of direct discourse begins in the middle of one paragraph and continues for several more paragraphs, one could encode the passage as a series of <_:gi-1/> elements, each fitting within a <_:gi-2/> element. The resulting encoding is valid XML, but the text in each <_:gi-3/> element represents only a portion of the complete passage of direct discourse. For this reason these elements are sometimes called <_:soCalled-4/>."
+msgid ""
+"A third method involves breaking what might be considered a single logical "
+"(but non-nesting) element into multiple smaller structural elements that fit "
+"within the dominant hierarchy but can be reconstituted virtually. For "
+"example, if a passage of direct discourse begins in the middle of one "
+"paragraph and continues for several more paragraphs, one could encode the "
+"passage as a series of <_:gi-1/> elements, each fitting within a <_:gi-2/> "
+"element. The resulting encoding is valid XML, but the text in each <_:gi-3/> "
+"element represents only a portion of the complete passage of direct "
+"discourse. For this reason these elements are sometimes called <_:soCalled-4/"
+">."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -742,7 +945,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:423
-msgid "In the case of our selection from Pinsky's poem, for example, the second passage of direct quotation, which crosses a line boundary and is broken up by a <_:mentioned-1/> in the narrator's voice, can be made to fit within the hierarchy established by the metrical lineation by using two <_:gi-2/> elements: <_:egXML-3/>"
+msgid ""
+"In the case of our selection from Pinsky's poem, for example, the second "
+"passage of direct quotation, which crosses a line boundary and is broken up "
+"by a <_:mentioned-1/> in the narrator's voice, can be made to fit within the "
+"hierarchy established by the metrical lineation by using two <_:gi-2/> "
+"elements: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: l/seg
@@ -789,12 +997,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:443
-msgid "Similarly, the sentences in our example from Wordsworth could be encoded: <_:egXML-1/>"
+msgid ""
+"Similarly, the sentences in our example from Wordsworth could be encoded: <_:"
+"egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:462
-msgid "There are two main problems with this type of encoding. The first is that it invariably means that the encoding will have more elements claiming to represent a feature than there are actual instances of that feature in the text. Thus, for example, the passage from <_:title-1/> marks seven spans of text using <_:gi-2/>, even though there are only four linguistic sentences in the passage."
+msgid ""
+"There are two main problems with this type of encoding. The first is that it "
+"invariably means that the encoding will have more elements claiming to "
+"represent a feature than there are actual instances of that feature in the "
+"text. Thus, for example, the passage from <_:title-1/> marks seven spans of "
+"text using <_:gi-2/>, even though there are only four linguistic sentences "
+"in the passage."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -809,12 +1025,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:470
-msgid "The second problem is that it can be semantically misleading. Although they are tagged using the element for <_:term-1/>, for example, very few of the textual features encoded using <_:gi-2/> in this example represent actual linguistic sentences: <_:mentioned-3/>, for example, is a prepositional phrase, not a sentence; <_:mentioned-4/> is a string corresponding to no single grammatical category."
+msgid ""
+"The second problem is that it can be semantically misleading. Although they "
+"are tagged using the element for <_:term-1/>, for example, very few of the "
+"textual features encoded using <_:gi-2/> in this example represent actual "
+"linguistic sentences: <_:mentioned-3/>, for example, is a prepositional "
+"phrase, not a sentence; <_:mentioned-4/> is a string corresponding to no "
+"single grammatical category."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:479
-msgid "Taken together, these problems can make automatic analysis of the fragmented features difficult. An analysis that intended to count the number of sentences in Wordsworth's poem, for example, would arrive at an inflated figure if it understood the <_:gi-1/> elements to represent complete rhetorical sentences; if it wanted to do an analysis of his syntax, it would not be able to assume that <_:gi-2/> delimited linguistic sentences."
+msgid ""
+"Taken together, these problems can make automatic analysis of the fragmented "
+"features difficult. An analysis that intended to count the number of "
+"sentences in Wordsworth's poem, for example, would arrive at an inflated "
+"figure if it understood the <_:gi-1/> elements to represent complete "
+"rhetorical sentences; if it wanted to do an analysis of his syntax, it would "
+"not be able to assume that <_:gi-2/> delimited linguistic sentences."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -834,7 +1062,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:487
-msgid "The technique of fragmentation is often complemented by the technique of virtual joins. Virtual joins may be used to combine objects in the text to a new hierarchy. Here is <_:title-1/> again; this time the relationship between the parts of the fragmented sentences is indicated explicitly using the <_:att-2/> and <_:att-3/> attributes described in <_:ptr-4/>. <_:egXML-5/> This method of virtually joining partial elements is sometimes called <_:soCalled-6/>."
+msgid ""
+"The technique of fragmentation is often complemented by the technique of "
+"virtual joins. Virtual joins may be used to combine objects in the text to a "
+"new hierarchy. Here is <_:title-1/> again; this time the relationship "
+"between the parts of the fragmented sentences is indicated explicitly using "
+"the <_:att-2/> and <_:att-3/> attributes described in <_:ptr-4/>. <_:egXML-5/"
+"> This method of virtually joining partial elements is sometimes called <_:"
+"soCalled-6/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -879,7 +1114,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:513
-msgid "For fragments encoded using <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, or elements that belong to the <_:ident-5/> class, an even simpler mechanism for virtually joining fragments exists: the use of the <_:att-6/> attribute with the value <_:mentioned-7/> (Initial), <_:mentioned-8/> (Medial), or <_:mentioned-9/> (Final) as described in <_:ptr-10/>. Here is the above example recoded to reflect this method: <_:egXML-11/>"
+msgid ""
+"For fragments encoded using <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, or "
+"elements that belong to the <_:ident-5/> class, an even simpler mechanism "
+"for virtually joining fragments exists: the use of the <_:att-6/> attribute "
+"with the value <_:mentioned-7/> (Initial), <_:mentioned-8/> (Medial), or <_:"
+"mentioned-9/> (Final) as described in <_:ptr-10/>. Here is the above example "
+"recoded to reflect this method: <_:egXML-11/>"
 msgstr ""
 
 #. (itstool) path: l/seg
@@ -899,7 +1140,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:539
-msgid "This method is TEI-conformant and simple to use. Its disadvantage is that it does not work well for cases of self-overlap, or if there are nested occurrences of the same element type, as it can become difficult to ascertain which initial, medial, or final partial element should be combined with which others or in which order. This problem becomes evident if we attempt to combine a detailed Grammatical view of the Pinsky example with its metrical encoding: <_:egXML-1/>"
+msgid ""
+"This method is TEI-conformant and simple to use. Its disadvantage is that it "
+"does not work well for cases of self-overlap, or if there are nested "
+"occurrences of the same element type, as it can become difficult to "
+"ascertain which initial, medial, or final partial element should be combined "
+"with which others or in which order. This problem becomes evident if we "
+"attempt to combine a detailed Grammatical view of the Pinsky example with "
+"its metrical encoding: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -982,7 +1230,8 @@ msgstr ""
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:578
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:653
-msgid "<_:w-1/> <_:w-2/> <_:w-3/> <_:w-4/>; <_:w-5/>, <_:w-6/> <_:w-7/> <_:w-8/>,"
+msgid ""
+"<_:w-1/> <_:w-2/> <_:w-3/> <_:w-4/>; <_:w-5/>, <_:w-6/> <_:w-7/> <_:w-8/>,"
 msgstr ""
 
 #. (itstool) path: l/w
@@ -1056,7 +1305,8 @@ msgstr ""
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:585
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:660
-msgid "<_:w-1/> <_:w-2/> <_:w-3/> <_:w-4/> <_:w-5/>; <_:w-6/> <_:w-7/> <_:w-8/>"
+msgid ""
+"<_:w-1/> <_:w-2/> <_:w-3/> <_:w-4/> <_:w-5/>; <_:w-6/> <_:w-7/> <_:w-8/>"
 msgstr ""
 
 #. (itstool) path: l/w
@@ -1172,12 +1422,19 @@ msgstr ""
 #. (itstool) path: egXML/l
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:601
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:676
-msgid "<_:w-1/> <_:w-2/> <_:w-3/> <_:w-4/> <_:w-5/> <_:w-6/> <_:w-7/> <_:w-8/> <_:w-9/>."
+msgid ""
+"<_:w-1/> <_:w-2/> <_:w-3/> <_:w-4/> <_:w-5/> <_:w-6/> <_:w-7/> <_:w-8/> <_:"
+"w-9/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:571
-msgid "A third method for aggregating fragmented partial elements involves using markup that is not directly part of the encoding, e.g., the <_:gi-1/> element. In this method, a <_:gi-2/> element is used elsewhere in the document to indicate explicitly the members of the virtual element: <_:egXML-3/>"
+msgid ""
+"A third method for aggregating fragmented partial elements involves using "
+"markup that is not directly part of the encoding, e.g., the <_:gi-1/> "
+"element. In this method, a <_:gi-2/> element is used elsewhere in the "
+"document to indicate explicitly the members of the virtual element: <_:"
+"egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
@@ -1187,7 +1444,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:623
-msgid "The major advantage of fragmentation and virtual joins is that it allows all the hierarchies in the text to be handled explicitly: both the privileged one directly represented and the alternate hierarchy that has been split up and rejoined. The major disadvantages are that (like most of the other methods described here) it privileges one hierarchy over the others, requires special processing to reconstitute the elements of the other hierarchies, and, except in the case of <_:gi-1/>, can be semantically misleading."
+msgid ""
+"The major advantage of fragmentation and virtual joins is that it allows all "
+"the hierarchies in the text to be handled explicitly: both the privileged "
+"one directly represented and the alternate hierarchy that has been split up "
+"and rejoined. The major disadvantages are that (like most of the other "
+"methods described here) it privileges one hierarchy over the others, "
+"requires special processing to reconstitute the elements of the other "
+"hierarchies, and, except in the case of <_:gi-1/>, can be semantically "
+"misleading."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1218,12 +1483,21 @@ msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:649
-msgid "A fake namespace is given for XInclude here, to avoid the markup being interpreted literally during processing."
+msgid ""
+"A fake namespace is given for XInclude here, to avoid the markup being "
+"interpreted literally during processing."
 msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:652
-msgid "<_:l-1/> <_:l-2/> <_:l-3/> <_:l-4/> &lt;p xmlns:xi=\"http://www.w3.org/2001/XInclude\"&gt; &lt;seg&gt; &lt;xi:include xpointer=\"range(element(w001),element(w004))\"/&gt; &lt;/seg&gt; &lt;seg&gt; &lt;xi:include xpointer=\"range(element(w005),element(w013))\"/&gt; &lt;/seg&gt; &lt;seg&gt; &lt;xi:include xpointer=\"range(element(w014),element(w020))\"/&gt; &lt;/seg&gt; &lt;seg&gt; &lt;xi:include xpointer=\"range(element(w021),element(w031))\"/&gt; &lt;/seg&gt; &lt;/p&gt;"
+msgid ""
+"<_:l-1/> <_:l-2/> <_:l-3/> <_:l-4/> &lt;p xmlns:xi=\"http://www.w3.org/2001/"
+"XInclude\"&gt; &lt;seg&gt; &lt;xi:include xpointer=\"range(element(w001),"
+"element(w004))\"/&gt; &lt;/seg&gt; &lt;seg&gt; &lt;xi:include xpointer="
+"\"range(element(w005),element(w013))\"/&gt; &lt;/seg&gt; &lt;seg&gt; &lt;xi:"
+"include xpointer=\"range(element(w014),element(w020))\"/&gt; &lt;/seg&gt; "
+"&lt;seg&gt; &lt;xi:include xpointer=\"range(element(w021),element(w031))\"/"
+"&gt; &lt;/seg&gt; &lt;/p&gt;"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1238,27 +1512,69 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:635
-msgid "Most markup is characterized by the embedding of elements in the text. An alternative approach separates the text and the elements used to describe it. This approach is known as stand-off markup (see section <_:ptr-1/>). It establishes a new hierarchy by building a new tree whose nodes are XML elements that do not contain textual content, but rather links to another <_:term-2/>: <_:gloss-3/>. This approach can be subdivided according to different criteria. A first distinction concerns the link base, i.e. the content to which annotations are to be applied. Sometimes the link target contains markup that can be referred to explicitly, as in the following example where the offset markup uses the <_:att-4/> values on <_:gi-5/> to provide targets for <_:gi-6/><_:note-7/>: <_:egXML-8/> Note that the layer that uses XInclude to build another hierarchy might well be in another document, in which case the value of <_:att-9/> of <_:gi-10/> would need to be the URL of the document that contains the base layer, in this case the <_:gi-11/> elements."
+msgid ""
+"Most markup is characterized by the embedding of elements in the text. An "
+"alternative approach separates the text and the elements used to describe "
+"it. This approach is known as stand-off markup (see section <_:ptr-1/>). It "
+"establishes a new hierarchy by building a new tree whose nodes are XML "
+"elements that do not contain textual content, but rather links to another <_:"
+"term-2/>: <_:gloss-3/>. This approach can be subdivided according to "
+"different criteria. A first distinction concerns the link base, i.e. the "
+"content to which annotations are to be applied. Sometimes the link target "
+"contains markup that can be referred to explicitly, as in the following "
+"example where the offset markup uses the <_:att-4/> values on <_:gi-5/> to "
+"provide targets for <_:gi-6/><_:note-7/>: <_:egXML-8/> Note that the layer "
+"that uses XInclude to build another hierarchy might well be in another "
+"document, in which case the value of <_:att-9/> of <_:gi-10/> would need to "
+"be the URL of the document that contains the base layer, in this case the <_:"
+"gi-11/> elements."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:714
-msgid "This is very similar to the use of <_:gi-1/> discussed above. The main advantages of the stand-off method are that it is possible to specify attributes on the aggregate <_:gi-2/> elements, and that there exists off-the-shelf software that will perform appropriate processing. Stand-off markup may be used even when the base text being annotated is plain text, i.e. does not have any XML encoding. In this case, the range of text to be marked up is indicated by character offsets (see <_:ptr-3/>, in particular <_:ptr-4/>). Another distinction concerns the number of files which can serve as link targets. Often, one (dedicated) annotation is used as the link target of all the other annotations. It is also possible to freely interlink several layers."
+msgid ""
+"This is very similar to the use of <_:gi-1/> discussed above. The main "
+"advantages of the stand-off method are that it is possible to specify "
+"attributes on the aggregate <_:gi-2/> elements, and that there exists off-"
+"the-shelf software that will perform appropriate processing. Stand-off "
+"markup may be used even when the base text being annotated is plain text, i."
+"e. does not have any XML encoding. In this case, the range of text to be "
+"marked up is indicated by character offsets (see <_:ptr-3/>, in particular "
+"<_:ptr-4/>). Another distinction concerns the number of files which can "
+"serve as link targets. Often, one (dedicated) annotation is used as the link "
+"target of all the other annotations. It is also possible to freely interlink "
+"several layers."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:728
-msgid "It has been noted that stand-off markup has several advantages over embedded annotations. In particular, it is possible to produce annotations of a text even when the source document is read-only. Furthermore, annotation files can be distributed without distributing the source text. Further advantages mentioned in the literature are that discontinuous segments of text can be combined in a single annotation, that independent parallel coders can produce independent annotations, and that different annotation files can contain different layers of information. Lastly, it has also been noted that this approach is elegant."
+msgid ""
+"It has been noted that stand-off markup has several advantages over embedded "
+"annotations. In particular, it is possible to produce annotations of a text "
+"even when the source document is read-only. Furthermore, annotation files "
+"can be distributed without distributing the source text. Further advantages "
+"mentioned in the literature are that discontinuous segments of text can be "
+"combined in a single annotation, that independent parallel coders can "
+"produce independent annotations, and that different annotation files can "
+"contain different layers of information. Lastly, it has also been noted that "
+"this approach is elegant."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:739
-msgid "But there are also several drawbacks. First, new stand-off annotated layers require a separate interpretation, and the layers—although separate—depend on each other. Moreover, although all of the information of the multiple hierarchies is included, the information may be difficult to access using generic methods."
+msgid ""
+"But there are also several drawbacks. First, new stand-off annotated layers "
+"require a separate interpretation, and the layers—although separate—depend "
+"on each other. Moreover, although all of the information of the multiple "
+"hierarchies is included, the information may be difficult to access using "
+"generic methods."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:745
-msgid "Inasmuch as it uses elements not included in the TEI namespace, stand-off markup involves an extension of the TEI."
+msgid ""
+"Inasmuch as it uses elements not included in the TEI namespace, stand-off "
+"markup involves an extension of the TEI."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1268,17 +1584,26 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:751
-msgid "There exist many non-XML methods of encoding a text that either solve or do not suffer the problem of the inability to encode overlapping hierarchies. These include, but are not limited to, the following proposals."
+msgid ""
+"There exist many non-XML methods of encoding a text that either solve or do "
+"not suffer the problem of the inability to encode overlapping hierarchies. "
+"These include, but are not limited to, the following proposals."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:756
-msgid "Applying the notion of concurrent markup to XML (<_:ptr-1/>). This reintroduces the CONCUR feature of SGML, which was omitted from the XML specification."
+msgid ""
+"Applying the notion of concurrent markup to XML (<_:ptr-1/>). This "
+"reintroduces the CONCUR feature of SGML, which was omitted from the XML "
+"specification."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:760
-msgid "Designing a form of document representation in which several trees share all or part of the same frontier, and in which each individual view of the document has the form of a tree (see <_:ptr-1/>)."
+msgid ""
+"Designing a form of document representation in which several trees share all "
+"or part of the same frontier, and in which each individual view of the "
+"document has the form of a tree (see <_:ptr-1/>)."
 msgstr ""
 
 #. (itstool) path: item/soCalled
@@ -1288,17 +1613,28 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:765
-msgid "The <_:soCalled-1/> proposal (<_:ptr-2/>), which stores a body of information as a set of intertwined XML trees. This approach eliminates unnecessary redundancy and makes the database readily updatable, while allowing the user to exploit different hierarchical access paths."
+msgid ""
+"The <_:soCalled-1/> proposal (<_:ptr-2/>), which stores a body of "
+"information as a set of intertwined XML trees. This approach eliminates "
+"unnecessary redundancy and makes the database readily updatable, while "
+"allowing the user to exploit different hierarchical access paths."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:771
-msgid "The MultiX proposal (<_:ptr-1/>) , which represents documents as directed graphs. Because XML is used to represent the graph, the document is, at least in principle, manipulable with standard XML tools."
+msgid ""
+"The MultiX proposal (<_:ptr-1/>) , which represents documents as directed "
+"graphs. Because XML is used to represent the graph, the document is, at "
+"least in principle, manipulable with standard XML tools."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:776
-msgid "The Just-In-Time-Trees proposal (<_:ptr-1/>), which stores documents using XML, but processes the XML representation in non-standard ways and allows it to be mapped onto data structures that are different from those known from XML."
+msgid ""
+"The Just-In-Time-Trees proposal (<_:ptr-1/>), which stores documents using "
+"XML, but processes the XML representation in non-standard ways and allows it "
+"to be mapped onto data structures that are different from those known from "
+"XML."
 msgstr ""
 
 #. (itstool) path: choice/expan
@@ -1313,7 +1649,11 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:782
-msgid "The <_:choice-1/> proposal. This offers alternatives to the basic XML linear form as well as its data and processing models. It uses an alternative notation to XML and a data structure based on Core Range Algebra (<_:ptr-2/>)."
+msgid ""
+"The <_:choice-1/> proposal. This offers alternatives to the basic XML linear "
+"form as well as its data and processing models. It uses an alternative "
+"notation to XML and a data structure based on Core Range Algebra (<_:ptr-2/"
+">)."
 msgstr ""
 
 #. (itstool) path: choice/expan
@@ -1328,11 +1668,18 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:790
-msgid "<_:choice-1/>. This provides a notation (TexMECS) and a data structure (Goddag) as well as a draft constraint language for the representation of non-hierarchical structures; see <_:ptr-2/>."
+msgid ""
+"<_:choice-1/>. This provides a notation (TexMECS) and a data structure "
+"(Goddag) as well as a draft constraint language for the representation of "
+"non-hierarchical structures; see <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/NH-Non-hierarchical.xml:798
-msgid "These approaches are based either on non-standard XML processing or data models, or not based on XML at all. Since TEI is currently based on XML they are not described any further in these Guidelines. Use of these methods with the TEI will certainly involve extensions; in most cases the documents will also be non-conformant."
+msgid ""
+"These approaches are based either on non-standard XML processing or data "
+"models, or not based on XML at all. Since TEI is currently based on XML they "
+"are not described any further in these Guidelines. Use of these methods with "
+"the TEI will certainly involve extensions; in most cases the documents will "
+"also be non-conformant."
 msgstr ""
-

@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"POT-Creation-Date: 2018-10-29 21:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,6 +22,8 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/REF-CLASSES-MODEL.xml:17
-msgid "This appendix gives you a list of model classes and links to the reference pages for them. There are distinctly-named model classes in revision of TEI P5 of the TEI Guidelines."
+msgid ""
+"This appendix gives you a list of model classes and links to the reference "
+"pages for them. There are distinctly-named model classes in revision of TEI "
+"P5 of the TEI Guidelines."
 msgstr ""
-

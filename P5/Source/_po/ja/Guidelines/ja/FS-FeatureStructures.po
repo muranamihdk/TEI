@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-22 19:52+0900\n"
+"POT-Creation-Date: 2018-10-29 21:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,17 +50,33 @@ msgstr ""
 
 #. (itstool) path: note/title
 #: Source/Guidelines/en/FS-FeatureStructures.xml:27
-msgid "Language Resource Management — Feature Structures — Part One: Feature Structure Representation"
+msgid ""
+"Language Resource Management — Feature Structures — Part One: Feature "
+"Structure Representation"
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/FS-FeatureStructures.xml:26
-msgid "The recommendations of this chapter have been adopted as ISO Standard 24610-1 <_:title-1/>"
+msgid ""
+"The recommendations of this chapter have been adopted as ISO Standard "
+"24610-1 <_:title-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:12
-msgid "A <_:term-1/> is a general purpose data structure which identifies and groups together individual <_:term-2/>, each of which associates a name with one or more values. Because of the generality of feature structures, they can be used to represent many different kinds of information, but they are of particular usefulness in the representation of linguistic analyses, especially where such analyses are partial, or <_:term-3/>. Feature structures represent the interrelations among various pieces of information, and their instantiation in markup provides a <_:term-4/> for the generic representation of analyses and interpretations. Moreover, this instantiation allows feature values to be of specific <_:term-5/>, and for restrictions to be placed on the values for particular features, by means of <_:term-6/>.<_:note-7/>"
+msgid ""
+"A <_:term-1/> is a general purpose data structure which identifies and "
+"groups together individual <_:term-2/>, each of which associates a name with "
+"one or more values. Because of the generality of feature structures, they "
+"can be used to represent many different kinds of information, but they are "
+"of particular usefulness in the representation of linguistic analyses, "
+"especially where such analyses are partial, or <_:term-3/>. Feature "
+"structures represent the interrelations among various pieces of information, "
+"and their instantiation in markup provides a <_:term-4/> for the generic "
+"representation of analyses and interpretations. Moreover, this instantiation "
+"allows feature values to be of specific <_:term-5/>, and for restrictions to "
+"be placed on the values for particular features, by means of <_:term-6/>.<_:"
+"note-7/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -173,7 +190,27 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:31
-msgid "This chapter is organized as follows. Following this introduction, section <_:ptr-1/> introduces the elements <_:gi-2/> and <_:gi-3/>, used to represent feature structures and features respectively, together with the elementary <_:term-4/> feature value. Section <_:ptr-5/> introduces elements for representing other kinds of atomic feature values such as <_:term-6/>, <_:term-7/>, and <_:term-8/> values. Section <_:ptr-9/> introduces the notion of predefined <_:term-10/> or groups of features or feature values along with methods for referencing their components. Section <_:ptr-11/> introduces complex values, in particular feature-structures as values, thus enabling feature structures to be recursively defined. Section <_:ptr-12/> discusses other complex values, in particular values which are collections, organized as <_:term-13/>s, <_:term-14/>s, and <_:term-15/>s. Section <_:ptr-16/> discusses how the operations of alternation, negation, and collection of feature values may be represented. Section <_:ptr-17/> discusses ways of representing underspecified, default, or uncertain values. Section <_:ptr-18/> discusses how analyses may be linked to other parts of an encoded text. Section <_:ptr-19/> describes the <_:term-20/>, a construct which provides for the validation of typed feature structures. Formal definitions for all the elements introduced in this chapter are provided in section <_:ptr-21/>."
+msgid ""
+"This chapter is organized as follows. Following this introduction, section "
+"<_:ptr-1/> introduces the elements <_:gi-2/> and <_:gi-3/>, used to "
+"represent feature structures and features respectively, together with the "
+"elementary <_:term-4/> feature value. Section <_:ptr-5/> introduces elements "
+"for representing other kinds of atomic feature values such as <_:term-6/>, "
+"<_:term-7/>, and <_:term-8/> values. Section <_:ptr-9/> introduces the "
+"notion of predefined <_:term-10/> or groups of features or feature values "
+"along with methods for referencing their components. Section <_:ptr-11/> "
+"introduces complex values, in particular feature-structures as values, thus "
+"enabling feature structures to be recursively defined. Section <_:ptr-12/> "
+"discusses other complex values, in particular values which are collections, "
+"organized as <_:term-13/>s, <_:term-14/>s, and <_:term-15/>s. Section <_:"
+"ptr-16/> discusses how the operations of alternation, negation, and "
+"collection of feature values may be represented. Section <_:ptr-17/> "
+"discusses ways of representing underspecified, default, or uncertain values. "
+"Section <_:ptr-18/> discusses how analyses may be linked to other parts of "
+"an encoded text. Section <_:ptr-19/> describes the <_:term-20/>, a construct "
+"which provides for the validation of typed feature structures. Formal "
+"definitions for all the elements introduced in this chapter are provided in "
+"section <_:ptr-21/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -214,7 +251,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:62
-msgid "The fundamental elements used to represent a feature structure analysis are <_:gi-1/> (for <_:term-2/>), which represents a feature-value pair, and <_:gi-3/> (for <_:term-4/>), which represents a structure made up of such feature-value pairs. The <_:gi-5/> element has an optional <_:att-6/> attribute which may be used to represent typed feature structures, and may contain any number of <_:gi-7/> elements. An <_:gi-8/> element has a required <_:att-9/> attribute and an associated <_:term-10/>. The value may be simple: that is, a single binary, numeric, symbolic (i.e. taken from a restricted set of legal values), or string value, or a collection of such values, organized in various ways, for example, as a list; or it may be complex, that is, it may itself be a feature structure, thus providing a degree of recursion. Values may be under-specified or defaulted in various ways. These possibilities are all described in more detail in this and the following sections."
+msgid ""
+"The fundamental elements used to represent a feature structure analysis are "
+"<_:gi-1/> (for <_:term-2/>), which represents a feature-value pair, and <_:"
+"gi-3/> (for <_:term-4/>), which represents a structure made up of such "
+"feature-value pairs. The <_:gi-5/> element has an optional <_:att-6/> "
+"attribute which may be used to represent typed feature structures, and may "
+"contain any number of <_:gi-7/> elements. An <_:gi-8/> element has a "
+"required <_:att-9/> attribute and an associated <_:term-10/>. The value may "
+"be simple: that is, a single binary, numeric, symbolic (i.e. taken from a "
+"restricted set of legal values), or string value, or a collection of such "
+"values, organized in various ways, for example, as a list; or it may be "
+"complex, that is, it may itself be a feature structure, thus providing a "
+"degree of recursion. Values may be under-specified or defaulted in various "
+"ways. These possibilities are all described in more detail in this and the "
+"following sections."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -243,12 +294,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:79
-msgid "Feature and feature-value representations (including feature structure representations) may be embedded directly at any point in an XML document, or they may be collected together in special-purpose feature or feature-value <_:term-1/>. The components of such libraries may then be referenced from other feature or feature-value representations, using the <_:att-2/> or <_:att-3/> attribute as appropriate."
+msgid ""
+"Feature and feature-value representations (including feature structure "
+"representations) may be embedded directly at any point in an XML document, "
+"or they may be collected together in special-purpose feature or feature-"
+"value <_:term-1/>. The components of such libraries may then be referenced "
+"from other feature or feature-value representations, using the <_:att-2/> or "
+"<_:att-3/> attribute as appropriate."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:86
-msgid "We begin by considering the simple case of a feature structure which contains binary-valued features only. The following three XML elements are needed to represent such a feature structure: <_:specList-1/> The attributes <_:att-2/> and the <_:att-3/> are not discussed in this section: they provide an alternative way of indicating the content of an element, as further discussed in section <_:ptr-4/>."
+msgid ""
+"We begin by considering the simple case of a feature structure which "
+"contains binary-valued features only. The following three XML elements are "
+"needed to represent such a feature structure: <_:specList-1/> The attributes "
+"<_:att-2/> and the <_:att-3/> are not discussed in this section: they "
+"provide an alternative way of indicating the content of an element, as "
+"further discussed in section <_:ptr-4/>."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -258,17 +321,31 @@ msgstr ""
 
 #. (itstool) path: p/eg
 #: Source/Guidelines/en/FS-FeatureStructures.xml:103
-msgid "+--- ---+ | consonantal + | | vocalic - | | voiced - | | anterior + | | coronal + | | continuant + | | strident + | +--- ---+"
+msgid ""
+"+--- ---+ | consonantal + | | vocalic - | | voiced - | | anterior + | | "
+"coronal + | | continuant + | | strident + | +--- ---+"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:99
-msgid "An <_:gi-1/> element containing <_:gi-2/> elements with binary values can be straightforwardly used to encode the <_:term-3/> of feature-value specifications for phonetic segments, such as the following for the English segment [s]. <_:eg-4/>"
+msgid ""
+"An <_:gi-1/> element containing <_:gi-2/> elements with binary values can be "
+"straightforwardly used to encode the <_:term-3/> of feature-value "
+"specifications for phonetic segments, such as the following for the English "
+"segment [s]. <_:eg-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:113
-msgid "This representation may be encoded in XML as follows: <_:egXML-1/> Note that <_:gi-2/> elements may have an optional <_:att-3/> attribute to indicate the kind of feature structure in question, whereas <_:gi-4/> elements must have a <_:att-5/> attribute to indicate the name of the feature. Feature structures need not be typed, but features must be named. Similarly, the <_:gi-6/> element may be empty, but the <_:gi-7/> element must specify its value either directly as content, by means of the <_:att-8/> attribute, or implicitly by reference to a feature system declaration."
+msgid ""
+"This representation may be encoded in XML as follows: <_:egXML-1/> Note that "
+"<_:gi-2/> elements may have an optional <_:att-3/> attribute to indicate the "
+"kind of feature structure in question, whereas <_:gi-4/> elements must have "
+"a <_:att-5/> attribute to indicate the name of the feature. Feature "
+"structures need not be typed, but features must be named. Similarly, the <_:"
+"gi-6/> element may be empty, but the <_:gi-7/> element must specify its "
+"value either directly as content, by means of the <_:att-8/> attribute, or "
+"implicitly by reference to a feature system declaration."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -294,7 +371,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:134
-msgid "The restriction of specific features to specific types of values (e.g. the restriction of the feature <_:mentioned-1/> to a binary value) requires additional validation, as does any restriction on the features available within a feature structure of a particular type (e.g. whether a feature structure of type <_:mentioned-2/> necessarily contains a feature <_:mentioned-3/>). Such validation may be carried out at the document level, using special purpose processing, at the schema level using additional validation rules, or at the declarative level, using an additional mechanism such as the <_:term-4/> discussed in <_:ptr-5/>."
+msgid ""
+"The restriction of specific features to specific types of values (e.g. the "
+"restriction of the feature <_:mentioned-1/> to a binary value) requires "
+"additional validation, as does any restriction on the features available "
+"within a feature structure of a particular type (e.g. whether a feature "
+"structure of type <_:mentioned-2/> necessarily contains a feature <_:"
+"mentioned-3/>). Such validation may be carried out at the document level, "
+"using special purpose processing, at the schema level using additional "
+"validation rules, or at the declarative level, using an additional mechanism "
+"such as the <_:term-4/> discussed in <_:ptr-5/>."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -321,7 +407,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:145
-msgid "Although we have used the term <_:term-1/> for this kind of value, and its representation in XML uses values such as <_:code-2/> and <_:code-3/> (or, equivalently, <_:code-4/> and <_:code-5/>), it should be noted that such values are not restricted to propositional assertions. As this example shows, this kind of value is intended for use with any binary-valued feature."
+msgid ""
+"Although we have used the term <_:term-1/> for this kind of value, and its "
+"representation in XML uses values such as <_:code-2/> and <_:code-3/> (or, "
+"equivalently, <_:code-4/> and <_:code-5/>), it should be noted that such "
+"values are not restricted to propositional assertions. As this example "
+"shows, this kind of value is intended for use with any binary-valued feature."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -351,7 +442,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:156
-msgid "Features may take other kinds of atomic value. In this section, we define elements which may be used to represent: <_:term-1/>, <_:term-2/>, and <_:term-3/>. The module defined by this chapter allows for the specification of additional datatypes if necessary, by extending the underlying class <_:ident-4/>. If this is done, it is recommended that only the basic W3C datatypes should be used; more complex datatyping should be represented as feature structures. <_:specList-5/>"
+msgid ""
+"Features may take other kinds of atomic value. In this section, we define "
+"elements which may be used to represent: <_:term-1/>, <_:term-2/>, and <_:"
+"term-3/>. The module defined by this chapter allows for the specification of "
+"additional datatypes if necessary, by extending the underlying class <_:"
+"ident-4/>. If this is done, it is recommended that only the basic W3C "
+"datatypes should be used; more complex datatyping should be represented as "
+"feature structures. <_:specList-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -369,7 +467,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:169
-msgid "The <_:gi-1/> element is used for the value of a feature when that feature can have any of a small, finite set of possible values, representable as character strings. For example, the following might be used to represent the claim that the Latin noun form <_:mentioned-2/> (tables) has accusative case, feminine gender, and plural number:<_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> element is used for the value of a feature when that feature "
+"can have any of a small, finite set of possible values, representable as "
+"character strings. For example, the following might be used to represent the "
+"claim that the Latin noun form <_:mentioned-2/> (tables) has accusative "
+"case, feminine gender, and plural number:<_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -425,7 +528,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:181
-msgid "More formally, this representation shows a structure in which three features (<_:term-1/>, <_:term-2/>, and <_:term-3/>) are used to define morpho-syntactic properties of a word. Each of these features can take one of a small number of values (for example, case can be <_:code-4/>, <_:code-5/>, <_:code-6/>, <_:code-7/>, etc.) and it is therefore appropriate to represent the values taken in this instance as <_:gi-8/> elements. Note that, instead of using a symbolic value for grammatical number, one could have named the feature <_:term-9/> or <_:term-10/> and given it an appropriate binary value, as in the following example: <_:egXML-11/> Whether one uses a binary or symbolic value in situations like this is largely a matter of taste."
+msgid ""
+"More formally, this representation shows a structure in which three features "
+"(<_:term-1/>, <_:term-2/>, and <_:term-3/>) are used to define morpho-"
+"syntactic properties of a word. Each of these features can take one of a "
+"small number of values (for example, case can be <_:code-4/>, <_:code-5/>, "
+"<_:code-6/>, <_:code-7/>, etc.) and it is therefore appropriate to represent "
+"the values taken in this instance as <_:gi-8/> elements. Note that, instead "
+"of using a symbolic value for grammatical number, one could have named the "
+"feature <_:term-9/> or <_:term-10/> and given it an appropriate binary "
+"value, as in the following example: <_:egXML-11/> Whether one uses a binary "
+"or symbolic value in situations like this is largely a matter of taste."
 msgstr ""
 
 #. (itstool) path: f/string
@@ -435,7 +548,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:198
-msgid "The <_:gi-1/> element is used for the value of a feature when that value is a string drawn from a very large or potentially unbounded set of possible strings of characters, so that it would be impractical or impossible to use the <_:gi-2/> element. The string value is expressed as the content of the <_:gi-3/> element, rather than as an attribute value. For example, one might encode a street address as follows: <_:egXML-4/>"
+msgid ""
+"The <_:gi-1/> element is used for the value of a feature when that value is "
+"a string drawn from a very large or potentially unbounded set of possible "
+"strings of characters, so that it would be impractical or impossible to use "
+"the <_:gi-2/> element. The string value is expressed as the content of the "
+"<_:gi-3/> element, rather than as an attribute value. For example, one might "
+"encode a street address as follows: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: f/string
@@ -446,7 +565,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:208
-msgid "The <_:gi-1/> element is used when the value of a feature is a numeric value, or a range of such values. For example, one might wish to regard the house number and the street name as different features, using an encoding like the following: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element is used when the value of a feature is a numeric "
+"value, or a range of such values. For example, one might wish to regard the "
+"house number and the street name as different features, using an encoding "
+"like the following: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -456,12 +579,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:216
-msgid "If the numeric value to be represented falls within a specific range (for example an address that spans several numbers), the <_:att-1/> attribute may be used to supply an upper limit: <_:egXML-2/>"
+msgid ""
+"If the numeric value to be represented falls within a specific range (for "
+"example an address that spans several numbers), the <_:att-1/> attribute may "
+"be used to supply an upper limit: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:223
-msgid "It is also possible to specify that the numeric value (or values) represented should (or should not) be truncated. For example, assuming that the daily rainfall in mm is a feature of interest for some address, one might represent this by an encoding like the following: <_:egXML-1/> This represents any of the infinite number of numeric values falling between 0 and 1.3; by contrast <_:egXML-2/> represents only two possible values: 0 and 1."
+msgid ""
+"It is also possible to specify that the numeric value (or values) "
+"represented should (or should not) be truncated. For example, assuming that "
+"the daily rainfall in mm is a feature of interest for some address, one "
+"might represent this by an encoding like the following: <_:egXML-1/> This "
+"represents any of the infinite number of numeric values falling between 0 "
+"and 1.3; by contrast <_:egXML-2/> represents only two possible values: 0 and "
+"1."
 msgstr ""
 
 #. (itstool) path: fs/f
@@ -476,7 +609,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:235
-msgid "Some communities of practice, notably those with a strong computer-science bias, prefer to dissociate the information on the value of the given feature from the specification of the data type that this value represents. In such cases, feature values can be provided directly as textual content of <_:gi-1/>, with the assumption that the data type is specified by the schema. The following is an example taken from ISO 24612, presenting the symbolic values for Active Voice and Simple Present Tense in the untyped form:<_:egXML-2/>"
+msgid ""
+"Some communities of practice, notably those with a strong computer-science "
+"bias, prefer to dissociate the information on the value of the given feature "
+"from the specification of the data type that this value represents. In such "
+"cases, feature values can be provided directly as textual content of <_:gi-1/"
+">, with the assumption that the data type is specified by the schema. The "
+"following is an example taken from ISO 24612, presenting the symbolic values "
+"for Active Voice and Simple Present Tense in the untyped form:<_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/tag
@@ -496,17 +636,40 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:244
-msgid "As noted above, additional processing is necessary to ensure that appropriate values are supplied for particular features, for example to ensure that the feature <_:code-1/> is not given a value such as <_:tag-2/>. There are two ways of attempting to ensure that only certain combinations of feature names and values are used. First, if the total number of legal combinations is relatively small, one can predefine all of them in a construct known as a <_:term-3/>, and then reference the combination required using the <_:att-4/> attribute in the enclosing <_:gi-5/> element, rather than give it explicitly. This method is suitable in the situation described above, since it requires specifying a total of only ten (5 + 3 + 2) combinations of features and values. Similarly, to ensure that only feature structures containing valid combinations of feature values are used, one can put definitions for all valid feature structures inside a <_:term-6/> (so called, since a feature structure may be the value of a feature). A total of 30 feature structures (5 × 3 × 2) is required to enumerate all the possible combinations of individual case, gender and number values in the preceding illustration. We discuss the use of such libraries and their representation in XML further in section <_:ptr-7/> below."
+msgid ""
+"As noted above, additional processing is necessary to ensure that "
+"appropriate values are supplied for particular features, for example to "
+"ensure that the feature <_:code-1/> is not given a value such as <_:tag-2/>. "
+"There are two ways of attempting to ensure that only certain combinations of "
+"feature names and values are used. First, if the total number of legal "
+"combinations is relatively small, one can predefine all of them in a "
+"construct known as a <_:term-3/>, and then reference the combination "
+"required using the <_:att-4/> attribute in the enclosing <_:gi-5/> element, "
+"rather than give it explicitly. This method is suitable in the situation "
+"described above, since it requires specifying a total of only ten (5 + 3 + "
+"2) combinations of features and values. Similarly, to ensure that only "
+"feature structures containing valid combinations of feature values are used, "
+"one can put definitions for all valid feature structures inside a <_:term-6/"
+"> (so called, since a feature structure may be the value of a feature). A "
+"total of 30 feature structures (5 × 3 × 2) is required to enumerate all the "
+"possible combinations of individual case, gender and number values in the "
+"preceding illustration. We discuss the use of such libraries and their "
+"representation in XML further in section <_:ptr-7/> below."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:266
-msgid "However, the most general method of attempting to ensure that only legal combinations of feature names and values are used is to provide a <_:term-1/> discussed in <_:ptr-2/>."
+msgid ""
+"However, the most general method of attempting to ensure that only legal "
+"combinations of feature names and values are used is to provide a <_:term-1/"
+"> discussed in <_:ptr-2/>."
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/FS-FeatureStructures.xml:272
-msgid "See section <_:ptr-1/> for more discussion of the need and rationale for ISOcat references."
+msgid ""
+"See section <_:ptr-1/> for more discussion of the need and rationale for "
+"ISOcat references."
 msgstr ""
 
 #. (itstool) path: p/val
@@ -526,7 +689,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:269
-msgid "Whether at the level of feature-system declarations, feature- and feature-value libraries, or individual features, it is possible to align both feature names and their values with standardized external data category repositories such as ISOcat. <_:note-1/> In the following example, both the feature <_:val-2/> and its value <_:val-3/> are aligned with the respective definitions provided by <_:ref-4/>, as implemented by ISOcat. <_:egXML-5/>"
+msgid ""
+"Whether at the level of feature-system declarations, feature- and feature-"
+"value libraries, or individual features, it is possible to align both "
+"feature names and their values with standardized external data category "
+"repositories such as ISOcat. <_:note-1/> In the following example, both the "
+"feature <_:val-2/> and its value <_:val-3/> are aligned with the respective "
+"definitions provided by <_:ref-4/>, as implemented by ISOcat. <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -561,12 +730,29 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:288
-msgid "As the examples in the preceding section suggest, the direct encoding of feature structures can be verbose. Moreover, it is often the case that particular feature-value combinations, or feature structures composed of them, are re-used in different analyses. To reduce the size and complexity of the task of encoding feature structures, one may use the <_:att-1/> attribute of the <_:gi-2/> element to point to one or more of the feature-value specifications for that element. This indirect method of encoding feature structures presumes that the <_:gi-3/> elements are assigned unique <_:att-4/> values, and are collected together in <_:gi-5/> elements (<_:term-6/>). In the same way, feature values of whatever type can be collected together in <_:gi-7/> elements (<_:term-8/>). If a feature has as its value a feature structure or other value which is predefined in this way, the <_:att-9/> attribute may be used to point to it, as discussed in the next section. The following elements are used for representing feature libraries and feature-value libraries: <_:specList-10/>"
+msgid ""
+"As the examples in the preceding section suggest, the direct encoding of "
+"feature structures can be verbose. Moreover, it is often the case that "
+"particular feature-value combinations, or feature structures composed of "
+"them, are re-used in different analyses. To reduce the size and complexity "
+"of the task of encoding feature structures, one may use the <_:att-1/> "
+"attribute of the <_:gi-2/> element to point to one or more of the feature-"
+"value specifications for that element. This indirect method of encoding "
+"feature structures presumes that the <_:gi-3/> elements are assigned unique "
+"<_:att-4/> values, and are collected together in <_:gi-5/> elements (<_:"
+"term-6/>). In the same way, feature values of whatever type can be collected "
+"together in <_:gi-7/> elements (<_:term-8/>). If a feature has as its value "
+"a feature structure or other value which is predefined in this way, the <_:"
+"att-9/> attribute may be used to point to it, as discussed in the next "
+"section. The following elements are used for representing feature libraries "
+"and feature-value libraries: <_:specList-10/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:307
-msgid "For example, suppose a feature library for phonological feature specifications is set up as follows. <_:egXML-1/>"
+msgid ""
+"For example, suppose a feature library for phonological feature "
+"specifications is set up as follows. <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/code
@@ -591,7 +777,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:327
-msgid "Then the feature structures that represent the analysis of the phonological segments (phonemes) <_:code-1/>, <_:code-2/>, <_:code-3/>, and <_:code-4/> may be defined as follows. <_:egXML-5/>"
+msgid ""
+"Then the feature structures that represent the analysis of the phonological "
+"segments (phonemes) <_:code-1/>, <_:code-2/>, <_:code-3/>, and <_:code-4/> "
+"may be defined as follows. <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -601,12 +790,24 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:335
-msgid "The preceding are but four of the 128 logically possible fully specified phonological segments using the seven binary features listed in the feature library. Presumably not all combinations of features correspond to phonological segments (there are no strident vowels, for example). The legal combinations, however, can be collected together, each one represented as an identifiable <_:gi-1/> element within a <_:term-2/>, as in the following example: <_:egXML-3/>"
+msgid ""
+"The preceding are but four of the 128 logically possible fully specified "
+"phonological segments using the seven binary features listed in the feature "
+"library. Presumably not all combinations of features correspond to "
+"phonological segments (there are no strident vowels, for example). The legal "
+"combinations, however, can be collected together, each one represented as an "
+"identifiable <_:gi-1/> element within a <_:term-2/>, as in the following "
+"example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:351
-msgid "Once defined, these feature structure values can also be reused. Other <_:gi-1/> elements may invoke them by reference, using the <_:att-2/> attribute; for example, one might use them in a feature value pair such as: <_:egXML-3/> rather than expanding the hierarchy of the component phonological features explicitly."
+msgid ""
+"Once defined, these feature structure values can also be reused. Other <_:"
+"gi-1/> elements may invoke them by reference, using the <_:att-2/> "
+"attribute; for example, one might use them in a feature value pair such as: "
+"<_:egXML-3/> rather than expanding the hierarchy of the component "
+"phonological features explicitly."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -623,7 +824,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:356
-msgid "Feature structures stored in this way may also be associated with the text which they are intended to annotate, either by a link from the text (for example, using the TEI global <_:att-1/> attribute), or by means of stand-off annotation techniques (for example, using the TEI <_:gi-2/> element): see further section <_:ptr-3/> below."
+msgid ""
+"Feature structures stored in this way may also be associated with the text "
+"which they are intended to annotate, either by a link from the text (for "
+"example, using the TEI global <_:att-1/> attribute), or by means of stand-"
+"off annotation techniques (for example, using the TEI <_:gi-2/> element): "
+"see further section <_:ptr-3/> below."
 msgstr ""
 
 #. (itstool) path: p/term
@@ -641,7 +847,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:363
-msgid "Note that when features or feature structures are linked to in this way, the result is effectively a copy of the item linked to into the place from which it is linked. This form of linking should be distinguished from the phenomenon of <_:term-1/>, where it is desired to indicate that some part of an annotation structure appears simultaneously in two or more places within the structure. This kind of annotation should be represented using the <_:gi-2/> element, as discussed in <_:ptr-3/> below."
+msgid ""
+"Note that when features or feature structures are linked to in this way, the "
+"result is effectively a copy of the item linked to into the place from which "
+"it is linked. This form of linking should be distinguished from the "
+"phenomenon of <_:term-1/>, where it is desired to indicate that some part of "
+"an annotation structure appears simultaneously in two or more places within "
+"the structure. This kind of annotation should be represented using the <_:"
+"gi-2/> element, as discussed in <_:ptr-3/> below."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -651,7 +864,15 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:373
-msgid "Features may have complex values as well as atomic ones; the simplest such complex value is represented by supplying a <_:gi-1/> element as the content of an <_:gi-2/> element, or (equivalently) by supplying the identifier of an <_:gi-3/> element as the value for the <_:att-4/> attribute on the <_:gi-5/> element. Structures may be nested as deeply as appropriate, using this mechanism. For example, an <_:gi-6/> element may contain or point to an <_:gi-7/> element, which may contain or point to an <_:gi-8/> element, which may contain or point to an <_:gi-9/> element, and so on."
+msgid ""
+"Features may have complex values as well as atomic ones; the simplest such "
+"complex value is represented by supplying a <_:gi-1/> element as the content "
+"of an <_:gi-2/> element, or (equivalently) by supplying the identifier of an "
+"<_:gi-3/> element as the value for the <_:att-4/> attribute on the <_:gi-5/> "
+"element. Structures may be nested as deeply as appropriate, using this "
+"mechanism. For example, an <_:gi-6/> element may contain or point to an <_:"
+"gi-7/> element, which may contain or point to an <_:gi-8/> element, which "
+"may contain or point to an <_:gi-9/> element, and so on."
 msgstr ""
 
 #. (itstool) path: p/tag
@@ -694,7 +915,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:383
-msgid "To illustrate the use of complex values, consider the following simple model of a word, as a structure combining surface form information, a syntactic category, and semantic information. Each word analysis is represented as a <_:tag-1/> element, containing three features named <_:code-2/>, <_:code-3/>, and <_:code-4/>. The first of these has an atomic string value, but the other two have complex values, represented as nested feature structures of types <_:code-5/> and <_:code-6/> respectively: <_:egXML-7/>"
+msgid ""
+"To illustrate the use of complex values, consider the following simple model "
+"of a word, as a structure combining surface form information, a syntactic "
+"category, and semantic information. Each word analysis is represented as a "
+"<_:tag-1/> element, containing three features named <_:code-2/>, <_:code-3/"
+">, and <_:code-4/>. The first of these has an atomic string value, but the "
+"other two have complex values, represented as nested feature structures of "
+"types <_:code-5/> and <_:code-6/> respectively: <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: p/code
@@ -709,7 +937,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:406
-msgid "This analysis does not tell us much about the meaning of the symbols <_:code-1/> or <_:code-2/>. It might be preferable to replace these atomic feature values by feature structures. Suppose therefore that we maintain a feature-value library for each of the major syntactic categories (N, V, ADJ, PREP): <_:egXML-3/>"
+msgid ""
+"This analysis does not tell us much about the meaning of the symbols <_:"
+"code-1/> or <_:code-2/>. It might be preferable to replace these atomic "
+"feature values by feature structures. Suppose therefore that we maintain a "
+"feature-value library for each of the major syntactic categories (N, V, ADJ, "
+"PREP): <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/code
@@ -724,27 +957,45 @@ msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/FS-FeatureStructures.xml:429
-msgid "&lt;!-- ... --&gt; &lt;fs xml:id=\"ADJ\" type=\"adjective\" feats=\"#F1 #F2\"/&gt; &lt;fs xml:id=\"PREP\" type=\"preposition\" feats=\"#F1 #F3\"/&gt; &lt;!-- ... --&gt;"
+msgid ""
+"&lt;!-- ... --&gt; &lt;fs xml:id=\"ADJ\" type=\"adjective\" feats=\"#F1 "
+"#F2\"/&gt; &lt;fs xml:id=\"PREP\" type=\"preposition\" feats=\"#F1 #F3\"/"
+"&gt; &lt;!-- ... --&gt;"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:422
-msgid "This library allows us to use shortcut codes (<_:code-1/>, <_:code-2/>, etc.) to reference a complete definition for the corresponding feature structure. Each definition may be explicitly contained within the <_:gi-3/> element, as a number of <_:gi-4/> elements. Alternatively, the relevant features may be referenced by their identifiers, supplied as the value of the <_:att-5/> attribute, as in these examples: <_:egXML-6/>"
+msgid ""
+"This library allows us to use shortcut codes (<_:code-1/>, <_:code-2/>, "
+"etc.) to reference a complete definition for the corresponding feature "
+"structure. Each definition may be explicitly contained within the <_:gi-3/> "
+"element, as a number of <_:gi-4/> elements. Alternatively, the relevant "
+"features may be referenced by their identifiers, supplied as the value of "
+"the <_:att-5/> attribute, as in these examples: <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:435
-msgid "This ability to re-use feature definitions within multiple feature structure definitions is an essential simplification in any realistic example. In this case, we assume the existence of a feature library containing specifications for the basic feature categories like the following: <_:egXML-1/>"
+msgid ""
+"This ability to re-use feature definitions within multiple feature structure "
+"definitions is an essential simplification in any realistic example. In this "
+"case, we assume the existence of a feature library containing specifications "
+"for the basic feature categories like the following: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:448
-msgid "With such libraries in place, and assuming the availability of similarly predefined feature structures for transitivity and semantics, the preceding example could be considerably simplified: <_:egXML-1/>"
+msgid ""
+"With such libraries in place, and assuming the availability of similarly "
+"predefined feature structures for transitivity and semantics, the preceding "
+"example could be considerably simplified: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:466
-msgid "Although in principle the <_:att-1/> attribute could point to any kind of feature value, its use is not recommended for simple atomic values."
+msgid ""
+"Although in principle the <_:att-1/> attribute could point to any kind of "
+"feature value, its use is not recommended for simple atomic values."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -754,12 +1005,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:471
-msgid "Sometimes the same feature value is required at multiple places within a feature structure, in particular where the value is only partially specified at one or more places. The <_:gi-1/> element is provided as a means of labelling each such re-entrancy point: <_:specList-2/>"
+msgid ""
+"Sometimes the same feature value is required at multiple places within a "
+"feature structure, in particular where the value is only partially specified "
+"at one or more places. The <_:gi-1/> element is provided as a means of "
+"labelling each such re-entrancy point: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:479
-msgid "For example, suppose one wishes to represent noun-verb agreement as a single feature structure. Within the representation, the feature indicating (say) number appears more than once. To represent the fact that each occurrence is another appearance of the same feature (rather than a copy) one could use an encoding like the following: <_:egXML-1/>"
+msgid ""
+"For example, suppose one wishes to represent noun-verb agreement as a single "
+"feature structure. Within the representation, the feature indicating (say) "
+"number appears more than once. To represent the fact that each occurrence is "
+"another appearance of the same feature (rather than a copy) one could use an "
+"encoding like the following: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/code
@@ -774,7 +1034,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:505
-msgid "In the above encoding, the features named <_:code-1/> and <_:code-2/> exhibit structure sharing. Their values, given as <_:code-3/> elements, are understood to be references to the same point in the feature structure, which is labelled by their <_:att-4/> attribute."
+msgid ""
+"In the above encoding, the features named <_:code-1/> and <_:code-2/> "
+"exhibit structure sharing. Their values, given as <_:code-3/> elements, are "
+"understood to be references to the same point in the feature structure, "
+"which is labelled by their <_:att-4/> attribute."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -784,7 +1048,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:510
-msgid "The scope of the names used to label re-entrancy points is that of the outermost <_:gi-1/> element in which they appear. When a feature structure is imported from a feature value library, or referenced from elsewhere (for example by using the <_:att-2/> attribute) the names of any sharing points it may contain are implicitly prefixed by the identifier used for the imported feature structure, to avoid name clashes. Thus, if some other feature structure were to reference the <_:gi-3/> element given in the example above, for example in this way: <_:egXML-4/> then the labelled points in the example would be interpreted as if they had the name <_:code-5/>."
+msgid ""
+"The scope of the names used to label re-entrancy points is that of the "
+"outermost <_:gi-1/> element in which they appear. When a feature structure "
+"is imported from a feature value library, or referenced from elsewhere (for "
+"example by using the <_:att-2/> attribute) the names of any sharing points "
+"it may contain are implicitly prefixed by the identifier used for the "
+"imported feature structure, to avoid name clashes. Thus, if some other "
+"feature structure were to reference the <_:gi-3/> element given in the "
+"example above, for example in this way: <_:egXML-4/> then the labelled "
+"points in the example would be interpreted as if they had the name <_:code-5/"
+">."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -813,12 +1087,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:523
-msgid "Complex feature values need not always be represented as feature structures. Multiple values may also be organized as sets, bags or multisets, or lists of atomic values of any type. The <_:gi-1/> element is provided to represent such cases: <_:specList-2/>"
+msgid ""
+"Complex feature values need not always be represented as feature structures. "
+"Multiple values may also be organized as sets, bags or multisets, or lists "
+"of atomic values of any type. The <_:gi-1/> element is provided to represent "
+"such cases: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:531
-msgid "A feature whose value is regarded as a set, bag, or list may have any positive number of values as its content, or none at all, (thus allowing for representation of the empty set, bag, or list). The items in a list are ordered, and need not be distinct. The items in a set are not ordered, and must be distinct. The items in a bag are neither ordered nor distinct. Sets and bags are thus distinguished from lists in that the order in which the values are specified does not matter for the former, but does matter for the latter, while sets are distinguished from bags and lists in that repetitions of values do not count for the former but do count for the latter."
+msgid ""
+"A feature whose value is regarded as a set, bag, or list may have any "
+"positive number of values as its content, or none at all, (thus allowing for "
+"representation of the empty set, bag, or list). The items in a list are "
+"ordered, and need not be distinct. The items in a set are not ordered, and "
+"must be distinct. The items in a bag are neither ordered nor distinct. Sets "
+"and bags are thus distinguished from lists in that the order in which the "
+"values are specified does not matter for the former, but does matter for the "
+"latter, while sets are distinguished from bags and lists in that repetitions "
+"of values do not count for the former but do count for the latter."
 msgstr ""
 
 #. (itstool) path: p/att
@@ -831,7 +1118,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:542
-msgid "If no value is specified for the <_:att-1/> attribute, the assumption is that the <_:gi-2/> defines a list of values. If the <_:gi-3/> element is empty, the assumption is that it represents the null list, set, or bag."
+msgid ""
+"If no value is specified for the <_:att-1/> attribute, the assumption is "
+"that the <_:gi-2/> defines a list of values. If the <_:gi-3/> element is "
+"empty, the assumption is that it represents the null list, set, or bag."
 msgstr ""
 
 #. (itstool) path: vColl/string
@@ -846,7 +1136,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:549
-msgid "To illustrate the use of the <_:att-1/> attribute, suppose that a feature structure analysis is used to represent a genealogical tree, with the information about each individual treated as a single feature structure, like this: <_:egXML-2/>"
+msgid ""
+"To illustrate the use of the <_:att-1/> attribute, suppose that a feature "
+"structure analysis is used to represent a genealogical tree, with the "
+"information about each individual treated as a single feature structure, "
+"like this: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -856,7 +1150,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:574
-msgid "In this example, the <_:gi-1/> element is first used to supply a list of <_:soCalled-2/> feature values, which together constitute the <_:soCalled-3/> feature. Other features are defined by reference to values which we assume are held in some external feature value library (not shown here). For example, the <_:gi-4/> element is used a second time to indicate that the persons's siblings should be regarded as constituting a set rather than a list. Each sibling is represented by a feature structure: in this example, each feature structure is a copy of one specified in the feature value library."
+msgid ""
+"In this example, the <_:gi-1/> element is first used to supply a list of <_:"
+"soCalled-2/> feature values, which together constitute the <_:soCalled-3/> "
+"feature. Other features are defined by reference to values which we assume "
+"are held in some external feature value library (not shown here). For "
+"example, the <_:gi-4/> element is used a second time to indicate that the "
+"persons's siblings should be regarded as constituting a set rather than a "
+"list. Each sibling is represented by a feature structure: in this example, "
+"each feature structure is a copy of one specified in the feature value "
+"library."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -877,12 +1180,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:584
-msgid "If a specific feature contains only a single feature structure as its value, the component features of which are organized as a set, bag, or list, it may be more convenient to represent the value as a <_:gi-1/> rather than as a <_:gi-2/>. For example, consider the following encoding of the English verb form <_:mentioned-3/>, which contains an <_:mentioned-4/> feature whose value is a feature structure which contains <_:mentioned-5/> and <_:mentioned-6/> features with symbolic values. <_:egXML-7/>"
+msgid ""
+"If a specific feature contains only a single feature structure as its value, "
+"the component features of which are organized as a set, bag, or list, it may "
+"be more convenient to represent the value as a <_:gi-1/> rather than as a <_:"
+"gi-2/>. For example, consider the following encoding of the English verb "
+"form <_:mentioned-3/>, which contains an <_:mentioned-4/> feature whose "
+"value is a feature structure which contains <_:mentioned-5/> and <_:"
+"mentioned-6/> features with symbolic values. <_:egXML-7/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:604
-msgid "If the names of the features contained within the <_:mentioned-1/> feature structure are of no particular significance, the following simpler representation may be used: <_:egXML-2/>"
+msgid ""
+"If the names of the features contained within the <_:mentioned-1/> feature "
+"structure are of no particular significance, the following simpler "
+"representation may be used: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -892,12 +1205,21 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:619
-msgid "The <_:gi-1/> element is also useful in cases where an analysis has several components. In the following example, the French word <_:mentioned-2/> has a two-part analysis, represented as a list of two values. The first specifies that the word contains a preposition; the second that it contains a masculine plural relative pronoun: <_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> element is also useful in cases where an analysis has several "
+"components. In the following example, the French word <_:mentioned-2/> has a "
+"two-part analysis, represented as a list of two values. The first specifies "
+"that the word contains a preposition; the second that it contains a "
+"masculine plural relative pronoun: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:644
-msgid "The set, bag, or list which has no members is known as the null (or empty) set, bag, or list. A <_:gi-1/> element with no content and with no value for its <_:att-2/> attribute is interpreted as referring to the null set, bag, or list, depending on the value of its <_:att-3/> attribute."
+msgid ""
+"The set, bag, or list which has no members is known as the null (or empty) "
+"set, bag, or list. A <_:gi-1/> element with no content and with no value for "
+"its <_:att-2/> attribute is interpreted as referring to the null set, bag, "
+"or list, depending on the value of its <_:att-3/> attribute."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -912,7 +1234,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:649
-msgid "If, for example, the individual described by the feature structure with identifier <_:code-1/> (above) had no siblings, we might specify the <_:mentioned-2/> feature as follows. <_:egXML-3/>"
+msgid ""
+"If, for example, the individual described by the feature structure with "
+"identifier <_:code-1/> (above) had no siblings, we might specify the <_:"
+"mentioned-2/> feature as follows. <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -924,7 +1249,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:654
-msgid "A <_:gi-1/> element may also collect together one or more other <_:gi-2/> elements, if, for example one of the members of a set is itself a set, or if two lists are concatenated together. Note that such collections pay no attention to the contents of the nested <_:gi-3/> elements: if it is desired to produce the union of two sets, the <_:gi-4/> element discussed below should be used to make a new collection from the two sets."
+msgid ""
+"A <_:gi-1/> element may also collect together one or more other <_:gi-2/> "
+"elements, if, for example one of the members of a set is itself a set, or if "
+"two lists are concatenated together. Note that such collections pay no "
+"attention to the contents of the nested <_:gi-3/> elements: if it is desired "
+"to produce the union of two sets, the <_:gi-4/> element discussed below "
+"should be used to make a new collection from the two sets."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -944,7 +1275,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:663
-msgid "It is sometimes desirable to express the value of a feature as the result of an operation over some other value (for example, as <_:soCalled-1/>, or as <_:soCalled-2/>, or as the concatenation of two collections). Three special purpose elements are provided to represent disjunctive alternation, negation, and collection of values: <_:specList-3/>"
+msgid ""
+"It is sometimes desirable to express the value of a feature as the result of "
+"an operation over some other value (for example, as <_:soCalled-1/>, or as "
+"<_:soCalled-2/>, or as the concatenation of two collections). Three special "
+"purpose elements are provided to represent disjunctive alternation, "
+"negation, and collection of values: <_:specList-3/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -971,17 +1307,33 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:676
-msgid "The <_:gi-1/> element can be used wherever a feature value can appear. It contains two or more feature values, any one of which is to be understood as the value required. Suppose, for example, that we are using a feature system to describe residential property, using such features as <_:mentioned-2/>. In a particular case, we might wish to represent uncertainty as to whether a house has two or three bathrooms. As we have already shown, one simple way to represent this would be with a numeric maximum: <_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> element can be used wherever a feature value can appear. It "
+"contains two or more feature values, any one of which is to be understood as "
+"the value required. Suppose, for example, that we are using a feature system "
+"to describe residential property, using such features as <_:mentioned-2/>. "
+"In a particular case, we might wish to represent uncertainty as to whether a "
+"house has two or three bathrooms. As we have already shown, one simple way "
+"to represent this would be with a numeric maximum: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:686
-msgid "A more general way would be to represent the alternation explicitly, in this way: <_:egXML-1/>"
+msgid ""
+"A more general way would be to represent the alternation explicitly, in this "
+"way: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:690
-msgid "The <_:gi-1/> element represents alternation over feature values, not feature-value pairs. If therefore the uncertainty relates to two or more feature value specifications, each must be represented as a feature structure, since a feature structure can always appear where a value is required. For example, suppose that it is uncertain as to whether the house being described has two bathrooms or two bedrooms, a structure like the following may be used: <_:egXML-2/>"
+msgid ""
+"The <_:gi-1/> element represents alternation over feature values, not "
+"feature-value pairs. If therefore the uncertainty relates to two or more "
+"feature value specifications, each must be represented as a feature "
+"structure, since a feature structure can always appear where a value is "
+"required. For example, suppose that it is uncertain as to whether the house "
+"being described has two bathrooms or two bedrooms, a structure like the "
+"following may be used: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -991,7 +1343,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:704
-msgid "Note that alternation is always regarded as <_:term-1/>: in the case above, the implication is that having two bathrooms excludes the possibility of having two bedrooms and vice versa. If inclusive alternation is required, a <_:gi-2/> element may be included in the alternation as follows: <_:egXML-3/> This analysis indicates that the property may have two bathrooms, two bedrooms, or both two bathrooms and two bedrooms."
+msgid ""
+"Note that alternation is always regarded as <_:term-1/>: in the case above, "
+"the implication is that having two bathrooms excludes the possibility of "
+"having two bedrooms and vice versa. If inclusive alternation is required, a "
+"<_:gi-2/> element may be included in the alternation as follows: <_:egXML-3/"
+"> This analysis indicates that the property may have two bathrooms, two "
+"bedrooms, or both two bathrooms and two bedrooms."
 msgstr ""
 
 #. (itstool) path: p/code
@@ -1027,12 +1385,23 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:721
-msgid "As the previous example shows, the <_:gi-1/> element can also be used to indicate alternations among values of features organized as sets, bags or lists. Suppose we use a feature <_:code-2/> to describe items that are mentioned to enhance a property's sales value, such as whether it has a pool or a good view. Now suppose for a particular listing, the selling points include an alarm system and a good view, and either a pool or a jacuzzi (but not both). This situation could be represented, using the <_:gi-3/> element, as follows. <_:egXML-4/>"
+msgid ""
+"As the previous example shows, the <_:gi-1/> element can also be used to "
+"indicate alternations among values of features organized as sets, bags or "
+"lists. Suppose we use a feature <_:code-2/> to describe items that are "
+"mentioned to enhance a property's sales value, such as whether it has a pool "
+"or a good view. Now suppose for a particular listing, the selling points "
+"include an alarm system and a good view, and either a pool or a jacuzzi (but "
+"not both). This situation could be represented, using the <_:gi-3/> element, "
+"as follows. <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:743
-msgid "Now suppose the situation is like the preceding except that one is also uncertain whether the property has an alarm system or a good view. This can be represented as follows. <_:egXML-1/>"
+msgid ""
+"Now suppose the situation is like the preceding except that one is also "
+"uncertain whether the property has an alarm system or a good view. This can "
+"be represented as follows. <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1042,7 +1411,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:761
-msgid "If a large number of ambiguities or uncertainties need to be represented, involving a relatively small number of features and values, it is recommended that a stand-off technique, for example using the general-purpose <_:gi-1/> element discussed in section <_:ptr-2/> be used, rather than the special-purpose <_:gi-3/> element."
+msgid ""
+"If a large number of ambiguities or uncertainties need to be represented, "
+"involving a relatively small number of features and values, it is "
+"recommended that a stand-off technique, for example using the general-"
+"purpose <_:gi-1/> element discussed in section <_:ptr-2/> be used, rather "
+"than the special-purpose <_:gi-3/> element."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1059,7 +1433,11 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:770
-msgid "The <_:gi-1/> element can be used wherever a feature value can appear. It contains any feature value and returns the complement of its contents. For example, the feature <_:mentioned-2/> in the following example has any whole numeric value other than 2: <_:egXML-3/>"
+msgid ""
+"The <_:gi-1/> element can be used wherever a feature value can appear. It "
+"contains any feature value and returns the complement of its contents. For "
+"example, the feature <_:mentioned-2/> in the following example has any whole "
+"numeric value other than 2: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/egXML
@@ -1069,22 +1447,49 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:777
-msgid "Strictly speaking, the effect of the <_:gi-1/> element is to provide the complement of the feature values it contains, rather than their negation. If a feature system declaration is available which defines the possible values for the associated feature, then it is possible to say more about the negated value. For example, suppose that the available values for the feature <_:code-2/> are declared to be nominative, genitive, dative, or accusative, whether in a TEI feature system declaration or by some other means. Then the following two specifications are equivalent: <_:egXML-3/>"
+msgid ""
+"Strictly speaking, the effect of the <_:gi-1/> element is to provide the "
+"complement of the feature values it contains, rather than their negation. If "
+"a feature system declaration is available which defines the possible values "
+"for the associated feature, then it is possible to say more about the "
+"negated value. For example, suppose that the available values for the "
+"feature <_:code-2/> are declared to be nominative, genitive, dative, or "
+"accusative, whether in a TEI feature system declaration or by some other "
+"means. Then the following two specifications are equivalent: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:796
-msgid "If however no such system declaration is available, all that one can say about a feature specified via negation is that its value is something other than the negated value."
+msgid ""
+"If however no such system declaration is available, all that one can say "
+"about a feature specified via negation is that its value is something other "
+"than the negated value."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:799
-msgid "Negation is always applied to a feature value, rather than to a feature-value pair. The negation of an atomic value is the set of all other values which are possible for the feature."
+msgid ""
+"Negation is always applied to a feature value, rather than to a feature-"
+"value pair. The negation of an atomic value is the set of all other values "
+"which are possible for the feature."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:802
-msgid "Any kind of value can be negated, including collections (represented by a <_:gi-1/> elements) or feature structures (represented by <_:gi-2/> elements). The negation of any complex value is understood to be the set of values which cannot be unified with it. Thus, for example, the negation of the feature structure F is understood to be the set of feature structures which are not unifiable with F. In the absence of a constraint mechanism such as the Feature System Declaration, the negation of a collection is anything that is not unifiable with it, including collections of different types and atomic values. It will generally be more useful to require that the organization of the negated value be the same as that of the original value, for example that a negated set is understood to mean the set which is a complement of the set, but such a requirement cannot be enforced in the absence of a constraint mechanism."
+msgid ""
+"Any kind of value can be negated, including collections (represented by a <_:"
+"gi-1/> elements) or feature structures (represented by <_:gi-2/> elements). "
+"The negation of any complex value is understood to be the set of values "
+"which cannot be unified with it. Thus, for example, the negation of the "
+"feature structure F is understood to be the set of feature structures which "
+"are not unifiable with F. In the absence of a constraint mechanism such as "
+"the Feature System Declaration, the negation of a collection is anything "
+"that is not unifiable with it, including collections of different types and "
+"atomic values. It will generally be more useful to require that the "
+"organization of the negated value be the same as that of the original value, "
+"for example that a negated set is understood to mean the set which is a "
+"complement of the set, but such a requirement cannot be enforced in the "
+"absence of a constraint mechanism."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1094,7 +1499,13 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:819
-msgid "The <_:gi-1/> element can be used wherever a feature value can appear. It contains two or more feature values, all of which are to be collected together. The organization of the resulting collection is specified by the value of the <_:att-2/> attribute, which need not necessarily be the same as that of its constituent values if these are collections. For example, one can change a list to a set, or vice versa."
+msgid ""
+"The <_:gi-1/> element can be used wherever a feature value can appear. It "
+"contains two or more feature values, all of which are to be collected "
+"together. The organization of the resulting collection is specified by the "
+"value of the <_:att-2/> attribute, which need not necessarily be the same as "
+"that of its constituent values if these are collections. For example, one "
+"can change a list to a set, or vice versa."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1104,12 +1515,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:825
-msgid "As an example, suppose that we wish to represent the range of possible values for a feature <_:soCalled-1/> used to describe some language. It would be natural to represent the possible values as a set, using the <_:gi-2/> element as in the following example: <_:egXML-3/>"
+msgid ""
+"As an example, suppose that we wish to represent the range of possible "
+"values for a feature <_:soCalled-1/> used to describe some language. It "
+"would be natural to represent the possible values as a set, using the <_:"
+"gi-2/> element as in the following example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:840
-msgid "Suppose however that we discover for some language it is necessary to add a new possible value, and to treat the value of the feature as a list rather than as a set. The <_:gi-1/> element can be used to achieve this: <_:egXML-2/>"
+msgid ""
+"Suppose however that we discover for some language it is necessary to add a "
+"new possible value, and to treat the value of the feature as a list rather "
+"than as a set. The <_:gi-1/> element can be used to achieve this: <_:egXML-2/"
+">"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1119,12 +1538,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:861
-msgid "The value of a feature may be underspecified in a number of different ways. It may be null, unknown, or uncertain with respect to a range of known possibilities, as well as being defined as a negation or an alternation. As previously noted, the specification of the range of known possibilities for a given feature is not part of the current specification: in the TEI scheme, this information is conveyed by the <_:term-1/>. Using this, or some other system, we might specify (for example) that the range of values for an element includes symbols for masculine, feminine, and neuter, and that the default value is neuter. With such definitions available to us, it becomes possible to say that some feature takes the default value, or some unspecified value from the list. The following special element is provided for this purpose: <_:specList-2/>"
+msgid ""
+"The value of a feature may be underspecified in a number of different ways. "
+"It may be null, unknown, or uncertain with respect to a range of known "
+"possibilities, as well as being defined as a negation or an alternation. As "
+"previously noted, the specification of the range of known possibilities for "
+"a given feature is not part of the current specification: in the TEI scheme, "
+"this information is conveyed by the <_:term-1/>. Using this, or some other "
+"system, we might specify (for example) that the range of values for an "
+"element includes symbols for masculine, feminine, and neuter, and that the "
+"default value is neuter. With such definitions available to us, it becomes "
+"possible to say that some feature takes the default value, or some "
+"unspecified value from the list. The following special element is provided "
+"for this purpose: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:878
-msgid "The value of an empty <_:gi-1/> element which also lacks a <_:att-2/> attribute is understood to be the most general case, i.e. any of the available values. Thus, assuming the feature system defined above, the following two representations are equivalent. <_:egXML-3/>"
+msgid ""
+"The value of an empty <_:gi-1/> element which also lacks a <_:att-2/> "
+"attribute is understood to be the most general case, i.e. any of the "
+"available values. Thus, assuming the feature system defined above, the "
+"following two representations are equivalent. <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1137,12 +1572,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:891
-msgid "If, however, the value is explicitly stated to be the default one, using the <_:gi-1/> element, then the following two representations are equivalent: <_:egXML-2/> <_:egXML-3/>"
+msgid ""
+"If, however, the value is explicitly stated to be the default one, using the "
+"<_:gi-1/> element, then the following two representations are equivalent: <_:"
+"egXML-2/> <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:897
-msgid "Similarly, if the value is stated to be the negation of the default, then the following two representations are equivalent: <_:egXML-1/> <_:egXML-2/>"
+msgid ""
+"Similarly, if the value is stated to be the negation of the default, then "
+"the following two representations are equivalent: <_:egXML-1/> <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1260,12 +1700,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:910
-msgid "Text elements can be linked with feature structures using any of the linking methods discussed elsewhere in these Guidelines (see for example sections <_:ptr-1/> and <_:ptr-2/>). In the simplest case, the <_:att-3/> attribute may be used to point from any element to an annotation of it, as in the following example: <_:egXML-4/>"
+msgid ""
+"Text elements can be linked with feature structures using any of the linking "
+"methods discussed elsewhere in these Guidelines (see for example sections <_:"
+"ptr-1/> and <_:ptr-2/>). In the simplest case, the <_:att-3/> attribute may "
+"be used to point from any element to an annotation of it, as in the "
+"following example: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:942
-msgid "The values specified for the <_:att-1/> attribute reference components of a feature-structure library, which represents all of the grammatical structures used by this encoding scheme. (For illustrative purposes, we cite here only the structures needed for the first six words of the sample sentence): <_:egXML-2/> The components of each feature structure in the library are referenced in much the same way, using the <_:att-3/> attribute to identify one or more <_:gi-4/> elements in the following feature library (again, only a few of the available features are quoted here): <_:egXML-5/>"
+msgid ""
+"The values specified for the <_:att-1/> attribute reference components of a "
+"feature-structure library, which represents all of the grammatical "
+"structures used by this encoding scheme. (For illustrative purposes, we cite "
+"here only the structures needed for the first six words of the sample "
+"sentence): <_:egXML-2/> The components of each feature structure in the "
+"library are referenced in much the same way, using the <_:att-3/> attribute "
+"to identify one or more <_:gi-4/> elements in the following feature library "
+"(again, only a few of the available features are quoted here): <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1335,12 +1788,22 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:980
-msgid "Alternatively, a stand-off technique may be used, as in the following example, where a <_:gi-1/> element is used to link selected characters in the text <_:mentioned-2/> with their phonological representations. <_:egXML-3/>"
+msgid ""
+"Alternatively, a stand-off technique may be used, as in the following "
+"example, where a <_:gi-1/> element is used to link selected characters in "
+"the text <_:mentioned-2/> with their phonological representations. <_:"
+"egXML-3/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1002
-msgid "As this example shows, a stand-off solution requires that every component to be linked to must be addressable in some way, by means of an XPointer. To handle the POS tagging example above, for example, each annotated element might be given an identifier of some sort, as follows: <_:egXML-1/> It would then be possible to link each word to its intended annotation in the feature library quoted above, as follows: <_:egXML-2/>"
+msgid ""
+"As this example shows, a stand-off solution requires that every component to "
+"be linked to must be addressable in some way, by means of an XPointer. To "
+"handle the POS tagging example above, for example, each annotated element "
+"might be given an identifier of some sort, as follows: <_:egXML-1/> It would "
+"then be possible to link each word to its intended annotation in the feature "
+"library quoted above, as follows: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1350,7 +1813,10 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1036
-msgid "It provides a mechanism by which the encoder can list all of the feature names and feature values and give a prose description as to what each represents."
+msgid ""
+"It provides a mechanism by which the encoder can list all of the feature "
+"names and feature values and give a prose description as to what each "
+"represents."
 msgstr ""
 
 #. (itstool) path: item/hi
@@ -1362,27 +1828,53 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1039
-msgid "It provides a mechanism by which the encoder can define constraints not only what it means to be a well-formed feature structure, but also <_:hi-1/> feature structure, relative to a given theory stated in typed feature logic. These constraints may involve constraints on the range of a feature value, constraints on what features are valid within certain types of feature structures, or constraints that prevent the co-occurrence of certain feature-value pairs."
+msgid ""
+"It provides a mechanism by which the encoder can define constraints not only "
+"what it means to be a well-formed feature structure, but also <_:hi-1/> "
+"feature structure, relative to a given theory stated in typed feature logic. "
+"These constraints may involve constraints on the range of a feature value, "
+"constraints on what features are valid within certain types of feature "
+"structures, or constraints that prevent the co-occurrence of certain feature-"
+"value pairs."
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1047
-msgid "It provides a mechanism by which the encoder can define the intended interpretation of underspecified feature structures. This involves defining default values (whether literal or computed) for missing features."
+msgid ""
+"It provides a mechanism by which the encoder can define the intended "
+"interpretation of underspecified feature structures. This involves defining "
+"default values (whether literal or computed) for missing features."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1031
-msgid "The Feature System Declaration (FSD) is intended for use in conjunction with a TEI-conforming text that makes use of <_:gi-1/> (that is, feature structure) elements. The FSD serves three purposes: <_:list-2/>"
+msgid ""
+"The Feature System Declaration (FSD) is intended for use in conjunction with "
+"a TEI-conforming text that makes use of <_:gi-1/> (that is, feature "
+"structure) elements. The FSD serves three purposes: <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1052
-msgid "The scheme described in this chapter may be used to document any feature structure system, but is primarily intended for use with the feature structure representation defined by the ISO 24610-1:2006 standard, which corresponds with the recommendations presented in these Guidelines, <_:ptr-1/>. This chapter relies upon, but does not reproduce, formal definitions and descriptions presented more thoroughly in the ISO standard, which should be consulted in case of ambiguity or uncertainty."
+msgid ""
+"The scheme described in this chapter may be used to document any feature "
+"structure system, but is primarily intended for use with the feature "
+"structure representation defined by the ISO 24610-1:2006 standard, which "
+"corresponds with the recommendations presented in these Guidelines, <_:ptr-1/"
+">. This chapter relies upon, but does not reproduce, formal definitions and "
+"descriptions presented more thoroughly in the ISO standard, which should be "
+"consulted in case of ambiguity or uncertainty."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1061
-msgid "The FSD serves an important function in documenting precisely what the encoder intended by the system of feature structure markup used in an XML-encoded text. The FSD is also an important resource which standardizes the rules of inference used by software to validate the feature structure markup in a text, and to infer the full interpretation of underspecified feature structures."
+msgid ""
+"The FSD serves an important function in documenting precisely what the "
+"encoder intended by the system of feature structure markup used in an XML-"
+"encoded text. The FSD is also an important resource which standardizes the "
+"rules of inference used by software to validate the feature structure markup "
+"in a text, and to infer the full interpretation of underspecified feature "
+"structures."
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1397,12 +1889,36 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1068
-msgid "The reader should be aware the terminology used in this document does not always closely follow conventional practice in formal logic, and may also diverge from practice in some linguistic applications of typed feature structures. In particular, the term <_:soCalled-1/> when applied to a feature structure is not an interpretation in the model-theoretic sense, but is instead a minimally informative (or equivalently, most general) extension of that feature structure that is consistent with a set of constraints declared by an FSD. In linguistic application, such a system of constraints is the principal means by which the grammar of some natural language is expressed. There is a great deal of disagreement as to what, if any, model-theoretic interpretation feature structures have in such applications, but the status of this formal kind of interpretation is not germane to the present document. Similarly, the term <_:soCalled-2/> is used here as elsewhere in these Guidelines to identify the syntactic state of well-formedness in the sense defined by the logic of typed feature structures itself, as distinct from and in addition to the <_:soCalled-3/> that pertains at the level of this encoding standard. No appeal to any notion from formal semantics should be inferred."
+msgid ""
+"The reader should be aware the terminology used in this document does not "
+"always closely follow conventional practice in formal logic, and may also "
+"diverge from practice in some linguistic applications of typed feature "
+"structures. In particular, the term <_:soCalled-1/> when applied to a "
+"feature structure is not an interpretation in the model-theoretic sense, but "
+"is instead a minimally informative (or equivalently, most general) extension "
+"of that feature structure that is consistent with a set of constraints "
+"declared by an FSD. In linguistic application, such a system of constraints "
+"is the principal means by which the grammar of some natural language is "
+"expressed. There is a great deal of disagreement as to what, if any, model-"
+"theoretic interpretation feature structures have in such applications, but "
+"the status of this formal kind of interpretation is not germane to the "
+"present document. Similarly, the term <_:soCalled-2/> is used here as "
+"elsewhere in these Guidelines to identify the syntactic state of well-"
+"formedness in the sense defined by the logic of typed feature structures "
+"itself, as distinct from and in addition to the <_:soCalled-3/> that "
+"pertains at the level of this encoding standard. No appeal to any notion "
+"from formal semantics should be inferred."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1091
-msgid "We begin by describing how an encoded text is associated with one or more feature system declarations. The second, third, and fourth sections describe the overall structure of a feature system declaration and give details of how to encode its components. The final section offers a full example; fuller discussion of the reasoning behind FSDs and another complete example are provided in <_:ptr-1/>."
+msgid ""
+"We begin by describing how an encoded text is associated with one or more "
+"feature system declarations. The second, third, and fourth sections describe "
+"the overall structure of a feature system declaration and give details of "
+"how to encode its components. The final section offers a full example; "
+"fuller discussion of the reasoning behind FSDs and another complete example "
+"are provided in <_:ptr-1/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1412,7 +1928,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1100
-msgid "In order for application software to use feature system declarations to aid in the automatic interpretation of encoded texts, or even for human readers to find the appropriate declarations which document the feature system used in markup, there must be a formal link from the encoded texts to the declarations. However, the schema which declares the syntax of the Feature System itself should be kept distinct from the feature structure schema, which is an application of that system."
+msgid ""
+"In order for application software to use feature system declarations to aid "
+"in the automatic interpretation of encoded texts, or even for human readers "
+"to find the appropriate declarations which document the feature system used "
+"in markup, there must be a formal link from the encoded texts to the "
+"declarations. However, the schema which declares the syntax of the Feature "
+"System itself should be kept distinct from the feature structure schema, "
+"which is an application of that system."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1430,7 +1953,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1109
-msgid "A document containing typed feature structures may simply include a feature system declaration documenting those feature structures. A more usual scenario, however, is that the same feature system declaration (or parts of it) will be shared by many documents. In either case, an <_:gi-1/> element for each distinct type of feature structure used must be provided and associated with the type, which is the value used within each feature structure for its <_:att-2/> attribute."
+msgid ""
+"A document containing typed feature structures may simply include a feature "
+"system declaration documenting those feature structures. A more usual "
+"scenario, however, is that the same feature system declaration (or parts of "
+"it) will be shared by many documents. In either case, an <_:gi-1/> element "
+"for each distinct type of feature structure used must be provided and "
+"associated with the type, which is the value used within each feature "
+"structure for its <_:att-2/> attribute."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1450,7 +1980,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1118
-msgid "When the module defined in this chapter is included in an XML schema, the following elements become available: <_:specList-1/> The <_:gi-2/> element may be supplied either within the header of a standard TEI document, or as a standalone document in its own right. It contains one or more <_:gi-3/> or <_:gi-4/> elements."
+msgid ""
+"When the module defined in this chapter is included in an XML schema, the "
+"following elements become available: <_:specList-1/> The <_:gi-2/> element "
+"may be supplied either within the header of a standard TEI document, or as a "
+"standalone document in its own right. It contains one or more <_:gi-3/> or "
+"<_:gi-4/> elements."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1472,17 +2007,28 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1139
-msgid "For example, suppose that a document <_:ident-1/> contains feature structures of two types: <_:val-2/> and <_:val-3/>. We might simply embed an <_:gi-4/> element for each within the header attached to the document as follows: <_:egXML-5/>"
+msgid ""
+"For example, suppose that a document <_:ident-1/> contains feature "
+"structures of two types: <_:val-2/> and <_:val-3/>. We might simply embed an "
+"<_:gi-4/> element for each within the header attached to the document as "
+"follows: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1170
-msgid "In this case there is an implicit link between the <_:gi-1/> element and the corresponding <_:gi-2/> element because they share the same value for their <_:att-3/> attribute and appear within the same document. This is a short cut for the more general case which requires a more explicit link provided by means of the <_:gi-4/> element, as demonstrated below."
+msgid ""
+"In this case there is an implicit link between the <_:gi-1/> element and the "
+"corresponding <_:gi-2/> element because they share the same value for their "
+"<_:att-3/> attribute and appear within the same document. This is a short "
+"cut for the more general case which requires a more explicit link provided "
+"by means of the <_:gi-4/> element, as demonstrated below."
 msgstr ""
 
 #. (itstool) path: p/note
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1180
-msgid "Ways of pointing to components of a TEI document without using an XML identifier are discussed in <_:ptr-1/>"
+msgid ""
+"Ways of pointing to components of a TEI document without using an XML "
+"identifier are discussed in <_:ptr-1/>"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1494,7 +2040,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1177
-msgid "Now suppose that we wish to create a second document which includes feature structures of the same type. Rather than duplicate the corresponding declarations, we will need to provide a means of pointing to them from this second document. The easiest<_:note-1/> way of accomplishing this is to add an XML identifier to each <_:gi-2/> element in <_:ident-3/>: <_:egXML-4/> (Although in this case the XML identifier is simply an uppercase version of the type name, there is no necessary connection between the two names. The only requirement is that the XML identifier conform to the standards required for identifiers, and that it be unique within the document containing it.)"
+msgid ""
+"Now suppose that we wish to create a second document which includes feature "
+"structures of the same type. Rather than duplicate the corresponding "
+"declarations, we will need to provide a means of pointing to them from this "
+"second document. The easiest<_:note-1/> way of accomplishing this is to add "
+"an XML identifier to each <_:gi-2/> element in <_:ident-3/>: <_:egXML-4/> "
+"(Although in this case the XML identifier is simply an uppercase version of "
+"the type name, there is no necessary connection between the two names. The "
+"only requirement is that the XML identifier conform to the standards "
+"required for identifiers, and that it be unique within the document "
+"containing it.)"
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1510,7 +2066,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1200
-msgid "In the <_:gi-1/> for the second document, we can now include pointers to the <_:gi-2/> elements in the first: <_:egXML-3/> Note that in <_:ident-4/> there is no requirement for the local name for a given type of feature structures to be the same as that used by <_:ident-5/>. We assume in this encoding that the type called <_:name-6/> in <_:ident-7/> is declared as having identical constraints and other properties to those declared for the type called <_:name-8/> in <_:ident-9/>."
+msgid ""
+"In the <_:gi-1/> for the second document, we can now include pointers to the "
+"<_:gi-2/> elements in the first: <_:egXML-3/> Note that in <_:ident-4/> "
+"there is no requirement for the local name for a given type of feature "
+"structures to be the same as that used by <_:ident-5/>. We assume in this "
+"encoding that the type called <_:name-6/> in <_:ident-7/> is declared as "
+"having identical constraints and other properties to those declared for the "
+"type called <_:name-8/> in <_:ident-9/>."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1531,12 +2094,25 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1230
-msgid "A <_:gi-1/> may be given, as above, within the encoding description of the <_:gi-2/> element of a TEI document containing typed feature structures. Alternatively, it may appear independently of any feature structures, as a document in its own right, possibly with its own <_:gi-3/>. These options are both possible because the element is a member of both the <_:ident-4/> class and the <_:ident-5/> class."
+msgid ""
+"A <_:gi-1/> may be given, as above, within the encoding description of the "
+"<_:gi-2/> element of a TEI document containing typed feature structures. "
+"Alternatively, it may appear independently of any feature structures, as a "
+"document in its own right, possibly with its own <_:gi-3/>. These options "
+"are both possible because the element is a member of both the <_:ident-4/> "
+"class and the <_:ident-5/> class."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1237
-msgid "The current recommendations provide no way of enforcing uniqueness of the <_:att-1/> values among <_:gi-2/> elements, nor of requiring that every <_:att-3/> value specified on a <_:gi-4/> element be also declared on an <_:gi-5/> element. Encoders requiring such constraints (which might have some obvious utility in assisting the consistency and accuracy of tagging) are recommended to develop tools to enforce them, using such mechanisms as Schematron assertions."
+msgid ""
+"The current recommendations provide no way of enforcing uniqueness of the <_:"
+"att-1/> values among <_:gi-2/> elements, nor of requiring that every <_:"
+"att-3/> value specified on a <_:gi-4/> element be also declared on an <_:"
+"gi-5/> element. Encoders requiring such constraints (which might have some "
+"obvious utility in assisting the consistency and accuracy of tagging) are "
+"recommended to develop tools to enforce them, using such mechanisms as "
+"Schematron assertions."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1546,7 +2122,14 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1248
-msgid "A feature system declaration contains one or more feature structure declarations, each of which has up to three parts: an optional description (which gives a prose comment on what that type of feature structure encodes), an obligatory set of feature declarations (which specify range constraints and default values for the features in that type of structure), and optional feature structure constraints (which specify co-occurrence restrictions on feature values). <_:specList-1/>"
+msgid ""
+"A feature system declaration contains one or more feature structure "
+"declarations, each of which has up to three parts: an optional description "
+"(which gives a prose comment on what that type of feature structure "
+"encodes), an obligatory set of feature declarations (which specify range "
+"constraints and default values for the features in that type of structure), "
+"and optional feature structure constraints (which specify co-occurrence "
+"restrictions on feature values). <_:specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1602,7 +2185,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1259
-msgid "Feature declarations and feature structure constraints are described in the next two sections. Note that the specification of similar <_:gi-1/> elements can be simplified by devising an inheritance hierarchy for the feature structure types. Each <_:gi-2/> element may name one or more <_:soCalled-3/> from which it inherits feature declarations and constraints (these are often called <_:soCalled-4/>). For instance, suppose that <_:tag-5/> contains <_:tag-6/> and <_:tag-7/>, and that <_:tag-8/> contains just <_:tag-9/>. Then any instance of <_:tag-10/> must include all three features. This is because <_:tag-11/> inherits the two feature declarations from <_:tag-12/> when it specifies a base type of <_:val-13/>."
+msgid ""
+"Feature declarations and feature structure constraints are described in the "
+"next two sections. Note that the specification of similar <_:gi-1/> elements "
+"can be simplified by devising an inheritance hierarchy for the feature "
+"structure types. Each <_:gi-2/> element may name one or more <_:soCalled-3/> "
+"from which it inherits feature declarations and constraints (these are often "
+"called <_:soCalled-4/>). For instance, suppose that <_:tag-5/> contains <_:"
+"tag-6/> and <_:tag-7/>, and that <_:tag-8/> contains just <_:tag-9/>. Then "
+"any instance of <_:tag-10/> must include all three features. This is because "
+"<_:tag-11/> inherits the two feature declarations from <_:tag-12/> when it "
+"specifies a base type of <_:val-13/>."
 msgstr ""
 
 #. (itstool) path: fsDecl/fsDescr
@@ -1612,7 +2205,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1275
-msgid "The following sample shows the overall structure of a complete feature structure declaration: <_:egXML-1/>"
+msgid ""
+"The following sample shows the overall structure of a complete feature "
+"structure declaration: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -1624,17 +2219,32 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1292
-msgid "The attribute <_:att-1/> gives the name of one or more types from which this type inherits feature specifications and constraints; if this type includes a feature specification with the same name as one inherited from any of the types specified by this attribute, or if more than one specification of the same name is inherited, then the possible values of that feature is determined by unification. Similarly, the set of constraints applicable is derived by conjoining those specified explicitly within this element with those implied by the <_:att-2/> attribute. When no base type is specified, no feature specification or constraint is inherited."
+msgid ""
+"The attribute <_:att-1/> gives the name of one or more types from which this "
+"type inherits feature specifications and constraints; if this type includes "
+"a feature specification with the same name as one inherited from any of the "
+"types specified by this attribute, or if more than one specification of the "
+"same name is inherited, then the possible values of that feature is "
+"determined by unification. Similarly, the set of constraints applicable is "
+"derived by conjoining those specified explicitly within this element with "
+"those implied by the <_:att-2/> attribute. When no base type is specified, "
+"no feature specification or constraint is inherited."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1302
-msgid "Although the present standard does provide for default feature values, feature inheritance is defined to be monotonic."
+msgid ""
+"Although the present standard does provide for default feature values, "
+"feature inheritance is defined to be monotonic."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1304
-msgid "The process of combining constraints may result in a contradiction, for example if two specifications for the same feature specify disjoint ranges of values, and at least one such specification is mandatory. In such a case, there is no valid feature structure of the type being defined."
+msgid ""
+"The process of combining constraints may result in a contradiction, for "
+"example if two specifications for the same feature specify disjoint ranges "
+"of values, and at least one such specification is mandatory. In such a case, "
+"there is no valid feature structure of the type being defined."
 msgstr ""
 
 #. (itstool) path: p/tag
@@ -1644,7 +2254,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1310
-msgid "Every type specified by <_:att-1/> must be a single word which is a legal XML name; for example, they cannot include whitespace or begin with digits. Multiple base types are separated with spaces, e.g. <_:tag-2/>."
+msgid ""
+"Every type specified by <_:att-1/> must be a single word which is a legal "
+"XML name; for example, they cannot include whitespace or begin with digits. "
+"Multiple base types are separated with spaces, e.g. <_:tag-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1670,12 +2283,16 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1403
-msgid "has no value provided, or the value <_:gi-1/> is provided (see <_:ref-2/>, and"
+msgid ""
+"has no value provided, or the value <_:gi-1/> is provided (see <_:ref-2/>, "
+"and"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1405
-msgid "either has no default specified, or has conditional defaults, none of the conditions on which is met,"
+msgid ""
+"either has no default specified, or has conditional defaults, none of the "
+"conditions on which is met,"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1695,22 +2312,45 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1416
-msgid "either has a default specified, or has conditional defaults, one of the conditions on which is met,"
+msgid ""
+"either has a default specified, or has conditional defaults, one of the "
+"conditions on which is met,"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1379
-msgid "Each feature is declared in an <_:gi-1/> element whose <_:att-2/> attribute identifies the feature being declared; this matches the <_:att-3/> attribute of the <_:gi-4/> elements it declares. An <_:gi-5/> has three parts: an optional prose description (which should explain what the feature and its values represent), an obligatory range specification (which declares what values the feature is allowed to have), and an optional default specification (which declares what default value should be supplied when the named feature does not appear in an <_:gi-6/>). If, in a feature structure, a feature: <_:list-7/> then the value of this feature in the feature structure's most general valid extension is the most general value provided in its <_:gi-8/>, in the case of a unit organization, or the singleton set, bag, or list containing that element, in the case of a complex organization. If the feature: <_:list-9/> then this feature does have a value in the feature structure's most general valid extension when it exists, namely the default value that pertains."
+msgid ""
+"Each feature is declared in an <_:gi-1/> element whose <_:att-2/> attribute "
+"identifies the feature being declared; this matches the <_:att-3/> attribute "
+"of the <_:gi-4/> elements it declares. An <_:gi-5/> has three parts: an "
+"optional prose description (which should explain what the feature and its "
+"values represent), an obligatory range specification (which declares what "
+"values the feature is allowed to have), and an optional default "
+"specification (which declares what default value should be supplied when the "
+"named feature does not appear in an <_:gi-6/>). If, in a feature structure, "
+"a feature: <_:list-7/> then the value of this feature in the feature "
+"structure's most general valid extension is the most general value provided "
+"in its <_:gi-8/>, in the case of a unit organization, or the singleton set, "
+"bag, or list containing that element, in the case of a complex organization. "
+"If the feature: <_:list-9/> then this feature does have a value in the "
+"feature structure's most general valid extension when it exists, namely the "
+"default value that pertains."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1423
-msgid "It is possible that a feature structure will not have a valid extension because the default value that pertains to a feature is not consistent with that feature's declared range. Additional tools are required for the enforcement of such criteria."
+msgid ""
+"It is possible that a feature structure will not have a valid extension "
+"because the default value that pertains to a feature is not consistent with "
+"that feature's declared range. Additional tools are required for the "
+"enforcement of such criteria."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1434
-msgid "The following elements are used in feature system declarations: <_:specList-1/>"
+msgid ""
+"The following elements are used in feature system declarations: <_:"
+"specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/term
@@ -1725,11 +2365,19 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1442
-msgid "The logic for validating feature values and for matching the conditions for supplying default values is based on the operation of <_:term-1/>. Subsumption is a standard operation in feature-structure-based formalisms. Informally, a feature structure <_:name-2/> subsumes all feature structures that are at least as informative as itself; that is, all feature structures that specify all of the feature values that FS does with values that are subsumed by the values that FS has, and that have all of the re-entrancies (see <_:ptr-3/>) that FS does. (<_:ptr-4/>; see also <_:ptr-5/> and <_:ptr-6/>) A more formal definition is provided in ISO 24610-1:2006 ."
+msgid ""
+"The logic for validating feature values and for matching the conditions for "
+"supplying default values is based on the operation of <_:term-1/>. "
+"Subsumption is a standard operation in feature-structure-based formalisms. "
+"Informally, a feature structure <_:name-2/> subsumes all feature structures "
+"that are at least as informative as itself; that is, all feature structures "
+"that specify all of the feature values that FS does with values that are "
+"subsumed by the values that FS has, and that have all of the re-entrancies "
+"(see <_:ptr-3/>) that FS does. (<_:ptr-4/>; see also <_:ptr-5/> and <_:ptr-6/"
+">) A more formal definition is provided in ISO 24610-1:2006 ."
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/FS-FeatureStructures.xml:1470
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1470
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1471
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1473
@@ -1753,7 +2401,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1467
-msgid "Following the spirit of the informal definition above, we can extend subsumption in a straightforward way to cover alternation, negation, special primitive values, and the use of attributes in the markup. For instance, a <_:gi-1/> containing the value <_:val-2/> subsumes <_:val-3/>. The negation of a value <_:val-4/> (represented by means of the <_:gi-5/> element discussed in section <_:ptr-6/>) subsumes any value that is not <_:val-7/>; for example <_:code-8/> subsumes any numeric value other than zero. The value <_:tag-9/> subsumes any feature structure of type <_:val-10/>, even if it is not valid."
+msgid ""
+"Following the spirit of the informal definition above, we can extend "
+"subsumption in a straightforward way to cover alternation, negation, special "
+"primitive values, and the use of attributes in the markup. For instance, a "
+"<_:gi-1/> containing the value <_:val-2/> subsumes <_:val-3/>. The negation "
+"of a value <_:val-4/> (represented by means of the <_:gi-5/> element "
+"discussed in section <_:ptr-6/>) subsumes any value that is not <_:val-7/>; "
+"for example <_:code-8/> subsumes any numeric value other than zero. The "
+"value <_:tag-9/> subsumes any feature structure of type <_:val-10/>, even if "
+"it is not valid."
 msgstr ""
 
 #. (itstool) path: p/title
@@ -1763,17 +2420,25 @@ msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1487
-msgid "feature value range INV {+, -} CONJ {and, both, but, either, neither, nor, or, NIL} COMP {for, that, whether, if, NIL} AGR CAT PFORM {to, by, for, ...}"
+msgid ""
+"feature value range INV {+, -} CONJ {and, both, but, either, neither, nor, "
+"or, NIL} COMP {for, that, whether, if, NIL} AGR CAT PFORM {to, by, for, ...}"
 msgstr ""
 
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1493
-msgid "Feature specification defaults FSD 1: [-INV] FSD 2: ~[CONJ] FSD 9: [INF, +SUBJ] --&gt; [COMP for]"
+msgid ""
+"Feature specification defaults FSD 1: [-INV] FSD 2: ~[CONJ] FSD 9: [INF, "
+"+SUBJ] --&gt; [COMP for]"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1483
-msgid "As an example of feature declarations, consider the following extract from Gazdar et al.'s <_:title-1/>. In the appendix to their book, they propose a feature system for English of which this is just a sampling: <_:egXML-2/> <_:egXML-3/>"
+msgid ""
+"As an example of feature declarations, consider the following extract from "
+"Gazdar et al.'s <_:title-1/>. In the appendix to their book, they propose a "
+"feature system for English of which this is just a sampling: <_:egXML-2/> <_:"
+"egXML-3/>"
 msgstr ""
 
 #. (itstool) path: fDecl/fDescr
@@ -1784,12 +2449,20 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1497
-msgid "The INV feature, which encodes whether or not a sentence is inverted, allows only the values plus (+) and minus (-). If the feature is not specified, then the default rule (FSD 1 above) says that a value of minus is always assumed. The feature declaration for this feature would be encoded as follows: <_:egXML-1/>"
+msgid ""
+"The INV feature, which encodes whether or not a sentence is inverted, allows "
+"only the values plus (+) and minus (-). If the feature is not specified, "
+"then the default rule (FSD 1 above) says that a value of minus is always "
+"assumed. The feature declaration for this feature would be encoded as "
+"follows: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1510
-msgid "The value range is specified as an alternation (more precisely, an exclusive disjunction), which can be represented by the <_:gi-1/> feature value. That is, the value must be either true or false, but cannot be both or neither."
+msgid ""
+"The value range is specified as an alternation (more precisely, an exclusive "
+"disjunction), which can be represented by the <_:gi-1/> feature value. That "
+"is, the value must be either true or false, but cannot be both or neither."
 msgstr ""
 
 #. (itstool) path: fDecl/fDescr
@@ -1805,7 +2478,18 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1514
-msgid "The CONJ feature indicates the surface form of the conjunction used in a construction. The ~ in the default rule (see FSD 2 above) represents negation. This means that by default the feature is not applicable, in other words, no conjunction is taking place. Note that CONJ not being present is distinct from CONJ being present but having the NIL value allowed in the value range. In their analysis, NIL means that the phenomenon of conjunction is taking place but there is no explicit conjunction in the surface form of the sentence. The feature declaration for this feature would be encoded as follows: <_:egXML-1/> Note that the <_:gi-2/> is not strictly necessary in this case, since the binary value of <_:val-3/> only serves to convey the information that the feature has no other legitimate value."
+msgid ""
+"The CONJ feature indicates the surface form of the conjunction used in a "
+"construction. The ~ in the default rule (see FSD 2 above) represents "
+"negation. This means that by default the feature is not applicable, in other "
+"words, no conjunction is taking place. Note that CONJ not being present is "
+"distinct from CONJ being present but having the NIL value allowed in the "
+"value range. In their analysis, NIL means that the phenomenon of conjunction "
+"is taking place but there is no explicit conjunction in the surface form of "
+"the sentence. The feature declaration for this feature would be encoded as "
+"follows: <_:egXML-1/> Note that the <_:gi-2/> is not strictly necessary in "
+"this case, since the binary value of <_:val-3/> only serves to convey the "
+"information that the feature has no other legitimate value."
 msgstr ""
 
 #. (itstool) path: p/mentioned
@@ -1832,7 +2516,16 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1545
-msgid "The COMP feature indicates the surface form of the complementizer used in a construction. In value range, it is analogous to CONJ. However, its default rule (see FSD 9 above) is conditional. It says that if the verb form is infinitival (the VFORM feature is not mentioned in the rule since it is the only feature that can take INF as a value), and the construction has a subject, then a <_:mentioned-1/> complement must be used. For instance, to make John the subject of the infinitive in <_:mentioned-2/> a <_:mentioned-3/> complement must be used; that is, <_:mentioned-4/> The feature declaration for this feature would be encoded as follows: <_:egXML-5/>"
+msgid ""
+"The COMP feature indicates the surface form of the complementizer used in a "
+"construction. In value range, it is analogous to CONJ. However, its default "
+"rule (see FSD 9 above) is conditional. It says that if the verb form is "
+"infinitival (the VFORM feature is not mentioned in the rule since it is the "
+"only feature that can take INF as a value), and the construction has a "
+"subject, then a <_:mentioned-1/> complement must be used. For instance, to "
+"make John the subject of the infinitive in <_:mentioned-2/> a <_:mentioned-3/"
+"> complement must be used; that is, <_:mentioned-4/> The feature declaration "
+"for this feature would be encoded as follows: <_:egXML-5/>"
 msgstr ""
 
 #. (itstool) path: fDecl/fDescr
@@ -1863,7 +2556,17 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1573
-msgid "The AGR feature stores the features relevant to subject-verb agreement. Gazdar et al. specify the range of this feature as CAT. This means that the value is a <_:term-1/>, which is their term for a feature structure. This is actually too weak a statement. Not just any feature structure is allowable here; it must be a feature structure for agreement (which is defined in the complete example at the end of the chapter to contain the features of person and number). The following feature declaration encodes this constraint on the value range: <_:egXML-2/> That is, the value must be a feature structure of type <_:val-3/>. The complete example at the end of this chapter includes the <_:tag-4/> which includes <_:tag-5/> and <_:tag-6/>."
+msgid ""
+"The AGR feature stores the features relevant to subject-verb agreement. "
+"Gazdar et al. specify the range of this feature as CAT. This means that the "
+"value is a <_:term-1/>, which is their term for a feature structure. This is "
+"actually too weak a statement. Not just any feature structure is allowable "
+"here; it must be a feature structure for agreement (which is defined in the "
+"complete example at the end of the chapter to contain the features of person "
+"and number). The following feature declaration encodes this constraint on "
+"the value range: <_:egXML-2/> That is, the value must be a feature structure "
+"of type <_:val-3/>. The complete example at the end of this chapter includes "
+"the <_:tag-4/> which includes <_:tag-5/> and <_:tag-6/>."
 msgstr ""
 
 #. (itstool) path: fDecl/fDescr
@@ -1879,7 +2582,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1589
-msgid "The PFORM feature indicates the surface form of the preposition used in a construction. Since PFORM is specified above as an open set, <_:gi-1/> is used in the range specification below rather than <_:gi-2/>. <_:egXML-3/> This example makes use of a negated value: <_:code-4/> subsumes any string that is not the empty string."
+msgid ""
+"The PFORM feature indicates the surface form of the preposition used in a "
+"construction. Since PFORM is specified above as an open set, <_:gi-1/> is "
+"used in the range specification below rather than <_:gi-2/>. <_:egXML-3/> "
+"This example makes use of a negated value: <_:code-4/> subsumes any string "
+"that is not the empty string."
 msgstr ""
 
 #. (itstool) path: p/ident
@@ -1889,7 +2597,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1600
-msgid "Note that the class <_:ident-1/> includes all possible single feature values, including feature structures, alternations (<_:gi-2/>) and complex collections (<_:gi-3/>)."
+msgid ""
+"Note that the class <_:ident-1/> includes all possible single feature "
+"values, including feature structures, alternations (<_:gi-2/>) and complex "
+"collections (<_:gi-3/>)."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1899,7 +2610,12 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1694
-msgid "Ensuring the validity of feature structures may require much more than simply specifying the range of allowed values for each feature. There may be constraints on the co-occurrence of one feature value with the value of another feature in the same feature structure or in an embedded feature structure."
+msgid ""
+"Ensuring the validity of feature structures may require much more than "
+"simply specifying the range of allowed values for each feature. There may be "
+"constraints on the co-occurrence of one feature value with the value of "
+"another feature in the same feature structure or in an embedded feature "
+"structure."
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1927,12 +2643,35 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1699
-msgid "Such constraints on valid feature structures are expressed as a series of conditional and biconditional tests in the <_:gi-1/> part of an <_:gi-2/>. A particular feature structure is valid only if it meets all the constraints. The <_:gi-3/> element encodes the conventional if-then conditional of boolean logic which succeeds when both the antecedent and consequent are true, or whenever the antecedent is false. The <_:gi-4/> element encodes the biconditional (if and only if) operation of boolean logic. It succeeds only when the corresponding if-then conditionals in both directions are true. In feature structure constraints the antecedent and consequent are expressed as feature structures; they are considered true if they <_:term-5/> (see section <_:ptr-6/>) the feature structure in question, but in the case of consequents, this truth is asserted rather than simply tested. That is to say, a conditional is enforced by determining that the antecedent does not (and will never) subsume the given feature structure, or by determining that the antecedent does subsume the given feature structure, and then unifying the consequent with it (the result of which, if successful, will be subsumed by the consequent). In practice, the enforcement of such constraints can result in periods in which the truth of a constraint with respect to a given feature structure is simply not known; in this case, the constraint must be persistently monitored as the feature structure becomes more informative until either its truth value is determined or computation fails for some other reason."
+msgid ""
+"Such constraints on valid feature structures are expressed as a series of "
+"conditional and biconditional tests in the <_:gi-1/> part of an <_:gi-2/>. A "
+"particular feature structure is valid only if it meets all the constraints. "
+"The <_:gi-3/> element encodes the conventional if-then conditional of "
+"boolean logic which succeeds when both the antecedent and consequent are "
+"true, or whenever the antecedent is false. The <_:gi-4/> element encodes the "
+"biconditional (if and only if) operation of boolean logic. It succeeds only "
+"when the corresponding if-then conditionals in both directions are true. In "
+"feature structure constraints the antecedent and consequent are expressed as "
+"feature structures; they are considered true if they <_:term-5/> (see "
+"section <_:ptr-6/>) the feature structure in question, but in the case of "
+"consequents, this truth is asserted rather than simply tested. That is to "
+"say, a conditional is enforced by determining that the antecedent does not "
+"(and will never) subsume the given feature structure, or by determining that "
+"the antecedent does subsume the given feature structure, and then unifying "
+"the consequent with it (the result of which, if successful, will be subsumed "
+"by the consequent). In practice, the enforcement of such constraints can "
+"result in periods in which the truth of a constraint with respect to a given "
+"feature structure is simply not known; in this case, the constraint must be "
+"persistently monitored as the feature structure becomes more informative "
+"until either its truth value is determined or computation fails for some "
+"other reason."
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1725
-msgid "The following elements make up the <_:gi-1/> part of an FSD: <_:specList-2/>"
+msgid ""
+"The following elements make up the <_:gi-1/> part of an FSD: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: p/soCalled
@@ -1957,22 +2696,35 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1728
-msgid "For an example of feature structure constraints, consider the following <_:soCalled-1/> extracted from the feature system for English proposed by Gazdar, et al. (1985:246–247): <_:eg-2/> <_:eg-3/> <_:eg-4/>"
+msgid ""
+"For an example of feature structure constraints, consider the following <_:"
+"soCalled-1/> extracted from the feature system for English proposed by "
+"Gazdar, et al. (1985:246–247): <_:eg-2/> <_:eg-3/> <_:eg-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1734
-msgid "The first constraint says that if a construction is inverted, it must also have an auxiliary and a finite verb form. That is, <_:egXML-1/>"
+msgid ""
+"The first constraint says that if a construction is inverted, it must also "
+"have an auxiliary and a finite verb form. That is, <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1743
-msgid "The second constraint says that if a construction has a BAR value of zero (i.e., it is a sentence), then it must have a value for the features N, V, and SUBCAT. By the same token, because it is a biconditional, if it has values for N, V, and SUBCAT, it must have BAR='0'. That is, <_:egXML-1/>"
+msgid ""
+"The second constraint says that if a construction has a BAR value of zero (i."
+"e., it is a sentence), then it must have a value for the features N, V, and "
+"SUBCAT. By the same token, because it is a biconditional, if it has values "
+"for N, V, and SUBCAT, it must have BAR='0'. That is, <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1758
-msgid "The final constraint says that if a construction has a BAR value of 1 (i.e., it is a phrase), then the SUBCAT feature should be absent (~). This is not biconditional, since there are other instances under which the SUBCAT feature is inappropriate. That is, <_:egXML-1/>"
+msgid ""
+"The final constraint says that if a construction has a BAR value of 1 (i.e., "
+"it is a phrase), then the SUBCAT feature should be absent (~). This is not "
+"biconditional, since there are other instances under which the SUBCAT "
+"feature is inappropriate. That is, <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
@@ -1987,7 +2739,10 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1768
-msgid "Note that <_:gi-1/> and <_:gi-2/> use the empty tags <_:gi-3/> and <_:gi-4/>, respectively, to separate the antecedent and consequent. These are primarily for the sake of enhancing human readability."
+msgid ""
+"Note that <_:gi-1/> and <_:gi-2/> use the empty tags <_:gi-3/> and <_:gi-4/"
+">, respectively, to separate the antecedent and consequent. These are "
+"primarily for the sake of enhancing human readability."
 msgstr ""
 
 #. (itstool) path: div/head
@@ -1997,7 +2752,9 @@ msgstr ""
 
 #. (itstool) path: titleStmt/title
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1843
-msgid "A sample FSD based on an extract from Gazdar et al.'s GPSG feature system for English"
+msgid ""
+"A sample FSD based on an extract from Gazdar et al.'s GPSG feature system "
+"for English"
 msgstr ""
 
 #. (itstool) path: respStmt/resp
@@ -2012,22 +2769,35 @@ msgstr ""
 
 #. (itstool) path: publicationStmt/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1851
-msgid "This sample was first encoded by Gary F. Simons (Summer Institute of Linguistics, Dallas, TX) on January 28, 1991. Revised April 8, 1993 to match the specification of FSDs in version P2 of the TEI Guidelines. Revised again December 2004 to be consistent with the feature structure representation standard jointly developed with ISO TC37/SC4."
+msgid ""
+"This sample was first encoded by Gary F. Simons (Summer Institute of "
+"Linguistics, Dallas, TX) on January 28, 1991. Revised April 8, 1993 to match "
+"the specification of FSDs in version P2 of the TEI Guidelines. Revised again "
+"December 2004 to be consistent with the feature structure representation "
+"standard jointly developed with ISO TC37/SC4."
 msgstr ""
 
 #. (itstool) path: sourceDesc/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1859
-msgid "This sample FSD does not describe a complete feature system. It is based on extracts from the feature system for English presented in the appendix (pages 245–247) of Generalized Phrase Structure Grammar, by Gazdar, Klein, Pullum, and Sag (Harvard University Press, 1985)."
+msgid ""
+"This sample FSD does not describe a complete feature system. It is based on "
+"extracts from the feature system for English presented in the appendix "
+"(pages 245–247) of Generalized Phrase Structure Grammar, by Gazdar, Klein, "
+"Pullum, and Sag (Harvard University Press, 1985)."
 msgstr ""
 
 #. (itstool) path: fsDecl/fsDescr
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1869
-msgid "Encodes a feature structure for the GPSG analysis of English (after Gazdar, Klein, Pullum, and Sag)"
+msgid ""
+"Encodes a feature structure for the GPSG analysis of English (after Gazdar, "
+"Klein, Pullum, and Sag)"
 msgstr ""
 
 #. (itstool) path: fsDecl/fsDescr
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1930
-msgid "This type of feature structure encodes the features for subject-verb agreement in English"
+msgid ""
+"This type of feature structure encodes the features for subject-verb "
+"agreement in English"
 msgstr ""
 
 #. (itstool) path: fDecl/fDescr
@@ -2042,7 +2812,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1837
-msgid "To summarize this chapter, the complete FSD for the example that has run through the chapter is reproduced below: <_:egXML-1/>"
+msgid ""
+"To summarize this chapter, the complete FSD for the example that has run "
+"through the chapter is reproduced below: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
@@ -2082,6 +2854,9 @@ msgstr ""
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/FS-FeatureStructures.xml:1951
-msgid "This elements discussed in this chapter constitute a module of the TEI scheme which is formally defined as follows: <_:moduleSpec-1/> The selection and combination of modules to form a TEI schema is described in <_:ptr-2/>. <_:specGrp-3/>"
+msgid ""
+"This elements discussed in this chapter constitute a module of the TEI "
+"scheme which is formally defined as follows: <_:moduleSpec-1/> The selection "
+"and combination of modules to form a TEI schema is described in <_:ptr-2/>. "
+"<_:specGrp-3/>"
 msgstr ""
-
