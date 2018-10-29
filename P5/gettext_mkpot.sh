@@ -32,8 +32,6 @@ done
 # xmlファイルからpotファイルを生成（Source/_pot 以下に）
 for SOURCE in `find "${PREFIX_PATH}/${GUIDELINES_DIR}/${SOURCE_LANG}/" -type f -name "*.xml" -print`
 do
-  #echo "$SOURCE"
-  #echo $(dirname "$SOURCE")/$(basename "$SOURCE" .xml).pot
   SOURCE_DIR=`dirname $SOURCE`
   TARGET_DIR="${PREFIX_PATH}/${POT_DIR}"/"${SOURCE_DIR#$PREFIX_PATH/}"
   if [ ! -d "$TARGET_DIR" ]
@@ -42,4 +40,5 @@ do
     echo Created: "$TARGET_DIR"
   fi
   itstool -o "$TARGET_DIR"/$(basename "$SOURCE" .xml).pot "$SOURCE"
+  echo Created: "$TARGET_DIR"/$(basename "$SOURCE" .xml).pot
 done
