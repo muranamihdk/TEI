@@ -50,7 +50,9 @@ do
     cp "$SOURCE" "$PO_FILE"
     echo Created: "$PO_FILE"
     continue
+  elif [ "$SOURCE" -nt "$PO_FILE" ]
+  then
+    msgmerge -U "$PO_FILE" "$SOURCE"
+    echo Updated: "$PO_FILE"
   fi
-
-  msgmerge -U "$PO_FILE" "$SOURCE"
 done

@@ -42,6 +42,13 @@ do
   fi
 
   MO_FILE="$TARGET_DIR"/$(basename "$SOURCE" .po).mo
-  msgfmt "$SOURCE" -o "$MO_FILE"
-  echo Generated: "$MO_FILE"
+  if [ ! -f "MO_FILE" ]
+  then
+    msgfmt "$SOURCE" -o "$MO_FILE"
+    echo Generated: "$MO_FILE"
+  elif [ "$SOURCE" -nt "$MO_FILE" ]
+  then
+    msgfmt "$SOURCE" -o "$MO_FILE"
+    echo Updated: "$MO_FILE"
+  fi
 done

@@ -39,6 +39,14 @@ do
     mkdir -p "$TARGET_DIR"
     echo Created: "$TARGET_DIR"
   fi
-  itstool -o "$TARGET_DIR"/$(basename "$SOURCE" .xml).pot "$SOURCE"
-  echo Created: "$TARGET_DIR"/$(basename "$SOURCE" .xml).pot
+  TARGET_FILE="$TARGET_DIR"/$(basename "$SOURCE" .xml).pot
+  if [ ! -f "$TARGET_FILE" ]
+  then
+    itstool -o "$TARGET_FILE" "$SOURCE"
+    echo Created: "$TARGET_FILE"
+  elif [ "$SOURCE" -nt "$TARGET_FILE" ]
+  then
+    itstool -o "$TARGET_FILE" "$SOURCE"
+    echo Updated: "$TARGET_FILE"
+  fi 
 done

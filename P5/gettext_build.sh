@@ -47,6 +47,13 @@ do
 
   TRANSLATED_FILE="$TARGET_DIR"/$(basename "$SOURCE" .mo).xml
   ORIGINAL_FILE="$ORIGINAL_DIR"/$(basename "$SOURCE" .mo).xml
-  itstool -m "$SOURCE" "$ORIGINAL_FILE" -o "$TRANSLATED_FILE"
-  echo Created: "$TRANSLATED_FILE"
+  if [ ! -f "$TRANSLATED_FILE" ]
+  then
+    itstool -m "$SOURCE" "$ORIGINAL_FILE" -o "$TRANSLATED_FILE"
+    echo Created: "$TRANSLATED_FILE"
+  elif [ "$SOURCE" -nt "$TRANSLATED_FILE" ]
+  then
+    itstool -m "$SOURCE" "$ORIGINAL_FILE" -o "$TRANSLATED_FILE"
+    echo Updated: "$TRANSLATED_FILE"
+  fi
 done
