@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-29 21:36+0900\n"
-"PO-Revision-Date: 2018-10-27 22:38+0900\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-11-26 15:21+0000\n"
+"Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #. (itstool) path: div/head
 #: Source/Guidelines/en/AB-About.xml:14
@@ -24,10 +24,9 @@ msgid ""
 "Initiative Consortium (TEI); see <_:ptr-1/>. They are addressed to anyone "
 "who works with any kind of textual resource in digital form."
 msgstr ""
-"このガイドラインは、テキスト・エンコーディング・イニシアチブ・コンソーシアム "
-"Text Encoding Initiative Consortium（TEI）によって開発され、維持されています"
-"（「<_:ptr-1/>」を参照してください）。これに取り組んでいるのは皆、あらゆる種"
-"類のデジタル形式テキスト資料のために仕事をしている人たちです。"
+"このガイドラインは、テキスト・エンコーディング・イニシアチブ・コンソーシアム Text Encoding Initiative "
+"Consortium（TEI）によって開発され、維持されています（「<_:ptr-1/"
+">」を参照してください）。このガイドラインは、あらゆる種類のデジタル形式のテキスト資料に取り組んでいる、すべての人たちに宛てて書かれています。"
 
 #. (itstool) path: p/term
 #: Source/Guidelines/en/AB-About.xml:24
