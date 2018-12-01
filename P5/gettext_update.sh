@@ -74,6 +74,7 @@ echo "git push origin localize_ja"
 git push origin localize_ja
 echo
 
+
 # xmlファイルからpotファイルを生成（Source/_pot 以下に）
 for SOURCE in `find "${PREFIX_PATH}/${GUIDELINES_DIR}/${SOURCE_LANG}/" -type f -name "*.xml" -print`
 do
@@ -95,7 +96,6 @@ do
     echo Updated: "$TARGET_FILE"
   fi 
 done
-
 
 # potファイルからpoファイルを生成（Source/_po 以下に）／poファイルがあるときは変更をマージ
 for SOURCE in `find "${PREFIX_PATH}/${POT_DIR}/${GUIDELINES_DIR}/${SOURCE_LANG}/" -type f -name "*.pot" -print`
@@ -125,7 +125,6 @@ do
   fi
 done
 
-
 echo "git diff origin/localize_ja --name-only"
 git diff origin/localize_ja --name-only
 if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
@@ -137,6 +136,31 @@ then
   echo "git push origin localize_ja"
   git push origin localize_ja
 fi
+
+
+SOURCE_DIR=Source/Guidelines/en/Images/
+TARGET_DIR=Source/Guidelines/ja/Images/
+for file in `(ls "$SOURCE_DIR" | grep -v .xml)`
+do
+ if [ "${SOURCE_DIR}${file}" -nt "${TARGET_DIR}${file}" ]
+ then
+  cp "${SOURCE_DIR}${file}" "${TARGET_DIR}${file}"
+  echo Copied: "$file"
+ fi
+done
+
+echo "git diff origin/localize_ja --name-only"
+git diff origin/localize_ja --name-only
+if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
+then
+  echo
+  git add .
+  git commit -m "update image files"
+  echo
+  echo "git push origin localize_ja"
+  git push origin localize_ja
+fi
+
 
 # pull at Weblate
 if [ $(curl \
