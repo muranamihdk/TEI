@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-29 21:36+0900\n"
-"PO-Revision-Date: 2018-11-26 15:21+0000\n"
+"PO-Revision-Date: 2018-12-02 01:04+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -86,9 +86,23 @@ msgid ""
 "given encoding scheme. Thus, this work both describes the TEI encoding "
 "scheme, and documents the TEI markup vocabulary."
 msgstr ""
-"コンソーシアムでは、コンピュータによる処理を容易にするために明示的に識別され"
-"るべき、テキスト資料の特徴を表現するための適切な方法についての提言を行いま"
-"す。"
+"このガイドラインでは、コンピュータによる処理を容易にするために明示的に識別されるべき、テキスト資料の特徴を表現するための適切な方法についての提言を行います"
+"。 In particular, they specify a set of markers (or <_:term-1/>) which may be "
+"inserted in the electronic representation of the text, in order to mark the "
+"text structure and other features of interest. Many, or most, computer "
+"programs depend on the presence of such explicit markers for their "
+"functionality, since without them a digitized text appears to be nothing but "
+"a sequence of undifferentiated bits. The success of the World Wide Web, for "
+"example, is partly a consequence of its use of such markup to indicate such "
+"features as headings and lists on individual pages, and to indicate links "
+"between pages. The process of inserting such explicit markers for implicit "
+"textual features is often called <_:soCalled-2/>, or equivalently within "
+"this work <_:soCalled-3/>; the term <_:soCalled-4/> is also used informally. "
+"We use the term <_:term-5/> or <_:term-6/> to denote the complete set of "
+"rules associated with the use of markup in a given context; we use the term "
+"<_:term-7/> for the specific set of markers or named distinctions employed "
+"by a given encoding scheme. Thus, this work both describes the TEI encoding "
+"scheme, and documents the TEI markup vocabulary."
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/AB-About.xml:44
@@ -168,7 +182,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: Source/Guidelines/en/AB-About.xml:97
 msgid "Structure and Notational Conventions of this Document"
-msgstr ""
+msgstr "この文書の構造と表記規約"
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/AB-About.xml:100
@@ -300,7 +314,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: Source/Guidelines/en/AB-About.xml:175
 msgid "The use of modal verbs"
-msgstr ""
+msgstr "法助動詞の用法"
 
 #. (itstool) path: p/ref
 #: Source/Guidelines/en/AB-About.xml:177
@@ -388,7 +402,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: Source/Guidelines/en/AB-About.xml:205
 msgid "TEI Naming Conventions"
-msgstr ""
+msgstr "TEI命名規約"
 
 #. (itstool) path: div/p
 #: Source/Guidelines/en/AB-About.xml:206
@@ -396,12 +410,12 @@ msgid ""
 "These Guidelines use a more or less consistent set of conventions in the "
 "naming of XML elements and classes. This section summarizes those "
 "conventions."
-msgstr ""
+msgstr "このガイドラインでは、XMLの要素とクラスを命名するにあたり、ほぼ一貫した規約を用いています。このセクションでは、この規約を概観します。"
 
 #. (itstool) path: div/head
 #: Source/Guidelines/en/AB-About.xml:210
 msgid "Element and Attribute Names"
-msgstr ""
+msgstr "要素と属性の名前"
 
 #. (itstool) path: p/q
 #: Source/Guidelines/en/AB-About.xml:211
