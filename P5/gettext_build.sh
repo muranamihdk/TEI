@@ -41,7 +41,7 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/projects/tei-guidelines-ja/repository/ \
 | jq -r '.needs_commit') = false ]
 then
-  echo "No changes to commit"
+  echo "No changes to commit at Weblate"
   exit 0
 fi
 
@@ -52,10 +52,10 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/ab-about/repository/ \
 | jq -r '.result') = false ]
 then
-  echo "Commit@Welate Failure."
+  echo "Commit at Welate Failure."
   exit 1
 else
-  echo "Commit@Weblate Success."
+  echo "Commit at Weblate Success."
 fi
 
 echo
@@ -144,9 +144,9 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/ab-about/repository/ \
 | jq -r '.result') = false ]
 then
-  echo "Pull@Weblate Failure."
+  echo "Pull at Weblate Failure."
   exit 1
 else
-  echo "Pull@Weblate Success."
+  echo "Pull at Weblate Success."
   echo
 fi
