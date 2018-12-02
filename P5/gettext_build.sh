@@ -51,13 +51,17 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/about/repository/ \
 | jq -r '.result') = false ]
 then
-  echo "Commit Failure."
+  echo "Commit@Welate Failure."
   exit 1
 else
-  echo "Commit Success."
+  echo "Commit@Weblate Success."
 fi
 
 echo
+echo "git pull origin localize_ja"
+git pull origin localize_ja
+echo
+
 
 # poファイルをmoファイルに変換（Source/_mo 以下に poファイルと同じディレクトリ構成で）
 for SOURCE in `find "${PREFIX_PATH}/${PO_DIR}/${TARGET_LANG}/${GUIDELINES_DIR}/" -type f -name "*.po" -print`
