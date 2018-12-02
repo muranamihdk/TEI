@@ -12,7 +12,7 @@ $Id$
 
 <p>このガイドラインは、テキスト・エンコーディング・イニシアチブ・コンソーシアム Text Encoding Initiative Consortium（TEI）によって開発され、維持されています（「<ptr target="#ABTEI"/>」を参照してください）。このガイドラインは、あらゆる種類のデジタル形式のテキスト資料に取り組んでいる、すべての人たちに宛てて書かれています。</p>
 
-<p>コンソーシアムでは、コンピュータによる処理を容易にするために明示的に識別されるべき、テキスト資料の特徴を表現するための適切な方法についての提言を行います。</p>
+<p>このガイドラインでは、コンピュータによる処理を容易にするために明示的に識別されるべき、テキスト資料の特徴を表現するための適切な方法についての提言を行います。 In particular, they specify a set of markers (or <term>tags</term>) which may be inserted in the electronic representation of the text, in order to mark the text structure and other features of interest. Many, or most, computer programs depend on the presence of such explicit markers for their functionality, since without them a digitized text appears to be nothing but a sequence of undifferentiated bits. The success of the World Wide Web, for example, is partly a consequence of its use of such markup to indicate such features as headings and lists on individual pages, and to indicate links between pages. The process of inserting such explicit markers for implicit textual features is often called <soCalled>markup</soCalled>, or equivalently within this work <soCalled>encoding</soCalled>; the term <soCalled>tagging</soCalled> is also used informally. We use the term <term>encoding scheme</term> or <term>markup language</term> to denote the complete set of rules associated with the use of markup in a given context; we use the term <term>markup vocabulary</term> for the specific set of markers or named distinctions employed by a given encoding scheme. Thus, this work both describes the TEI encoding scheme, and documents the TEI markup vocabulary.</p>
 
 <p>The TEI encoding scheme is of particular usefulness in facilitating
 the loss-free interchange of data amongst individuals and research
@@ -67,8 +67,7 @@ underlying the TEI scheme and the application environments in which it
 may be found useful.  Finally, the third section gives a brief account
 of the origins and development of the Text Encoding Initiative itself.</p>
 
-<div type="div2" xml:id="ABSTRUNC"><head>Structure and Notational
-Conventions of this Document</head>
+<div type="div2" xml:id="ABSTRUNC"><head>この文書の構造と表記規約</head>
 
 <p>The remaining two sections of the front matter to these Guidelines
 provide background tutorial material for those unfamiliar with basic
@@ -145,7 +144,7 @@ and <ident type="class">att.global</ident> for an attribute class.
 </p>
 
   <div xml:id="AB-modal">
-    <head>The use of modal verbs</head>
+    <head>法助動詞の用法</head>
     <p>In general the TEI guidelines try to be careful when using modal verbs and phrases such as 'must', 'must not, 
       'should', 'should not' and 'may'. In terms of the meanings, these generally follow <ref target="https://tools.ietf.org/html/bcp14">https://tools.ietf.org/html/bcp14</ref> in the different meanings of these words.
       In particular:
@@ -175,12 +174,10 @@ and <ident type="class">att.global</ident> for an attribute class.
   </div>
 
 <div xml:id="AB-namecon">
-<head>TEI Naming Conventions</head>
-<p>These Guidelines use a more or less consistent set of conventions
-in the naming of XML elements and classes. This section summarizes
-those conventions.</p>
+<head>TEI命名規約</head>
+<p>このガイドラインでは、XMLの要素とクラスを命名するにあたり、ほぼ一貫した規約を用いています。このセクションでは、この規約を概観します。</p>
 <div>
-<head>Element and Attribute Names</head>
+<head>要素と属性の名前</head>
 <p>An unadorned name such as <q>blort</q> is the
 name of a TEI element or attribute. <note place="foot">During
 generation of TEI RELAX NG schema fragments, the patterns corresponding

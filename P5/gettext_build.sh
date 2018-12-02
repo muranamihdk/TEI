@@ -32,6 +32,7 @@ done
 
 echo "git checkout localize_ja"
 git checkout localize_ja
+
 echo
 
 if [ $(curl \
@@ -48,7 +49,7 @@ if [ $(curl \
  -s \
  -d operation=commit \
  -H "Authorization: Token 4uQDi24YSNEYgpxkkTvwdk7z9gZYupXiUvcxyccT" \
- http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/about/repository/ \
+ http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/ab-about/repository/ \
 | jq -r '.result') = false ]
 then
   echo "Commit@Welate Failure."
@@ -58,10 +59,11 @@ else
 fi
 
 echo
+
 echo "git pull origin localize_ja"
 git pull origin localize_ja
-echo
 
+echo
 
 # poファイルをmoファイルに変換（Source/_mo 以下に poファイルと同じディレクトリ構成で）
 for SOURCE in `find "${PREFIX_PATH}/${PO_DIR}/${TARGET_LANG}/${GUIDELINES_DIR}/" -type f -name "*.po" -print`
@@ -87,6 +89,7 @@ do
   fi
 done
 
+echo
 
 # mo ファイルから翻訳ファイルを作成（Source/Guidelines/ja 以下に）
 for SOURCE in `find "${PREFIX_PATH}/${MO_DIR}/${TARGET_LANG}/${GUIDELINES_DIR}/${TARGET_LANG}/" -type f -name "*.mo" -print`
@@ -117,6 +120,7 @@ do
   fi
 done
 
+echo
 
 echo "git diff origin/localize_ja --name-only"
 git diff origin/localize_ja --name-only
@@ -130,12 +134,14 @@ then
   git push origin localize_ja
 fi
 
+echo
+
 # pull at Weblate
 if [ $(curl \
  -s \
  -d operation=pull \
  -H "Authorization: Token 4uQDi24YSNEYgpxkkTvwdk7z9gZYupXiUvcxyccT" \
- http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/about/repository/ \
+ http://www3420ue.sakura.ne.jp:8080/api/components/tei-guidelines-ja/ab-about/repository/ \
 | jq -r '.result') = false ]
 then
   echo "Pull@Weblate Failure."
