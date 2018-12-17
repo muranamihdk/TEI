@@ -10,5 +10,5 @@ cp -r Guidelines-web/ja ../../tei-guideline-ja/
 echo cd ../../tei-guideline-ja/
 cd ../../tei-guideline-ja/
 git add .
-git commit -m "rebuild for Guidlines-web/en, ja"
+git commit -m "rebuild html files"
 git push origin master
