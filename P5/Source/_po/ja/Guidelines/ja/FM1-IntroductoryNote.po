@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-29 21:36+0900\n"
+"POT-Creation-Date: 2019-02-14 21:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:44
-msgid "2018: Kathryn Tomasek (Wheaton College)"
+msgid "2018-2019: Kathryn Tomasek (Wheaton College)"
 msgstr ""
 
 #. (itstool) path: list/head
@@ -117,7 +117,7 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:54
-msgid "2018: Martina Scholger (University of Graz)"
+msgid "2018-2019: Martina Scholger (University of Graz)"
 msgstr ""
 
 #. (itstool) path: list/head
@@ -169,7 +169,7 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:73
-msgid "2013–2018: Syd Bauman (Brown University / Northeastern University)"
+msgid "2013–2020: Syd Bauman (Brown University / Northeastern University)"
 msgstr ""
 
 #. (itstool) path: list/item
@@ -180,234 +180,241 @@ msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:75
-msgid "2003–2006, 2017–2018: Alejandro Bia (University of Alicante)"
+msgid ""
+"2019-2020: Vanessa Bigot Juloux (Ecole Pratique des Hautes Etudes / Paris "
+"Sciences et Lettres / Andrews University, Michigan)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:76
-msgid "2004–2007: David Birnbaum (University of Pittsburgh)"
+msgid "2003–2006, 2017–2018: Alejandro Bia (University of Alicante)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:77
-msgid "2008–2013: Gabriel Bodard (King's College London)"
+msgid "2004–2007: David Birnbaum (University of Pittsburgh)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:78
-msgid "2008–2009: Peter Boot (Huygens Institute for Netherlands History)"
+msgid "2008–2013: Gabriel Bodard (King's College London)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:79
-msgid "2007–2008: Tone Merete Bruvik (University of Bergen)"
+msgid "2008–2009: Peter Boot (Huygens Institute for Netherlands History)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:80
-msgid "2015–2016: Lou Burnard (Independent Consultant)"
+msgid "2007–2008: Tone Merete Bruvik (University of Bergen)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:81
-msgid "2013–2018: Hugh Cayless (New York University / Duke University)"
+msgid "2015–2016: Lou Burnard (Independent Consultant)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:82
-msgid "2014–2015: Fabio Ciotti (University of Rome \"Tor Vergata\")"
+msgid "2013–2020: Hugh Cayless (New York University / Duke University)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:83
+msgid "2014–2015: Fabio Ciotti (University of Rome \"Tor Vergata\")"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:84
 msgid ""
 "2007–2009: Arianna Ciula (King's College London / European Science "
 "Foundation)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:84
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:85
 msgid "2005–2019: James Cummings (University of Oxford / Newcastle University)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:85
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:86
 msgid "2002–2007, 2010: Matthew Driscoll (University of Copenhagen)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:86
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:87
 msgid "2002–2004: David Durand (Ingenta plc)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:87
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:88
 msgid "2002–2004: Tomas Erjavec (Jozef Stefan Institute, Ljubljana)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:88
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:89
 msgid "2014–2015: Stefanie Gehrke (Biblissima)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:89
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:90
 msgid "2010–2013: Kevin Hawkins (University of Michigan)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:90
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:91
 msgid "2010–2015: Martin Holmes (University of Victoria)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:91
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:92
 msgid "2002: Fotis Jannidis (University of Munich)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:92
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:93
 msgid "2006: Amit Kumar (University of Illinois at Urbana-Champaign)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:93
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:94
 msgid "2015–2016: Stefan Majewski (Austrian National Library)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:94
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:95
 msgid "2002: Martin Mueller (Northwestern University)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:95
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:96
 msgid "2013–2014, 2016–2019: Elli Mylonas (Brown University)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:96
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:97
 msgid ""
 "2010–2011: Julianne Nyhan (University of Trier / University College London)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:97
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:98
 msgid "2008–2011: Elena Pierazzo (King's College London)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:98
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:99
 msgid ""
 "2006–2007, 2009–2010: Dot Porter (University of Kentucky / Digital "
 "Humanities Observatory / Indiana University)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:99
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:100
 msgid "2002–2003: Merillee Proffitt (Research Libraries Group)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:100
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:101
 msgid "2002: Peter Robinson (De Montfort University)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:101
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:102
 msgid "2009–2014: Sebastian Rahtz (University of Oxford)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:102
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:103
 msgid "2002: Geoffrey Rockwell (Macmaster University)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:103
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:104
 msgid "2002–2007: Laurent Romary (Inria / CNRS / Max Planck Digital Library)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:104
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:105
 msgid "2008–2009, 2012–2015: Paul Schaffner (University of Michigan)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:105
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:106
 msgid "2016–2019: Martina Scholger (University of Graz)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:106
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:107
 msgid "2003–2007: Susan Schreibman (University of Maryland)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:107
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:108
 msgid "2008–2009: David Sewell (University of Virginia)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:108
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:109
 msgid "2004–2005: Natasha Smith (University of North Carolina at Chapel Hill)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:109
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:110
 msgid ""
 "2014–2019: Peter Stadler (Carl-Maria-von-Weber-Gesamtausgabe / University of "
 "Paderborn)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:110
-msgid "2017–2018: Sarah Stanley (Florida State University)"
-msgstr ""
-
-#. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:111
-msgid "2008–2009: Manfred Thaller (University of Cologne)"
+msgid "2017–2020: Sarah Stanley (Florida State University)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:112
-msgid "2006–2007: Conal Tuohy (Victoria University of Wellington)"
+msgid "2008–2009: Manfred Thaller (University of Cologne)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:113
-msgid "2016–2019: Magdalena Turska (eXist Solutions / University of Oxford)"
+msgid "2006–2007: Conal Tuohy (Victoria University of Wellington)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:114
+msgid "2016–2019: Magdalena Turska (eXist Solutions / University of Oxford)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:115
 msgid ""
 "2004–2005: Edward Vanhoutte (Royal Academy of Dutch Language and Literature)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:115
-msgid "2015–2018: Raffaele Viglianti (University of Maryland)"
-msgstr ""
-
-#. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:116
-msgid "2005–2008: John Walsh (Indiana University)"
+msgid "2015–2020: Raffaele Viglianti (University of Maryland)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:117
-msgid "2012–2013: Rebecca Welzenbach (University of Michigan)"
+msgid "2005–2008: John Walsh (Indiana University)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:118
-msgid "2002–2005: Perry Willett (Indiana University / University of Michigan)"
+msgid "2012–2013: Rebecca Welzenbach (University of Michigan)"
 msgstr ""
 
 #. (itstool) path: list/item
 #: Source/Guidelines/en/FM1-IntroductoryNote.xml:119
+msgid "2002–2005: Perry Willett (Indiana University / University of Michigan)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:120
 msgid "2011–2012: Stuart Yeates (New Zealand Electronic Text Centre)"
 msgstr ""
 
@@ -424,127 +431,132 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:128
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:129
 msgid "King's College, London (2002)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:129
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:130
 msgid "Oxford University Computing Services (2003)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:130
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:131
 msgid "Royal Academy of Dutch Language and Literature, Ghent (2004)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:131
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:132
 msgid "AFNOR: Association française de normalisation, Paris (2005)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:132
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:133
 msgid "Institute for Research in Humanities, Kyoto University (2006)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:133
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:134
 msgid "Berlin-Brandenburgische Akademie der Wissenschaften, Berlin (2007)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:134
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:135
 msgid "National University of Ireland, Galway (2008)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:135
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:136
 msgid "Ecole Normale Supérieure, Lyon (2009)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:136
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:137
 msgid "Royal Irish Academy, Dublin (2010)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:137
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:138
 msgid "Big Ten Center, Chicago (2011)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:138
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:139
 msgid "Inria, Paris (2011)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:139
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:140
 msgid "University of Michigan, Ann Arbor (2012)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:140
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:141
 msgid "University of Oxford (2012)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:141
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:142
 msgid "Brown University (2013)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:142
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:143
 msgid "University of Oxford (2013)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:143
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:144
 msgid "University of Oxford (2014)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:144
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:145
 msgid "Duke University (2014)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:145
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:146
 msgid "University of Michigan, Ann Arbor (2015)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:146
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:147
 msgid "Lyon (2015)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:147
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:148
 msgid "Brown University (2016)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:148
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:149
 msgid "Austrian Academy of Sciences (2016)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:149
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:150
 msgid "Prague (2017)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:150
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:151
 msgid "Victoria (2017)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:151
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:152
 msgid "CCEH, Cologne University (2018)"
 msgstr ""
 
+#. (itstool) path: list/item
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:153
+msgid "University of Tokyo (2018)"
+msgstr ""
+
 #. (itstool) path: div/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:123
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:124
 msgid ""
 "The bulk of the Council's work has been carried out by email and by regular "
 "telephone conference. In addition, the Council has held many two-day face-to-"
@@ -553,12 +565,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:159
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:161
 msgid "Character Set Workgroup"
 msgstr ""
 
 #. (itstool) path: item/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:161
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:163
 msgid ""
 "Active between July 2001 and January 2005, this group revised and developed "
 "the recommendations now forming chapters <_:ptr-1/> and <_:ptr-2/>. It was "
@@ -570,12 +582,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:172
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:174
 msgid "Meta Taskforce"
 msgstr ""
 
 #. (itstool) path: item/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:174
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:176
 msgid ""
 "Active between February 2003 and February 2005, this group developed the "
 "material now forming <_:ptr-1/>. It was chaired by Sebastian Rahtz, and its "
@@ -584,12 +596,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:184
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:186
 msgid "Workgroup on Stand-Off Markup, XLink and XPointer"
 msgstr ""
 
 #. (itstool) path: item/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:186
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:188
 msgid ""
 "Active between February 2002 and January 2006, this group reviewed and "
 "expanded the material now largely forming part of <_:ptr-1/>. It was chaired "
@@ -600,12 +612,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:197
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:199
 msgid "Manuscript Description Task Force"
 msgstr ""
 
 #. (itstool) path: item/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:199
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:201
 msgid ""
 "Active between February 2003 and December 2005, this group reviewed and "
 "finalised the material now forming <_:ptr-1/>. It was chaired by Matthew "
@@ -614,12 +626,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:204
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:206
 msgid "Names and Places Activity"
 msgstr ""
 
 #. (itstool) path: item/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:206
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:208
 msgid ""
 "Active between January 2006 and May 2007, this group formulated the new "
 "material now forming part of <_:ptr-1/>. It was chaired by Matthew Driscoll. "
@@ -631,12 +643,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:223
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:225
 msgid "Joint TEI/ISO Activity on Feature Structures"
 msgstr ""
 
 #. (itstool) path: item/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:225
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:227
 msgid ""
 "Active between January 2003 and August 2007, this group reviewed the "
 "material now presented in <_:ptr-1/> and revised it for inclusion in ISO "
@@ -648,7 +660,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:154
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:156
 msgid ""
 "During the production of TEI P5, the Council chartered a number of smaller "
 "workgroups and similar activities, each of which made significant "
@@ -657,12 +669,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/foreign
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:242
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:244
 msgid "ex officio"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:240
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:242
 msgid ""
 "From 2000 to 2008 the TEI had two appointed Editors, Lou Burnard (University "
 "of Oxford) and Syd Bauman (Brown University), who served <_:foreign-1/> on "
@@ -670,7 +682,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:246
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:248
 msgid ""
 "The council also oversees an Internationalization and Localization project, "
 "led by Sebastian Rahtz and with funding from the ALLC. This activity, "
@@ -679,24 +691,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:254
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:256
 msgid "Chinese"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:254
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:256
 msgid ""
 "Marcus Bingenheimer (Chung-hwa Institute of Buddhist Studies, Taipei / "
 "Temple University) and Weining Hwang (Würzburg University)"
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:256
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:258
 msgid "French"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:256
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:258
 msgid ""
 "Pierre-Yves Duchemin (ENSSIB); Jean-Luc Benoit (ATILF); Anila Angjeli (BnF); "
 "Joëlle Bellec Martini (BnF); Marie-France Claerebout (Aldine); Magali Le "
@@ -704,12 +716,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:261
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:263
 msgid "German"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:261
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:263
 msgid ""
 "Werner Wegstein (Würzburg University), Franz Fischer (Cologne University), "
 "Martina Scholger (University of Graz) and Peter Stadler (Paderborn "
@@ -717,58 +729,60 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:262
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:264
 msgid "Italian"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:262
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:264
 msgid ""
 "Marco Venuti (University of Venice) and Letizia Cirillo (University of "
 "Bologna)"
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:264
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:266
 msgid "Japanese"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:264
-msgid "Ohya Kazushi (Tsurumi University)"
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:266
+msgid ""
+"Ohya Kazushi (Tsurumi University), Kiyonori Nagasaki (University of Tokyo) "
+"and Martin Holmes (University of Victoria)"
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:265
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:267
 msgid "Korean"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:265
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:267
 msgid "Beom-mo Kang and Jungha Hong (Korea University)"
 msgstr ""
 
 #. (itstool) path: list/label
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:266
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:268
 msgid "Spanish"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:266
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:268
 msgid ""
 "Carmen Arronis Llopis (University of Alicante) and Alejandro Bia (Miguel "
 "Hernández University)"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:251
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:253
 msgid ""
 "Production of the translations currently included in P5 has been coordinated "
 "by the following: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/FM1-IntroductoryNote.xml:271
+#: Source/Guidelines/en/FM1-IntroductoryNote.xml:273
 msgid ""
 "Any one who works closely with the TEI Guidelines, whether as translator, "
 "editor, or reader is constantly reminded of the ambitious scope and "

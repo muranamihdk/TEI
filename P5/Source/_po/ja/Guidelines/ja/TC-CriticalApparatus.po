@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-29 21:37+0900\n"
+"POT-Creation-Date: 2019-02-14 21:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,8 +13,8 @@ msgstr ""
 #. (itstool) path: div/head
 #. (itstool) path: moduleSpec/desc
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:11
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1193
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1197
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1195
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1199
 msgid "Critical Apparatus"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 #. (itstool) path: p/title
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:37
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:94
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:284
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:270
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:665
 msgid "Wife of Bath's Prologue"
 msgstr ""
@@ -146,10 +146,10 @@ msgstr ""
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:91
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:92
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:123
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:292
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:298
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:323
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:325
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:278
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:284
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:309
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:311
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:709
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:719
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:745
@@ -166,10 +166,10 @@ msgstr ""
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1099
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1115
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1118
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1150
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1167
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1183
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1184
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1152
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1169
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1185
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1186
 msgid "app"
 msgstr ""
 
@@ -296,22 +296,17 @@ msgstr ""
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:93
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:122
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:123
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:211
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:266
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:379
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:434
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:446
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:455
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:469
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:472
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:475
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:252
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:365
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:419
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:436
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:656
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:663
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:909
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1116
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1136
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1141
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1184
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1186
 msgid "rdg"
 msgstr ""
 
@@ -394,9 +389,8 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:124
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:226
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:395
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:410
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:212
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:394
 msgid "note"
 msgstr ""
 
@@ -410,16 +404,11 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:125
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:211
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:267
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:295
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:379
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:434
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:447
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:455
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:469
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:472
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:475
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:253
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:281
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:365
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:419
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:437
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:656
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:663
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:774
@@ -428,7 +417,8 @@ msgstr ""
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:984
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1012
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1136
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1183
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1149
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:1185
 msgid "lem"
 msgstr ""
 
@@ -448,15 +438,14 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:132
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:257
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:263
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:243
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:252
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:258
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:266
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:272
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:280
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:298
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:325
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:380
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:446
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:284
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:311
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:436
 msgid "rdgGrp"
 msgstr ""
 
@@ -474,12 +463,12 @@ msgstr ""
 
 #. (itstool) path: p/ident
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:134
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:263
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
 msgid "att.textCritical"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:142
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:140
 msgid "att.global.responsibility"
 msgstr ""
 
@@ -497,29 +486,26 @@ msgstr ""
 
 #. (itstool) path: p/att
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:147
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:151
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:240
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:263
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:379
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:391
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:443
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:446
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:145
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:149
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:206
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:226
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:365
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:377
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:425
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:429
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:433
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:436
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:437
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:438
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:455
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:461
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:465
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:468
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:470
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:471
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:473
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:474
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:491
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:492
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:456
 msgid "wit"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:147
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:145
 msgid ""
 "The <_:att-1/> attribute identifies the witnesses which have the reading in "
 "question. It is required if the apparatus gathers together readings from "
@@ -533,8 +519,9 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:154
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:263
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:152
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:628
 msgid "type"
 msgstr ""
 
@@ -545,16 +532,16 @@ msgstr ""
 #. (itstool) path: l/seg
 #. (itstool) id: TC-CriticalApparatus.xml#W026
 #. (itstool) id: TC-CriticalApparatus.xml#WBP-so.1.1
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:157
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:286
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:296
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:301
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:313
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:320
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:329
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:360
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:399
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:402
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:155
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:272
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:282
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:287
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:299
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:306
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:315
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:346
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:385
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:387
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:777
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:856
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:913
@@ -572,16 +559,16 @@ msgstr ""
 #. (itstool) path: rdgGrp/lem
 #. (itstool) path: app/lem
 #. (itstool) path: egXML/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:158
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:169
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:172
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:286
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:297
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:305
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:335
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:365
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:620
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:621
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:156
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:167
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:170
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:272
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:283
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:291
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:321
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:351
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:579
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:580
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:748
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:758
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:767
@@ -601,12 +588,12 @@ msgstr ""
 #. (itstool) path: app/rdg
 #. (itstool) path: p/mentioned
 #. (itstool) path: rdgGrp/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:159
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:168
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:173
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:310
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:342
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:370
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:157
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:166
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:171
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:296
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:328
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:356
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:749
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:759
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:768
@@ -625,22 +612,22 @@ msgstr ""
 
 #. (itstool) path: app/lem
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:163
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:274
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:161
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:260
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:952
 msgid "though"
 msgstr ""
 
 #. (itstool) path: app/rdg
 #. (itstool) path: rdgGrp/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:164
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:277
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:162
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:263
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:954
 msgid "thouh"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:154
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:152
 msgid ""
 "The <_:att-1/> attribute allows the encoder to classify readings in any "
 "convenient way, for example as substantive variants of the lemma: <_:egXML-2/"
@@ -648,24 +635,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:166
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:264
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:164
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:250
 msgid "varSeq"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:166
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:264
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:164
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:250
 msgid "cause"
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:170
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:168
 msgid "per"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:166
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:164
 msgid ""
 "The <_:att-1/> and <_:att-2/> attributes may be used to convey information "
 "on the sequence and cause of variation. In the following apparatus fragment, "
@@ -675,66 +662,64 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:176
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:209
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:240
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:242
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:264
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:174
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:204
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:226
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:228
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:235
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:250
 msgid "hand"
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:177
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:412
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:175
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:396
 msgid "Carmina Burana"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:178
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:183
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:419
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:176
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:181
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:403
 msgid "alle"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: app/rdg
-#. (itstool) path: witDetail/ref
 #. (itstool) id: TC-CriticalApparatus.xml#anon.6.4
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:178
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:184
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:420
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:424
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:176
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:182
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:404
 msgid "allen"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:178
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:414
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:176
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:398
 msgid "Swaz hi gât umbe"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:179
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:415
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:177
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:399
 msgid "daz sint alle megede,"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:180
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:416
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:178
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:400
 msgid "die wellent ân man"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:181
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:417
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:179
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:401
 msgid "<_:app-1/> disen sumer gân."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:175
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:173
 msgid ""
 "If a manuscript is written in several hands, and it is desired to report "
 "which hand wrote a particular reading, the <_:att-1/> attribute should be "
@@ -743,45 +728,45 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:193
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:228
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:191
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:214
 msgid "Beowulf"
 msgstr ""
 
 #. (itstool) path: p/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:196
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:194
 msgid ""
 "For the sake of legibility in the example, long marks over vowels are "
 "omitted."
 msgstr ""
 
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:200
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:198
 msgid "hea(um) h(æþ)e"
 msgstr ""
 
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:201
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:199
 msgid "heaðo hlæwe"
 msgstr ""
 
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:202
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:200
 msgid "heaum hope"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:198
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:196
 msgid "se ðe on <_:app-1/>"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:204
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:202
 msgid "hord beweotode,"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:191
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:189
 msgid ""
 "Similarly, if a witness is hard to decipher, it may be desired to indicate "
 "responsibility for the claim that a particular reading is supported by a "
@@ -792,63 +777,53 @@ msgid ""
 "by Zupitza and Chambers:<_:note-2/> <_:egXML-3/>"
 msgstr ""
 
-#. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:209
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:240
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:243
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:264
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:408
-msgid "resp"
-msgstr ""
-
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:213
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:238
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:388
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:391
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:395
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:410
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:206
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:224
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:374
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:377
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:381
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:394
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:416
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:417
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:425
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:429
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:456
 msgid "witDetail"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:209
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:204
 msgid ""
-"The <_:att-1/> and <_:att-2/> attributes are intelligible only on an element "
-"recording a reading from a single witness, and should not be used if more "
-"than one witness is given on the same <_:gi-3/> or <_:gi-4/> element. If "
-"more than one witness is given for the reading, they are undefined. To "
-"convey this information when the witness is one among several, the <_:gi-5/> "
-"element should be used; see section <_:ptr-6/>."
+"Because the <_:att-1/> attribute indicates a particular manuscript hand, it "
+"is intelligible only on a reading from a single witness. If an encoder "
+"wishes to indicate that a particular reading from a list in <_:att-2/> is in "
+"a particular hand, the <_:gi-3/> element should be used; see section <_:"
+"ptr-4/>."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:214
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:208
 msgid ""
 "Where there is a greater weight of editorial discussion and interpretation "
 "than can conveniently be expressed through the attributes provided on these "
-"elements (for example where there are multiple witnesses for a single "
-"reading or multiple editorial responsibility for an emendation) this "
-"information can be attached to the apparatus in a note, or recorded in the "
-"feature structure notation defined in chapter <_:ptr-1/>. In particular, "
-"such recurring text-critical situations as palaeographic confusion of "
-"particular letters, or homœoarchy or homœoteleuton involving specific "
-"character groups, may lend themselves to feature structure treatment. "
-"Information concerning these recurrent situations may be encoded into "
-"database-like fragments within the text which would then be available to "
-"sophisticated computer-assisted analysis. Further work remains to be done on "
-"such mechanisms, however, and so no examples are given here of the use of "
-"feature structures in text-critical apparatus."
+"elements (for example where the editor wishes to discuss how a section of "
+"text might be punctuated) this information can be attached to the apparatus "
+"in a note."
+msgstr ""
+
+#. (itstool) path: app/lem
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:214
+msgid "Beowulfe"
 msgstr ""
 
 #. (itstool) path: note/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:229
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:215
 msgid "beowulfe"
 msgstr ""
 
-#. (itstool) path: l/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:229
+#. (itstool) path: app/note
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:215
 msgid ""
 "Fol. 179a <_:mentioned-1/>. Folio 179, with the last page (Fol. 198b), is "
 "the worst part of the entire MS. It has been freshened up by a later hand, "
@@ -857,17 +832,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:228
-msgid "syððan Beowulfe <_:note-1/>"
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:214
+msgid "syððan <_:app-1/>"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:234
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:220
 msgid "brade rice"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:226
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:212
 msgid ""
 "The <_:gi-1/> element may also be used to record the specific wording of "
 "notes in the apparatus of the source edition, as here in a transcription of "
@@ -876,8 +851,20 @@ msgid ""
 "specialized <_:gi-4/> element described in section <_:ptr-5/>."
 msgstr ""
 
+#. (itstool) path: p/att
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:226
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:229
+msgid "source"
+msgstr ""
+
+#. (itstool) path: p/att
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:235
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:250
+msgid "resp"
+msgstr ""
+
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:239
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:225
 msgid ""
 "Encoders should be aware of the distinct fields of use of the attribute "
 "values <_:att-1/>, <_:att-2/>, and <_:att-3/>. Broadly, <_:att-4/> "
@@ -899,12 +886,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:256
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:242
 msgid "Indicating Subvariation in Apparatus Entries"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:257
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:243
 msgid ""
 "The <_:gi-1/> element may be used to group readings, either because they "
 "have identical values on one or more attributes, or because they are seen as "
@@ -914,7 +901,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:263
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:249
 msgid ""
 "The <_:gi-1/> element is a member of class <_:ident-2/> and therefore can "
 "carry the <_:att-3/>, <_:att-4/>, <_:att-5/>, <_:att-6/>, <_:att-7/>, and <_:"
@@ -926,19 +913,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/tag
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:270
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:256
 msgid "rdg type='orthographic'"
 msgstr ""
 
 #. (itstool) path: rdgGrp/rdg
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:276
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:262
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:953
 msgid "thogh"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:269
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:255
 msgid ""
 "To indicate that both Hg and La vary only orthographically from the lemma, "
 "one might tag both readings <_:tag-1/>, as shown in the preceding section. "
@@ -949,22 +936,22 @@ msgstr ""
 #. (itstool) path: p/mentioned
 #. (itstool) path: rdgGrp/lem
 #. (itstool) path: app/lem
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:287
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:297
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:309
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:315
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:341
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:369
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:273
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:283
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:295
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:301
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:327
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:355
 msgid "Eriment"
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:291
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:277
 msgid "subvariants"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:280
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:266
 msgid ""
 "Similarly, <_:gi-1/> may be used to organize the substantive variants of an "
 "apparatus entry. Editors may need to indicate that each of a group of "
@@ -982,12 +969,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/tag
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:295
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:281
 msgid "rdg type='groupBase'"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:292
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:278
 msgid ""
 "This subvariation can be expressed within an <_:gi-1/> element by gathering "
 "the readings into three groups according to the normalized form of their "
@@ -998,23 +985,23 @@ msgstr ""
 
 #. (itstool) path: rdgGrp/rdg
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:302
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:330
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:361
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:403
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:288
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:316
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:347
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:389
 msgid "Experiens"
 msgstr ""
 
 #. (itstool) path: rdgGrp/rdg
 #. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:306
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:336
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:366
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:292
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:322
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:352
 msgid "Ex<_:g-1/>iment"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:296
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:282
 msgid ""
 "In this example, the different subvariants on <_:mentioned-1/>, <_:"
 "mentioned-2/>, and <_:mentioned-3/> are held within three <_:gi-4/> elements "
@@ -1031,7 +1018,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:322
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:308
 msgid ""
 "Reading groups may nest recursively, so that variants can be classified to "
 "any desired depth. Because apparatus entries may also nest, the <_:gi-1/> "
@@ -1048,23 +1035,23 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:355
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:356
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:341
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:342
 msgid "experiment"
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:355
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:341
 msgid "eriment"
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:357
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:343
 msgid "experience"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:352
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:338
 msgid ""
 "Reading groups may also be used to bring together variants which form an "
 "apparent developmental sequence, and to make clear that other readings are "
@@ -1075,42 +1062,43 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:377
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:363
 msgid "Witness Information"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:378
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:364
 msgid ""
 "A given reading is associated with the set of witnesses attesting it by "
-"listing the witnesses in the <_:att-1/> attribute on the <_:gi-2/>, <_:gi-3/"
-">, or <_:gi-4/> element. Special mechanisms, described in the following "
-"sections, are needed to associate annotation on a reading with one specific "
-"witness among several (section <_:ptr-5/>), to transcribe witness "
-"information verbatim from a source edition (section <_:ptr-6/>), and to "
-"identify the formal lists of witnesses typically provided in the front "
-"matter of critical editions (section <_:ptr-7/>)."
+"listing the witnesses in the <_:att-1/> attribute on the <_:gi-2/> or <_:"
+"gi-3/> element. Special mechanisms, described in the following sections, are "
+"needed to associate annotation on a reading with one specific witness among "
+"several (section <_:ptr-4/>), to transcribe witness information verbatim "
+"from a source edition (section <_:ptr-5/>), and to identify the formal lists "
+"of witnesses typically provided in the front matter of critical editions "
+"(section <_:ptr-6/>)."
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:386
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:372
 msgid "Witness Detail Information"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:390
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:397
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:432
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:376
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:383
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:415
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:438
 msgid "target"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:391
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:377
 msgid "att.pointing"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:387
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:373
 msgid ""
 "When it is desired to give additional information about a particular witness "
 "or witnesses for the reading, the information may be given in a <_:gi-1/> "
@@ -1121,27 +1109,27 @@ msgid ""
 "attribute. <_:specList-6/>"
 msgstr ""
 
-#. (itstool) path: egXML/witDetail
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:406
+#. (itstool) path: app/witDetail
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:388
 msgid "Ornamental capital."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:395
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:381
 msgid ""
-"Unlike <_:gi-1/>, <_:gi-2/> cannot be included in the text at the point of "
-"attachment; it must point to the reading(s) being annotated by means of its "
-"<_:att-3/> attribute. To indicate, on the authority of editor PR, that the "
-"Ellesmere manuscript has an ornamental capital in the word <_:mentioned-4/>, "
-"for example, one might write: <_:egXML-5/> This encoding makes clear that "
-"the ornamental capital mentioned is in the Ellesmere manuscript, and not in "
-"Hengwrt or Ha4. The <_:att-6/> attribute assigns responsibility to PR."
+"Because it annotates an attribute value, <_:gi-1/> cannot be included in the "
+"text at the point of attachment; it must point to the reading(s) being "
+"annotated by means of its <_:att-2/> attribute. To indicate, on the "
+"authority of editor PR, that the Ellesmere manuscript has an ornamental "
+"capital in the word <_:mentioned-3/>, for example, one might write: <_:"
+"egXML-4/> This encoding makes clear that the ornamental capital mentioned is "
+"in the Ellesmere manuscript, and not in Hengwrt or Ha4."
 msgstr ""
 
 #. (itstool) path: witDetail/mentioned
 #. (itstool) path: p/mentioned
 #. (itstool) path: rdg/ex
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:425
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:406
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1060
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1061
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:1068
@@ -1149,13 +1137,13 @@ msgstr ""
 msgid "n"
 msgstr ""
 
-#. (itstool) path: egXML/witDetail
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:423
-msgid "<_:ref-1/> <_:mentioned-2/> nachgetragen."
+#. (itstool) path: app/witDetail
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:405
+msgid "<_:mentioned-1/> nachgetragen."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:410
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:394
 msgid ""
 "Like <_:gi-1/>, <_:gi-2/> may be used to record the specific wording of "
 "information in the source text, even when the information itself is captured "
@@ -1165,196 +1153,181 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:430
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:414
 msgid ""
-"Observe that a single witness detail element may be linked to several "
-"different readings (noting, for example, a recurrent phenomenon in a "
-"particular manuscript) by having the <_:att-1/> attribute point at all the "
-"readings in question. Similarly, feature structures containing information "
-"about the text in a witness (whether retroversion, regularization, or other) "
-"can also be linked to specific <_:gi-2/> and <_:gi-3/> instances. See "
-"chapter <_:ptr-4/>."
+"Observe that a single witness detail element may be linked to different "
+"readings, by having the <_:att-1/> attribute point at all the readings in "
+"question. It is, however, best practice from the encoder's perspective to "
+"keep <_:gi-2/>s close to the readings they annotate, therefore it is not "
+"recommended that a single <_:gi-3/> be used to annotate many readings. "
+"Similarly, feature structures containing information about the text in a "
+"witness (whether retroversion, regularization, or other) can also be linked "
+"to specific <_:gi-4/> and <_:gi-5/> instances. See chapter <_:ptr-6/>."
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:439
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:424
 msgid "Witness Information in the Source"
 msgstr ""
 
 #. (itstool) path: note/foreign
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:459
+#. (itstool) path: p/q
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:426
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:628
 msgid "siglum"
 msgstr ""
 
+#. (itstool) path: note/gloss
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:426
+msgid "sign"
+msgstr ""
+
+#. (itstool) path: note/foreign
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:427
+msgid "sigla"
+msgstr ""
+
 #. (itstool) path: p/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:458
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:426
 msgid ""
-"We use the term sigil as the English equivalent of the Latin term <_:"
-"foreign-1/> (sign) traditionally used for the brief identifier associated "
-"with a particular document."
+"The Latin word <_:foreign-1/> (<_:gloss-2/>), pl. <_:foreign-3/> denotes the "
+"abbreviation used in a critical apparatus to indicate a particular witness."
 msgstr ""
 
-#. (itstool) path: p/ident
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:438
+msgid "ref"
+msgstr ""
+
+#. (itstool) path: app/lem
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:441
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:450
+msgid "Nondum"
+msgstr ""
+
+#. (itstool) path: app/rdg
+#. (itstool) path: p/q
+#. (itstool) id: TC-CriticalApparatus.xml#rdg1.1nundum
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:442
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:447
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:451
+msgid "nundum"
+msgstr ""
+
+#. (itstool) path: ref/hi
+#. (itstool) path: witness/hi
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:444
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:452
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:618
+msgid "1"
+msgstr ""
+
+#. (itstool) path: witDetail/ref
+#. (itstool) path: wit/ref
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:444
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:452
+msgid "G<_:hi-1/>"
+msgstr ""
+
+#. (itstool) path: app/witDetail
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:443
+msgid "corr. <_:ref-1/>"
+msgstr ""
+
+#. (itstool) path: p/q
+#. (itstool) path: p/foreign
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:447
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:448
+msgid "nondum"
+msgstr ""
+
+#. (itstool) path: wit/ref
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:452
+msgid "G"
+msgstr ""
+
+#. (itstool) path: wit/ref
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:452
+msgid "P"
+msgstr ""
+
+#. (itstool) path: app/wit
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:452
+msgid "<_:ref-1/>(corr. <_:ref-2/>)<_:ref-3/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:425
+msgid ""
+"Although <_:gi-1/> provides a good way to annotate witness references in <_:"
+"att-2/>, lists of sigla <_:note-3/> may be complex enough that it is "
+"impractical to use the combination of <_:att-4/> and <_:gi-5/>. Moreover, in "
+"the transcription of printed critical editions, it may be desirable to "
+"retain for future reference the exact form in which the source edition "
+"records the witnesses to a particular reading; this is particularly "
+"important in cases of ambiguity in the information, or uncertainty as to the "
+"correct interpretation. The <_:gi-6/> element may be used to transcribe such "
+"lists of witnesses to a particular reading. <_:specList-7/> The <_:gi-8/> "
+"list may appear following a <_:gi-9/>, <_:gi-10/>, or <_:gi-11/> element in "
+"any apparatus entry. <_:gi-12/> may be used in a way functionally equivalent "
+"to <_:att-13/> if the sigla therein are wrapped in <_:gi-14/>s with <_:"
+"att-15/> attributes pointing to a predefined witness. For example <_:"
+"egXML-16/> which indicates that the reading <_:q-17/> for <_:q-18/> is to be "
+"found in MSS G (although it is corrected to <_:foreign-19/> in the primary "
+"hand) and P, might be written: <_:egXML-20/> This is somewhat more verbose, "
+"but accomplishes the same goal. Because <_:att-21/> is more succinct, and "
+"because it makes the automated verification of correct witness references "
+"easier, using <_:att-22/> (with <_:gi-23/> when needed) is almost always to "
+"be preferred."
+msgstr ""
+
+#. (itstool) path: div/head
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:462
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:986
-msgid "data.pointer"
-msgstr ""
-
-#. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:464
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:509
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:981
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:988
-msgid "xml:id"
+msgid "The Witness List"
 msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:464
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:501
+msgid "sourceDesc"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:465
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:471
+msgid "listBibl"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:466
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:635
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:636
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:925
 msgid "listWit"
 msgstr ""
 
-#. (itstool) path: lg/l
-#. (itstool) id: TC-CriticalApparatus.xml#Diet1.1
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:475
-msgid "Slăfest du, vriedel ziere?"
-msgstr ""
-
-#. (itstool) path: lg/l
-#. (itstool) id: TC-CriticalApparatus.xml#Diet1.2
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:476
-msgid "wan wecket uns leider schiere;"
-msgstr ""
-
-#. (itstool) path: lg/l
-#. (itstool) id: TC-CriticalApparatus.xml#Diet1.3
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:477
-msgid "ein vogellīn sŏ wol getăn"
-msgstr ""
-
-#. (itstool) path: lg/l
-#. (itstool) id: TC-CriticalApparatus.xml#Diet1.4
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:478
-msgid "daz ist der linden an daz zwī gegăn."
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:481
-msgid "slăfst"
-msgstr ""
-
-#. (itstool) path: app/wit
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:481
-msgid "K(Ba)"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:484
-msgid "Man"
-msgstr ""
-
-#. (itstool) path: app/wit
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:484
-msgid "K(V)"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:485
-msgid "weckt"
-msgstr ""
-
-#. (itstool) path: app/wit
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:485
-msgid "K (Wackernagel 401)"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:486
-msgid "Ich waen ez taget uns schiere"
-msgstr ""
-
-#. (itstool) path: app/wit
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:487
-msgid "Jungbluth, Festschr. Pretzel 1963, 122."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:440
-msgid ""
-"In the transcription of printed critical editions, it may be desirable to "
-"retain for future reference the exact form in which the source edition "
-"records the witnesses to a particular reading; this is particularly "
-"important in cases of ambiguity in the information, or uncertainty as to the "
-"correct interpretation. The <_:gi-1/> element may be used to transcribe such "
-"lists of witnesses to a particular reading. <_:specList-2/> The <_:gi-3/> "
-"list may appear following a <_:gi-4/>, <_:gi-5/>, or <_:gi-6/> element in "
-"any apparatus entry, and should be used only to transcribe the witness "
-"information in the form found in the source. The advantage of holding "
-"witness information in the <_:att-7/> attribute of <_:gi-8/> or <_:gi-9/> is "
-"that an application can check that every sigil<_:note-10/> for the "
-"identifier has been declared elsewhere in the document. Because the <_:"
-"att-11/> attribute has declared datatype of one or more <_:ident-12/> "
-"values, a check can be made that readings are assigned only to witness sigla "
-"which have been identified (using the <_:att-13/> attribute) within a <_:"
-"gi-14/> element (see section <_:ptr-15/>). Such checking is more difficult "
-"for witness sigla held as the content of a <_:gi-16/> element. For this "
-"reason, it is recommended that encoders always hold witness information in "
-"the <_:att-17/> attribute of <_:gi-18/> and <_:gi-19/>, where possible. "
-"Thus, as in the examples below, even when a reference to a witness is "
-"exactly reproduced in the <_:gi-20/> element, the corresponding sigil for "
-"that witness can be written into the <_:att-21/> attribute of the matching "
-"<_:gi-22/> or <_:gi-23/>. However, in cases where it is uncertain how the "
-"witness reference contained in the <_:gi-24/> element should be interpreted, "
-"or where no witness exists, the <_:att-25/> attribute on the matching <_:"
-"gi-26/> or <_:gi-27/> may be left empty. <_:egXML-28/> Of course, the sigil "
-"used for a particular witness in the source, as recorded in the <_:gi-29/> "
-"element, may well differ from that used to indicated the same witness in the "
-"<_:att-30/> attribute, as shown particularly in the apparatus for the second "
-"line of the poem (Diet.1.2)."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:498
-msgid "The Witness List"
-msgstr ""
-
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:500
-msgid "sourceDesc"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:501
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:506
-msgid "listBibl"
-msgstr ""
-
-#. (itstool) path: p/gi
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:467
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:473
 #: Source/Guidelines/en/TC-CriticalApparatus.xml:502
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:508
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:537
 msgid "witness"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:505
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:506
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:508
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:548
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:580
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:470
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:471
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:473
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:513
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:545
 msgid "msDesc"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:505
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:470
 msgid "msdescription"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:499
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:463
 msgid ""
 "A list of all identified witnesses should normally be supplied in the front "
 "matter of the edition, or in the <_:gi-1/> element of its header. This may "
@@ -1368,24 +1341,32 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:507
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:548
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:581
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:472
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:513
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:546
 msgid "bibl"
 msgstr ""
 
+#. (itstool) path: p/att
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:474
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:582
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:981
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:988
+msgid "xml:id"
+msgstr ""
+
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:507
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:472
 msgid ""
 "Whether information about a particular witness is supplied by means of a <_:"
-"gi-1/>, <_:gi-2/>, or <_:gi-3/> element, a unique sigil for this source "
+"gi-1/>, <_:gi-2/>, or <_:gi-3/> element, a unique siglum for this source "
 "should always be supplied, using the global <_:att-4/> attribute. This "
 "identifier can then be used elsewhere to refer to this particular witness. "
 "<_:specList-5/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:517
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:482
 msgid ""
 "The minimal information provided by a witness list is thus the set of sigla "
 "for all the witnesses named in the apparatus. For example, the witnesses "
@@ -1396,37 +1377,37 @@ msgstr ""
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#El
 #. (itstool) id: TC-CriticalApparatus.xml#Ellesmere
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:540
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:610
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:505
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:570
 msgid "Ellesmere, Huntingdon Library 26.C.9"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#Hg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:541
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:506
 msgid "Hengwrt, National Library of Wales, Aberystwyth, Peniarth 392D"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#Ra2
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:543
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:508
 msgid "Bodleian Library Rawlinson Poetic 149 (see further <_:ptr-1/>)"
 msgstr ""
 
 #. (itstool) path: witness/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:550
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:515
 msgid "Kleine (oder alte) Heidelberger Liederhandschrift"
 msgstr ""
 
 #. (itstool) path: witness/bibl
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:552
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:517
 msgid ""
 "Universitätsbibliothek Heidelberg col. pal. germ. 357. Pergament, 45 Fll. "
 "18,5 × 13,5 cm."
 msgstr ""
 
 #. (itstool) path: witness/quote
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:555
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:520
 msgid ""
 "datiert aus dem 13. Jahrhundert, etwa um 1275. Ihre Sprache weist ins Elsaß, "
 "evtl. nach Straßburg. Man geht wohl nicht fehl, in ihr eine Sammlung aus dem "
@@ -1434,35 +1415,35 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:558
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:523
 msgid "Blank"
 msgstr ""
 
 #. (itstool) path: bibl/ref
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:558
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:523
 msgid "Lit. z. Hss. Bd. 2, S. 39"
 msgstr ""
 
 #. (itstool) path: witness/bibl
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:558
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:523
 msgid "<_:author-1/>, [vgl. <_:ref-2/>] S. 14"
 msgstr ""
 
 #. (itstool) path: witness/quote
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:560
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:525
 msgid ""
 "Zu den Vorzügen von A gehört, daß sie kaum je bewußt geändert hat, so daß "
 "sie für manche Dichter ... oft den besten Text liefert"
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:563
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:528
 msgid "v. Kraus"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#A
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:550
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:515
 msgid ""
 "die sog. <_:soCalled-1/>. <_:bibl-2/> Wahrscheinlich die älteste der drei "
 "großen Hss. Sie <_:quote-3/> (<_:bibl-4/>). Sie enthält 34 namentlich "
@@ -1470,25 +1451,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:564
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:529
 msgid "Lachmann"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#a
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:564
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:529
 msgid ""
 "Bezeichnung <_:bibl-1/>s für die von einer 2. Hand auf bl. 40–43 "
 "geschriebenen Strophen der Hs. A."
 msgstr ""
 
 #. (itstool) path: witness/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:567
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:532
 msgid "Weingartner (Stuttgarter) Liederhandschrift"
 msgstr ""
 
 #. (itstool) path: witness/bibl
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:568
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:533
 msgid ""
 "Württembergische Landesbibliothek Stuttgart, HB XIII poetae germanici 1. "
 "Pergament, 156 Bll. 15 × 11,5 cm; 25 teils ganzseitig, teils halbseitige "
@@ -1497,7 +1478,7 @@ msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#B
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:567
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:532
 msgid ""
 "die <_:soCalled-1/>. <_:bibl-2/> Kaum vor 1306 in Konstanz geschrieben. Sie "
 "enthält Lieder von 25 namentlich genannten Dichtern. (Dazu kommen Gedichte "
@@ -1506,7 +1487,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:536
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:501
 msgid ""
 "It is more helpful, however, for witness lists to be somewhat more "
 "informative: each <_:gi-1/> element should contain at least a brief prose "
@@ -1519,13 +1500,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:582
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:547
 msgid "biblStruct"
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: TC-CriticalApparatus.xml#bcn_1482
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:585
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:550
 msgid ""
 "T. Kempis, De la imitació de Jesuchrist e del menyspreu del món (trad. "
 "Miquel Peres); Barcelona, 1482, Pere Posa. Editio princeps."
@@ -1533,20 +1514,20 @@ msgstr ""
 
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: TC-CriticalApparatus.xml#val_1491
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:588
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:553
 msgid "T. Kempis, Del menyspreu del món (trad. Miquel Peres); València, 1491."
 msgstr ""
 
 #. (itstool) path: listBibl/bibl
 #. (itstool) id: TC-CriticalApparatus.xml#bcn_1518
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:590
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:555
 msgid ""
 "T. Kempis, Libre del menysprey del món e de la imitació de nostre senyor Déu "
 "Jesucrist, (trad. Miquel Peres); Barcelona, 1518, Carles Amorós."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:579
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:544
 msgid ""
 "It would however generally be preferable to represent such detailed "
 "information using an appropriately structured <_:gi-1/> element, as "
@@ -1557,1154 +1538,115 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:600
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:565
 msgid "head"
 msgstr ""
 
 #. (itstool) path: listWit/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:613
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:573
 msgid "Constant Group C"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#Cp
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:614
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:574
 msgid "Corpus Christi Oxford MS 198"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#La
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:615
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:575
 msgid "British Library Lansdowne 851"
 msgstr ""
 
 #. (itstool) path: listWit/witness
 #. (itstool) id: TC-CriticalApparatus.xml#Sl2
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:616
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:576
 msgid "British Library Sloane MS 1686"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:596
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:561
 msgid ""
 "In text-critical work it is customary to refer to frequently occurring "
-"groups of witnesses by means of a single common sigil. Such sigla may be "
+"groups of witnesses by means of a single common siglum. Such sigla may be "
 "documented as pseudo-witnesses in their own right by including a nested "
-"witness list within the witness list, which uses the sigil for the group as "
+"witness list within the witness list, which uses the siglum for the group as "
 "its identifier, and supplies a fuller name for the group in its optional "
 "child <_:gi-1/> element, before listing the other witnesses contained by the "
 "group. For example, the Constant Group C of manuscripts comprising witnesses "
 "Cp, La, and S12, might be represented as follows: <_:egXML-2/> That the "
 "reading <_:mentioned-3/> occurs in all three manuscripts can now be "
-"indicated simply as follows: <_:egXML-4/> Note that a single witness cannot "
-"appear more than once in a witness list, and therefore cannot be assigned to "
-"more than one group of witnesses."
+"indicated simply as follows: <_:egXML-4/>"
 msgstr ""
 
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:639
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:682
-msgid "witStart"
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:583
+msgid "Σ"
 msgstr ""
 
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:639
-msgid "witEnd"
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:585
+msgid "Δ"
 msgstr ""
 
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:633
-msgid ""
-"Situations commonly arise where there are many more or less fragmentary "
-"witnesses, such that there may be quite distinct groups of witnesses for "
-"different parts of a text or collection of texts. One may treat this with "
-"distinct <_:gi-1/> elements for each different part. Alternatively, one may "
-"have a single <_:gi-2/> element at the beginning of the file or in its "
-"header listing all the witnesses, partial and complete, for the text, with "
-"the attestation of fragmentary witnesses indicated within the apparatus by "
-"use of the <_:gi-3/> and <_:gi-4/> elements described in section <_:ptr-5/>."
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:586
+msgid "J"
 msgstr ""
 
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:640
-msgid ""
-"If a witness list is provided, it may be unnecessary to give, in each "
-"apparatus entry, an exhaustive list of the witnesses which agree with the "
-"base text. An application program can—in principle—compare the witnesses "
-"given for each variant found with those given in the full list of witnesses, "
-"subtracting from this list all the witnesses not active at this point "
-"(perhaps because of lacuna, or because they contain a variation on a "
-"different, overlapping lemma) and thence calculate all the manuscripts "
-"agreeing with the base text. In practice, encoders may find it less error-"
-"prone to list all witnesses explicitly in each apparatus entry."
+#. (itstool) path: listWit/witness
+#. (itstool) id: TC-CriticalApparatus.xml#J
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:586
+msgid "<_:abbr-1/> = Metens. Bibl. mun. 292, s. IX"
 msgstr ""
 
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:652
-msgid "Fragmentary Witnesses"
+#. (itstool) path: witness/abbr
+#. (itstool) path: witness/ref
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:587
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:604
+msgid "L"
 msgstr ""
 
-#. (itstool) path: p/ident
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:662
-msgid "model.rdgPart"
+#. (itstool) path: listWit/witness
+#. (itstool) id: TC-CriticalApparatus.xml#L
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:587
+msgid "<_:abbr-1/> = Leid. Bibl. der Rijksuniv. B.P.L. 52, s. VIII / IX"
 msgstr ""
 
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:653
-msgid ""
-"If a witness is incomplete (whether a single fragment, a series of "
-"fragments, or a relatively complete text with one or more lacunae), it is "
-"usually desirable to record explicitly where its preserved portions begin "
-"and end. The following empty tags, which may occur within any <_:gi-1/> or "
-"<_:gi-2/> element, indicate the beginning or end of a fragmentary witness or "
-"of a lacuna within a witness: <_:specList-3/> These elements constitute the "
-"class <_:ident-4/>, members of which are permitted within the elements <_:"
-"gi-5/> and <_:gi-6/> when the module defined by this chapter is included in "
-"a schema."
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:589
+msgid "Γ"
 msgstr ""
 
-#. (itstool) path: p/mentioned
-#. (itstool) path: app/rdg
-#. (itstool) path: p/q
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:667
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:671
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:679
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:686
-msgid "auctorite"
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:590
+msgid "θ"
 msgstr ""
 
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:668
-msgid "lacunaEnd"
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:591
+msgid "A"
 msgstr ""
 
-#. (itstool) path: app/lem
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:670
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:676
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:685
-msgid "Auctoritee"
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:593
+msgid "S"
 msgstr ""
 
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:672
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:677
-msgid "<_:lacunaEnd-1/>auctorite"
+#. (itstool) path: listWit/witness
+#. (itstool) id: TC-CriticalApparatus.xml#S
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:593
+msgid "<_:abbr-1/> = Sangall. Stiftsbibl. 861 + 862, s. IX / X"
 msgstr ""
 
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:687
-msgid "<_:witStart-1/>auctorite"
+#. (itstool) path: witness/abbr
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:594
+msgid "Guelf."
 msgstr ""
 
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:665
-msgid ""
-"Suppose a fragment of a manuscript X of the <_:title-1/> has a physical "
-"lacuna, and the text of the manuscript begins with <_:mentioned-2/>. In an "
-"apparatus this might appear thus, distinguished from the reading of other "
-"manuscripts by the presence of the <_:gi-3/> element: <_:egXML-4/> "
-"Alternatively, it may be clearer to record this as <_:egXML-5/> since this "
-"shows more clearly that the lacuna and the reading of <_:q-6/> both appear "
-"in witness X. In some cases, the apparatus in the source may commence "
-"recording the readings for a particular witness without its being clear "
-"whether the previous absence of readings for this witness is due to a "
-"lacuna, or to some other reason. The <_:gi-7/> element may be used in this "
-"circumstance: <_:egXML-8/>"
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:694
-msgid "Linking the Apparatus to the Text"
-msgstr ""
-
-#. (itstool) path: list/item
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:696
-msgid "the location-referenced method,"
-msgstr ""
-
-#. (itstool) path: list/item
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:697
-msgid "the double-end-point-attached method, and"
-msgstr ""
-
-#. (itstool) path: list/item
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:698
-msgid "the parallel segmentation method."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:695
-msgid ""
-"Three different methods may be used to link a critical apparatus to the "
-"text: <_:list-1/>"
-msgstr ""
-
-#. (itstool) path: p/term
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:701
-msgid "in-line"
-msgstr ""
-
-#. (itstool) path: p/term
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:701
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:708
-msgid "external"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:700
-msgid ""
-"Both the location-referenced and the double end-point methods may be used "
-"with either <_:term-1/> or <_:term-2/> apparatus, the former dispersed "
-"within the base text, the latter held in some separate location, within or "
-"outside the document with the base text. The parallel segmentation method "
-"does not use the concept of a base text and may only be used for in-line "
-"apparatus."
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:708
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:716
-msgid "listApp"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:716
-msgid "back"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:708
-msgid ""
-"Where an <_:term-1/> apparatus is used, the <_:gi-2/> element provides a "
-"useful means of grouping together a series of <_:gi-3/> elements of a "
-"specific type, or from a particular source: <_:specList-4/> <_:gi-5/> "
-"elements would normally appear in the <_:gi-6/> of a document, but they may "
-"also be placed in any other convenient location."
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:719
-msgid "variantEncoding"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:720
-msgid "encodingDesc"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:719
-msgid ""
-"Any document containing <_:gi-1/> elements requires a <_:gi-2/> declaration "
-"in the <_:gi-3/> element of its TEI header, thus: <_:specList-4/>"
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:725
-msgid "The Location-referenced Method"
-msgstr ""
-
-#. (itstool) path: p/val
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:730
-msgid "A 137"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:730
-msgid "Page 15 line 1"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:726
-msgid ""
-"The location-referenced method of encoding apparatus provides a convenient "
-"method for encoding printed apparatus; in this method as in most printed "
-"editions, the apparatus is linked to the base text by indicating explicitly "
-"only the block of text on which there is a variant (noted usually by a "
-"canonical reference scheme, or by line number in the edition, such as <_:"
-"val-1/> or <_:mentioned-2/>)."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:731
-msgid ""
-"If the location-referenced method is used for an apparatus stored externally "
-"to the base text, the TEI header must have the declaration: <_:egXML-1/>"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:734
-msgid "body"
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:738
-msgid "The Prologe of the Wyves Tale of Bathe"
-msgstr ""
-
-#. (itstool) path: div/l
-#. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:740
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:762
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:770
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:781
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:819
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:844
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:917
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:937
-msgid "Were in this world ..."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:734
-msgid ""
-"In the <_:gi-1/> of the document, the base text (here El) will appear: <_:"
-"egXML-2/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:744
-msgid ""
-"Elsewhere in the document, or in a separate file, the apparatus will appear. "
-"On each <_:gi-1/> element, the <_:att-2/> attribute should be specified to "
-"indicate where the variant occurs in the base text. <_:egXML-3/>"
-msgstr ""
-
-#. (itstool) path: egXML/l
-#. (itstool) id: TC-CriticalApparatus.xml#wbp.1
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:756
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:838
-msgid "Experience <_:app-1/> though noon Auctoritee"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:751
-msgid ""
-"If the same text is encoded using in-line storage, the apparatus is "
-"dispersed through the base text block to which it refers. In this case, the "
-"location of the variant can be read from the line in which it occurs. <_:"
-"egXML-1/>"
-msgstr ""
-
-#. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:765
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:775
-msgid "Experience though noon Auctoritee <_:app-1/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:763
-msgid ""
-"Since the location is not required to be exact, the apparatus for a line "
-"might also appear at the end of the line: <_:egXML-1/>"
-msgstr ""
-
-#. (itstool) path: p/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:782
-msgid "base text reading"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:771
-msgid ""
-"When the apparatus is linked to the text by means of location references, as "
-"shown here, it is not possible to find automatically the precise portion of "
-"text varied by the readings. In order to show explicitly what portion of the "
-"base text is replaced by the variant readings, the <_:gi-1/> element may be "
-"used: <_:egXML-2/> Often the lemma will have no attributes, being simply the "
-"<_:soCalled-3/> and requiring no qualification, but it may optionally carry "
-"the normal attributes, as shown here. Some text critics prefer to abbreviate "
-"or elide the lemma, in order to save space or trouble; such practice is not "
-"forbidden by these Guidelines, but no recommendations are made for "
-"conventions of abbreviating the lemma, whether abbreviation of each word, or "
-"suppression of all but the first and last word, etc."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:788
-msgid ""
-"Where it is intended that the apparatus be complete enough to allow the "
-"reconstruction of the witnesses (or at least of their non-orthographic "
-"variations), simple location-reference methods are unlikely to be as "
-"successful as the other two methods, which allow the unambiguous "
-"reconstruction of the lemma from the encoding."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:794
-msgid "The Double End-Point Attachment Method"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:795
-msgid ""
-"In the double end-point attachment method, the beginning and end of the "
-"lemma in the base text are both explicitly indicated. It thus differs from "
-"the location-referenced method, in which only the larger span of text "
-"containing the lemma is indicated. Double end-point attachment permits "
-"unambiguous matching of each variant reading against its lemma. It or the "
-"parallel-segmentation method should be used in all cases where this is "
-"desired, for example where the apparatus is intended to enable full "
-"reconstruction of the text, or of the substantives, of every witness."
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:806
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:811
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:827
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:834
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:982
-msgid "anchor"
-msgstr ""
-
-#. (itstool) path: p/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:809
-msgid "indirect pointing"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:802
-msgid ""
-"When the double end-point attachment method is used, the <_:att-1/> and <_:"
-"att-2/> attributes of the <_:gi-3/> element are used to indicate the "
-"beginning and ending points of the reading in the base text: their values "
-"are identifiers which occur at the locations in question. If no other markup "
-"is present there, the beginning and ending points should be marked using the "
-"<_:gi-4/> element defined in chapter <_:ptr-5/>. In cases where it is not "
-"possible to insert anchors within the base text (e.g. where the text is on a "
-"read-only medium) the beginning and end of the lemma may be indicated by "
-"using the <_:soCalled-6/> mechanisms discussed in chapter <_:ptr-7/>. "
-"Explicit anchors are more likely to be reliable, and are therefore to be "
-"preferred."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:817
-msgid "The Prologe ..."
-msgstr ""
-
-#. (itstool) path: div/l
-#. (itstool) id: TC-CriticalApparatus.xml#WBP.1
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:818
-msgid "Experience<_:anchor-1/> though noon Auctoritee"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:810
-msgid ""
-"The double end-point attachment method may be used with in-line or external "
-"apparatus. In the latter case, the base text (here El) will appear with <_:"
-"gi-1/> elements inserted at every place where a variant begins or ends "
-"(unless some element with an identifier already begins or ends at that "
-"point): <_:egXML-2/> The apparatus will be separately encoded: <_:egXML-3/> "
-"No <_:gi-4/> element is needed at the beginning of the line, since the <_:"
-"att-5/> attribute can use the identifier for the line as a whole; the lemma "
-"is assumed to run from the beginning of the element indicated by the <_:"
-"att-6/> attribute, to the end of that indicated by the <_:att-7/> attribute. "
-"If no value is given for <_:att-8/>, the lemma runs from the beginning to "
-"the end of the element indicated by the <_:att-9/> attribute."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:833
-msgid ""
-"When the apparatus is encoded in-line, it is dispersed through the base "
-"text. Only the beginning of the lemma need be marked with an <_:gi-1/>, "
-"since the <_:gi-2/> is inserted at the end of the lemma, and itself "
-"therefore marks the end of the lemma. <_:egXML-3/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:845
-msgid ""
-"The lemma need not be repeated within the <_:gi-1/> element in this method, "
-"as it may be extracted reliably from the base text. If an exhaustive list of "
-"witnesses is available, it will also not be necessary to specify just which "
-"manuscripts agree with the base text to enable reconstruction of witnesses. "
-"An application will be able to determine the manuscripts that witness the "
-"base reading, by noting which witnesses are attested as having a variant "
-"reading, and inferring the base text reading for all others after adjusting "
-"for fragmentary witnesses and for witnesses carrying overlapping variant "
-"readings."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:852
-msgid ""
-"Alternatively, if it is desired to make an explicit record of the "
-"attestation of the base text, the <_:gi-1/> element may be embedded within "
-"<_:gi-2/>, carrying the witnesses to the base. Thus <_:egXML-3/>"
-msgstr ""
-
-#. (itstool) path: p/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:860
-msgid "overlapping lemmata"
-msgstr ""
-
-#. (itstool) path: list/item
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:864
-msgid "And of so parfit wys a wight ywroght"
-msgstr ""
-
-#. (itstool) path: list/item
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:866
-msgid "And for what profit was a wight ywroght"
-msgstr ""
-
-#. (itstool) path: list/label
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:867
-msgid "Ha4"
-msgstr ""
-
-#. (itstool) path: list/item
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:868
-msgid "And in what wise was a wight ywroght"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:860
-msgid ""
-"This method is designed to cope with <_:soCalled-1/>. For example, at line "
-"117 of the Wife of Bath's Prologue, the manuscripts Hg (Hengwrt), El "
-"(Ellesmere), and Ha4 (British Library Harleian 7334) read: <_:list-2/>"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:870
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:882
-msgid "in what wise was"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#. (itstool) path: app/lem
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:871
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:881
-msgid "of so parfit wys"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:871
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:886
-msgid "was a wight"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#. (itstool) path: app/lem
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:872
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:885
-msgid "wys a wight"
-msgstr ""
-
-#. (itstool) path: egXML/l
-#. (itstool) id: TC-CriticalApparatus.xml#WBP.117
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:875
-msgid ""
-"And <_:anchor-1/> of so parfit <_:anchor-2/> wys <_:anchor-3/> a wight <_:"
-"anchor-4/> ywroght <_:app-5/> <_:app-6/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:870
-msgid ""
-"In this case, one might wish to record <_:mentioned-1/> in Ha4 as a single "
-"variant for <_:mentioned-2/> in Hg, and <_:mentioned-3/> in El and Ha4 as a "
-"variant on <_:mentioned-4/> in Hg. This method can readily cope with such "
-"difficult situations, typically found in large and complex traditions: <_:"
-"egXML-5/> The parallel segmentation method, to be discussed next, cannot "
-"handle overlaps among variants, and would require the individual variants to "
-"be split into pieces."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:890
-msgid ""
-"Because creation and interpretation of double end-point attachment apparatus "
-"will be lengthy and difficult it is likely that they will usually be created "
-"and examined by scholars only with mechanical assistance."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:895
-msgid "The Parallel Segmentation Method"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:896
-msgid ""
-"This method differs from the double end-point attachment method in that all "
-"variants at any point of the text are expressed as variants on one another. "
-"In this method, no two variations can overlap, although they may nest. The "
-"texts compared are divided into matching segments all synchronized with one "
-"another. This permits direct comparison of any span of text in any witness "
-"with that in any other witness. It is also very easy with this method for an "
-"application to extract the full text of any one witness from the apparatus."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:902
-msgid ""
-"This method will (by definition) always be satisfactory when there are just "
-"two texts for comparison (assuming they are in the same language and "
-"script). It will however be less convenient for very complex traditions, "
-"where establishing a base text with variations from it is not a satisfactory "
-"goal for the edition, or in some cases where every detail of variation needs "
-"to be modeled."
-msgstr ""
-
-#. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:912
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:930
-msgid "<_:app-1/> though noon Auctoritee"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:907
-msgid ""
-"In the parallel segmentation method, each segment of text on which there is "
-"variation is marked by an <_:gi-1/> element. If there is a preferred (or "
-"base) reading it is tagged with <_:gi-2/>; each reading is given in a <_:"
-"gi-3/> element: <_:egXML-4/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:918
-msgid ""
-"This method cannot be used with external apparatus: it must be used in-line. "
-"Note that apparatus encoded with this method may be translated into the "
-"double end-point attachment method and back without loss of information. "
-"Where double-end-point-attachment encodings have no overlapping lemmata, "
-"translation of these to the parallel segmentation encoding and back will "
-"also be possible without loss of information."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:923
-msgid ""
-"For economy, the witnesses to the reading most widely attested need not be "
-"stated. Since all manuscripts must be represented in all apparatus entries, "
-"it will be possible for an application to read a <_:gi-1/> declaring all the "
-"witnesses to the text and then calculate which witnesses have not been "
-"named. In the example below, only La and Ra2 are identified explicitly with "
-"a reading; an application might successfully infer from this that <_:"
-"mentioned-2/>, whose witnesses are not given, must be attested by El and Hg. "
-"To avoid confusion, however, witnesses may be omitted only for a single "
-"reading. <_:egXML-3/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:938
-msgid ""
-"Alternatively, the witnesses for every reading may be stated, as in the "
-"first example."
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:940
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:944
-msgid "Auctoritee, though none experience"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:957
-msgid "noon Auctorite"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:958
-msgid "none auctorite"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:939
-msgid ""
-"As noted, apparatus entries may nest in this method: if an imaginary fifth "
-"manuscript of the text read <_:mentioned-1/>, the variation on the "
-"individual words of the line would nest within that for the line as a whole: "
-"<_:egXML-2/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:963
-msgid ""
-"Parallel segmentation cannot, however, deal very gracefully with variants "
-"which overlap without nesting: such variants must be broken up into pieces "
-"in order to keep all witnesses synchronized."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:971
-msgid "Other Linking Methods"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:972
-msgid ""
-"When an apparatus is provided it does not need to be given at the location "
-"in the transcription where the variation, emendation, attribution, or other "
-"apparatus observation occurs. Instead it may be stored in a separate place "
-"in the same file, or indeed in another file, and point to the location at "
-"which it is meant to be used. Storing apparatus entries separately can be "
-"beneficial when encoding multiple competing, potentially overlapping, "
-"interpretations of the same point in the source texts."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:978
-msgid ""
-"The location-referenced method can be used to point a position in a text "
-"using the <_:att-1/> attribute and a canonical reference that is understood "
-"and documented in the context of the file where it is used. Where possible "
-"it is recommended that other methods use the <_:att-2/> attribute to point "
-"to an <_:att-3/> attribute on an <_:gi-4/> or other element at the location "
-"where the apparatus observation takes place. The contents of an element "
-"pointed to are understood to be equivalent to a <_:gi-5/> if none exists in "
-"the <_:gi-6/>, and if a <_:gi-7/> does exist this should replace any content."
-msgstr ""
-
-#. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:991
-msgid "<_:seg-1/> though noon Auctoritee"
-msgstr ""
-
-#. (itstool) path: egXML/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1002
-msgid "<_:anchor-1/> though noon Auctoritee"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:986
-msgid ""
-"The <_:att-1/> attribute is a <_:ident-2/> datatype and thus contains a URI "
-"as a value. This means that it can point directly to an <_:att-3/>, an <_:"
-"att-4/> in another local file, or indeed a file identified by any URL or "
-"URN. <_:egXML-5/> This could also be encoded as: <_:egXML-6/> However, this "
-"should be considered more fragile since a full reading of the <_:gi-7/> is "
-"not provided in the source file."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1014
-msgid ""
-"In addition, URLs can contain XPointer schemes including xpath(), range(), "
-"and string-range() which can be used in providing the location of an <_:gi-1/"
-"> that is stored separately from the text to which it applies. Both <_:att-2/"
-"> and <_:att-3/> can be used, as in the double end-point attachment method, "
-"to identify the starting and ending location for an apparatus using XPointer "
-"schemes described in <_:ptr-4/> section to more precisely identify this "
-"location where beneficial. <_:egXML-5/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1032
-msgid ""
-"If only the <_:att-1/> attribute is provided then it should be understood "
-"that this supplies the location of the textual variance that the apparatus "
-"documents. If the <_:att-2/> attribute contains an XPointer scheme that "
-"identifies a range of text (or elements) then this is understood to record "
-"the starting and ending of the range as in the double end-point attachment "
-"method. In such a case a @to attribute is unnecessary."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1045
-msgid "Using Apparatus Elements in Transcriptions"
-msgstr ""
-
-#. (itstool) path: p/soCalled
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1048
-msgid "views"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1046
-msgid ""
-"It is often desirable to record different transcriptions of one stretch of "
-"text. These variant transcriptions may be grouped within a single <_:gi-1/> "
-"element. An application may then construct different <_:soCalled-2/> of the "
-"transcription by extraction of the appropriate variant readings from the "
-"apparatus elements embedded in the transcription."
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1050
-msgid "expan"
-msgstr ""
-
-#. (itstool) path: p/title
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1053
-msgid "The Wife of Bath's Prologue"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1053
-msgid "Virginite is grete perfection"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1054
-msgid "perfectio"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1057
-msgid "g"
-msgstr ""
-
-#. (itstool) path: p/mentioned
-#. (itstool) path: rdg/ex
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1059
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1062
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1067
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1104
-msgid "u"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1066
-msgid "perfectio<_:am-1/>"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#. (itstool) id: TC-CriticalApparatus.xml#f105
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1067
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1104
-msgid "perfectio<_:ex-1/>n"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#. (itstool) id: TC-CriticalApparatus.xml#r105
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1068
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1105
-msgid "perfectiou<_:ex-1/>"
-msgstr ""
-
-#. (itstool) path: p/egXML
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1064
-msgid "Virginite is grete <_:app-1/>"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1070
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1116
-msgid "am"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1070
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1116
-msgid "ex"
-msgstr ""
-
-#. (itstool) path: p/ident
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1072
-msgid "transcr"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1050
-msgid ""
-"For example, alternative expansions can be recorded in several different <_:"
-"gi-1/> elements, all grouped within an <_:gi-2/> element. Consider, for "
-"example, the three different transcriptions given below of line 105 of the "
-"Hengwrt manuscript of Chaucer's <_:title-3/>. The last word of the line <_:"
-"mentioned-4/> is written <_:mentioned-5/> followed by two minims over which "
-"a bar has been drawn, which has been read in different ways by different "
-"scholars. The first transcription, by Elizabeth Solopova, represents the two "
-"minims with bar above as a special composite character using the <_:gi-6/> "
-"element. This transcription notes this as a mark of abbreviation but gives "
-"no expansion for it. A second transcriber, F. J. Furnivall, regards the bar "
-"as an abbreviation of <_:mentioned-7/>, and therefore reads the two minims "
-"as an <_:mentioned-8/>. A third transcriber, P. G. Ruggiers, regards the bar "
-"as an abbreviation of <_:mentioned-9/>, reading the minims as <_:"
-"mentioned-10/>. This information may be held within an <_:gi-11/> structure, "
-"as follows: <_:egXML-12/> This example uses special purpose elements <_:"
-"gi-13/> and <_:gi-14/> used to represent abbreviation marks and editorial "
-"expansion respectively; these elements are provided by the <_:ident-15/> "
-"module documented in chapter <_:ptr-16/>, which should be consulted for "
-"further discussion of methods of representing multiple readings of a source."
-msgstr ""
-
-#. (itstool) path: app/rdg
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1103
-msgid "perfecti<_:am-1/>"
-msgstr ""
-
-#. (itstool) path: egXML/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1108
-msgid ""
-"Furnivall's expansion implies that the bar is an abbreviation for 'u'. There "
-"are no certain instances of this mark as an abbreviation for 'u' in these "
-"manuscripts and it is widely used as an abbreviation for 'n'. Ruggiers' "
-"expansion is to be accepted."
-msgstr ""
-
-#. (itstool) path: p/egXML
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1101
-msgid "Virginite is grete <_:app-1/> <_:note-2/>"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1099
-msgid ""
-"Editorial notes may also be attached to <_:gi-1/> structures within "
-"transcriptions. Here, editorial preference for Ruggiers' expansion and an "
-"explanation of that preference is given: <_:egXML-2/>"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1126
-msgid "join"
-msgstr ""
-
-#. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1126
-msgid "next"
-msgstr ""
-
-#. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1126
-msgid "prev"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1114
-msgid ""
-"In most cases, elements used to indicate features of a primary textual "
-"source may be represented within an <_:gi-1/> structure simply by nesting "
-"them within its readings, just as the <_:gi-2/> and <_:gi-3/> elements are "
-"nested within the <_:gi-4/> elements in the example just given. However, in "
-"cases where the tagged feature extends across a span of text which might "
-"itself contain variant readings which it is desired to represent by <_:gi-5/"
-"> structures, some adaptation of the tagging may be necessary. For example, "
-"a span of text may be marked in the transcription of the primary source as a "
-"single deletion but it may be desirable to represent just a few words from "
-"this source as individual deletions within the context of a critical "
-"apparatus drawing together readings from this and several other witnesses. "
-"In this case, the tagging of the span of words as one deletion may need to "
-"be decomposed into a series of one-word deletions for encoding within the "
-"apparatus. If it is important to record the fact that all were deleted by "
-"the same act, the markup may use the <_:gi-6/> element or the <_:att-7/> and "
-"<_:att-8/> attributes defined by chapter <_:ptr-9/>."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1131
-msgid "Strategies for Encoding Variation"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1135
-msgid "div"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1136
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1138
-msgid "p"
-msgstr ""
-
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1138
-msgid "l"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1132
-msgid ""
-"Textual variation may manifest itself in many ways. Variation most "
-"frequently occurs at the phrase level, but is also common at higher "
-"structural levels, such as the verse line, paragraph, or chapter. When these "
-"structures are involved, some care must be taken in their encoding to ensure "
-"that TEI's Abstract Model is not being broken. It would be an error, for "
-"example, to have a <_:gi-1/> in the <_:gi-2/>, but a <_:gi-3/> in a <_:gi-4/"
-"> inside the same apparatus entry, because these structures cannot occur at "
-"the same level. Similarly, it is an error if the contents of an apparatus "
-"entry place a <_:gi-5/> inside another <_:gi-6/> or an <_:gi-7/> inside an "
-"<_:gi-8/>."
-msgstr ""
-
-#. (itstool) path: lem/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1143
-msgid "Hypsipyle uacuo constitit in thalamo:"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1139
-msgid ""
-"Phenomena such as omissions and transpositions in witnesses will require "
-"some encoding strategies that differ from those in the examples above. An "
-"omission in one witness may be encoded using an empty <_:gi-1/>, thus: <_:"
-"egXML-2/> Notice that in this example, the variation occurs at the unit of "
-"the verse line. The scribe of MS J has skipped line 18 (probably by mistake) "
-"because, like line 19, it begins with the name \"Hypsipyle.\""
-msgstr ""
-
-#. (itstool) path: lem/l
-#. (itstool) id: TC-CriticalApparatus.xml#l25
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1156
-msgid "desine iam reuocare tuis periuria verbis,"
-msgstr ""
-
-#. (itstool) path: lem/l
-#. (itstool) id: TC-CriticalApparatus.xml#l26
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1157
-msgid "Cynthia, et oblitos parce movere deos;"
-msgstr ""
-
-#. (itstool) path: app/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1165
-msgid "Housman put these lines after 32."
-msgstr ""
-
-#. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1167
-msgid "exclude"
-msgstr ""
-
-#. (itstool) path: p/att
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1169
-msgid "copyOf"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1149
-msgid ""
-"Transpositions are harder to encode, because they involve variation that "
-"occurs in different locations. A single <_:gi-1/> will therefore not be "
-"sufficient, and the variants must be linked. For example, in his edition of "
-"Propertius 1.16, Housman printed lines 25-6 after line 32, Heyworth prints "
-"them in place. We might encode Heyworth's edition, which records Housman's "
-"conjecture despite disagreeing with it, as follows: <_:egXML-2/> and then, "
-"after line 32: <_:egXML-3/> Note that both <_:gi-4/>s are linked via the <_:"
-"att-5/> attribute, because they are mutually exclusive: if one reading is "
-"chosen for display in a reading interface, for example, the other must "
-"disappear and vice versa. To avoid repetition, the second pair of lines can "
-"make use of the <_:att-6/> attribute. If they were both transposed and "
-"somewhat different, then both sets would be written in full."
-msgstr ""
-
-#. (itstool) path: app/lem
-#. (itstool) id: TC-CriticalApparatus.xml#d1e281
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1175
-msgid "ut"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#. (itstool) id: TC-CriticalApparatus.xml#d1e283
-#. (itstool) id: TC-CriticalApparatus.xml#d1e297
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1175
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1176
-msgid "et"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#. (itstool) id: TC-CriticalApparatus.xml#d1e285
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1175
-msgid "ac"
-msgstr ""
-
-#. (itstool) path: app/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1175
-msgid "perhaps"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#. (itstool) id: TC-CriticalApparatus.xml#d1e287
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1175
-msgid "quam"
-msgstr ""
-
-#. (itstool) path: lem/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1175
-msgid "<_:app-1/> formosa nouo quae parat ire uiro."
-msgstr ""
-
-#. (itstool) path: app/lem
-#. (itstool) id: TC-CriticalApparatus.xml#d1e295
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1176
-msgid "at"
-msgstr ""
-
-#. (itstool) path: app/lem
-#. (itstool) id: TC-CriticalApparatus.xml#d1e301
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1176
-msgid "mota"
-msgstr ""
-
-#. (itstool) path: app/rdg
-#. (itstool) id: TC-CriticalApparatus.xml#d1e303
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1176
-msgid "immota"
-msgstr ""
-
-#. (itstool) path: lem/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1176
-msgid "<_:app-1/> non sic, Ithaci digressu <_:app-2/>, Calypso"
-msgstr ""
-
-#. (itstool) path: lem/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1177
-msgid "desertis olim fleuerat aequoribus:"
-msgstr ""
-
-#. (itstool) path: lem/l
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1178
-msgid "multos illa dies incomptis maesta capillis"
-msgstr ""
-
-#. (itstool) path: app/note
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1180
-msgid "omits lines 8-11 because of homoeoteleuton."
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1172
-msgid ""
-"Apparatus entries may nest when there is variation at both higher and lower "
-"structural levels, e.g.: <_:egXML-1/> Here, MS C omits lines 8-11, but there "
-"are variations the editor wishes to record in the other witnesses which do "
-"have these lines. Therefore, an outer <_:gi-2/> gives the lines in the <_:"
-"gi-3/> and the omission in a <_:gi-4/>. Further variation is encoded for "
-"lines 8 and 9 using nested <_:gi-5/>s."
-msgstr ""
-
-#. (itstool) path: div/head
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1189
-msgid "Module for Critical Apparatus"
-msgstr ""
-
-#. (itstool) path: moduleSpec/altIdent
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1192
-msgid "Text Criticism"
-msgstr ""
-
-#. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1194
-msgid "Apparat critique"
-msgstr ""
-
-#. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1195
-msgid "學術編輯註解"
-msgstr ""
-
-#. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1196
-msgid "Apparato critico"
-msgstr ""
-
-#. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1198
-msgid "校勘モジュール"
-msgstr ""
-
-#. (itstool) path: div/p
-#: Source/Guidelines/en/TC-CriticalApparatus.xml:1190
-msgid ""
-"The module described in this chapter makes available the following "
-"components: <_:moduleSpec-1/> The selection and combination of modules to "
-"form a TEI schema is described in <_:ptr-2/>."
+#. (itstool) path: listWit/witness
+#. (itstool) id: TC-CriticalApparatus.xml#Guelf
+#: Source/Guidelines/en/TC-CriticalApparatus.xml:594
+msgid "<_:abbr-1/> = Guelf. HAB 2546 (44.23 Aug. fol.), s. XV"
 msgstr ""

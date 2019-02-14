@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-11-26 09:41+0900\n"
+"POT-Creation-Date: 2019-02-14 21:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,8 +160,8 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:95
 #: Source/Guidelines/en/ND-NamesDates.xml:262
 #: Source/Guidelines/en/ND-NamesDates.xml:596
-#: Source/Guidelines/en/ND-NamesDates.xml:2200
-#: Source/Guidelines/en/ND-NamesDates.xml:2213
+#: Source/Guidelines/en/ND-NamesDates.xml:2297
+#: Source/Guidelines/en/ND-NamesDates.xml:2310
 msgid "att.naming"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:105
 #: Source/Guidelines/en/ND-NamesDates.xml:918
 #: Source/Guidelines/en/ND-NamesDates.xml:1168
-#: Source/Guidelines/en/ND-NamesDates.xml:2347
+#: Source/Guidelines/en/ND-NamesDates.xml:2444
 msgid "att.datable"
 msgstr ""
 
@@ -234,9 +234,9 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:1007
 #: Source/Guidelines/en/ND-NamesDates.xml:1158
 #: Source/Guidelines/en/ND-NamesDates.xml:1336
-#: Source/Guidelines/en/ND-NamesDates.xml:2133
-#: Source/Guidelines/en/ND-NamesDates.xml:2200
-#: Source/Guidelines/en/ND-NamesDates.xml:2225
+#: Source/Guidelines/en/ND-NamesDates.xml:2146
+#: Source/Guidelines/en/ND-NamesDates.xml:2297
+#: Source/Guidelines/en/ND-NamesDates.xml:2322
 msgid "ref"
 msgstr ""
 
@@ -296,7 +296,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:596
 #: Source/Guidelines/en/ND-NamesDates.xml:1008
 #: Source/Guidelines/en/ND-NamesDates.xml:1336
-#: Source/Guidelines/en/ND-NamesDates.xml:2199
+#: Source/Guidelines/en/ND-NamesDates.xml:2296
 msgid "key"
 msgstr ""
 
@@ -356,7 +356,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:92
 #: Source/Guidelines/en/ND-NamesDates.xml:597
 #: Source/Guidelines/en/ND-NamesDates.xml:678
-#: Source/Guidelines/en/ND-NamesDates.xml:2213
+#: Source/Guidelines/en/ND-NamesDates.xml:2310
 msgid "nymRef"
 msgstr ""
 
@@ -401,10 +401,10 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:165
 #: Source/Guidelines/en/ND-NamesDates.xml:166
 #: Source/Guidelines/en/ND-NamesDates.xml:168
-#: Source/Guidelines/en/ND-NamesDates.xml:2372
-#: Source/Guidelines/en/ND-NamesDates.xml:2535
-#: Source/Guidelines/en/ND-NamesDates.xml:2548
-#: Source/Guidelines/en/ND-NamesDates.xml:2551
+#: Source/Guidelines/en/ND-NamesDates.xml:2469
+#: Source/Guidelines/en/ND-NamesDates.xml:2632
+#: Source/Guidelines/en/ND-NamesDates.xml:2645
+#: Source/Guidelines/en/ND-NamesDates.xml:2648
 msgid "when"
 msgstr ""
 
@@ -541,7 +541,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:176
 #: Source/Guidelines/en/ND-NamesDates.xml:181
 #: Source/Guidelines/en/ND-NamesDates.xml:188
-#: Source/Guidelines/en/ND-NamesDates.xml:2479
+#: Source/Guidelines/en/ND-NamesDates.xml:2576
 msgid "from"
 msgstr ""
 
@@ -554,7 +554,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:185
 #: Source/Guidelines/en/ND-NamesDates.xml:187
 #: Source/Guidelines/en/ND-NamesDates.xml:188
-#: Source/Guidelines/en/ND-NamesDates.xml:2479
+#: Source/Guidelines/en/ND-NamesDates.xml:2576
 msgid "to"
 msgstr ""
 
@@ -592,7 +592,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:171
 #: Source/Guidelines/en/ND-NamesDates.xml:175
 #: Source/Guidelines/en/ND-NamesDates.xml:186
-#: Source/Guidelines/en/ND-NamesDates.xml:2535
+#: Source/Guidelines/en/ND-NamesDates.xml:2632
 msgid "notBefore"
 msgstr ""
 
@@ -604,7 +604,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:171
 #: Source/Guidelines/en/ND-NamesDates.xml:179
 #: Source/Guidelines/en/ND-NamesDates.xml:182
-#: Source/Guidelines/en/ND-NamesDates.xml:2536
+#: Source/Guidelines/en/ND-NamesDates.xml:2633
 msgid "notAfter"
 msgstr ""
 
@@ -772,7 +772,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:520
 #: Source/Guidelines/en/ND-NamesDates.xml:601
 #: Source/Guidelines/en/ND-NamesDates.xml:1040
-#: Source/Guidelines/en/ND-NamesDates.xml:2201
+#: Source/Guidelines/en/ND-NamesDates.xml:2298
 msgid "persName"
 msgstr ""
 
@@ -862,7 +862,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:291
 #: Source/Guidelines/en/ND-NamesDates.xml:302
 #: Source/Guidelines/en/ND-NamesDates.xml:381
-#: Source/Guidelines/en/ND-NamesDates.xml:2201
+#: Source/Guidelines/en/ND-NamesDates.xml:2298
 msgid "forename"
 msgstr ""
 
@@ -1031,8 +1031,8 @@ msgstr ""
 #. (itstool) path: p/mentioned
 #. (itstool) path: nym/form
 #: Source/Guidelines/en/ND-NamesDates.xml:353
-#: Source/Guidelines/en/ND-NamesDates.xml:2204
-#: Source/Guidelines/en/ND-NamesDates.xml:2296
+#: Source/Guidelines/en/ND-NamesDates.xml:2301
+#: Source/Guidelines/en/ND-NamesDates.xml:2393
 msgid "John"
 msgstr ""
 
@@ -1227,7 +1227,7 @@ msgstr ""
 
 #. (itstool) path: p/q
 #: Source/Guidelines/en/ND-NamesDates.xml:405
-#: Source/Guidelines/en/ND-NamesDates.xml:2363
+#: Source/Guidelines/en/ND-NamesDates.xml:2460
 msgid "of"
 msgstr ""
 
@@ -1561,7 +1561,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:1358
 #: Source/Guidelines/en/ND-NamesDates.xml:1423
 #: Source/Guidelines/en/ND-NamesDates.xml:1601
-#: Source/Guidelines/en/ND-NamesDates.xml:2201
+#: Source/Guidelines/en/ND-NamesDates.xml:2298
 msgid "placeName"
 msgstr ""
 
@@ -1849,7 +1849,7 @@ msgstr ""
 #. (itstool) path: orgName/name
 #. (itstool) path: f/string
 #: Source/Guidelines/en/ND-NamesDates.xml:560
-#: Source/Guidelines/en/ND-NamesDates.xml:2414
+#: Source/Guidelines/en/ND-NamesDates.xml:2511
 msgid "Glasgow"
 msgstr ""
 
@@ -2140,7 +2140,7 @@ msgstr ""
 #. (itstool) path: geogName/geogFeat
 #: Source/Guidelines/en/ND-NamesDates.xml:670
 #: Source/Guidelines/en/ND-NamesDates.xml:673
-#: Source/Guidelines/en/ND-NamesDates.xml:2315
+#: Source/Guidelines/en/ND-NamesDates.xml:2412
 msgid "Lairig"
 msgstr ""
 
@@ -2151,7 +2151,7 @@ msgstr ""
 
 #. (itstool) path: geogName/name
 #: Source/Guidelines/en/ND-NamesDates.xml:674
-#: Source/Guidelines/en/ND-NamesDates.xml:2316
+#: Source/Guidelines/en/ND-NamesDates.xml:2413
 msgid "Eilde"
 msgstr ""
 
@@ -2174,26 +2174,26 @@ msgstr ""
 #. (itstool) path: p/mentioned
 #. (itstool) path: nym/form
 #: Source/Guidelines/en/ND-NamesDates.xml:676
-#: Source/Guidelines/en/ND-NamesDates.xml:2318
+#: Source/Guidelines/en/ND-NamesDates.xml:2415
 msgid "lairig"
 msgstr ""
 
 #. (itstool) path: p/gloss
 #. (itstool) path: nym/def
 #: Source/Guidelines/en/ND-NamesDates.xml:676
-#: Source/Guidelines/en/ND-NamesDates.xml:2319
+#: Source/Guidelines/en/ND-NamesDates.xml:2416
 msgid "sloping hill face"
 msgstr ""
 
 #. (itstool) path: p/gi
 #. (itstool) path: p/term
 #: Source/Guidelines/en/ND-NamesDates.xml:677
-#: Source/Guidelines/en/ND-NamesDates.xml:2207
-#: Source/Guidelines/en/ND-NamesDates.xml:2214
-#: Source/Guidelines/en/ND-NamesDates.xml:2234
-#: Source/Guidelines/en/ND-NamesDates.xml:2246
-#: Source/Guidelines/en/ND-NamesDates.xml:2290
-#: Source/Guidelines/en/ND-NamesDates.xml:2312
+#: Source/Guidelines/en/ND-NamesDates.xml:2304
+#: Source/Guidelines/en/ND-NamesDates.xml:2311
+#: Source/Guidelines/en/ND-NamesDates.xml:2331
+#: Source/Guidelines/en/ND-NamesDates.xml:2343
+#: Source/Guidelines/en/ND-NamesDates.xml:2387
+#: Source/Guidelines/en/ND-NamesDates.xml:2409
 msgid "nym"
 msgstr ""
 
@@ -2312,7 +2312,7 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/ND-NamesDates.xml:708
-#: Source/Guidelines/en/ND-NamesDates.xml:2365
+#: Source/Guidelines/en/ND-NamesDates.xml:2462
 msgid "measure"
 msgstr ""
 
@@ -2376,53 +2376,53 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:757
 #: Source/Guidelines/en/ND-NamesDates.xml:759
 #: Source/Guidelines/en/ND-NamesDates.xml:762
-#: Source/Guidelines/en/ND-NamesDates.xml:1970
-#: Source/Guidelines/en/ND-NamesDates.xml:1998
-#: Source/Guidelines/en/ND-NamesDates.xml:2007
-#: Source/Guidelines/en/ND-NamesDates.xml:2132
-#: Source/Guidelines/en/ND-NamesDates.xml:2134
+#: Source/Guidelines/en/ND-NamesDates.xml:1968
+#: Source/Guidelines/en/ND-NamesDates.xml:2011
+#: Source/Guidelines/en/ND-NamesDates.xml:2020
+#: Source/Guidelines/en/ND-NamesDates.xml:2145
+#: Source/Guidelines/en/ND-NamesDates.xml:2147
 msgid "objectName"
 msgstr ""
 
 #. (itstool) path: p/objectName
 #: Source/Guidelines/en/ND-NamesDates.xml:750
-#: Source/Guidelines/en/ND-NamesDates.xml:2174
+#: Source/Guidelines/en/ND-NamesDates.xml:2187
 msgid "Minster Lovell Jewel"
 msgstr ""
 
 #. (itstool) path: p/objectName
-#. (itstool) path: objIdentifier/objectName
+#. (itstool) path: objectIdentifier/objectName
 #: Source/Guidelines/en/ND-NamesDates.xml:751
-#: Source/Guidelines/en/ND-NamesDates.xml:2148
-#: Source/Guidelines/en/ND-NamesDates.xml:2175
+#: Source/Guidelines/en/ND-NamesDates.xml:2161
+#: Source/Guidelines/en/ND-NamesDates.xml:2188
 msgid "Alfred Jewel"
 msgstr ""
 
 #. (itstool) path: p/placeName
 #: Source/Guidelines/en/ND-NamesDates.xml:751
-#: Source/Guidelines/en/ND-NamesDates.xml:2175
+#: Source/Guidelines/en/ND-NamesDates.xml:2188
 msgid "Minster Lovell"
 msgstr ""
 
 #. (itstool) path: p/placeName
-#. (itstool) path: objIdentifier/region
+#. (itstool) path: objectIdentifier/region
 #: Source/Guidelines/en/ND-NamesDates.xml:752
-#: Source/Guidelines/en/ND-NamesDates.xml:2141
-#: Source/Guidelines/en/ND-NamesDates.xml:2176
+#: Source/Guidelines/en/ND-NamesDates.xml:2154
+#: Source/Guidelines/en/ND-NamesDates.xml:2189
 msgid "Oxfordshire"
 msgstr ""
 
 #. (itstool) path: p/orgName
-#. (itstool) path: objIdentifier/repository
+#. (itstool) path: objectIdentifier/repository
 #: Source/Guidelines/en/ND-NamesDates.xml:753
-#: Source/Guidelines/en/ND-NamesDates.xml:2144
-#: Source/Guidelines/en/ND-NamesDates.xml:2177
+#: Source/Guidelines/en/ND-NamesDates.xml:2157
+#: Source/Guidelines/en/ND-NamesDates.xml:2190
 msgid "Ashmolean Museum"
 msgstr ""
 
 #. (itstool) path: egXML/p
 #: Source/Guidelines/en/ND-NamesDates.xml:750
-#: Source/Guidelines/en/ND-NamesDates.xml:2173
+#: Source/Guidelines/en/ND-NamesDates.xml:2186
 msgid ""
 "The <_:objectName-1/> is probably the most similar to the <_:objectName-2/> "
 "and was found in <_:placeName-3/> in <_:placeName-4/> and is kept at the <_:"
@@ -2446,12 +2446,16 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/ND-NamesDates.xml:762
-#: Source/Guidelines/en/ND-NamesDates.xml:1971
+#: Source/Guidelines/en/ND-NamesDates.xml:1969
+#: Source/Guidelines/en/ND-NamesDates.xml:1970
 #: Source/Guidelines/en/ND-NamesDates.xml:1972
-#: Source/Guidelines/en/ND-NamesDates.xml:1974
-#: Source/Guidelines/en/ND-NamesDates.xml:1978
-#: Source/Guidelines/en/ND-NamesDates.xml:1993
-#: Source/Guidelines/en/ND-NamesDates.xml:1997
+#: Source/Guidelines/en/ND-NamesDates.xml:1975
+#: Source/Guidelines/en/ND-NamesDates.xml:1981
+#: Source/Guidelines/en/ND-NamesDates.xml:1995
+#: Source/Guidelines/en/ND-NamesDates.xml:1999
+#: Source/Guidelines/en/ND-NamesDates.xml:2003
+#: Source/Guidelines/en/ND-NamesDates.xml:2010
+#: Source/Guidelines/en/ND-NamesDates.xml:2197
 msgid "object"
 msgstr ""
 
@@ -2502,13 +2506,13 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/ND-NamesDates.xml:782
-#: Source/Guidelines/en/ND-NamesDates.xml:2342
-#: Source/Guidelines/en/ND-NamesDates.xml:2349
-#: Source/Guidelines/en/ND-NamesDates.xml:2365
-#: Source/Guidelines/en/ND-NamesDates.xml:2368
-#: Source/Guidelines/en/ND-NamesDates.xml:2369
-#: Source/Guidelines/en/ND-NamesDates.xml:2383
-#: Source/Guidelines/en/ND-NamesDates.xml:2544
+#: Source/Guidelines/en/ND-NamesDates.xml:2439
+#: Source/Guidelines/en/ND-NamesDates.xml:2446
+#: Source/Guidelines/en/ND-NamesDates.xml:2462
+#: Source/Guidelines/en/ND-NamesDates.xml:2465
+#: Source/Guidelines/en/ND-NamesDates.xml:2466
+#: Source/Guidelines/en/ND-NamesDates.xml:2480
+#: Source/Guidelines/en/ND-NamesDates.xml:2641
 msgid "date"
 msgstr ""
 
@@ -3820,6 +3824,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:1602
 #: Source/Guidelines/en/ND-NamesDates.xml:1605
 #: Source/Guidelines/en/ND-NamesDates.xml:1746
+#: Source/Guidelines/en/ND-NamesDates.xml:2197
 msgid "place"
 msgstr ""
 
@@ -4204,7 +4209,7 @@ msgstr ""
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/ND-NamesDates.xml:1387
 #: Source/Guidelines/en/ND-NamesDates.xml:1600
-#: Source/Guidelines/en/ND-NamesDates.xml:2202
+#: Source/Guidelines/en/ND-NamesDates.xml:2299
 msgid "country"
 msgstr ""
 
@@ -4226,7 +4231,7 @@ msgstr ""
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/ND-NamesDates.xml:1389
 #: Source/Guidelines/en/ND-NamesDates.xml:1460
-#: Source/Guidelines/en/ND-NamesDates.xml:2025
+#: Source/Guidelines/en/ND-NamesDates.xml:2038
 msgid "address"
 msgstr ""
 
@@ -4407,7 +4412,7 @@ msgstr ""
 #: Source/Guidelines/en/ND-NamesDates.xml:1481
 #: Source/Guidelines/en/ND-NamesDates.xml:1484
 #: Source/Guidelines/en/ND-NamesDates.xml:1524
-#: Source/Guidelines/en/ND-NamesDates.xml:2026
+#: Source/Guidelines/en/ND-NamesDates.xml:2039
 msgid "location"
 msgstr ""
 
@@ -4711,9 +4716,9 @@ msgid "Cymru"
 msgstr ""
 
 #. (itstool) path: place/placeName
-#. (itstool) path: objIdentifier/country
+#. (itstool) path: objectIdentifier/country
 #: Source/Guidelines/en/ND-NamesDates.xml:1582
-#: Source/Guidelines/en/ND-NamesDates.xml:2017
+#: Source/Guidelines/en/ND-NamesDates.xml:2030
 msgid "Wales"
 msgstr ""
 
@@ -5153,7 +5158,7 @@ msgstr ""
 
 #. (itstool) path: p/ident
 #: Source/Guidelines/en/ND-NamesDates.xml:1750
-#: Source/Guidelines/en/ND-NamesDates.xml:1979
+#: Source/Guidelines/en/ND-NamesDates.xml:1982
 msgid "model.listLike"
 msgstr ""
 
@@ -5309,13 +5314,14 @@ msgid "Objects"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1972
-#: Source/Guidelines/en/ND-NamesDates.xml:1990
+#: Source/Guidelines/en/ND-NamesDates.xml:1970
+#: Source/Guidelines/en/ND-NamesDates.xml:1977
+#: Source/Guidelines/en/ND-NamesDates.xml:1995
 msgid "msDesc"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:1964
+#: Source/Guidelines/en/ND-NamesDates.xml:1962
 msgid ""
 "<_:specList-1/> An object is any material thing whether real, in existence, "
 "fictional, missing, or purported about which more information is known. "
@@ -5327,109 +5333,146 @@ msgid ""
 "viewed as a more specific form of the <_:gi-6/> element."
 msgstr ""
 
+#. (itstool) path: p/emph
+#: Source/Guidelines/en/ND-NamesDates.xml:1975
+msgid "Please note:"
+msgstr ""
+
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ND-NamesDates.xml:1973
+msgid ""
+"<_:emph-1/> The <_:gi-2/> element is a recent addition to TEI P5 Guidelines "
+"as of version 3.5.0 and as such might be more prone to further revision in "
+"the next few releases as its use develops. This may be particularly evident "
+"where its contents have been borrowed from <_:gi-3/> and have yet to be "
+"generalized from their use in the context of manuscript descriptions."
+msgstr ""
+
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1978
-#: Source/Guidelines/en/ND-NamesDates.xml:1979
-#: Source/Guidelines/en/ND-NamesDates.xml:1980
+#: Source/Guidelines/en/ND-NamesDates.xml:1981
+#: Source/Guidelines/en/ND-NamesDates.xml:1982
+#: Source/Guidelines/en/ND-NamesDates.xml:1983
 msgid "listObject"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1980
+#: Source/Guidelines/en/ND-NamesDates.xml:1983
 msgid "list"
 msgstr ""
 
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ND-NamesDates.xml:1985
+msgid "listBibl"
+msgstr ""
+
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:1978
+#: Source/Guidelines/en/ND-NamesDates.xml:1981
 msgid ""
 "The <_:gi-1/> element usually appears inside the <_:gi-2/> element which is "
 "used to group descriptions of identifiable objects. This is a member of <_:"
 "ident-3/> and so <_:gi-4/> may appear anywhere that <_:gi-5/> is allowed. "
 "This enables the flexibility of using <_:gi-6/> to contain a set of metadata "
-"descriptions stored in the header, or as a list of objects from a source "
-"document."
+"descriptions stored in the header, or as a list of objects transcribed from "
+"a source document. The equivalent list for manuscript descriptions is <_:"
+"gi-7/>."
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:1991
+#: Source/Guidelines/en/ND-NamesDates.xml:1997
 msgid "msdescription"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1992
-#: Source/Guidelines/en/ND-NamesDates.xml:2048
+#: Source/Guidelines/en/ND-NamesDates.xml:1998
+#: Source/Guidelines/en/ND-NamesDates.xml:2061
 msgid "msContents"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1992
-#: Source/Guidelines/en/ND-NamesDates.xml:2050
+#: Source/Guidelines/en/ND-NamesDates.xml:1998
+#: Source/Guidelines/en/ND-NamesDates.xml:2063
 msgid "physDesc"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1992
-#: Source/Guidelines/en/ND-NamesDates.xml:2052
+#: Source/Guidelines/en/ND-NamesDates.xml:1998
+#: Source/Guidelines/en/ND-NamesDates.xml:2065
 msgid "history"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1992
-#: Source/Guidelines/en/ND-NamesDates.xml:2054
+#: Source/Guidelines/en/ND-NamesDates.xml:1998
+#: Source/Guidelines/en/ND-NamesDates.xml:2067
 msgid "additional"
 msgstr ""
 
-#. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1994
-#: Source/Guidelines/en/ND-NamesDates.xml:1996
-#: Source/Guidelines/en/ND-NamesDates.xml:1999
-#: Source/Guidelines/en/ND-NamesDates.xml:2025
-msgid "objIdentifier"
+#. (itstool) path: div/p
+#: Source/Guidelines/en/ND-NamesDates.xml:1987
+msgid ""
+"<_:specList-1/> Overall, the basic structure of an <_:gi-2/> element is akin "
+"to that of <_:gi-3/> in that it is providing a structured description of an "
+"object. After a group of identifying information, it has the option of "
+"paragraphs or, if the <_:ident-4/> module is loaded, <_:gi-5/>, <_:gi-6/>, "
+"<_:gi-7/>, and <_:gi-8/> elements for descriptive metadata about this "
+"object. Although these elements originate from manuscript description the <_:"
+"gi-9/> element may be used for all forms of object (whether text-bearing or "
+"not). Where descendents of <_:gi-10/> still have the hallmarks of their use "
+"in manuscript description, the descriptions as relating to manuscripts "
+"should be interpreted as applying to all forms of object (text-bearing) or "
+"not."
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:1996
+#: Source/Guidelines/en/ND-NamesDates.xml:2007
+#: Source/Guidelines/en/ND-NamesDates.xml:2009
+#: Source/Guidelines/en/ND-NamesDates.xml:2012
+#: Source/Guidelines/en/ND-NamesDates.xml:2038
+msgid "objectIdentifier"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/ND-NamesDates.xml:2009
 msgid "msIdentifier"
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2003
-#: Source/Guidelines/en/ND-NamesDates.xml:2011
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2016
+#: Source/Guidelines/en/ND-NamesDates.xml:2024
 msgid "Excalibur"
 msgstr ""
 
 #. (itstool) path: object/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2005
+#: Source/Guidelines/en/ND-NamesDates.xml:2018
 msgid "Excalibur is the name for the legendary sword of King Arthur."
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2012
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2025
 msgid "Caliburn"
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2013
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2026
 msgid "Caledfwlch"
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2014
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2027
 msgid "Calesvol"
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2015
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2028
 msgid "Kaledvoulc'h"
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2016
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2029
 msgid "Caliburnus"
 msgstr ""
 
 #. (itstool) path: object/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2019
+#: Source/Guidelines/en/ND-NamesDates.xml:2032
 msgid ""
 "Excalibur is the name for the legendary sword of King Arthur, in Welsh it is "
 "called Caledfwlch, in Cornish it is called Calesvol, in Breton it is called "
@@ -5439,94 +5482,88 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:1983
+#: Source/Guidelines/en/ND-NamesDates.xml:2006
 msgid ""
-"<_:specList-1/> Overall, the basic structure of an object element is akin to "
-"that of <_:gi-2/> in that after a group of identifying information, it has "
-"the option of paragraphs or, if the <_:ident-3/> module is loaded, <_:gi-4/"
-">, <_:gi-5/>, <_:gi-6/>, and <_:gi-7/> elements for descriptive metadata "
-"about this object. Although these elements originate from manuscript "
-"description the <_:gi-8/> element may be used for all forms of object "
-"(whether text-bearing or not). The <_:gi-9/> element is a general-purpose "
-"grouping element for location or identification information relating to a "
-"single object or resource. It is very similar to an <_:gi-10/> element with "
-"less contraints on the order of its contents. The <_:gi-11/> may be more or "
-"less detailed dependent on the needs of the encoder. In some cases an <_:"
-"gi-12/> may be used mostly as a common reference point for multiple <_:gi-13/"
-"> elements to refer back to. In situations, one might provide more detailed "
-"information in the <_:gi-14/> where it is available or desirable. Compare <_:"
-"egXML-15/> where only a single <_:gi-16/> is provided and below where "
-"multiple versions are provided. <_:egXML-17/>"
+"The <_:gi-1/> element is a general-purpose grouping element for location or "
+"identification information relating to a single object or resource. It is "
+"very similar to an <_:gi-2/> element with less contraints on the order of "
+"its contents. The <_:gi-3/> may be more or less detailed dependent on the "
+"needs of the encoder. In some cases an <_:gi-4/> may be used mostly as a "
+"common reference point for multiple <_:gi-5/> elements to refer back to. In "
+"situations, one might provide more detailed information in the <_:gi-6/> "
+"where it is available or desirable. Compare <_:egXML-7/> where only a single "
+"<_:gi-8/> is provided and below where multiple versions are provided. <_:"
+"egXML-9/>"
 msgstr ""
 
-#. (itstool) path: objIdentifier/objectName
-#: Source/Guidelines/en/ND-NamesDates.xml:2031
-#: Source/Guidelines/en/ND-NamesDates.xml:2062
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2044
+#: Source/Guidelines/en/ND-NamesDates.xml:2075
 msgid "Mask of Tutankhamun"
 msgstr ""
 
-#. (itstool) path: objIdentifier/idno
-#: Source/Guidelines/en/ND-NamesDates.xml:2032
-#: Source/Guidelines/en/ND-NamesDates.xml:2063
+#. (itstool) path: objectIdentifier/idno
+#: Source/Guidelines/en/ND-NamesDates.xml:2045
+#: Source/Guidelines/en/ND-NamesDates.xml:2076
 msgid "256a"
 msgstr ""
 
-#. (itstool) path: objIdentifier/idno
-#: Source/Guidelines/en/ND-NamesDates.xml:2033
-#: Source/Guidelines/en/ND-NamesDates.xml:2064
+#. (itstool) path: objectIdentifier/idno
+#: Source/Guidelines/en/ND-NamesDates.xml:2046
+#: Source/Guidelines/en/ND-NamesDates.xml:2077
 msgid "60672"
 msgstr ""
 
-#. (itstool) path: objIdentifier/idno
-#: Source/Guidelines/en/ND-NamesDates.xml:2034
-#: Source/Guidelines/en/ND-NamesDates.xml:2065
+#. (itstool) path: objectIdentifier/idno
+#: Source/Guidelines/en/ND-NamesDates.xml:2047
+#: Source/Guidelines/en/ND-NamesDates.xml:2078
 msgid "220"
 msgstr ""
 
-#. (itstool) path: objIdentifier/institution
-#: Source/Guidelines/en/ND-NamesDates.xml:2035
-#: Source/Guidelines/en/ND-NamesDates.xml:2066
+#. (itstool) path: objectIdentifier/institution
+#: Source/Guidelines/en/ND-NamesDates.xml:2048
+#: Source/Guidelines/en/ND-NamesDates.xml:2079
 msgid "Museum of Egyptian Antiquities"
 msgstr ""
 
 #. (itstool) path: address/street
-#: Source/Guidelines/en/ND-NamesDates.xml:2037
-#: Source/Guidelines/en/ND-NamesDates.xml:2068
+#: Source/Guidelines/en/ND-NamesDates.xml:2050
+#: Source/Guidelines/en/ND-NamesDates.xml:2081
 msgid "15 Meret Basha"
 msgstr ""
 
 #. (itstool) path: address/district
-#: Source/Guidelines/en/ND-NamesDates.xml:2038
-#: Source/Guidelines/en/ND-NamesDates.xml:2069
+#: Source/Guidelines/en/ND-NamesDates.xml:2051
+#: Source/Guidelines/en/ND-NamesDates.xml:2082
 msgid "Ismailia"
 msgstr ""
 
 #. (itstool) path: address/settlement
-#: Source/Guidelines/en/ND-NamesDates.xml:2039
-#: Source/Guidelines/en/ND-NamesDates.xml:2070
+#: Source/Guidelines/en/ND-NamesDates.xml:2052
+#: Source/Guidelines/en/ND-NamesDates.xml:2083
 msgid "Cairo"
 msgstr ""
 
 #. (itstool) path: address/country
 #. (itstool) path: p/origPlace
-#: Source/Guidelines/en/ND-NamesDates.xml:2040
-#: Source/Guidelines/en/ND-NamesDates.xml:2071
-#: Source/Guidelines/en/ND-NamesDates.xml:2095
+#: Source/Guidelines/en/ND-NamesDates.xml:2053
+#: Source/Guidelines/en/ND-NamesDates.xml:2084
+#: Source/Guidelines/en/ND-NamesDates.xml:2108
 msgid "Egypt"
 msgstr ""
 
 #. (itstool) path: location/geo
-#: Source/Guidelines/en/ND-NamesDates.xml:2042
-#: Source/Guidelines/en/ND-NamesDates.xml:2073
+#: Source/Guidelines/en/ND-NamesDates.xml:2055
+#: Source/Guidelines/en/ND-NamesDates.xml:2086
 msgid "30.047778, 31.233333"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2025
+#: Source/Guidelines/en/ND-NamesDates.xml:2038
 msgid ""
 "Moreover, the <_:gi-1/> may include an <_:gi-2/> element to provide the "
 "address at which the object currently resides. The use of <_:gi-3/> within "
-"this is enables the provision of geographical coordinates when describing "
+"this enables the provision of geographical coordinates when describing "
 "objects not housed in traditional repositories or institutions. This may "
 "also be used to supplement more traditional repository location information "
 "if available and, for example, to enable providing outputs such as maps "
@@ -5534,27 +5571,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2053
+#: Source/Guidelines/en/ND-NamesDates.xml:2066
 msgid "origin"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2053
+#: Source/Guidelines/en/ND-NamesDates.xml:2066
 msgid "provenance"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2054
+#: Source/Guidelines/en/ND-NamesDates.xml:2067
 msgid "acquisition"
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/ND-NamesDates.xml:2080
+#: Source/Guidelines/en/ND-NamesDates.xml:2093
 msgid "Book of the Dead"
 msgstr ""
 
 #. (itstool) path: msContents/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2078
+#: Source/Guidelines/en/ND-NamesDates.xml:2091
 msgid ""
 "The back and shoulders of the mask is inscribed with a protective spell in "
 "Egyptian hieroglyphs formed of ten vertical and horizontal lines. This spell "
@@ -5563,7 +5600,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: physDesc/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2083
+#: Source/Guidelines/en/ND-NamesDates.xml:2096
 msgid ""
 "The mask of Tutankhamun is 54cm x 39.3cm x 49cm. It is constructed from two "
 "layers of high-karat gold that varies in thickness from 1.5-3mm. It weighs "
@@ -5573,7 +5610,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: physDesc/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2087
+#: Source/Guidelines/en/ND-NamesDates.xml:2100
 msgid ""
 "In the mask Tutankhamun wears a nemes headcloth which has the royal insignia "
 "of a cobra (Wadjet) and vulture (Nekhbet) on it. These are thought "
@@ -5586,12 +5623,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/origDate
-#: Source/Guidelines/en/ND-NamesDates.xml:2096
+#: Source/Guidelines/en/ND-NamesDates.xml:2109
 msgid "1323 BC"
 msgstr ""
 
 #. (itstool) path: origin/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2095
+#: Source/Guidelines/en/ND-NamesDates.xml:2108
 msgid ""
 "The mask of Tutankhamun was created in <_:origPlace-1/> around <_:origDate-2/"
 ">. It is a death mask of the 18th-dynasty ancient Egyptian Pharaoh "
@@ -5599,7 +5636,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/quote
-#: Source/Guidelines/en/ND-NamesDates.xml:2103
+#: Source/Guidelines/en/ND-NamesDates.xml:2116
 msgid ""
 "The pins removed, the lid was raised. The penultimate scene was disclosed – "
 "a very neatly wrapped mummy of the young king, with golden mask of sad but "
@@ -5611,7 +5648,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: provenance/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2100
+#: Source/Guidelines/en/ND-NamesDates.xml:2113
 msgid ""
 "The mask of Tutankhamun was found in his burial chamber at Theban Necropolis "
 "in the Valley of the Kings in 1922. On 28 October 1925 the excavation team "
@@ -5621,7 +5658,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: history/acquisition
-#: Source/Guidelines/en/ND-NamesDates.xml:2110
+#: Source/Guidelines/en/ND-NamesDates.xml:2123
 msgid ""
 "In December 1925, the mask was removed from the tomb, placed in a crate and "
 "transported 635 kilometres (395 mi) to the Egyptian Museum in Cairo, where "
@@ -5629,7 +5666,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: custodialHist/custEvent
-#: Source/Guidelines/en/ND-NamesDates.xml:2116
+#: Source/Guidelines/en/ND-NamesDates.xml:2129
 msgid ""
 "When it was discovered in 1925, the 2.5kg narrow gold beard was no longer "
 "attached to the mask and was reattached to the chin by use of a wooden dowel "
@@ -5637,7 +5674,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: custodialHist/custEvent
-#: Source/Guidelines/en/ND-NamesDates.xml:2118
+#: Source/Guidelines/en/ND-NamesDates.xml:2131
 msgid ""
 "In August 2014 when the mask was removed from its display case for cleaning, "
 "the beard fell off again. Those working in the museum unadvisedly used a "
@@ -5645,7 +5682,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: custodialHist/custEvent
-#: Source/Guidelines/en/ND-NamesDates.xml:2121
+#: Source/Guidelines/en/ND-NamesDates.xml:2134
 msgid ""
 "The damage was noticed and repaired in January 2015 by a German-Egyptian "
 "team who used beeswax, a material known to be used as adhesives by the "
@@ -5653,76 +5690,76 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2048
+#: Source/Guidelines/en/ND-NamesDates.xml:2061
 msgid ""
-"The <_:gi-1/> element is used to provide a description of the intellectual "
-"contents of any text on an object and, being optional, is not necessary if "
-"there are no intellectual contents to describe. (Such contents, especially "
-"in the case of artistic objects, may not always be textual.) The <_:gi-2/> "
-"element may be used to give a physical description of the object either in "
-"prose or using more structured elements as and where they apply to that kind "
-"of object. The <_:gi-3/> element provides the option to describe the history "
-"of the object as paragraphs or with more structure using the <_:gi-4/> "
-"element, as many <_:gi-5/> stages as are appropriate, and <_:gi-6/> to "
-"describe its current ownership. The <_:gi-7/> element may be used to provide "
-"information about surrogates for the object (such as digital facsimiles) as "
-"well as administrative and curatorial information. A full description of an "
-"object can provide more or less detail at any level to represent the state "
-"of knowledge about the object. <_:egXML-8/>"
+"The <_:gi-1/> element is currently used to provide a description of the "
+"intellectual contents of any text on an object and, being optional, is not "
+"necessary if there are no intellectual contents to describe. (Such contents, "
+"especially in the case of artistic objects, may not always be textual.) The "
+"<_:gi-2/> element may be used to give a physical description of the object "
+"either in prose or using more structured elements as and where they apply to "
+"that kind of object. The <_:gi-3/> element provides the option to describe "
+"the history of the object as paragraphs or with more structure using the <_:"
+"gi-4/> element, as many <_:gi-5/> stages as are appropriate, and <_:gi-6/> "
+"to describe its current ownership. The <_:gi-7/> element may be used to "
+"provide information about surrogates for the object (such as digital "
+"facsimiles) as well as administrative and curatorial information. A full "
+"description of an object can provide more or less detail at any level to "
+"represent the state of knowledge about the object. <_:egXML-8/>"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/ND-NamesDates.xml:2133
+#: Source/Guidelines/en/ND-NamesDates.xml:2146
 msgid "Alfred-Jewel"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2133
+#: Source/Guidelines/en/ND-NamesDates.xml:2146
 msgid "xml:id"
 msgstr ""
 
-#. (itstool) path: objIdentifier/country
-#: Source/Guidelines/en/ND-NamesDates.xml:2140
+#. (itstool) path: objectIdentifier/country
+#: Source/Guidelines/en/ND-NamesDates.xml:2153
 msgid "United Kingdom"
 msgstr ""
 
-#. (itstool) path: objIdentifier/settlement
-#: Source/Guidelines/en/ND-NamesDates.xml:2142
+#. (itstool) path: objectIdentifier/settlement
+#: Source/Guidelines/en/ND-NamesDates.xml:2155
 msgid "Oxford"
 msgstr ""
 
-#. (itstool) path: objIdentifier/institution
-#: Source/Guidelines/en/ND-NamesDates.xml:2143
+#. (itstool) path: objectIdentifier/institution
+#: Source/Guidelines/en/ND-NamesDates.xml:2156
 msgid "University of Oxford"
 msgstr ""
 
-#. (itstool) path: objIdentifier/collection
-#: Source/Guidelines/en/ND-NamesDates.xml:2145
+#. (itstool) path: objectIdentifier/collection
+#: Source/Guidelines/en/ND-NamesDates.xml:2158
 msgid "English Treasures"
 msgstr ""
 
-#. (itstool) path: objIdentifier/idno
-#: Source/Guidelines/en/ND-NamesDates.xml:2146
+#. (itstool) path: objectIdentifier/idno
+#: Source/Guidelines/en/ND-NamesDates.xml:2159
 msgid "AN1836p.135.371"
 msgstr ""
 
-#. (itstool) path: objIdentifier/idno
-#: Source/Guidelines/en/ND-NamesDates.xml:2147
+#. (itstool) path: objectIdentifier/idno
+#: Source/Guidelines/en/ND-NamesDates.xml:2160
 msgid "https://en.wikipedia.org/wiki/Alfred_Jewel"
 msgstr ""
 
 #. (itstool) path: p/material
-#: Source/Guidelines/en/ND-NamesDates.xml:2151
+#: Source/Guidelines/en/ND-NamesDates.xml:2164
 msgid "gold"
 msgstr ""
 
 #. (itstool) path: p/material
-#: Source/Guidelines/en/ND-NamesDates.xml:2152
+#: Source/Guidelines/en/ND-NamesDates.xml:2165
 msgid "quartz"
 msgstr ""
 
 #. (itstool) path: physDesc/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2151
+#: Source/Guidelines/en/ND-NamesDates.xml:2164
 msgid ""
 "The Alfred Jewel is about 6.4 cm in length and is made of combination of "
 "filigreed <_:material-1/> surrounding a polished teardrop shaped piece of "
@@ -5733,24 +5770,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: origin/origDate
-#: Source/Guidelines/en/ND-NamesDates.xml:2158
+#: Source/Guidelines/en/ND-NamesDates.xml:2171
 msgid "late 9th Century"
 msgstr ""
 
 #. (itstool) path: origin/origPlace
-#: Source/Guidelines/en/ND-NamesDates.xml:2159
+#: Source/Guidelines/en/ND-NamesDates.xml:2172
 msgid "England"
 msgstr ""
 
 #. (itstool) path: history/origin
-#: Source/Guidelines/en/ND-NamesDates.xml:2158
+#: Source/Guidelines/en/ND-NamesDates.xml:2171
 msgid ""
 "It is generally accepted that the Alfred Jewel dates from the <_:origDate-1/"
 "> and was most likely made in <_:origPlace-2/>."
 msgstr ""
 
 #. (itstool) path: history/provenance
-#: Source/Guidelines/en/ND-NamesDates.xml:2160
+#: Source/Guidelines/en/ND-NamesDates.xml:2173
 msgid ""
 "The jewel was discovered in 1693 at Petherton Park, North Petherton in the "
 "English county of Somerset, on land owned by Sir Thomas Wroth. North "
@@ -5759,21 +5796,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: history/provenance
-#: Source/Guidelines/en/ND-NamesDates.xml:2163
+#: Source/Guidelines/en/ND-NamesDates.xml:2176
 msgid ""
 "A description of the Alfred Jewel was first published in 1698, in the "
 "Philosophical Transactions of the Royal Society."
 msgstr ""
 
 #. (itstool) path: history/acquisition
-#: Source/Guidelines/en/ND-NamesDates.xml:2165
+#: Source/Guidelines/en/ND-NamesDates.xml:2178
 msgid ""
 "It was bequeathed to Oxford University by Colonel Nathaniel Palmer (c. "
 "1661-1718) and today is in the Ashmolean Museum in Oxford."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2132
+#: Source/Guidelines/en/ND-NamesDates.xml:2145
 msgid ""
 "If the object is being referenced from elsewhere in the document, this is "
 "usually done with an <_:gi-1/>. For example here the <_:val-2/> <_:att-3/> "
@@ -5781,32 +5818,232 @@ msgid ""
 "> attribute on the <_:gi-5/> element. <_:egXML-6/>"
 msgstr ""
 
-#. (itstool) path: div/head
+#. (itstool) path: p/att
+#: Source/Guidelines/en/ND-NamesDates.xml:2197
+msgid "corresp"
+msgstr ""
+
+#. (itstool) path: div/p
 #: Source/Guidelines/en/ND-NamesDates.xml:2196
+msgid ""
+"There is no restriction on the form, size, or type of object that may be "
+"described by an <_:gi-1/> element, however, some objects may be more "
+"adequately described by a <_:gi-2/> element depending on context. Where a "
+"description of an object is being provided in terms of identification, "
+"physical characteristics, or history, then an <_:gi-3/> element may be "
+"preferred. Where metadata is being recorded about the geo-political "
+"location, population, or similar traits, then the <_:gi-4/> element may be "
+"better suited. A corresponding relation between an object description and "
+"place may be recorded through the use of the <_:att-5/> attribute. An "
+"example of a large object that might be described with the <_:gi-6/> element "
+"could be a building such as the Central Library of the National Autonomous "
+"University of Mexico."
+msgstr ""
+
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2205
+msgid "The Central Library of UNAM"
+msgstr ""
+
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2206
+msgid "The Central Library of the National Autonomous University of Mexico"
+msgstr ""
+
+#. (itstool) path: objectIdentifier/objectName
+#: Source/Guidelines/en/ND-NamesDates.xml:2207
+msgid "La Biblioteca Central de la Universidad Nacional Autónoma de México"
+msgstr ""
+
+#. (itstool) path: objectIdentifier/settlement
+#: Source/Guidelines/en/ND-NamesDates.xml:2208
+msgid "Mexico City"
+msgstr ""
+
+#. (itstool) path: objectIdentifier/region
+#: Source/Guidelines/en/ND-NamesDates.xml:2209
+msgid "Coyoacán"
+msgstr ""
+
+#. (itstool) path: objectIdentifier/country
+#: Source/Guidelines/en/ND-NamesDates.xml:2210
+msgid "Mexico"
+msgstr ""
+
+#. (itstool) path: p/dim
+#: Source/Guidelines/en/ND-NamesDates.xml:2214
+msgid "16 thousand square meters"
+msgstr ""
+
+#. (itstool) path: p/material
+#: Source/Guidelines/en/ND-NamesDates.xml:2215
+msgid "basalt"
+msgstr ""
+
+#. (itstool) path: p/objectType
+#: Source/Guidelines/en/ND-NamesDates.xml:2216
+msgid "fountains"
+msgstr ""
+
+#. (itstool) path: p/objectType
+#: Source/Guidelines/en/ND-NamesDates.xml:2216
+msgid "decorative reliefs"
+msgstr ""
+
+#. (itstool) path: objectDesc/p
+#: Source/Guidelines/en/ND-NamesDates.xml:2214
+msgid ""
+"The Central Library encompasses an area of <_:dim-1/> and is built on a "
+"three meter platform. The base contains two <_:material-2/> <_:objectType-3/"
+"> and <_:objectType-4/> inspired by pre-Hispanic art."
+msgstr ""
+
+#. (itstool) path: p/material
+#: Source/Guidelines/en/ND-NamesDates.xml:2221
+msgid "thin tecali stone slabs"
+msgstr ""
+
+#. (itstool) path: objectDesc/p
+#: Source/Guidelines/en/ND-NamesDates.xml:2218
+msgid ""
+"The library has ten windowless floors for book storage, each having enough "
+"space for 120 thousand volumes. These storage areas have the necessary "
+"lighting, temperature and humidty conditions for book conservation. In the "
+"reading room, flanked by a garden on each side, the diffuse and matte light "
+"is filtered through <_:material-1/>. The semi-basement of the building "
+"contains the service and administrative offices of the library."
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/ND-NamesDates.xml:2224
+msgid "Historical Representation of Culture"
+msgstr ""
+
+#. (itstool) path: p/persName
+#: Source/Guidelines/en/ND-NamesDates.xml:2225
+#: Source/Guidelines/en/ND-NamesDates.xml:2240
+msgid "Juan O'Gorman"
+msgstr ""
+
+#. (itstool) path: objectDesc/p
+#: Source/Guidelines/en/ND-NamesDates.xml:2223
+msgid ""
+"The building facades are covered with one of the largest murals in the world "
+"and is made from naturally colored stone tiles. It is entitled <_:title-1/> "
+"and is by <_:persName-2/>."
+msgstr ""
+
+#. (itstool) path: decoNote/label
+#: Source/Guidelines/en/ND-NamesDates.xml:2229
+msgid "Base"
+msgstr ""
+
+#. (itstool) path: decoDesc/decoNote
+#: Source/Guidelines/en/ND-NamesDates.xml:2228
+msgid ""
+"<_:label-1/> At the base of the building there are two basalt fountains and "
+"decorative reliefs around the outside that are inspired by pre-Hispanic art. "
+"The color of the stone in these elements is left exposed to take advantage "
+"of the stone's texture as an aesthetic and expressive element, and to give a "
+"sense of continuity to the external pavement."
+msgstr ""
+
+#. (itstool) path: decoNote/label
+#: Source/Guidelines/en/ND-NamesDates.xml:2234
+msgid "Murals"
+msgstr ""
+
+#. (itstool) path: p/title
+#: Source/Guidelines/en/ND-NamesDates.xml:2236
+msgid "Historical Representation of the Culture"
+msgstr ""
+
+#. (itstool) path: p/material
+#: Source/Guidelines/en/ND-NamesDates.xml:2236
+msgid "stone polychromatic mosaic"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: Source/Guidelines/en/ND-NamesDates.xml:2248
+msgid "https://en.wikipedia.org/wiki/Central_Library_(UNAM)#Murals"
+msgstr ""
+
+#. (itstool) path: decoNote/p
+#: Source/Guidelines/en/ND-NamesDates.xml:2235
+msgid ""
+"The outside windowless portion of the building contains one of the largest "
+"murals in the world. This is called <_:title-1/> and is a <_:material-2/> "
+"based on the combination of 12 basic colors. The mural is created in an "
+"impressionist style where the coloured tiles when seen from a distance form "
+"specific figures. The 12 colors where chosen from 150 samples of original "
+"stones with the criteria including the stone's resistance to degredation by "
+"weather. According to the artist, <_:persName-3/>, in the mosaic he "
+"represented three fundamental historical facets of the Mexican culture: the "
+"pre-Hispanic era, the Spanish colonial era, and the modern age. For example "
+"with the North Wall, this represents the pre-Hispanic era and is dominated "
+"by mythical elements relating to the life-death duality. The left side of "
+"the main axis there are deities and scenes pertaining to the creation of "
+"life. The right hand side of the mural contains figures relating to death. "
+"For a more detailed description see <_:ref-4/>."
+msgstr ""
+
+#. (itstool) path: origin/origDate
+#: Source/Guidelines/en/ND-NamesDates.xml:2253
+msgid "1948"
+msgstr ""
+
+#. (itstool) path: origin/origDate
+#: Source/Guidelines/en/ND-NamesDates.xml:2258
+msgid "5 April 1956"
+msgstr ""
+
+#. (itstool) path: history/origin
+#: Source/Guidelines/en/ND-NamesDates.xml:2253
+msgid ""
+"In <_:origDate-1/> the architect and artist Juan O'Gorman, in collaboration "
+"with architects Gustavo Saavedra and Juan Martinez de Velasco designed the "
+"building with a functionalist approach, as part of the greater project of "
+"the construction of the University City on the grounds of the Pedregal de "
+"San Angel in Mexico City. Originally the building was planned to host the "
+"National Library and National Newspaper Library of Mexico. The library "
+"finally opened its doors for the first time on <_:origDate-2/>. In July 2007 "
+"it was declared a UNESCO world heritage site."
+msgstr ""
+
+#. (itstool) path: custodialHist/custEvent
+#: Source/Guidelines/en/ND-NamesDates.xml:2265
+msgid ""
+"The library was significantly remodelled from 1981 - 1983 with the purpose "
+"of changing from closed shelving to open stacks, providing users more direct "
+"access to the collections."
+msgstr ""
+
+#. (itstool) path: div/head
+#: Source/Guidelines/en/ND-NamesDates.xml:2293
 msgid "Names and Nyms"
 msgstr ""
 
 #. (itstool) path: p/emph
-#: Source/Guidelines/en/ND-NamesDates.xml:2202
+#: Source/Guidelines/en/ND-NamesDates.xml:2299
 msgid "names"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2204
-#: Source/Guidelines/en/ND-NamesDates.xml:2308
+#: Source/Guidelines/en/ND-NamesDates.xml:2301
+#: Source/Guidelines/en/ND-NamesDates.xml:2405
 msgid "Jean"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2204
-#: Source/Guidelines/en/ND-NamesDates.xml:2305
+#: Source/Guidelines/en/ND-NamesDates.xml:2301
+#: Source/Guidelines/en/ND-NamesDates.xml:2402
 msgid "Ivan"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2197
+#: Source/Guidelines/en/ND-NamesDates.xml:2294
 msgid ""
 "So far we have discussed ways in which a name or referring string "
 "encountered in running text may be resolved by considering the object that "
@@ -5829,24 +6066,24 @@ msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2215
-#: Source/Guidelines/en/ND-NamesDates.xml:2218
+#: Source/Guidelines/en/ND-NamesDates.xml:2312
+#: Source/Guidelines/en/ND-NamesDates.xml:2315
 msgid "Antony"
 msgstr ""
 
 #. (itstool) path: egXML/forename
-#: Source/Guidelines/en/ND-NamesDates.xml:2223
-#: Source/Guidelines/en/ND-NamesDates.xml:2227
+#: Source/Guidelines/en/ND-NamesDates.xml:2320
+#: Source/Guidelines/en/ND-NamesDates.xml:2324
 msgid "Tony"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2222
+#: Source/Guidelines/en/ND-NamesDates.xml:2319
 msgid "<_:forename-1/> Blair"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2213
+#: Source/Guidelines/en/ND-NamesDates.xml:2310
 msgid ""
 "Any element which is a member of the <_:ident-1/> class may use the "
 "attribute <_:att-2/> to indicate the nym with which it corresponds. Thus, "
@@ -5857,17 +6094,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: person/persName
-#: Source/Guidelines/en/ND-NamesDates.xml:2230
+#: Source/Guidelines/en/ND-NamesDates.xml:2327
 msgid "Tony Blair"
 msgstr ""
 
 #. (itstool) path: person/occupation
-#: Source/Guidelines/en/ND-NamesDates.xml:2231
+#: Source/Guidelines/en/ND-NamesDates.xml:2328
 msgid "politician"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2225
+#: Source/Guidelines/en/ND-NamesDates.xml:2322
 msgid ""
 "The person identified by this particular Tony may however be indicated "
 "independently using the <_:att-1/> attribute, either on the forename or on "
@@ -5875,35 +6112,35 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2235
+#: Source/Guidelines/en/ND-NamesDates.xml:2332
 msgid "model.entryPart"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2235
-#: Source/Guidelines/en/ND-NamesDates.xml:2248
-#: Source/Guidelines/en/ND-NamesDates.xml:2259
+#: Source/Guidelines/en/ND-NamesDates.xml:2332
+#: Source/Guidelines/en/ND-NamesDates.xml:2345
+#: Source/Guidelines/en/ND-NamesDates.xml:2356
 msgid "form"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2236
-#: Source/Guidelines/en/ND-NamesDates.xml:2249
+#: Source/Guidelines/en/ND-NamesDates.xml:2333
+#: Source/Guidelines/en/ND-NamesDates.xml:2346
 msgid "etym"
 msgstr ""
 
 #. (itstool) path: form/orth
-#: Source/Guidelines/en/ND-NamesDates.xml:2240
+#: Source/Guidelines/en/ND-NamesDates.xml:2337
 msgid "Ian"
 msgstr ""
 
 #. (itstool) path: form/orth
-#: Source/Guidelines/en/ND-NamesDates.xml:2241
+#: Source/Guidelines/en/ND-NamesDates.xml:2338
 msgid "Iain"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2234
+#: Source/Guidelines/en/ND-NamesDates.xml:2331
 msgid ""
 "The <_:gi-1/> element may be thought of as providing a specialized kind of "
 "dictionary entry. Like a dictionary entry, it may contain any element from "
@@ -5913,79 +6150,79 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2246
+#: Source/Guidelines/en/ND-NamesDates.xml:2343
 msgid "listNym"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2247
-#: Source/Guidelines/en/ND-NamesDates.xml:2328
+#: Source/Guidelines/en/ND-NamesDates.xml:2344
+#: Source/Guidelines/en/ND-NamesDates.xml:2425
 msgid "dictionaries"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2247
-#: Source/Guidelines/en/ND-NamesDates.xml:2329
-#: Source/Guidelines/en/ND-NamesDates.xml:2340
+#: Source/Guidelines/en/ND-NamesDates.xml:2344
+#: Source/Guidelines/en/ND-NamesDates.xml:2426
+#: Source/Guidelines/en/ND-NamesDates.xml:2437
 msgid "namesdates"
 msgstr ""
 
 #. (itstool) path: nym/form
 #. (itstool) path: p/mentioned
 #. (itstool) path: egXML/name
-#: Source/Guidelines/en/ND-NamesDates.xml:2251
-#: Source/Guidelines/en/ND-NamesDates.xml:2273
-#: Source/Guidelines/en/ND-NamesDates.xml:2282
-#: Source/Guidelines/en/ND-NamesDates.xml:2286
+#: Source/Guidelines/en/ND-NamesDates.xml:2348
+#: Source/Guidelines/en/ND-NamesDates.xml:2370
+#: Source/Guidelines/en/ND-NamesDates.xml:2379
+#: Source/Guidelines/en/ND-NamesDates.xml:2383
 msgid "Bogomil"
 msgstr ""
 
 #. (itstool) path: etym/gloss
-#: Source/Guidelines/en/ND-NamesDates.xml:2252
+#: Source/Guidelines/en/ND-NamesDates.xml:2349
 msgid "favoured by God"
 msgstr ""
 
 #. (itstool) path: etym/lang
-#: Source/Guidelines/en/ND-NamesDates.xml:2252
+#: Source/Guidelines/en/ND-NamesDates.xml:2349
 msgid "Slavic"
 msgstr ""
 
 #. (itstool) path: etym/mentioned
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2253
-#: Source/Guidelines/en/ND-NamesDates.xml:2276
+#: Source/Guidelines/en/ND-NamesDates.xml:2350
+#: Source/Guidelines/en/ND-NamesDates.xml:2373
 msgid "bog"
 msgstr ""
 
 #. (itstool) path: etym/gloss
-#: Source/Guidelines/en/ND-NamesDates.xml:2254
+#: Source/Guidelines/en/ND-NamesDates.xml:2351
 msgid "God"
 msgstr ""
 
 #. (itstool) path: etym/mentioned
 #. (itstool) path: seg/seg
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2254
-#: Source/Guidelines/en/ND-NamesDates.xml:2263
-#: Source/Guidelines/en/ND-NamesDates.xml:2264
-#: Source/Guidelines/en/ND-NamesDates.xml:2279
+#: Source/Guidelines/en/ND-NamesDates.xml:2351
+#: Source/Guidelines/en/ND-NamesDates.xml:2360
+#: Source/Guidelines/en/ND-NamesDates.xml:2361
+#: Source/Guidelines/en/ND-NamesDates.xml:2376
 msgid "mil"
 msgstr ""
 
 #. (itstool) path: etym/gloss
-#: Source/Guidelines/en/ND-NamesDates.xml:2255
+#: Source/Guidelines/en/ND-NamesDates.xml:2352
 msgid "favour"
 msgstr ""
 
 #. (itstool) path: nym/etym
-#: Source/Guidelines/en/ND-NamesDates.xml:2252
+#: Source/Guidelines/en/ND-NamesDates.xml:2349
 msgid ""
 "Means <_:gloss-1/> from the <_:lang-2/> elements <_:mentioned-3/> <_:gloss-4/"
 "> and <_:mentioned-5/> <_:gloss-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2246
+#: Source/Guidelines/en/ND-NamesDates.xml:2343
 msgid ""
 "Because a schema intending to make use of the <_:gi-1/> or <_:gi-2/> element "
 "must include the <_:ident-3/> module as well as the <_:ident-4/> module, "
@@ -5995,43 +6232,43 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2258
-#: Source/Guidelines/en/ND-NamesDates.xml:2268
+#: Source/Guidelines/en/ND-NamesDates.xml:2355
+#: Source/Guidelines/en/ND-NamesDates.xml:2365
 msgid "seg"
 msgstr ""
 
 #. (itstool) path: seg/seg
-#: Source/Guidelines/en/ND-NamesDates.xml:2263
+#: Source/Guidelines/en/ND-NamesDates.xml:2360
 msgid "Bog"
 msgstr ""
 
 #. (itstool) path: seg/seg
-#: Source/Guidelines/en/ND-NamesDates.xml:2263
+#: Source/Guidelines/en/ND-NamesDates.xml:2360
 msgid "o"
 msgstr ""
 
 #. (itstool) path: seg/seg
-#: Source/Guidelines/en/ND-NamesDates.xml:2264
+#: Source/Guidelines/en/ND-NamesDates.xml:2361
 msgid "Bogo"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2269
+#: Source/Guidelines/en/ND-NamesDates.xml:2366
 msgid "linking"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2271
+#: Source/Guidelines/en/ND-NamesDates.xml:2368
 msgid "analysis"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2271
+#: Source/Guidelines/en/ND-NamesDates.xml:2368
 msgid "iso-fs"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2258
+#: Source/Guidelines/en/ND-NamesDates.xml:2355
 msgid ""
 "Where it is necessary to mark the substructure of nyms, this may be done by "
 "<_:gi-1/> elements within the <_:gi-2/>:<_:egXML-3/> The <_:gi-4/> element "
@@ -6043,17 +6280,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2282
+#: Source/Guidelines/en/ND-NamesDates.xml:2379
 msgid "...<_:name-1/>..."
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2283
+#: Source/Guidelines/en/ND-NamesDates.xml:2380
 msgid "parts"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2273
+#: Source/Guidelines/en/ND-NamesDates.xml:2370
 msgid ""
 "Alternatively, each of the constituents of <_:mentioned-1/> might be "
 "regarded as a nym in its own right: <_:egXML-2/> Within running text, a name "
@@ -6063,22 +6300,22 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2294
+#: Source/Guidelines/en/ND-NamesDates.xml:2391
 msgid "Iohannes"
 msgstr ""
 
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2298
+#: Source/Guidelines/en/ND-NamesDates.xml:2395
 msgid "Johnny"
 msgstr ""
 
 #. (itstool) path: nym/form
-#: Source/Guidelines/en/ND-NamesDates.xml:2301
+#: Source/Guidelines/en/ND-NamesDates.xml:2398
 msgid "Jon"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2290
+#: Source/Guidelines/en/ND-NamesDates.xml:2387
 msgid ""
 "The <_:gi-1/> element may also combine a number of other <_:gi-2/> elements "
 "together, where it is intended to show that they are all regarded as "
@@ -6088,61 +6325,61 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2313
+#: Source/Guidelines/en/ND-NamesDates.xml:2410
 msgid "<_:geogName-1/> ... <_:nym-2/> ..."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2312
+#: Source/Guidelines/en/ND-NamesDates.xml:2409
 msgid ""
 "The <_:gi-1/> element may be used for components of geographical or "
 "organizational names as well. For example: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2323
+#: Source/Guidelines/en/ND-NamesDates.xml:2420
 msgid ""
 "<_:specGrp-1/> As noted above, use of these elements implies that both the "
 "<_:ident-2/> and the <_:ident-3/> modules are included in a schema."
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2334
+#: Source/Guidelines/en/ND-NamesDates.xml:2431
 msgid "Dates and Times"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2335
+#: Source/Guidelines/en/ND-NamesDates.xml:2432
 msgid ""
 "The following elements for the encoding of dates and times were introduced "
 "in section <_:ptr-1/>: <_:specList-2/>"
 msgstr ""
 
 #. (itstool) path: p/term
-#: Source/Guidelines/en/ND-NamesDates.xml:2341
+#: Source/Guidelines/en/ND-NamesDates.xml:2438
 msgid "relative temporal expression"
 msgstr ""
 
 #. (itstool) path: p/gi
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/ND-NamesDates.xml:2342
-#: Source/Guidelines/en/ND-NamesDates.xml:2362
-#: Source/Guidelines/en/ND-NamesDates.xml:2366
+#: Source/Guidelines/en/ND-NamesDates.xml:2439
+#: Source/Guidelines/en/ND-NamesDates.xml:2459
+#: Source/Guidelines/en/ND-NamesDates.xml:2463
 msgid "offset"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2343
-#: Source/Guidelines/en/ND-NamesDates.xml:2349
-#: Source/Guidelines/en/ND-NamesDates.xml:2365
-#: Source/Guidelines/en/ND-NamesDates.xml:2368
-#: Source/Guidelines/en/ND-NamesDates.xml:2369
-#: Source/Guidelines/en/ND-NamesDates.xml:2457
+#: Source/Guidelines/en/ND-NamesDates.xml:2440
+#: Source/Guidelines/en/ND-NamesDates.xml:2446
+#: Source/Guidelines/en/ND-NamesDates.xml:2462
+#: Source/Guidelines/en/ND-NamesDates.xml:2465
+#: Source/Guidelines/en/ND-NamesDates.xml:2466
+#: Source/Guidelines/en/ND-NamesDates.xml:2554
 msgid "time"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2340
+#: Source/Guidelines/en/ND-NamesDates.xml:2437
 msgid ""
 "The current module <_:ident-1/> provides a mechanism for more detailed "
 "encoding of relative dates and times. A <_:term-2/> describes a date or time "
@@ -6152,22 +6389,22 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2347
+#: Source/Guidelines/en/ND-NamesDates.xml:2444
 msgid "att.duration"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2348
+#: Source/Guidelines/en/ND-NamesDates.xml:2445
 msgid "att.datable.w3c"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/ND-NamesDates.xml:2348
+#: Source/Guidelines/en/ND-NamesDates.xml:2445
 msgid "att.duration.w3c"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2347
+#: Source/Guidelines/en/ND-NamesDates.xml:2444
 msgid ""
 "As members of the <_:ident-1/> and <_:ident-2/> classes, which in turn are "
 "members of <_:ident-3/> and <_:ident-4/> respectively, the <_:gi-5/> and <_:"
@@ -6175,90 +6412,90 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2355
+#: Source/Guidelines/en/ND-NamesDates.xml:2452
 msgid "Relative Dates and Times"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2356
+#: Source/Guidelines/en/ND-NamesDates.xml:2453
 msgid "in the Two Hundredth and First Year of the Republic"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2356
+#: Source/Guidelines/en/ND-NamesDates.xml:2453
 msgid "twenty minutes before noon"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2357
+#: Source/Guidelines/en/ND-NamesDates.xml:2454
 msgid "after the lamented death of the Doctor"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2357
+#: Source/Guidelines/en/ND-NamesDates.xml:2454
 msgid "an hour after the game"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2359
-#: Source/Guidelines/en/ND-NamesDates.xml:2457
+#: Source/Guidelines/en/ND-NamesDates.xml:2456
+#: Source/Guidelines/en/ND-NamesDates.xml:2554
 msgid "noon"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2359
+#: Source/Guidelines/en/ND-NamesDates.xml:2456
 msgid "the game"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2359
+#: Source/Guidelines/en/ND-NamesDates.xml:2456
 msgid "the death of the Doctor"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2359
+#: Source/Guidelines/en/ND-NamesDates.xml:2456
 msgid "[the foundation of] the Republic"
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/ND-NamesDates.xml:2360
-#: Source/Guidelines/en/ND-NamesDates.xml:2364
+#: Source/Guidelines/en/ND-NamesDates.xml:2457
+#: Source/Guidelines/en/ND-NamesDates.xml:2461
 msgid "distance"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2361
+#: Source/Guidelines/en/ND-NamesDates.xml:2458
 msgid "the Two Hundredth and First Year"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2361
+#: Source/Guidelines/en/ND-NamesDates.xml:2458
 msgid "twenty minutes"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2361
+#: Source/Guidelines/en/ND-NamesDates.xml:2458
 msgid "an hour"
 msgstr ""
 
 #. (itstool) path: p/q
 #. (itstool) path: date/offset
-#: Source/Guidelines/en/ND-NamesDates.xml:2363
-#: Source/Guidelines/en/ND-NamesDates.xml:2375
-#: Source/Guidelines/en/ND-NamesDates.xml:2387
-#: Source/Guidelines/en/ND-NamesDates.xml:2394
+#: Source/Guidelines/en/ND-NamesDates.xml:2460
+#: Source/Guidelines/en/ND-NamesDates.xml:2472
+#: Source/Guidelines/en/ND-NamesDates.xml:2484
+#: Source/Guidelines/en/ND-NamesDates.xml:2491
 msgid "before"
 msgstr ""
 
 #. (itstool) path: p/q
 #. (itstool) path: time/offset
-#: Source/Guidelines/en/ND-NamesDates.xml:2363
-#: Source/Guidelines/en/ND-NamesDates.xml:2380
+#: Source/Guidelines/en/ND-NamesDates.xml:2460
+#: Source/Guidelines/en/ND-NamesDates.xml:2477
 msgid "after"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2356
+#: Source/Guidelines/en/ND-NamesDates.xml:2453
 msgid ""
 "As noted above, relative dates and times such as <_:q-1/>, <_:q-2/>, and, "
 "more ambiguously, <_:q-3/> or <_:q-4/> have two distinct components. As well "
@@ -6272,14 +6509,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2369
+#: Source/Guidelines/en/ND-NamesDates.xml:2466
 msgid ""
 "the third Sunday after the first Monday before Lammastide in the fifth year "
 "of the King's second marriage ..."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2364
+#: Source/Guidelines/en/ND-NamesDates.xml:2461
 msgid ""
 "The <_:soCalled-1/> component of a relative temporal expression may be "
 "encoded as a temporal element in its own right using either <_:gi-2/> or <_:"
@@ -6294,38 +6531,38 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2372
-#: Source/Guidelines/en/ND-NamesDates.xml:2480
+#: Source/Guidelines/en/ND-NamesDates.xml:2469
+#: Source/Guidelines/en/ND-NamesDates.xml:2577
 msgid "dur"
 msgstr ""
 
 #. (itstool) path: date/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2374
+#: Source/Guidelines/en/ND-NamesDates.xml:2471
 msgid "A fortnight"
 msgstr ""
 
 #. (itstool) path: date/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2376
+#: Source/Guidelines/en/ND-NamesDates.xml:2473
 msgid "Christmas 1786"
 msgstr ""
 
 #. (itstool) path: time/time
-#: Source/Guidelines/en/ND-NamesDates.xml:2379
+#: Source/Guidelines/en/ND-NamesDates.xml:2476
 msgid "precisely half an hour"
 msgstr ""
 
 #. (itstool) path: time/time
-#: Source/Guidelines/en/ND-NamesDates.xml:2381
+#: Source/Guidelines/en/ND-NamesDates.xml:2478
 msgid "the departure of the afternoon train to Boston"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2378
+#: Source/Guidelines/en/ND-NamesDates.xml:2475
 msgid "I reached the station <_:time-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2372
+#: Source/Guidelines/en/ND-NamesDates.xml:2469
 msgid ""
 "In the following examples, the <_:att-1/> and <_:att-2/> attributes have "
 "been used to simplify processing of variant forms of expression: <_:egXML-3/"
@@ -6334,41 +6571,41 @@ msgstr ""
 
 #. (itstool) path: p/q
 #. (itstool) path: date/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2383
-#: Source/Guidelines/en/ND-NamesDates.xml:2389
-#: Source/Guidelines/en/ND-NamesDates.xml:2395
+#: Source/Guidelines/en/ND-NamesDates.xml:2480
+#: Source/Guidelines/en/ND-NamesDates.xml:2486
+#: Source/Guidelines/en/ND-NamesDates.xml:2492
 msgid "my birthday"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2384
+#: Source/Guidelines/en/ND-NamesDates.xml:2481
 msgid "A week before my birthday on 9th December"
 msgstr ""
 
 #. (itstool) path: date/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2386
-#: Source/Guidelines/en/ND-NamesDates.xml:2393
+#: Source/Guidelines/en/ND-NamesDates.xml:2483
+#: Source/Guidelines/en/ND-NamesDates.xml:2490
 msgid "A week"
 msgstr ""
 
 #. (itstool) path: date/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2389
-#: Source/Guidelines/en/ND-NamesDates.xml:2395
+#: Source/Guidelines/en/ND-NamesDates.xml:2486
+#: Source/Guidelines/en/ND-NamesDates.xml:2492
 msgid "9th December"
 msgstr ""
 
 #. (itstool) path: date/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2388
+#: Source/Guidelines/en/ND-NamesDates.xml:2485
 msgid "<_:date-1/> on <_:date-2/>"
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2392
+#: Source/Guidelines/en/ND-NamesDates.xml:2489
 msgid "<_:date-1/> <_:offset-2/> <_:date-3/> on <_:date-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2383
+#: Source/Guidelines/en/ND-NamesDates.xml:2480
 msgid ""
 "In the following example, a nested <_:gi-1/> element is used to show that <_:"
 "q-2/> and the cited date are parts of the same temporal expression, and "
@@ -6377,31 +6614,31 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/ND-NamesDates.xml:2400
+#: Source/Guidelines/en/ND-NamesDates.xml:2497
 msgid "Scottish Temperance Review"
 msgstr ""
 
 #. (itstool) path: p/q
 #. (itstool) path: f/string
-#: Source/Guidelines/en/ND-NamesDates.xml:2401
-#: Source/Guidelines/en/ND-NamesDates.xml:2413
+#: Source/Guidelines/en/ND-NamesDates.xml:2498
+#: Source/Guidelines/en/ND-NamesDates.xml:2510
 msgid "the Fair"
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2402
+#: Source/Guidelines/en/ND-NamesDates.xml:2499
 msgid "during the Fair"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2402
+#: Source/Guidelines/en/ND-NamesDates.xml:2499
 msgid ""
 "Not only is the city, <_:date-1/>, a horrible nucleus of immorality and "
 "wickedness; it sends our multitudes to pollute and demoralize the country."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2398
+#: Source/Guidelines/en/ND-NamesDates.xml:2495
 msgid ""
 "Where more complex or ambiguous expressions are involved, and where it is "
 "desirable to make more explicit the interpretive processes required, the "
@@ -6412,27 +6649,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2405
+#: Source/Guidelines/en/ND-NamesDates.xml:2502
 msgid "ana"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/ND-NamesDates.xml:2411
+#: Source/Guidelines/en/ND-NamesDates.xml:2508
 msgid "date-analysis"
 msgstr ""
 
 #. (itstool) path: f/string
-#: Source/Guidelines/en/ND-NamesDates.xml:2416
+#: Source/Guidelines/en/ND-NamesDates.xml:2513
 msgid "1850-08-08"
 msgstr ""
 
 #. (itstool) path: f/string
-#: Source/Guidelines/en/ND-NamesDates.xml:2417
+#: Source/Guidelines/en/ND-NamesDates.xml:2514
 msgid "1850-09-19"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2405
+#: Source/Guidelines/en/ND-NamesDates.xml:2502
 msgid ""
 "For the definition of the <_:att-1/> attribute, see chapter <_:ptr-2/> (in "
 "particular <_:ptr-3/>). It is used here to link the temporal phrase with an "
@@ -6449,61 +6686,61 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2422
+#: Source/Guidelines/en/ND-NamesDates.xml:2519
 msgid "Absolute Dates and Times"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2424
+#: Source/Guidelines/en/ND-NamesDates.xml:2521
 msgid "The following are examples of absolute temporal expressions."
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2427
+#: Source/Guidelines/en/ND-NamesDates.xml:2524
 msgid "26 October 1775"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2426
+#: Source/Guidelines/en/ND-NamesDates.xml:2523
 msgid ""
 "The university's view of American affairs produced a stinging attack by "
 "Edmund Burke in the Commons debate of <_:date-1/>"
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2429
+#: Source/Guidelines/en/ND-NamesDates.xml:2526
 msgid "Friday, 14 May 1993"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2433
+#: Source/Guidelines/en/ND-NamesDates.xml:2530
 msgid "tea time"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2433
+#: Source/Guidelines/en/ND-NamesDates.xml:2530
 msgid "matins"
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2434
+#: Source/Guidelines/en/ND-NamesDates.xml:2531
 msgid "New Year's Day"
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2435
+#: Source/Guidelines/en/ND-NamesDates.xml:2532
 msgid "Independence Day"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2433
+#: Source/Guidelines/en/ND-NamesDates.xml:2530
 msgid ""
 "In New York, <_:date-1/> is the quietest of holidays, <_:date-2/> the most "
 "turbulent."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2432
+#: Source/Guidelines/en/ND-NamesDates.xml:2529
 msgid ""
 "It may be useful to categorize a temporal expression which is given in terms "
 "of a named event, such as a public holiday, or a named time such as <_:q-1/> "
@@ -6512,34 +6749,34 @@ msgstr ""
 
 #. (itstool) path: p/q
 #. (itstool) path: egXML/time
-#: Source/Guidelines/en/ND-NamesDates.xml:2457
-#: Source/Guidelines/en/ND-NamesDates.xml:2460
+#: Source/Guidelines/en/ND-NamesDates.xml:2554
+#: Source/Guidelines/en/ND-NamesDates.xml:2557
 msgid "sunset"
 msgstr ""
 
 #. (itstool) path: egXML/time
-#: Source/Guidelines/en/ND-NamesDates.xml:2459
+#: Source/Guidelines/en/ND-NamesDates.xml:2556
 msgid "13:45"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2458
-#: Source/Guidelines/en/ND-NamesDates.xml:2461
+#: Source/Guidelines/en/ND-NamesDates.xml:2555
+#: Source/Guidelines/en/ND-NamesDates.xml:2558
 msgid "The train leaves for Boston at <_:time-1/>"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/ND-NamesDates.xml:2460
+#: Source/Guidelines/en/ND-NamesDates.xml:2557
 msgid "At <_:time-1/> we walked to the beach."
 msgstr ""
 
 #. (itstool) path: egXML/time
-#: Source/Guidelines/en/ND-NamesDates.xml:2462
+#: Source/Guidelines/en/ND-NamesDates.xml:2559
 msgid "a quarter of two"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2456
+#: Source/Guidelines/en/ND-NamesDates.xml:2553
 msgid ""
 "Absolute temporal expressions denoting times which are given in terms of "
 "seconds, minutes, hours, or of well-defined events (e.g. <_:q-1/>, <_:q-2/>) "
@@ -6548,24 +6785,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2466
+#: Source/Guidelines/en/ND-NamesDates.xml:2563
 msgid "More Expressive Normalizations"
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/ND-NamesDates.xml:2468
+#: Source/Guidelines/en/ND-NamesDates.xml:2565
 msgid "XML Schema Part 2: Datatypes Second Edition"
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/ND-NamesDates.xml:2469
+#: Source/Guidelines/en/ND-NamesDates.xml:2566
 msgid ""
 "Data elements and interchange formats — Information interchange — "
 "Representation of dates and times"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2467
+#: Source/Guidelines/en/ND-NamesDates.xml:2564
 msgid ""
 "The attributes for normalization of dates and times so far described use a "
 "standard format defined by <_:title-1/>. This format is widely accepted and "
@@ -6577,21 +6814,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2481
-#: Source/Guidelines/en/ND-NamesDates.xml:2482
-#: Source/Guidelines/en/ND-NamesDates.xml:2484
-#: Source/Guidelines/en/ND-NamesDates.xml:2486
-#: Source/Guidelines/en/ND-NamesDates.xml:2487
+#: Source/Guidelines/en/ND-NamesDates.xml:2578
+#: Source/Guidelines/en/ND-NamesDates.xml:2579
+#: Source/Guidelines/en/ND-NamesDates.xml:2581
+#: Source/Guidelines/en/ND-NamesDates.xml:2583
+#: Source/Guidelines/en/ND-NamesDates.xml:2584
 msgid "fourteenth century"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2483
+#: Source/Guidelines/en/ND-NamesDates.xml:2580
 msgid "when-iso"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2474
+#: Source/Guidelines/en/ND-NamesDates.xml:2571
 msgid ""
 "When this module is included in a schema, the following additional "
 "attributes are provided: <_:specList-1/> These attributes may be used in "
@@ -6605,12 +6842,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2508
+#: Source/Guidelines/en/ND-NamesDates.xml:2605
 msgid "Using Non-Gregorian Calendars"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2509
+#: Source/Guidelines/en/ND-NamesDates.xml:2606
 msgid ""
 "All date-related encoding described above makes use of the Gregorian "
 "calendar, on which both the ISO and W3C datetime formats are based. However, "
@@ -6621,34 +6858,34 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2514
+#: Source/Guidelines/en/ND-NamesDates.xml:2611
 msgid "teiHeader"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2514
+#: Source/Guidelines/en/ND-NamesDates.xml:2611
 msgid ""
 "First, a Calendar Description element needs to be supplied in the <_:gi-1/> "
 "as described in <_:ptr-2/>:"
 msgstr ""
 
 #. (itstool) path: calendar/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2519
+#: Source/Guidelines/en/ND-NamesDates.xml:2616
 msgid "The Julian calendar, as used in late 16th-century England."
 msgstr ""
 
 #. (itstool) path: p/hi
-#: Source/Guidelines/en/ND-NamesDates.xml:2529
+#: Source/Guidelines/en/ND-NamesDates.xml:2626
 msgid "Giles"
 msgstr ""
 
 #. (itstool) path: p/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2530
+#: Source/Guidelines/en/ND-NamesDates.xml:2627
 msgid "1244"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2529
+#: Source/Guidelines/en/ND-NamesDates.xml:2626
 msgid ""
 "The Poole by S. <_:hi-1/> Churchyarde was a large water in the yeare <_:"
 "date-2/>."
@@ -6656,14 +6893,14 @@ msgstr ""
 
 #. (itstool) path: p/att
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/ND-NamesDates.xml:2531
-#: Source/Guidelines/en/ND-NamesDates.xml:2534
-#: Source/Guidelines/en/ND-NamesDates.xml:2544
+#: Source/Guidelines/en/ND-NamesDates.xml:2628
+#: Source/Guidelines/en/ND-NamesDates.xml:2631
+#: Source/Guidelines/en/ND-NamesDates.xml:2641
 msgid "calendar"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2523
+#: Source/Guidelines/en/ND-NamesDates.xml:2620
 msgid ""
 "The following attributes can now be used to encode dates using this "
 "calendar: <_:specList-1/> <_:egXML-2/> Here, the <_:att-3/> attribute points "
@@ -6672,30 +6909,30 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/emph
-#: Source/Guidelines/en/ND-NamesDates.xml:2534
+#: Source/Guidelines/en/ND-NamesDates.xml:2631
 msgid "text content"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/ND-NamesDates.xml:2538
+#: Source/Guidelines/en/ND-NamesDates.xml:2635
 msgid "-custom"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2538
-#: Source/Guidelines/en/ND-NamesDates.xml:2545
+#: Source/Guidelines/en/ND-NamesDates.xml:2635
+#: Source/Guidelines/en/ND-NamesDates.xml:2642
 msgid "datingMethod"
 msgstr ""
 
 #. (itstool) path: head/date
 #. (itstool) path: egXML/date
-#: Source/Guidelines/en/ND-NamesDates.xml:2542
-#: Source/Guidelines/en/ND-NamesDates.xml:2553
+#: Source/Guidelines/en/ND-NamesDates.xml:2639
+#: Source/Guidelines/en/ND-NamesDates.xml:2650
 msgid "30. of October, 1620."
 msgstr ""
 
 #. (itstool) path: egXML/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2540
+#: Source/Guidelines/en/ND-NamesDates.xml:2637
 msgid ""
 "The Tryumphs of Peace.<_:lb-1/> That Celebrated the Solemnity of the right "
 "Honorable Sr Francis Iones Knight, at his Inauguration into the Maioraltie "
@@ -6703,12 +6940,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/ND-NamesDates.xml:2546
+#: Source/Guidelines/en/ND-NamesDates.xml:2643
 msgid "when-custom"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2534
+#: Source/Guidelines/en/ND-NamesDates.xml:2631
 msgid ""
 "The <_:att-1/> attribute is used to specify the calendar used in the <_:"
 "emph-2/> of the dating element which bears it. However, just as we use, for "
@@ -6728,7 +6965,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2550
+#: Source/Guidelines/en/ND-NamesDates.xml:2647
 msgid ""
 "Custom dating attributes can be combined with any of the standard dating "
 "attributes in order to provide a standardized Gregorian version of a non-"
@@ -6738,47 +6975,47 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/ND-NamesDates.xml:2562
+#: Source/Guidelines/en/ND-NamesDates.xml:2659
 msgid "Module for Names and Dates"
 msgstr ""
 
 #. (itstool) path: moduleSpec/altIdent
-#: Source/Guidelines/en/ND-NamesDates.xml:2564
+#: Source/Guidelines/en/ND-NamesDates.xml:2661
 msgid "Names, dates, persons and places"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/ND-NamesDates.xml:2565
+#: Source/Guidelines/en/ND-NamesDates.xml:2662
 msgid "Names and dates"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/ND-NamesDates.xml:2566
+#: Source/Guidelines/en/ND-NamesDates.xml:2663
 msgid "Noms, dates, personnes et lieux"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/ND-NamesDates.xml:2567
+#: Source/Guidelines/en/ND-NamesDates.xml:2664
 msgid "名稱與日期"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/ND-NamesDates.xml:2568
+#: Source/Guidelines/en/ND-NamesDates.xml:2665
 msgid "Nomi e date"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/ND-NamesDates.xml:2569
+#: Source/Guidelines/en/ND-NamesDates.xml:2666
 msgid "Nomes e datas"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/ND-NamesDates.xml:2570
+#: Source/Guidelines/en/ND-NamesDates.xml:2667
 msgid "名前モジュール"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/ND-NamesDates.xml:2563
+#: Source/Guidelines/en/ND-NamesDates.xml:2660
 msgid ""
 "The module described in this chapter makes available the following "
 "components: <_:moduleSpec-1/> The selection and combination of modules to "

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-01-12 14:30+0900\n"
+"POT-Creation-Date: 2019-02-14 21:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,24 +140,24 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:67
 #: Source/Guidelines/en/PH-PrimarySources.xml:674
 #: Source/Guidelines/en/PH-PrimarySources.xml:675
-#: Source/Guidelines/en/PH-PrimarySources.xml:2050
-#: Source/Guidelines/en/PH-PrimarySources.xml:2152
-#: Source/Guidelines/en/PH-PrimarySources.xml:2704
-#: Source/Guidelines/en/PH-PrimarySources.xml:2710
-#: Source/Guidelines/en/PH-PrimarySources.xml:2716
-#: Source/Guidelines/en/PH-PrimarySources.xml:2743
-#: Source/Guidelines/en/PH-PrimarySources.xml:2755
-#: Source/Guidelines/en/PH-PrimarySources.xml:2776
-#: Source/Guidelines/en/PH-PrimarySources.xml:2791
-#: Source/Guidelines/en/PH-PrimarySources.xml:2819
-#: Source/Guidelines/en/PH-PrimarySources.xml:2824
+#: Source/Guidelines/en/PH-PrimarySources.xml:2052
+#: Source/Guidelines/en/PH-PrimarySources.xml:2154
+#: Source/Guidelines/en/PH-PrimarySources.xml:2706
+#: Source/Guidelines/en/PH-PrimarySources.xml:2712
+#: Source/Guidelines/en/PH-PrimarySources.xml:2718
+#: Source/Guidelines/en/PH-PrimarySources.xml:2745
+#: Source/Guidelines/en/PH-PrimarySources.xml:2757
+#: Source/Guidelines/en/PH-PrimarySources.xml:2778
+#: Source/Guidelines/en/PH-PrimarySources.xml:2793
+#: Source/Guidelines/en/PH-PrimarySources.xml:2821
 #: Source/Guidelines/en/PH-PrimarySources.xml:2826
-#: Source/Guidelines/en/PH-PrimarySources.xml:2827
 #: Source/Guidelines/en/PH-PrimarySources.xml:2828
+#: Source/Guidelines/en/PH-PrimarySources.xml:2829
 #: Source/Guidelines/en/PH-PrimarySources.xml:2830
-#: Source/Guidelines/en/PH-PrimarySources.xml:2844
-#: Source/Guidelines/en/PH-PrimarySources.xml:2911
-#: Source/Guidelines/en/PH-PrimarySources.xml:2963
+#: Source/Guidelines/en/PH-PrimarySources.xml:2832
+#: Source/Guidelines/en/PH-PrimarySources.xml:2846
+#: Source/Guidelines/en/PH-PrimarySources.xml:2913
+#: Source/Guidelines/en/PH-PrimarySources.xml:2965
 msgid "change"
 msgstr ""
 
@@ -176,9 +176,9 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:73
 #: Source/Guidelines/en/PH-PrimarySources.xml:86
 #: Source/Guidelines/en/PH-PrimarySources.xml:87
-#: Source/Guidelines/en/PH-PrimarySources.xml:1789
-#: Source/Guidelines/en/PH-PrimarySources.xml:1790
-#: Source/Guidelines/en/PH-PrimarySources.xml:2668
+#: Source/Guidelines/en/PH-PrimarySources.xml:1791
+#: Source/Guidelines/en/PH-PrimarySources.xml:1792
+#: Source/Guidelines/en/PH-PrimarySources.xml:2670
 msgid "pb"
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:433
 #: Source/Guidelines/en/PH-PrimarySources.xml:543
 #: Source/Guidelines/en/PH-PrimarySources.xml:558
-#: Source/Guidelines/en/PH-PrimarySources.xml:2518
+#: Source/Guidelines/en/PH-PrimarySources.xml:2520
 msgid "sourceDoc"
 msgstr ""
 
@@ -261,14 +261,14 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:627
 #: Source/Guidelines/en/PH-PrimarySources.xml:629
 #: Source/Guidelines/en/PH-PrimarySources.xml:678
-#: Source/Guidelines/en/PH-PrimarySources.xml:2398
 #: Source/Guidelines/en/PH-PrimarySources.xml:2400
-#: Source/Guidelines/en/PH-PrimarySources.xml:2406
-#: Source/Guidelines/en/PH-PrimarySources.xml:2414
-#: Source/Guidelines/en/PH-PrimarySources.xml:2436
-#: Source/Guidelines/en/PH-PrimarySources.xml:2458
-#: Source/Guidelines/en/PH-PrimarySources.xml:2519
-#: Source/Guidelines/en/PH-PrimarySources.xml:2543
+#: Source/Guidelines/en/PH-PrimarySources.xml:2402
+#: Source/Guidelines/en/PH-PrimarySources.xml:2408
+#: Source/Guidelines/en/PH-PrimarySources.xml:2416
+#: Source/Guidelines/en/PH-PrimarySources.xml:2438
+#: Source/Guidelines/en/PH-PrimarySources.xml:2460
+#: Source/Guidelines/en/PH-PrimarySources.xml:2521
+#: Source/Guidelines/en/PH-PrimarySources.xml:2545
 msgid "surface"
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:174
 #: Source/Guidelines/en/PH-PrimarySources.xml:188
 #: Source/Guidelines/en/PH-PrimarySources.xml:542
-#: Source/Guidelines/en/PH-PrimarySources.xml:2519
+#: Source/Guidelines/en/PH-PrimarySources.xml:2521
 msgid "surfaceGrp"
 msgstr ""
 
@@ -298,11 +298,11 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:620
 #: Source/Guidelines/en/PH-PrimarySources.xml:678
 #: Source/Guidelines/en/PH-PrimarySources.xml:679
-#: Source/Guidelines/en/PH-PrimarySources.xml:2398
-#: Source/Guidelines/en/PH-PrimarySources.xml:2416
-#: Source/Guidelines/en/PH-PrimarySources.xml:2433
-#: Source/Guidelines/en/PH-PrimarySources.xml:2490
-#: Source/Guidelines/en/PH-PrimarySources.xml:2504
+#: Source/Guidelines/en/PH-PrimarySources.xml:2400
+#: Source/Guidelines/en/PH-PrimarySources.xml:2418
+#: Source/Guidelines/en/PH-PrimarySources.xml:2435
+#: Source/Guidelines/en/PH-PrimarySources.xml:2492
+#: Source/Guidelines/en/PH-PrimarySources.xml:2506
 msgid "zone"
 msgstr ""
 
@@ -342,8 +342,8 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:431
 #: Source/Guidelines/en/PH-PrimarySources.xml:432
 #: Source/Guidelines/en/PH-PrimarySources.xml:679
-#: Source/Guidelines/en/PH-PrimarySources.xml:2226
-#: Source/Guidelines/en/PH-PrimarySources.xml:2566
+#: Source/Guidelines/en/PH-PrimarySources.xml:2228
+#: Source/Guidelines/en/PH-PrimarySources.xml:2568
 msgid "text"
 msgstr ""
 
@@ -416,7 +416,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:352
 #: Source/Guidelines/en/PH-PrimarySources.xml:354
 #: Source/Guidelines/en/PH-PrimarySources.xml:619
-#: Source/Guidelines/en/PH-PrimarySources.xml:2505
+#: Source/Guidelines/en/PH-PrimarySources.xml:2507
 msgid "graphic"
 msgstr ""
 
@@ -564,8 +564,8 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:224
 #: Source/Guidelines/en/PH-PrimarySources.xml:342
 #: Source/Guidelines/en/PH-PrimarySources.xml:369
-#: Source/Guidelines/en/PH-PrimarySources.xml:2464
-#: Source/Guidelines/en/PH-PrimarySources.xml:2468
+#: Source/Guidelines/en/PH-PrimarySources.xml:2466
+#: Source/Guidelines/en/PH-PrimarySources.xml:2470
 msgid "points"
 msgstr ""
 
@@ -902,7 +902,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:475
 #: Source/Guidelines/en/PH-PrimarySources.xml:476
 #: Source/Guidelines/en/PH-PrimarySources.xml:766
-#: Source/Guidelines/en/PH-PrimarySources.xml:2667
+#: Source/Guidelines/en/PH-PrimarySources.xml:2669
 msgid "n"
 msgstr ""
 
@@ -979,17 +979,17 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:551
 #: Source/Guidelines/en/PH-PrimarySources.xml:555
 #: Source/Guidelines/en/PH-PrimarySources.xml:681
-#: Source/Guidelines/en/PH-PrimarySources.xml:1977
-#: Source/Guidelines/en/PH-PrimarySources.xml:2223
-#: Source/Guidelines/en/PH-PrimarySources.xml:2435
+#: Source/Guidelines/en/PH-PrimarySources.xml:1979
+#: Source/Guidelines/en/PH-PrimarySources.xml:2225
 #: Source/Guidelines/en/PH-PrimarySources.xml:2437
+#: Source/Guidelines/en/PH-PrimarySources.xml:2439
 msgid "line"
 msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:553
-#: Source/Guidelines/en/PH-PrimarySources.xml:2222
-#: Source/Guidelines/en/PH-PrimarySources.xml:2265
+#: Source/Guidelines/en/PH-PrimarySources.xml:2224
+#: Source/Guidelines/en/PH-PrimarySources.xml:2267
 msgid "seg"
 msgstr ""
 
@@ -1109,45 +1109,45 @@ msgstr ""
 
 #. (itstool) path: zone/line
 #: Source/Guidelines/en/PH-PrimarySources.xml:595
-#: Source/Guidelines/en/PH-PrimarySources.xml:2420
-#: Source/Guidelines/en/PH-PrimarySources.xml:2446
+#: Source/Guidelines/en/PH-PrimarySources.xml:2422
+#: Source/Guidelines/en/PH-PrimarySources.xml:2448
 msgid "Poem"
 msgstr ""
 
 #. (itstool) path: zone/line
 #: Source/Guidelines/en/PH-PrimarySources.xml:596
-#: Source/Guidelines/en/PH-PrimarySources.xml:2421
+#: Source/Guidelines/en/PH-PrimarySources.xml:2423
 msgid "As in Visions of — at"
 msgstr ""
 
 #. (itstool) path: zone/line
 #: Source/Guidelines/en/PH-PrimarySources.xml:597
-#: Source/Guidelines/en/PH-PrimarySources.xml:2422
+#: Source/Guidelines/en/PH-PrimarySources.xml:2424
 msgid "night —"
 msgstr ""
 
 #. (itstool) path: zone/line
 #: Source/Guidelines/en/PH-PrimarySources.xml:598
-#: Source/Guidelines/en/PH-PrimarySources.xml:2423
+#: Source/Guidelines/en/PH-PrimarySources.xml:2425
 msgid "All sorts of fancies running through"
 msgstr ""
 
 #. (itstool) path: zone/line
 #: Source/Guidelines/en/PH-PrimarySources.xml:599
-#: Source/Guidelines/en/PH-PrimarySources.xml:2424
-#: Source/Guidelines/en/PH-PrimarySources.xml:2448
+#: Source/Guidelines/en/PH-PrimarySources.xml:2426
+#: Source/Guidelines/en/PH-PrimarySources.xml:2450
 msgid "the head"
 msgstr ""
 
 #. (itstool) path: surface/zone
 #: Source/Guidelines/en/PH-PrimarySources.xml:603
-#: Source/Guidelines/en/PH-PrimarySources.xml:2428
+#: Source/Guidelines/en/PH-PrimarySources.xml:2430
 msgid "Spring has just set in here, and the weather[...] a steamer"
 msgstr ""
 
 #. (itstool) path: surface/metamark
 #: Source/Guidelines/en/PH-PrimarySources.xml:604
-#: Source/Guidelines/en/PH-PrimarySources.xml:2429
+#: Source/Guidelines/en/PH-PrimarySources.xml:2431
 msgid "2"
 msgstr ""
 
@@ -1171,13 +1171,13 @@ msgstr ""
 #. (itstool) path: p/gi
 #. (itstool) path: p/term
 #: Source/Guidelines/en/PH-PrimarySources.xml:617
-#: Source/Guidelines/en/PH-PrimarySources.xml:1996
-#: Source/Guidelines/en/PH-PrimarySources.xml:2014
-#: Source/Guidelines/en/PH-PrimarySources.xml:2021
-#: Source/Guidelines/en/PH-PrimarySources.xml:2054
-#: Source/Guidelines/en/PH-PrimarySources.xml:2065
-#: Source/Guidelines/en/PH-PrimarySources.xml:2602
-#: Source/Guidelines/en/PH-PrimarySources.xml:2653
+#: Source/Guidelines/en/PH-PrimarySources.xml:1998
+#: Source/Guidelines/en/PH-PrimarySources.xml:2016
+#: Source/Guidelines/en/PH-PrimarySources.xml:2023
+#: Source/Guidelines/en/PH-PrimarySources.xml:2056
+#: Source/Guidelines/en/PH-PrimarySources.xml:2067
+#: Source/Guidelines/en/PH-PrimarySources.xml:2604
+#: Source/Guidelines/en/PH-PrimarySources.xml:2655
 msgid "metamark"
 msgstr ""
 
@@ -1306,8 +1306,8 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:672
-#: Source/Guidelines/en/PH-PrimarySources.xml:1967
-#: Source/Guidelines/en/PH-PrimarySources.xml:1971
+#: Source/Guidelines/en/PH-PrimarySources.xml:1969
+#: Source/Guidelines/en/PH-PrimarySources.xml:1973
 msgid "mod"
 msgstr ""
 
@@ -1324,27 +1324,27 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1335
 #: Source/Guidelines/en/PH-PrimarySources.xml:1339
 #: Source/Guidelines/en/PH-PrimarySources.xml:1344
-#: Source/Guidelines/en/PH-PrimarySources.xml:1855
-#: Source/Guidelines/en/PH-PrimarySources.xml:1858
-#: Source/Guidelines/en/PH-PrimarySources.xml:1867
-#: Source/Guidelines/en/PH-PrimarySources.xml:1883
-#: Source/Guidelines/en/PH-PrimarySources.xml:1892
-#: Source/Guidelines/en/PH-PrimarySources.xml:1903
-#: Source/Guidelines/en/PH-PrimarySources.xml:1911
-#: Source/Guidelines/en/PH-PrimarySources.xml:1918
-#: Source/Guidelines/en/PH-PrimarySources.xml:1923
-#: Source/Guidelines/en/PH-PrimarySources.xml:1929
-#: Source/Guidelines/en/PH-PrimarySources.xml:2064
-#: Source/Guidelines/en/PH-PrimarySources.xml:2220
-#: Source/Guidelines/en/PH-PrimarySources.xml:2355
-#: Source/Guidelines/en/PH-PrimarySources.xml:2603
-#: Source/Guidelines/en/PH-PrimarySources.xml:2849
+#: Source/Guidelines/en/PH-PrimarySources.xml:1857
+#: Source/Guidelines/en/PH-PrimarySources.xml:1860
+#: Source/Guidelines/en/PH-PrimarySources.xml:1869
+#: Source/Guidelines/en/PH-PrimarySources.xml:1885
+#: Source/Guidelines/en/PH-PrimarySources.xml:1894
+#: Source/Guidelines/en/PH-PrimarySources.xml:1905
+#: Source/Guidelines/en/PH-PrimarySources.xml:1913
+#: Source/Guidelines/en/PH-PrimarySources.xml:1920
+#: Source/Guidelines/en/PH-PrimarySources.xml:1925
+#: Source/Guidelines/en/PH-PrimarySources.xml:1931
+#: Source/Guidelines/en/PH-PrimarySources.xml:2066
+#: Source/Guidelines/en/PH-PrimarySources.xml:2222
+#: Source/Guidelines/en/PH-PrimarySources.xml:2357
+#: Source/Guidelines/en/PH-PrimarySources.xml:2605
+#: Source/Guidelines/en/PH-PrimarySources.xml:2851
 msgid "del"
 msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:676
-#: Source/Guidelines/en/PH-PrimarySources.xml:2714
+#: Source/Guidelines/en/PH-PrimarySources.xml:2716
 msgid "creation"
 msgstr ""
 
@@ -1588,8 +1588,8 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:809
 #: Source/Guidelines/en/PH-PrimarySources.xml:828
 #: Source/Guidelines/en/PH-PrimarySources.xml:833
-#: Source/Guidelines/en/PH-PrimarySources.xml:2142
-#: Source/Guidelines/en/PH-PrimarySources.xml:2150
+#: Source/Guidelines/en/PH-PrimarySources.xml:2144
+#: Source/Guidelines/en/PH-PrimarySources.xml:2152
 msgid "er"
 msgstr ""
 
@@ -1685,7 +1685,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:932
 #: Source/Guidelines/en/PH-PrimarySources.xml:984
 #: Source/Guidelines/en/PH-PrimarySources.xml:985
-#: Source/Guidelines/en/PH-PrimarySources.xml:1828
+#: Source/Guidelines/en/PH-PrimarySources.xml:1830
 msgid "choice"
 msgstr ""
 
@@ -1817,10 +1817,10 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:957
 #: Source/Guidelines/en/PH-PrimarySources.xml:960
 #: Source/Guidelines/en/PH-PrimarySources.xml:983
-#: Source/Guidelines/en/PH-PrimarySources.xml:1732
-#: Source/Guidelines/en/PH-PrimarySources.xml:2643
-#: Source/Guidelines/en/PH-PrimarySources.xml:2650
-#: Source/Guidelines/en/PH-PrimarySources.xml:2686
+#: Source/Guidelines/en/PH-PrimarySources.xml:1734
+#: Source/Guidelines/en/PH-PrimarySources.xml:2645
+#: Source/Guidelines/en/PH-PrimarySources.xml:2652
+#: Source/Guidelines/en/PH-PrimarySources.xml:2688
 msgid "note"
 msgstr ""
 
@@ -1843,17 +1843,17 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1648
 #: Source/Guidelines/en/PH-PrimarySources.xml:1652
 #: Source/Guidelines/en/PH-PrimarySources.xml:1655
-#: Source/Guidelines/en/PH-PrimarySources.xml:1665
-#: Source/Guidelines/en/PH-PrimarySources.xml:1669
-#: Source/Guidelines/en/PH-PrimarySources.xml:1672
-#: Source/Guidelines/en/PH-PrimarySources.xml:1675
-#: Source/Guidelines/en/PH-PrimarySources.xml:1679
-#: Source/Guidelines/en/PH-PrimarySources.xml:1709
-#: Source/Guidelines/en/PH-PrimarySources.xml:1714
-#: Source/Guidelines/en/PH-PrimarySources.xml:1723
-#: Source/Guidelines/en/PH-PrimarySources.xml:1724
-#: Source/Guidelines/en/PH-PrimarySources.xml:1733
-#: Source/Guidelines/en/PH-PrimarySources.xml:1823
+#: Source/Guidelines/en/PH-PrimarySources.xml:1667
+#: Source/Guidelines/en/PH-PrimarySources.xml:1671
+#: Source/Guidelines/en/PH-PrimarySources.xml:1674
+#: Source/Guidelines/en/PH-PrimarySources.xml:1677
+#: Source/Guidelines/en/PH-PrimarySources.xml:1681
+#: Source/Guidelines/en/PH-PrimarySources.xml:1711
+#: Source/Guidelines/en/PH-PrimarySources.xml:1716
+#: Source/Guidelines/en/PH-PrimarySources.xml:1725
+#: Source/Guidelines/en/PH-PrimarySources.xml:1726
+#: Source/Guidelines/en/PH-PrimarySources.xml:1735
+#: Source/Guidelines/en/PH-PrimarySources.xml:1825
 msgid "resp"
 msgstr ""
 
@@ -1866,18 +1866,18 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:962
 #: Source/Guidelines/en/PH-PrimarySources.xml:1065
 #: Source/Guidelines/en/PH-PrimarySources.xml:1521
-#: Source/Guidelines/en/PH-PrimarySources.xml:1665
-#: Source/Guidelines/en/PH-PrimarySources.xml:1670
-#: Source/Guidelines/en/PH-PrimarySources.xml:1673
+#: Source/Guidelines/en/PH-PrimarySources.xml:1667
+#: Source/Guidelines/en/PH-PrimarySources.xml:1672
 #: Source/Guidelines/en/PH-PrimarySources.xml:1675
-#: Source/Guidelines/en/PH-PrimarySources.xml:1679
-#: Source/Guidelines/en/PH-PrimarySources.xml:1710
-#: Source/Guidelines/en/PH-PrimarySources.xml:1714
-#: Source/Guidelines/en/PH-PrimarySources.xml:1723
-#: Source/Guidelines/en/PH-PrimarySources.xml:1724
-#: Source/Guidelines/en/PH-PrimarySources.xml:1733
-#: Source/Guidelines/en/PH-PrimarySources.xml:1851
-#: Source/Guidelines/en/PH-PrimarySources.xml:1879
+#: Source/Guidelines/en/PH-PrimarySources.xml:1677
+#: Source/Guidelines/en/PH-PrimarySources.xml:1681
+#: Source/Guidelines/en/PH-PrimarySources.xml:1712
+#: Source/Guidelines/en/PH-PrimarySources.xml:1716
+#: Source/Guidelines/en/PH-PrimarySources.xml:1725
+#: Source/Guidelines/en/PH-PrimarySources.xml:1726
+#: Source/Guidelines/en/PH-PrimarySources.xml:1735
+#: Source/Guidelines/en/PH-PrimarySources.xml:1853
+#: Source/Guidelines/en/PH-PrimarySources.xml:1881
 msgid "cert"
 msgstr ""
 
@@ -2034,7 +2034,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1068
 #: Source/Guidelines/en/PH-PrimarySources.xml:1072
 #: Source/Guidelines/en/PH-PrimarySources.xml:1652
-#: Source/Guidelines/en/PH-PrimarySources.xml:1714
+#: Source/Guidelines/en/PH-PrimarySources.xml:1716
 msgid "corr"
 msgstr ""
 
@@ -2142,8 +2142,8 @@ msgstr ""
 #. (itstool) path: p/emph
 #. (itstool) path: line/add
 #: Source/Guidelines/en/PH-PrimarySources.xml:916
-#: Source/Guidelines/en/PH-PrimarySources.xml:2216
-#: Source/Guidelines/en/PH-PrimarySources.xml:2228
+#: Source/Guidelines/en/PH-PrimarySources.xml:2218
+#: Source/Guidelines/en/PH-PrimarySources.xml:2230
 msgid "not"
 msgstr ""
 
@@ -2159,14 +2159,14 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1344
 #: Source/Guidelines/en/PH-PrimarySources.xml:1627
 #: Source/Guidelines/en/PH-PrimarySources.xml:1648
-#: Source/Guidelines/en/PH-PrimarySources.xml:1683
-#: Source/Guidelines/en/PH-PrimarySources.xml:1903
-#: Source/Guidelines/en/PH-PrimarySources.xml:1906
-#: Source/Guidelines/en/PH-PrimarySources.xml:1918
-#: Source/Guidelines/en/PH-PrimarySources.xml:1923
-#: Source/Guidelines/en/PH-PrimarySources.xml:1961
-#: Source/Guidelines/en/PH-PrimarySources.xml:2355
-#: Source/Guidelines/en/PH-PrimarySources.xml:2849
+#: Source/Guidelines/en/PH-PrimarySources.xml:1685
+#: Source/Guidelines/en/PH-PrimarySources.xml:1905
+#: Source/Guidelines/en/PH-PrimarySources.xml:1908
+#: Source/Guidelines/en/PH-PrimarySources.xml:1920
+#: Source/Guidelines/en/PH-PrimarySources.xml:1925
+#: Source/Guidelines/en/PH-PrimarySources.xml:1963
+#: Source/Guidelines/en/PH-PrimarySources.xml:2357
+#: Source/Guidelines/en/PH-PrimarySources.xml:2851
 msgid "add"
 msgstr ""
 
@@ -2177,7 +2177,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1302
 #: Source/Guidelines/en/PH-PrimarySources.xml:1339
 #: Source/Guidelines/en/PH-PrimarySources.xml:1343
-#: Source/Guidelines/en/PH-PrimarySources.xml:1932
+#: Source/Guidelines/en/PH-PrimarySources.xml:1934
 msgid "subst"
 msgstr ""
 
@@ -2198,14 +2198,14 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1414
 #: Source/Guidelines/en/PH-PrimarySources.xml:1498
 #: Source/Guidelines/en/PH-PrimarySources.xml:1509
-#: Source/Guidelines/en/PH-PrimarySources.xml:1749
-#: Source/Guidelines/en/PH-PrimarySources.xml:1825
-#: Source/Guidelines/en/PH-PrimarySources.xml:1828
-#: Source/Guidelines/en/PH-PrimarySources.xml:1831
-#: Source/Guidelines/en/PH-PrimarySources.xml:1856
-#: Source/Guidelines/en/PH-PrimarySources.xml:1857
-#: Source/Guidelines/en/PH-PrimarySources.xml:1872
-#: Source/Guidelines/en/PH-PrimarySources.xml:2585
+#: Source/Guidelines/en/PH-PrimarySources.xml:1751
+#: Source/Guidelines/en/PH-PrimarySources.xml:1827
+#: Source/Guidelines/en/PH-PrimarySources.xml:1830
+#: Source/Guidelines/en/PH-PrimarySources.xml:1833
+#: Source/Guidelines/en/PH-PrimarySources.xml:1858
+#: Source/Guidelines/en/PH-PrimarySources.xml:1859
+#: Source/Guidelines/en/PH-PrimarySources.xml:1874
+#: Source/Guidelines/en/PH-PrimarySources.xml:2587
 msgid "supplied"
 msgstr ""
 
@@ -2267,9 +2267,9 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1129
 #: Source/Guidelines/en/PH-PrimarySources.xml:1132
 #: Source/Guidelines/en/PH-PrimarySources.xml:1135
-#: Source/Guidelines/en/PH-PrimarySources.xml:1733
-#: Source/Guidelines/en/PH-PrimarySources.xml:1971
-#: Source/Guidelines/en/PH-PrimarySources.xml:2633
+#: Source/Guidelines/en/PH-PrimarySources.xml:1735
+#: Source/Guidelines/en/PH-PrimarySources.xml:1973
+#: Source/Guidelines/en/PH-PrimarySources.xml:2635
 msgid "type"
 msgstr ""
 
@@ -2291,9 +2291,9 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1028
 #: Source/Guidelines/en/PH-PrimarySources.xml:1047
 #: Source/Guidelines/en/PH-PrimarySources.xml:1059
-#: Source/Guidelines/en/PH-PrimarySources.xml:1711
-#: Source/Guidelines/en/PH-PrimarySources.xml:1716
+#: Source/Guidelines/en/PH-PrimarySources.xml:1713
 #: Source/Guidelines/en/PH-PrimarySources.xml:1718
+#: Source/Guidelines/en/PH-PrimarySources.xml:1720
 msgid "wight"
 msgstr ""
 
@@ -2306,9 +2306,9 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:972
 #: Source/Guidelines/en/PH-PrimarySources.xml:1048
 #: Source/Guidelines/en/PH-PrimarySources.xml:1060
-#: Source/Guidelines/en/PH-PrimarySources.xml:1712
-#: Source/Guidelines/en/PH-PrimarySources.xml:1716
+#: Source/Guidelines/en/PH-PrimarySources.xml:1714
 #: Source/Guidelines/en/PH-PrimarySources.xml:1718
+#: Source/Guidelines/en/PH-PrimarySources.xml:1720
 msgid "wright"
 msgstr ""
 
@@ -2340,19 +2340,19 @@ msgstr ""
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:956
 #: Source/Guidelines/en/PH-PrimarySources.xml:1231
-#: Source/Guidelines/en/PH-PrimarySources.xml:1780
+#: Source/Guidelines/en/PH-PrimarySources.xml:1782
 msgid "div"
 msgstr ""
 
 #. (itstool) path: p/att
 #: Source/Guidelines/en/PH-PrimarySources.xml:960
 #: Source/Guidelines/en/PH-PrimarySources.xml:983
-#: Source/Guidelines/en/PH-PrimarySources.xml:2018
-#: Source/Guidelines/en/PH-PrimarySources.xml:2199
-#: Source/Guidelines/en/PH-PrimarySources.xml:2219
-#: Source/Guidelines/en/PH-PrimarySources.xml:2224
-#: Source/Guidelines/en/PH-PrimarySources.xml:2321
-#: Source/Guidelines/en/PH-PrimarySources.xml:2825
+#: Source/Guidelines/en/PH-PrimarySources.xml:2020
+#: Source/Guidelines/en/PH-PrimarySources.xml:2201
+#: Source/Guidelines/en/PH-PrimarySources.xml:2221
+#: Source/Guidelines/en/PH-PrimarySources.xml:2226
+#: Source/Guidelines/en/PH-PrimarySources.xml:2323
+#: Source/Guidelines/en/PH-PrimarySources.xml:2827
 msgid "target"
 msgstr ""
 
@@ -2549,7 +2549,9 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1070
 #: Source/Guidelines/en/PH-PrimarySources.xml:1503
 #: Source/Guidelines/en/PH-PrimarySources.xml:1507
-#: Source/Guidelines/en/PH-PrimarySources.xml:2590
+#: Source/Guidelines/en/PH-PrimarySources.xml:1658
+#: Source/Guidelines/en/PH-PrimarySources.xml:1660
+#: Source/Guidelines/en/PH-PrimarySources.xml:2592
 msgid "source"
 msgstr ""
 
@@ -2587,7 +2589,7 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:1034
-#: Source/Guidelines/en/PH-PrimarySources.xml:2570
+#: Source/Guidelines/en/PH-PrimarySources.xml:2572
 msgid "msDesc"
 msgstr ""
 
@@ -2698,8 +2700,8 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1226
 #: Source/Guidelines/en/PH-PrimarySources.xml:1231
 #: Source/Guidelines/en/PH-PrimarySources.xml:1233
-#: Source/Guidelines/en/PH-PrimarySources.xml:1781
-#: Source/Guidelines/en/PH-PrimarySources.xml:2052
+#: Source/Guidelines/en/PH-PrimarySources.xml:1783
+#: Source/Guidelines/en/PH-PrimarySources.xml:2054
 msgid "addSpan"
 msgstr ""
 
@@ -2710,17 +2712,17 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1247
 #: Source/Guidelines/en/PH-PrimarySources.xml:1255
 #: Source/Guidelines/en/PH-PrimarySources.xml:1274
-#: Source/Guidelines/en/PH-PrimarySources.xml:1781
-#: Source/Guidelines/en/PH-PrimarySources.xml:1892
-#: Source/Guidelines/en/PH-PrimarySources.xml:2052
-#: Source/Guidelines/en/PH-PrimarySources.xml:2064
-#: Source/Guidelines/en/PH-PrimarySources.xml:2630
+#: Source/Guidelines/en/PH-PrimarySources.xml:1783
+#: Source/Guidelines/en/PH-PrimarySources.xml:1894
+#: Source/Guidelines/en/PH-PrimarySources.xml:2054
+#: Source/Guidelines/en/PH-PrimarySources.xml:2066
+#: Source/Guidelines/en/PH-PrimarySources.xml:2632
 msgid "delSpan"
 msgstr ""
 
 #. (itstool) path: p/ident
 #: Source/Guidelines/en/PH-PrimarySources.xml:1091
-#: Source/Guidelines/en/PH-PrimarySources.xml:1765
+#: Source/Guidelines/en/PH-PrimarySources.xml:1767
 msgid "att.spanning"
 msgstr ""
 
@@ -2821,7 +2823,7 @@ msgstr ""
 #. (itstool) path: p/title
 #: Source/Guidelines/en/PH-PrimarySources.xml:1120
 #: Source/Guidelines/en/PH-PrimarySources.xml:1394
-#: Source/Guidelines/en/PH-PrimarySources.xml:2606
+#: Source/Guidelines/en/PH-PrimarySources.xml:2608
 msgid "Eloi, Eloi, lama sabachthani"
 msgstr ""
 
@@ -2833,8 +2835,8 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1393
 #: Source/Guidelines/en/PH-PrimarySources.xml:1395
 #: Source/Guidelines/en/PH-PrimarySources.xml:1396
-#: Source/Guidelines/en/PH-PrimarySources.xml:2606
-#: Source/Guidelines/en/PH-PrimarySources.xml:2607
+#: Source/Guidelines/en/PH-PrimarySources.xml:2608
+#: Source/Guidelines/en/PH-PrimarySources.xml:2609
 msgid "my"
 msgstr ""
 
@@ -2843,10 +2845,10 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1133
 #: Source/Guidelines/en/PH-PrimarySources.xml:1134
 #: Source/Guidelines/en/PH-PrimarySources.xml:1587
-#: Source/Guidelines/en/PH-PrimarySources.xml:1973
-#: Source/Guidelines/en/PH-PrimarySources.xml:2604
-#: Source/Guidelines/en/PH-PrimarySources.xml:2611
-#: Source/Guidelines/en/PH-PrimarySources.xml:2633
+#: Source/Guidelines/en/PH-PrimarySources.xml:1975
+#: Source/Guidelines/en/PH-PrimarySources.xml:2606
+#: Source/Guidelines/en/PH-PrimarySources.xml:2613
+#: Source/Guidelines/en/PH-PrimarySources.xml:2635
 msgid "rend"
 msgstr ""
 
@@ -2993,7 +2995,7 @@ msgstr ""
 #. (itstool) path: p/q
 #. (itstool) path: line/add
 #: Source/Guidelines/en/PH-PrimarySources.xml:1209
-#: Source/Guidelines/en/PH-PrimarySources.xml:2088
+#: Source/Guidelines/en/PH-PrimarySources.xml:2090
 msgid "the"
 msgstr ""
 
@@ -3001,8 +3003,8 @@ msgstr ""
 #. (itstool) path: item/val
 #. (itstool) path: line/del
 #: Source/Guidelines/en/PH-PrimarySources.xml:1210
-#: Source/Guidelines/en/PH-PrimarySources.xml:2372
-#: Source/Guidelines/en/PH-PrimarySources.xml:2381
+#: Source/Guidelines/en/PH-PrimarySources.xml:2374
+#: Source/Guidelines/en/PH-PrimarySources.xml:2383
 msgid "T"
 msgstr ""
 
@@ -3022,7 +3024,7 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1309
 #: Source/Guidelines/en/PH-PrimarySources.xml:1324
 #: Source/Guidelines/en/PH-PrimarySources.xml:1372
-#: Source/Guidelines/en/PH-PrimarySources.xml:1911
+#: Source/Guidelines/en/PH-PrimarySources.xml:1913
 msgid "seq"
 msgstr ""
 
@@ -3068,18 +3070,18 @@ msgstr ""
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:1232
 #: Source/Guidelines/en/PH-PrimarySources.xml:1274
-#: Source/Guidelines/en/PH-PrimarySources.xml:1789
+#: Source/Guidelines/en/PH-PrimarySources.xml:1791
 msgid "anchor"
 msgstr ""
 
 #. (itstool) path: p/att
 #: Source/Guidelines/en/PH-PrimarySources.xml:1235
-#: Source/Guidelines/en/PH-PrimarySources.xml:1788
-#: Source/Guidelines/en/PH-PrimarySources.xml:1974
-#: Source/Guidelines/en/PH-PrimarySources.xml:1989
-#: Source/Guidelines/en/PH-PrimarySources.xml:2019
-#: Source/Guidelines/en/PH-PrimarySources.xml:2199
-#: Source/Guidelines/en/PH-PrimarySources.xml:2217
+#: Source/Guidelines/en/PH-PrimarySources.xml:1790
+#: Source/Guidelines/en/PH-PrimarySources.xml:1976
+#: Source/Guidelines/en/PH-PrimarySources.xml:1991
+#: Source/Guidelines/en/PH-PrimarySources.xml:2021
+#: Source/Guidelines/en/PH-PrimarySources.xml:2201
+#: Source/Guidelines/en/PH-PrimarySources.xml:2219
 msgid "spanTo"
 msgstr ""
 
@@ -3104,8 +3106,8 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1253
 #: Source/Guidelines/en/PH-PrimarySources.xml:1255
 #: Source/Guidelines/en/PH-PrimarySources.xml:1275
-#: Source/Guidelines/en/PH-PrimarySources.xml:2130
-#: Source/Guidelines/en/PH-PrimarySources.xml:2135
+#: Source/Guidelines/en/PH-PrimarySources.xml:2132
+#: Source/Guidelines/en/PH-PrimarySources.xml:2137
 msgid "l"
 msgstr ""
 
@@ -3150,8 +3152,8 @@ msgstr ""
 #. (itstool) path: p/title
 #. (itstool) path: head/title
 #: Source/Guidelines/en/PH-PrimarySources.xml:1266
-#: Source/Guidelines/en/PH-PrimarySources.xml:2302
-#: Source/Guidelines/en/PH-PrimarySources.xml:2309
+#: Source/Guidelines/en/PH-PrimarySources.xml:2304
+#: Source/Guidelines/en/PH-PrimarySources.xml:2311
 msgid "Lalla Rookh"
 msgstr ""
 
@@ -3206,14 +3208,14 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1421
 #: Source/Guidelines/en/PH-PrimarySources.xml:1434
 #: Source/Guidelines/en/PH-PrimarySources.xml:1509
-#: Source/Guidelines/en/PH-PrimarySources.xml:1749
-#: Source/Guidelines/en/PH-PrimarySources.xml:1829
-#: Source/Guidelines/en/PH-PrimarySources.xml:1832
-#: Source/Guidelines/en/PH-PrimarySources.xml:1855
+#: Source/Guidelines/en/PH-PrimarySources.xml:1751
+#: Source/Guidelines/en/PH-PrimarySources.xml:1831
+#: Source/Guidelines/en/PH-PrimarySources.xml:1834
 #: Source/Guidelines/en/PH-PrimarySources.xml:1857
-#: Source/Guidelines/en/PH-PrimarySources.xml:1866
-#: Source/Guidelines/en/PH-PrimarySources.xml:1899
-#: Source/Guidelines/en/PH-PrimarySources.xml:1930
+#: Source/Guidelines/en/PH-PrimarySources.xml:1859
+#: Source/Guidelines/en/PH-PrimarySources.xml:1868
+#: Source/Guidelines/en/PH-PrimarySources.xml:1901
+#: Source/Guidelines/en/PH-PrimarySources.xml:1932
 msgid "gap"
 msgstr ""
 
@@ -3223,14 +3225,14 @@ msgstr ""
 #: Source/Guidelines/en/PH-PrimarySources.xml:1280
 #: Source/Guidelines/en/PH-PrimarySources.xml:1436
 #: Source/Guidelines/en/PH-PrimarySources.xml:1510
-#: Source/Guidelines/en/PH-PrimarySources.xml:1815
-#: Source/Guidelines/en/PH-PrimarySources.xml:1819
-#: Source/Guidelines/en/PH-PrimarySources.xml:1845
-#: Source/Guidelines/en/PH-PrimarySources.xml:1851
-#: Source/Guidelines/en/PH-PrimarySources.xml:1855
+#: Source/Guidelines/en/PH-PrimarySources.xml:1817
+#: Source/Guidelines/en/PH-PrimarySources.xml:1821
+#: Source/Guidelines/en/PH-PrimarySources.xml:1847
+#: Source/Guidelines/en/PH-PrimarySources.xml:1853
 #: Source/Guidelines/en/PH-PrimarySources.xml:1857
-#: Source/Guidelines/en/PH-PrimarySources.xml:1877
-#: Source/Guidelines/en/PH-PrimarySources.xml:1896
+#: Source/Guidelines/en/PH-PrimarySources.xml:1859
+#: Source/Guidelines/en/PH-PrimarySources.xml:1879
+#: Source/Guidelines/en/PH-PrimarySources.xml:1898
 msgid "unclear"
 msgstr ""
 
@@ -3534,7 +3536,7 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:1386
-#: Source/Guidelines/en/PH-PrimarySources.xml:2192
+#: Source/Guidelines/en/PH-PrimarySources.xml:2194
 msgid "restore"
 msgstr ""
 
@@ -3665,18 +3667,18 @@ msgstr ""
 #. (itstool) path: item/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:1436
 #: Source/Guidelines/en/PH-PrimarySources.xml:1510
-#: Source/Guidelines/en/PH-PrimarySources.xml:1779
-#: Source/Guidelines/en/PH-PrimarySources.xml:1794
-#: Source/Guidelines/en/PH-PrimarySources.xml:1819
-#: Source/Guidelines/en/PH-PrimarySources.xml:1826
-#: Source/Guidelines/en/PH-PrimarySources.xml:1832
-#: Source/Guidelines/en/PH-PrimarySources.xml:1846
-#: Source/Guidelines/en/PH-PrimarySources.xml:1855
+#: Source/Guidelines/en/PH-PrimarySources.xml:1781
+#: Source/Guidelines/en/PH-PrimarySources.xml:1796
+#: Source/Guidelines/en/PH-PrimarySources.xml:1821
+#: Source/Guidelines/en/PH-PrimarySources.xml:1828
+#: Source/Guidelines/en/PH-PrimarySources.xml:1834
+#: Source/Guidelines/en/PH-PrimarySources.xml:1848
 #: Source/Guidelines/en/PH-PrimarySources.xml:1857
-#: Source/Guidelines/en/PH-PrimarySources.xml:1867
-#: Source/Guidelines/en/PH-PrimarySources.xml:1883
-#: Source/Guidelines/en/PH-PrimarySources.xml:1886
-#: Source/Guidelines/en/PH-PrimarySources.xml:1893
+#: Source/Guidelines/en/PH-PrimarySources.xml:1859
+#: Source/Guidelines/en/PH-PrimarySources.xml:1869
+#: Source/Guidelines/en/PH-PrimarySources.xml:1885
+#: Source/Guidelines/en/PH-PrimarySources.xml:1888
+#: Source/Guidelines/en/PH-PrimarySources.xml:1895
 msgid "damage"
 msgstr ""
 
@@ -3919,13 +3921,13 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: Source/Guidelines/en/PH-PrimarySources.xml:1543
-#: Source/Guidelines/en/PH-PrimarySources.xml:2293
+#: Source/Guidelines/en/PH-PrimarySources.xml:2295
 msgid "profileDesc"
 msgstr ""
 
 #. (itstool) path: p/ident
 #: Source/Guidelines/en/PH-PrimarySources.xml:1544
-#: Source/Guidelines/en/PH-PrimarySources.xml:2986
+#: Source/Guidelines/en/PH-PrimarySources.xml:2988
 msgid "msdescription"
 msgstr ""
 
@@ -4179,6 +4181,11 @@ msgid ""
 "in another document or repository (see section <_:ptr-12/>)."
 msgstr ""
 
+#. (itstool) path: p/gi
+#: Source/Guidelines/en/PH-PrimarySources.xml:1661
+msgid "bibl"
+msgstr ""
+
 #. (itstool) path: div/p
 #: Source/Guidelines/en/PH-PrimarySources.xml:1646
 msgid ""
@@ -4195,11 +4202,14 @@ msgid ""
 "the <_:att-9/> attribute will similarly indicate who bears responsibility "
 "for identifying or categorizing the deletion itself, while other attributes "
 "(<_:att-10/> most obviously) attribute responsibility for the deletion "
-"itself."
+"itself. It should be noted that the <_:att-11/> attribute may be used in a "
+"simiilar fashion to indicate, for example, when an encoding decision is "
+"based on the work of a previous editor or on an article. In that case, the "
+"<_:att-12/> would point to a <_:gi-13/> in the bibliography."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1660
+#: Source/Guidelines/en/PH-PrimarySources.xml:1662
 msgid ""
 "In cases where both the <_:att-1/> and <_:att-2/> attributes are defined for "
 "a particular element, the two attributes refer to the same aspect of the "
@@ -4215,7 +4225,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1675
+#: Source/Guidelines/en/PH-PrimarySources.xml:1677
 msgid ""
 "This close definition of the use of the <_:att-1/> and <_:att-2/> attributes "
 "with each element is intended to provide for the most frequent circumstances "
@@ -4238,25 +4248,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:1712
-#: Source/Guidelines/en/PH-PrimarySources.xml:2581
-#: Source/Guidelines/en/PH-PrimarySources.xml:2640
+#: Source/Guidelines/en/PH-PrimarySources.xml:1714
+#: Source/Guidelines/en/PH-PrimarySources.xml:2583
+#: Source/Guidelines/en/PH-PrimarySources.xml:2642
 msgid "Wife of Bath's Prologue"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:1726
+#: Source/Guidelines/en/PH-PrimarySources.xml:1728
 msgid "respons"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:1727
-#: Source/Guidelines/en/PH-PrimarySources.xml:2619
+#: Source/Guidelines/en/PH-PrimarySources.xml:1729
+#: Source/Guidelines/en/PH-PrimarySources.xml:2621
 msgid "certainty"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1708
+#: Source/Guidelines/en/PH-PrimarySources.xml:1710
 msgid ""
 "It should be noted that the certainty and responsibility mechanisms "
 "described in chapter <_:ptr-1/> replicate all the functions of the <_:att-2/"
@@ -4276,7 +4286,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1728
+#: Source/Guidelines/en/PH-PrimarySources.xml:1730
 msgid ""
 "The above discussion supposes that in each case an encoder is able to "
 "specify exactly what it is that one wishes to state responsibility for and "
@@ -4289,12 +4299,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:1739
+#: Source/Guidelines/en/PH-PrimarySources.xml:1741
 msgid "Damage and Conjecture"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1740
+#: Source/Guidelines/en/PH-PrimarySources.xml:1742
 msgid ""
 "The carrier medium of a primary source may often sustain physical damage "
 "which makes parts of it hard or impossible to read. In this section we "
@@ -4304,35 +4314,35 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:1748
+#: Source/Guidelines/en/PH-PrimarySources.xml:1750
 msgid "Damage, Illegibility, and Supplied Text"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:1756
-#: Source/Guidelines/en/PH-PrimarySources.xml:1759
+#: Source/Guidelines/en/PH-PrimarySources.xml:1758
+#: Source/Guidelines/en/PH-PrimarySources.xml:1761
 msgid "att.damaged"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:1760
+#: Source/Guidelines/en/PH-PrimarySources.xml:1762
 msgid "att.dimensions"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:1761
+#: Source/Guidelines/en/PH-PrimarySources.xml:1763
 msgid "att.ranging"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:1766
-#: Source/Guidelines/en/PH-PrimarySources.xml:1780
-#: Source/Guidelines/en/PH-PrimarySources.xml:1794
+#: Source/Guidelines/en/PH-PrimarySources.xml:1768
+#: Source/Guidelines/en/PH-PrimarySources.xml:1782
+#: Source/Guidelines/en/PH-PrimarySources.xml:1796
 msgid "damageSpan"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1749
+#: Source/Guidelines/en/PH-PrimarySources.xml:1751
 msgid ""
 "The <_:gi-1/> and <_:gi-2/> elements described above (section <_:ptr-3/>) "
 "should be used with appropriate attributes where the degree of damage or "
@@ -4349,12 +4359,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:1771
+#: Source/Guidelines/en/PH-PrimarySources.xml:1773
 msgid "Vóluspá"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1770
+#: Source/Guidelines/en/PH-PrimarySources.xml:1772
 msgid ""
 "The following examples all refer to the recto of folio 5 of the unique "
 "manuscript of the Elder Edda. Here, the manuscript of <_:title-1/> has been "
@@ -4363,9 +4373,9 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:1775
-#: Source/Guidelines/en/PH-PrimarySources.xml:1816
-#: Source/Guidelines/en/PH-PrimarySources.xml:1822
+#: Source/Guidelines/en/PH-PrimarySources.xml:1777
+#: Source/Guidelines/en/PH-PrimarySources.xml:1818
+#: Source/Guidelines/en/PH-PrimarySources.xml:1824
 msgid "daga"
 msgstr ""
 
@@ -4374,23 +4384,23 @@ msgstr ""
 #. (itstool) path: damage/unclear
 #. (itstool) path: egXML/supplied
 #. (itstool) path: damage/supplied
-#: Source/Guidelines/en/PH-PrimarySources.xml:1776
-#: Source/Guidelines/en/PH-PrimarySources.xml:1817
-#: Source/Guidelines/en/PH-PrimarySources.xml:1820
-#: Source/Guidelines/en/PH-PrimarySources.xml:1824
+#: Source/Guidelines/en/PH-PrimarySources.xml:1778
+#: Source/Guidelines/en/PH-PrimarySources.xml:1819
+#: Source/Guidelines/en/PH-PrimarySources.xml:1822
 #: Source/Guidelines/en/PH-PrimarySources.xml:1826
+#: Source/Guidelines/en/PH-PrimarySources.xml:1828
 msgid "aga"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1775
-#: Source/Guidelines/en/PH-PrimarySources.xml:1820
-#: Source/Guidelines/en/PH-PrimarySources.xml:1826
+#: Source/Guidelines/en/PH-PrimarySources.xml:1777
+#: Source/Guidelines/en/PH-PrimarySources.xml:1822
+#: Source/Guidelines/en/PH-PrimarySources.xml:1828
 msgid "um aldr d<_:damage-1/> yndisniota"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1774
+#: Source/Guidelines/en/PH-PrimarySources.xml:1776
 msgid ""
 "In the first line of this leaf, the transcriber may believe that the last "
 "three letters of <_:mentioned-1/> can be read clearly despite the damage: <_:"
@@ -4398,17 +4408,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1786
+#: Source/Guidelines/en/PH-PrimarySources.xml:1788
 msgid "[...]"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1787
+#: Source/Guidelines/en/PH-PrimarySources.xml:1789
 msgid "[...] <_:pb-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1778
+#: Source/Guidelines/en/PH-PrimarySources.xml:1780
 msgid ""
 "If, as is often the case, the damage crosses structural divisions, so that "
 "the <_:gi-1/> element cannot be nested properly within the containing <_:"
@@ -4422,42 +4432,42 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:1796
+#: Source/Guidelines/en/PH-PrimarySources.xml:1798
 msgid "group"
 msgstr ""
 
 #. (itstool) path: l/damage
-#: Source/Guidelines/en/PH-PrimarySources.xml:1798
+#: Source/Guidelines/en/PH-PrimarySources.xml:1800
 msgid "es; and"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/PH-PrimarySources.xml:1798
+#: Source/Guidelines/en/PH-PrimarySources.xml:1800
 msgid "The Moving Finger wri<_:damage-1/> having writ,"
 msgstr ""
 
 #. (itstool) path: l/damage
-#: Source/Guidelines/en/PH-PrimarySources.xml:1799
+#: Source/Guidelines/en/PH-PrimarySources.xml:1801
 msgid "on: nor all your"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/PH-PrimarySources.xml:1799
+#: Source/Guidelines/en/PH-PrimarySources.xml:1801
 msgid "Moves <_:damage-1/> Piety nor Wit"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/PH-PrimarySources.xml:1801
+#: Source/Guidelines/en/PH-PrimarySources.xml:1803
 msgid "<_:damageSpan-1/>Shall lure it back to cancel half a Line,"
 msgstr ""
 
 #. (itstool) path: egXML/l
-#: Source/Guidelines/en/PH-PrimarySources.xml:1803
+#: Source/Guidelines/en/PH-PrimarySources.xml:1805
 msgid "Nor all your Tears wash <_:anchor-1/> out a Word of it"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1793
+#: Source/Guidelines/en/PH-PrimarySources.xml:1795
 msgid ""
 "If, as is also likely, the damage affects several disjoint parts of the "
 "text, each such part must be marked with a separate <_:gi-1/> or <_:gi-2/> "
@@ -4469,12 +4479,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:1806
+#: Source/Guidelines/en/PH-PrimarySources.xml:1808
 msgid "join"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1806
+#: Source/Guidelines/en/PH-PrimarySources.xml:1808
 msgid ""
 "A more general solution to this problem is provided by the <_:gi-1/> element "
 "discussed in <_:ptr-2/> which may be used to link together arbitrary "
@@ -4487,12 +4497,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1817
+#: Source/Guidelines/en/PH-PrimarySources.xml:1819
 msgid "um aldr d<_:unclear-1/> yndisniota"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1814
+#: Source/Guidelines/en/PH-PrimarySources.xml:1816
 msgid ""
 "If the damage has been so severe as to render parts of the text only "
 "imperfectly legible, the <_:gi-1/> element should be used to mark the fact. "
@@ -4501,7 +4511,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1818
+#: Source/Guidelines/en/PH-PrimarySources.xml:1820
 msgid ""
 "If it is desired to supply more information about the kind of damage, it is "
 "also possible to nest an <_:gi-1/> element within the <_:gi-2/> element: <_:"
@@ -4509,12 +4519,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1824
+#: Source/Guidelines/en/PH-PrimarySources.xml:1826
 msgid "um aldr d<_:supplied-1/> yndisniota"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1821
+#: Source/Guidelines/en/PH-PrimarySources.xml:1823
 msgid ""
 "Alternatively, the transcriber may not feel able to read the last three "
 "letters of <_:mentioned-1/> but may wish to supply them by conjecture. Note "
@@ -4526,12 +4536,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1830
+#: Source/Guidelines/en/PH-PrimarySources.xml:1832
 msgid "þar komr inn dimmi dreki fliugandi naþr frann neþan <_:gap-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1829
+#: Source/Guidelines/en/PH-PrimarySources.xml:1831
 msgid ""
 "Contrast the use of <_:gi-1/> in the next line, where the transcriber "
 "believes that four letters cannot be read at all because of the damage: <_:"
@@ -4540,17 +4550,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: damage/unclear
-#: Source/Guidelines/en/PH-PrimarySources.xml:1837
+#: Source/Guidelines/en/PH-PrimarySources.xml:1839
 msgid "and the proof of this is"
 msgstr ""
 
 #. (itstool) path: damage/unclear
-#: Source/Guidelines/en/PH-PrimarySources.xml:1839
+#: Source/Guidelines/en/PH-PrimarySources.xml:1841
 msgid "margin"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1833
+#: Source/Guidelines/en/PH-PrimarySources.xml:1835
 msgid ""
 "Where elements are nested in this way, information about agency, etc. is by "
 "default inherited. In the following imaginary example, there is a smoke-"
@@ -4559,27 +4569,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:1846
+#: Source/Guidelines/en/PH-PrimarySources.xml:1848
 msgid "The Life of Cowper"
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:1847
+#: Source/Guidelines/en/PH-PrimarySources.xml:1849
 msgid "attention"
 msgstr ""
 
 #. (itstool) path: egXML/unclear
-#: Source/Guidelines/en/PH-PrimarySources.xml:1850
+#: Source/Guidelines/en/PH-PrimarySources.xml:1852
 msgid "ention"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1849
+#: Source/Guidelines/en/PH-PrimarySources.xml:1851
 msgid "and from time to time invited in like manner his att<_:unclear-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1843
+#: Source/Guidelines/en/PH-PrimarySources.xml:1845
 msgid ""
 "The above examples record imperfect legibility due to damage. When imperfect "
 "legibility is due to some other reason (typically because the handwriting is "
@@ -4592,7 +4602,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:1855
+#: Source/Guidelines/en/PH-PrimarySources.xml:1857
 msgid ""
 "Use of the <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and <_:gi-5/> "
 "Elements in Combination"
@@ -4600,15 +4610,15 @@ msgstr ""
 
 #. (itstool) path: item/att
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:1868
-#: Source/Guidelines/en/PH-PrimarySources.xml:1873
-#: Source/Guidelines/en/PH-PrimarySources.xml:1877
-#: Source/Guidelines/en/PH-PrimarySources.xml:2589
+#: Source/Guidelines/en/PH-PrimarySources.xml:1870
+#: Source/Guidelines/en/PH-PrimarySources.xml:1875
+#: Source/Guidelines/en/PH-PrimarySources.xml:1879
+#: Source/Guidelines/en/PH-PrimarySources.xml:2591
 msgid "reason"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1864
+#: Source/Guidelines/en/PH-PrimarySources.xml:1866
 msgid ""
 "where the text has been rendered completely illegible by deletion or damage "
 "and no text is supplied by the editor in place of what is lost: place an "
@@ -4619,7 +4629,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1870
+#: Source/Guidelines/en/PH-PrimarySources.xml:1872
 msgid ""
 "where the text has been rendered completely illegible by deletion or damage "
 "and text is supplied by the editor in place of what is lost: surround the "
@@ -4629,7 +4639,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1875
+#: Source/Guidelines/en/PH-PrimarySources.xml:1877
 msgid ""
 "where the text has been rendered partly illegible by deletion or damage so "
 "that the text can be read but without perfect confidence: transcribe the "
@@ -4640,12 +4650,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:1885
+#: Source/Guidelines/en/PH-PrimarySources.xml:1887
 msgid "degree"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1881
+#: Source/Guidelines/en/PH-PrimarySources.xml:1883
 msgid ""
 "where there is deletion or damage but at least some of the text can be read "
 "with perfect confidence: transcribe the text and surround it with the <_:"
@@ -4657,7 +4667,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1889
+#: Source/Guidelines/en/PH-PrimarySources.xml:1891
 msgid ""
 "where there is an area of deletion or damage and parts of the text within "
 "that area can be read with perfect confidence, other parts with less "
@@ -4675,7 +4685,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1857
+#: Source/Guidelines/en/PH-PrimarySources.xml:1859
 msgid ""
 "The <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and <_:gi-5/> elements may "
 "be closely allied in their use. For example, an area of damage in a primary "
@@ -4687,43 +4697,43 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1903
+#: Source/Guidelines/en/PH-PrimarySources.xml:1905
 msgid ""
 "The rules for combinations of the <_:gi-1/> and <_:gi-2/> elements, and for "
 "the interpretation of such combinations, are similar:"
 msgstr ""
 
 #. (itstool) path: item/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:1906
 #: Source/Guidelines/en/PH-PrimarySources.xml:1908
+#: Source/Guidelines/en/PH-PrimarySources.xml:1910
 msgid "ADD1"
 msgstr ""
 
 #. (itstool) path: item/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:1907
 #: Source/Guidelines/en/PH-PrimarySources.xml:1909
+#: Source/Guidelines/en/PH-PrimarySources.xml:1911
 msgid "ADD2"
 msgstr ""
 
 #. (itstool) path: add/add
 #. (itstool) id: PH-PrimarySources.xml#ADD2
-#: Source/Guidelines/en/PH-PrimarySources.xml:1909
+#: Source/Guidelines/en/PH-PrimarySources.xml:1911
 msgid "(interlinear!)"
 msgstr ""
 
 #. (itstool) path: egXML/add
 #. (itstool) id: PH-PrimarySources.xml#ADD1
-#: Source/Guidelines/en/PH-PrimarySources.xml:1909
+#: Source/Guidelines/en/PH-PrimarySources.xml:1911
 msgid "with some added <_:add-1/> material"
 msgstr ""
 
 #. (itstool) path: item/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1909
+#: Source/Guidelines/en/PH-PrimarySources.xml:1911
 msgid "This is the text <_:add-1/> as written."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1906
+#: Source/Guidelines/en/PH-PrimarySources.xml:1908
 msgid ""
 "if one <_:gi-1/> element (with identifier <_:ident-2/>) contains another "
 "(with identifier <_:ident-3/>), then the addition <_:ident-4/> was first "
@@ -4733,18 +4743,18 @@ msgstr ""
 
 #. (itstool) path: item/mentioned
 #. (itstool) path: del/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:1914
 #: Source/Guidelines/en/PH-PrimarySources.xml:1916
+#: Source/Guidelines/en/PH-PrimarySources.xml:1918
 msgid "redundant"
 msgstr ""
 
 #. (itstool) path: egXML/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:1915
+#: Source/Guidelines/en/PH-PrimarySources.xml:1917
 msgid "This sentence contains some <_:del-1/> unnecessary verbiage."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1911
+#: Source/Guidelines/en/PH-PrimarySources.xml:1913
 msgid ""
 "if one <_:gi-1/> element contains another, and the <_:att-2/> attribute does "
 "not indicate otherwise, it should be assumed that the inner deletion was "
@@ -4754,17 +4764,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: del/add
-#: Source/Guidelines/en/PH-PrimarySources.xml:1921
+#: Source/Guidelines/en/PH-PrimarySources.xml:1923
 msgid "originally"
 msgstr ""
 
 #. (itstool) path: egXML/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:1920
+#: Source/Guidelines/en/PH-PrimarySources.xml:1922
 msgid "This sentence was deleted <_:add-1/> from the text."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1918
+#: Source/Guidelines/en/PH-PrimarySources.xml:1920
 msgid ""
 "if a <_:gi-1/> element contains an <_:gi-2/> element, the normal "
 "interpretation will be that an addition was made within a passage which was "
@@ -4772,17 +4782,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: add/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:1926
+#: Source/Guidelines/en/PH-PrimarySources.xml:1928
 msgid "eventually"
 msgstr ""
 
 #. (itstool) path: egXML/add
-#: Source/Guidelines/en/PH-PrimarySources.xml:1925
+#: Source/Guidelines/en/PH-PrimarySources.xml:1927
 msgid "This sentence was added <_:del-1/> to the text."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1923
+#: Source/Guidelines/en/PH-PrimarySources.xml:1925
 msgid ""
 "if an <_:gi-1/> element contains a <_:gi-2/> element, the normal "
 "interpretation will be that a deletion was made from a passage which had "
@@ -4790,70 +4800,70 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1928
+#: Source/Guidelines/en/PH-PrimarySources.xml:1930
 msgid "runs out the door in <_:gap-1/> shirt"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1927
+#: Source/Guidelines/en/PH-PrimarySources.xml:1929
 msgid ""
 "When some text has been blackened out so thoroughly that can no longer be "
 "read, the encoding should be: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: item/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1931
+#: Source/Guidelines/en/PH-PrimarySources.xml:1933
 msgid "runs out the door in <_:del-1/> shirt"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1929
+#: Source/Guidelines/en/PH-PrimarySources.xml:1931
 msgid ""
 "For consistency, one might prefer to encode the deletion as such, using <_:"
 "gi-1/>, and containing a <_:gi-2/>, as in the following example: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: subst/add
-#: Source/Guidelines/en/PH-PrimarySources.xml:1933
+#: Source/Guidelines/en/PH-PrimarySources.xml:1935
 msgid "mo"
 msgstr ""
 
 #. (itstool) path: item/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1933
+#: Source/Guidelines/en/PH-PrimarySources.xml:1935
 msgid "sum<_:subst-1/>ns"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1932
+#: Source/Guidelines/en/PH-PrimarySources.xml:1934
 msgid ""
 "This is something that would be necessary if one wanted to encode a <_:gi-1/"
 "> including an illegible deletion: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: egXML/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:1935
+#: Source/Guidelines/en/PH-PrimarySources.xml:1937
 msgid "<_:gap-1/>ng<_:gap-2/>"
 msgstr ""
 
 #. (itstool) path: item/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1935
+#: Source/Guidelines/en/PH-PrimarySources.xml:1937
 msgid "Billy in The <_:del-1/> Silver Dollar.."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:1934
+#: Source/Guidelines/en/PH-PrimarySources.xml:1936
 msgid ""
 "If some parts of the deleted text are readable, and other parts unreadable, "
 "it should be encoded as in the following example: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:1942
+#: Source/Guidelines/en/PH-PrimarySources.xml:1944
 msgid "Marking up the Writing Process"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1943
+#: Source/Guidelines/en/PH-PrimarySources.xml:1945
 msgid ""
 "Modifications of various kinds (correction, addition, deletion, etc.) are "
 "frequently found within a single document, and may also be inferred when "
@@ -4866,29 +4876,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1952
+#: Source/Guidelines/en/PH-PrimarySources.xml:1954
 msgid ""
 "In this section we discuss a number of elements which may be useful when "
 "attempting to record traces of the writing process within a document."
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:1956
+#: Source/Guidelines/en/PH-PrimarySources.xml:1958
 msgid "Generic Modification"
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/PH-PrimarySources.xml:1965
+#: Source/Guidelines/en/PH-PrimarySources.xml:1967
 msgid "what is on the page"
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/PH-PrimarySources.xml:1966
+#: Source/Guidelines/en/PH-PrimarySources.xml:1968
 msgid "what is the editor’s interpretation"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1960
+#: Source/Guidelines/en/PH-PrimarySources.xml:1962
 msgid ""
 "Most, if not all, transcriptional elements imply a certain level of semantic "
 "interpretation. For instance, using the <_:gi-1/> element to encode a word "
@@ -4910,30 +4920,30 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:1980
+#: Source/Guidelines/en/PH-PrimarySources.xml:1982
 msgid "words words words <_:mod-1/>words with wavy underline"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:1981
+#: Source/Guidelines/en/PH-PrimarySources.xml:1983
 msgid "wavy underlining finishes here<_:anchor-1/> more words"
 msgstr ""
 
 #. (itstool) path: div/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:1979
+#: Source/Guidelines/en/PH-PrimarySources.xml:1981
 msgid "<_:line-1/> &lt;!-- more lines here --&gt; <_:line-2/>"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:1988
-#: Source/Guidelines/en/PH-PrimarySources.xml:1989
-#: Source/Guidelines/en/PH-PrimarySources.xml:2611
-#: Source/Guidelines/en/PH-PrimarySources.xml:2632
+#: Source/Guidelines/en/PH-PrimarySources.xml:1990
+#: Source/Guidelines/en/PH-PrimarySources.xml:1991
+#: Source/Guidelines/en/PH-PrimarySources.xml:2613
+#: Source/Guidelines/en/PH-PrimarySources.xml:2634
 msgid "hi"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1987
+#: Source/Guidelines/en/PH-PrimarySources.xml:1989
 msgid ""
 "The distinction between an example such as that above and the simple use of "
 "<_:gi-1/> to mark the visual salience of the underlining (apart from the use "
@@ -4943,12 +4953,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:1994
+#: Source/Guidelines/en/PH-PrimarySources.xml:1996
 msgid "Metamarks"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:1996
+#: Source/Guidelines/en/PH-PrimarySources.xml:1998
 msgid ""
 "By <_:term-1/> we mean marks such as numbers, arrows, crosses, or other "
 "symbols introduced by the writer into a document expressly for the purpose "
@@ -4958,12 +4968,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2005
+#: Source/Guidelines/en/PH-PrimarySources.xml:2007
 msgid "move this passage over there"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2004
+#: Source/Guidelines/en/PH-PrimarySources.xml:2006
 msgid ""
 "Unlike marginal notes or other additions to the text, metamarks are used by "
 "the writer to indicate a deliberate alteration of the writing itself, such "
@@ -4975,37 +4985,37 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2014
+#: Source/Guidelines/en/PH-PrimarySources.xml:2016
 msgid "function"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/PH-PrimarySources.xml:2015
+#: Source/Guidelines/en/PH-PrimarySources.xml:2017
 msgid "reorder"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/PH-PrimarySources.xml:2016
+#: Source/Guidelines/en/PH-PrimarySources.xml:2018
 msgid "flag"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/PH-PrimarySources.xml:2016
+#: Source/Guidelines/en/PH-PrimarySources.xml:2018
 msgid "delete"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/PH-PrimarySources.xml:2016
+#: Source/Guidelines/en/PH-PrimarySources.xml:2018
 msgid "insert"
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/PH-PrimarySources.xml:2016
+#: Source/Guidelines/en/PH-PrimarySources.xml:2018
 msgid "used"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2014
+#: Source/Guidelines/en/PH-PrimarySources.xml:2016
 msgid ""
 "The <_:gi-1/> element carries a <_:att-2/> attribute which specifies the "
 "function of the metamark, using values such as <_:val-3/>, <_:val-4/>, <_:"
@@ -5020,17 +5030,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2028
+#: Source/Guidelines/en/PH-PrimarySources.xml:2030
 msgid "Kundige bok 2"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2028
+#: Source/Guidelines/en/PH-PrimarySources.xml:2030
 msgid "<_:title-1/>, fol 1v."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2025
+#: Source/Guidelines/en/PH-PrimarySources.xml:2027
 msgid ""
 "The following example is taken from an 15th century legal book from the city "
 "of Göttingen, containing regulations of everyday life issued by the city "
@@ -5039,26 +5049,26 @@ msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: egXML/metamark
-#: Source/Guidelines/en/PH-PrimarySources.xml:2033
-#: Source/Guidelines/en/PH-PrimarySources.xml:2040
+#: Source/Guidelines/en/PH-PrimarySources.xml:2035
+#: Source/Guidelines/en/PH-PrimarySources.xml:2042
 msgid "lege"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2034
+#: Source/Guidelines/en/PH-PrimarySources.xml:2036
 msgid "Ock en schullen de bruwere..."
 msgstr ""
 
 #. (itstool) path: egXML/zone
 #. (itstool) id: PH-PrimarySources.xml#zone-1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2041
+#: Source/Guidelines/en/PH-PrimarySources.xml:2043
 msgid ""
 "Ock en schullen de bruwere des hilgen dages nicht over setten noch uppe den "
 "stillen fridach bruwen."
 msgstr ""
 
 #. (itstool) path: egXML/zone
-#: Source/Guidelines/en/PH-PrimarySources.xml:2044
+#: Source/Guidelines/en/PH-PrimarySources.xml:2046
 msgid ""
 "Noch nymande over setten, se en sehin denne erst, dat uppe den bonen neyn "
 "stro noch, huw noch flaß ligghe, by pine eyner halven roden, deme bruwere so "
@@ -5066,7 +5076,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2033
+#: Source/Guidelines/en/PH-PrimarySources.xml:2035
 msgid ""
 "In the second paragraph, the word <_:mentioned-1/> (\"read\") was written in "
 "the left hand margin, next to the sentence beginning <_:q-2/>. It is thought "
@@ -5077,7 +5087,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2050
+#: Source/Guidelines/en/PH-PrimarySources.xml:2052
 msgid ""
 "The <_:att-1/> attribute used here to indicate the sequencing of these "
 "various interventions is discussed below, in section <_:ptr-2/>. The "
@@ -5085,17 +5095,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2057
+#: Source/Guidelines/en/PH-PrimarySources.xml:2059
 msgid "Miracles"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2057
+#: Source/Guidelines/en/PH-PrimarySources.xml:2059
 msgid "From a corrected proof of <_:title-1/> (Walt Whitman Archive)"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2054
+#: Source/Guidelines/en/PH-PrimarySources.xml:2056
 msgid ""
 "The <_:gi-1/> element may also be used to encode the symbols etc. often "
 "found in marked-up proofs such as the following, taken from the Walt Whitman "
@@ -5103,17 +5113,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2063
+#: Source/Guidelines/en/PH-PrimarySources.xml:2065
 msgid "deleatur"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2063
+#: Source/Guidelines/en/PH-PrimarySources.xml:2065
 msgid "dele"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2061
+#: Source/Guidelines/en/PH-PrimarySources.xml:2063
 msgid ""
 "In this example, the whole of what was originally the 14th section of the "
 "poem has been marked for deletion, both by horizontal and vertical lines, "
@@ -5127,19 +5137,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2072
+#: Source/Guidelines/en/PH-PrimarySources.xml:2074
 msgid ""
 "From \"I am that halfgrown angry boy\" (MS q 25), David M. Rubenstein Rare "
 "Book &amp; Manuscript Library, Duke University."
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/PH-PrimarySources.xml:2077
+#: Source/Guidelines/en/PH-PrimarySources.xml:2079
 msgid "deletion"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2076
+#: Source/Guidelines/en/PH-PrimarySources.xml:2078
 msgid ""
 "This page contains internal deletions, additions, and retracings but these "
 "are semantically quite different from the apparent <_:soCalled-1/> signalled "
@@ -5148,81 +5158,81 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: line/add
-#: Source/Guidelines/en/PH-PrimarySources.xml:2084
+#: Source/Guidelines/en/PH-PrimarySources.xml:2086
 msgid "angry"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2084
+#: Source/Guidelines/en/PH-PrimarySources.xml:2086
 msgid "I am that halfgrown <_:add-1/> boy, fallen asleep"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2085
+#: Source/Guidelines/en/PH-PrimarySources.xml:2087
 msgid "The tears of foolish passion yet undried"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2086
+#: Source/Guidelines/en/PH-PrimarySources.xml:2088
 msgid "upon my cheeks."
 msgstr ""
 
 #. (itstool) path: line/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2088
+#: Source/Guidelines/en/PH-PrimarySources.xml:2090
 msgid "fortunes"
 msgstr ""
 
 #. (itstool) path: line/retrace
-#: Source/Guidelines/en/PH-PrimarySources.xml:2089
+#: Source/Guidelines/en/PH-PrimarySources.xml:2091
 msgid "thirty"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2088
+#: Source/Guidelines/en/PH-PrimarySources.xml:2090
 msgid "I pass through <_:add-1/> travels and <_:del-2/> of <_:retrace-3/>"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2090
+#: Source/Guidelines/en/PH-PrimarySources.xml:2092
 msgid "years and become old,"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2091
+#: Source/Guidelines/en/PH-PrimarySources.xml:2093
 msgid "Each in its due order comes and goes,"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2092
+#: Source/Guidelines/en/PH-PrimarySources.xml:2094
 msgid "And thus a message for me comes."
 msgstr ""
 
 #. (itstool) path: zone/line
 #. (itstool) path: item/val
 #. (itstool) path: mod/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2093
-#: Source/Guidelines/en/PH-PrimarySources.xml:2373
-#: Source/Guidelines/en/PH-PrimarySources.xml:2383
+#: Source/Guidelines/en/PH-PrimarySources.xml:2095
+#: Source/Guidelines/en/PH-PrimarySources.xml:2375
+#: Source/Guidelines/en/PH-PrimarySources.xml:2385
 msgid "The"
 msgstr ""
 
 #. (itstool) path: surface/metamark
-#: Source/Guidelines/en/PH-PrimarySources.xml:2095
+#: Source/Guidelines/en/PH-PrimarySources.xml:2097
 msgid "Entered - Yes"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2099
+#: Source/Guidelines/en/PH-PrimarySources.xml:2101
 msgid "Entered - yes"
 msgstr ""
 
 #. (itstool) path: p/code
-#: Source/Guidelines/en/PH-PrimarySources.xml:2108
+#: Source/Guidelines/en/PH-PrimarySources.xml:2110
 msgid "X2"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2098
+#: Source/Guidelines/en/PH-PrimarySources.xml:2100
 msgid ""
 "In this example, we class as metamarks both the long vertical line and the "
 "annotation <_:q-1/>. Both metamarks are assumed to indicate that the whole "
@@ -5231,34 +5241,34 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2113
+#: Source/Guidelines/en/PH-PrimarySources.xml:2115
 msgid "Fixation and Clarification"
 msgstr ""
 
 #. (itstool) path: p/term
-#: Source/Guidelines/en/PH-PrimarySources.xml:2119
+#: Source/Guidelines/en/PH-PrimarySources.xml:2121
 msgid "fixation"
 msgstr ""
 
 #. (itstool) path: p/term
-#: Source/Guidelines/en/PH-PrimarySources.xml:2121
+#: Source/Guidelines/en/PH-PrimarySources.xml:2123
 msgid "clarification"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2122
-#: Source/Guidelines/en/PH-PrimarySources.xml:2147
-#: Source/Guidelines/en/PH-PrimarySources.xml:2154
+#: Source/Guidelines/en/PH-PrimarySources.xml:2124
+#: Source/Guidelines/en/PH-PrimarySources.xml:2149
+#: Source/Guidelines/en/PH-PrimarySources.xml:2156
 msgid "retrace"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2123
+#: Source/Guidelines/en/PH-PrimarySources.xml:2125
 msgid "cause"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2115
+#: Source/Guidelines/en/PH-PrimarySources.xml:2117
 msgid ""
 "A writer may sometimes rewrite material a second time without significant "
 "change and in the same place. We consider this a distinct activity from "
@@ -5272,29 +5282,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2129
+#: Source/Guidelines/en/PH-PrimarySources.xml:2131
 msgid "skuldren"
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2132
+#: Source/Guidelines/en/PH-PrimarySources.xml:2134
 msgid "Peer Gynt"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2132
+#: Source/Guidelines/en/PH-PrimarySources.xml:2134
 msgid ""
 "From autograph ms of <_:title-1/>, Collin 2869, 4°, I.1.1, the Royal Library "
 "of Copenhagen"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2135
+#: Source/Guidelines/en/PH-PrimarySources.xml:2137
 msgid "... Sku<_:retrace-1/>dren"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2128
+#: Source/Guidelines/en/PH-PrimarySources.xml:2130
 msgid ""
 "In this simple example, taken from the papers of Henrik Ibsen, the writer "
 "wrote the word <_:mentioned-1/> hastily, and then returned to it to make the "
@@ -5303,29 +5313,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2142
+#: Source/Guidelines/en/PH-PrimarySources.xml:2144
 msgid "bægerklang"
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2144
+#: Source/Guidelines/en/PH-PrimarySources.xml:2146
 msgid "Brand"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2144
+#: Source/Guidelines/en/PH-PrimarySources.xml:2146
 msgid ""
 "Detail from autograph ms <_:title-1/> in The Royal Library, Denmark (KBK "
 "Collin 262)"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2149
+#: Source/Guidelines/en/PH-PrimarySources.xml:2151
 msgid "ved Bæg<_:retrace-1/> ..."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2139
+#: Source/Guidelines/en/PH-PrimarySources.xml:2141
 msgid ""
 "A single rewrite may not be sufficient, and it may be that the document "
 "becomes almost unreadable as a result of repeated clarification. In the "
@@ -5336,12 +5346,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2156
+#: Source/Guidelines/en/PH-PrimarySources.xml:2158
 msgid "redo"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2154
+#: Source/Guidelines/en/PH-PrimarySources.xml:2156
 msgid ""
 "The <_:gi-1/> element is used only for cases where text has been written "
 "multiple times. When metamarks and other markup-like strokes have been "
@@ -5350,12 +5360,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2161
+#: Source/Guidelines/en/PH-PrimarySources.xml:2163
 msgid "Confirmation, Cancellation, and Reinstatement of Modifications"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2163
+#: Source/Guidelines/en/PH-PrimarySources.xml:2165
 msgid ""
 "A writer may indicate that an alteration is itself to be altered: for "
 "example, a struck-through passage may be restored via a dotted underlining, "
@@ -5363,22 +5373,22 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2174
+#: Source/Guidelines/en/PH-PrimarySources.xml:2176
 msgid ""
 "The following elements are provided to represent these situations: <_:"
 "specList-1/>"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2194
-#: Source/Guidelines/en/PH-PrimarySources.xml:2198
-#: Source/Guidelines/en/PH-PrimarySources.xml:2217
-#: Source/Guidelines/en/PH-PrimarySources.xml:2224
+#: Source/Guidelines/en/PH-PrimarySources.xml:2196
+#: Source/Guidelines/en/PH-PrimarySources.xml:2200
+#: Source/Guidelines/en/PH-PrimarySources.xml:2219
+#: Source/Guidelines/en/PH-PrimarySources.xml:2226
 msgid "undo"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2192
+#: Source/Guidelines/en/PH-PrimarySources.xml:2194
 msgid ""
 "The element <_:gi-1/> (<_:ptr-2/>) is provided for the comparatively simple "
 "case where a simple deletion is marked as having been subsequently "
@@ -5392,47 +5402,47 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2204
+#: Source/Guidelines/en/PH-PrimarySources.xml:2206
 msgid "Imaginary example demonstrating restoring and undoing"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2207
+#: Source/Guidelines/en/PH-PrimarySources.xml:2209
 msgid "This is just some sample text, we need a real example."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2208
+#: Source/Guidelines/en/PH-PrimarySources.xml:2210
 msgid "This is not a real example."
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2209
+#: Source/Guidelines/en/PH-PrimarySources.xml:2211
 msgid "This is just some text, not a real example."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2202
+#: Source/Guidelines/en/PH-PrimarySources.xml:2204
 msgid ""
 "Consider the following imaginary example: <_:figure-1/> We hypothesize that "
 "the text has gone through three states or changes, as follows: <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: line/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2214
+#: Source/Guidelines/en/PH-PrimarySources.xml:2216
 msgid ""
 "<_:undo-1/>just some <_:anchor-2/> sample <_:undo-3/>text, <_:anchor-4/> we "
 "need"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2214
-#: Source/Guidelines/en/PH-PrimarySources.xml:2225
+#: Source/Guidelines/en/PH-PrimarySources.xml:2216
+#: Source/Guidelines/en/PH-PrimarySources.xml:2227
 msgid "This is <_:del-1/> <_:add-2/> a real example."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2213
+#: Source/Guidelines/en/PH-PrimarySources.xml:2215
 msgid ""
 "This sequence of events might be encoded as follows: <_:egXML-1/> using two "
 "<_:gi-2/> elements, each with a <_:att-3/> attribute, to delimit the two "
@@ -5443,17 +5453,17 @@ msgstr ""
 
 #. (itstool) path: del/seg
 #. (itstool) id: PH-PrimarySources.xml#X-a
-#: Source/Guidelines/en/PH-PrimarySources.xml:2226
+#: Source/Guidelines/en/PH-PrimarySources.xml:2228
 msgid "just some"
 msgstr ""
 
 #. (itstool) path: line/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2225
+#: Source/Guidelines/en/PH-PrimarySources.xml:2227
 msgid "<_:seg-1/> sample <_:seg-2/>, we need"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2222
+#: Source/Guidelines/en/PH-PrimarySources.xml:2224
 msgid ""
 "Alternatively, we might more economically use the generic <_:gi-1/> element "
 "within the <_:gi-2/> to delimit the two sequences whose deletion is being "
@@ -5462,17 +5472,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2237
+#: Source/Guidelines/en/PH-PrimarySources.xml:2239
 msgid "Transpositions"
 msgstr ""
 
 #. (itstool) path: p/term
-#: Source/Guidelines/en/PH-PrimarySources.xml:2239
+#: Source/Guidelines/en/PH-PrimarySources.xml:2241
 msgid "transposition"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2239
+#: Source/Guidelines/en/PH-PrimarySources.xml:2241
 msgid ""
 "A <_:term-1/> occurs when metamarks are found in a document indicating that "
 "passages should be moved to a different position. Typically this may be done "
@@ -5484,48 +5494,48 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2250
+#: Source/Guidelines/en/PH-PrimarySources.xml:2252
 msgid "Digte"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2250
+#: Source/Guidelines/en/PH-PrimarySources.xml:2252
 msgid "Extract from autograph <_:title-1/> (Poems) NBO Ms. 4º 1110a"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: line/seg
 #. (itstool) id: PH-PrimarySources.xml#ib01
-#: Source/Guidelines/en/PH-PrimarySources.xml:2252
-#: Source/Guidelines/en/PH-PrimarySources.xml:2255
+#: Source/Guidelines/en/PH-PrimarySources.xml:2254
+#: Source/Guidelines/en/PH-PrimarySources.xml:2257
 msgid "bör"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: line/seg
 #. (itstool) id: PH-PrimarySources.xml#ib02
-#: Source/Guidelines/en/PH-PrimarySources.xml:2252
-#: Source/Guidelines/en/PH-PrimarySources.xml:2255
+#: Source/Guidelines/en/PH-PrimarySources.xml:2254
+#: Source/Guidelines/en/PH-PrimarySources.xml:2257
 msgid "hör"
 msgstr ""
 
 #. (itstool) path: line/metamark
-#: Source/Guidelines/en/PH-PrimarySources.xml:2255
+#: Source/Guidelines/en/PH-PrimarySources.xml:2257
 msgid "2."
 msgstr ""
 
 #. (itstool) path: line/metamark
-#: Source/Guidelines/en/PH-PrimarySources.xml:2255
+#: Source/Guidelines/en/PH-PrimarySources.xml:2257
 msgid "1."
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2255
+#: Source/Guidelines/en/PH-PrimarySources.xml:2257
 msgid "<_:seg-1/><_:metamark-2/> og <_:seg-3/><_:metamark-4/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2248
+#: Source/Guidelines/en/PH-PrimarySources.xml:2250
 msgid ""
 "Consider for example, the following extract from an Ibsen manuscript <_:"
 "figure-1/> The underlined numbers 1 and 2 here indicate that, although the "
@@ -5535,39 +5545,39 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2269
+#: Source/Guidelines/en/PH-PrimarySources.xml:2271
 msgid "Den episke Brand"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2269
+#: Source/Guidelines/en/PH-PrimarySources.xml:2271
 msgid "Detail from autograph ms of <_:title-1/> (KBK Collin 2869)"
 msgstr ""
 
 #. (itstool) path: line/metamark
-#: Source/Guidelines/en/PH-PrimarySources.xml:2273
+#: Source/Guidelines/en/PH-PrimarySources.xml:2275
 msgid "2.)"
 msgstr ""
 
 #. (itstool) path: egXML/line
 #. (itstool) id: PH-PrimarySources.xml#ib3
-#: Source/Guidelines/en/PH-PrimarySources.xml:2273
+#: Source/Guidelines/en/PH-PrimarySources.xml:2275
 msgid "<_:metamark-1/> thi da er du med Himmelen i Pagt; —"
 msgstr ""
 
 #. (itstool) path: line/metamark
-#: Source/Guidelines/en/PH-PrimarySources.xml:2275
+#: Source/Guidelines/en/PH-PrimarySources.xml:2277
 msgid "1.)"
 msgstr ""
 
 #. (itstool) path: egXML/line
 #. (itstool) id: PH-PrimarySources.xml#ib4
-#: Source/Guidelines/en/PH-PrimarySources.xml:2274
+#: Source/Guidelines/en/PH-PrimarySources.xml:2276
 msgid "<_:metamark-1/> da kan du Folkets Jøkelhjerter tine;"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2265
+#: Source/Guidelines/en/PH-PrimarySources.xml:2267
 msgid ""
 "Note the use of the generic <_:gi-1/> element to identify the sections of "
 "text being transposed. When (as in the following example) the whole of a "
@@ -5579,18 +5589,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2292
 #: Source/Guidelines/en/PH-PrimarySources.xml:2294
+#: Source/Guidelines/en/PH-PrimarySources.xml:2296
 msgid "listTranspose"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2294
+#: Source/Guidelines/en/PH-PrimarySources.xml:2296
 msgid "transpose"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2292
+#: Source/Guidelines/en/PH-PrimarySources.xml:2294
 msgid ""
 "One or more <_:gi-1/> elements may be supplied either embedded within the "
 "text or in the <_:gi-2/> of the header, depending on local preference. Each "
@@ -5599,41 +5609,41 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2299
+#: Source/Guidelines/en/PH-PrimarySources.xml:2301
 msgid "Alternative Readings"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2302
+#: Source/Guidelines/en/PH-PrimarySources.xml:2304
 msgid ""
 "Detail from autograph manuscript of the second version of <_:title-1/>, "
 "Pierpont Morgan MA 310"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2305
+#: Source/Guidelines/en/PH-PrimarySources.xml:2307
 msgid "Alone before his native river -"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: line/add
 #. (itstool) id: PH-PrimarySources.xml#alt2
-#: Source/Guidelines/en/PH-PrimarySources.xml:2307
-#: Source/Guidelines/en/PH-PrimarySources.xml:2310
-#: Source/Guidelines/en/PH-PrimarySources.xml:2315
+#: Source/Guidelines/en/PH-PrimarySources.xml:2309
+#: Source/Guidelines/en/PH-PrimarySources.xml:2312
+#: Source/Guidelines/en/PH-PrimarySources.xml:2317
 msgid "beside"
 msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: line/seg
 #. (itstool) id: PH-PrimarySources.xml#alt1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2307
-#: Source/Guidelines/en/PH-PrimarySources.xml:2314
+#: Source/Guidelines/en/PH-PrimarySources.xml:2309
+#: Source/Guidelines/en/PH-PrimarySources.xml:2316
 msgid "before"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2300
+#: Source/Guidelines/en/PH-PrimarySources.xml:2302
 msgid ""
 "<_:figure-1/> In this example two alternative readings are provided, but no "
 "preference is indicated. While the author apparently first composed the line "
@@ -5645,40 +5655,40 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2311
-#: Source/Guidelines/en/PH-PrimarySources.xml:2325
+#: Source/Guidelines/en/PH-PrimarySources.xml:2313
+#: Source/Guidelines/en/PH-PrimarySources.xml:2327
 msgid "alt"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:2311
+#: Source/Guidelines/en/PH-PrimarySources.xml:2313
 msgid "linking"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2314
+#: Source/Guidelines/en/PH-PrimarySources.xml:2316
 msgid "Alone <_:seg-1/> <_:add-2/> his native river ­—"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2311
+#: Source/Guidelines/en/PH-PrimarySources.xml:2313
 msgid ""
 "The element <_:gi-1/> provided by the <_:ident-2/> module gives a simple way "
 "of encoding the state of this manuscript, as follows: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2320
+#: Source/Guidelines/en/PH-PrimarySources.xml:2322
 msgid "mode"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2321
+#: Source/Guidelines/en/PH-PrimarySources.xml:2323
 msgid "weights"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2320
+#: Source/Guidelines/en/PH-PrimarySources.xml:2322
 msgid ""
 "The <_:att-1/> attribute here indicates that the two possible readings "
 "indicated by the <_:att-2/> attribute are mutually exclusive. The <_:att-3/> "
@@ -5690,20 +5700,20 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2354
+#: Source/Guidelines/en/PH-PrimarySources.xml:2356
 msgid "Instant Corrections"
 msgstr ""
 
 #. (itstool) path: p/soCalled
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2357
-#: Source/Guidelines/en/PH-PrimarySources.xml:2360
+#: Source/Guidelines/en/PH-PrimarySources.xml:2359
 #: Source/Guidelines/en/PH-PrimarySources.xml:2362
+#: Source/Guidelines/en/PH-PrimarySources.xml:2364
 msgid "instant"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2355
+#: Source/Guidelines/en/PH-PrimarySources.xml:2357
 msgid ""
 "The use of elements such as <_:gi-1/> and <_:gi-2/> necessarily implies that "
 "the modifications they indicate were made at some time after the original "
@@ -5713,25 +5723,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:2361
+#: Source/Guidelines/en/PH-PrimarySources.xml:2363
 msgid "att.editLike"
 msgstr ""
 
 #. (itstool) path: p/val
 #. (itstool) path: p/code
-#: Source/Guidelines/en/PH-PrimarySources.xml:2363
-#: Source/Guidelines/en/PH-PrimarySources.xml:2740
+#: Source/Guidelines/en/PH-PrimarySources.xml:2365
+#: Source/Guidelines/en/PH-PrimarySources.xml:2742
 msgid "true"
 msgstr ""
 
 #. (itstool) path: p/code
-#: Source/Guidelines/en/PH-PrimarySources.xml:2364
-#: Source/Guidelines/en/PH-PrimarySources.xml:2740
+#: Source/Guidelines/en/PH-PrimarySources.xml:2366
+#: Source/Guidelines/en/PH-PrimarySources.xml:2742
 msgid "false"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2360
+#: Source/Guidelines/en/PH-PrimarySources.xml:2362
 msgid ""
 "The <_:att-1/> attribute defined by this module may be used on any element "
 "which is a member of the <_:ident-2/> class to modify this default "
@@ -5741,75 +5751,75 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2369
+#: Source/Guidelines/en/PH-PrimarySources.xml:2371
 msgid "[I am a curse]"
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2370
+#: Source/Guidelines/en/PH-PrimarySources.xml:2372
 msgid "Song of Myself"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2369
+#: Source/Guidelines/en/PH-PrimarySources.xml:2371
 msgid "Detail fron <_:title-1/>, one of the drafts for Whitman's <_:title-2/>"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2372
+#: Source/Guidelines/en/PH-PrimarySources.xml:2374
 msgid "The letter <_:val-1/> is written and then immediately deleted"
 msgstr ""
 
 #. (itstool) path: item/val
 #. (itstool) path: add/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2374
-#: Source/Guidelines/en/PH-PrimarySources.xml:2375
-#: Source/Guidelines/en/PH-PrimarySources.xml:2385
+#: Source/Guidelines/en/PH-PrimarySources.xml:2376
+#: Source/Guidelines/en/PH-PrimarySources.xml:2377
+#: Source/Guidelines/en/PH-PrimarySources.xml:2387
 msgid "His"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2373
+#: Source/Guidelines/en/PH-PrimarySources.xml:2375
 msgid ""
 "The word <_:val-1/> is written, deleted, and replaced by the word <_:val-2/>"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2375
+#: Source/Guidelines/en/PH-PrimarySources.xml:2377
 msgid "The added word <_:val-1/> is then deleted"
 msgstr ""
 
 #. (itstool) path: item/val
 #. (itstool) path: mod/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2376
-#: Source/Guidelines/en/PH-PrimarySources.xml:2389
+#: Source/Guidelines/en/PH-PrimarySources.xml:2378
+#: Source/Guidelines/en/PH-PrimarySources.xml:2391
 msgid "i"
 msgstr ""
 
 #. (itstool) path: item/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2376
+#: Source/Guidelines/en/PH-PrimarySources.xml:2378
 msgid "iron necklace"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2376
+#: Source/Guidelines/en/PH-PrimarySources.xml:2378
 msgid ""
 "The initial letter <_:val-1/> of the words <_:mentioned-2/> is overwritten "
 "with a capital I"
 msgstr ""
 
 #. (itstool) path: mod/add
-#: Source/Guidelines/en/PH-PrimarySources.xml:2390
+#: Source/Guidelines/en/PH-PrimarySources.xml:2392
 msgid "I"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2381
+#: Source/Guidelines/en/PH-PrimarySources.xml:2383
 msgid "<_:del-1/> <_:mod-2/> <_:mod-3/>ron necklace"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2366
+#: Source/Guidelines/en/PH-PrimarySources.xml:2368
 msgid ""
 "An example of false start or instant correction can be seen in the following "
 "line: <_:figure-1/> in which we can detect the following sequence of events: "
@@ -5819,17 +5829,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2398
+#: Source/Guidelines/en/PH-PrimarySources.xml:2400
 msgid "Advanced Uses of <_:gi-1/> and <_:gi-2/>"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2403
+#: Source/Guidelines/en/PH-PrimarySources.xml:2405
 msgid "patches"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2400
+#: Source/Guidelines/en/PH-PrimarySources.xml:2402
 msgid ""
 "The function of the <_:gi-1/> element is both to identify a specific area "
 "containing writing and to provide a two dimensional set of coordinates which "
@@ -5844,27 +5854,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2413
+#: Source/Guidelines/en/PH-PrimarySources.xml:2415
 msgid "ulx"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2413
+#: Source/Guidelines/en/PH-PrimarySources.xml:2415
 msgid "uly"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2414
+#: Source/Guidelines/en/PH-PrimarySources.xml:2416
 msgid "lrx"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2414
+#: Source/Guidelines/en/PH-PrimarySources.xml:2416
 msgid "lry"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2410
+#: Source/Guidelines/en/PH-PrimarySources.xml:2412
 msgid ""
 "In the earlier examples showing nested examples we did not provide any "
 "coordinate information, for simplicity of presentation. Suppose however, "
@@ -5885,17 +5895,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: surface/zone
-#: Source/Guidelines/en/PH-PrimarySources.xml:2452
+#: Source/Guidelines/en/PH-PrimarySources.xml:2454
 msgid "Spring has just set in here, and the weather [...] a steamer"
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2460
+#: Source/Guidelines/en/PH-PrimarySources.xml:2462
 msgid "Spring ... steamer"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2440
+#: Source/Guidelines/en/PH-PrimarySources.xml:2442
 msgid ""
 "Now suppose that we wish to define a finer scale grid for the newspaper "
 "patch, perhaps because we wish to localize zones within it with greater "
@@ -5910,12 +5920,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2467
+#: Source/Guidelines/en/PH-PrimarySources.xml:2469
 msgid "Entered"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2463
+#: Source/Guidelines/en/PH-PrimarySources.xml:2465
 msgid ""
 "All of the examples so far given have involved rectangular zones, for "
 "clarity of exposition. As noted above, the <_:att-1/> attribute may be used "
@@ -5929,17 +5939,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2480
+#: Source/Guidelines/en/PH-PrimarySources.xml:2482
 msgid "Northamptonshire"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2482
+#: Source/Guidelines/en/PH-PrimarySources.xml:2484
 msgid "Gravestone of Private Moulds"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2479
+#: Source/Guidelines/en/PH-PrimarySources.xml:2481
 msgid ""
 "In exactly the same way, we may wish to identify the curved zone in the "
 "following image containing the word <_:mentioned-1/>: <_:figure-2/> This "
@@ -5947,12 +5957,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/val
-#: Source/Guidelines/en/PH-PrimarySources.xml:2503
+#: Source/Guidelines/en/PH-PrimarySources.xml:2505
 msgid "0,0,500,321"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2490
+#: Source/Guidelines/en/PH-PrimarySources.xml:2492
 msgid ""
 "Finally, it should be noted that a <_:gi-1/> does not need to be entirely "
 "contained within the two-dimensional space defined by its parent surface. "
@@ -5971,12 +5981,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2516
+#: Source/Guidelines/en/PH-PrimarySources.xml:2518
 msgid "Aspects of Layout"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2517
+#: Source/Guidelines/en/PH-PrimarySources.xml:2519
 msgid ""
 "The following methods are available to capture general aspects of the layout "
 "of material on a page where this is considered important. Within the <_:gi-1/"
@@ -5986,17 +5996,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: head/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2548
+#: Source/Guidelines/en/PH-PrimarySources.xml:2550
 msgid "A la recherche du temps perdu"
 msgstr ""
 
 #. (itstool) path: figure/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2548
+#: Source/Guidelines/en/PH-PrimarySources.xml:2550
 msgid "Opening from autograph ms of Proust's <_:title-1/> (f 42v-43r)"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2543
+#: Source/Guidelines/en/PH-PrimarySources.xml:2545
 msgid ""
 "In some cases, it may be preferable to define <_:gi-1/>s corresponding with "
 "each two page opening, for example where it is clear that the writer "
@@ -6006,7 +6016,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2552
+#: Source/Guidelines/en/PH-PrimarySources.xml:2554
 msgid ""
 "The coloured lines added to this image indicate a number of zones of "
 "writing, colour coded to indicate the order in which they were written "
@@ -6015,12 +6025,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2570
+#: Source/Guidelines/en/PH-PrimarySources.xml:2572
 msgid "physDesc"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2564
+#: Source/Guidelines/en/PH-PrimarySources.xml:2566
 msgid ""
 "This approach assumes that the transcription will primarily be organized in "
 "the same way as the physical layout of the source, using embedded "
@@ -6034,17 +6044,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2573
+#: Source/Guidelines/en/PH-PrimarySources.xml:2575
 msgid "Space"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2577
+#: Source/Guidelines/en/PH-PrimarySources.xml:2579
 msgid "space"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2574
+#: Source/Guidelines/en/PH-PrimarySources.xml:2576
 msgid ""
 "The author or scribe may have left space for a word, or for an initial "
 "capital, and for some reason the word or capital was never supplied and the "
@@ -6056,26 +6066,26 @@ msgstr ""
 
 #. (itstool) path: p/mentioned
 #. (itstool) path: egXML/supplied
-#: Source/Guidelines/en/PH-PrimarySources.xml:2583
-#: Source/Guidelines/en/PH-PrimarySources.xml:2587
+#: Source/Guidelines/en/PH-PrimarySources.xml:2585
+#: Source/Guidelines/en/PH-PrimarySources.xml:2589
 msgid "preestes"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:2583
+#: Source/Guidelines/en/PH-PrimarySources.xml:2585
 msgid ""
 "By god if wommen had writen storyes As <_:space-1/> han within her oratoryes"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:2586
+#: Source/Guidelines/en/PH-PrimarySources.xml:2588
 msgid ""
 "By god if wommen had writen storyes As <_:supplied-1/> han within her "
 "oratoryes"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2581
+#: Source/Guidelines/en/PH-PrimarySources.xml:2583
 msgid ""
 "In line 694 of Chaucer's <_:title-1/> in the Holkham manuscript the scribe "
 "has left a space for a word where other manuscripts read <_:mentioned-2/>: "
@@ -6088,42 +6098,42 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2594
+#: Source/Guidelines/en/PH-PrimarySources.xml:2596
 msgid "Lines"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2600
+#: Source/Guidelines/en/PH-PrimarySources.xml:2602
 msgid "emph"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2600
+#: Source/Guidelines/en/PH-PrimarySources.xml:2602
 msgid "foreign"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2600
+#: Source/Guidelines/en/PH-PrimarySources.xml:2602
 msgid "term"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2600
+#: Source/Guidelines/en/PH-PrimarySources.xml:2602
 msgid "mentioned"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2601
+#: Source/Guidelines/en/PH-PrimarySources.xml:2603
 msgid "title"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:2607
+#: Source/Guidelines/en/PH-PrimarySources.xml:2609
 msgid "For I hate this <_:del-1/> body, which is so dear to me"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2595
+#: Source/Guidelines/en/PH-PrimarySources.xml:2597
 msgid ""
 "One of the more common forms of modification encountered in written "
 "documents of any kind is the presence of lines written under, beside, or "
@@ -6144,21 +6154,21 @@ msgstr ""
 #. (itstool) path: p/mentioned
 #. (itstool) path: egXML/hi
 #. (itstool) id: PH-PrimarySources.xml#cstart1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2613
 #: Source/Guidelines/en/PH-PrimarySources.xml:2615
-#: Source/Guidelines/en/PH-PrimarySources.xml:2622
+#: Source/Guidelines/en/PH-PrimarySources.xml:2617
+#: Source/Guidelines/en/PH-PrimarySources.xml:2624
 msgid "had obtained all the letters to Mr Boyd"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:2614
+#: Source/Guidelines/en/PH-PrimarySources.xml:2616
 msgid ""
 "I have once — by declaring I would prosecute by law — hindered a man's "
 "proceedings who <_:hi-1/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2609
+#: Source/Guidelines/en/PH-PrimarySources.xml:2611
 msgid ""
 "There will be instances, however, where a scholar wishes only to register "
 "the occurrence of lines in the text, without making any judgement as to what "
@@ -6169,24 +6179,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2620
+#: Source/Guidelines/en/PH-PrimarySources.xml:2622
 msgid "who"
 msgstr ""
 
 #. (itstool) path: certainty/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2626
+#: Source/Guidelines/en/PH-PrimarySources.xml:2628
 msgid "may begin with previous word"
 msgstr ""
 
 #. (itstool) path: p/egXML
-#: Source/Guidelines/en/PH-PrimarySources.xml:2621
+#: Source/Guidelines/en/PH-PrimarySources.xml:2623
 msgid ""
 "I have once — by declaring I would prosecute by law — hindered a man's "
 "proceedings who <_:hi-1/> <_:certainty-2/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2616
+#: Source/Guidelines/en/PH-PrimarySources.xml:2618
 msgid ""
 "The above examples presume the common case where a single word or phrase is "
 "marked by a line, with no doubt as to where the marking begins or ends and "
@@ -6198,12 +6208,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2633
+#: Source/Guidelines/en/PH-PrimarySources.xml:2635
 msgid "span"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2628
+#: Source/Guidelines/en/PH-PrimarySources.xml:2630
 msgid ""
 "Where the area of text marked overlaps other areas of text, for example "
 "crossing a structural division, one of the spanning mechanisms mentioned "
@@ -6216,15 +6226,15 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/mentioned
-#: Source/Guidelines/en/PH-PrimarySources.xml:2642
-#: Source/Guidelines/en/PH-PrimarySources.xml:2646
-#: Source/Guidelines/en/PH-PrimarySources.xml:2651
-#: Source/Guidelines/en/PH-PrimarySources.xml:2652
+#: Source/Guidelines/en/PH-PrimarySources.xml:2644
+#: Source/Guidelines/en/PH-PrimarySources.xml:2648
+#: Source/Guidelines/en/PH-PrimarySources.xml:2653
+#: Source/Guidelines/en/PH-PrimarySources.xml:2654
 msgid "nota"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2635
+#: Source/Guidelines/en/PH-PrimarySources.xml:2637
 msgid ""
 "More work needs to be done on clarifying the treatment of other textual "
 "features marked by lines which might so overlap or nest. For example, in "
@@ -6238,7 +6248,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2643
+#: Source/Guidelines/en/PH-PrimarySources.xml:2645
 msgid ""
 "Such features could be captured by use of the <_:gi-1/> element, containing "
 "a prose description of the manuscript at this point, enhanced by a link to a "
@@ -6256,34 +6266,34 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2658
+#: Source/Guidelines/en/PH-PrimarySources.xml:2660
 msgid "Headers, Footers, and Similar Matter"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2661
 #: Source/Guidelines/en/PH-PrimarySources.xml:2663
-#: Source/Guidelines/en/PH-PrimarySources.xml:2676
+#: Source/Guidelines/en/PH-PrimarySources.xml:2665
+#: Source/Guidelines/en/PH-PrimarySources.xml:2678
 msgid "fw"
 msgstr ""
 
 #. (itstool) path: p/term
-#: Source/Guidelines/en/PH-PrimarySources.xml:2662
+#: Source/Guidelines/en/PH-PrimarySources.xml:2664
 msgid "forme work"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2663
+#: Source/Guidelines/en/PH-PrimarySources.xml:2665
 msgid "forme"
 msgstr ""
 
 #. (itstool) path: p/emph
-#: Source/Guidelines/en/PH-PrimarySources.xml:2665
+#: Source/Guidelines/en/PH-PrimarySources.xml:2667
 msgid "actually present"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2660
+#: Source/Guidelines/en/PH-PrimarySources.xml:2662
 msgid ""
 "Such information as page numbers, signatures, or catchwords may be recorded "
 "in a specialized <_:gi-1/> element provided for that purpose. Although the "
@@ -6296,51 +6306,51 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2668
+#: Source/Guidelines/en/PH-PrimarySources.xml:2670
 msgid "gb"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2668
+#: Source/Guidelines/en/PH-PrimarySources.xml:2670
 msgid "milestone"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2678
+#: Source/Guidelines/en/PH-PrimarySources.xml:2680
 msgid ""
 "running heads (whether repeated or changing on every page, or alternating "
 "pages)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2680
+#: Source/Guidelines/en/PH-PrimarySources.xml:2682
 msgid "running footers"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2681
+#: Source/Guidelines/en/PH-PrimarySources.xml:2683
 msgid "page numbers"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2682
+#: Source/Guidelines/en/PH-PrimarySources.xml:2684
 msgid "catch-words"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2683
+#: Source/Guidelines/en/PH-PrimarySources.xml:2685
 msgid ""
 "other material repeated from page to page, which falls outside the stream of "
 "the text"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2686
+#: Source/Guidelines/en/PH-PrimarySources.xml:2688
 msgid "gloss"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2667
+#: Source/Guidelines/en/PH-PrimarySources.xml:2669
 msgid ""
 "Information about pagination etc. may also be provided using the <_:att-1/> "
 "attribute of the <_:gi-2/> or <_:gi-3/> elements, or by other appropriate <_:"
@@ -6359,59 +6369,59 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: egXML/fw
-#: Source/Guidelines/en/PH-PrimarySources.xml:2688
+#: Source/Guidelines/en/PH-PrimarySources.xml:2690
 msgid "Poëms."
 msgstr ""
 
 #. (itstool) path: egXML/fw
-#: Source/Guidelines/en/PH-PrimarySources.xml:2689
+#: Source/Guidelines/en/PH-PrimarySources.xml:2691
 msgid "29"
 msgstr ""
 
 #. (itstool) path: egXML/fw
-#: Source/Guidelines/en/PH-PrimarySources.xml:2690
+#: Source/Guidelines/en/PH-PrimarySources.xml:2692
 msgid "E3"
 msgstr ""
 
 #. (itstool) path: egXML/fw
-#: Source/Guidelines/en/PH-PrimarySources.xml:2691
+#: Source/Guidelines/en/PH-PrimarySources.xml:2693
 msgid "TEMPLE"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2688
+#: Source/Guidelines/en/PH-PrimarySources.xml:2690
 msgid "For example: <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2700
+#: Source/Guidelines/en/PH-PrimarySources.xml:2702
 msgid "Identifying Changes and Revisions"
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: Source/Guidelines/en/PH-PrimarySources.xml:2701
+#: Source/Guidelines/en/PH-PrimarySources.xml:2703
 msgid "revision campaigns"
 msgstr ""
 
 #. (itstool) path: p/term
-#: Source/Guidelines/en/PH-PrimarySources.xml:2702
+#: Source/Guidelines/en/PH-PrimarySources.xml:2704
 msgid "changes"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2710
+#: Source/Guidelines/en/PH-PrimarySources.xml:2712
 msgid ""
 "a system to assign phenomena to a particular <_:soCalled-1/> as defined above"
 msgstr ""
 
 #. (itstool) path: list/item
-#: Source/Guidelines/en/PH-PrimarySources.xml:2711
+#: Source/Guidelines/en/PH-PrimarySources.xml:2713
 msgid ""
 "a way to characterize each such change, in itself and in relation to others."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2701
+#: Source/Guidelines/en/PH-PrimarySources.xml:2703
 msgid ""
 "A major purpose of genetic editing is the identification of <_:soCalled-1/> "
 "or, more generally, <_:term-2/>. An editor may wish to regard a particular "
@@ -6427,16 +6437,16 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2716
-#: Source/Guidelines/en/PH-PrimarySources.xml:2739
-#: Source/Guidelines/en/PH-PrimarySources.xml:2753
-#: Source/Guidelines/en/PH-PrimarySources.xml:2775
-#: Source/Guidelines/en/PH-PrimarySources.xml:2790
+#: Source/Guidelines/en/PH-PrimarySources.xml:2718
+#: Source/Guidelines/en/PH-PrimarySources.xml:2741
+#: Source/Guidelines/en/PH-PrimarySources.xml:2755
+#: Source/Guidelines/en/PH-PrimarySources.xml:2777
+#: Source/Guidelines/en/PH-PrimarySources.xml:2792
 msgid "listChange"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2714
+#: Source/Guidelines/en/PH-PrimarySources.xml:2716
 msgid ""
 "The element <_:gi-1/> (within the TEI header profile description) contains "
 "all information relating to the genesis or production of a text. It may "
@@ -6445,7 +6455,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2723
+#: Source/Guidelines/en/PH-PrimarySources.xml:2725
 msgid ""
 "In the following example an editor has identified four distinct sets of "
 "alterations:"
@@ -6453,19 +6463,19 @@ msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST-1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2728
+#: Source/Guidelines/en/PH-PrimarySources.xml:2730
 msgid "First stage, written in ink"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST-2
-#: Source/Guidelines/en/PH-PrimarySources.xml:2729
+#: Source/Guidelines/en/PH-PrimarySources.xml:2731
 msgid "Second stage, with revisions written in the author's hand using pencil"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST-3
-#: Source/Guidelines/en/PH-PrimarySources.xml:2731
+#: Source/Guidelines/en/PH-PrimarySources.xml:2733
 msgid ""
 "Fixation of the pencilled revisions together with further revisions in the "
 "author's hand using ink"
@@ -6473,17 +6483,17 @@ msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST-4
-#: Source/Guidelines/en/PH-PrimarySources.xml:2733
+#: Source/Guidelines/en/PH-PrimarySources.xml:2735
 msgid "Additions in a different hand, probably at a later stage"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2739
+#: Source/Guidelines/en/PH-PrimarySources.xml:2741
 msgid "ordered"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2739
+#: Source/Guidelines/en/PH-PrimarySources.xml:2741
 msgid ""
 "The <_:gi-1/> element carries an attribute <_:att-2/>, which can take the "
 "values <_:code-3/> or <_:code-4/> (the default). The attribute specifies "
@@ -6500,35 +6510,35 @@ msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#o
-#: Source/Guidelines/en/PH-PrimarySources.xml:2763
+#: Source/Guidelines/en/PH-PrimarySources.xml:2765
 msgid "An unrelated change note"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#m1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2765
+#: Source/Guidelines/en/PH-PrimarySources.xml:2767
 msgid "Alterations on one manuscript page, certainly related"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#m2
-#: Source/Guidelines/en/PH-PrimarySources.xml:2767
+#: Source/Guidelines/en/PH-PrimarySources.xml:2769
 msgid "Alterations on another manuscript page, certainly related"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2770
+#: Source/Guidelines/en/PH-PrimarySources.xml:2772
 msgid "Another unrelated change note"
 msgstr ""
 
 #. (itstool) path: p/emph
-#: Source/Guidelines/en/PH-PrimarySources.xml:2775
+#: Source/Guidelines/en/PH-PrimarySources.xml:2777
 msgid "partial"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2775
+#: Source/Guidelines/en/PH-PrimarySources.xml:2777
 msgid ""
 "A nested <_:gi-1/> elements is also useful to indicate a <_:emph-2/> "
 "ordering of <_:gi-3/> elements."
@@ -6536,70 +6546,70 @@ msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2779
+#: Source/Guidelines/en/PH-PrimarySources.xml:2781
 msgid "The first stage"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST-rev1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2783
+#: Source/Guidelines/en/PH-PrimarySources.xml:2785
 msgid "A revision of the first stage"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#ST-rev2
-#: Source/Guidelines/en/PH-PrimarySources.xml:2784
+#: Source/Guidelines/en/PH-PrimarySources.xml:2786
 msgid "Another revision of the first stage"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#STX
-#: Source/Guidelines/en/PH-PrimarySources.xml:2786
+#: Source/Guidelines/en/PH-PrimarySources.xml:2788
 msgid "The last stage"
 msgstr ""
 
 #. (itstool) path: p/ident
-#: Source/Guidelines/en/PH-PrimarySources.xml:2791
+#: Source/Guidelines/en/PH-PrimarySources.xml:2793
 msgid "att.datable"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2791
+#: Source/Guidelines/en/PH-PrimarySources.xml:2793
 msgid "period"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2791
+#: Source/Guidelines/en/PH-PrimarySources.xml:2793
 msgid "when"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2791
+#: Source/Guidelines/en/PH-PrimarySources.xml:2793
 msgid "notBefore"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2792
+#: Source/Guidelines/en/PH-PrimarySources.xml:2794
 msgid "notAfter"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2792
+#: Source/Guidelines/en/PH-PrimarySources.xml:2794
 msgid "from"
 msgstr ""
 
 #. (itstool) path: p/att
-#: Source/Guidelines/en/PH-PrimarySources.xml:2792
+#: Source/Guidelines/en/PH-PrimarySources.xml:2794
 msgid "to"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2794
+#: Source/Guidelines/en/PH-PrimarySources.xml:2796
 msgid "date"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2789
+#: Source/Guidelines/en/PH-PrimarySources.xml:2791
 msgid ""
 "In addition to the possibility of being ordered by their sequence within a "
 "<_:gi-1/> element, <_:gi-2/> elements may carry a number of attributes from "
@@ -6610,63 +6620,63 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: change/title
-#: Source/Guidelines/en/PH-PrimarySources.xml:2802
+#: Source/Guidelines/en/PH-PrimarySources.xml:2804
 msgid "Persuasion"
 msgstr ""
 
 #. (itstool) path: change/date
-#: Source/Guidelines/en/PH-PrimarySources.xml:2802
-#: Source/Guidelines/en/PH-PrimarySources.xml:2809
+#: Source/Guidelines/en/PH-PrimarySources.xml:2804
+#: Source/Guidelines/en/PH-PrimarySources.xml:2811
 msgid "July 16 1816"
 msgstr ""
 
 #. (itstool) path: change/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2803
+#: Source/Guidelines/en/PH-PrimarySources.xml:2805
 msgid "Finis"
 msgstr ""
 
 #. (itstool) path: change/ref
-#: Source/Guidelines/en/PH-PrimarySources.xml:2803
-#: Source/Guidelines/en/PH-PrimarySources.xml:2809
+#: Source/Guidelines/en/PH-PrimarySources.xml:2805
+#: Source/Guidelines/en/PH-PrimarySources.xml:2811
 msgid "page 30"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#mod1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2801
+#: Source/Guidelines/en/PH-PrimarySources.xml:2803
 msgid ""
 "The first draft of <_:title-1/>, completed by the date <_:date-2/> which is "
 "written after the word <_:q-3/> at <_:ref-4/>."
 msgstr ""
 
 #. (itstool) path: change/date
-#: Source/Guidelines/en/PH-PrimarySources.xml:2805
+#: Source/Guidelines/en/PH-PrimarySources.xml:2807
 msgid "16th of July"
 msgstr ""
 
 #. (itstool) path: change/ref
-#: Source/Guidelines/en/PH-PrimarySources.xml:2807
+#: Source/Guidelines/en/PH-PrimarySources.xml:2809
 msgid "pages 32-35"
 msgstr ""
 
 #. (itstool) path: change/ref
-#: Source/Guidelines/en/PH-PrimarySources.xml:2808
+#: Source/Guidelines/en/PH-PrimarySources.xml:2810
 msgid "page 19"
 msgstr ""
 
 #. (itstool) path: change/date
-#: Source/Guidelines/en/PH-PrimarySources.xml:2810
+#: Source/Guidelines/en/PH-PrimarySources.xml:2812
 msgid "July 18. 1816"
 msgstr ""
 
 #. (itstool) path: change/ref
-#: Source/Guidelines/en/PH-PrimarySources.xml:2811
+#: Source/Guidelines/en/PH-PrimarySources.xml:2813
 msgid "page 31"
 msgstr ""
 
 #. (itstool) path: listChange/change
 #. (itstool) id: PH-PrimarySources.xml#mod2
-#: Source/Guidelines/en/PH-PrimarySources.xml:2805
+#: Source/Guidelines/en/PH-PrimarySources.xml:2807
 msgid ""
 "After the <_:date-1/> Austen starts revision of the two final chapters, by "
 "rewriting the end and adding a new zone (<_:ref-2/>) to be inserted at <_:"
@@ -6676,24 +6686,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: change/date
-#: Source/Guidelines/en/PH-PrimarySources.xml:2812
+#: Source/Guidelines/en/PH-PrimarySources.xml:2814
 msgid "July 18th, 1816"
 msgstr ""
 
 #. (itstool) path: listChange/change
-#: Source/Guidelines/en/PH-PrimarySources.xml:2812
+#: Source/Guidelines/en/PH-PrimarySources.xml:2814
 msgid ""
 "Before publication, after <_:date-1/> chapters 10-11 were broken into three "
 "chapters, 10, 11, 12, as witnessed by the print."
 msgstr ""
 
 #. (itstool) path: p/gi
-#: Source/Guidelines/en/PH-PrimarySources.xml:2821
+#: Source/Guidelines/en/PH-PrimarySources.xml:2823
 msgid "teiHeader"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2819
+#: Source/Guidelines/en/PH-PrimarySources.xml:2821
 msgid ""
 "Each <_:gi-1/> element, apart from declaring a distinct moment or phase in "
 "the creation of the document, may also contain references to other "
@@ -6710,56 +6720,56 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2831
-#: Source/Guidelines/en/PH-PrimarySources.xml:2838
+#: Source/Guidelines/en/PH-PrimarySources.xml:2833
+#: Source/Guidelines/en/PH-PrimarySources.xml:2840
 msgid "This is a mouse"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2832
+#: Source/Guidelines/en/PH-PrimarySources.xml:2834
 msgid "This is a house mouse"
 msgstr ""
 
 #. (itstool) path: line/add
 #. (itstool) path: mod/del
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2833
-#: Source/Guidelines/en/PH-PrimarySources.xml:2840
-#: Source/Guidelines/en/PH-PrimarySources.xml:2844
+#: Source/Guidelines/en/PH-PrimarySources.xml:2835
+#: Source/Guidelines/en/PH-PrimarySources.xml:2842
+#: Source/Guidelines/en/PH-PrimarySources.xml:2846
 msgid "house"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2833
+#: Source/Guidelines/en/PH-PrimarySources.xml:2835
 msgid "This is a <_:add-1/> mouse."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2831
+#: Source/Guidelines/en/PH-PrimarySources.xml:2833
 msgid ""
 "In the following simple example, the text at one stage read <_:q-1/>, and at "
 "the next <_:q-2/>: <_:egXML-3/>"
 msgstr ""
 
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2837
+#: Source/Guidelines/en/PH-PrimarySources.xml:2839
 msgid "This is a house"
 msgstr ""
 
 #. (itstool) path: mod/add
 #. (itstool) path: p/q
-#: Source/Guidelines/en/PH-PrimarySources.xml:2841
-#: Source/Guidelines/en/PH-PrimarySources.xml:2846
+#: Source/Guidelines/en/PH-PrimarySources.xml:2843
+#: Source/Guidelines/en/PH-PrimarySources.xml:2848
 msgid "mouse"
 msgstr ""
 
 #. (itstool) path: egXML/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2839
+#: Source/Guidelines/en/PH-PrimarySources.xml:2841
 msgid "This is a <_:mod-1/>."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2837
+#: Source/Guidelines/en/PH-PrimarySources.xml:2839
 msgid ""
 "In this example, however, the text originally read <_:q-1/>, and "
 "subsequently <_:q-2/>: <_:egXML-3/> Note that in this case both the deletion "
@@ -6770,7 +6780,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2849
+#: Source/Guidelines/en/PH-PrimarySources.xml:2851
 msgid ""
 "Elements such as <_:gi-1/> and <_:gi-2/> and the like carry an implied "
 "semantics concerning the order in which events in the writing of a document "
@@ -6784,17 +6794,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listChange/change
-#: Source/Guidelines/en/PH-PrimarySources.xml:2921
+#: Source/Guidelines/en/PH-PrimarySources.xml:2923
 msgid "First stage, written in ink by a scribe"
 msgstr ""
 
 #. (itstool) path: listChange/change
-#: Source/Guidelines/en/PH-PrimarySources.xml:2923
+#: Source/Guidelines/en/PH-PrimarySources.xml:2925
 msgid "Revised by Goethe using pencil"
 msgstr ""
 
 #. (itstool) path: listChange/change
-#: Source/Guidelines/en/PH-PrimarySources.xml:2924
+#: Source/Guidelines/en/PH-PrimarySources.xml:2926
 msgid ""
 "Fixation of the revised passages and further revisions by Goethe using ink"
 msgstr ""
@@ -6802,57 +6812,57 @@ msgstr ""
 #. (itstool) path: line/retrace
 #. (itstool) path: subst/add
 #. (itstool) id: PH-PrimarySources.xml#redo_1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2934
-#: Source/Guidelines/en/PH-PrimarySources.xml:2949
+#: Source/Guidelines/en/PH-PrimarySources.xml:2936
+#: Source/Guidelines/en/PH-PrimarySources.xml:2951
 msgid "Nun"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2936
+#: Source/Guidelines/en/PH-PrimarySources.xml:2938
 msgid "<_:handShift-1/>Ihr wanſtige Schuften mit den Feuerbacken"
 msgstr ""
 
 #. (itstool) path: line/retrace
 #. (itstool) path: subst/add
 #. (itstool) id: PH-PrimarySources.xml#redo_2
-#: Source/Guidelines/en/PH-PrimarySources.xml:2939
-#: Source/Guidelines/en/PH-PrimarySources.xml:2953
+#: Source/Guidelines/en/PH-PrimarySources.xml:2941
+#: Source/Guidelines/en/PH-PrimarySources.xml:2955
 msgid "feiſt"
 msgstr ""
 
 #. (itstool) path: zone/line
-#: Source/Guidelines/en/PH-PrimarySources.xml:2941
+#: Source/Guidelines/en/PH-PrimarySources.xml:2943
 msgid "Ihr glüht ſo recht vom Höllen Schwefel ſatt."
 msgstr ""
 
 #. (itstool) path: surface/zone
 #. (itstool) id: PH-PrimarySources.xml#zone_1
-#: Source/Guidelines/en/PH-PrimarySources.xml:2931
+#: Source/Guidelines/en/PH-PrimarySources.xml:2933
 msgid "<_:line-1/> <_:line-2/> <_:line-3/> <_:line-4/> [...]"
 msgstr ""
 
 #. (itstool) path: subst/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2948
+#: Source/Guidelines/en/PH-PrimarySources.xml:2950
 msgid "Ihr"
 msgstr ""
 
 #. (itstool) path: body/l
-#: Source/Guidelines/en/PH-PrimarySources.xml:2946
+#: Source/Guidelines/en/PH-PrimarySources.xml:2948
 msgid "<_:subst-1/> wanſtige Schuften mit den Feuerbacken"
 msgstr ""
 
 #. (itstool) path: subst/del
-#: Source/Guidelines/en/PH-PrimarySources.xml:2952
+#: Source/Guidelines/en/PH-PrimarySources.xml:2954
 msgid "ſatt"
 msgstr ""
 
 #. (itstool) path: body/l
-#: Source/Guidelines/en/PH-PrimarySources.xml:2951
+#: Source/Guidelines/en/PH-PrimarySources.xml:2953
 msgid "Ihr glüht ſo recht vom Höllen Schwefel <_:subst-1/>."
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2911
+#: Source/Guidelines/en/PH-PrimarySources.xml:2913
 msgid ""
 "The interpretation of <_:gi-1/> elements with respect to a particular text "
 "passage is based on a number of implicit assumptions and constraints which "
@@ -6865,7 +6875,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2960
+#: Source/Guidelines/en/PH-PrimarySources.xml:2962
 msgid ""
 "The documentary transcription stresses the writing process, while the "
 "textual transcription emphasizes textual alterations. In either case, the "
@@ -6879,12 +6889,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2977
+#: Source/Guidelines/en/PH-PrimarySources.xml:2979
 msgid "Other Primary Source Features not Covered in these Guidelines"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2978
+#: Source/Guidelines/en/PH-PrimarySources.xml:2980
 msgid ""
 "We repeat the advice given at the beginning of this chapter, that these "
 "recommendations are not intended to meet every transcriptional circumstance "
@@ -6901,47 +6911,47 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: div/head
-#: Source/Guidelines/en/PH-PrimarySources.xml:2990
+#: Source/Guidelines/en/PH-PrimarySources.xml:2992
 msgid "Module for Transcription of Primary Sources"
 msgstr ""
 
 #. (itstool) path: moduleSpec/altIdent
-#: Source/Guidelines/en/PH-PrimarySources.xml:2993
+#: Source/Guidelines/en/PH-PrimarySources.xml:2995
 msgid "Transcription of Primary Sources"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2994
+#: Source/Guidelines/en/PH-PrimarySources.xml:2996
 msgid "Transcription of primary sources"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2995
+#: Source/Guidelines/en/PH-PrimarySources.xml:2997
 msgid "原文轉錄"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2996
+#: Source/Guidelines/en/PH-PrimarySources.xml:2998
 msgid "Représentation de sources primaires"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2997
+#: Source/Guidelines/en/PH-PrimarySources.xml:2999
 msgid "Trascrizione di fonti primarie"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2998
+#: Source/Guidelines/en/PH-PrimarySources.xml:3000
 msgid "Transcrição de fontes primárias"
 msgstr ""
 
 #. (itstool) path: moduleSpec/desc
-#: Source/Guidelines/en/PH-PrimarySources.xml:2999
+#: Source/Guidelines/en/PH-PrimarySources.xml:3001
 msgid "転記モジュール"
 msgstr ""
 
 #. (itstool) path: div/p
-#: Source/Guidelines/en/PH-PrimarySources.xml:2991
+#: Source/Guidelines/en/PH-PrimarySources.xml:2993
 msgid ""
 "The module described in this chapter makes available the following "
 "components: <_:moduleSpec-1/> The selection and combination of modules to "

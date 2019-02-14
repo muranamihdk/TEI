@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-29 21:36+0900\n"
+"POT-Creation-Date: 2019-02-14 21:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2121,11 +2121,26 @@ msgstr ""
 msgid "att.ascribed.directed"
 msgstr ""
 
+#. (itstool) path: person/persName
+#: Source/Guidelines/en/CO-CoreElements.xml:880
+msgid "Adolphe"
+msgstr ""
+
+#. (itstool) path: person/persName
+#: Source/Guidelines/en/CO-CoreElements.xml:881
+msgid "Albert"
+msgstr ""
+
+#. (itstool) path: person/persName
+#: Source/Guidelines/en/CO-CoreElements.xml:882
+msgid "Robert"
+msgstr ""
+
 #. (itstool) path: p/egXML
 #: Source/Guidelines/en/CO-CoreElements.xml:874
 msgid ""
 "Adolphe se tourna vers lui : <_:said-1/> <_:said-2/> <_:said-3/> dit Robert. "
-"<_:list-4/>"
+"<_:listPerson-4/>"
 msgstr ""
 
 #. (itstool) path: p/att
@@ -2153,15 +2168,15 @@ msgid ""
 "attribute may be supplied whether or not an indication of the speaker is "
 "given explicitly in the text. Likewise, the <_:att-7/> attribute may be "
 "supplied to indicate the encoder's interpretation of the intended recipient "
-"of the speech. They may take the form (as above) of a normalized form of the "
-"speaker's name, but the role of these attributes is to act as a pointer to a "
-"location elsewhere in the text, or another document, where data about each "
-"party may be supplied. While these attributes could point to any source of "
-"information about the parties involved, the most appropriate place for such "
-"information is within the <_:term-8/> component of the TEI header, as "
-"further discussed in <_:ptr-9/> but for simple cases like the above, a "
-"simple list of speakers located in the front or back matter of the text may "
-"suffice."
+"of the speech. They may take the form (as above) of an abbreviated or "
+"normalized form of the speaker's name, but the role of these attributes is "
+"to act as a pointer to a location elsewhere in the text, or another "
+"document, where data about each party may be supplied. While these "
+"attributes could point to any source of information about the parties "
+"involved, the most appropriate place for such information is within the <_:"
+"term-8/> component of the TEI header, as further discussed in <_:ptr-9/> but "
+"for simple cases like the above, a simple list of speakers located in the "
+"front or back matter of the text may suffice."
 msgstr ""
 
 #. (itstool) path: p/att
